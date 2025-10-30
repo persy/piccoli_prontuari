@@ -1,8 +1,8 @@
-# Bigini per il WikiBigino
+# Manuali per il WikiBigino
 
 ![Static Badge](https://img.shields.io/badge/typst-blue?logo=typst&logoColor=fff&color=%23239dad&link=https%3A%2F%2Ftypst.app%2F) [![Licenza: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
 
-In questo repository trovi i file sorgente in [typst](https://github.com/typst/typst) per compilare i PDF presenti sul [WikiBigino](https://wikibigino.miraheze.org/wiki/Pagina_principale).
+In questo repository trovi i file sorgente in [typst](https://github.com/typst/typst) per compilare i manuali, in formato PDF, che verranno pubblicati sul [WikiBigino](https://wikibigino.miraheze.org/wiki/Pagina_principale).
 
 Di seguito una tabella con le materie trattate e il livello di completamento dei rispettivi libri:
 
@@ -69,7 +69,7 @@ Di seguito viene riportata la timeline del dettaglio
 
 ### Come esportare i .pdf
 
-- Clora il repository
+- Clona il repository
 - Installa typst seguendo la [guida](https://github.com/typst/typst?tab=readme-ov-file#installation) oppure usa VS Code e l'[estensione ufficiale](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist).
 - Posizionati nella cartella root di una materia (es. manuali/biologia/), compila ed esporta i file con il comando:
 
