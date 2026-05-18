@@ -1,0 +1,102 @@
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
+
+#evidenzia[L'arte romana, sviluppatasi sia nella città di Roma che nei territori dell'Impero, si configura come un'espressione intimamente connessa alle esigenze di natura politica, militare ed economica. Essa risulta funzionale alla celebrazione dell'identità e della supremazia romana. Di conseguenza, mentre si dimostra altamente rappresentativa del potere statale, tende ad essere meno raffinata rispetto all'arte greca, privilegiando forme monumentali dal forte impatto visivo.]
+
+== Estensione e apporti
+
+L'arte romana non si limita agli sviluppi artistici della città di Roma, ma ingloba anche le espressioni artistiche originate nei territori soggetti al dominio romano. Questo include sia i monumenti della capitale e del porto di Ostia, sia quelli realizzati in centri italici come Pompei ed Ercolano una volta assoggettati a Roma. Similmente, rientrano in questo panorama artistico i manufatti delle nuove città dell'Italia centrale e settentrionale, come Aquileia e Brescia, ma anche le opere prodotte nelle province europee, dalla Spagna alle Gallie, dalle regioni alpine all'area balcanica. Persino le città greche, sia nel territorio ellenico sia nell'Asia Minore, vantano un significativo patrimonio di monumenti romani.
+
+Tuttavia, è necessario approfondire il rapporto iniziale tra i Romani e l'arte. Le testimonianze artistiche più antiche riconducibili a questo popolo comparvero soltanto durante la fase finale della Repubblica. I Romani sembrano aver rivolto i propri sforzi iniziali esclusivamente all'organizzazione della macchina statale e militare, strumenti cruciali per l'espansione del loro dominio; di conseguenza, l'arte veniva percepita come superflua e priva di utilità pratica.
+
+Solo dopo la vasta espansione territoriale e il conseguente contatto con altre culture iniziò a consolidarsi una produzione artistica propriamente romana. Un momento decisivo fu rappresentato dalla conquista della Grecia nel 146 a.C., che determinò l'assorbimento dell'influenza ellenistica. Sebbene chiaramente romana nella sua configurazione, l'arte di quest'epoca risulta fortemente permeata dai contributi delle culture soggiogate.
+
+Tra le influenze più rilevanti si possono individuare quelle provenienti inizialmente dall'Etruria e successivamente dalla Magna Grecia. In seguito, a partire dalla conquista della Grecia e del mondo ellenistico, e infine nell'età imperiale, furono integrate ulteriori influenze provenienti dalle diverse regioni dell'Impero nonché da interazioni con popolazioni esterne, in particolare quelle orientali.
+
+== L'architettura
+
+Il contributo più originale e distintivo offerto dall'arte romana si manifesta senza dubbio nell'ambito dell'architettura. Accanto ai templi e ad altre strutture religiose, un ruolo prioritario è ricoperto dall'architettura civile. Questa comprende una vasta gamma di realizzazioni, tra cui i fori, le basiliche, gli anfiteatri, gli acquedotti e le terme. Questi complessi non solo riflettono le capacità ingegneristiche romane, ma incarnano anche la volontà politica di sottolineare la grandezza e l'efficienza dell'ordine romano attraverso opere dal forte valore simbolico e funzionale.
+
+=== L'architettura in epoca repubblicana
+
+L'architettura più antica di Roma, testimoniata da limitati resti, appartiene all'ambito etrusco-italico, caratterizzato dal tempio tuscanico, differente dal modello greco per la sua orientazione e per la presenza di un alto podio. L'edificio era costruito con alzati in legno rivestiti di terrecotte policrome e decorato con statue fittili. Le strutture fondamentali, come i basamenti dei templi, le fortificazioni e altre opere di utilità pratica quali cisterne e acquedotti, erano realizzate in blocchi squadrati di tufo locale. A partire dal II secolo a.C., un incremento della ricchezza, i contatti con il mondo ellenico e l'arrivo di architetti greci a Roma introdussero l'uso del marmo per la costruzione di templi improntati a modelli ellenistici.
+
+Parallelamente, si svilupparono nuove tipologie architettoniche: fra queste l'arco trionfale e la basilica, un ambiente coperto a pianta rettangolare suddiviso in navate da colonnati o pilastri, concepito come centro per le attività civiche ed economiche. Nello stesso periodo fu avviata la monumentalizzazione del Foro Romano, il principale fulcro politico ed economico della città, risalente al VII secolo a.C.
+
+L'influenza dell'architettura ellenistica sull'arte romana è particolarmente evidente a Pompei. Qui si osserva un esempio di integrazione urbanistica nel foro cittadino (circa 100 a.C.), che riunisce in un sistema armonico gli edifici pubblici civili e religiosi. Pompei ospita anche il più antico anfiteatro noto (circa 80 a.C.), evidenziando il crescente interesse dell'architettura romana per soluzioni urbanistiche razionali e funzionali.
+
+Durante lo stesso periodo si diffonde un elemento distintivo della scultura romana: il ritratto, derivante dalla tradizione patrizia di modellare calchi in cera dei defunti. Da questi si potevano ricavare busti e statue in marmo o terracotta, come esempio la Statua Barberini (I secolo a.C.), destinati a costituire un monito per le generazioni future. Questo contesto culturale determina il carattere profondamente realistico della ritrattistica romana, in contrasto con l'ideale idealizzato tipico della tradizione greca. La scultura romana tende infatti a ritrarre fedelmente le sembianze dei soggetti, enfatizzandone i tratti distintivi.
+
+=== L'architettura in età imperiale
+
+L'architettura dell'età imperiale romana, la più riccamente documentata nel panorama archeologico, beneficò di significativi perfezionamenti tecnici, come la diffusione dell'_opus caementicium_, già in uso durante l'epoca sillana. Questo conglomerato di calcestruzzo in pietrame e malta permise la costruzione di edifici sempre più imponenti, spesso coperti con strutture a volta o a cupola.
+
+Elemento essenziale di questa fase architettonica è l'applicazione di criteri di razionalità e funzionalità pratica. Tra gli ordini architettonici prevale quello corinzio, caratterizzato da capitelli a tronco di cono rovesciato decorati con foglie d'acanto e volute angolari. La pianificazione urbana delle città riflette una regolare disposizione a scacchiera ispirata alla struttura dei castra militari. Esempi significativi sono costituiti dalle città italiane di Torino, Como e Aosta o dalla colonia spagnola di Barcellona, tutte organizzate attorno al foro centrale che accoglieva gli edifici più rilevanti come il capitolium, la curia e la basilica. L'assetto urbano era inoltre definito dall'incrocio ortogonale delle due arterie principali: il cardo e il decumano.
+
+Seguendo il modello di Roma, le città furono dotate di infrastrutture e complessi monumentali fondamentali per la vita cittadina, quali terme, teatri, anfiteatri e mercati. Inoltre, esse si avvalsero di avanzati sistemi idrici e fognari, comprensivi di acquedotti perfettamente funzionanti, che rappresentano uno dei punti più alti delle capacità ingegneristiche dell'epoca.
+
+=== Il classicismo augusteo e l'età giulio-claudia
+
+Il classicismo augusteo e l'età giulio-claudia sono caratterizzati da una produzione artistica che miscela perfezione tecnica e formale, realismo romano, influenze ellenistiche e un marcato gusto per il classico. Questo sviluppo ebbe il suo apice durante il regno di Augusto (63-14 a.C.).
+
+Un esempio emblematico è l'Ara Pacis (13 a.C.), dove sebbene le diverse tendenze artistiche non sempre appaiano perfettamente integrate, l'opera nel suo insieme offre una concezione unitaria. Architettura e decorazione scultorea sono intimamente connesse e le raffigurazioni risultano tipicamente romane, soprattutto nel significato, ossia l'esaltazione della "romanità". Parallelamente, altre opere, pur meno perfette sul piano formale, come il fregio del tempio di Apollo Sosiano (20 a.C.) con il _Corteo trionfale_, esprimono una maggiore naturalezza e realismo.
+
+La visione classicheggiante di questo periodo emerge chiaramente anche nei numerosi busti e statue di _Augusto_ – quasi 150 – che combinano precisione accademica, sensibilità veristica e gusto classico. Tali orientamenti proseguirono anche nella raffinata toreutica (lavorazione artistica di materiali come bronzo, ferro, oro e argento), nelle gemme e nei cammei, lasciando un segno profondo in tutta l'età giulio-claudia (I secolo d.C.). Tuttavia, nella scultura ritratto di questo periodo si nota, già a partire da Caligola (12-41 d.C.) e successivamente con Claudio (41-54 d.C.) e Nerone (54-68 d.C.), una maggiore attenzione al realismo e alla caratterizzazione individuale.
+
+In campo scultoreo, le opere a rilievo di carattere storico, come quelle dell'_Ara Pietatis Augustae_ del 43 d.C., introducono sfondi architettonici con precisi riferimenti topografici.
+
+La pittura murale dell'epoca attraversa quattro stili distinti. Il primo stile (II secolo a.C.-metà del I secolo a.C.), chiamato ad incrostazione, si limita a decorare le pareti con stucchi e colori che simulano lastre marmoree. Il secondo stile (metà del I secolo a.C. - inizio del I secolo d.C.), più articolato, fonde prospettive architettoniche monumentali, visibili per esempio nella Casa dei Grifi al Palatino o nella Villa di Boscoreale presso Pompei, con grandi scene figurative ispirate a celebri dipinti classici ed ellenistici raffiguranti scene epiche o idilliache. Non mancano inoltre paesaggi o suggestive rappresentazioni di giardini, come nella Villa di Livia a Prima Porta (oggi al Museo Nazionale Romano), oppure imponenti composizioni che fondono temi greci e romani in un elegante equilibrio, come nella Villa dei Misteri a Pompei.
+
+Il terzo stile (metà del I secolo d.C.), conosciuto come stile della parete reale, abbandona gli elementi architettonici complessi del secondo stile in favore di prospettive più semplici e spazi volutamente indefiniti, che conferiscono alle rappresentazioni un'aura onirica. Infine, il quarto stile (seconda metà del I secolo d.C.) si distingue per il ritorno all'illusionismo prospettico unito a una sontuosa ricchezza decorativa, tipica degli ambienti più fastosi.
+
+La conquista dell'Egitto introdusse inoltre nell'arte romana elementi della tradizione alessandrina, come motivi egittizzanti – ad esempio pigmei e coccodrilli – che si affermarono temporaneamente soprattutto nella pittura e nei rilievi, accrescendo ulteriormente la molteplicità stilistica dell'epoca.
+
+=== L'età dei Flavi
+
+Alla morte di Nerone nel 68 d.C., terminò il dominio della dinastia giulio-claudia, avviata con Augusto, e si aprì un periodo turbolento per la successione imperiale. Fu l'esercito a proclamare imperatore Tito Flavio Vespasiano che, insieme a suo figlio Tito (79-81 d.C.), garantì un periodo di stabilità politica e culturale. Durante il loro regno, l'arte romana visse una fase di grande splendore e originalità, sviluppando un linguaggio espressivo autonomo.
+
+I rilievi di carattere celebrativo rappresentano esempi significativi di questa età. Tra questi spicca l'_Arco di Tito_ nel Foro Romano, eretto per commemorare le vittorie nella guerra giudaica. La struttura, costituita da un unico fornice poggiante su robusti pilastri e coronata da un attico, presenta rilievi caratterizzati dall'integrazione armoniosa delle figure nello spazio, con sovrapposizioni di piani che conferiscono alle scene un marcato effetto chiaroscurale.
+
+Sul piano architettonico, gli edifici più rappresentativi assunsero configurazioni complesse, presentando ambienti di forme poligonali, circolari o mistilinee. Le strutture laterizie e le volte composte da materiali leggeri trovarono largo impiego, come dimostra la _Domus Aurea_ degli architetti Severo e Celere, fatta edificare da Nerone come sua sontuosa dimora tra il Palatino e il Celio, e la _Domus Flavia_ attribuita all'architetto Rabirio. In questa fase venne avviata, nel 75 d.C., anche la costruzione dell'_Anfiteatro Flavio_ – noto come _Colosseo_ per la vicinanza a una colossale statua di Nerone. Questa imponente struttura ellittica, dedicata ai giochi gladiatori, poteva ospitare fino a 45.000 spettatori ed era dotata di un'arena coperta di sabbia circondata dalla cavea. La facciata esterna dell'edificio si articolava in quattro livelli curvilinei, espressione di una monumentalità senza precedenti.
+
+=== L'età di Traiano
+
+Con l'età di Traiano (98-117 d.C.) si intensificarono e perfezionarono le tendenze plastiche e coloristiche già evidenziate nel periodo flavio. La _Colonna Traiana_ ne rappresenta l'esempio più alto: il lungo fregio continuo che ne avvolge la superficie narra le campagne daciche con una vivacità narrativa straordinaria, integrando elementi ellenistici in una composizione profondamente romana. L'impianto a spirale del rilievo e la sua funzione celebrativa si sposano con una ricerca artistica contraddistinta da raffinatezza espressiva e approfondita introspezione psicologica.
+
+L'opera architettonica sotto Traiano fu segnata da un'ambiziosa serie di interventi pubblici distribuiti in tutto l'Impero. Tra i più significativi si annoverano i porti di Roma e Civitavecchia, l'acquedotto di Segovia e il ponte di Alcántara in Spagna, oltre alle opere nell'Africa romana, come il _castrum_ di Thamugadi. 
+
+Un esempio esemplare del periodo è dato dal _Foro di Traiano_ a Roma, progettato dall'architetto Apollodoro di Damasco. Questo imponente complesso urbanistico e architettonico integra spazi funzionali con un'estetica monumentale unica. Allo stesso architetto si deve la realizzazione delle Terme sul colle Oppio, che segnano l'affermazione del modello termale romano: un nucleo centrale monumentale incorniciato da estese aree libere destinate al relax e alla socializzazione, dando forma a un nuovo paradigma architettonico destinato a influenzare i secoli successivi.
+
+=== L'età di Adriano e gli Antonini
+
+L'età di Adriano e degli Antonini fu contraddistinta da un'intensa e variegata attività edilizia, che si estese in tutto l'impero. Adriano (117-138 d.C.) si dedicò a opere di grande rilevanza, come la ricostruzione di Atene in Grecia, il _Traianeo di Pergamo_ nell'Asia Minore e altre imponenti realizzazioni dalla Britannia, con il celebre vallo di Adriano, fino all'Africa, dove realizzò le terme di Leptis Magna. L'architettura di quest'epoca fu innovativa e ricca di originalità, contraddistinta da una predilezione per le linee curve, planimetrie centralizzate e grandiosi spazi voltati, come si evidenzia nella Villa Adriana a Tivoli o nel magnifico Pantheon. Questo stile influenzò significativamente l'architettura dell'età romana più tarda.
+
+Nel campo artistico si osserva anche un ritorno a eleganze classicheggianti, come dimostrano i tondi adrianei inseriti nell'Arco di Costantino. L'arte dei primi Antonini si discostò però verso il pittoricismo, soprattutto nei ritratti. Grazie all'uso del trapano, si accentuò il contrasto tra la levigatezza della pelle e le superfici animate dei capelli e della barba, creando effetti straordinari.
+
+Un esempio iconico è la base della colonna di Antonino Pio (138-161) nel Vaticano, dove scene con cavalieri galoppanti spesso rappresentati di scorcio creano un dinamismo innovativo rispetto alla compostezza classica di altre opere contemporanee. Durante il regno di Marco Aurelio (161-180), questa tendenza al pittoricismo si manifestò in modo evidente nei rilievi storici poi trasferiti nell'Arco di Costantino e nel fregio della colonna coclide dell'imperatore. Sebbene meno elaborata rispetto alla colonna di Traiano, quest'opera si distingueva per il modellato ruvido ma incisivo e per l'espressività drammatica. La raffigurazione frequente dell'imperatore in posizione frontale esaltava il suo carattere divino, anticipando elementi irrazionali e metafisici che sarebbero emersi più chiaramente nell'arte tardoantica e medievale.
+
+Degna di nota è la statua equestre di Marco Aurelio, unica nel suo genere pervenutaci dall'antichità romana. Nonostante il modesto trattamento delle superfici, la scultura riesce a comunicare la fermezza d'animo dell'imperatore e l'energia del movimento trasmessa dal cavallo.
+
+=== L'età dei Severi e di Diocleziano
+
+La scultura del periodo severiano spicca per il suo acceso cromatismo. A Roma trova un notevole esempio nell'Arco di Settimio Severo (193-211), caratterizzato da fila sovrapposte di figure ispirate al motivo del fregio continuo. Esempi significativi si trovano anche a Leptis Magna nell'Arco quadrifronte e nei pilastri della basilica, opere attribuite ad artisti della scuola di Afrodisi.
+
+La scultura del III secolo è particolarmente rappresentata dai ritratti, che rivelano spesso volti contratti e sofferenti, e dai sarcofagi, affollati di figure a volte deformate ma estremamente espressive e con simbolismi di matrice orientale. Nell'Arco quadrifronte di Galerio a Salonicco emergono scene allegoriche anziché belliche, con teste dai tratti stereometrici tipici del tardoantico, in linea con la divisione tetrarchica dell'impero voluta da Diocleziano.
+
+Anche nella pittura si riscontrano occasionali elementi classicheggianti, persino nell'arte cristiana nascente. Tra le ultime imponenti opere architettoniche meritano attenzione le Terme di Caracalla (211-217), adornate da grandi mosaici raffiguranti gladiatori; le Terme di Diocleziano (284-305) a Roma; il palazzo imperiale di Spalato e i monumenti imperiali di Treviri. Questi esempi testimoniano una fase finale ma ancora vibrante della grandezza dell'arte e dell'architettura romana.
+
+#pagebreak()
+#set page(fill: main_arte.lighten(90%))
+== In sintesi <senza_numero>
+
+/ Estensione e apporti: L'arte romana abbraccia sia le manifestazioni artistiche della città di Roma sia quelle dei territori che con il tempo caddero sotto il dominio romano. Essa è il frutto di un continuo scambio di influenze artistiche tra il centro e la periferia, arricchito dagli apporti provenienti dall'Etruria, dalla Magna Grecia, dalla Grecia classica e dal mondo ellenistico. In epoca imperiale, vi si aggiungono le influenze delle varie popolazioni esterne, soprattutto orientali, con cui Roma entra progressivamente in contatto. La caratteristica distintiva dell'arte romana, in particolare durante l'età imperiale, è l'orientamento verso una visione razionale e pratica, strettamente funzionale alle esigenze politiche, militari ed economiche. È un'arte che mira soprattutto a celebrare e trasmettere l'idea di "romanità".
+
+/ Età repubblicana: L'architettura presenta forti legami con la tradizione etrusco-italica, come si evince dai pochi resti giunti fino a noi. Tra le principali creazioni dell'epoca si annoverano l'arco trionfale, la basilica e la sistemazione monumentale del _Foro Romano_, cuore politico ed economico della città.
+
+/ Età imperiale: Grazie al perfezionamento di tecniche edilizie quali l'_opus caementicium_, si realizza un significativo progresso che permette la costruzione di edifici sempre più imponenti. Le città vengono pianificate o risistemate seguendo l'ordinata disposizione a scacchiera. L'età di Augusto segna una fase di perfezione tecnica e formale, caratterizzata dal realismo romano, da motivi ellenistici e da un gusto per la classicità che perdura durante l'epoca giulio-claudia. A questo periodo risalgono opere architettoniche complesse, con ambienti di forme varie – poligonali, circolari o mistilinee – come la _Domus Aurea_ e la _Domus Flavia_. Sempre in questa fase viene costruito l'_Anfiteatro Flavio_, meglio conosciuto come _Colosseo_. \ La scultura e l'architettura sotto l'imperatore Traiano accentuano le tendenze plastiche e coloristiche già sviluppatesi nell'età flavia; un esempio rappresentativo è il lungo fregio continuo della _Colonna Traiana_. L'architettura imperiale raggiunge grandi traguardi con la realizzazione di imponenti opere pubbliche in tutto l'Impero: i porti di Roma e Civitavecchia, il complesso urbanistico del Foro Traiano e le terme sul colle Oppio, che rappresentano il primo grande impianto termale di tipo romano. \ Con i primi Antonini emerge una propensione al pittoricismo artistico, ben visibile nei ritratti. Più tardi, la scultura dell'età dei Severi si distingue per un vivace uso del colore. Tra le ultime grandi opere dell'architettura romana figurano le terme di Caracalla e le terme di Diocleziano, monumentali testimonianze dell'ingegnosità e della volontà celebrativa dell'Impero.
+
+
+
+
+
+

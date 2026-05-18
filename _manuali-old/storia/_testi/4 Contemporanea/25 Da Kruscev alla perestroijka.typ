@@ -1,0 +1,76 @@
+#import "../../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
+
+#evidenzia[Illusione e disillusione hanno contrassegnato profondamente la realtà del mondo comunista nel periodo del dopoguerra.  
+
+L'illusione derivava inizialmente dai progressi che sembravano scaturire dall'applicazione dei piani quinquennali nei paesi appartenenti alla sfera sovietica, mostrando risultati apparentemente promettenti; la disillusione, invece, si manifestò ben presto quando la linea politica comunista si rivelò insostenibile. Da un lato, la gestione centralizzata del progresso economico e sociale provocò un'espansione incontrollata degli apparati statali; dall'altro, la priorità dei dirigenti di preservare il sistema dalle opposizioni interne e dalle minacce esterne -- in un contesto segnato dalla "guerra fredda" -- comportò un significativo rafforzamento delle strutture repressive, incluse le forze di polizia e militari. Tuttavia, il peso delle spese per tali apparati trovò economie statiche e incapaci di sostenerlo.  
+
+La storia dell'Unione Sovietica e dei suoi stati satelliti si snodò, dunque, tra illusioni iniziali e disillusioni successive, culminando con l'ammissione dei propri limiti durante il periodo di governo di Gorbačëv. Nel contesto cinese, invece, la leadership di Mao conferì al regime un'impronta fortemente personalistica; alla sua morte, però, il potere scivolò nelle mani di gruppi conservatori che ostacolarono le spinte verso il rinnovamento.] 
+
+== L'URSS dal dopoguerra alla destalinizzazione
+
+Il percorso di ricostruzione postbellica in Unione Sovietica si presentava intrinsecamente gravoso e difficoltoso.  
+
+Sotto la guida di Stalin, la popolazione fu soggetta a enormi sacrifici sotto il controllo incessante della polizia politica e dei servizi segreti, mentre le economie dei paesi comunisti orbitanti venivano sfruttate a vantaggio dell'egemonia sovietica. Nei contesti dove le élite politiche locali resistettero all'influenza sovietica, Stalin ricorse a misure coercitive quali arresti e processi sommari, spesso conclusi con condanne alla pena capitale. Tra le vittime di questo approccio repressivo vi furono, tra gli altri, Trajčo Kostov in Bulgaria (1949), Rudolf Slánský e Vladimír Clementis in Cecoslovacchia (1952).  
+
+Alla morte di Stalin, avvenuta il 5 marzo 1953, il potere fu assunto da una direzione collettiva. Tra i suoi membri emerse gradualmente Nikita Sergeevič Krušcëv (1894-1971), che sarebbe diventato segretario generale del Partito Comunista nel settembre dello stesso anno. Con Krušcëv ebbe inizio un processo di destalinizzazione: l'era del terrore fu progressivamente abbandonata e si cercò di elevare il tenore di vita delle masse popolari.  
+
+Al XX Congresso del Partito Comunista dell'Unione Sovietica (PCUS) nel marzo 1956, Krušcëv presentò due relazioni emblematiche. La prima, resa pubblica, sanciva il principio di una coesistenza fra capitalismo e comunismo in un clima di competizione; la seconda, segreta, criticava aspramente i metodi staliniani, giudicati incompatibili con i principi socialisti. A seguito di queste dichiarazioni, Krušcëv allontanò dalla direzione una parte consistente della vecchia nomenklatura staliniana.  
+
+Una volta consolidato il proprio controllo, Krušcëv avviò ambiziosi tentativi di risollevare l'economia sovietica e perseguire una competitività con gli Stati Uniti soprattutto nel settore scientifico. Il Quinto Piano Quinquennale (1951-1955) fu emblematico di questa visione. Tuttavia, esso generò gravi squilibri interni che, combinati alle crescenti tensioni con la Cina, alla crisi cubana e al montare del dissenso verso il regime, contribuirono alla destituzione di Krušcëv il 15 ottobre 1964. 
+
+#note(top)[== *🧩* Castro e il comunismo a Cuba <senza_numero>
+
+Fidel Castro fu il principale artefice della transizione al comunismo nell'isola di Cuba. Opponendosi al regime autoritario di Fulgencio Batista, nel 1953 guidò l'assalto alla caserma Moncada a Santiago de Cuba, sperando di ottenere armi per rovesciare il dittatore. Il piano fallì e Castro fu incarcerato. Dopo essere stato liberato grazie a un'amnistia nel 1955, si trasferì prima negli Stati Uniti e poi in Messico. Qui organizzò una spedizione armata: il 2 dicembre 1956 sbarcò a Cuba con un piccolo gruppo di combattenti. Dopo intensi scontri militari, Castro e pochi superstiti, tra cui suo fratello Raúl e il medico argentino Ernesto "Che" Guevara, si rifugiarono nella Sierra Maestra. Da lì Castro mobilitò il popolo promettendo una seria riforma agraria e guidò la guerriglia contro Batista.
+
+L'8 gennaio 1959 i ribelli entrarono vittoriosi a La Habana. Castro assunse il governo e adottò misure economiche che danneggiarono gli interessi statunitensi. In risposta, gli USA imposero sanzioni economiche contro Cuba; Castro, in reazione alle pressioni americane, nazionalizzò i beni delle imprese statunitensi presenti sull'isola, dando così inizio all'era comunista, culminata con la nascita, nel 1961, del Partido Unico de la Revolucion Socialista).
+
+Nel 1962, Castro accettò l'installazione di missili nucleari sovietici sull'isola di Cuba, causando un'escalation di tensioni tra Stati Uniti e Unione Sovietica.]
+
+=== La destalinizzazione nelle democrazie popolari
+
+Nel giugno del 1953, le masse operaie della Repubblica Democratica Tedesca (RDT) insorsero chiedendo un miglioramento delle loro condizioni di vita. La protesta fu prontamente repressa dall'intervento delle truppe sovietiche. Sebbene il regime avesse cercato di introdurre alcune concessioni, molti cittadini della Germania orientale, motivati dalla ricerca di un benessere superiore, iniziarono a migrare verso la Repubblica Federale Tedesca (RFT).
+
+Per arginare questo significativo esodo, e dopo intensi scontri diplomatici con gli Stati Uniti, il 13 agosto 1961 venne eretto il Muro di Berlino. Durante la presidenza di Walter Ulbricht (1960-1971), la RDT avviò un ambizioso processo di industrializzazione. Tuttavia, questo sviluppo non riuscì a fermare le emigrazioni, che continuarono senza interruzione. Anzi, sotto la guida di Erich Honecker, il fenomeno raggiunse proporzioni senza precedenti.
+
+Nel più ampio contesto dell'Europa orientale, la situazione in Polonia si distinse per la gravità delle manifestazioni. In particolare, nel giugno del 1956, nella città industriale di Poznań, uno sciopero di vasta portata degenerò in una ribellione contro l'Unione Sovietica. Per contenere la crisi, Nikita Chruščëv si recò a Varsavia, dove il leader comunista Waldislaw Gomulka — incarcerato nel 1952 su ordine di Stalin — venne nominato alla guida del Partito e del paese. Nonostante la riaffermazione dei legami con Mosca, il nuovo regime polacco inaugurò un corso politico più moderato. Si registrò anche un miglioramento nelle relazioni con la Chiesa Cattolica: il primate, il cardinale Stefan Wyszyński, venne liberato dopo tre anni di detenzione.
+
+Nell'ottobre del 1956 esplose una vera e propria insurrezione in Ungheria, guidata da Imre Nagy, già al centro di fermenti oppositori sviluppatisi fin dall'estate tra gli intellettuali del circolo Petöfi. Di fronte alle pressioni riformiste, i dirigenti comunisti ungheresi cedettero, riabilitando Nagy — figura centrale che tra il 1953 e il 1955 aveva cercato di liberalizzare il regime — e promuovendo manifestazioni in suo sostegno. Tra il 24 e il 28 ottobre il popolo si sollevò contro la presenza sovietica, obbligando le truppe dell'URSS a ritirarsi da Budapest il 29 ottobre. Nominato capo del governo, Nagy dichiarò il 1º novembre il ritiro dell'Ungheria dal Patto di Varsavia. La reazione sovietica fu immediata: le forze armate intervennero rapidamente per annientare la resistenza. Nagy e i suoi collaboratori furono arrestati e giustiziati.
+
+In seguito alla repressione, il potere venne affidato al segretario del Partito Comunista János Kádár, che intraprese un percorso politico moderatamente riformista. Nella Romania, dove il governo passò da Gheorghe Gheorghiu-Dej a Nicolae Ceaușescu nel 1965, così come in Bulgaria, Albania e Cecoslovacchia, i processi di destalinizzazione non provocarono effetti rilevanti.
+
+== La primavera di Praga
+
+Nel caso specifico della Cecoslovacchia, il regime comunista aveva condotto il paese verso una grave crisi politica ed economica che diventava sempre più difficile ignorare. Alla luce dell'esigenza improrogabile di riforme, il 5 gennaio 1968 venne eletto presidente Alexander Dubcek, figura riformatrice che già nell'aprile dello stesso anno ottenne l'approvazione da parte del Partito Comunista di un programma basato su trasformazioni economiche e democratiche: questo momento storico è noto come Primavera di Praga.
+
+Temendo una nuova ondata di manifestazioni anti-sovietiche e l'indebolimento della propria influenza sulla regione, il Patto di Varsavia intervenne militarmente occupando il paese il 21 agosto 1968 e destituendo Dubcek dalla sua posizione di leadership.
+
+== L'URSS da Brežnev a Gorbacëv
+
+Dopo la rimozione di Chruščëv, il potere passò sotto una direzione collegiale, dove ben presto emerse la figura predominante di Leonid Brežnev (1906-1982). Brežnev tentò una riabilitazione parziale di Stalin e si impegnò a soffocare ogni forma di opposizione, perseguendo dissidenti mediante l'esilio o la reclusione. Sul fronte economico, il suo tentativo di rilanciare il settore agricolo si rivelò un fallimento. In politica estera, proseguì con determinazione nella corsa agli armamenti e sostenne chiunque si opponesse agli Stati Uniti in contesti di conflitto globale. Tra coloro che ricevettero il suo sostegno figurano il colonnello Gheddafi in Libia, le fazioni palestinesi in Medio Oriente e i guerriglieri filocomunisti in Afghanistan, supportati con uomini e mezzi a partire dal 1979.
+
+Alla morte di Brežnev, la guida del Paese fu segnata dalle brevi presidenze di Černenko e Andropov, fino all'elezione di Michail Gorbačëv come segretario del PCUS l'11 marzo 1985. Gorbačëv inaugurò la _perestrojka_, un vasto programma di ristrutturazione economica, politica e sociale dell'URSS, e instaurò un dialogo costruttivo con l'Occidente nel tentativo di porre fine alla Guerra Fredda. Di particolare rilevanza furono gli incontri con Ronald Reagan tra il 1986 e il 1987, seguiti dagli accordi START siglati nel 1991 con George Bush.
+
+== La Rivoluzione culturale cinese e la morte di Mao
+
+Mao Zedong fondò il suo regime sulla centralità dell'agricoltura. A tal fine, organizzò cooperative contadine e comuni popolari, unità amministrative che avrebbero dovuto rappresentare un'innovativa sintesi tra agricoltura e industria per concretizzare il "grande balzo in avanti". Tuttavia, questo ambizioso progetto si rivelò un fallimento, e l'opposizione interna costrinse Mao a smantellare le comuni. Nel 1965 le sue politiche furono messe in minoranza dai sostenitori di una linea pragmatica di riforme economiche che rischiavano di compromettere l'assetto egualitario del sistema cinese. Per ripristinare il controllo politico, Mao lanciò la Rivoluzione culturale, mobilitando masse di giovani e lavoratori in un movimento che oscillava tra violenza e paralisi nazionale.
+
+Nonostante il caos, Mao riuscì a riconquistare la maggioranza nel Partito Comunista Cinese nel 1969. Gli effetti negativi della sua politica lo costrinsero però a fare marcia indietro. Alla sua morte, avvenuta nel 1976, il potere passò a Deng Xiaoping, che abbandonò la linea maoista condannando apertamente i danni arrecati dalla Rivoluzione culturale.
+
+#pagebreak()
+#set page(fill: main_storia.lighten(90%))
+== In sintesi <senza_numero>
+
+/ URSS (1945-1964): La ricostruzione dell'Unione Sovietica nel periodo postbellico fu caratterizzata da ingenti sacrifici imposti alla popolazione e da un sistematico sfruttamento delle risorse economiche dei paesi satelliti. Il governo di Stalin fu segnato da purghe e repressioni che consolidarono il suo controllo. Alla morte di Stalin, avvenuta il 5 marzo 1953, la direzione politica del paese passò a una leadership collettiva, dalla quale emerse rapidamente Nikita Kruscëv (1894-1971). Egli inaugurò il processo di destalinizzazione, un momento cruciale per la storia sovietica. \ Durante il XX Congresso del Partito Comunista dell'Unione Sovietica (PCUS) nel marzo 1956, Kruscëv riconobbe la possibilità di coesistenza tra sistemi capitalisti e comunisti, pronunciandosi contro le politiche repressive di Stalin. Sul fronte economico, il V Piano Quinquennale (1951-1955) portò significativi progressi, ma al contempo accentuò gli squilibri interni e alimentò tensioni geopolitiche, in particolare con la Cina e Cuba. Tali instabilità portarono alla destituzione di Kruscëv il 15 ottobre 1964, segnando la fine della sua leadership.
+
+/ RDT: Nel giugno 1953, esplosero proteste operaie e un'intensificazione delle fughe verso i paesi occidentali, culminata con la costruzione del Muro di Berlino il 13 agosto 1961 come barriera alle migrazioni. Parallelamente, anche l'industrializzazione rimaneva una priorità, seppur con difficoltà. 
+
+/ Polonia: Le tensioni sociali portarono a manifestazioni significative, tra cui il famoso sciopero anti-sovietico di Poznan nel giugno 1956, che spinse il paese verso un corso politicamente moderato. 
+
+/ Ungheria: Il Paese fu teatro di una rivolta contro il dominio sovietico: Imre Nagy (1896-1958) fu nominato capo del governo. Il 1° novembre 1956, l'Ungheria annunciò il ritiro dal Patto di Varsavia, provocando una dura reazione militare da parte dell'URSS. Alla guida del paese fu poi insediato Janos Kàdar, che adottò una politica riformista per calmare le tensioni.  
+
+/ Cecoslovacchia: La Cecoslovacchia attraversò una fase critica culminata nella cosiddetta Primavera di Praga, iniziata con l'elezione del riformatore Alexander Dubcek alla presidenza il 5 gennaio 1968. Egli promosse un ambizioso programma di riforme economiche e politiche, ma l'intervento militare del Patto di Varsavia il 21 agosto 1968 soffocò violentemente tali aspirazioni.  
+
+/ Cina: Sotto la guida di Mao Zedong, la Cina orientò il proprio regime verso una politica agricola basata sulle cooperative contadine e le comuni popolari. Tuttavia, il "grande balzo in avanti" si rivelò un fallimento, rafforzando l'opposizione interna al governo centrale. Per reagire, Mao lanciò la Rivoluzione Culturale per riaffermare il proprio potere all'interno del Partito Comunista Cinese (PCC), riconquistando una posizione dominante nel 1969. Dopo la morte di Mao nel 1976, Deng Xiaoping intraprese una revisione critica della sua opera, condannando apertamente le politiche della Rivoluzione Culturale e avviando un nuovo corso per lo sviluppo del paese.
+
+/ URSS (1965-1987): Il potere nell'Unione Sovietica assume una forma di direzione collegiale, con Leonid Breznev (1906-1982) al vertice. Durante questo periodo avviene una sorta di riabilitazione di Stalin, mentre l'economia sovietica si avvicina al collasso a causa della corsa agli armamenti e dell'adozione di una politica ferocemente antiamericana. Dopo la morte di Breznev, il 11 marzo 1985 Michail Gorbačëv, segretario del PCUS, introduce la perestroika, un processo di ristrutturazione economica, politica e sociale che segna la fine della "guerra fredda".

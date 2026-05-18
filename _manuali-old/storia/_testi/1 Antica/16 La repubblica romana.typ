@@ -1,0 +1,66 @@
+#import "../../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
+
+#evidenzia[Cacciato l'ultimo re di Roma, Tarquinio il Superbo, la monarchia venne sostituita da un sistema di governo di tipo repubblicano, caratterizzato da un forte predominio aristocratico. Durante i primi anni della Repubblica, Roma fu impegnata in conflitti significativi, tra cui quelli contro Porsenna e le comunità latine, preoccupate della sua crescente influenza nella regione. Sul piano interno, il nuovo ordinamento politico generò tensioni evidenti tra le due principali classi sociali: patrizi e plebei. Sebbene i diversi poteri – legislativo, esecutivo, giudiziario e militare – fossero esercitati da magistrature distinte, essi rimanevano concentrati nelle mani di pochi cittadini patrizi, con un'esclusione sistematica dei plebei.
+
+Il conflitto tra patrizi e plebei proseguì per decenni, fino a culminare in importanti concessioni in favore dei plebei. Questi ottennero l'accesso al consolato, il diritto di eleggere propri rappresentanti con il tribunato della plebe, l'introduzione di leggi scritte e la revoca del divieto di matrimoni misti tra le classi. 
+
+Parallelamente a questo progresso interno, l'esercito romano, dopo aver affrontato l'invasione dei Galli nel settentrione, iniziò una serie di campagne espansionistiche nel sud della penisola italiana. Tale espansione portò alla sconfitta dei Sanniti e alla conquista di Taranto e della Magna Grecia, segnando così una significativa tappa nello sviluppo territoriale della Repubblica romana.]
+
+== Dalla Monarchia alla Repubblica
+
+Secondo la tradizione leggendaria, Tarquinio il Superbo fu scacciato dal nobile Collatino in seguito all'oltraggio compiuto da Sesto Tarquinio nei confronti di Lucrezia, moglie dello stesso Collatino. Tuttavia, ricostruzioni storiche suggeriscono cause più profonde: la crescente complessità amministrativa dell'Urbe rendeva insoddisfacente la gestione monarchica, mentre il carattere dispotico del sovrano aveva alienato il consenso dei patrizi, privati delle loro prerogative politiche. Questi fattori determinarono una sollevazione culminata con l'istituzione della Repubblica romana; il potere venne affidato a due magistrati eletti annualmente, i consoli Bruto e Collatino, nel 509 a.C.
+
+=== Le prime guerre repubblicane
+
+Consolidatasi politicamente, Roma affrontò le città latine federate nella Lega latina, superandole definitivamente nella battaglia del Lago Regillo del 496 a.C. Questa vittoria fu seguita dalla stipula del _Foedus Cassianum_ nel 493 a.C., un accordo di tipo difensivo negoziato dal console Spurio Cassio. Successivamente, Roma si trovò impegnata in una serie di guerre contro Volsci ed Equi fino al 430 a.C., dalle quali emersero figure leggendarie come Coriolano e Cincinnato; il primo tradì Roma per allearsi con i Volsci ma finì tragicamente, mentre il secondo divenne un simbolo di virtù civica, abbandonando subito il comando militare per ritornare alla vita umile di agricoltore dopo aver valorosamente respinto i Volsci.
+
+Imperativi economici condussero Roma al conflitto contro Veio, potente città etrusca strategicamente posizionata. Dopo un lungo assedio, Veio cadde sotto l'assalto dell'esercito romano guidato da Furio Camillo nel 396 a.C., garantendo all'Urbe un accesso maggiore alle risorse della regione e consolidando ulteriormente la sua supremazia politica e militare nell'Italia centrale.
+
+=== L'ordinamento repubblicano
+
+Le principali cariche della Repubblica romana, sviluppatasi tra il V e il IV secolo a.C., erano di natura elettiva, venivano rinnovate con regolarità, rappresentavano un servizio gratuito e funzionavano in forma collegiale: ogni carica prevedeva sempre almeno due magistrati. I consoli, in carica per un anno, esercitavano funzioni fondamentali come il comando dell'esercito, la convocazione del senato e delle assemblee popolari, oltre a giudicare i reati più gravi. Nel corso del tempo, alcune delle loro competenze furono trasferite ai questori, incaricati della gestione finanziaria dello stato.
+
+Nei periodi di grave emergenza per lo stato, si poteva nominare un dittatore con pieni poteri per sei mesi, sostituendo temporaneamente i consoli. Altre figure magistratuali includevano i pretori, che inizialmente erano comandanti delle truppe delle tre antiche tribù Ramnii, Tizii e Luceri e successivamente amministratori delle funzioni giudiziarie; i censori (dal 443 a.C.), che restavano in carica per diciotto mesi ogni cinque anni con il compito di redigere le liste del censo e quelle dei senatori, vigilando anche sulla condotta morale dei cittadini. Il senato era formato da coloro che avevano già ricoperto una delle principali magistrature. Sebbene nominalmente fosse un organo consultivo, esso acquisì un ruolo preminente, approvando le proposte di legge, controllando le finanze, decidendo questioni di guerra e pace, concedendo cittadinanza e autonomia a città e popoli e istituendo nuove province.
+
+Le assemblee popolari si articolavano nei comizi curiati e centuriati. I comizi curiati, risalenti all'epoca regia, conservavano il ruolo simbolico di garantire l'investitura sacrale delle magistrature. I comizi centuriati eleggevano consoli e altri magistrati, approvavano le leggi proposte dal senato ed esercitavano funzioni giudiziarie. La popolazione era suddivisa in 193 centurie, ciascuna con diritto di voto; le prime 98 centurie, costituite dai cittadini più abbienti (anche plebei), detenevano la maggioranza decisionale.
+
+=== Il contrasto tra patrizi e plebei
+
+Il contrasto tra patrizi e plebei nacque fin dai primi anni della Repubblica. I plebei, obbligati al servizio militare senza ricevere una quota dei bottini di guerra, erano inoltre esclusi dalle magistrature e dal matrimonio con i patrizi. La prima protesta significativa risale al 494 a.C., quando i plebei si ritirarono sul Monte Sacro o, secondo alcune fonti, sull'Aventino, rifiutandosi di lavorare o combattere. Il patrizio Menenio Agrippa li convinse a tornare promettendo riforme.
+
+Come risultato, vennero istituiti i tribuni della plebe, figure incaricate di proteggere gli interessi dei plebei con il diritto di veto sulle decisioni dei magistrati e delle assemblee. Inoltre, fu creata la magistratura degli edili, composta da due rappresentanti plebei che collaboravano con i tribuni nella tutela degli interessi della plebe. Nel 451-450 a.C., un collegio di dieci patrizi (decemviri) redasse la Legge delle XII tavole, un codice che riconosceva diritti paritari ai plebei rispetto ai patrizi.
+
+La lotta per l'emancipazione continuò nel tempo, portando a ulteriori conquiste: l'abolizione del divieto di matrimoni misti (445 a.C.), l'accesso alla questura (421 a.C.), al consolato tramite le leggi Licinie-Sestie (367 a.C.), ai collegi sacerdotali (300 a.C.) e il riconoscimento giuridico dei comizi tributi (287 a.C., legge Ortensia), i cui plebisciti divennero vincolanti per l'intera popolazione.
+
+#note(top)[== *🧩* La legislazione scritta delle XII tavole <senza_numero>
+
+Il codice delle XII tavole rappresentò il primo corpus di leggi scritte introdotto a Roma. Fino a quel momento, il diritto si fondava sulla consuetudine ed era interpretato arbitrariamente dai magistrati depositari del sapere giuridico. 
+
+L'introduzione delle XII tavole segnò una fase fondamentale nelle conquiste della plebe poiché consentiva maggiori garanzie per le classi meno abbienti grazie alla codificazione delle norme. Tuttavia, ciò non eliminò le profonde disuguaglianze sociali contenute nelle leggi: il debitore insolvente poteva essere imprigionato e picchiato dal creditore; il padre e il marito detenevano un potere assoluto in famiglia; pene severe colpivano i ladri, che potevano anche essere soggetti alla legge del taglione. La maggior parte delle leggi codificate erano dunque quelle dell'antico diritto consuetudinario.]
+
+== Dall'irruzione dei Galli all'espansione nella penisola
+
+Dall'arrivo dei Galli all'espansione nella penisola italiana. Fin dal V secolo a.C., i Celti, chiamati Galli dai Romani, avevano occupato la Pianura Padana e si erano spinti fino alle Marche e all'Umbria. Nel 390 a.C., un contingente guidato da Brenno devastò Chiusi e scese nel Lazio, saccheggiando e incendiando persino Roma. La grave sconfitta subita dalla città portò vecchi nemici, alleati o sottomessi, a ribellarsi. Tuttavia Roma riuscì, nel corso di circa quattro decenni di guerre, a ripristinare la propria autorità.
+
+=== Le guerre sannitiche
+
+Nel 343 a.C., Roma intervenne a favore di Capua contro i Sanniti, che avevano occupato la Campania dopo il declino degli Etruschi, ottenendo in cambio la completa sottomissione della città. Da quel momento ebbe inizio un conflitto per il controllo dell'Italia centro-meridionale, durato più di cinquant'anni. Tra il 343 e il 341 a.C., i Romani conseguirono le prime vittorie. Il secondo conflitto, combattuto tra il 340 e il 338 a.C., vide Roma opporsi ai Sanniti sostenuti dalla Lega latina. 
+
+La vittoria romana permise di trasformare le città del Lazio in municipi o città federate. Tra il 326 e il 304 a.C., nonostante l'umiliazione subita alle Forche Caudine, dove i soldati romani furono costretti a passare sotto un giogo di lance davanti ai loro nemici, Roma ottenne altre vittorie. L'ultimo conflitto, avvenuto tra il 298 e il 290 a.C., segnò la definitiva sconfitta dei Sanniti, insieme ai loro alleati Galli, Etruschi e Umbri. Con questa vittoria, Roma diventava padrona dell'Italia centrale e si preparava a espandersi verso la Magna Grecia.
+
+=== La guerra contro Pirro
+
+Nel momento in cui Roma intervenne nelle dispute interne di Turi, si trovò a fronteggiare l'opposizione di Taranto, con cui aveva firmato un trattato di non interferenza nel 303 a.C. La guerra tra le due città scoppiò poco dopo, nel 282 a.C. Taranto richiese l'aiuto di Pirro, re dell'Epiro, che nel 280 a.C. sbarcò in Italia con un esercito di 30.000 uomini e 20 elefanti. Inizialmente i Romani subirono alcune sconfitte. 
+
+Quando Pirro si spostò in Sicilia per sostenere le città greche contro i Cartaginesi, il conflitto prese nuova forma e si concluse con la vittoria romana nel 275 a.C., nella battaglia di Maleventum (che venne allora rinominata Beneventum). Successivamente le due forze stabilirono un'alleanza nel 272 a.C. A quel punto Roma esercitava il proprio dominio fino allo stretto di Messina, adottando diverse modalità di amministrazione: i municipi mantennero una certa autonomia amministrativa ma dovevano fornire truppe e pagare tributi; alcuni godevano anche di diritti politici; le città federate, alleate liberamente a Roma, avevano autonomia amministrativa e non pagavano tributi, ma restavano prive di diritti politici e dovevano contribuire con truppe; infine, le colonie fondate nei territori sottratti ai vinti avevano diritti civili e politici se abitate da Romani, mentre quelle abitate da Latini avevano gli stessi diritti delle città federate.
+
+#pagebreak()
+#set page(fill: main_storia.lighten(90%))
+== In sintesi <senza_numero>
+
+/ Dalla Monarchia alla Repubblica: In seguito alla cacciata di Tarquinio il Superbo, ultimo re di Roma, ad opera di una rivolta patrizia, viene introdotta la carica di consolato. I primi due consoli eletti sono Bruto e Collatino.
+
+/ Dalle secessioni plebee alla conquista di Veio: Nel 494 a.C., per protestare contro le disuguaglianze dei diritti rispetto ai patrizi, i plebei si ritirano sul Monte Sacro (o, secondo alcune fonti, sull'Aventino). Questo gesto porta alla nascita del tribunato della plebe. Nel 493 a.C., Spurio Cassio sigla il _Foedus Cassianum_, un'alleanza con le città latine. Fino al 430 a.C. si susseguono guerre con i popoli confinanti. \ Tra il 451 e il 450 a.C., il diritto consuetudinario viene trasformato in un codice scritto, favorendo l'uguaglianza giuridica tra plebei e patrizi. Nel 445 a.C., viene abolito il divieto di matrimoni misti tra patrizi e plebei; successivamente, nel 421 a.C., i plebei ottengono accesso alla questura. Nel 396 a.C., dopo un assedio durato dieci anni, i Romani conquistano la città etrusca di Veio.
+
+/ Dall'invasione dei Galli alle guerre contro Pirro: Nel 390 a.C., i Galli saccheggiano e incendiano Roma, provocando instabilità nella regione. Alcuni vecchi alleati di Roma si ribellano, ma la città riesce, attraverso complesse e prolungate campagne militari, a ristabilire la sua supremazia. Le leggi Licinie-Sestie del 367 a.C. garantiscono ai plebei l'accesso al consolato. \ Tra il 343 e il 290 a.C., Roma affronta i Sanniti in tre guerre (343-341; 326-304; 298-290 a.C.). Inoltre, tra il 340 e il 338 a.C., i Romani sconfiggono le città della Lega Latina, consolidando il loro dominio nella regione. Nel 300 a.C., i plebei ottengono il diritto di ricoprire cariche sacerdotali. Successivamente, nel 287 a.C., la legge Ortensia sancisce l'autorità dei comizi tributi, assicurando la validità delle decisioni prese dalle assemblee popolari. \ Tra il 280 e il 275 a.C., Roma si scontra con Taranto, difesa da Pirro, re dell'Epiro. Nonostante alcune sconfitte iniziali, i Romani ottengono una vittoria decisiva nella battaglia di Maleventum, nel 275 a.C., che poi sarà rinominata Beneventum. Due anni dopo, nel 272 a.C., viene firmata un'alleanza conclusiva tra Roma e Taranto.

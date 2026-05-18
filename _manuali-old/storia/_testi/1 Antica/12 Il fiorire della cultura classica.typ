@@ -1,0 +1,69 @@
+#import "../../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
+
+#evidenzia[Fin dal VII e VI secolo a.C., in particolare nelle città greche ioniche dell'Asia Minore, cominciò a emergere una forma di pensiero filosofico-scientifico che il mondo occidentale moderno considera fondamenta delle proprie origini culturali.
+
+La vittoriosa conclusione delle guerre persiane comportò una nuova configurazione politica: Sparta assunse il predominio sulla terraferma, guidando una Lega composta da stati governati da regimi oligarchici, mentre Atene consolidò il controllo sui mari e adottò un regime democratico, fiorito soprattutto durante l'età di Pericle.
+
+Lo splendore artistico e culturale raggiunto da Atene in questo periodo, testimoniato da figure come Fidia e Mirone nelle arti figurative, Erodoto e Tucidide nella storiografia, nonché Eschilo, Sofocle, Euripide e Aristofane nella letteratura, e Protagora e Socrate nella filosofia, rifletteva la sua prosperità e forza. Le riforme interne avviate e l'imperialismo perseguito sotto la guida di Pericle erano segnali evidenti della crescente potenza ateniese.
+
+La rivalità tra Atene e Sparta, ormai inevitabile, sfociò nella lunga Guerra del Peloponneso, durata 27 anni (431-404 a.C.). Il conflitto coinvolse l'intero mondo greco e si concluse con la disfatta di Atene. Tuttavia, anche Sparta uscì indebolita e fu costretta a confrontarsi nuovamente con Tebe per il predominio. Questi continui dissidi contribuirono progressivamente all'indebolimento generale delle poleis greche.]
+
+== L'età di Pericle
+
+Durante l'età di Pericle, nipote del legislatore Clistene e stratega dal 460 a.C., Atene sperimentò un governo fondato su una democrazia radicale ispirata all'ideale sostenuto da Temistocle. Pericle promosse una completa parità dei diritti politici tra i cittadini e cercò di garantire la più ampia partecipazione popolare.
+
+Tra le sue iniziative per favorire l'inclusione politica, vi fu l'introduzione di retribuzioni per chi ricopriva incarichi pubblici, consentendo anche ai meno abbienti di accedere alle cariche. Incrementò inoltre il sistema assistenziale dello Stato, con misure che includevano l'educazione degli orfani, assegni per mutilati e invalidi, salari per soldati e marinai in servizio attivo e incentivi all'emigrazione dei contadini, concedendo loro terre nelle colonie.
+
+=== La concezione imperialista
+
+Pericle guidò la trasformazione della Lega delio-attica da un'alleanza di città libere a una struttura imperiale sotto il controllo ateniese, consolidando il potere di Atene sugli alleati. Una svolta simbolica di questo processo fu il trasferimento del tesoro federale da Delo ad Atene nel 454 a.C., con il quale si sanciva il predominio politico e economico della polis. 
+
+Numerosi interventi evidenziarono il crescente dominio ateniese sulle città appartenenti alla Lega: dall'imposizione della moneta e del sistema metrico-ponderale di Atene, alla riforma delle modalità di riscossione delle imposte e all'inasprimento dei tributi, fino alla spedizione di ispettori incaricati di monitorare le attività politiche locali. Queste politiche provocarono malcontento e rivolte, come quelle dell'Eubea nel 446 a.C. e di Samo nel 441 a.C., portando alla luce una contraddizione fondamentale nella politica di Pericle: profondamente democratica all'interno di Atene, ma repressiva e centralizzante nei confronti delle autonomie delle città alleate.
+
+Nel frattempo, Pericle avviò nuove campagne militari per rafforzare la posizione di Atene. Nel 457 a.C., alleatosi con gli avversari di Sparta, diede inizio alla prima Guerra del Peloponneso, ottenendo alcune vittorie significative. Tuttavia, la spedizione militare per difendere l'Egitto dai Persiani si concluse con un fallimento. 
+
+La guerra contro la Persia riprese poco dopo, culminando in un'importante vittoria ateniese e nella successiva firma della pace. Con l'inizio della seconda Guerra del Peloponneso (431 a.C.), Pericle si oppose a coloro che favorivano una tregua con Sparta, subendo critiche e accuse per la gestione della guerra e la debole condotta militare di Atene. Nonostante le difficoltà politiche e personali, fu rieletto come stratego fino alla sua morte nel 429 a.C., causata dalla devastante epidemia di peste che colpì la città.
+
+== La seconda Guerra del Peloponneso
+
+La seconda Guerra del Peloponneso affondò le radici nella violazione della pace trentennale stabilita tra Atene e Sparta nel 446 a.C. L'intervento ateniese nelle dispute tra le colonie di Megara e Corinto portò queste città a richiedere l'aiuto di Sparta. Con il sostegno di Tebe, Sparta interpretò l'azione ateniese come una minaccia al fragile equilibrio e dichiarò guerra.
+
+La prima fase del conflitto (431-421 a.C.) si concluse in una situazione di stallo. Gli ateniesi, sotto la guida di Pericle, adottarono una strategia difensiva rifugiandosi dietro le mura cittadine e affidando le operazioni militari alla flotta. Tuttavia, la situazione si aggravò con l'insorgere dell'epidemia di peste, le incursioni spartane e le rivolte interne a Mitilene e Lesbo, generando un movimento di opinione favorevole alla pace. Tale movimento fu contrastato dal demagogo Cleone, che nel 425 a.C. riuscì a infliggere una decisiva sconfitta agli spartani a Sfacteria. Dopo la sua morte durante una battaglia contro Brasida a Potidea, prevalse il partito conservatore guidato da Nicia, che nel 421 a.C. negoziò il trattato di pace segnando una temporanea cessazione delle ostilità.
+
+Nella seconda fase (418-413 a.C.), Sparta mise fine a Mantinea (418) al tentativo di Alcibiade, nuovo leader ateniese, di conquistare il Peloponneso. Di fronte a questo insuccesso, Alcibiade decise di consolidare il potere di Atene con una spedizione in Sicilia, conclusasi tragicamente con la disfatta della flotta ateniese a Siracusa (415-413 a.C.). Durante la terza fase del conflitto (413-404 a.C.), i combattimenti si spostarono sulle coste ioniche, dove si susseguirono le vittorie di Alcibiade e le affermazioni navali del generale spartano Lisandro.
+
+La sconfitta definitiva degli ateniesi avvenne a Egospotami (405), dove persero l'ultima flotta. Circondata e ridotta allo stremo, Atene capitolò nel 404, accettando di smantellare la propria flotta e le fortificazioni del Pireo. Inoltre, fu costretta a subire l'imposizione di un governo oligarchico filospartano, il cosiddetto Governo dei Trenta, noto per la sua durezza e inflessibilità, da cui deriva il termine "Trenta tiranni".
+
+Un gruppo di esiliati, guidati da Trasibulo, riuscì a rovesciare il regime oligarchico: i Trenta furono deposti e Trasibulo procedette al ripristino della democrazia. Tuttavia, la nuova democrazia si rivelò fragile e intrisa di sospetti, sempre attenta a prevenire possibili usurpazioni o opposizioni politiche. Questo clima di tensioni interne, insieme alle incessanti rivalità tra le poleis, in particolare Sparta e Tebe, segnò l'inizio della decadenza greca e aprì la strada alla conquista macedone.
+
+== Il fiorire della cultura classica
+
+Pericle concepiva il predominio politico di Atene come strettamente legato alla grandezza culturale e architettonica della città. Sotto la sua guida, fu promossa una straordinaria attività edilizia che portò alla costruzione di capolavori come il Partenone e l'Eretteo sull'Acropoli, oltre all'ampliamento del porto del Pireo.
+
+Durante il suo governo, Atene divenne un punto d'incontro per figure illustri: filosofi come Socrate, Anassagora e Protagora; tragediografi come Sofocle ed Euripide; storici come Erodoto. Pericle, insieme alla celebre Aspasia, creò un prestigioso circolo intellettuale. I culti religiosi, le festività e i templi assunsero un ruolo centrale sotto la sua amministrazione: la ritrovata fede religiosa, alimentata dalle vittorie sui Persiani, trovò espressione nelle opere dello scultore Fidia e nelle tragedie di Sofocle.
+
+La cultura classica non si spense con la morte di Pericle nel 429 a.C., ma anzi toccò il suo apice negli anni successivi con pensatori come Platone e Aristotele, il medico Ippocrate e lo storico Senofonte. Tuttavia, le guerre del Peloponneso e i crescenti conflitti interni tra le poleis indebolirono la religione tradizionale greca. Molti iniziarono a interessarsi a culti stranieri ed esotici, che le autorità tentarono di reprimere anche attraverso la persecuzione dei loro sostenitori.
+
+Questa crisi culturale trovò eco anche nella produzione letteraria: tragedie come quelle di Sofocle ed Euripide riflettevano le devastazioni morali provocate dalla guerra, ritraendo uomini oppressi dall'ingiustizia e svelando le debolezze della natura umana. Contemporaneamente, il commediografo Aristofane invitava il pubblico alla riflessione attraverso personaggi grotteschi e satirici. Gli storici, grazie alla maturazione della coscienza politica favorita dal regime democratico, diedero vita a un periodo di grande vivacità intellettuale e creativa.
+
+#note(top)[== *🧩* La condanna a morte di Socrate <senza_numero>
+
+Un esempio emblematico dell'intransigenza e del clima di sospetto che caratterizzò il regime ateniese dopo le guerre del Peloponneso fu la condanna a morte del filosofo Socrate. Socrate, profondamente influenzato dalla celebre massima dell'oracolo di Delfi "conosci te stesso", era solito condurre i suoi discepoli e oppositori attraverso interrogatori filosofici, portandoli a riconoscere la propria ignoranza e a giungere al cosiddetto "sapere di non sapere".
+
+Tuttavia, il suo metodo dialettico, che spesso metteva in difficoltà e irritava molti dei suoi interlocutori, unito al carisma esercitato sui giovani, fu fra le principali cause della sua condanna. Tra i suoi discepoli si annoveravano anche figure controverse come Crizia, leader dei Trenta Tiranni, e Alcibiade, entrambi mal visti dalla popolazione ateniese. Socrate fu accusato nel 399 a.C. di corrompere i giovani e di non venerare gli dèi tradizionali, reati che gli valsero la sentenza di morte.
+
+Nonostante avrebbe potuto facilmente evitare l'esecuzione con l'aiuto dei suoi seguaci, Socrate accettò con serenità la condanna, dimostrando una fedeltà assoluta alle leggi che non aveva mai smesso di rispettare.]
+
+#pagebreak()
+#set page(fill: main_storia.lighten(90%))
+== In sintesi <senza_numero>
+
+/ Età di Pericle: Eletto stratega nel 460 a.C., Pericle guida Atene verso una forma di democrazia radicale, caratterizzata da una serie di riforme volte a garantire l'effettiva parità nei diritti politici tra i cittadini. Durante il suo governo, la cultura classica greca conosce un periodo di straordinario sviluppo: Pericle favorisce la fioritura artistica e promuove importanti progetti edilizi nella città di Atene. \ Nel 457 a.C., Pericle inaugura un conflitto con Sparta e intraprende una campagna contro i Persiani in Egitto. Nel 454 a.C., il tesoro della Lega delio-attica viene trasferito ad Atene, consolidando così la supremazia della città-stato nell'ambito della confederazione. Negli anni seguenti, Atene deve fronteggiare rivolte interne: nel 446 a.C. si ribella l'Eubea, mentre nel 441 a.C. è Samos a sollevarsi. \ Nel 431 a.C. ha inizio la seconda Guerra del Peloponneso, un lungo conflitto che segnerà profondamente il destino della Grecia. Nel 429 a.C., durante il corso di questa guerra, Pericle muore colpito dalla peste.
+
+/ Guerra del Peloponneso: La Guerra del Peloponneso si origina dalle tensioni geopolitiche tra Atene e alcune _poleis_, come Megara e Corinto, le quali, esasperate dall'ingerenza ateniese nelle loro relazioni con le colonie, chiedono il sostegno di Sparta. Supportata da Tebe, Sparta dichiara guerra ad Atene nel 431 a.C. \ La prima fase del conflitto (431-421 a.C.) si conclude senza vincitori: gli Ateniesi, seguendo la strategia elaborata da Pericle, si rifugiano all'interno delle mura cittadine, affidando il confronto alla loro potente flotta. Tuttavia, i dissidi interni ad Atene portano alla stipula della cosiddetta "Pace di Nicia" nel 421 a.C., che tuttavia si rivelerà temporanea. \ La seconda fase (418-413 a.C.) inizia con la sconfitta ateniese nella battaglia di Mantinea (418 a.C.), dove Sparta annienta il progetto di Alcibiade, nuovo leader ateniese, volto a espandere il controllo sull'intero Peloponneso. Alcibiade tenta poi una rischiosa spedizione in Sicilia, culminata nella disastrosa disfatta della flotta ateniese presso Siracusa tra il 415 e il 413 a.C. \ La terza e ultima fase (413-404 a.C.) sposta il teatro delle operazioni sulle coste ioniche. Nonostante alcune vittorie iniziali guidate dallo stesso Alcibiade, la superiorità marina spartana, sotto il comando del generale Lisandro, si afferma definitivamente. Nel 405 a.C., con la perdita dell'ultima flotta ateniese nella battaglia di Egospotami, Atene viene assediata e costretta alla capitolazione nel 404 a.C.
+
+/ Dal Governo dei Trenta alla restaurazione: A seguito della sconfitta, Atene è obbligata ad accettare dure condizioni di pace: la distruzione della flotta, l'abbattimento delle fortificazioni del Pireo e l'instaurazione di un regime oligarchico filospartano, noto come il governo dei Trenta Tiranni. Tale regime instaura un clima di oppressione e provoca l'esilio di numerosi cittadini. Tuttavia, un gruppo di esuli guidati da Trasibulo organizza una rivolta che riesce a rovesciare il governo oligarchico; con il sostegno di Sparta, i Trenta vengono destituiti. Trasibulo assume il controllo della città e ristabilisce la democrazia. \ Questo processo di restaurazione, tuttavia, si sviluppa in un contesto di profonda tensione sociale e politica. Uno degli episodi più emblematici di questo clima è la condanna a morte del filosofo Socrate nel 399 a.C., vittima del sospetto e dell'intransigenza che permeano la vita pubblica ateniese. La combinazione di conflitti intra-polis e tensioni interne spiana infine la strada alla decadenza della Grecia classica e alla successiva egemonia macedone.
+
+
+

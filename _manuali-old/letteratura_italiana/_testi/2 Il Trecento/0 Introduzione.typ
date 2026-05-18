@@ -1,0 +1,5 @@
+Il XIV secolo rappresenta l'età aurea della letteratura italiana, un periodo in cui Dante Alighieri, Francesco Petrarca e Giovanni Boccaccio fondano i presupposti stessi dell'identità letteraria nazionale. Essi concepiscono la poesia non solo come strumento conoscitivo, ma anche come veicolo di una lingua nitida, luminosa e comunicativa, in grado di unificare una nazione culturalmente frammentata. 
+
+Con Dante si raggiunge l'apice della lirica medievale e della poesia allegorico-didattica; con Boccaccio si consolida la tradizione novellistica italiana, che troverà ulteriore compimento nell'opera di Franco Sacchetti, andando ad arricchire anche quella cronachistica. Petrarca, simbolo dell'intellettuale moderno, segna il passaggio dalla tradizione duecentesca alla nuova sensibilità letteraria che darà origine all'Umanesimo. 
+
+Accanto a questi grandi protagonisti, si colloca la straordinaria produzione degli scrittori religiosi: Mauro Cavalca, Passavanti, santa Caterina da Siena e la tradizione francescana dei _Fioretti_ offrono suggestivi esempi di ricerca spirituale ed espressione letteraria.

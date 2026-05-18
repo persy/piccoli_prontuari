@@ -1,0 +1,54 @@
+#import "../../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
+
+#evidenzia[La scuola poetica, identificata da Dante come "dolce stilnovo", rappresenta l'espressione più omogenea e ricca della cultura italiana della fine del Duecento. Per la profondità concettuale e la qualità del linguaggio poetico, lo stilnovo si affermò come punto di riferimento imprescindibile per le successive evoluzioni della poesia italiana. Se a Guido Guinizelli si attribuisce l'iniziale impulso verso una riflessione teorica e il rinnovamento del linguaggio poetico, è soprattutto l'esperienza dello stilnovo fiorentino, incarnata da Guido Cavalcanti e Dante stesso, il nucleo fondamentale di questa nuova poetica.]
+
+== Origini e concetti guida
+
+La nascita dello stilnovo ebbe luogo a Bologna, città sede di un prestigioso Studio universitario, dove trovavano spazio le correnti più innovative in ambito filosofico e medico. Il termine "stilnovo" fu coniato attraverso alcuni versi del _Purgatorio_ dantesco (XXIV, 55-57), in cui Bonagiunta Orbicciani riconosce la superiorità di questa scuola poetica rispetto alle precedenti: "O frate, issa vegg'io -- diss'elli -- il nodo / che il Notaro e Guittone e me ritenne / di qua dal dolce stil novo ch'i' odo!". Dante, nella sua _Commedia_ e nel _De vulgari eloquentia_, disegna una genealogia dello stilnovo, indicandone Guinizelli come iniziatore e riconoscendo il suo superamento da parte di Cavalcanti e dello stesso Dante.
+
+Le tematiche dello stilnovo affondano le loro radici nella tradizione poetica duecentesca, prendendo spunto dalla lirica provenzale. Evidenti, inoltre, sono i legami con la scuola siciliana e con gli scritti di Guittone d'Arezzo. Un tratto distintivo dello stilnovo è l'equilibrio tra profondità speculativa e perfezione formale. La sintassi stilnovista è sofisticata e ben regolata secondo specifici canoni retorici, distanziandosi nettamente dall'opacità dei testi siculo-toscani. Il lessico è articolato secondo precise strutture foniche, contribuendo a trasformare il contenuto concettuale – spesso denso e complesso – in una dimensione musicale armoniosa.
+
+=== Guido Guinizelli
+
+L'ambiente colto di Bologna offrì a Guido Guinizelli (circa 1235-1276), appartenente alla fazione dei Lambertazzi, una solida formazione filosofica che gli permise di rinnovare i modelli lirici tradizionali e di ridefinire le forme della poesia. Questo cambiamento trova piena espressione nella canzone _Al cor gentil rempaira sempre Amore_, considerata il manifesto teorico dello stilnovo. Il componimento presenta un'affermazione programmatica dell'identità tra amore e "cor gentile" e sviluppa un ragionamento rigoroso attraverso immagini tratte dal mondo sensibile fino a culminare nella visione celeste delle ultime stanze. Guinizelli esplora i concetti di amore, gentilezza e la funzione salvifica della "bella donna", ricorrendo a una concezione rigorosamente aristocratica dell'amore. Tuttavia, la gentilezza non è intesa come privilegio legato alla nobiltà di sangue, ma come una qualità intrinseca dell'animo, espressa attraverso il termine "coraggio", mutuato dalla tradizione provenzale.
+
+Parallelamente a questi elementi ideali, centrale è l'uso di un linguaggio dolce, considerato da Dante come carattere distintivo dello stile guinizelliano. Questa scelta lessicale e stilistica mira a esprimere poeticamente il sentimento interiore suscitato dall'amore. Di Guido Guinizelli ci sono giunti cinque canzoni e quindici sonetti raccolti in due canzonieri. Alcuni dei suoi componimenti riflettono influenze stilistiche diverse, assumendo toni comico-realistici tipici della poesia borghese toscana contemporanea.
+
+== Guido Cavalcanti
+
+Guido Cavalcanti (circa 1259-1300) è considerato il più significativo esponente dello Stilnovo. La sua poesia, caratterizzata da una straordinaria originalità lirica e da un'intensa espressività, esercitò una profonda influenza su Petrarca e sull'intero movimento letterario del petrarchismo, così come accadde con Dante e gli altri poeti stilnovisti.
+
+=== La vita
+
+Originario di Firenze e appartenente a una prestigiosa famiglia di guelfi bianchi, Cavalcanti fu un fervente sostenitore della fazione dei Cerchi contro quella dei Donati, guelfi neri. Nel 1267 si legò a Bice, figlia di Farinata degli Uberti, attraverso un fidanzamento. Fin dalla giovinezza si trovò coinvolto nelle turbolente lotte politiche della città. Nel 1280 svolse il ruolo di garante per la fazione guelfa nella pace siglata tra guelfi e ghibellini e, nel 1284, prese parte ai lavori del Consiglio Generale del Comune insieme a personalità come Brunetto Latini e Dino Compagni. Tuttavia, nel 1293, una normativa emanata da Giano della Bella gli vietò di partecipare alla vita politica cittadina; tale provvedimento era volto a contenere le incessanti tensioni tra fazioni rivali ma si dimostrò insufficiente.
+
+Nel 1300, a causa di nuovi disordini politici, i Priori del Comune (tra cui Dante, che lo definì "primo dei suoi amici") decisero di esiliare i più turbolenti esponenti delle fazioni cittadine. Cavalcanti fu dunque confinato a Sarzana, una località allora nota per il suo clima insalubre. Nello stesso anno la condanna venne revocata, permettendo al poeta di rientrare a Firenze. Tuttavia, ormai gravemente debilitato da malattie – probabilmente febbri malariche – morì poco dopo.
+
+=== Il canzoniere
+
+Il corpus poetico di Cavalcanti comprende 52 componimenti tra sonetti, canzoni e ballate, privi di indicazioni cronologiche utili per risalire alla data di composizione. Già intorno al 1283 il suo nome godeva di ampia notorietà nei circoli stilnovisti: Dante, nella _Vita Nuova_, lo cita come uno dei più illustri trovatori del tempo. Il tema predominante del suo canzoniere è l'Amore, concepito non come sentimento edificante ma come una passione irrazionale capace di distogliere l'uomo dalla ricerca della conoscenza e della felicità speculativa, conducendolo verso una "morte" sia morale che fisica.
+
+Nella cultura medievale, profondamente influenzata dalla medicina araba, si credeva che la "malattia d'amore" (_amor heroicus_) potesse persino condurre alla morte. Immerso nel pensiero filosofico e affine agli ambienti averroisti di Bologna, Cavalcanti analizza nei suoi componimenti l'origine, la natura e gli effetti devastanti della passione amorosa sull'uomo; in questo senso emblematica risulta la canzone dottrinale _Donna me prega_. Le sue metafore derivano dall'ambito della "filosofia naturale" – che includeva fisica, astrologia, medicina e psicologia intesa come scienza dell'anima – e vengono applicate al contesto amoroso con grande rigore.
+
+Le immagini che emergono nella sua poesia, come la battaglia d'amore con ferite emotive, _sbigottimenti_, intervento degli spiriti vitali, paure e fughe culminanti in distruzione e morte, sono espresse attraverso un linguaggio drammatico e lirico che suscita nel lettore sentimenti di malinconia e inevitabilità. Tuttavia, la componente drammatica della sua poesia è temperata da un senso di stupore malinconico verso una realtà interiore che trascende l'individuo e il suo dolore. Cavalcanti raggiunge tali effetti stilistici mediante tecniche raffinate, tra cui la distanza dell'io poetico dal proprio discorso, l'uso ironico dei diminutivi, un lessico concettuale altamente sofisticato e un sistema complesso di immagini metaforiche e analogie.
+
+== Gli stilnovisti minori
+
+Tra le personalità minori dello stilnovismo fiorentino si distinguono Lapo Gianni, stretto amico di Dante, noto per la sua produzione poetica caratterizzata da toni rarefatti e atmosferiche Rime, e Dino Frescobaldi (1271-1316), il cui corpus poetico si concentra prevalentemente sul tema della "donna sdegnosa".
+
+=== Cino da Pistoia
+
+Un ruolo di maggior rilievo merita Cino da Pistoia, pseudonimo di Guittoncino dei Sighibuldi (circa 1270-1336 o 1337). Dopo aver compiuto studi in diritto presso le università di Bologna e Orléans, esercitò l'insegnamento giuridico nelle sedi universitarie di Siena, Perugia, Napoli e, presumibilmente, Firenze. Fu costretto all'esilio tra il 1303 e il 1306 per il suo schieramento politico guelfo di parte nera. Tra le sue opere latine di carattere giuridico, si distingue la _Lectura super codicem_ (1314). Tuttavia, la sua produzione in volgare è dominata da un canzoniere contenente più di 160 poesie. Stimato da figure centrali come Dante e Petrarca, che esaltarono la "dolcezza" musicale ed evocativa della sua poetica, Cino occupa una posizione liminale rispetto alla tradizione dello stilnovo. La critica ha evidenziato nei suoi testi la presenza di elementi provenienti dalla scuola siciliana e siculo-toscana, accanto a motivi fortemente personali. Cino elaborò gli stimoli dello stilnovo fiorentino sviluppando una poetica incentrata sul tema del ricordo, che oppone l'amarezza del presente alla dolcezza del passato. Per tale rielaborazione tematica e per la spiccata musicalità dei suoi versi, Cino è spesso considerato un ponte ideale tra lo stilnovo e l'esperienza poetica successiva incarnata da Petrarca.
+
+#pagebreak()
+#set page(fill: main_letteratura.lighten(90%))
+== In sintesi <senza_numero>
+
+/ Dolce stilnovo:  Questo movimento rappresenta l'espressione letteraria più omogenea della fine del XIII secolo. Nato a Bologna e poi diffusosi a Firenze, il dolce stilnovo si distingue per la profondità dei contenuti e il rigore stilistico. Tra i temi principali troviamo l'identità tra amore e "cor gentile" e il potere salvifico della "bella donna". Esso ha influenzato profondamente la poesia successiva, divenendo un modello imprescindibile. Tra i protagonisti di spicco, oltre Dante, si ricordano Guinizelli, Cavalcanti e Cino da Pistoia.
+
+/ Guido Guinizelli:  Nato a Bologna (circa 1235-1276), Guinizelli è considerato il fondatore dello stilnovo. La sua canzone _Al cor gentile rempaira sempre Amore_ è vista come il manifesto teorico del movimento. Con grande dolcezza stilistica, egli stabilisce il legame concettuale tra amore e "cor gentile" e celebra la funzione salvifica della "bella donna".
+
+/ Guido Cavalcanti:  Guadagnando notorietà come uno dei maggiori esponenti dello stilnovo, Guido Cavalcanti (Firenze, circa 1259-1300) è autore di un raffinato canzoniere composto da sonetti, ballate e canzoni. Con linguaggio lirico drammatico, egli esplora l'amore come passione irrazionale, spesso esprimendolo con malinconico distacco.
+
+/ Cino da Pistoia:  Guittoncino dei Sighibuldi (circa 1270-1336 o 1337), noto come Cino da Pistoia, è autore di un canzoniere lodato da Dante e Petrarca per la dolcezza musicale ed evocativa dei suoi versi. Considerato una figura di transizione tra lo stilnovo e la poesia petrarchesca, egli rielabora i temi stilnovistici con una poetica centrata sul ricordo nostalgico del passato contrapposto alla durezza del presente.

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="504"
+   height="395"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docname="Diagramma_attivazione[2].svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="C:\Documents and Settings\Giacomo\Desktop">
+  <metadata
+     id="metadata70">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="573"
+     inkscape:window-width="744"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.95443038"
+     inkscape:cx="252"
+     inkscape:cy="197.5"
+     inkscape:window-x="110"
+     inkscape:window-y="145"
+     inkscape:current-layer="g1504" />
+  <defs
+     id="defs4" />
+  <rect
+     width="504"
+     height="395"
+     x="0"
+     y="0"
+     style="opacity:1;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+     id="rect1375" />
+  <g
+     id="g1504">
+    <path
+       d="M 41.52993,62.01704 L 470.33969,62.01704"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#dbdbdb;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.80000019, 6.80000019;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2306" />
+    <path
+       d="M 41.52993,151.49215 L 326.94683,151.49215"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#dbdbdb;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.80000019, 6.80000019;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4054" />
+    <path
+       d="M 41.52993,204.88501 L 470.33969,204.88501"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#dbdbdb;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.80000019, 6.80000019;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4056" />
+    <path
+       d="M 48.69385,43.099229 L 41.45431,28.890837 L 34.21047,43.107665 M 41.45431,28.890837 L 41.45431,348.17655 L 465.74002,348.17655 M 452.33497,341.34633 L 465.74002,348.17655 L 452.69746,355.70667"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#686868;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1431" />
+    <path
+       d="M 41.78247,206.46885 L 84.20888,206.46885 C 84.20888,206.46885 110.31663,209.69819 134.21143,181.43774 C 149.609,163.22699 180.91984,126.40462 206.1848,187.49865 C 213.53965,205.28366 247.06888,259.90099 293.8546,272.75813 L 443.49745,272.75813"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#023568;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4933" />
+    <path
+       d="M 41.78247,205.4587 L 84.20888,205.4587 C 84.20888,205.4587 127.64544,167.19918 152.89925,93.96312 C 152.89925,93.96312 183.26958,21.889139 202.14419,96.4885 C 206.86487,115.14636 235.64031,207.81941 236.71174,209.96227 C 237.78317,212.10512 247.06888,258.89084 293.8546,271.74798 L 443.49745,271.74798"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ce0202;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4058" />
+    <text
+       x="199.21172"
+       y="74.605118"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;fill:#ce0202;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text4937"
+       xml:space="preserve"
+       sodipodi:linespacing="125%"><tspan
+         x="199.21172"
+         y="74.605118"
+         style="font-size:12.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ce0202;fill-opacity:1;font-family:Arial"
+         id="tspan4939">in assenza dell'enzima</tspan></text>
+    <path
+       d="M 295.14271,160.08126 L 290.40627,153.56211 L 285.68625,160.05866 M 290.40627,153.56211 L 290.40627,202.49138 M 295.07996,196.0586 L 290.40627,202.49138 L 285.74008,196.06892"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#b5b5b5;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4955" />
+    <path
+       d="M 391.21414,71.0354 L 386.4777,64.51625 L 381.75768,71.0128 M 386.4777,64.51625 L 386.4777,202.5149 M 391.15139,196.08212 L 386.4777,202.5149 L 381.81151,196.09244"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#b5b5b5;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5855" />
+    <path
+       d="M 377.19629,213.98182 L 372.45985,207.46267 L 367.73983,213.95922 M 372.45985,207.46267 L 372.45985,268.94347 M 377.13354,262.51069 L 372.45985,268.94347 L 367.79366,262.52101"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#b5b5b5;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5857" />
+    <text
+       x="45.461735"
+       y="225.14085"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text5879"
+       xml:space="preserve"
+       sodipodi:linespacing="125%"><tspan
+         x="45.461735"
+         y="225.14085"
+         dx="0 0.71428567 0.35714284"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial"
+         id="tspan5881">reagenti</tspan></text>
+    <text
+       x="359.77206"
+       y="288.12863"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text5921"
+       xml:space="preserve"
+       sodipodi:linespacing="125%"><tspan
+         x="359.77206"
+         y="288.12863"
+         dx="0 0.50507629 0.75761437 0.75761437"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial"
+         id="tspan5923">prodotti</tspan></text>
+    <text
+       x="-236.87346"
+       y="28.124441"
+       transform="matrix(0,-1,1,0,0,0)"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#686868;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text5950"
+       xml:space="preserve"><tspan
+         x="-236.87346"
+         y="28.124441"
+         dx="0 0.75761443 1.2626907 0.75761443 1.5152287"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#686868;fill-opacity:1;font-family:Arial"
+         id="tspan5952">energia</tspan></text>
+    <text
+       x="163.08218"
+       y="366.89822"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#686868;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       id="text5954"
+       xml:space="preserve"><tspan
+         x="163.08218"
+         y="366.89822"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#686868;fill-opacity:1;font-family:Arial"
+         id="tspan5956">coordinate di reazione</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="198.1114"
+       y="151.27057"
+       id="text2230"><tspan
+         sodipodi:role="line"
+         id="tspan2232"
+         x="198.1114"
+         y="151.27057"
+         style="fill:#023568">in presenza</tspan><tspan
+         sodipodi:role="line"
+         x="198.1114"
+         y="166.27057"
+         style="fill:#023568"
+         id="tspan2234">dell'enzima</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="298.41113"
+       y="153.83023"
+       id="text2236"><tspan
+         sodipodi:role="line"
+         id="tspan2238"
+         x="298.41113"
+         y="153.83023"
+         style="fill:#686868">energia di</tspan><tspan
+         sodipodi:role="line"
+         x="298.41113"
+         y="168.83023"
+         style="fill:#686868"
+         id="tspan3214">attivazione</tspan><tspan
+         sodipodi:role="line"
+         x="298.41113"
+         y="183.83023"
+         style="fill:#686868"
+         id="tspan3216">in presenza</tspan><tspan
+         sodipodi:role="line"
+         x="298.41113"
+         y="198.83023"
+         style="fill:#686868"
+         id="tspan3218">dell'enzima</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="390.68951"
+       y="116.08503"
+       id="text3220"><tspan
+         sodipodi:role="line"
+         id="tspan3222"
+         x="390.68951"
+         y="116.08503"
+         style="fill:#686868">energia di</tspan><tspan
+         sodipodi:role="line"
+         x="390.68951"
+         y="131.08503"
+         style="fill:#686868"
+         id="tspan3224">attivazione</tspan><tspan
+         sodipodi:role="line"
+         x="390.68951"
+         y="146.08503"
+         style="fill:#686868"
+         id="tspan3226">in assenza</tspan><tspan
+         sodipodi:role="line"
+         x="390.68951"
+         y="161.08503"
+         style="fill:#686868"
+         id="tspan3228">dell'enzima</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="376.69098"
+       y="228.19379"
+       id="text3230"><tspan
+         sodipodi:role="line"
+         x="376.69098"
+         y="228.19379"
+         style="fill:#686868"
+         id="tspan3240">energia complessiva</tspan><tspan
+         sodipodi:role="line"
+         x="376.69098"
+         y="243.19379"
+         style="fill:#686868"
+         id="tspan3242">rilasciata durante</tspan><tspan
+         sodipodi:role="line"
+         x="376.69098"
+         y="258.19379"
+         style="fill:#686868"
+         id="tspan3238">la reazione</tspan></text>
+  </g>
+</svg>

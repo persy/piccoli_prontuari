@@ -1,0 +1,11 @@
+I primi tre decenni del XIX secolo furono caratterizzati, sul piano sociale, dall'ascesa della rivoluzione industriale, che trasformò la Gran Bretagna nella nazione più potente e avanzata del panorama mondiale.  
+
+Tuttavia, se da un lato l'industrializzazione portò un notevole incremento della ricchezza e il consolidamento della classe media, dall'altro essa generò un vasto proletariato urbano. Quest'ultimo visse con grande frustrazione l'inasprimento della subordinazione imposta dal lavoro in fabbrica e contribuì al manifestarsi di profonde sacche di degrado sociale e morale.  
+
+Un forte sentimento di empatia per le sofferenze delle classi meno fortunate e un'attenzione ai diritti umani permeò gran parte della letteratura inglese della prima metà dell'Ottocento, periodo profondamente segnato dal movimento romantico.  
+
+Alla prima generazione di poeti romantici, la cui strada era stata tracciata dall'operato poetico e visionario di William Blake, appartengono Wordsworth e Coleridge. Il primo trovava la sua ispirazione nella natura, nella vita semplice delle persone umili e nell'innocenza dell'infanzia; il secondo esplorava atmosfere soprannaturali cariche di tale semplicità e plausibilità da renderle apparentemente reali.  
+
+La seconda generazione romantica, rappresentata da Byron, Shelley e Keats, rifletteva invece una disillusione profonda per il fallimento degli ideali sorti con la Rivoluzione francese. Byron incarnò lo spirito di ribellione contro le convenzioni sociali del suo tempo; Shelley espresse la sua visione di un mondo libero dalle tirannie, in cui l'uomo potesse ritrovare un'armonia con le forze naturali; Keats, infine, vedeva nella bellezza l'unica fonte di felicità eterna, dedicandole appassionatamente la sua breve vita.  
+
+In ambito narrativo, il romanticismo inglese si distinse inoltre per una significativa produzione saggistica di stampo autobiografico e per l'opera di Walter Scott. Iniziatore del romanzo storico, Scott delineò un'immagine idealizzata del Medioevo, destinata a esercitare una duratura influenza culturale.  

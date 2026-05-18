@@ -1,0 +1,7 @@
+Il periodo immediatamente successivo alla Restaurazione, che coincide con i primi anni del secolo, viene definito età augustea. In questa fase, Londra assume il ruolo di capitale di un impero coloniale in continua espansione e, grazie alla raffinatezza della sua cultura, si percepisce come erede della Roma imperiale.
+
+Poeti e artisti dell'epoca raggiungono un equilibrio ideale tra forma classica e realtà attraverso l'imitazione e le _mock forms_, ossia espressioni letterarie che contrastano la purezza formale con il caos e l'imperfezione della vita quotidiana. Anche la satira, ispirandosi a modelli classici, gioca un ruolo centrale come mai prima d'allora in Inghilterra, dimostrando la capacità di coniugare elementi tragici ed eroici.
+
+Un altro fenomeno di rilievo è l'affermarsi del romanzo, che rivoluziona la scena letteraria. Attraverso di esso si approfondisce lo studio dell'individualità e dell'identità dei personaggi, crescendo al contempo il desiderio di conferire maggiore verosimiglianza alle narrazioni.
+
+Dopo la metà del secolo, il gusto per il sentimento si sviluppa come risultato di un lungo processo culturale che parte dal razionalismo del Seicento per approdare all'enfasi sull'intuizione diretta tipica dell'età augustea. La realtà comincia sempre più a essere interpretata come un prodotto della mente umana. Nelle fasi iniziali, questo culto del sentimento emerge soprattutto nella poesia, dove si assiste a un allontanamento dall'ordinario a favore della ricerca del sublime, evocando immagini capaci di suscitare terrore e stupore.

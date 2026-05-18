@@ -1,0 +1,70 @@
+name: Deploy Typst Site
+
+on:
+  push:
+    branches:
+      - main # Se il tuo branch principale si chiama master, scrivi master al posto di main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Typst
+        uses: chiahansen/setup-typst@v1
+        with:
+          version: '0.14.2' 
+
+      - name: Compile Site Automatically
+        env:
+          TYPST_FEATURES: html
+        run: |
+          # 1. Crea la cartella pulita di destinazione per il sito finale
+          mkdir -p dist
+
+          # 2. Cerca e copia tutte le cartelle di immagini (sia 'img' che '_img') mantenendo la struttura
+          find docs -type d \( -name "img" -o -name "_img" \) | while read -r img_dir; do
+            # Calcola il percorso corrispondente dentro la cartella dist
+            target_dir=$(echo "$img_dir" | sed 's|^docs/|dist/|')
+            mkdir -p "$target_dir"
+            cp -r "$img_dir"/. "$target_dir/" 2>/dev/null || true
+          done
+          
+          # 3. Cerca tutti i file .typ in 'docs' e li compila dentro 'dist'
+          find docs -name "*.typ" | while read -r file; do
+            # Calcola il percorso dell'HTML sostituendo 'docs' con 'dist' e '.typ' con '.html'
+            target_html=$(echo "$file" | sed 's|^docs/|dist/|' | sed 's/\.typ$/\.html/')
+            
+            # Crea la sottocartella di destinazione (es. dist/biologia/) se non esiste
+            mkdir -p "$(dirname "$target_html")"
+            
+            # Compila il file sfruttando il formato HTML nativo
+            echo "Compilando $file in $target_html..."
+            typst compile "$file" "$target_html" --format html
+          done
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist' # Pubblica online solo il contenuto della cartella dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
