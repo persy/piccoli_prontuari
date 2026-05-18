@@ -60,7 +60,7 @@ jobs:
             target_pdf="dist/pdf/${folder_name}.pdf"
             echo "🚀 Compilazione in corso: $file -> $target_pdf"
             
-            typst compile --root . "$file" "$target_pdf"
+            typst compile --root . --font-paths ./fonts "$file" "$target_pdf"
           done
           
           echo "------------------------------------------------"

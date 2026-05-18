@@ -54,7 +54,7 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/pp_sit
 - Compila ed esporta il file con il comando:
 
 ```typst
-typst compile main.typ
+typst compile --font-paths ./fonts main.typ
 ```
 
 N.B. Usando `tinymist`, il file `main` verrà automaticamente designato come principale, risolvendo i collegamenti e i riferimenti fra i subfile[^1]. Nel caso volessi impostare manualmente, invoca su VSCode il comando "Pin the Main File to the Currently Open Document" oppure digita:
