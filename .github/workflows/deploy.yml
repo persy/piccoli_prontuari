@@ -38,33 +38,27 @@ jobs:
           # 2. Copia la homepage HTML nella radice del sito finale
           cp docs/index.html dist/ 2>/dev/null || true
           
-          # =======================================================
-          # UTILITY DETECTIVE: Stampa tutti i file per capire dove sono
-          echo "🔍 ISPEZIONE CARTELLE - Ecco tutti i file presenti nella repo:"
-          find . -maxdepth 3 -not -path '*/.*'
-          echo "======================================================="
-
-          # 3. Cerca tutti i file che finiscono per main.typ (es. main.typ, Main.typ)
+          # 3. Cerca tutti i file che si chiamano esattamente 'main.typ'
           find . -type f -iname "main.typ" | while read -r file; do
             echo "------------------------------------------------"
             echo "📄 Trovato sorgente: $file"
             
-            # Estrae il nome della cartella superiore
+            # Estrae il nome della cartella superiore (es. chimica)
             folder_name=$(basename "$(dirname "$file")")
             
-            # Evitiamo che prenda la cartella 'docs' stessa se il file fosse lì dentro
-            if [ "$folder_name" = "docs" ] || [ "$folder_name" = "." ]; then
+            # Evita che prenda cartelle di sistema o la radice se il file fosse fuori posto
+            if [ "$folder_name" = "docs" ] || [ "$folder_name" = "." ] || [ "$folder_name" = "template" ]; then
               folder_name="generale"
             fi
             
             target_pdf="dist/pdf/${folder_name}.pdf"
-            echo "🚀 Compilazione in corso: $file -> $target_pdf"
+            echo "🚀 Compilazione in corso con Font personalizzati: $file -> $target_pdf"            
             
-            typst compile --root . --font-paths ./fonts "$file" "$target_pdf"
+            typst compile --root . --font-path ./fonts "$file" "$target_pdf" || { echo "❌ Errore critico in Typst per $file"; exit 1; }
           done
           
           echo "------------------------------------------------"
-          echo "Contenuto finale di dist/pdf dopo la correzione:"
+          echo "Contenuto finale della cartella dist/pdf:"
           ls -la dist/pdf/
 
       - name: Setup Pages
