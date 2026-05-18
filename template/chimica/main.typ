@@ -16,6 +16,8 @@
   color: selected_color,  
 )
 
+#set math.equation(numbering: "1", supplement: none, number-align: end)
+
 // Capitoli
 
 = Introduzione <senza_numero>

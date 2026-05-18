@@ -1,4 +1,4 @@
-#import "/_test/template/_global/template.typ": *
+#import "../_global/template.typ": *
 
 #copertina(
   subject: "Filosofia",
