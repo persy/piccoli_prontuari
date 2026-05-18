@@ -8,7 +8,7 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/pp_sit
 
 ## Struttura del repository
 
-
+```bash
 ├── docs/
 │   ├── \<materia\>/
 │   │   ├── img/
@@ -39,6 +39,7 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/pp_sit
         ├── main.typ
         ├── cover.typ
         └── retro.typ
+```
 
 - I testi sono formattati in [typst](https://typst.app/), utilizzando [Tinymist](https://github.com/Myriad-Dreamin/tinymist) e si trovano nella cartella `docs/`, suddivisi per materia 
 - Essendo file `.typ`, possono essere aperti da qualsiasi editor di testo, notepad incluso 🍋. Per invece esportare i manuali completi, leggi la sezione sotto
