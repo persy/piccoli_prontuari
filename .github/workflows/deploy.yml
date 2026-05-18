@@ -1,9 +1,9 @@
-name: Deploy Typst Site
+name: Deploy Typst PDFs to Site
 
 on:
   push:
     branches:
-      - main # Se il tuo branch principale si chiama master, scrivi master al posto di main
+      - main
 
 permissions:
   contents: read
@@ -22,42 +22,45 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
 
+      # --- AGGIORNATO AL REPOSITORY UFFICIALE DELLA COMMUNITY ---
       - name: Setup Typst
-        uses: typst-community/setup-typst@v5        
+        uses: typst-community/setup-typst@v5
+        with:
+          version: ^0.14.0
 
-      - name: Compile Site Automatically
-        env:
-          TYPST_FEATURES: html
+      - name: Compile and Organize PDFs
         run: |
-          # 1. Crea la cartella pulita di destinazione per il sito finale
-          mkdir -p dist
+          # 1. Crea la struttura finale dentro la cartella di deploy 'dist'
+          mkdir -p dist/pdf
 
-          # 2. Cerca e copia tutte le cartelle di immagini (sia 'img' che '_img') mantenendo la struttura
-          find docs -type d \( -name "img" -o -name "_img" \) | while read -r img_dir; do
-            # Calcola il percorso corrispondente dentro la cartella dist
-            target_dir=$(echo "$img_dir" | sed 's|^docs/|dist/|')
-            mkdir -p "$target_dir"
-            cp -r "$img_dir"/. "$target_dir/" 2>/dev/null || true
-          done
+          # 2. Copia la homepage HTML nella radice del sito finale
+          cp docs/index.html dist/ 2>/dev/null || true
           
-          # 3. Cerca tutti i file .typ in 'docs' e li compila dentro 'dist'
-          find docs -name "*.typ" | while read -r file; do
-            target_html=$(echo "$file" | sed 's|^docs/|dist/|' | sed 's/\.typ$/\.html/')
-            mkdir -p "$(dirname "$target_html")"
-            echo "Compilando $file in $target_html..."        
-            typst compile --root . "$file" "$target_html" --format html
+          # 3. Cerca tutti i file che si chiamano esattamente 'main.typ'
+          find docs -name "main.typ" | while read -r file; do
+            
+            # Estrae il nome della cartella superiore (es. biologia)
+            folder_name=$(basename "$(dirname "$file")")
+            
+            # Definisce il percorso finale (es. dist/pdf/biologia.pdf)
+            target_pdf="dist/pdf/${folder_name}.pdf"
+            
+            echo "Compilazione in corso: $file -> $target_pdf"
+            
+            # Compila il file Typst direttamente nel PDF finale rinominandolo con il nome della cartella
+            typst compile --root . "$file" "$target_pdf"
           done
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # Pubblica online solo il contenuto della cartella dist
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
