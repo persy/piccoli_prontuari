@@ -4,6 +4,6 @@
   subject: "Fisica",
   color: main_scienze,
   image: image("../../docs/fisica/img/cover.png", width: 60%),
-  arguments: "Meccanica · Termodinamica · Elettromagnetismo · Fenomeni ondulatori · Fisica atomica · Meccanica quantistica · Relatività"
+  arguments: "Meccanica · Termodinamica · Elettromagnetismo · Onde · Fisica atomica · Quantistica · Relatività"
 )
 
