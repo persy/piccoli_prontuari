@@ -4,7 +4,7 @@
 
 In questo repository trovi i file sorgente in [typst](https://github.com/typst/typst) per compilare i manuali, in formato PDF, che verranno pubblicati sul [WikiBigino](https://wikibigino.miraheze.org/wiki/Pagina_principale). 
 
-Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/pp_sito/) dedicato.
+Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccoli_prontuari/) dedicato.
 
 ## Struttura del repository
 

@@ -54,7 +54,7 @@ place(center + horizon)[
   #block[
     #set text(size: 5em, weight: "black", font: cover-fonts)
     #place(center + horizon, dx: 1.5pt, dy: 1.5pt)[#text(fill: black.transparentize(65%))[#subject]]
-    #text(fill: gradient, stroke: 0.5pt + white.darken(50%))[#subject]
+    #text(fill: gradient)[#subject]
   ] 
   #v(2em)
   
