@@ -1,4 +1,4 @@
-#import "../_global/template_old.typ": *
+#import "../_global/template.typ": *
 #import "../_global/config.typ": *
 
 // ==========================================

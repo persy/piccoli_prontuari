@@ -2,7 +2,7 @@
 
 #copertina(
   subject: "Storia dell'Arte",  
-  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  cover-image: image("cover.webp", width: 100%, height: 100%, fit: "cover", 
   ),
   arguments: "Dall'arte antica alle Avanguardie · Autori · Correnti · Movimenti · Capolavori"
 )

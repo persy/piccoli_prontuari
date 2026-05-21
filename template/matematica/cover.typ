@@ -2,7 +2,7 @@
 
 #copertina(
   subject: "Matematica",  
-  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  cover-image: image("cover.webp", width: 100%, height: 100%, fit: "cover", 
   ),
   arguments: "Algebra · Geometria · Analisi · Logica · Statistica · Probabilità"
 )
