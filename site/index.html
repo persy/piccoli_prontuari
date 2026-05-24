@@ -76,21 +76,26 @@
             overflow: hidden;
         }
 
-        /* Contenitore per l'immagine della copertina */
+        /* Contenitore per l'immagine della copertina intera */
         .card-cover {
             width: 100%;
-            height: 180px;
-            background-color: #e2e8f0;
+            height: 220px;
+            background-color: #f8fafc;
             overflow: hidden;
             position: relative;
             border-bottom: 1px solid rgba(15, 23, 42, 0.04);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .card-cover img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
             transition: transform 0.3s ease;
+            padding: 12px;
+            box-sizing: border-box;
         }
 
         /* Effetto zoom sulla copertina al passaggio del mouse */
@@ -98,7 +103,7 @@
             transform: scale(1.04);
         }
 
-        /* Il gradiente colorato ora si applica come linea sopra l'immagine */
+        /* Il gradiente colorato si applica come linea superiore */
         .card::before {
             content: '';
             position: absolute;
@@ -110,7 +115,7 @@
             z-index: 2;
         }
 
-        /* Contenuto testuale della card distanziato correttamente */
+        /* Contenuto testuale strutturato per spingere il pulsante in basso */
         .card-body {
             padding: 24px;
             display: flex;
@@ -143,15 +148,36 @@
         }
 
         .card p {
-            margin: 0;
+            margin: 0 0 24px 0;
             color: var(--text-muted);
             font-size: 0.93rem;
             line-height: 1.6;
-            flex-grow: 1;
+            flex-grow: 1; /* Spinge tutto ciò che segue (il pulsante) sul fondo della card */
         }
 
         .card-link:hover .card h2 {
             color: var(--hover-color);
+        }
+
+        /* Il pulsante di download centrato che riprende il gradiente dinamico */
+        .download-btn {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background: var(--materia-gradient);
+            color: white;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.2s ease, filter 0.2s ease;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+        }
+
+        .card-link:hover .download-btn {
+            filter: brightness(1.05);
+            transform: scale(1.03);
         }
 
         /* -----------------------------------------------------------------
@@ -219,50 +245,55 @@
         
         <a href="pdf/matematica.pdf" class="card-link matematica" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/matematica.png" alt="Copertina Matematica" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/matematica.webp" alt="Copertina Matematica" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>📐</span> Matematica (in scrittura)</h2>
                     <p>Algebra e Geometria · Analisi e Logica · Statistica e Probabilità</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
 
         <a href="pdf/fisica.pdf" class="card-link fisica" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/fisica.png" alt="Copertina Fisica" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/fisica.webp" alt="Copertina Fisica" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>⚡</span> Fisica</h2>
                     <p>Meccanica e Onde · Termodinamica ed Elettromagnetismo · Fisica Atomica e Quantistica · Relatività</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
 
         <a href="pdf/chimica.pdf" class="card-link chimica" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/chimica.png" alt="Copertina Chimica" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/chimica.webp" alt="Copertina Chimica" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>🧪</span> Chimica</h2>
                     <p>Inorganica e Organica · Materia, Legami e Stati · Reazioni e Trasformazioni · Ambiente</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
 
         <a href="pdf/biologia.pdf" class="card-link biologia" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/biologia.png" alt="Copertina Biologia" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/biologia.webp" alt="Copertina Biologia" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>🧬</span> Biologia</h2>
                     <p>Biochimica, Microbiologia e Genetica · Evoluzione ed Etologia · Ecologia e Corpo Umano</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
 
         <a href="pdf/scienze_terra.pdf" class="card-link scienze-terra" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/scienze_terra.png" alt="Copertina Scienze della Terra" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/scienze_terra.webp" alt="Copertina Scienze della Terra" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>🌍</span> Scienze della Terra</h2>
                     <p>Astronomia e Geologia · Mineralogia e Geomorfologia · Meteorologia, Idrologia ed Ecologia</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
@@ -274,30 +305,33 @@
 
         <a href="pdf/letteratura_italiana.pdf" class="card-link letteratura-it" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/letteratura_italiana.png" alt="Copertina Letteratura italiana" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/letteratura_italiana.webp" alt="Copertina Letteratura italiana" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>✍️</span> Letteratura italiana</h2>
                     <p>Dalle Origini ai Giorni Nostri · Movimenti e Protagonisti · Prosa, Poesia e Teatro</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
 
         <a href="pdf/letteratura_inglese.pdf" class="card-link letteratura-en" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/letteratura_inglese.png" alt="Copertina Letteratura inglese" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/letteratura_inglese.webp" alt="Copertina Letteratura inglese" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>🇬🇧</span> Letteratura inglese</h2>
                     <p>Origini Anglosassoni ed Età Elisabettiana · Illuminismo, Restauro e Romanticismo · Età Vittoriana e Novecento</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
 
         <a href="pdf/letteratura_latina.pdf" class="card-link letteratura-la" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/letteratura_latina.png" alt="Copertina Letteratura latina" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/letteratura_latina.webp" alt="Copertina Letteratura latina" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>🏛️</span> Letteratura latina</h2>
                     <p>Dall'Età Arcaica al Medioevo · Autori e Scuole · Generi e Forme Letterarie</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
@@ -309,30 +343,33 @@
 
         <a href="pdf/storia.pdf" class="card-link storia" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/storia.png" alt="Copertina Storia" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/storia.webp" alt="Copertina Storia" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>⏳</span> Storia</h2>
                     <p>Dalla Preistoria al Contemporaneo · Eventi, Protagonisti e Vita Quotidiana · Inquadramenti Geostorici e Cronologie</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
 
         <a href="pdf/storia_arte.pdf" class="card-link storia-arte" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/storia_arte.png" alt="Copertina Storia dell'arte" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/storia_arte.webp" alt="Copertina Storia dell'arte" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>🎨</span> Storia dell'arte</h2>
                     <p>Dall'Arte Antica alle Avanguardie · Correnti e Movimenti · Autori e Capolavori</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
 
         <a href="pdf/filosofia.pdf" class="card-link filosofia" target="_blank">
             <div class="card">
-                <div class="card-cover"><img src="assets/filosofia.png" alt="Copertina Filosofia" loading="lazy"></div>
+                <div class="card-cover"><img src="assets/filosofia.webp" alt="Copertina Filosofia" loading="lazy"></div>
                 <div class="card-body">
                     <h2><span>💭</span> Filosofia</h2>
                     <p>Storia del Pensiero Filosofico · Morale e Metafisica · Epistemologia ed Estetica · Filosofia Politica</p>
+                    <div class="download-btn">Scarica PDF</div>
                 </div>
             </div>
         </a>
