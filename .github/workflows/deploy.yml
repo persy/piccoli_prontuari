@@ -54,7 +54,7 @@ jobs:
       # 3. Organizza la cartella 'dist' e compila SOLO i modificati
       - name: Compile and Organize PDFs
         run: |
-          # Crea le cartelle necessarie
+          # Crea le cartelle necessarie per il deploy
           mkdir -p dist/pdf
 
           # Copia il contenuto di 'site/' (HTML, immagini, ecc.) dentro 'dist'
@@ -71,35 +71,41 @@ jobs:
           else
             echo "🔍 File modificati rilevati: ${{ steps.changed-files.outputs.all_changed_files }}"
             
-            # Ciclo sui file modificati forniti dall'azione precedente
+            # Array associativo per evitare doppie compilazioni nello stesso push
+            declare -A compilati
+            
             for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+              materia=""
               
-              # Ci interessano solo i file "main.typ" per la compilazione finale
-              # Se modifichi un sotto-file (es. funzioni.typ), dovrai toccare anche il main.typ 
-              # o mappare la cartella. Per sicurezza, compiliamo il 'main.typ' del modulo corrente.
+              # CASO 1: Modifica dentro template/matematica/...
+              if [[ "$file" == template/* ]]; then
+                materia=$(echo "$file" | cut -d'/' -f2)
               
-              base_dir=$(dirname "$file")
-              main_file="${base_dir}/main.typ"
+              # CASO 2: Modifica dentro docs/matematica/...
+              elif [[ "$file" == docs/* ]]; then
+                materia=$(echo "$file" | cut -d'/' -f2)
+              fi
               
-              # Controlla se esiste un file main.typ nella cartella del file modificato
-              if [ -f "$main_file" ]; then
-                echo "------------------------------------------------"
-                echo "📄 Modifica rilevata in modulo. Compilazione di: $main_file"
+              # Se abbiamo isolato il nome della materia e non l'abbiamo ancora elaborata in questo run
+              if [ -n "$materia" ] && [ -z "${compilati[$materia]}" ]; then
                 
-                # Estrae il nome della cartella superiore (es. chimica)
-                folder_name=$(basename "$base_dir")
+                # Il target punta sempre alla cartella della materia dentro template
+                main_file="template/${materia}/main.typ"
                 
-                # Evita di usare nomi di cartelle strutturali
-                if [ "$folder_name" = "docs" ] || [ "$folder_name" = "." ] || [ "$folder_name" = "template" ]; then
-                  folder_name="generale"
+                if [ -f "$main_file" ]; then
+                  echo "------------------------------------------------"
+                  echo "📄 Modifica rilevata per la materia: $materia"
+                  
+                  target_pdf="dist/pdf/${materia}.pdf"
+                  echo "🚀 Compilazione incrementale in corso: $main_file -> $target_pdf"
+                  
+                  typst compile --root . --font-path ./fonts "$main_file" "$target_pdf" || { echo "❌ Errore critico in Typst per $main_file"; exit 1; }
+                  
+                  # Segna la materia come completata per saltare eventuali altri file correlati nello stesso commit
+                  compilati[$materia]=1
+                else
+                  echo "ℹ️ Trovata modifica in '$file' (materia: $materia), ma non esiste il file principale '$main_file'. Salto."
                 fi
-                
-                target_pdf="dist/pdf/${folder_name}.pdf"
-                echo "🚀 Compilazione incrementale in corso: $main_file -> $target_pdf"
-                
-                typst compile --root . --font-path ./fonts "$main_file" "$target_pdf" || { echo "❌ Errore critico in Typst per $main_file"; exit 1; }
-              else
-                echo "ℹ️ Il file modificato ($file) non appartiene a un modulo con 'main.typ'. Salto."
               fi
             done
           fi
