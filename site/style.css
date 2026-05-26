@@ -1,0 +1,270 @@
+:root {
+    --bg-color: #f4f6f9;
+    --text-color: #1e293b;
+    --text-muted: #64748b;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: var(--text-color);
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+    background-color: var(--bg-color);
+}
+
+h1 { 
+    color: #0f172a; 
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -0.025em;
+}
+
+.intro {
+    font-size: 1.15rem;
+    color: var(--text-muted);
+    margin-bottom: 50px;
+    max-width: 700px;
+}
+
+.macro-area-title {
+    font-size: 1.5rem;
+    color: #0f172a;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    gap: 24px; 
+    margin-bottom: 20px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    border-radius: 20px;
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card { 
+    background: white; 
+    border-radius: 20px; 
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(15, 23, 42, 0.04);
+    box-shadow: 0 4px 10px -1px rgba(15, 23, 42, 0.03), 0 2px 4px -1px rgba(15, 23, 42, 0.02);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Contenitore per l'immagine della copertina intera */
+.card-cover {
+    width: 100%;
+    height: 220px;
+    background-color: #f8fafc;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-cover img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+/* Effetto zoom sulla copertina al passaggio del mouse */
+.card-link:hover .card-cover img {
+    transform: scale(1.04);
+}
+
+/* Il gradiente colorato si applica come linea superiore */
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: var(--materia-gradient);
+    z-index: 2;
+}
+
+/* Contenuto testuale strutturato per spingere il pulsante in basso */
+.card-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-link:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 22px 30px -5px rgba(15, 23, 42, 0.08), 0 12px 15px -5px rgba(15, 23, 42, 0.04);
+}
+
+.card h2 { 
+    margin: 0 0 12px 0; 
+    color: #0f172a; 
+    font-size: 1.3rem; 
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.2s ease;
+}
+
+.card h2 span { 
+    font-size: 1.5rem; 
+    background: var(--materia-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card p {
+    margin: 0 0 24px 0;
+    color: var(--text-muted);
+    font-size: 0.93rem;
+    line-height: 1.6;
+    flex-grow: 1; /* Spinge il pulsante sul fondo della card */
+}
+
+.card-link:hover .card h2 {
+    color: var(--hover-color);
+}
+
+/* Il pulsante di download centrato che riprende il gradiente dinamico */
+.download-btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: var(--materia-gradient);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.card-link:hover .download-btn {
+    filter: brightness(1.05);
+    transform: scale(1.03);
+}
+
+/* -----------------------------------------------------------------
+   TAVOLOZZA GRADIENTI ARMONIZZATA PER MACRO-AREE
+----------------------------------------------------------------- */
+.matematica     { --materia-gradient: linear-gradient(90deg, #2563eb, #3b82f6); --hover-color: #2563eb; } 
+.fisica         { --materia-gradient: linear-gradient(90deg, #4f46e5, #6366f1); --hover-color: #4f46e5; } 
+.chimica        { --materia-gradient: linear-gradient(90deg, #0d9488, #06b6d4); --hover-color: #0d9488; } 
+.biologia       { --materia-gradient: linear-gradient(90deg, #059669, #10b981); --hover-color: #059669; } 
+.scienze-terra  { --materia-gradient: linear-gradient(90deg, #0284c7, #0ea5e9); --hover-color: #0284c7; } 
+
+.letteratura-it { --materia-gradient: linear-gradient(90deg, #ea580c, #f97316); --hover-color: #ea580c; } 
+.letteratura-en { --materia-gradient: linear-gradient(90deg, #d97706, #f59e0b); --hover-color: #d97706; } 
+.letteratura-la { --materia-gradient: linear-gradient(90deg, #b45309, #d97706); --hover-color: #b45309; } 
+
+.storia         { --materia-gradient: linear-gradient(90deg, #991b1b, #dc2626); --hover-color: #991b1b; } 
+.storia-arte    { --materia-gradient: linear-gradient(90deg, #be185d, #ec4899); --hover-color: #be185d; } 
+.filosofia      { --materia-gradient: linear-gradient(90deg, #e23eb1, #942372); --hover-color: #475569; } 
+
+/* Struttura del footer informativo */
+.footer {
+    margin-top: 90px;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer p {
+    margin: 6px 0;
+}
+
+.footer a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.license-badge {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 4px 10px;
+    background-color: #e2e8f0;
+    color: #475569;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+/* -----------------------------------------------------------------
+   GITHUB CORNER (SVG + ANIMAZIONE)
+----------------------------------------------------------------- */
+.github-corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    z-index: 9999;
+}
+
+.github-corner svg {
+    fill: url(#github-gradient); /* Sempre a gradiente */
+    color: var(--bg-color);
+    width: 80px;
+    height: 80px;
+    transition: transform 0.2s ease; /* Puoi animare la scalata invece del colore */
+}
+
+.github-corner:hover svg {
+    transform: scale(1.05); /* Giusto un accenno di zoom sull'angolo */
+}
+
+/* Al passaggio del mouse il corner si colora con il blu della matematica */
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+}
+
+/* Animazione dell'icona (saluto dell'Octocat) */
+@keyframes octocat-wave {
+    0%, 100% { transform: rotate(0); }
+    20%, 60% { transform: rotate(-25deg); }
+    40%, 80% { transform: rotate(10deg); }
+}
+
+/* Ottimizzazione per dispositivi mobile: disattiva l'animazione */
+@media (max-width: 500px) {
+    .github-corner:hover .octo-arm { animation: none; }
+    .github-corner .octo-arm { animation: octocat-wave 560ms ease-in-out; }
+}
+

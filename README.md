@@ -10,7 +10,7 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccol
 
 ```bash
 ├── docs/
-│   ├── \<materia\>/
+│   ├── <materia>/
 │   │   ├── img/
 │   │   │   ├── immagine.png
 │   │   │   └── diagramma.jpg
@@ -18,7 +18,7 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccol
 │   │   ├── 01_capitolo.typ
 │   │   ├── 02_capitolo.typ
 │   │   └── ...
-│   └── \<materia\>/
+│   └── <materia>/
 │       ├── img/
 │       │   ├── immagine.png
 │       │   └── diagramma.jpg
@@ -31,11 +31,11 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccol
     │   ├── config.typ
     │   ├── template.typ
     │   └── ...
-    ├── \<materia\>/
+    ├── <materia>/
     │   ├── main.typ
     │   ├── cover.typ
     │   └── retro.typ
-    └── \<materia\>/
+    └── <materia>/
         ├── main.typ
         ├── cover.typ
         └── retro.typ

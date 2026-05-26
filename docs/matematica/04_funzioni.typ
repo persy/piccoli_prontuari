@@ -418,3 +418,34 @@ $ f(x) = |x| = cases(
 Il grafico cartesiano della funzione valore assoluto può essere facilmente costruito partendo dalla definizione sopra riportata. Una rappresentazione visiva del grafico è mostrata nella @funzione_valore_assoluto.
 
 #funzione_valore_assoluto
+
+=== Le funzioni potenza con esponente intero
+La definizione di potenza con esponente intero permette di introdurre il concetto di funzioni potenza ad esponente intero. Si tratta di funzioni reali che seguono la legge:
+$ x |-> x^m, quad m in ZZ. $
+
+Il dominio naturale di queste funzioni dipende dal valore dell'esponente $m$. Se $m > 0$, il dominio naturale è l'insieme dei numeri reali $RR$; al contrario, se $m <= 0$, il dominio naturale è $RR without {0}$, ovvero tutti i numeri reali eccetto lo zero. Quando necessario, ci riferiremo a queste funzioni con il simbolo $p_m$, dove $p_m (x) = x^m$.
+
+Un aspetto interessante di queste funzioni è il comportamento rispetto alla parità dell'esponente:
+- se $m$ è pari, allora risulta $x^m = (-x)^m$, quindi $p_m (x) = p_m (-x)$; le funzioni con questa proprietà sono dette funzioni pari
+- se $m$ è dispari, allora $x^m = -(-x)^m$, il che implica $p_m (x) = -p_m (-x)$; le funzioni che godono di questa proprietà sono dette funzioni dispari
+
+Questa categorizzazione ha implicazioni sul grafico delle funzioni: 
+- le funzioni pari hanno un grafico simmetrico rispetto all'asse delle ordinate.
+- le funzioni dispari mostrano un grafico simmetrico rispetto all'origine del piano cartesiano
+
+Affinché queste simmetrie abbiano senso, è necessario che il dominio della funzione sia simmetrico rispetto all'origine, caratteristica che si verifica per le funzioni potenza qui descritte. Nelle @funzione_pari e @funzione_dispari vengono mostrati esempi di grafici di una funzione pari e di una funzione dispari. Un altro esempio di funzione pari già trattata è la funzione valore assoluto.
+
+#funzioni_pari_dispari
+
+Per quanto riguarda la rappresentazione grafica delle funzioni potenza, è sufficiente disegnare la parte relativa ai valori $x >= 0$ (o $x > 0$ quando l'esponente è minore o uguale a zero).
+
+==== Potenza con esponente 0
+
+Consideriamo la funzione $p_0 (x)$ definita come segue:  
+$ p_0 (x) = x^0 = 1, quad "per " x != 0 $  
+
+Il grafico di questa funzione è una linea orizzontale in corrispondenza del valore 1, a eccezione dell'origine, dove la funzione non è definita. Tuttavia, convenzionalmente si estende il dominio della funzione includendo anche l'origine, assegnando il valore $p_0 (0) = 1$. Questo viene chiamato prolungamento della funzione all'origine.
+
+È importante sottolineare che questa convenzione non implica definire il valore indeterminato $0^0$ (che non ha significato matematico), ma semplicemente stabilire che $p_0$ ha dominio sull'intero insieme dei numeri reali $RR$, con il valore $p_0 (0)$ uguale a 1.
+
+#funzione_potenza_zero

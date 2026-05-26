@@ -2087,12 +2087,12 @@ caption: []
   import cetz.draw: *
 
   plot.plot(
-    size: (4, 2),
+    size: (6, 3),
     axis-style: "school-book",
     x-tick-step: 1,      
     y-tick-step: 1,      
-    x-min: -1, x-max: 1,
-    y-min: 0, y-max: 1,
+    x-min: -3, x-max: 3,
+    y-min: 0, y-max: 3,
     x-label: [$x$],        
     y-label: [$y$],    
     x-grid: none,   
@@ -2118,9 +2118,105 @@ caption: []
 ) <funzione_valore_assoluto>
 ] 
 
+#let funzioni_pari_dispari = [
+  #align(center)[
+    #grid(columns: 2, column-gutter: 1em)[#figure(
+  cetz.canvas({
+  import cetz.draw: *
 
+  plot.plot(
+    size: (4, 2),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: -1.5, y-max: 1,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    
+    {
+      // 
+      plot.add(
+        domain: (-5, 5),        
+        style: (stroke: accent.mat.lighten(5%), ),
+        x => 1/5 * calc.pow(x, 4) - calc.pow(x, 2) - 1/5
+      )
+      
+    }
+  )
+}),
+caption: []
+) <funzione_pari>
 
+    ][#figure(
+  cetz.canvas({
+  import cetz.draw: *
 
+  plot.plot(
+    size: (4, 2),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: -1.5, y-max: 1,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    
+    {
+      // 
+      plot.add(
+        domain: (-5, 5),        
+        style: (stroke: accent.mat.lighten(5%), ),
+        x => 1/5 * calc.pow(x, 3) - x
+      )
+      //
+
+    }
+  )
+}),
+caption: []
+) <funzione_dispari>
+
+    ]
+  ] 
+]
+
+#let funzione_potenza_zero = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+
+  plot.plot(
+    size: (6, 3),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: -.5, y-max: 1,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    
+    {
+      // 
+      plot.add(
+        domain: (-5, 5),        
+        style: (stroke: accent.mat.lighten(5%), ),
+        x => calc.pow(x, 0)
+      )
+      //
+
+    }
+  )
+}),
+caption: []
+) <funzione_potenza_zero>
+]
 
 
 

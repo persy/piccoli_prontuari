@@ -147,8 +147,9 @@
 
   //Titoli
   show heading.where( level: 1 ): set text(font: title-fonts, size: 17pt, weight: "bold", style: "normal")
-  show heading.where( level: 2 ): set text(font: title-fonts, size: 14pt, weight: "bold", style: "normal")
+  show heading.where( level: 2 ): set text(font: title-fonts, size: 15pt, weight: "bold", style: "normal")
   show heading.where( level: 3 ): set text(font: title-fonts, size: 13pt, weight: "bold", style: "normal")
+  show heading.where( level: 4 ): set text(font: title-fonts, size: 11pt, weight: "bold", style: "normal")
   set heading(numbering: (..nums) => {
   let num-string = nums.pos().map(str).join(".")
   text(fill: accent, weight: "bold", num-string)
