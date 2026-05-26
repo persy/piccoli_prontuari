@@ -4,6 +4,7 @@
 // ==========================================
 // CONFIGURAZIONE UNICA DEL LIBRO
 // ==========================================
+
 #accent_color.update(accent.eng)
 #gradient_color.update(gradient.eng)
 

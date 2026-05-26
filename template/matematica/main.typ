@@ -25,7 +25,6 @@
   counter("esempio").update(0)
 }
 
-
 // Capitoli
 = Introduzione <senza_numero>
 

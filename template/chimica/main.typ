@@ -5,6 +5,7 @@
 // ==========================================
 // CONFIGURAZIONE UNICA DEL LIBRO
 // ==========================================
+
 #accent_color.update(accent.chi)
 #gradient_color.update(gradient.chi)
 
