@@ -122,7 +122,7 @@ $ P(x) = a_0 + a_1 x + a_2 x^2 + dots + a_(n-1) x^(n-1) + a_n x^n $
 
 dove ogni coefficiente si riferisce chiaramente al rispettivo monomio in $x$. In questa rappresentazione, $a_0$ è chiamato termine noto, mentre $a_n$ è detto primo coefficiente.
 
-Per i polinomi in una indeterminata sussiste il seguente teorema, analogo a quello riportato in @divisibilità_numeri_primi valido per la divisione tra naturali.
+Per i polinomi in una indeterminata sussiste il seguente teorema, analogo a quello riportato in @numeri_naturali_reali, @divisibilità_numeri_primi, valido per la divisione tra naturali.
 #v(3em)
 #definizione(title: "Teorema sulla divisione dei polinomi", label: <teorema_divisione_polinomi>)[
 Dati due polinomi $N$ e $D$ con $deg(N) >= deg(D)$, e $D$ diverso dal polinomio nullo, esiste una e una sola coppia di polinomi $Q$ (quoziente) e $R$ (resto) tali che:
@@ -210,7 +210,7 @@ Si possono ottenere risultati diversi a seconda che si scelga $a$ o $b$ come ind
 
 Questi esempi illustrano chiaramente come la scelta della variabile principale influisca sul risultato della divisione.
 
-== Prodotti notevoli e scomposizione di polinomi
+== Prodotti notevoli e scomposizione di polinomi <prodotti_notevoli_scomposizione_polinomi>
 In molti casi, il calcolo del prodotto tra polinomi può essere reso più efficiente con l'ausilio di specifici accorgimenti noti come prodotti notevoli. Tali strumenti consentono di abbreviare i tempi di esecuzione nei calcoli.
 
 Un altro aspetto tecnico di grande rilevanza nelle applicazioni riguarda la scomposizione di un polinomio nel prodotto di due o più polinomi, operazione nota come scomposizione in fattori. Anche i prodotti notevoli possono essere utilizzati a questo scopo, come avremo modo di approfondire. 
@@ -411,7 +411,7 @@ ammette uno zero razionale nella forma $alpha = p/q$, dove $p$ e $q$ sono numeri
 
 Si osservi che, se un polinomio ha $a_n = 1$, diventando quindi monico, eventuali zeri razionali saranno numeri interi. In altre parole, per determinare i possibili zeri razionali di un polinomio, è necessario elencare tutti i divisori del termine noto e del primo coefficiente. Successivamente, si considerano tutte le frazioni che hanno come numeratore un divisore del termine noto e come denominatore un divisore del primo coefficiente. Poiché il numero di tali frazioni è finito, è possibile effettuare, anche manualmente, una ricerca degli eventuali zeri razionali.
 
-#esempio[Consideriamo il polinomio $ P(x) = 15x^5 + 5x^4 + 3x^2 - 95x - 32 $
+#esempio[Consideriamo il polinomio $ P(x) = 15x^5 + 5x^4 + 3x^2 - 95x - 32 $<polinomio_grado_V>
 
 I divisori del termine noto ($-32$) e del primo coefficiente ($15$) sono: $ {#math.plus.minus 1, #math.plus.minus 2, #math.plus.minus 4, #math.plus.minus 8, #math.plus.minus 16, #math.plus.minus 32}, quad {#math.plus.minus 1, #math.plus.minus 3, #math.plus.minus 5, #math.plus.minus 15} $
 
@@ -442,7 +442,7 @@ Da questa forma si deduce immediatamente che il segno della quantità discrimina
   $ x_1 = (-b - sqrt(b^2 - 4a c)) / (2a), quad x_2 = (-b + sqrt(b^2 - 4a c)) / (2a) $
 
 Cumulativamente, possiamo esprimere gli zeri reali nella forma standard:  
-$ x_(1,2) = (-b #math.plus.minus sqrt(b^2 - 4a c)) / (2a). $
+$ x_(1,2) = (-b #math.plus.minus sqrt(b^2 - 4a c)) / (2a) $<discriminante> 
 
 La quantità $b^2 - 4a c$ viene chiamata discriminante e indicata con il simbolo $Delta$ (delta). Il discriminante "discrimina", in base al suo segno, il numero di zeri reali del trinomio $P(x) = a x^2 + b x + c$.
 

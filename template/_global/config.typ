@@ -128,16 +128,10 @@
 } */
 
 // Riquadro per definizioni, teoremi, dimostrazioni..; utilizzo: #definizione[title: "optional title", label: <optional label>]; inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo
-#let definizione(title: none, label: none, ..sections) = context {  
-  let accent = accent_color.get() 
-  
-  let def-numbering(def-num) = context {
-    let cap = counter(heading).get()
-    let cap-num = if cap.len() > 0 { cap.first() } else { 0 }
-    [#cap-num.#def-num]
-  }
-  
-  let box-content = {
+#let definizione(title: none, label: none, ..sections) = {  
+  let box-content = context {
+    let accent = accent_color.get() 
+    
     let args = (
       frame: (
         border-color: accent.lighten(20%), 
@@ -152,8 +146,8 @@
       breakable: true,
     )
     
-    let display-title = context {      
-      let n = counter(figure.where(kind: "definizione")).display(def-numbering)
+    let display-title = {    
+      let n = counter(figure.where(kind: "definizione")).display()
       let t = if title != none and title != "" [: #title] else []
       text(size: 0.8em, weight: "bold", font: sans-fonts)[Definizione #text(fill: accent.darken(20%))[#n]#t]
     }
@@ -162,7 +156,14 @@
     showybox(..args, ..sections.pos())
   }
   
-  [#figure(box-content, kind: "definizione", supplement: none, numbering: def-numbering, caption: none)#label]
+  // Assegniamo "1.1" come numbering nativo della figura
+  [#figure(
+    box-content, 
+    kind: "definizione", 
+    supplement: [Def.], 
+    numbering: "1.1", 
+    caption: none
+  )#label]
 }
 
 // Separatore da inserire all'interno di una #definizione

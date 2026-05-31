@@ -312,9 +312,9 @@ Infine, ci sono casi in cui è necessario costruire funzioni inverse anche per f
 // Arrivato qui 
 #set text(lang: "it", size: 11pt)
 
-Esempio 4.6. La funzione $f: RR -> RR, quad x |-> x^2$ (o, in forma compatta, la funzione $f(x) = x^2$) non è né iniettiva né suriettiva. Tuttavia, se si considera la funzione $g: RR^+ -> RR^+, quad x |-> x^2$, ottenuta restringendo sia il dominio che il codominio, si ottiene una funzione biunivoca e quindi invertibile. L'inversa di $g$ è proprio quella che viene chiamata funzione radice quadrata (e non quella di $f$, che non è invertibile!). In particolare:
+#esempio[La funzione $f: RR -> RR, quad x |-> x^2$ (o, in forma compatta, la funzione $f(x) = x^2$) non è né iniettiva né suriettiva. Tuttavia, se si considera la funzione $g: RR^+ -> RR^+, quad x |-> x^2$, ottenuta restringendo sia il dominio che il codominio, si ottiene una funzione biunivoca e quindi invertibile. L'inversa di $g$ è proprio quella che viene chiamata funzione radice quadrata (e non quella di $f$, che non è invertibile!). In particolare:
 
-$ g^(-1)(x) = sqrt(x). $
+$ g^(-1)(x) = sqrt(x) $
 Di conseguenza, in accordo con quanto già visto nella formula (2.29), dalla relazione
 $ g(g^(-1)(x)) = x $
 si deduce che:
@@ -323,11 +323,9 @@ $ sqrt(x)^2 = x, quad "solo se " x >= 0. $
 D'altra parte, vale anche la relazione:
 $ sqrt(x^2) != x, $
 poiché $sqrt(x^2)$ corrisponde a $g^(-1)(f(x))$. In realtà, come già spiegato nella formula (2.28),
-$ sqrt(x^2) = |x|, quad forall x in RR. $
+$ sqrt(x^2) = |x|, quad forall x in RR. $ <funzione_x_quadrato>
 
-Dal punto di vista pratico, per trovare l'inversa di una funzione reale, occorre prima verificare se essa è biunivoca. Dopo tale verifica, si può scrivere l'equazione $y = f(x)$, e successivamente isolare la variabile $x$ in funzione di $y$. La nuova funzione così ottenuta sarà l'inversa cercata; infine, seguendo la convenzione comune, si può sostituire la variabile $y$ con $x$ per rispettare le consuete notazioni.
-
-#esempio[Consideriamo la funzione: $ f(x) = (x - 1) / (x + 1) $
+Dal punto di vista pratico, per trovare l'inversa di una funzione reale, occorre prima verificare se essa è biunivoca. Dopo tale verifica, si può scrivere l'equazione $y = f(x)$, e successivamente isolare la variabile $x$ in funzione di $y$. La nuova funzione così ottenuta sarà l'inversa cercata; infine, seguendo la convenzione comune, si può sostituire la variabile $y$ con $x$ per rispettare le consuete notazioni.][Consideriamo la funzione: $ f(x) = (x - 1) / (x + 1) $
 il cui dominio naturale è $RR without {-1}$. Si dimostra, attraverso i calcoli riportati di seguito, che restringendo il codominio a $RR without {1}$, si ottiene una funzione biunivoca e dunque invertibile, che indichiamo con $g$. In tal caso abbiamo:
 $ y = (x - 1) / (x + 1) => x y + y = x - 1 => x - x y = y + 1 => x = (y + 1) / (1 - y). $
 
@@ -374,7 +372,7 @@ Come diretto corollario, due rette della forma $y = m_1 x + q_1$ e $y = m_2 x + 
 
 Un'ulteriore osservazione riguarda l'inclinazione della retta: più grande è il valore assoluto del coefficiente angolare ($|m|$), più la retta si avvicina alla verticalità. Se una retta fosse propriamente verticale, il valore di $m$ diverrebbe infinito (positivamente o negativamente). Tuttavia, è importante sottolineare che le rette verticali non possono rappresentare funzioni in quanto ad una singola ascissa assocerebbero più valori ordinati. In ambito geometrico, si può comunque affermare che tali rette hanno un "coefficiente angolare infinito".
 
-I casi in cui $m = +-1$ e $q = 0$ sono particolarmente rilevanti. 
+I casi in cui $m = #math.plus.minus 1$ e $q = 0$ sono particolarmente rilevanti. 
 + $m = 1$: la funzione assume la forma $f(x) = x$, nota anche come funzione identica in $RR$. Essa associa ad ogni $x in RR$ lo stesso valore $x$ ed è indicata con $I_(RR)$ o $1_(RR)$. Il grafico di questa funzione, rappresentato in un sistema monometrico, corrisponde alla bisettrice del primo e del terzo quadrante, che talvolta viene chiamata anche diagonale di $RR^2 = RR times RR$.
 + $m = -1$: la funzione diventa $f(x) = -x$, chiamata anche funzione opposta in $RR$. Qui, ogni $x in RR$ viene associato al proprio opposto. Il grafico, sempre in un sistema monometrico, è la bisettrice del secondo e quarto quadrante.
 
@@ -391,7 +389,7 @@ Le funzioni del tipo $f(x) = m x + q$ con $q = 0$ sono dette funzioni lineari, m
 
 === La funzione polinomiale di secondo grado  
 La seconda funzione che vogliamo analizzare è quella definita come:  
-$ f(x) = a x^2 + b x + c $ ,oppure, più semplicemente: $ y = a x^2 + b x + c, quad a != 0. $  
+$ f(x) = a x^2 + b x + c $ ,oppure, più semplicemente: $ y = a x^2 + b x + c, quad a != 0 $  
 
 #funzione_polinomiale_II_grado
 
@@ -407,21 +405,23 @@ Questa funzione è denominata polinomiale di secondo grado e il suo grafico è u
 
 Questo argomento verrà trattato più approfonditamente nel capitolo dedicato alla geometria analitica.  
 
-=== La funzione valore assoluto  
-Abbiamo già introdotto il concetto di valore assoluto di un numero reale nella definizione 2.18. Passiamo ora a esaminare la funzione reale che si basa su questo concetto:  
+=== La funzione valore assoluto <funzione_valore_assoluto>
+
+Abbiamo già introdotto il concetto di valore assoluto di un numero reale con la @valore_assoluto nella @numeri_naturali_reali. Passiamo ora a esaminare la funzione reale che si basa su questo concetto:  
 
 $ f(x) = |x| = cases(
    x & "se " x >= 0, 
    -x & "se " x < 0.
 ) $  
 
-Il grafico cartesiano della funzione valore assoluto può essere facilmente costruito partendo dalla definizione sopra riportata. Una rappresentazione visiva del grafico è mostrata nella @funzione_valore_assoluto.
+Il grafico cartesiano della funzione valore assoluto può essere facilmente costruito partendo dalla definizione sopra riportata. Una rappresentazione visiva del grafico è mostrata nella @funzione_valore_assoluto_grafico.
 
 #funzione_valore_assoluto
 
 === Le funzioni potenza con esponente intero
+
 La definizione di potenza con esponente intero permette di introdurre il concetto di funzioni potenza ad esponente intero. Si tratta di funzioni reali che seguono la legge:
-$ x |-> x^m, quad m in ZZ. $
+$ x |-> x^m, quad m in ZZ $
 
 Il dominio naturale di queste funzioni dipende dal valore dell'esponente $m$. Se $m > 0$, il dominio naturale è l'insieme dei numeri reali $RR$; al contrario, se $m <= 0$, il dominio naturale è $RR without {0}$, ovvero tutti i numeri reali eccetto lo zero. Quando necessario, ci riferiremo a queste funzioni con il simbolo $p_m$, dove $p_m (x) = x^m$.
 
@@ -449,3 +449,151 @@ Il grafico di questa funzione è una linea orizzontale in corrispondenza del val
 È importante sottolineare che questa convenzione non implica definire il valore indeterminato $0^0$ (che non ha significato matematico), ma semplicemente stabilire che $p_0$ ha dominio sull'intero insieme dei numeri reali $RR$, con il valore $p_0 (0)$ uguale a 1.
 
 #funzione_potenza_zero
+
+==== Potenza con esponente 1
+
+Il caso in cui $p_m$ ha $m = 1$ ricade nelle funzioni polinomiali di primo grado. Si tratta, nello specifico, della funzione identità, già trattata in precedenza (vedi @funzione_valore_m).
+
+==== Potenza con esponente 2 
+
+Quando $p_m$ ha $m = 2$, si ottiene una funzione polinomiale di secondo grado, con i coefficienti $a = 1$ e $b = c = 0$. Di conseguenza, il grafico rappresenta una parabola avente asse di simmetria verticale e vertice nell'origine (@funzione_esponente_2).  
+
+#funzione_esponente_2
+
+==== Potenza con esponente \-1  
+
+Se $m = -1$, allora si ha:  
+$ p_(-1)(x) = x^(-1) = 1/x, quad x != 0 $  
+Questa funzione è comunemente nota come funzione reciproca. Il suo grafico è un'iperbole equilatera, illustrata nella @funzione_esponente_-1. 
+
+#funzione_esponente_-1
+
+Espressa nella forma $y = frac(1, x, style: "skewed")$, per $x != 0$ si può osservare che il prodotto tra $x$ e $y$ è sempre uguale a 1 ($x y = 1$), il che implica che $x$ e $y$ sono inversamente proporzionali: all'aumentare di una variabile, l'altra diminuisce proporzionalmente. In generale, una relazione di proporzionalità inversa assume la forma $y = frac(k, x, style: "skewed")$, e la funzione reciproca è un caso particolare con $k = 1$. Nelle @funzione_esponente_-1k trovate i grafici delle funzioni $f(x) = frac(k, x, style: "skewed")$, per $k = 2$ (a sinistra) e $k = -2$ (a destra).
+
+#funzione_esponente_-1k
+
+==== Potenze con esponente positivo 
+
+La @funzione_esponente_positivo presenta i grafici delle funzioni potenza per vari esponenti positivi, inclusi quelli già discussi ($m = 1$ e $m = 2$). Qui sono mostrati solo i grafici per $x >= 0$; è tuttavia possibile ottenere il grafico per $x < 0$ applicando una riflessione rispetto all'asse $y$, come già accennato. Si osserva che tutte queste funzioni passano per il punto $(0, 0)$ e assumono il valore $1$ per $x = 1$. Inoltre, se $0 < x < 1$, al crescere dell'esponente $m$, il valore di $x^m$ diventa sempre più piccolo. Viceversa, quando $x > 1$, al crescere dell'esponente, il valore di $x^m$ diventa sempre più grande. 
+
+#funzione_esponente_positivo
+
+==== Potenze con esponente negativo
+
+La @funzione_esponente_negativo riporta i grafici delle funzioni potenza per alcuni esponenti negativi, compreso il caso precedentemente trattato con $m = -1$. Sono stati rappresentati soltanto i grafici per $x > 0$; per ottenere quelli relativi a $x < 0$, basta riflettere il grafico rispetto all'asse originario, come già spiegato. Si nota che tutte queste funzioni non sono definite in $x = 0$, mentre assumono il valore $1$ quando $x = 1$. Inoltre, se $0 < x < 1$, al crescere (in senso assoluto) dell'esponente negativo ($m < 0$), il valore di $x^m$ cresce. Al contrario, per valori di $x > 1$, all'aumentare (in senso assoluto) di $m$, $x^m$ diminuisce.
+
+#funzione_esponente_negativo
+
+=== Le funzioni radice 
+
+Dall'analisi dei grafici emerge che tutte le funzioni potenza con esponente positivo, se limitate ai numeri reali non negativi, sono biunivoche e pertanto invertibili (si veda il riferimento @funzione_x_quadrato alla funzione $f(x) = x^2$). Le funzioni potenza con esponente positivo dispari maggiore di 1 risultano biunivoche e quindi invertibili senza la necessità di ulteriori restrizioni. Le rispettive funzioni inverse prendono il nome di funzioni radice e sono definite, nel caso in cui l'esponente $m$ sia pari ($m >= 2$), per $x >= 0$, mentre nel caso di $m > 1$ dispari, sono definite per qualsiasi valore reale di $x$. I grafici delle funzioni radice possono essere ricavati applicando una semplice simmetria rispetto alla bisettrice del primo e del terzo quadrante ai grafici delle funzioni potenza, come illustrato nella @funzione_radice.
+
+#funzione_radice
+
+=== Le funzioni potenza con esponente reale
+
+Grazie all'estensione della definizione di potenza agli esponenti razionali non interi e agli esponenti irrazionali, è possibile definire le funzioni con un esponente reale arbitrario $alpha$, anche quando questo è un razionale non intero o un irrazionale, come segue:  
+$ x |-> x^alpha $  
+dove il dominio naturale delle funzioni è $RR^+$ se $alpha > 0$, e $RR^+ without {0}$ se $alpha < 0$. 
+
+#funzione_esponente_reale
+
+Considerando la definizione $x^(frac(1, m, style: "skewed")) = root(m, x), quad m in NN, quad m > 1$, si può concludere che le funzioni radice costituiscono un caso particolare delle potenze con esponente razionale. Tuttavia, è opportuno sottolineare che, per evitare complicazioni legate alle basi negative (questione già evidenziata nella @potenza_reali, @numeri_naturali_reali), mentre $root(3, x)$ è generalmente definita su tutto il dominio dei numeri reali, $x^(frac(1, 3, style: "skewed"))$ viene ritenuta definita solo per $x >= 0$.  
+
+Senza entrare ulteriormente nei dettagli, osserviamo che queste funzioni estendono le proprietà già descritte per le funzioni potenza ad esponente intero e per quelle radice. La @funzione_esponente_reale presenta alcuni esempi di grafici utili per un confronto esplicativo.
+
+#set text(lang: "it", size: 11pt)
+
+=== Funzioni potenza e invertibilità
+
+Il tema dell'invertibilità delle funzioni potenza riveste un ruolo fondamentale in molte applicazioni ed è stato già approfondito nelle sezioni precedenti. Tuttavia, presentiamo qui un riepilogo generale per chiarire i diversi casi, specificando che il dominio considerato è sempre quello naturale. Quando necessario, si sottintende una restrizione del codominio all'immagine, al fine di evitare problemi legati alla suriettività:
++ la funzione $p_0(x)$, ovvero la potenza con esponente zero, definita su $RR$ con $p_0(0) = 0$, è costante e pertanto non invertibile.
++ le funzioni $f(x) = x^(#math.plus.minus 1)$ sono invertibili e coincidono con le proprie inverse.
++ le funzioni $f(x) = x^(#math.plus.minus 3), f(x) = x^(#math.plus.minus 5), dots$ (ossia le funzioni potenza con esponente intero dispari diverso da $#math.plus.minus 1$) sono invertibili. Le loro inverse sono $f(x) = root(3, x), f(x) = root(5, x), dots$ (per esponenti positivi) e $f(x) = 1/root(3, x), f(x) = 1/root(5, x), dots$ (per esponenti negativi).
++ le funzioni $f(x) = x^(#math.plus.minus 2),  f(x) = x^(#math.plus.minus 4), dots$ (ossia le funzioni potenza con esponente intero pari diverso da 0) non sono iniettive e quindi non risultano invertibili nell'intero dominio reale. Tuttavia, operando una restrizione ai reali $>= 0$ per esponenti positivi o $> 0$ per esponenti negativi, si ottengono funzioni iniettive e dunque invertibili (supponendo sempre una restrizione del codominio all'immagine). Le inverse di queste versioni ristrette delle funzioni sono $f(x) = x^(#math.plus.minus  1/2), f(x) = x^(#math.plus.minus  1/4), dots$, note come $f(x) = sqrt(x), f(x) = root(4, x), dots$ (per esponenti positivi) e $f(x) = 1/sqrt(x), f(x) = 1/root(4, x), dots$ (per esponenti negativi).
++ le funzioni $f(x) = x^a$, con $a$ non intero, sono invertibili, e le loro inverse sono $f(x) = x^(1/a)$. Tuttavia, se $a = #math.plus.minus 1/2, a = #math.plus.minus 1/3, dots, $ le inverse corrispondono a restrizioni delle funzioni $f(x) = x^(#math.plus.minus 2), f(x) = x^(#math.plus.minus 3), dots, $ definite solo per i reali $>= 0$ (nel caso di $a > 0$) o $> 0$ (nel caso di $a < 0$), conformemente alla convenzione adottata che prevede che le potenze con esponente razionale non siano definite per valori negativi del dominio reale.
+
+=== La funzione segno
+
+#definizione(title: "Funzione segno", label: <funzione_segno>) La funzione segno, mostrata nella figura @funzione_segno_grafico, è definita nel modo seguente:
+$ "sgn"(x) = cases(
+   -1 & "se " x < 0,
+   0 & "se " x = 0,
+   1 & "se " x > 0
+) $  
+
+#funzione_segno
+
+È opportuno notare che non tutti concordano sul considerare la funzione segno definita anche nel punto $x = 0$; tuttavia, la definizione qui utilizzata è quella ufficialmente riconosciuta ed adottata dalle norme ISO. Una proprietà fondamentale della funzione segno è il legame con il valore assoluto, espresso dalla seguente formula:  
+
+$ x = "sgn"(x) dot |x| $  
+
+Da questa relazione, è possibile dedurre un'ulteriore espressione:  
+
+$ "sgn"(x) = (x)/(|x|) = (|x|)/(x), quad "con " x != 0 $  
+
+Va sottolineato che molti autori propongono proprio quest'ultima espressione come definizione primaria della funzione segno, limitandola comunque al dominio in cui $x != 0$.
+
+//
+
+=== Le funzioni parte intera e concetti correlati
+
+Le funzioni descritte in questo paragrafo rivestono un ruolo fondamentale in diverse applicazioni, in particolare sono largamente utilizzate in informatica. Tuttavia, la terminologia utilizzata non è uniformemente accettata: come di consueto, ci siamo attenuti alla nomenclatura stabilita dalle norme ISO.
+
+==== Le funzioni _floor_ e _ceil_
+
+Dato un numero reale $x in RR$, esiste un unico intero $n$ tale che $n <= x < n + 1$. Questo valore rappresenta il più grande intero minore o uguale a $x$, indicato con $floor(x)$, che si legge come _floor_ $x$. La maggior parte dei matematici lo definisce come _parte intera_ di $x$ e spesso lo rappresenta con le parentesi quadre $[x]$. Poiché in questo contesto utilizzeremo il termine _parte intera_ con un significato diverso, eviteremo l'uso della notazione con parentesi quadre, ritenendola eccessivamente ambigua. La funzione $x |-> floor(x)$, definita su tutto l'insieme dei numeri reali $RR$, ha un grafico illustrato nella @funzione_floor.
+
+#esempio[$floor(-2.5) = -3$ 
+
+$floor(4.6) = 4$]
+
+Analogamente, per un dato $x in RR$, esiste un unico intero $m$ tale che $m - 1 < x <= m$. Questo valore rappresenta il più piccolo intero maggiore o uguale a $x$, indicato con $ceil(x)$, che si legge come _ceil_ $x$. La funzione $x |-> ceil(x)$, anch'essa definita su tutto $RR$, è rappresentata graficamente nella @funzione_ceil.
+
+#esempio[$ceil(-2.5) = -2$
+
+$ceil(4.6) = 5$]
+
+Si osserva, come emerge dalle definizioni, che per ogni numero reale vale la seguente disuguaglianza:  
+$ forall x in RR, quad floor(x) <= x <= ceil(x), $  
+ossia, ogni numero reale "è sempre compreso tra il pavimento e il soffitto".
+
+#funzioni_floor_ceil
+
+==== La funzione parte frazionaria
+
+La funzione $x - floor(x)$, il cui grafico è mostrato nella figura @funzione_parte_frazionaria, è spesso chiamata da molti matematici funzione parte frazionaria. Tuttavia, secondo la convenzione ISO, questo termine ha una diversa accezione, che verrà trattata in seguito. 
+
+#funzione_parte_frazionaria
+
+Nonostante ciò, questa funzione presenta alcuni vantaggi interessanti: è sempre non negativa ed è periodica con periodo pari a 1. Esploreremo ulteriormente il concetto di periodicità nel capitolo dedicato alle funzioni trigonometriche (vedi @goniometria_trigonometria).
+
+==== Le funzioni parte intera e parte frazionaria
+
+Per un numero reale $x$, si definisce _parte intera_ di $x$ il numero intero con segno che precede la virgola nella rappresentazione decimale di $x$. Essa è indicata come $"int" quad x$ ed è formalmente definita così:  
+$ "int" quad x = "sgn"(x) dot floor(|x|) $  
+dove $|x|$ rappresenta il valore assoluto di $x$ e $"sgn"(x)$ la funzione segno di $x$.
+
+#esempio[  
+$ "int"(-0.2) = 0 \ "int"(-3.5) = -3 \ "int"(4.1) = 4 $
+
+Il grafico della funzione parte intera è rappresentato nella @funzione_intero. 
+
+#funzione_intero
+
+]
+
+Dato un numero reale $x$, si definisce parte frazionaria di $x$, indicata con $"frac" x$, il valore espresso formalmente come:
+$ "frac" x = x - "int" x $
+In altre parole, la parte frazionaria di $x$ corrisponde alla porzione decimale che segue la virgola nella rappresentazione del numero, mantenendo il segno.
+
+#esempio[
+$ "frac"(-0.2) = -0.2 - "int"(-0.2) = -0.2 - (0) = -0.2 \ "frac"(-3.5) = -3.5 - "int"(-3.5) = -3.5 - (-3) = -0.5 \ "frac"(4.1) = 4.1 - "int"(4.1) = 4.1 - 4 = 0.1 $
+
+Il grafico della funzione che rappresenta la parte frazionaria è riportato nella @funzione_parte. 
+
+#funzione_parte
+
+]
+
+È importante sottolineare che la denominazione associata a queste funzioni non è universale: quando si studia un testo, è sempre opportuno consultare l'elenco delle notazioni e le rispettive definizioni fornite per evitare ambiguità o fraintendimenti.

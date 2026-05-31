@@ -65,8 +65,8 @@ Il principio d'induzione estende quest'idea al caso in cui la fila sia composta 
 
 Per trattare le operazioni definite nell'insieme dei numeri naturali, iniziamo richiamando il concetto generale di operazione interna su un insieme.  
 
-#definizione(title: "Operazione interna")[Dato un insieme $A$, si definisce operazione interna in $A$ ogni funzione 
-  $ phi : A times A -> A $ <operazione_interna> 
+#definizione(title: "Operazione interna", label: <operazione_interna>)[Dato un insieme $A$, si definisce operazione interna in $A$ ogni funzione 
+  $ phi : A times A -> A $  
 
 Tali funzioni vengono comunemente rappresentate mediante simboli come $dot$, $+$, $times$, $\/$, ecc.
 ]
@@ -129,7 +129,7 @@ Con l'introduzione dell'addizione e della moltiplicazione, emergono immediatamen
 + dati due numeri naturali $a$ e $b$, determinare se esiste un numero naturale $x$ tale che $x + b = a$.
 + dati due numeri naturali $a$ e $b$, determinare se esiste un numero naturale $x$ tale che $x dot b = a$.
 
-Questi rappresentano i primi esempi di equazioni con un'incognita. Tali problemi conducono rispettivamente all'introduzione delle operazioni di sottrazione e divisione, anche se il termine operazione non è pienamente corretto, secondo la definizione @operazione_interna data in precedenza. Infatti, né la sottrazione né la divisione sono definite in tutta $N times N$. Possiamo formulare le seguenti definizioni:
+Questi rappresentano i primi esempi di equazioni con un'incognita. Tali problemi conducono rispettivamente all'introduzione delle operazioni di sottrazione e divisione, anche se il termine operazione non è pienamente corretto, secondo la @operazione_interna data in precedenza. Infatti, né la sottrazione né la divisione sono definite in tutta $N times N$. Possiamo formulare le seguenti definizioni:
 
 #definizione(title: "Sottrazione")[Dati due numeri naturali $a$ e $b$, con $a >= b$, si definisce differenza di $a$ e $b$ (in quest'ordine) l'unico numero naturale $x$ tale che $x + b = a$. 
 
@@ -792,7 +792,7 @@ $ x^n = a, quad n in NN, n >= 2, quad a in RR, a >= 0 $<equazione_reali>
 
 L'insieme dei numeri reali $RR$ possiede un'importante proprietà nota come corpo archimedeo: questo implica che, dati due numeri reali $a > 0$ e $b > a$, esiste un multiplo di $a$ che supera $b$. Sebbene questa caratteristica possa sembrare intuitiva, non tutti i corpi ordinati ne sono dotati. Tuttavia, non ci soffermeremo ulteriormente su questo aspetto.
 
-Per quanto riguarda la "quantità di elementi" appartenenti all'insieme $RR$, è utile ricordare che abbiamo già dimostrato (@insiemi_finiti_infiniti) che l'insieme dei numeri reali possiede una cardinalità maggiore rispetto a quella dei numeri naturali, e di conseguenza rispetto anche a quella dei razionali. Questo è confermato dal teorema (@teorema_densità_razionali), secondo cui l'insieme dei numeri razionali ha la stessa cardinalità di quello dei naturali. Pertanto, l'insieme $RR$ è significativamente "più ricco" rispetto ai numeri razionali.
+Per quanto riguarda la "quantità di elementi" appartenenti all'insieme $RR$, è utile ricordare che abbiamo già dimostrato (@logica, @insiemi_finiti_infiniti) che l'insieme dei numeri reali possiede una cardinalità maggiore rispetto a quella dei numeri naturali, e di conseguenza rispetto anche a quella dei razionali. Questo è confermato dal teorema (@teorema_densità_razionali), secondo cui l'insieme dei numeri razionali ha la stessa cardinalità di quello dei naturali. Pertanto, l'insieme $RR$ è significativamente "più ricco" rispetto ai numeri razionali.
 
 Definendo l'insieme $RR$ come formato da tutti gli allineamenti decimali (escludendo quelli con periodo 9 per evitare duplicati), possiamo considerarlo costituito dall'unione dei numeri decimali finiti o periodici (ossia i razionali) con quelli decimali illimitati non periodici. Questi ultimi prendono il nome di numeri irrazionali o semplicemente irrazionali. Indichiamo gli irrazionali con $II$, quindi possiamo scrivere $RR = QQ union II$, con $QQ inter II = emptyset$. Sebbene l'insieme degli irrazionali abbia una struttura meno rilevante rispetto ai razionali, esso presenta una cardinalità maggiore di $aleph_0$, il che indica che la stragrande maggioranza dei numeri reali è composta da irrazionali.
 
@@ -852,7 +852,7 @@ In altre parole, un sottoinsieme $I$ è un intervallo se, contenendo due numeri 
 
 === Valore assoluto
 
-#definizione(title: "Valore assoluto")[Dato un numero reale $x$, si definisce valore assoluto o modulo di $x$ il numero reale, indicato con $|x|$ o $abs x$, determinato come segue:
+#definizione(title: "Valore assoluto", label: <valore_assoluto>)[Dato un numero reale $x$, si definisce valore assoluto o modulo di $x$ il numero reale, indicato con $|x|$ o $abs x$, determinato come segue:
 $
   abs x = |x| = cases(
     x & space "se " x >= 0,
@@ -1085,7 +1085,7 @@ Non ci addentreremo attualmente in questo complesso ambito, ma vale la pena sott
 
 Il concetto di potenza con esponente intero può essere semplicemente esteso ai numeri reali, senza modificare né la sua definizione né le proprietà ad esso associate. Con l'introduzione dei radicali è possibile estendere questa idea anche agli esponenti razionali, definendoli come segue:
 
-#definizione[Dato un numero reale $a in RR$, con $a > 0$, e un numero razionale $m/n != 0$, con $n > 1$, si definisce:  
+#definizione(label: <potenza_reali>)[Dato un numero reale $a in RR$, con $a > 0$, e un numero razionale $m/n != 0$, con $n > 1$, si definisce:  
 $ a^(m/n) = (root(n, a^m)) $ 
 
 Inoltre, se $r > 0$ è un numero razionale, si pone $0^r = 0$.  

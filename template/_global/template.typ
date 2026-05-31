@@ -88,7 +88,7 @@
   )
 
   // Citazioni, quote, note a piè di pagina, liste
-  show ref: set text(accent, font: sans-fonts, size: 11pt)
+  show ref: set text(accent, font: sans-fonts, size: 10pt)
   show link: set text(accent)
 
   show footnote: set text(fill: accent)
@@ -100,8 +100,8 @@
 
   set enum(indent: 0.5em)
   set list(indent: 0.5em)
-  show enum: set par(spacing: 1.5em)
-  show list: set par(spacing: 1.5em)
+/*show enum: set par(spacing: 1.5em)
+  show list: set par(spacing: 1.5em) */
 
   // Math
   //show math.equation: set text(size: 11pt, font: math-fonts)
@@ -165,14 +165,13 @@
   set sub(typographic: false, baseline: 0.2em)
   set super(typographic: false, baseline: -0.45em)
 
-
   // Tabelle e figure
   show figure: set block(breakable: true)
   show table.cell: set text(size: 9pt, font: sans-fonts)
   show table.cell.where(y: 0): set text(weight: "bold", fill: white, font: sans-fonts)
   show table.cell.where(x: 0): set text(weight: "bold")
 
-  show figure.caption: set text(size: 10pt, font: sans-fonts) 
+  show figure.caption: set text(size: 9pt, font: sans-fonts) 
   show figure.caption: it => {
     text(size: 10pt, font: sans-fonts, accent)[#it.supplement #it.counter.display(it.numbering)]
     [ ]

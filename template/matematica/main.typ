@@ -18,12 +18,16 @@
   title: "Matematica",
 )
 
-// Resetta counter #definizione e #esempio ad ogni nuovo capitolo
+// Resetta counter formule matematiche, #definizione e #esempio ad ogni nuovo capitolo
 #show heading.where(level: 1): it => {
-  counter(figure.where(kind: "definizione")).update(1)
-  it
+  counter(math.equation).update(0)
+  counter(figure.where(kind: "definizione")).update(0)
   counter("esempio").update(0)
+  it
 }
+
+// Equazioni fratte
+#show math.frac: it => $display(it)$
 
 // Capitoli
 = Introduzione <senza_numero>
@@ -48,7 +52,11 @@
 
 = Equazioni e sistemi <equazioni>
 
+#include "../../docs/matematica/05_equazioni-sistemi.typ"
+
 = Disequazioni <disequazioni>
+
+#include "../../docs/matematica/06_disequazioni.typ"
 
 = Potenze, esponenziali, logaritmi <potenze_esponenziali_logaritmi>
 
@@ -66,7 +74,7 @@
 
 = Numeri complessi <numeri_complessi>
 
-= Sistemi lineari e geometria spaziale // trova un titolo migliore #TODO
+= Sistemi lineari e geometria spaziale <sistemi_lineari_geometria_spaziale> // trova un titolo migliore #TODO
 
 = Affinità <affinità>
 
