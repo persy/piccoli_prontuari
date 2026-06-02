@@ -1,5 +1,5 @@
-#import "@preview/showybox:2.0.4": *
-
+#import "@preview/showybox:2.0.4": * // Blocchi grafici dinamici (definizione, esempio, dimostrazione)
+#import "@preview/marginalia:0.3.1"
 // ==========================================
 // STATO GLOBALE PER L'ACCENTO DINAMICO
 // ==========================================
@@ -54,9 +54,9 @@
   showybox(
     frame: (
       border-color: act-accent.darken(10%), 
-      body-color: act-accent.lighten(85%), 
-      radius: 0pt, 
-      thickness: (left: 2pt)
+      body-color: act-accent.lighten(90%), 
+      radius: (top-right: 5pt, rest: 0pt),      
+      thickness: (left: 1pt)
     ),
     body-style: (color: act-accent.darken(70%)),    
     { set text(font: sans-fonts, size: 11pt, style: "italic"); body }
@@ -69,7 +69,7 @@
   ]
 }
 
-#let note(where, body) = place(
+#let notefl(where, body) = place(
   left + where,
   float: true,
   clearance: 6pt,
@@ -88,3 +88,118 @@
 #let hl(body) = { highlight(body) }
 #let sh0 = h(0em)
 #let sv0 = v(0em)
+
+// =============================================================================
+// 1. BLOCCHI GRAFICI DINAMICI (Definizione, Esempio, Dimostrazione)
+// =============================================================================
+
+/* #let definizione(title: none, label: none, ..sections) = context {  
+  let accent = accent_color.get() 
+  
+  let def-numbering(def-num) = context {
+    let cap = counter(heading).get()
+    let cap-num = if cap.len() > 0 { cap.first() } else { 0 }
+    [#cap-num.#def-num]
+  }
+  
+  let box-content = {
+    let args = (
+      frame: (
+        border-color: accent.lighten(20%), 
+        title-color: accent.lighten(80%), 
+        body-color: accent.lighten(95%), 
+        radius: (top-right: 5pt, rest: 0pt), 
+        thickness: (left: 1pt)
+      ),
+      title-style: (color: accent.darken(40%), weight: "bold", sep-thickness: 0pt),
+      body-style: (color: accent.darken(50%)),    
+      sep: (thickness: 0.5pt, dash: "dashed", color: accent.lighten(20%)),
+      breakable: true,
+    )
+    let display-title = {      
+      let n = counter(figure.where(kind: "definizione")).display(def-numbering)
+      let t = if title != none and title != "" [: #title] else []
+      text(size: 0.8em, weight: "bold", font: sans-fonts)[Definizione #text(fill: accent.darken(20%))[#n]#t]
+    }
+    args.insert("title", display-title)
+    showybox(..args, ..sections.pos())
+  }
+  [#figure(box-content, kind: "definizione", supplement: none, numbering: def-numbering, caption: none)#label]
+} */
+
+// Riquadro per definizioni, teoremi, dimostrazioni..; utilizzo: #definizione[title: "optional title", label: <optional label>]; inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo
+#let definizione(title: none, label: none, ..sections) = {  
+  let box-content = context {
+    let accent = accent_color.get() 
+    
+    let args = (
+      frame: (
+        border-color: accent.lighten(20%), 
+        title-color: accent.lighten(80%), 
+        body-color: accent.lighten(95%), 
+        radius: (top-right: 5pt, rest: 0pt), 
+        thickness: (left: 1pt)
+      ),
+      title-style: (color: accent.darken(40%), weight: "bold", sep-thickness: 0pt),
+      body-style: (color: accent.darken(50%)),    
+      sep: (thickness: 0.5pt, dash: "dashed", color: accent.lighten(20%)),
+      breakable: true,
+    )
+    
+    let display-title = {    
+      let n = counter(figure.where(kind: "definizione")).display()
+      let t = if title != none and title != "" [: #title] else []
+      text(size: 0.8em, weight: "bold", font: sans-fonts)[Definizione #text(fill: accent.darken(20%))[#n]#t]
+    }
+    
+    args.insert("title", display-title)
+    showybox(..args, ..sections.pos())
+  }
+  
+  // Assegniamo "1.1" come numbering nativo della figura
+  [#figure(
+    box-content, 
+    kind: "definizione", 
+    supplement: [Def.], 
+    numbering: "1.1", 
+    caption: none
+  )#label]
+}
+
+// Separatore da inserire all'interno di una #definizione
+#let dimostrazione() = context {
+  let accent = accent_color.get()
+  block(width: 100%, height: 1em, outset: (x: 1em), inset: .0em,
+    align(left + bottom)[#text(size: 0.8em, weight: "bold", font: sans-fonts, fill: accent.darken(20%))[Dimostrazione]]
+  )
+}
+
+// Riquadro per esempi; utilizzo singolo (#esempio[]) oppure concatenato (#esempio[][][]); inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo
+#let esempio(title: "Esempio", ..sections) = context {
+  let accent = accent_color.get().desaturate(85%)
+  let s = sections.pos()
+  let n-sections = s.len()
+  if n-sections == 0 { return }
+
+  // 1. Leggiamo il valore ATTUALE del contatore (prima degli step di questa funzione)
+  let current-val = counter("esempio").get().first()
+  
+  // 2. Calcoliamo i numeri futuri che verranno assegnati a queste sezioni
+  let first-val = current-val + 1
+  let last-val = current-val + n-sections
+  let numbers = range(first-val, last-val + 1).map(str).join(", ")
+  
+  // 3. Generiamo gli step necessari per far avanzare il contatore nel documento
+  let steps = range(n-sections).map(idx => counter("esempio").step()).join()
+
+  // 4. Inviamo tutto al documento
+  steps + showybox(
+    frame: (border-color: accent.darken(40%), title-color: accent.lighten(65%), body-color: accent.lighten(90%), radius: (top-right: 5pt, rest: 0pt), thickness: (left: 1pt)),
+    title-style: (color: accent.darken(70%), weight: "bold", sep-thickness: 0pt, size: 0.8em),
+    body-style: (color: accent.darken(70%)),
+    sep: (thickness: 0.5pt, dash: "dashed", color: accent.darken(20%)),
+    breakable: true,
+    title: text(size: 0.8em, font: sans-fonts)[#title #numbers],
+    ..s
+  )
+}

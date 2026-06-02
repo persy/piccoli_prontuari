@@ -1,9 +1,9 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
 
-#import "@preview/cetz:0.4.2"
-#import "@preview/cetz-plot:0.1.3": plot, chart, smartart
-#import "@preview/cetz-venn:0.1.4" // diagrammi di Venn
+#import "@preview/cetz:0.5.2"
+#import "@preview/cetz-plot:0.1.4": plot, chart, smartart
+#import "@preview/cetz-venn:0.2.0" // diagrammi di Venn
 
 // ==========================================
 // NOTA BENE: QUESTO FILE NON DEVE CONTENERE NESSUN CODICE DI CONFIGURAZIONE O DEFINIZIONE DI STILI, CHE DEVONO ESSERE INSERITI SOLO NEL TEMPLATE
@@ -19,7 +19,7 @@
 
 // Indice dei grafici
 #outline(
-  title: "Indice dei Grafici",
+  title: "Indice dei grafici",
   target: figure.where(kind: "grafico"),
 )
 //
@@ -2290,8 +2290,8 @@ caption: []
   plot.plot(
     size: (10, 5),
     axis-style: "school-book",
-    x-tick-step: 1,      
-    y-tick-step: 1,      
+    x-tick-step: 2,      
+    y-tick-step: 2,      
     x-min: -5, x-max: 5,
     y-min: -5, y-max: 5,
     x-label: [$x$],        
@@ -2580,21 +2580,21 @@ caption: []
     plot.add(
       domain: (0, 5),        
       style: (stroke: (paint: accent.mat.lighten(45%))),        
-      label: [$x^(1/sqrt(2))$],
+      label: [$x^(#std.text(size: 0.6em)[$1/sqrt(2)$])$],
       x => calc.pow(x, 1 / calc.root(2, 2))  
     )
 
     plot.add(
       domain: (0, 5),        
       style: (stroke: (paint: accent.mat.lighten(55%))),        
-      label: [$x^(1/2)$],
+      label: [$x^(#std.text(size: 0.6em)[$1/2$])$],
       x => calc.pow(x, 1/2)  
     )
 
     plot.add(
       domain: (.1, 5),        
       style: (stroke: (paint: accent.mat.lighten(65%))),        
-      label: [$x^(-8/3)$],
+      label: [$x^(#std.text(size: 0.6em)[$-8/3$])$],
       x => calc.pow(x, -8/3)  
     )
 
@@ -2608,7 +2608,7 @@ caption: []
     plot.add(
       domain: (.01, 5),        
       style: (stroke: (paint: accent.mat.lighten(85%))),        
-      label: [$x^(-1/2)$],
+      label: [$x^(#std.text(size: 0.6em)[$-1/2$])$],
       x => calc.pow(x, -1/2)  
     )
     
@@ -2968,6 +2968,10 @@ caption: []
 
 ]
 
+== Equazioni e sistemi
+
+//
+
 == Disequazioni
 
 #let funzione_segno_disequazioni = [
@@ -3012,267 +3016,14 @@ caption: []
 
 // =================================
 
-// Grafico verificabilità disequazione singola riga (V/F)
 
-#let tabella_ver_diseq_s(punti: (), elementi: ()) = [
 
-#cetz.canvas({
-
-  import cetz.draw: *
-  line((-1.7, 0), (punti.len(), 0), stroke: 0.5pt + accent.mat)
-  line((-0.8, 0.5), (-0.8, -1.3), stroke: 0.5pt + accent.mat)
-  content((-1.3, 0.25), [$"V/F"$])
-
-  for (i, p) in punti.enumerate() {
-    content((i, 0.35), p)
-    if i > 0 and i < punti.len() - 1 {
-      line((i, 0), (i, -1.3), stroke: (paint: accent.mat.lighten(50%), thickness: 0.5pt, dash: "dashed"))
-    }
-  }
-
-  for el in elementi {
-    if el.len() == 3 {
-      let (da, a, incl) = el
-      line((da, -0.7), (a, -0.7), stroke: (thickness: .75pt, paint: accent.mat))
-      if da > 0 and incl { circle((da, -0.7), radius: 1.5pt, fill: accent.mat, stroke: none) }
-    } else if el.len() == 1 {
-      circle((el.at(0), -0.7), radius: 1.5pt, fill: accent.mat, stroke: none)
-    }
-  }
-})]
-
-// Esempio
-#tabella_ver_diseq_s(
-  punti: ([$-oo$], [$-1$], [$1$], [$2$], [$3$], [$5$], [$6$], [$+oo$]),
-  elementi: (
-    (0, 1, false),
-    (2, 3, true),
-    (4,),
-    (5, 6, false),
-  )
-) 
-
-// Grafico verificabilità disequazione più righe (V/F)
-#let tabella_ver_diseq(punti: (), elementi: ()) = cetz.canvas({
-  import cetz.draw: *
-
-  let n_p = punti.len()
-
-  // Determina il numero di righe totali in sicurezza
-  let max-riga = 0
-  for el in elementi {
-    let r = el.at("riga", default: 0)
-    if r > max-riga { max-riga = r }
-  }
-  let altezza-asse-v = -0.4 - (max-riga * 0.5)
-
-  // Assi correnti
-  line((-1.7, 0), (n_p + 1, 0), stroke: 0.5pt + accent.mat)
-  line((-0.8, 0.5), (-0.8, altezza-asse-v - 0.35), stroke: 0.5pt + accent.mat)
-  content((-1.3, 0.25), [V/F])
-
-  // Capisaldi e linee verticali tratteggiate
-  for (i, p) in punti.enumerate() {
-    content((i, 0.35), p)
-    if i > 0 and i < n_p - 1 {
-      line((i, 0), (i, altezza-asse-v - 0.35), stroke: (paint: accent.mat, thickness: 0.5pt, dash: "dashed"))
-    }
-  }
-
-  // Elementi e testi a sinistra
-  for el in elementi {
-    let riga = el.at("riga", default: 0)
-    let y = -0.5 - (riga * 0.5)
-    let testo = el.at("testo", default: none)
-
-    // Testo a sinistra se presente
-    if testo != none { content((-1.3, y), testo) }
-
-    if el.at("tipo", default: "linea") == "linea" {
-      let da = el.at("da")
-      let a = el.at("a")
-      // Nuovi parametri di inclusione indipendenti per i due estremi
-      let incl_da = el.at("incl_da", default: false)
-      let incl_a = el.at("incl_a", default: false)
-      
-      // Disegna la linea continua del grafico
-      line((da, y), (a, y), stroke: (thickness: .75pt, paint: accent.mat))
-      
-      // Pallino a sinistra (solo se non è l'estremo -oo)
-      if da > 0 and incl_da { 
-        circle((da, y), radius: 1.5pt, fill: accent.mat, stroke: none) 
-      }
-      
-      // Pallino a destra (solo se non è l'estremo +oo)
-      if a < n_p - 1 and incl_a { 
-        circle((a, y), radius: 1.5pt, fill: accent.mat, stroke: none) 
-      }
-      
-    } else {
-      // Punto isolato
-      let pos = el.at("pos")
-      circle((pos, y), radius: 1.5pt, fill: accent.mat, stroke: none)
-    }
-  }
-})
-
-// Esempio
-#tabella_ver_diseq(
-  punti: ([$-oo$], [$-1$], [$1$], [$2$], [$3$], [$5$], [$6$], [$+oo$]),
-  elementi: (
-    (tipo: "linea", da: 0, a: 1, incl_da: false, riga: 0, testo: [$N_1$]),
-    (tipo: "linea", da: 2, a: 3, incl_da: true, incl_a: true,  riga: 1, testo: [$N_2$]),
-    (tipo: "punto", pos: 4,                   riga: 1), // Condivide riga 1, non serve ripetere testo
-    (tipo: "linea", da: 5, a: 6, incl_a: false, riga: 2, testo: [$D$]),
-  )
-)
 
 // ==============================
 
-// Schema segni
-// Aggiunto il parametro opzionale 'intestazione' con il tuo default
-#let schema_segni(
-  punti: (), 
-  righe: (), 
-  evidenzia: (), 
-  intestazione: [$frac(+, -, style: "horizontal")$],
-  linea_doppia: true // Parametro booleano attivo di default
-) = context layout(size => {
-  // Larghezza del testo più largo a sinistra in pt
-  let max_w = 0pt
-  for r in righe {
-    let t = r.at("testo", default: [])
-    let w = measure(t).width
-    if w > max_w { max_w = w }
-  }
-  
-  // Valori numerici puri
-  let w_testo = max_w.pt()
-  let w_totale = size.width.pt()
-  
-  cetz.canvas(length: 1pt, {
-    import cetz.draw: *
 
-    let n_p = punti.len()
-    let n_r = righe.len()
-    
-    // Spaziature e margini
-    let x_min = -w_testo - 25.0
-    let x_label = x_min / 2 - 5.0
-    let x_asse_v = -14.0
-    
-    // Distribuzione dello spazio rimanente per i segni
-    let w_disponibile = w_totale - w_testo - 60.0
-    let dx = w_disponibile / ((n_p - 1) * 2)
-    let dy = 30.0 
-    
-    let x_max = (n_p - 1) * 2 * dx + 15.0
-    let y_doppio = -20.0 - ((n_r - 1) * dy)
 
-    // Griglia principale e intestazione dinamica
-    line((x_min, 0), (x_max, 0), stroke: 0.5pt + accent.mat) 
-    line((x_asse_v, 20.0), (x_asse_v, y_doppio - (dy * 0.2)), stroke: 0.5pt + accent.mat) 
-    
-    content((x_label, 12.0), intestazione)
 
-    // Capisaldi e tratteggi verticali
-    for (i, p) in punti.enumerate() {
-      let x = i * 2 * dx
-      content((x, 12.0), p)
-      if i > 0 and i < n_p - 1 {
-        line((x, 0), (x, y_doppio - (dy * 0.2)), stroke: (paint: accent.mat.lighten(50%), thickness: 0.5pt, dash: "dashed"))
-      }
-    }
-
-    // Righe dei segni
-    for (r_idx, r) in righe.enumerate() {
-      let y = -15.0 - (r_idx * dy)
-      let testo = r.at("testo", default: none)
-      let segni = r.at("segni", default: ())
-
-      if testo != none { content((x_label, y), testo) }
-
-      // Linee di divisione orizzontale condizionate
-      let y_l = y - (dy * 0.5)
-      if r_idx == n_r - 2 {
-        line((x_min, y_l), (x_max, y_l), stroke: 0.5pt + accent.mat)
-        if linea_doppia {
-          // Disegna la seconda linea solo se linea_doppia è true
-          line((x_min, y_l - 2.0), (x_max, y_l - 2.0), stroke: 0.5pt + accent.mat)
-        }
-      } else if r_idx < n_r - 1 {
-        line((x_min, y_l), (x_max, y_l), stroke: 0.5pt + accent.mat)
-      }
-
-      // Evidenziazione azzurra semitrasparente
-      if r_idx == n_r - 1 {
-        for idx in evidenzia {
-          circle((idx * dx, y), radius: 8pt, fill: accent.mat.lighten(80%), stroke: 0.5pt + accent.mat.lighten(70%))
-        }
-      }
-
-      // Posizionamento segni
-      for (s_idx, s) in segni.enumerate() {
-        content((s_idx * dx, y), s)
-      }
-    }
-  })
-})
-
-// Esempio
-#schema_segni(
-  punti: ([$-oo$], [$-1$], [$0$], [$2$], [$+oo$]),
-  righe: (
-    (
-      testo: [ $x$ ],
-      segni: ([$-$], [$-$], [$-$], [$0$], [$+$], [$+$], [$+$])
-    ),
-    (
-      testo: [ $x + 1$ ],
-      segni: ([$-$], [$0$], [$+$], [$+$], [$+$], [$+$], [$+$])
-    ),
-    (
-      testo: [ $x - 2$ ],
-      segni: ([$-$], [$-$], [$-$], [$-$], [$-$], [$0$], [$+$])
-    ),
-    (
-      testo: [ Complessivo ],
-      segni: ([$-$], [$0$], [$+$], [$0$], [$-$], [$0$], [$+$])
-    ),
-  ), 
-  evidenzia: (2, 4), // evidenzia i punti 2 e 4
-  intestazione: [ SGN ], // cambia simbolo in alto a sinistra (default +/-),
-  linea_doppia: false // disattiva la linea doppia di fine riga (default: true)
-)
-
-// ==============================
-
-#let grafico_disequazione1 = [#align(center)[
-  #tabella_ver_diseq_s(
-  punti: ([$-oo$], [$-1$], [$1$], [$2$], [$3$], [$5$], [$6$], [$+oo$]),
-  elementi: (
-    (0, 1, false),
-    (2, 3, true),
-    (4,),
-    (5, 6, false),
-  )
-) 
-]
-]
-
-#let schema_segni1 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-5$], [$1$], [$3$], [8], [12], [$+oo$]),
-  righe: (
-    (
-      testo: [#hide[testo]],
-      segni: ([], [$+$], [$times$], [$-$], [$+$], [$+$], [$0$], [$0$], [$-$], [$-$], [$-$], [$times$],)
-    ),
-
-  )
-)
-]
-]
 
 //
 
@@ -3311,18 +3062,7 @@ caption: []
 ) <grafico_disequazione2>
 ]
 
-#let schema_segni2 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$1/(sqrt(2) - sqrt(3))$], [$+oo$]),
-  righe: (
-    (
-      testo: [$(sqrt(2) - sqrt(3))x - 1$],
-      segni: ([], [$+$], [$0$], [$-$])
-    ),
-  )
-)
-]
-]
+
 
 //
 
@@ -3361,19 +3101,7 @@ caption: []
 ) <grafico_disequazione3>
 ]
 
-#let schema_segni3 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-1$], [$5/2$], [$+oo$]),
-  righe: (
-    (
-      testo: [$-2x^2 + 3x + 5$],
-      segni: ([], [$-$], [$0$], [$+$], [$0$], [$-$])
-    ),
-  ),
-  evidenzia: (3, )
-)
-]
-]
+
 
 //
 
@@ -3409,18 +3137,7 @@ caption: []
 ) <grafico_disequazione4>
 ]
 
-#let schema_segni4 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$#hide[dd]$], [$+oo$]),
-  righe: (
-    (
-      testo: [$x^2 + x + 2$],
-      segni: ([], [], [$+$], [], [])
-    ),
-  )
-)
-]
-]
+
 
 //
 #let grafico_disequazione5 = [
@@ -3456,94 +3173,6 @@ caption: []
 }),
 caption: []
 ) <grafico_disequazione5>
-]
-
-#let schema_segni5 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$1$], [$+oo$]),
-  righe: (
-    (
-      testo: [$-x^2 + 2x - 1$],
-      segni: ([], [$-$], [$0$], [$-$], [])
-    ),
-  ),
-  evidenzia: (1, 3)
-)
-]
-]
-
-#let tabella_ver_diseq1 = [#align(center)[
-
-#tabella_ver_diseq(
-  punti: ([$-oo$], [$-4$], [$-2$], [$-frac(3, 2, style: "skewed")$], [$-1$], [$+oo$]),
-  elementi: (
-    (tipo: "linea", da: 1, a: 5, incl: false, riga: 0, testo: [1]),
-    (tipo: "linea", da: 2, a: 4, incl_da: true, incl_a: true,  riga: 1, testo: [2]),
-    (tipo: "linea", da: 0, a: 3, riga: 2, testo: [3]),
-    (tipo: "linea", da: 2, a: 3, incl_da: true, riga: 3, testo: [Sist.]),
-  )
-)
-]
-]
-
-#let schema_segni6 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-1$], [$0$], [$2$], [$+oo$]),
-  righe: (
-    (
-      testo: [$x$],
-      segni: ([], [$-$], [$-$], [$-$], [$0$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [$x + 1$],
-      segni: ([], [$-$], [$0$], [$+$], [$+$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [$x - 2$],
-      segni: ([], [$-$], [$-$], [$-$], [$-$], [$-$], [$0$], [$+$], [])
-    ),
-    (
-      testo: [Tot.],
-      segni: ([], [$-$], [$0$], [$+$], [$0$], [$-$], [$0$], [$+$], [])
-    ),
-  ),
-  evidenzia: (3, 7)
-)
-]
-]
-
-#let schema_segni7 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-1$], [$0$], [$1$], [$frac(3, 2, style: "skewed")$], [$2$], [$+oo$]),
-  righe: (
-    (
-      testo: [$4x^2 - 12x + 9$],
-      segni: ([], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$0$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [$x$],
-      segni: ([], [$-$], [$-$], [$-$], [$0$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [$x^2 - 3x + 2$],
-      segni: ([], [$+$], [$+$], [$+$], [$+$], [$+$], [$0$],[$-$], [$-$], [$-$], [$0$], [$+$], [])
-    ),
-    (
-      testo: [$x^4 + 1$],
-      segni: ([], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [$x^2 + x$],
-      segni: ([], [$+$], [$0$], [$-$], [$0$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [Tot.],
-      segni: ([], [#hl[$-$]], [$times$], [$+$], [$times$], [$+$], [$0$], [$-$], [$0$], [$-$], [$0$], [$+$], [])
-    ),
-  ),
-  evidenzia: (1, 6, 7, 8, 9, 10),   
-)
-]
 ]
 
 #let grafico_disequazione6 = [
@@ -3665,19 +3294,7 @@ caption: []
   ) <grafico_disequazione7>
 ]
 
-#let schema_segni8 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-1$], [$1$], [$+oo$]),
-  righe: (
-    (
-      testo: [$f(x)$],
-      segni: ([], [$+$], [$0$], [$0$], [$0$], [$+$], [])
-    ),
-  ),
-  
-)
-]
-]
+
 
 #let grafico_disequazione9 = [
   #figure(
@@ -3727,78 +3344,7 @@ caption: []
   ) <grafico_disequazione9>
 ]
 
-#let schema_segni9 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-2$], [$2$], [$+oo$]),
-  righe: (
-    (
-      testo: [$x^2 - 4$],
-      segni: ([], [$+$], [$0$], [$-$], [$0$], [$+$], [])
-    ),
-  ),
-  
-)
-]
-]
 
-#let schema_segni10 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-3$], [$+oo$]),
-  righe: (
-    (
-      testo: [$x + 3$],
-      segni: ([], [$-$], [$0$], [$+$], [])
-    ),
-  ),
-  
-)
-]
-]
-
-#let schema_segni11 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$1 - sqrt(3)$], [$1$], [$1 + sqrt(3)$], [$+oo$]),
-  righe: (
-    (
-      testo: [$x - 1$],
-      segni: ([], [$-$], [$-$], [$-$], [$0$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [$x^2 - 2x - 2$],
-      segni: ([], [$+$], [$0$], [$-$], [$-$], [$-$], [$0$], [$+$], [])
-    ),
-    (
-      testo: [Tot.],
-      segni: ([], [$-$], [$0$], [$+$], [$0$], [$-$], [$0$], [$+$], [])
-    ),
-  ),
-  
-)
-]
-]
-
-#let schema_segni12 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-3$], [$-2$], [#rotate(-45deg)[$quad 1 - sqrt(3)$]], [$1$], [$2$], [#rotate(-45deg)[$quad 1 + sqrt(3)$]], [$+oo$]),
-  righe: (
-    (
-      testo: [$x^2 - 4$],
-      segni: ([], [$+$], [$+$], [$+$], [$0$], [$-$], [$-$], [$-$], [$-$], [$-$], [$0$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [$x + 3$],
-      segni: ([], [$-$], [$0$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [$x^3 - 3x^2 + 2$],
-      segni: ([], [$-$], [$-$], [$-$], [$-$], [$-$], [$0$], [$+$], [$0$], [$-$], [$-$], [$-$], [$0$], [$+$], [])
-    ),
-  ),
-  intestazione: [abs],
-  linea_doppia: false,
-)
-]
-]
 
 #let grafico_disequazione10 = [
   #figure(
@@ -3872,19 +3418,7 @@ plot.annotate({
   ) <grafico_disequazione11>
 ]
 
-#let schema_segni13 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-1$], [$0$], [$+oo$]),
-  righe: (
-    (
-      testo: [$f(x)$],
-      segni: ([], [$-$], [$0$], [$0$], [$0$], [$+$], [])
-    ),
-  ),
-  linea_doppia: false,
-)
-]
-]
+
 
 #let grafico_disequazione12 = [
   #figure(
@@ -3916,47 +3450,7 @@ plot.annotate({
   ) <grafico_disequazione12>
 ]
 
-#let schema_segni14 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-1/2$], [$0$], [$+oo$]),
-  righe: (
-    (
-      testo: [$2x + 1$],
-      segni: ([], [$-$], [$0$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [$x$],
-      segni: ([], [$-$], [$-$], [$-$], [$0$], [$+$], [])
-    ),
-    (
-      testo: [Tot.],
-      segni: ([], [$+$], [$0$], [$-$], [$times$], [$+$], [])
-    ),
-  ),
-)
-]
-]
 
-#let schema_segni15 = [#align(center)[
-  #schema_segni(
-  punti: ([$-oo$], [$-1/5$], [$0$], [$1$], [$+oo$]),
-  righe: (
-    (
-      testo: [Num.],
-      segni: ([], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [$+$], [])
-    ),
-    (
-      testo: [Den.],
-      segni: ([], [$+$], [$times$], [$-$], [$times$], [$-$], [$times$], [$+$], [])
-    ),
-    (
-      testo: [Tot.],
-      segni: ([], [$+$], [$times$], [$-$], [$times$], [$-$], [$times$], [$+$], [])
-    ),
-  ),
-)
-]
-]
 
 #let grafico_disequazione13 = [
   #figure(
@@ -3974,6 +3468,7 @@ plot.annotate({
         y-label: [$y$],    
         x-grid: none,   
         y-grid: none, 
+        
         {
           plot.add(
             domain: (-6, 6),        
@@ -3987,3 +3482,565 @@ plot.annotate({
     caption: []
   ) <grafico_disequazione13>
 ]
+
+== Funzioni esponenziali
+
+#let funzione_esponenziale = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (7, 4),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: 0, y-max: 4,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (5.3, 2.6),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat)),        
+      label: [$a > 1$],
+      x => calc.pow(2, x)  
+    )
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat.lighten(60%))),        
+      label: [$a < 1$],
+      x => calc.pow(0.5, x)  
+    )
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat, dash: "dotted")),        
+      label: [$a = 1$],
+      x => calc.pow(1, x)  
+    )
+    
+    }
+  )
+}),
+caption: []
+) <funzione_esponenziale>
+]
+
+#let funzione_esponenziale_e = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (7, 4),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: 0, y-max: 4,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (.3, 2),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    let x_p = 1.2
+    let y_p = calc.exp(x_p)
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat)),        
+      label: [$e^x$],
+      x => calc.exp(x),
+      samples: 200
+    )
+
+    plot.add(
+        x => y_p + y_p * (x - x_p),
+        domain: (-1, 2.4),
+        label: [$m = y_P$],
+        style: (stroke: (paint: accent.mat, dash: "dotted")), 
+      )
+
+    // 3. Annotazioni specifiche (punto P, linee tratteggiate e testi)
+      plot.annotate({
+        // Punto P
+        circle((x_p, y_p), radius: 0.05, fill: black)
+        content((x_p + 0.2, y_p - 0.1), $P$, anchor: "west")
+        
+        // Linee tratteggiate verso gli assi
+        line(
+          (x_p, 0), (x_p, y_p), 
+          stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt)
+        )
+        line(
+          (0, y_p), (x_p, y_p), 
+          stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt)
+        )
+        })
+    
+    }
+  )
+}),
+caption: []
+) <funzione_esponenziale_e>
+]
+
+#let funzioni_esponenziali = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (8, 5),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -5, x-max: 3,
+    y-min: 0, y-max: 4,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (.4, 3.5),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.2, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    plot.add(
+      domain: (-5, 3),        
+      style: (stroke: (paint: accent.mat)),        
+      label: [$(3/2)^x$],
+      x => calc.pow(1.5, x)  
+    )
+
+    plot.add(
+      domain: (-5, 3),        
+      style: (stroke: (paint: accent.mat.lighten(30%))),        
+      label: [$2^x$],
+      x => calc.pow(2, x)  
+    )
+
+    plot.add(
+      domain: (-5, 3),        
+      style: (stroke: (paint: accent.mat.lighten(55%))),        
+      label: [$4^x$],
+      x => calc.pow(4, x)  
+    )
+
+    plot.add(
+      domain: (-5, 3),        
+      style: (stroke: (paint: accent.mat.lighten(80%))),        
+      label: [$10^x$],
+      x => calc.pow(10, x)  
+    )
+
+    
+    }
+  )
+}),
+caption: []
+) <funzioni_esponenziali>
+]
+
+#let funzione_logaritmo = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (7, 4),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -1, x-max: 5,
+    y-min: -2, y-max: 2,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (2.3, 4.1),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    plot.add(
+      domain: (.01, 5),        
+      style: (stroke: (paint: accent.mat)),        
+      label: [$a > 1$],
+      x => 2 * calc.log(x)  
+    )
+
+    plot.add(
+      domain: (.01, 5),        
+      style: (stroke: (paint: accent.mat.lighten(60%))),        
+      label: [$a < 1$],
+      x => -2 * calc.log(x)  
+    )
+
+    
+    }
+  )
+}),
+caption: []
+) <funzione_logaritmo>
+]
+
+#let funzione_logaritmo_ln = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (7, 5),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1,      
+        x-min: -1, x-max: 5,
+        y-min: -3, y-max: 3,
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: none,   
+        y-grid: none, 
+        legend: (3.5, 1.5),        
+        legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+        legend-anchor: auto,
+        {
+          // Punto x_p > 0 
+          let x_p = 2.3
+          let y_p = calc.ln(x_p)
+          let m = 1 / x_p
+
+          // y = ln(x)
+          plot.add(
+            domain: (0.05, 5),        
+            style: (stroke: (paint: accent.mat)),        
+            label: [$ln(x)$],
+            x => calc.ln(x),
+            samples: 200
+          )
+
+          // Retta tangente: y = y_p + m * (x - x_p)
+          plot.add(
+            x => y_p + m * (x - x_p),
+            domain: (0, 5),
+            label: [$m = 1 / x_P$],
+            style: (stroke: (paint: accent.mat, dash: "dotted")), 
+          )
+
+          plot.annotate({
+            // Punto P
+            circle((x_p, y_p), radius: 0.05, fill: black)
+            content((x_p + 0.1, y_p + 0.2), $P$, anchor: "south-west")
+            
+            // Linea tratteggiata verso l'asse x
+            line(
+              (x_p, 0), (x_p, y_p), 
+              stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt)
+            )
+            // Linea tratteggiata verso l'asse y
+            line(
+              (0, y_p), (x_p, y_p), 
+              stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt)
+            )
+          })
+        }
+      )
+    }),
+    caption: []
+  ) <funzione_logaritmo_ln>
+]
+
+#let funzione_esp_e_ln = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  let x_1 = 1.2
+    let y_1 = calc.exp(x_1)
+    let x_2 = 2.3
+    let y_2 = calc.ln(x_2)
+    let m = 1 / x_2
+  plot.plot(
+    size: (9, 6), // Proporzione 1:1 con i range degli assi (X=9 unità, Y=6 unità)
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 6,
+    y-min: -1, y-max: 5,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (.3, 5),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+    
+
+    // Esponenziale e
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat, thickness: 1.5pt)),        
+      label: [$e^x$],
+      x => calc.exp(x),
+      samples: 200
+    )
+
+    // Tangente esponenziale e
+    plot.add(
+        x => y_1 + y_1 * (x - x_1),
+        domain: (-1, 2.4),
+        style: (stroke: (paint: accent.mat, dash: "dotted", thickness: 1pt)), 
+      )
+
+    // ln(x)
+    plot.add(
+      domain: (0.05, 6),        
+      style: (stroke: (paint: accent.mat.lighten(50%), thickness: 1.5pt)),        
+      label: [$ln(x)$],
+      x => calc.ln(x),
+      samples: 200
+    )
+
+    // Tangente ln(x)
+    plot.add(
+      x => y_2 + m * (x - x_2),
+      domain: (0, 6),
+      style: (stroke: (paint: accent.mat.lighten(50%), dash: "dotted", thickness: 1pt)), 
+    )
+
+    // Linea orizzontale passante per P
+    plot.add(
+      x => y_1,
+      domain: (0, 5),
+      style: (stroke: (paint: accent.mat, dash: "dashed", thickness: 0.5pt)), 
+    )
+    // Linea orizzontale passante per P'
+    plot.add(
+      x => y_2,
+      domain: (0, 5),
+      style: (stroke: (paint: accent.mat.lighten(50%), dash: "dashed", thickness: 0.5pt)),
+      
+    )
+
+    plot.annotate({
+      // Punto P
+      circle((x_1, y_1), radius: 0.05, fill: black)
+      content((x_1 - 0.2, y_1 + 0.2), $P$, anchor: "south-east")
+
+      // Linee tratteggiate verso gli assi per P
+      line((x_1, 0), (x_1, y_1), stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt))
+      line((0, y_1), (x_1, y_1), stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt))
+
+      // Angolo alfa (esponenziale)
+      let ang_alfa = calc.atan(y_1)
+      arc((x_1+ .5, y_1), start: 0deg, delta: ang_alfa, radius: 0.5, stroke: (paint: accent.mat, thickness: 0.75pt))
+      // Posizionamento etichetta dentro il settore circolare
+      content((x_1 + 0.7, y_1 + 0.5), $alpha$, anchor: "center")
+
+      // Punto P'
+      circle((x_2, y_2), radius: 0.05, fill: black)
+      content((x_2 - 0.2, y_2 + 0.2), $P'$, anchor: "south-east")
+
+      // Linee tratteggiate verso gli assi per P'
+      line((x_2, 0), (x_2, y_2), stroke: (dash: "dashed", paint: accent.mat.lighten(50%), thickness: 0.5pt))
+      line((0, y_2), (x_2, y_2), stroke: (dash: "dashed", paint: accent.mat.lighten(50%), thickness: 0.5pt))
+
+      // Angolo beta (logaritmo)
+      let ang_beta = calc.atan(m)
+      arc((x_2 + .7, y_2), start: 0deg, delta: ang_beta, radius: 0.6, stroke: (paint: accent.mat.lighten(50%), cap: "butt", thickness: 0.75pt))
+      // Posizionamento etichetta dentro il settore circolare
+      content((x_2 + 1, y_2 + 0.15), $beta$, anchor: "center")
+    })
+
+      
+
+    }
+  )
+
+  
+}),
+caption: []
+) <funzione_esp_e_ln>
+]
+
+#let funzioni_log2_2x = [#align(center)[#grid(columns: 2, column-gutter: 1em)[#figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (5, 5),
+    axis-style: "school-book",
+    x-tick-step: none,      
+    y-tick-step: none,      
+    x-min: -1.5, x-max: 3,
+    y-min: -.6, y-max: 4,
+    x-label: [],        
+    y-label: [],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (4.1, 4.9),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    let x_p = .6
+    let y_p = calc.pow(2, x_p)
+    let x_p2 = 1.9
+    let y_p2 = calc.pow(2, x_p2)
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat)), 
+      label: [$2^x$],     
+      x => calc.pow(2, x),
+      samples: 200
+    )
+
+
+    plot.annotate({
+      // Punto P
+      circle((x_p, y_p), radius: 0.02, fill: black)
+      content((x_p + 0.2, y_p - 0.1), [], anchor: "west")
+
+      circle((x_p, 0), radius: 0.02, fill: black)
+      content((x_p + 0.1, 0 - 0.1), $x$, anchor: "north")
+      circle((x_p2, 0), radius: 0.02, fill: black)
+      content((x_p2 + 0.1, 0 - 0.1), $log_2 y$, anchor: "north")
+      circle((0, y_p), radius: 0.02, fill: black)
+      content((0 - 0.1, y_p), $2^x$, anchor: "east")
+      circle((0, y_p2), radius: 0.02, fill: black)
+      content((0 - 0.2, y_p2), $y$, anchor: "east")
+
+      // Linee tratteggiate verso gli assi
+      line(
+        (x_p, 0), (x_p, y_p), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (x_p, y_p), (0, y_p),  
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+
+      circle((x_p2, y_p2), radius: 0.02, fill: black)
+      content((x_p2 + 0.2, y_p2 - 0.1), [], anchor: "west")
+      
+      // Linee tratteggiate verso gli assi
+      line(
+        (x_p2, y_p2), (x_p2, 0),  
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (0, y_p2), (x_p2, y_p2), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+
+
+    })
+    
+    }
+  )
+}),
+caption: []
+) <grafico_esp_2>
+
+][#figure(
+  cetz.canvas({
+  import cetz.draw: *
+    
+  plot.plot(
+  size: (5, 5),
+  axis-style: "school-book",
+  x-tick-step: none,      
+  y-tick-step: none,      
+  x-min: -.5, x-max: 4.5,
+  y-min: -.5, y-max: 3.5,
+  x-label: [],        
+  y-label: [],    
+  x-grid: none,   
+  y-grid: none, 
+  legend: (3.4, 4.9),        
+  legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+  legend-anchor: auto,
+  {
+
+    let x_p = 1.5
+    let y_p = calc.log(base: 2, x_p)
+    let x_p2 = 3.6
+    let y_p2 = calc.log(base: 2, x_p2)
+
+    plot.add(
+      domain: (0.05, 7),        
+      style: (stroke: (paint: accent.mat.lighten(30%))), 
+      label: [$log_2 x$],       
+      x => calc.log(base: 2, x),
+      samples: 200
+    )
+
+
+    plot.annotate({
+
+      circle((x_p, y_p), radius: 0.02, fill: black)
+      content((x_p + 0.1, y_p + 0.1), [], anchor: "south-west")
+
+      circle((x_p, 0), radius: 0.02, fill: black)
+      content((x_p + 0.1, 0 - 0.1), $x$, anchor: "north")
+      circle((x_p2, 0), radius: 0.02, fill: black)
+      content((x_p2 + 0.1, 0 - 0.1), $2^x$, anchor: "north")
+      circle((0, y_p), radius: 0.02, fill: black)
+      content((0 - 0.25, y_p), $log_2 x$, anchor: "east")
+      circle((0, y_p2), radius: 0.02, fill: black)
+      content((0 - 0.2, y_p2), $y$, anchor: "east")
+      
+      // Linea tratteggiata verso l'asse x
+      line(
+        (x_p, 0), (x_p, y_p), 
+        stroke: (dash: "dashed", paint: accent.mat.lighten(30%), thickness: 0.5pt), mark: (end: ")>", fill: accent.mat.lighten(30%), scale: .75)
+      )
+      // Linea tratteggiata verso l'asse y
+      line(
+        (x_p, y_p), (0, y_p), 
+        stroke: (dash: "dashed", paint: accent.mat.lighten(30%), thickness: 0.5pt), mark: (end: ")>", fill: accent.mat.lighten(30%), scale: .75)
+      )
+
+      circle((x_p2, y_p2), radius: 0.02, fill: black)
+      content((x_p2 + 0.2, y_p2 - 0.1), [], anchor: "west")
+      // Linee tratteggiate verso gli assi
+      line(
+        (x_p2, y_p2), (x_p2, 0), 
+        stroke: (dash: "dashed", paint: accent.mat.lighten(30%), thickness: 0.5pt), mark: (end: ")>", fill: accent.mat.lighten(30%), scale: .75)
+      )
+      line(
+        (0, y_p2), (x_p2, y_p2), 
+        stroke: (dash: "dashed", paint: accent.mat.lighten(30%), thickness: 0.5pt), mark: (end: ")>", fill: accent.mat.lighten(30%), scale: .75)
+      )
+    })
+        }
+      )
+    }),
+    caption: []
+  ) <grafico_log_2>
+
+]]
+]
+
+
+
+

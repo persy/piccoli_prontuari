@@ -60,6 +60,8 @@
 
 = Potenze, esponenziali, logaritmi <potenze_esponenziali_logaritmi>
 
+#include "../../docs/matematica/07_potenze_esponenziali_logaritmi.typ"
+
 = Geometria analitica <geometria_analitica>
 
 = Geometria euclidea piana <geometria_euclidea_piana>

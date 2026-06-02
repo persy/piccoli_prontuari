@@ -104,7 +104,7 @@
   show list: set par(spacing: 1.5em) */
 
   // Math
-  //show math.equation: set text(size: 11pt, font: math-fonts)
+  show math.equation: set text(size: 12pt, font: math-fonts)
   
   // Punto diventa virgola nelle equazioni
   //show math.equation: set text(font: sans-fonts) 
@@ -126,10 +126,9 @@
     }
     it
   }
-  show footnote: it => {
-    show math.equation: set text(size: 10pt) 
-    it
-  }
+  
+  // Dimensione font formule nelle note a pie pagina; non sembra funzionare
+  
   
 
 /*   show raw.where(block: false): box.with(

@@ -1,6 +1,7 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
 #import "plots.typ": *
+#import "tables.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
 #set math.equation(numbering: (..n) => {
@@ -489,7 +490,7 @@ Il grafico della funzione $f$ conferma il risultato ottenuto, come mostrato nell
 
 ]
 
-== La funzione valore assoluto 
+== Funzione valore assoluto 
 
 La soluzione di disequazioni che coinvolgono valori assoluti e l'analisi del segno delle funzioni che li contengono non richiede l'adozione di nuove strategie rispetto a quelle già considerate. È sufficiente ricordare la definizione di valore assoluto (@funzione_valore_assoluto) illustrata precedentemente e analizzare i diversi casi che possono verificarsi. Per farlo, è necessario determinare il segno dell'argomento dei valori assoluti presenti, utilizzando le tecniche già trattate e quelle che saranno esaminate in seguito. In alcuni casi può essere utile rappresentare graficamente la situazione, proprio come si fa per individuare il segno di un prodotto o di un quoziente, anche se con un obiettivo diverso. Vediamo ora un esempio più complesso per chiarire il procedimento.
 

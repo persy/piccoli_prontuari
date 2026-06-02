@@ -498,11 +498,9 @@ dove il dominio naturale delle funzioni è $RR^+$ se $alpha > 0$, e $RR^+ withou
 
 #funzione_esponente_reale
 
-Considerando la definizione $x^(frac(1, m, style: "skewed")) = root(m, x), quad m in NN, quad m > 1$, si può concludere che le funzioni radice costituiscono un caso particolare delle potenze con esponente razionale. Tuttavia, è opportuno sottolineare che, per evitare complicazioni legate alle basi negative (questione già evidenziata nella @potenza_reali, @numeri_naturali_reali), mentre $root(3, x)$ è generalmente definita su tutto il dominio dei numeri reali, $x^(frac(1, 3, style: "skewed"))$ viene ritenuta definita solo per $x >= 0$.  
+Considerando la definizione $x^(#std.text(size: 0.6em)[$1/m$]) = root(m, x), quad m in NN, quad m > 1$, si può concludere che le funzioni radice costituiscono un caso particolare delle potenze con esponente razionale. Tuttavia, è opportuno sottolineare che, per evitare complicazioni legate alle basi negative (questione già evidenziata nella @potenza_reali, @numeri_naturali_reali), mentre $root(3, x)$ è generalmente definita su tutto il dominio dei numeri reali, $x^(#std.text(size: 0.6em)[$1/3$])$ viene ritenuta definita solo per $x >= 0$.  
 
 Senza entrare ulteriormente nei dettagli, osserviamo che queste funzioni estendono le proprietà già descritte per le funzioni potenza ad esponente intero e per quelle radice. La @funzione_esponente_reale presenta alcuni esempi di grafici utili per un confronto esplicativo.
-
-#set text(lang: "it", size: 11pt)
 
 === Funzioni potenza e invertibilità
 
@@ -510,8 +508,8 @@ Il tema dell'invertibilità delle funzioni potenza riveste un ruolo fondamentale
 + la funzione $p_0(x)$, ovvero la potenza con esponente zero, definita su $RR$ con $p_0(0) = 0$, è costante e pertanto non invertibile.
 + le funzioni $f(x) = x^(#math.plus.minus 1)$ sono invertibili e coincidono con le proprie inverse.
 + le funzioni $f(x) = x^(#math.plus.minus 3), f(x) = x^(#math.plus.minus 5), dots$ (ossia le funzioni potenza con esponente intero dispari diverso da $#math.plus.minus 1$) sono invertibili. Le loro inverse sono $f(x) = root(3, x), f(x) = root(5, x), dots$ (per esponenti positivi) e $f(x) = 1/root(3, x), f(x) = 1/root(5, x), dots$ (per esponenti negativi).
-+ le funzioni $f(x) = x^(#math.plus.minus 2),  f(x) = x^(#math.plus.minus 4), dots$ (ossia le funzioni potenza con esponente intero pari diverso da 0) non sono iniettive e quindi non risultano invertibili nell'intero dominio reale. Tuttavia, operando una restrizione ai reali $>= 0$ per esponenti positivi o $> 0$ per esponenti negativi, si ottengono funzioni iniettive e dunque invertibili (supponendo sempre una restrizione del codominio all'immagine). Le inverse di queste versioni ristrette delle funzioni sono $f(x) = x^(#math.plus.minus  1/2), f(x) = x^(#math.plus.minus  1/4), dots$, note come $f(x) = sqrt(x), f(x) = root(4, x), dots$ (per esponenti positivi) e $f(x) = 1/sqrt(x), f(x) = 1/root(4, x), dots$ (per esponenti negativi).
-+ le funzioni $f(x) = x^a$, con $a$ non intero, sono invertibili, e le loro inverse sono $f(x) = x^(1/a)$. Tuttavia, se $a = #math.plus.minus 1/2, a = #math.plus.minus 1/3, dots, $ le inverse corrispondono a restrizioni delle funzioni $f(x) = x^(#math.plus.minus 2), f(x) = x^(#math.plus.minus 3), dots, $ definite solo per i reali $>= 0$ (nel caso di $a > 0$) o $> 0$ (nel caso di $a < 0$), conformemente alla convenzione adottata che prevede che le potenze con esponente razionale non siano definite per valori negativi del dominio reale.
++ le funzioni $f(x) = x^(#math.plus.minus 2),  f(x) = x^(#math.plus.minus 4), dots$ (ossia le funzioni potenza con esponente intero pari diverso da 0) non sono iniettive e quindi non risultano invertibili nell'intero dominio reale. Tuttavia, operando una restrizione ai reali $>= 0$ per esponenti positivi o $> 0$ per esponenti negativi, si ottengono funzioni iniettive e dunque invertibili (supponendo sempre una restrizione del codominio all'immagine). Le inverse di queste versioni ristrette delle funzioni sono $f(x) = x^(#math.plus.minus  #std.text(size: 0.6em)[$1/2$]), f(x) = x^(#math.plus.minus  #std.text(size: 0.6em)[$1/4$]), dots$, note come $f(x) = sqrt(x), f(x) = root(4, x), dots$ (per esponenti positivi) e $f(x) = 1/sqrt(x), f(x) = 1/root(4, x), dots$ (per esponenti negativi).
++ le funzioni $f(x) = x^a$, con $a$ non intero, sono invertibili, e le loro inverse sono $f(x) = x^(#std.text(size: 0.6em)[$1/a$])$. Tuttavia, se $a = #math.plus.minus 1/2, a = #math.plus.minus 1/3, dots, $ le inverse corrispondono a restrizioni delle funzioni $f(x) = x^(#math.plus.minus 2), f(x) = x^(#math.plus.minus 3), dots, $ definite solo per i reali $>= 0$ (nel caso di $a > 0$) o $> 0$ (nel caso di $a < 0$), conformemente alla convenzione adottata che prevede che le potenze con esponente razionale non siano definite per valori negativi del dominio reale.
 
 === La funzione segno
 
@@ -534,15 +532,13 @@ $ "sgn"(x) = (x)/(|x|) = (|x|)/(x), quad "con " x != 0 $
 
 Va sottolineato che molti autori propongono proprio quest'ultima espressione come definizione primaria della funzione segno, limitandola comunque al dominio in cui $x != 0$.
 
-//
-
 === Le funzioni parte intera e concetti correlati
 
 Le funzioni descritte in questo paragrafo rivestono un ruolo fondamentale in diverse applicazioni, in particolare sono largamente utilizzate in informatica. Tuttavia, la terminologia utilizzata non è uniformemente accettata: come di consueto, ci siamo attenuti alla nomenclatura stabilita dalle norme ISO.
 
 ==== Le funzioni _floor_ e _ceil_
 
-Dato un numero reale $x in RR$, esiste un unico intero $n$ tale che $n <= x < n + 1$. Questo valore rappresenta il più grande intero minore o uguale a $x$, indicato con $floor(x)$, che si legge come _floor_ $x$. La maggior parte dei matematici lo definisce come _parte intera_ di $x$ e spesso lo rappresenta con le parentesi quadre $[x]$. Poiché in questo contesto utilizzeremo il termine _parte intera_ con un significato diverso, eviteremo l'uso della notazione con parentesi quadre, ritenendola eccessivamente ambigua. La funzione $x |-> floor(x)$, definita su tutto l'insieme dei numeri reali $RR$, ha un grafico illustrato nella @funzione_floor.
+Dato un numero reale $x in RR$, esiste un unico intero $n$ tale che $n <= x < n + 1$. Questo valore rappresenta il più grande intero minore o uguale a $x$, indicato con $floor(x)$, che si legge come floor $x$. La maggior parte dei matematici lo definisce come _parte intera_ di $x$ e spesso lo rappresenta con le parentesi quadre $[x]$. Poiché in questo contesto utilizzeremo il termine parte intera con un significato diverso, eviteremo l'uso della notazione con parentesi quadre, ritenendola eccessivamente ambigua. La funzione $x |-> floor(x)$, definita su tutto l'insieme dei numeri reali $RR$, ha un grafico illustrato nella @funzione_floor.
 
 #esempio[$floor(-2.5) = -3$ 
 

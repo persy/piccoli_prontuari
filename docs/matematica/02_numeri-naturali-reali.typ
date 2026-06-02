@@ -1086,21 +1086,21 @@ Non ci addentreremo attualmente in questo complesso ambito, ma vale la pena sott
 Il concetto di potenza con esponente intero può essere semplicemente esteso ai numeri reali, senza modificare né la sua definizione né le proprietà ad esso associate. Con l'introduzione dei radicali è possibile estendere questa idea anche agli esponenti razionali, definendoli come segue:
 
 #definizione(label: <potenza_reali>)[Dato un numero reale $a in RR$, con $a > 0$, e un numero razionale $m/n != 0$, con $n > 1$, si definisce:  
-$ a^(m/n) = (root(n, a^m)) $ 
+$ a^(#std.text(size: 0.6em)[$m/n$]) = (root(n, a^m)) $ 
 
 Inoltre, se $r > 0$ è un numero razionale, si pone $0^r = 0$.  
 ]
 Vale la pena notare che questa definizione non può essere applicata a basi negative. Ciò avviene perché un'estensione alle basi negative comporterebbe difficoltà insormontabili dal punto di vista matematico. 
 
 #esempio[Sapendo che $1/3 = 2/6$, se la definizione di cui sopra fosse applicabile anche a basi negative, si avrebbe:  
-$ -1 = root(3, -1) = (-1)^(1/3) = (-1)^(2/6) = root(6, (-1)^2) = root(6, 1) = 1 $  
+$ -1 = root(3, -1) = (-1)^(#std.text(size: 0.6em)[$1/3$]) = (-1)^(#std.text(size: 0.6em)[$2/6$]) = root(6, (-1)^2) = root(6, 1) = 1 $  
 quindi $-1 = 1!$, una chiara contraddizione.]
 
 L'estensione del concetto di potenza può essere applicata anche al caso di esponenti irrazionali reali. Tuttavia, tale definizione è piuttosto complessa e verrà affrontata solo nella @potenze_esponenziali_logaritmi. Quello che vogliamo evidenziare già ora è che tutte le estensioni successive del concetto di potenza (per includere esponenti sempre più generali) vengono realizzate rispettando le proprietà formali descritte nella @proprietà_potenza, assicurando la loro coerenza con quelle delle potenze aventi esponenti naturali.
 
 == Verso i numeri complessi 
 
-L'introduzione dei numeri reali ha permesso di risolvere molti dei problemi matematici incontrati nel corso dello sviluppo della disciplina e ha fornito un insieme numerico ricco di utilissime proprietà. Tuttavia, rimane irrisolto un particolare problema: l'equazione $ x^2 + 1 = 0 $.
+L'introduzione dei numeri reali ha permesso di risolvere molti dei problemi matematici incontrati nel corso dello sviluppo della disciplina e ha fornito un insieme numerico ricco di utilissime proprietà. Tuttavia, rimane irrisolto un particolare problema: l'equazione $ x^2 + 1 = 0 $
 
 Questa risulta impossibile da trattare nel contesto dei numeri reali, poiché non ammette soluzioni. In effetti, la richiesta di trovare un numero il cui quadrato sia negativo è di per sé piuttosto insolita, poiché contrasta con le proprietà fondamentali dei numeri reali. 
 

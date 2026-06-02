@@ -1,5 +1,5 @@
 #import "template.typ": *
-#import "config.typ": accent, accent_color
+#import "config.typ": *
 
 // ==========================================
 // CONFIGURAZIONE UNICA DEL LIBRO
@@ -23,6 +23,13 @@
 // Capitoli
 = Introduzione <senza_numero>
 #include "chapter1.typ"
+
+= Capitolo 
+#include "chapter2.typ"
+
+= Altro capitolo
+
+#include "../docs/biologia/01_atomi-biomolecole.typ"
 
 #pagebreak()
 

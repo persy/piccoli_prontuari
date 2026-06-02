@@ -19,7 +19,7 @@ La variabile $x$ è detta incognita dell'equazione, mentre $S$ rappresenta l'ins
 In pratica, l'insieme $D$, ovvero il dominio comune delle due funzioni $f$ e $g$, non è sempre specificato; si assume quindi che sia il loro dominio naturale comune, chiamato anche dominio dell'equazione. È fondamentale determinare il dominio dell'equazione prima di effettuare qualunque operazione per semplificarla. Vediamo un esempio per chiarire questo concetto.
 
 #esempio[Consideriamo l'equazione:  
-$ 1 / (frac(1, x, style: "skewed") - 1) = 0 $  
+$ 1 / (frac(1, x, style: "vertical") - 1) = 0 $  
 Questa equazione può essere riscritta nella forma semplificata $x - 1 = 0$. Tuttavia, sebbene l'equazione semplificata abbia come soluzione $x = 1$, in realtà tale valore non può essere una soluzione dell'equazione originale, poiché annulla il denominatore, rendendo la frazione priva di significato.]
 
 Tra le equazioni più rilevanti troviamo quelle che, una volta ridotte in forma normale, presentano come primo membro un polinomio o un quoziente di polinomi (ossia una funzione razionale). Ecco alcune definizioni utili al riguardo:

@@ -398,6 +398,10 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# cSpell:
+# cSpell
 .cspell/*
 cspell.json
+
+# Test files
+_test/
+_test/*
