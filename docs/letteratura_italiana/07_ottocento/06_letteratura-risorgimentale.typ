@@ -35,7 +35,7 @@ Va evidenziato come Carlo Cattaneo, portavoce di una politica antisabauda e anti
 
 Il suo pensiero si caratterizzò per un pragmatismo radicale, privo di compromessi e aperto a tutte le scienze non per una curiosità generica, ma per la profonda convinzione che studio e ricerca scientifica e morale costituiscano un unico aspetto della crescita umana. Sul tema della lingua, si oppose alle soluzioni romantiche e manzoniane, preferendo una lingua chiara e semplice, quella che egli stesso adottava nei suoi scritti. Memorabile è il saggio _Sul principio istorico delle lingue europee_ (1841).
 
-#note(bottom)[== *🧩* La crisi del romanzo storico <senza_numero>
+#boxfl(bottom)[== *🧩* La crisi del romanzo storico <senza_numero>
 
 Negli anni Cinquanta dell'Ottocento, il modello del romanzo storico entra in una fase di declino. L'opera di Giuseppe Rovani, _Cento anni_, pubblicata a puntate sulla Gazzetta di Milano tra il 1857 e il 1864, rappresenta un tentativo innovativo di concepire il romanzo come un sistema complesso, in grado di coniugare cronaca, ricostruzione storica, narrazione e riflessione. Questo approccio ambizioso tuttavia non sembra arrestare la trasformazione del panorama letterario dell'epoca.
 

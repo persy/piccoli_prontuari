@@ -15,7 +15,7 @@ La fiducia suscitata dal nuovo papa facilitò anche iniziative comuni tra i prin
 
 Tuttavia, non tutti i sovrani furono inclini al cambiamento. Ferdinando II delle Due Sicilie oppose inizialmente ferma resistenza alle richieste di riforme, ma fu costretto a concedere uno statuto costituzionale il 11 febbraio 1848 in seguito a una rivolta interna. Questo atto fu poi seguito da ulteriori concessioni costituzionali: Carlo Alberto introdusse lo Statuto Albertino (4 marzo), Leopoldo II promulgò una costituzione il 17 febbraio, e Pio IX partecipò al clima riformista con analoga concessione il 14 marzo.
 
-#note(top)[== *🧩* Camillo Benso, conte di Cavour <senza_numero>
+#boxfl(top)[== *🧩* Camillo Benso, conte di Cavour <senza_numero>
 
 Camillo Benso, conte di Cavour, nacque nel 1810 da una famiglia nobile piemontese. Secondogenito del marchese Michele e della ginevrina Adele di Sellon, ricevette un'educazione che risentiva di forti influenze calviniste. Giovane ufficiale dell'esercito sabaudo, nel 1831 abbandonò la carriera militare e intraprese un lungo viaggio in Europa della durata di quattro anni. Durante questa esperienza approfondì lo studio degli effetti della Rivoluzione Industriale in paesi come Gran Bretagna, Francia e Svizzera, acquisendo una solida formazione sui principi economici e socio-politici dei sistemi liberali britannici.
 
@@ -81,7 +81,7 @@ L'11 maggio 1860 Giuseppe Garibaldi sbarcò a Marsala, dando avvio alla sua sped
 
 Con l'appoggio entusiastico della popolazione locale e con un minimo sforzo militare, Garibaldi riuscì a conquistare l'intera Sicilia, culminando nella vittoria nella battaglia di Milazzo il 20 luglio.
 
-#note(top)[== *🧩* L'amministrazione garibaldina in Sicilia  <senza_numero>
+#boxfl(top)[== *🧩* L'amministrazione garibaldina in Sicilia  <senza_numero>
 
 Dopo lo sbarco dei Mille a Marsala, Garibaldi istituì la propria dittatura in Sicilia (Salemi, 14 maggio) in nome di Vittorio Emanuele, nominando il 17 maggio Francesco Crispi come segretario di Stato.
 

@@ -75,7 +75,7 @@ Carducci emerge come figura emblematica della poesia italiana, ricoprendo il ruo
 
 Alle esperienze personali più dolorose e al confronto con il tema della morte si ricollegano altre opere delle medesime raccolte, che si rivelano tra i risultati poetici migliori dell'autore. _Pianto antico_ e _Funere mersit acerbo_ ne costituiscono gli esempi più compiuti, connotandosi per l'assenza dell'eroicità che aveva caratterizzato precedenti lavori e mostrando una nuova inquietudine esistenziale. Il poeta, segnato dalla perdita, dal dolore e dal senso di delusione, affronta queste emozioni con misura e controllo, il che si traduce anche in una diversa evocazione della natura, ora oscura e permeata da segni di mortificazione e finitudine. A tal proposito, merita attenzione l'ultima raccolta carducciana, _Rime e ritmi_ (1899), significativa nella sua dimensione meditativa.
 
-#note(top)[== *🧩* I "poeti carducciani" <senza_numero>
+#boxfl(top)[== *🧩* I "poeti carducciani" <senza_numero>
 
 Con il suo vasto laboratorio letterario, Carducci fornì un modello diversificato che influenzò non solo Pascoli e D'Annunzio, ma anche numerosi altri scrittori, ognuno con un proprio approccio stilistico. Alcuni si orientarono verso un realismo moderato, altri verso un classicismo eroico, mentre altri ancora adottarono una forma di classicismo equilibrato e composto.
 

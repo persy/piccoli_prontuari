@@ -43,7 +43,7 @@ Il quarto libro riveste una particolare rilevanza letteraria poiché approfondis
 
 La lunga esistenza di Marco Porcio Catone (234-149 a.C.), primo grande storico e oratore dell'età arcaica, copre il periodo in cui Roma si afferma come potenza dominante nel Mediterraneo, affrontando un'irrefrenabile trasformazione sociale, politica e culturale. In contrasto con la corrente modernizzante e filoellenica, incarnata soprattutto dal circolo degli Scipioni, Catone rappresenta in Senato una delle figure guida dell'ala agraria e conservatrice, schierandosi rigorosamente a favore del mos maiorum e dei tradizionali costumi morali.
 
-#note(bottom)[== *🧩* Il circolo degli Scipioni <senza_numero>
+#boxfl(bottom)[== *🧩* Il circolo degli Scipioni <senza_numero>
 
 La conquista del Mediterraneo intensifica la diffusione della cultura greca tra le élite della società romana, rafforzando i legami culturali tra le due civiltà.
 

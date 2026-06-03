@@ -29,7 +29,7 @@ L'espansione della produzione industriale richiedeva una struttura finanziaria s
 
 Parallelamente, le stesse aziende, con la loro crescita, dovettero strutturarsi in modo più stabile. Questo portò alla nascita delle Società per Azioni, in cui diversi investitori capitalisti contribuivano con il proprio denaro, creando un sistema condiviso di risorse. Per gestire la compravendita delle azioni, il cambio di valuta e il collocamento dei prestiti pubblici si fondarono le Borse, con quelle di Londra e Parigi che divennero le più rilevanti.
 
-#note(top)[== *🧩* L'espansione demografica nell'Europa d'inizio '800 e le teorie di Malthus <senza_numero> 
+#boxfl(top)[== *🧩* L'espansione demografica nell'Europa d'inizio '800 e le teorie di Malthus <senza_numero> 
 
 Durante i primi cinquant'anni del XIX secolo, la popolazione europea aumentò da 188 milioni a 247 milioni di abitanti. A livello mondiale, si passò da 900 milioni a 1,2 miliardi. In questo contesto storico assunsero una certa rilevanza le teorie formulate sul finire del Settecento dal pastore anglicano Thomas Robert Malthus (1766-1834).
 

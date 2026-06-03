@@ -19,7 +19,7 @@ Parallelamente, navigatori come Magellano tra il 1519 e il 1522 si avventuravano
 
 Nei secoli XVII e XVIII, il Pacifico divenne protagonista delle maggiori imprese esplorative. Viaggiatori come Tasman (1642-1643), Bougainville (1767-1768), von Humboldt (1799-1804) e soprattutto James Cook (1768-1779) unirono interessi commerciali e militari a finalità scientifiche, ampliando ulteriormente la conoscenza geografica mondiale.
 
-#note(top)[== *🧩* Cristoforo Colombo <senza_numero>
+#boxfl(top)[== *🧩* Cristoforo Colombo <senza_numero>
 
 Cristoforo Colombo, partendo dalla convinzione che la Terra fosse rotonda, riteneva possibile raggiungere le Indie navigando verso occidente. Tuttavia, sottovalutò l'estensione del continente asiatico verso est, calcolando erroneamente la distanza tra Europa e Indie. I sovrani spagnoli che finanziarono il suo viaggio si impegnarono a conferirgli i titoli di ammiraglio e viceré delle terre che avrebbe acquisito per la Spagna, oltre a garantire un decimo dei profitti derivanti dalle sue scoperte (Capitolazioni di Santa Fé).
 

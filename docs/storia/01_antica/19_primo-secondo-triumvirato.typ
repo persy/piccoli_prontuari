@@ -39,7 +39,7 @@ La battaglia decisiva si svolse a Farsalo, in Tessaglia, nel 48 a.C., dove Cesar
 
 Console a partire dal 48 a.C., Cesare fu nominato dittatore per dieci anni nel 46 e poi dittatore a vita agli inizi del 44. Questa concentrazione di poteri suscitò il risentimento di molti uomini del suo partito. Alle Idi di marzo del 44 a.C., durante una seduta del senato, Cesare fu assassinato in una congiura orchestrata dai repubblicani Bruto e Cassio.
 
-#note(top)[== *🧩* Cleopatra <senza_numero>
+#boxfl(top)[== *🧩* Cleopatra <senza_numero>
 
 Cleopatra fu una figura affascinante e determinante nei rapporti con i grandi uomini di Roma. Colta e capace di usare il suo fascino per influenzare il destino del proprio regno, ebbe una relazione con Cesare, da cui nacque un figlio, Cesarione, e poi con Antonio. Quest'ultimo si innamorò perdutamente di lei, al punto da adottare costumi monarchici ellenistici e trascurare completamente gli affari politici e militari. Antonio decise persino di lasciare molti dei suoi territori alla regina e ai loro figli. Alla fine il destino dei due amanti fu tragico: Antonio si tolse la vita davanti a Cleopatra, la quale, appreso che Ottaviano voleva portarla a Roma come prigioniera, si suicidò facendosi mordere da un aspide. I due furono sepolti insieme ad Alessandria in modo degno e onorevole.]
 

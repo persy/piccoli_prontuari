@@ -27,7 +27,7 @@ Una volta definito il sistema di riferimento appropriato, se il punto varia la p
 
 La relazione che lega la variazione della posizione del punto nello spazio al trascorrere del tempo è chiamata legge oraria. Il percorso formato dai punti occupati dal corpo in movimento prende invece il nome di traiettoria del moto.
 
-#note(bottom)[== *🧩* Il concetto di funzione <senza_numero>
+#boxfl(bottom)[== *🧩* Il concetto di funzione <senza_numero>
 
 Il termine funzione in analisi matematica descrive la relazione secondo la quale un elemento dipende da un altro secondo un criterio ben definito. Le funzioni più semplici riguardano una sola variabile, generalmente identificata con _x_ (variabile indipendente) e _y_ (variabile dipendente).
 

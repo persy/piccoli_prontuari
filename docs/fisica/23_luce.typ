@@ -8,7 +8,7 @@ Assieme al suono, rappresenta per l'essere umano uno dei principali canali di sc
 Le proprietà della luce sono quelle tipiche di un'onda, e le sue interazioni con la materia generano fenomeni quali riflessione, rifrazione, diffrazione e interferenza. La riflessione e la rifrazione su superfici progettate ad hoc, come specchi e lenti, trovano applicazioni fondamentali alla base di tutti gli strumenti ottici. Il ramo della fisica classica che si occupa di studiare la luce, le sue caratteristiche e le sue interazioni con la materia prende il nome di ottica.]
 
 == Caratteristiche della luce
-#note(bottom)[== *🧩* La misura della velocità della luce <senza_numero>
+#boxfl(bottom)[== *🧩* La misura della velocità della luce <senza_numero>
 
 La misurazione moderna della velocità della luce fu eseguita per la prima volta dall'astronomo danese Ole Roemer nel 1675. Successivamente si ricorse a tecniche non astronomiche: nel 1849 il fisico francese Hippolyte Fizeau effettuò un rilevamento con un margine d'errore del 15% rispetto al valore oggi accettato. Nel XIX secolo fu anche calcolata la velocità della luce in acqua, che risultò inferiore rispetto a quella nel vuoto (o nell'aria), come previsto dalla teoria ondulatoria. Questo risultato contraddisse il modello corpuscolare proposto da Newton, secondo il quale la luce avrebbe dovuto viaggiare più velocemente nei materiali densi come l'acqua o il vetro.
 
@@ -33,7 +33,7 @@ Per analizzare i fenomeni di riflessione e rifrazione, che si verificano quando 
 Al contrario, l'ottica ondulatoria, che include anche la trattazione della luce come fenomeno elettromagnetico, considera la propagazione della luce sotto forma di onde trasversali. In questo contesto, il raggio luminoso è definito come la traiettoria perpendicolare alla direzione dell'onda.
 
 L'ottica geometrica può essere considerata un'approssimazione dell'ottica ondulatoria ed è particolarmente utile per spiegare fenomeni luminosi in cui le dimensioni degli elementi che interagiscono con la luce sono molto maggiori della sua lunghezza d'onda, come nel caso di lenti e specchi.
-#note(bottom)[== *🧩* I colori degli oggetti <senza_numero>
+#boxfl(bottom)[== *🧩* I colori degli oggetti <senza_numero>
 
 Il colore percepito di un corpo illuminato dipende dal modo in cui esso interagisce con la luce bianca incidente: parte di questa viene assorbita dalla superficie dell'oggetto e parte riflessa. Il colore visibile corrisponde alla componente riflessa o alla combinazione di più componenti.
 

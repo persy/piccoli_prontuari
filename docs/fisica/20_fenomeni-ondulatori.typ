@@ -165,7 +165,7 @@ Si parla di interferenza distruttiva quando due onde creano un'onda con ampiezza
 
 L'interferenza può avvenire anche con una sola onda, quando questa colpisce un ostacolo e viene riflessa. In tal caso, l'interferenza tra l'onda incidente e quella riflessa genera figure simili a quelle prodotte da due onde distinte.
 
-#notebr[== *🧩* Le onde stazionarie: nodi, antinodi e risonanza <senza_numero>
+#boxbr[== *🧩* Le onde stazionarie: nodi, antinodi e risonanza <senza_numero>
 
 I nodi sono il risultato di interferenza distruttiva tra onde identiche, mentre gli antinodi sono il risultato di interferenza costruttiva. Le onde stazionarie emergono dall'interferenza tra due onde identiche che viaggiano in direzione opposta. Queste onde sono caratterizzate da punti che rimangono statici (nodi) e punti in cui l'oscillazione raggiunge sempre la sua ampiezza massima (antinodi).
 

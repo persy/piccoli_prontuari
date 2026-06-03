@@ -168,7 +168,7 @@ Nell'emisfero boreale, le stagioni astronomiche si articolano come segue:
 
 Le stagioni astronomiche non corrispondono pienamente a quelle meteorologiche, ossia al reale andamento delle condizioni climatiche. Tale discrepanza è attribuibile al fatto che atmosfera, idrosfera e litosfera assorbono e rilasciano calore con un certo intervallo temporale, ritardando l'impatto percepibile delle variazioni dell'inclinazione dei raggi solari. Inoltre, l'inclinazione dei raggi altera l'altezza degli archi descritti dal Sole nel cielo durante il suo moto apparente tra alba e tramonto. Basandosi su queste differenze stagionali nell'inclinazione dei raggi solari, è possibile identificare diverse zone astronomiche della superficie terrestre, ciascuna caratterizzata da specifici pattern climatici.
 
-#note(bottom)[== *🧩* Le zone astronomiche <senza_numero>
+#boxfl(bottom)[== *🧩* Le zone astronomiche <senza_numero>
 
 A causa della diversa inclinazione dei raggi solari nel corso dell'anno, la superficie terrestre viene suddivisa in diverse zone astronomiche, ognuna con condizioni di riscaldamento caratteristiche.
 

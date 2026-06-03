@@ -27,7 +27,7 @@ Sul piano interno e internazionale, il quadro subisce un'accelerazione drammatic
 
 Nel gennaio 2002 emerge lo scandalo Enron, relativo al fallimento del colosso energetico americano, coinvolgendo personalità vicine all'amministrazione presidenziale. Parallelamente, Bush identifica nei cosiddetti "Paesi canaglia" -- Iraq, Iran e Corea del Nord -- gli obiettivi prioritari della sua offensiva antiterroristica globale, definendoli parte integrante dell'"asse del male". Le dichiarazioni si traducono in azioni concrete nel marzo 2003, quando gli Stati Uniti -- affiancati dalla Gran Bretagna e da altri Paesi -- avviano l'operazione Iraq Freedom, bypassando il veto annunciato dal Consiglio di Sicurezza delle Nazioni Unite per intraprendere le ostilità contro l'Iraq.
 
-#note(top)[== *🧩* L'11 settembre 2001 <senza_numero>
+#boxfl(top)[== *🧩* L'11 settembre 2001 <senza_numero>
 
 L'attacco terroristico più spettacolare e inquietante della storia moderna si svolge nella prima mattina dell'11 settembre 2001 e si consuma in poco più di un'ora, sconvolgendo il mondo intero.
 

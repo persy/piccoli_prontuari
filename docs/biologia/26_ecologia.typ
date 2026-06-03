@@ -31,7 +31,7 @@ Inoltre, alcuni organismi reagiscono di fronte a specifici fattori ecologici con
 
 Il fattore limitante è definito come quel elemento chimico-fisico o biotico che, se presente in quantità superiore o inferiore a una certa soglia, rende impossibile la sopravvivenza di una specie in un determinato ambiente.
 
-#note(bottom)[== *🧩* La legge dei fattori limitanti  <senza_numero>
+#boxfl(bottom)[== *🧩* La legge dei fattori limitanti  <senza_numero>
 
 La legge dei fattori limitanti discende dalla legge del minimo, formulata dal chimico tedesco Justus von Liebig (1803-1873), secondo la quale "la crescita delle piante dipende dall'elemento presente in quantità inferiore rispetto al fabbisogno, al di sotto del quale le sintesi non possono aver luogo". Le piante impiegano numerosi elementi chimici per i propri processi metabolici, ma solo alcuni sono essenziali, sebbene in quantità molto variabili (macroelementi e microelementi). La legge del minimo afferma che la crescita viene inibita se anche solo uno di questi microelementi non raggiunge la soglia minima necessaria.
 

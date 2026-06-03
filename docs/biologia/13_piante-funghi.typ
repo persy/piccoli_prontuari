@@ -21,7 +21,7 @@ La riproduzione asessuata avviene tramite la frammentazione del micelio. Con per
 
 I funghi crescono principalmente in ambienti umidi del sottobosco e svolgono un ruolo fondamentale come decompositori insieme ai batteri. La maggior parte dei funghi è saprofita, nutrendosi di materia organica in decomposizione, mentre altri agiscono come parassiti. Alcuni instaurano simbiosi mutualistiche con altre specie; esempi significativi includono i licheni, associazioni tra funghi e alghe, e le micorrize, che penetrano nelle cellule radicali di molte piante vascolari e condividono con esse sostanze nutritive.
 
-#note(bottom)[== *🧩* I licheni <senza_numero>
+#boxfl(bottom)[== *🧩* I licheni <senza_numero>
 
 I licheni sono strutture vegetali complesse formate dall'associazione simbiotica tra funghi e alghe. Questa collaborazione stretto consente loro di formare un unico tallo: il micelio dei funghi, prevalentemente ascomiceti, assorbe acqua e sali minerali dal substrato e trattiene l'umidità, mentre le alghe, unicellulari clorofite o cianobatteri, provvedono alla produzione di zuccheri grazie alla fotosintesi.
 

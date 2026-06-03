@@ -27,7 +27,7 @@ Molti poeti affiliati al movimento barocco, tra cui Rinaldi, Stigliani e lo stes
 
 Il significato dispregiativo del termine "barocco" fu messo in discussione alla fine del XIX secolo dallo storico dell'arte tedesco Heinrich Wölfflin, che attribuì a questo stile, in contrapposizione all'arte classicista, un valore positivo. Oggi il termine in genere possiede una valenza oggettiva e storica, indipendente da giudizi di valore universale. Quando non è utilizzato in senso figurato, dove conserva ancora un'accezione di esagerazione e artificiosità, tende a definire il gusto e lo stile di un'intera epoca.
 
-#note(bottom)[== *🧩* Il barocco in Europa <senza_numero>
+#boxfl(bottom)[== *🧩* Il barocco in Europa <senza_numero>
 
 Il barocco in Europa trova la sua maggiore espressione nella Spagna, dove il XVII secolo, noto come il Secolo d'Oro, segna un periodo di grande fioritura culturale. In ambito teatrale spiccano le figure di Lope de Vega e Calderón de la Barca, mentre nella prosa il genere del romanzo picaresco, che trae origine con il _Lazarillo de Tormes_, raggiunge il suo apice nei capolavori di Francisco de Quevedo. Per quanto riguarda la poesia, emergono due distinte correnti estetiche: il "gongorismo", caratterizzato da raffinatezza e dottrina erudita, e il "concettismo", più orientato verso introspezione e sentimenti. Questi approcci restano in opposizione, accentuando una divergenza di stili che, invece, si armonizzavano nei componimenti di Luis de Góngora. L'opera poetica più rappresentativa del barocco spagnolo si ritrova nei versi di Juana Inés de la Cruz.
 

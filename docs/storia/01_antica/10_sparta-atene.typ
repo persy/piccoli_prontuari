@@ -41,7 +41,7 @@ Durante il governo di Pisistrato, Atene conobbe un periodo di prosperità grazie
 
 La soluzione politica per placare le tensioni interne arrivò con Clistene, divenuto arconte nel 508-507 a.C., il quale attuò radicali riforme che trasformarono Atene in una democrazia costituzionale basata quasi esclusivamente sul criterio territoriale. Le magistrature furono assegnate attraverso un sistema misto di elezione e sorteggio, con l'eccezione della carica di stratego, riservata a chi dimostrava competenza militare. Questo approccio garantì a tutti i cittadini la possibilità di partecipare alla vita politica.
 
-#note(top)[== *🧩* La riforma di Clistene <senza_numero>
+#boxfl(top)[== *🧩* La riforma di Clistene <senza_numero>
 
 Clistene introdusse una riorganizzazione socio-politica basata su criteri territoriali, che rappresentò un elemento chiave nella struttura amministrativa della _polis_ ateniese. Al centro di questa redistribuzione si trovavano i demi, circa un centinaio, delineati come unità amministrative autonome ciascuna sotto la guida di un demarco. Tre demi costituivano una trittia, e tre trittie formavano una delle dieci tribù. 
 

@@ -17,7 +17,7 @@ Le proprietà estensive dipendono dall'estensione del campione di materia analiz
 
 La varietà dei corpi materiali deriva dalla vasta gamma di combinazioni possibili tra le varie sostanze componenti. Ogni sostanza è formata da particelle discrete (gli atomi), che possono essere combinate in modi diversi per dar vita a una straordinaria diversità nel mondo fisico. Questo affascinante mosaico di varietà è ciò che dà forma al nostro universo materiale.
 
-#note(bottom)[== *🧩* Equivalenza massa-energia <senza_numero>
+#boxfl(bottom)[== *🧩* Equivalenza massa-energia <senza_numero>
 
 La relazione tra massa ed energia è stata formulata dal fisico Albert Einstein nel 1905 e rappresentata dall'equazione E = m · c#super[2]. In questa formula, c è la velocità della luce (circa 3 · 10#super[8] m/s). Tale principio stabilisce che massa ed energia sono equivalenti e possono essere trasformate l'una nell'altra. Ne deriva il principio di conservazione della massa-energia: pur non mantenendo costante massa o energia separatamente, viene conservato il loro totale combinato. A causa dell'entità del fattore c#super[2], anche una piccola quantità di massa può generare un'enorme quantità di energia, fenomeno osservabile nelle reazioni di fissione e fusione nucleari.]
 
@@ -231,7 +231,7 @@ Altre forme di energia sono:
 
 Tutte queste forme di energia possono essere convertite le une nelle altre e trasferite tra corpi diversi. Tuttavia, vale la regola inderogabile della conservazione dell'energia: la somma totale dell'energia prima e dopo ogni trasformazione rimane invariata. In sintesi, l'energia non viene né creata né distrutta.
 
-#note(top)[== *🧩* La trasformazione di energia potenziale in energia cinetica <senza_numero>
+#boxfl(top)[== *🧩* La trasformazione di energia potenziale in energia cinetica <senza_numero>
 
 Consideriamo un corpo fermo a una certa altezza dal suolo: inizialmente esso possiede energia potenziale massima e energia cinetica nulla. Nel momento in cui viene lasciato cadere, l'energia potenziale si trasforma gradualmente in energia cinetica man mano che il corpo accelera verso il suolo. Quando il corpo arriva a terra, la sua energia cinetica raggiunge il valore massimo, mentre l'energia potenziale diventa nulla. Questo fenomeno rappresenta una trasformazione dell'energia potenziale in energia cinetica, mantenendo costante l'energia meccanica totale.]
 
@@ -295,7 +295,7 @@ Un singolo materiale può esistere in ciascuno dei quattro diversi stati fisici,
 )  
 )
 
-#note(bottom)[== *🧩* La distinzione tra gas e vapore <senza_numero>
+#boxfl(bottom)[== *🧩* La distinzione tra gas e vapore <senza_numero>
 
 La distinzione tra gas e vapore risiede principalmente nel comportamento durante la compressione. Un vapore (come il vapore d'acqua o l'alcol etilico) può essere liquefatto semplicemente aumentando la pressione, senza modificare la temperatura. Un gas invece (ad esempio ossigeno o anidride carbonica) può essere liquefatto solo se la temperatura viene ridotta al di sotto di un valore definito come temperatura critica. Per alcune sostanze, questa temperatura è estremamente bassa; nel caso dell'idrogeno, ad esempio, è pari a -240 °C.]
 

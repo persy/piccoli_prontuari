@@ -85,7 +85,7 @@ Nel 1915, il fisico tedesco Arnold Sommerfeld ampliò il modello di Bohr introdu
 
 Successivamente, nel 1924, Walter Pauli aggiunse un quarto numero quantico: il numero di spin ($m_s$), che rappresenta il senso di rotazione dell'elettrone intorno al proprio asse. Questo valore può essere $+1/2$ o $-1/2$ e contribuì a chiarire ulteriormente il comportamento degli elettroni nell'atomo.
 
-#note(bottom)[== *🧩* Quanti e spettri di emissione <senza_numero>
+#boxfl(bottom)[== *🧩* Quanti e spettri di emissione <senza_numero>
 
 Nel 1900 il fisico tedesco Max Planck formulò una teoria rivoluzionaria secondo cui la luce e qualsiasi forma di energia radiante non vengono scambiate in modo continuo dai corpi materiali, ma sotto forma di piccole quantità discrete chiamate quanti. I quanti di luce presero il nome di fotoni.
 

@@ -19,7 +19,7 @@ Iscritto alla facoltà di lettere dell'Università di Roma, non completò mai gl
 
 Un periodo di crisi personale lo spinse a confrontarsi con le correnti più rilevanti del decadentismo europeo. In particolare, le letture di Nietzsche e Wagner, unite alla concezione del "superuomo", offrirono a D'Annunzio una base filosofica per legittimare un "vivere inimitabile" svincolato da ogni morale comune. Tale visione avrebbe permeato gran parte della sua produzione artistica e della sua vita personale.
 
-#note(bottom)[== *🧩* Il decadentismo europeo <senza_numero>
+#boxfl(bottom)[== *🧩* Il decadentismo europeo <senza_numero>
 
 Il decadentismo europeo nacque a Parigi, dove alcuni intellettuali bohémiens, caratterizzati da una vita sregolata e anticonformista, si ritrovarono in cenacoli letterari o si associarono a riviste di stampo programmatico per dare origine a questa corrente artistica. Questi autori accolsero con orgoglio il termine "decadente", usato inizialmente in modo dispregiativo dalla critica borghese, reinterpretandolo positivamente per sottolineare il loro interesse verso gli aspetti raffinati ed eleganti delle epoche storiche di declino. Figura di riferimento per il movimento fu Charles Baudelaire, considerato il padre spirituale dei decadenti e ispiratore della concezione del poeta veggente, dedito all’esplorazione dell’ignoto e distante dall’immagine romantica del poeta vate. 
 
@@ -89,7 +89,7 @@ Parallelamente ai suoi impegni accademici, Pascoli dava vita alla seconda fase d
 Merita una menzione speciale la raccolta latina _Carmina_ (1914), che riunisce la sua produzione lirica in lingua latina, composta tra il 1885 e il 1911 e articolata in diverse sezioni tematiche. Sebbene caratterizzata da un valore talvolta discontinuo, la restante produzione latina di Pascoli comprende opere degne di nota come i poemi _Veianus_ (1891), _Gladiatores_ (1892), _Fanum Apollinis_ (1904) e _Thallusa_ (1911).
 
 === _Myricae_ e _Canti di Castelvecchio_
-#note(bottom)[== *🧩* La poetica del "fanciullino" <senza_numero> 
+#boxfl(bottom)[== *🧩* La poetica del "fanciullino" <senza_numero> 
 
 Descritta da Pascoli nel celebre saggio _Il fanciullino_, pubblicato sulla rivista _Il Marzocco_ (1897), rappresenta il nucleo della sua concezione poetica. Secondo Pascoli, nella poesia emerge una voce "fanciullesca", capace di osservare e percepire il mondo con meraviglia, catturandone il mistero in modo spontaneo e puro, attraverso brevi intuizioni e delicate pennellate di colore. \ L'autore vede la poesia come un ritorno a uno stato primordiale, quasi "inconscio", che consente non tanto di rappresentare quanto di trascrivere l'essenza segreta delle cose. Il "fanciullino" non si limita a evocare l’innocenza, ma incarna una profonda simbiosi tra la parola poetica e l'intreccio di misteri e sofferenze che essa cerca di svelare.]
 Fin dagli esordi, Pascoli esercitò un profondo rinnovamento della tradizione poetica italiana, sovvertendo i codici linguistici consolidati in modo quasi inconscio, ma con esiti sorprendentemente innovativi. Un esempio emblematico è il sonetto _Rio Salto_, composto nel 1877 quando il poeta non aveva ancora compiuto ventidue anni, e successivamente incluso nella raccolta _Myricae_. Scritto nello stesso anno della pubblicazione delle _Odi barbare_ di Giosuè Carducci, il nuovo maestro della poesia italiana, questo sonetto rivela già un distacco dal magistero carducciano, eccezion fatta per alcune concessioni estetiche dal sapore lievemente oleografico visibili nella melodia del verso.

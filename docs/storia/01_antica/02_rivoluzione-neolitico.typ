@@ -27,7 +27,7 @@ Nelle Americhe, le prime coltivazioni agricole (mais, zucca, peperone e fagiolo)
 
 In Estremo Oriente, specialmente in Cina, si coltivavano miglio e si allevavano bovini, maiali e capre. Tra i manufatti prodotti spiccano quelli in pietra levigata e ceramiche nere, lucide o decorate a motivi dipinti.
 
-#note(bottom)[== *🧩* La nascita dell'agricoltura <senza_numero>
+#boxfl(bottom)[== *🧩* La nascita dell'agricoltura <senza_numero>
 
 Alcuni cereali come frumento, orzo e miglio crescevano spontaneamente in zone a clima temperato. Durante il Neolitico, iniziarono ad essere seminati nella regione della Mezzaluna Fertile, segnando l'inizio dell'agricoltura organizzata. L'invenzione dell'aratro rappresentò un grande avanzamento tecnologico in questo campo.
 
@@ -49,7 +49,7 @@ Successivamente, nel periodo Amratiano, furono introdotte innovazioni tecniche c
 
 In Sicilia sono stati rinvenuti resti di insediamenti in villaggi e grotte, accompagnati da manufatti in ceramica e utensili in pietra scheggiata e levigata. In Sardegna, invece, sono stati scoperti monumenti dolmen e statuine in osso raffiguranti la dea Madre.
 
-#note(top)[== *🧩* Il simbolismo delle pietre <senza_numero>
+#boxfl(top)[== *🧩* Il simbolismo delle pietre <senza_numero>
 
 Il simbolismo delle pietre riveste un ruolo centrale nelle civiltà tradizionali. Esso evoca nozioni di durezza e stabilità, ma anche un significato legato al fuoco, poiché si crede che la pietra racchiuda un principio igneo al suo interno.
 

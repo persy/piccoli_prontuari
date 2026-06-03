@@ -35,7 +35,7 @@ L'anno seguente, nel 1099, grazie al supporto navale dei Genovesi, fu conquistat
 
 Per garantire la sicurezza dei pellegrinaggi nei territori conquistati e per consolidare il controllo militare e religioso sull'area furono istituiti ordini religioso-cavallereschi. Oltre agli obblighi tradizionali di povertà, castità e obbedienza tipici degli ordini monastici, i membri di queste congregazioni giurarono anche di combattere perpetuamente contro gli infedeli. Fra i principali ordini meritano una menzione gli Ospedalieri o Giovanniti, i Templari, chiamati così perché risiedevano nel sito dove in passato era sorto il tempio di Salomone a Gerusalemme, e i Cavalieri Teutonici, creato da alcuni tedeschi di Brema e Lubecca per assistere i pellegrini provenienti dalla Germania. 
 
-#note(top)[== *🧩* I riti crociati <senza_numero>
+#boxfl(top)[== *🧩* I riti crociati <senza_numero>
 
 L'esperienza crociata si definiva spiritualmente e simbolicamente come una forma di pellegrinaggio penitenziale verso il Santo Sepolcro. Come i pellegrini, i crociati ricevevano una benedizione speciale prima della partenza e beneficiavano della protezione ecclesiastica sui propri beni e familiari durante tutta la durata dell'impresa. A ciò si aggiungeva la concessione dell'indulgenza plenaria, ovvero il perdono completo dei peccati, insieme alla sospensione di procedimenti giudiziari eventualmente pendenti.
 
@@ -57,7 +57,7 @@ La Settima Crociata fu guidata esclusivamente da Luigi IX di Francia nel tentati
 
 L'Ottava Crociata, proclamata da papa Clemente IV nel 1270, fallì prima ancora di iniziare: Luigi IX, giunto a Tunisi, morì a causa della peste. Tra le crociate si distingue quella indetta da Innocenzo III nel 1208 contro gli albigesi (noti anche come Catari), considerati eretici in Francia. Questa campagna, durata fino al 1229, si concluse con l'annessione della Provenza al dominio di re Luigi VIII. Gli albigesi sopravvissuti furono perseguitati dall'Inquisizione, un tribunale ecclesiastico gestito dai domenicani per preservare l'ortodossia religiosa e combattere le eresie.
 
-#note(top)[== *🧩* Bilancio delle crociate nell'interpretazione storica <senza_numero>
+#boxfl(top)[== *🧩* Bilancio delle crociate nell'interpretazione storica <senza_numero>
 
 Il bilancio politico e militare delle crociate fu in gran parte negativo, ma le loro conseguenze sul piano degli scambi spirituali e culturali si rivelarono invece positive.
 

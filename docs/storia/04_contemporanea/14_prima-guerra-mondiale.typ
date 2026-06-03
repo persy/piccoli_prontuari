@@ -125,7 +125,7 @@ Infine, con la Turchia fu stabilita la Pace di Sèvres il 10 agosto 1920. Con qu
 
 Accogliendo le proposte americane, il 28 aprile 1919 fu costituita la Società delle Nazioni, un organismo internazionale con il fine di mantenere la pace a livello mondiale. I grandi imperi degli Stati centrali, l'Impero Ottomano e la Russia degli zar scomparvero, sostituiti da nuove entità nazionali.
 
-#note(top)[== *🧩* La Società delle Nazioni <senza_numero>
+#boxfl(top)[== *🧩* La Società delle Nazioni <senza_numero>
 
 La Società delle Nazioni fu istituita durante la Conferenza di pace di Versailles nel 1919. La sua operatività ebbe formalmente inizio il 10 gennaio 1920 con la ratifica del Trattato di pace con la Germania, dove il suo statuto era incluso. Con sede a Ginevra, l'organismo era strutturato su un'Assemblea dei Paesi membri, un Consiglio e un Segretariato permanente.
 

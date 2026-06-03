@@ -25,7 +25,7 @@ Le idee di Proudhon furono ancora più radicali. Egli auspicava un modello di au
 
 Prima della diffusione delle idee di Marx, alcuni altri esperimenti socialisti si distinsero. Sul piano politico spiccarono le attività di Louis Blanqui, mentre sul piano pratico si ricordano quelle di Louis Blanc, ideatore degli _ateliers nationaux_.
 
-#note(bottom)[== *🧩* I partiti socialisti <senza_numero>
+#boxfl(bottom)[== *🧩* I partiti socialisti <senza_numero>
 
 I partiti socialisti nazionali cominciarono a emergere nella scena europea a partire dal 1875. Un evento cruciale fu la fondazione del Partito Socialdemocratico Tedesco (SPD) durante il congresso di Gotha. Nei decenni successivi si affermarono anche il Partito Operaio Francese nel 1880 e il Partito Operaio Italiano nel 1882, da cui nasce il Partito Socialista Italiano nel Congresso di Genova del 1892. Inoltre, il Partito Operaio Socialdemocratico Russo venne costituito nel 1898, contribuendo alla diffusione delle istanze socialiste.  
 

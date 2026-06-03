@@ -63,7 +63,7 @@ All'inizio del romanzo, Apuleio specifica che l'opera trae origine dalla tradizi
 
 Il romanzo presenta anche similitudini con un'opera più breve, _Lucio o l'asino_, attribuita al contemporaneo greco Luciano di Samosata. Tuttavia, molti critici considerano questo scritto apocrifo. Rimane ancora aperta la questione se Apuleio abbia tratto ispirazione dallo pseudo-Luciano per alcune parti del proprio testo o se entrambe le opere primarie derivino da un romanzo perduto dello scrittore greco Lucio da Patrasso, come ipotizza Fozio, patriarca di Costantinopoli nel IX secolo.
 
-#notebr[== *🧩* Riassunto delle _Metamorfosi_ <senza_numero>
+#boxbr[== *🧩* Riassunto delle _Metamorfosi_ <senza_numero>
 
 La narrazione è affidata a Lucio, un giovane colto e spensierato che, durante un viaggio in Tessaglia, ascolta da due viandanti una macabra storia di streghe. Spinto da una crescente curiosità per i misteri delle arti magiche, giunge nella città di Ipota, dove Panfila, moglie del suo ospite, gode della fama di strega capace di trasformare i propri amanti in animali o pietre.
 

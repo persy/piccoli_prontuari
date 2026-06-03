@@ -59,7 +59,7 @@ In frane ad alta energia cinetica, i materiali possono raggiungere la base del v
 
 I movimenti franosi causano ogni anno migliaia di vittime a livello globale, con particolare incidenza nei paesi geologicamente attivi e giovani che non adottano adeguate misure protettive. L'Italia è tra le nazioni più colpite da tali fenomeni. Le strategie preventive includono opere per consolidare e stabilizzare i pendii (come rimboschimenti e installazione di strutture quali muri, gabbioni o reti metalliche), restrizioni nell'edificazione sui pendii basate sul grado di stabilità geologica e monitoraggio continuo delle aree ad alto rischio di frana per valutarne lo stato di equilibrio.
 
-#note(bottom)[== *🧩* Classificazione delle frane <senza_numero>
+#boxfl(bottom)[== *🧩* Classificazione delle frane <senza_numero>
 
 A seconda del tipo di materiale che si stacca e delle modalità di movimento, è possibile distinguere diversi tipi di frane.
 
@@ -99,7 +99,7 @@ I deserti mostrano una continua espansione globale: ogni anno circa 6 milioni di
 
 === Le cause antropiche della desertificazione
 
-#note(top)[== *🧩* Interventi contro la desertificazione <senza_numero>
+#boxfl(top)[== *🧩* Interventi contro la desertificazione <senza_numero>
 
 Attraverso interventi mirati, l'uomo è in grado non solo di contrastare l'espansione dei deserti, ma anche di recuperare alla coltivazione aree precedentemente aride. Successi in questo campo sono stati ottenuti nel deserto del Negev in Israele e nella penisola del Sinis in Sardegna.
 

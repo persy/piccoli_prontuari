@@ -9,7 +9,7 @@ Le funzioni vitali degli organismi si basano su una complessa rete di reazioni c
 
 Le reazioni chimiche sono scritte sotto forma di equazioni in cui, a sinistra del segno di uguaglianza o di una freccia, si trovano i reagenti e a destra i prodotti. Una reazione viene definita di sintesi quando da due o più elementi o composti reagenti si ottiene un unico prodotto; si parla invece di decomposizione nel caso in cui un composto venga suddiviso nei suoi elementi costituenti o in composti più semplici. La velocità di ogni reazione dipende da vari fattori, tra cui la concentrazione dei reagenti e la temperatura, ed è influenzabile dalla presenza di specifiche sostanze chiamate catalizzatori.
 
-#note(bottom)[== *🧩* Catalisi e catalizzatori <senza_numero>
+#boxfl(bottom)[== *🧩* Catalisi e catalizzatori <senza_numero>
 
 La catalisi è un processo chimico-fisico in cui delle sostanze, chiamate catalizzatori, potenziano la velocità di una reazione anche in quantità molto ridotte, senza però essere consumate durante il processo. Il catalizzatore agisce riducendo l'energia di attivazione, ovvero la soglia energetica che i reagenti devono superare per convertirsi in prodotti. Esistono inoltre catalizzatori negativi, detti anche inibitori, che al contrario rallentano la velocità della reazione. 
 

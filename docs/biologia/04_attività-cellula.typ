@@ -113,7 +113,7 @@ L'acetil-CoA successivamente entra nel ciclo di Krebs, noto anche come ciclo del
     [Energia], [Assorbita], [Liberata]
 )  
 )
-#note(bottom)[== *🧩* Il ciclo di Krebs <senza_numero>
+#boxfl(bottom)[== *🧩* Il ciclo di Krebs <senza_numero>
 
 Il ciclo di Krebs è costituito da una sequenza di reazioni chimiche con cui si elaborano i sottoprodotti della glicolisi, ovvero la demolizione delle sostanze nutritive (zuccheri, grassi e proteine) fino alla formazione di acqua (H#sub[2]O) e anidride carbonica (CO#sub[2]). Questo processo consente di liberare l'energia chimica contenuta nei legami molecolari sotto forma di ATP. I sottoprodotti della glicolisi vengono trasformati in acido piruvico e successivamente introdotti nel ciclo di Krebs sotto forma di acetil-coenzima A (acetil-CoA), una molecola derivante dall'associazione tra un gruppo acetilico (composto da due atomi di carbonio) e il coenzima A presente all'interno dei mitocondri. Nella prima fase del ciclo, l'acetil-CoA reagisce con l'ossalacetato generando acido citrico, un composto a sei atomi di carbonio. Successivamente, questo viene ossidato attraverso diverse reazioni che producono intermedi chimici fino alla riformazione dell'ossalacetato, completando così il ciclo.
 

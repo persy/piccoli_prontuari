@@ -19,7 +19,7 @@ Spesso le ville raggiungevano dimensioni significativamente grandi, con una part
 
 Anche i centri urbani erano piuttosto sviluppati e non si limitavano a ospitare abitazioni, officine e orti, ma includevano anche campi circostanti. Tra i più rilevanti si possono citare Milano, Tours, Arles, Metz, Parigi e Aquisgrana.
 
-#note(top)[== *🧩* Il castello <senza_numero>
+#boxfl(top)[== *🧩* Il castello <senza_numero>
 
 Durante le incursioni di Ungari, Saraceni e Vichinghi, la conformazione territoriale di molte zone dell'Occidente subì profondi cambiamenti. Si rese necessario creare luoghi di difesa dove la popolazione potesse trovare protezione. I grandi proprietari terrieri fecero costruire fortezze e castelli che, una volta riconosciuti dai sovrani, acquisirono carattere ereditario. Dopo la fine delle scorrerie straniere, il castello divenne simbolo di potere e strumento di dominio, permettendo a molte dinastie locali di affermarsi.
 
@@ -67,7 +67,7 @@ Le principali rotte fluviali del Po e dell'Adige rappresentavano vie fondamental
 
 == L'età comunale e signorile
 
-#note(top)[== *🧩* Le corporazioni <senza_numero>
+#boxfl(top)[== *🧩* Le corporazioni <senza_numero>
 
 Nel XIII secolo, le corporazioni, note come "arti", svolsero un ruolo cruciale offrendo competenze tecniche e strutture organizzative per il progresso economico dei comuni italiani. A Firenze, in particolare, raggiunsero il loro apice, influenzando in modo decisivo l'evoluzione politica e istituzionale della città.
 

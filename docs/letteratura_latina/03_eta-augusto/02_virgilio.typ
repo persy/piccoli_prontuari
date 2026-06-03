@@ -50,7 +50,7 @@ L'opera si compone di dieci brevi poesie in esametri, chiamate ecloghe (dal grec
 
 Il termine "bucolica", derivato dal greco, fa riferimento agli idilli pastorali di Teocrito, il modello alessandrino da cui Virgilio trasse ispirazione. 
 
-#notebr[== *🧩* Riassunto delle _Bucoliche_ <senza_numero>
+#boxbr[== *🧩* Riassunto delle _Bucoliche_ <senza_numero>
 
 I Egloga: Questo componimento si configura come un dialogo tra due pastori, Melibeo e Titiro, personaggi rappresentativi delle tensioni sociali e politiche dell'epoca. Melibeo, costretto ad abbandonare i propri campi per fare spazio ai veterani delle guerre civili, esprime il suo dolore attraverso un lamento intriso di nostalgia e angoscia. Al contrario, Titiro, che grazie all'intervento di un "giovane" romano ha potuto mantenere il possesso delle sue terre, celebra serenamente la sua amata Amarillide in una dimensione di tranquillità che contrasta profondamente con la condizione di esule di Melibeo. L'opposizione tra i due personaggi simboleggia sia le ingiustizie causate dalla redistribuzione delle terre sia la ricerca di equilibrio nella vita pastorale.  
 
@@ -124,7 +124,7 @@ Virgilio dedicò le Georgiche a Mecenate, che ne fu ispiratore e promotore. Nel 
 
 Dell'opera esistono due edizioni curate personalmente da Virgilio: la prima risale al 29 a.C., mentre la seconda fu ultimata dopo il 26 a.C. In questa seconda versione, Virgilio sostituì l'elogio a Gallo con il mito di Aristeo o con la favola di Orfeo e Euridice, poiché Gallo si era tolto la vita in Egitto dopo aver perso il favore di Augusto. È questa la versione che è giunta fino ai nostri giorni.
 
-#note(top)[== *🧩* Riassunto delle _Georgiche_ <senza_numero>
+#boxfl(top)[== *🧩* Riassunto delle _Georgiche_ <senza_numero>
 
 Libro I: Dopo la dedica a Mecenate e la preghiera agli dèi agresti, vengono offerti consigli su modalità, luoghi e tempi per coltivare e seminare. Si spiega la legge instaurata da Giove: il progresso può essere raggiunto solo tramite la fatica e il lavoro. Vengono descritti gli strumenti del contadino e i metodi per preparare l'aia e conservare i semi. Segue una riflessione sui presagi derivanti dagli astri, dalle ore del giorno e dalle stagioni favorevoli alla semina. Il libro si conclude con un ricordo degli eventi che annunciarono le guerre civili dopo la morte di Cesare.
 
@@ -178,7 +178,7 @@ La genesi del poema fu laboriosa poiché Virgilio non disponeva di una tradizion
 
 Dal punto di vista strutturale, l'_Eneide_ si ispira ai poemi omerici, rendendoli più sintetici. I primi sei libri riecheggiano l'_Odissea_, mentre gli ultimi sei richiamano l'_Iliade_. Il poema si distacca tuttavia dalle opere omeriche per l'innovazione tematica: Virgilio trasforma la storia mitologica in una visione profetica che giustifica un destino imposto dagli dèi, la nascita di Roma.
 
-#notebr[== *🧩* Riassunto dell'_Eneide_ <senza_numero>
+#boxbr[== *🧩* Riassunto dell'_Eneide_ <senza_numero>
 
 Libro I: Enea, dopo che una tempesta scatenata da Giunone decima la flotta troiana, approda sulle coste africane. A Cartagine, la città appena fondata da Didone, esule da Tiro, scopre che molti suoi compagni sono sopravvissuti. Grazie all'intervento di Venere, madre di Enea, Didone si innamora dell'eroe e gli chiede di raccontare la caduta di Troia.
 

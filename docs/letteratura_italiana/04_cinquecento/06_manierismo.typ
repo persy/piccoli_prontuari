@@ -19,7 +19,7 @@ Tra i suoi scritti di argomento politico spiccano due Orazioni in prosa volgare 
 
 Il Galateo, pubblicato postumo nel 1558 e considerato il capolavoro di Della Casa, è un trattato che illustra le buone maniere e il comportamento adeguato nella vita sociale. Il titolo dell'opera, diventato ormai sinonimo di etichetta e cortesia, deriva dal nome latinizzato del suo committente, il vescovo di Sessa Galeazzo (Galatheus) Florimonte. Nel testo, un anziano di umili origini ma dotato di grande saggezza offre insegnamenti ad un giovane sulle norme da seguire a tavola, negli incontri conviviali, nell'abbigliamento e nelle conversazioni. Con grande raffinatezza stilistica, il Galateo codifica un ideale di comportamento in linea con il principio umanistico della misura e della cortesia, ispirandosi al classico equilibrio del giusto mezzo.
 
-#notebr[== *🧩* Il petrarchismo <senza_numero>
+#boxbr[== *🧩* Il petrarchismo <senza_numero>
 
 Il fenomeno del petrarchismo rappresenta un movimento di imitazione letteraria che prende a modello i contenuti, la lingua e le forme espressive della produzione poetica di Francesco Petrarca. Già durante il XIV e il XV secolo, Petrarca si configurò come un riferimento fondamentale per il suo contributo alla definizione di una lingua italiana omogenea e caratterizzata da una purezza quasi classica. Parallelamente alla riflessione teorica sull'uso della lingua, si sviluppò, soprattutto nei centri urbani dell'Italia settentrionale, una forma di petrarchismo di matrice cortigiana, caratterizzata da una particolare attenzione alla cura formale, al lessico e alle situazioni tipiche del _Canzoniere_. Da questa tradizione prese origine una vasta produzione poetica, culminata nel _Canzoniere_ di Matteo Maria Boiardo.
 
@@ -53,7 +53,7 @@ Nato a Firenze, Firenzuola entrò nell'ordine monastico dei Vallombrosani, dove 
 
 Tra le sue produzioni teatrali si annoverano due commedie: _La Trinunzia_ e _I lucidi_, quest'ultima pubblicata postuma nel 1549. Firenzuola scrisse anche _La prima veste dei discorsi degli animali_ (circa 1540), un adattamento libero delle favole indiane del _Pañcatantra_, reinterpretate attraverso traduzioni latine e spagnole. In questa opera la sua vena narrativa raggiunge una limpidezza e una felicità espressiva superiore rispetto ai _Ragionamenti_, concretizzandosi in una serie di favole e apologhi raccontati con leggerezza in una lingua semplice ma attentamente strutturata. Firenzuola compose inoltre il _Celso_, dialogo sulle bellezze delle donne (1548), consolidando ulteriormente il suo prestigio letterario.
 
-#note(bottom)[== *🧩* La biografia e l'autobiografia <senza_numero>
+#boxfl(bottom)[== *🧩* La biografia e l'autobiografia <senza_numero>
 
 Nel contesto del Rinascimento, i generi della biografia e dell'autobiografia acquisirono caratteri marcati da intenti celebrativi ed encomiastici. In questo periodo, la riflessione critica su tali forme iniziò a delinearsi con opere come _Le Vite_ di Giorgio Vasari e i _Ricordi_ di Francesco Guicciardini. È importante osservare come una parte del biografismo cinquecentesco fosse strettamente intrecciata con le tensioni religiose e politiche dell'epoca.  
 

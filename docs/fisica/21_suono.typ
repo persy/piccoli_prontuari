@@ -6,7 +6,7 @@
 Le caratteristiche dell'onda sonora influenzano la percezione del suono: ampiezza e frequenza determinano variazioni nella tonalità e nell'intensità, mentre la forma dell'onda contribuisce a identificarlo come una melodia gradevole o un rumore fastidioso. Le leggi di riflessione, interferenza e risonanza, comuni a tutti i tipi di onde, trovano applicazioni particolarmente rilevanti nel campo dell'acustica.]
 
 == Le onde sonore
-#note(bottom)[== *🧩* L'acustica <senza_numero>
+#boxfl(bottom)[== *🧩* L'acustica <senza_numero>
 
 L'acustica è la scienza che studia il suono sia come fenomeno fisico sia come percezione soggettiva. Il suono fisico è un'onda elastica emessa da una sorgente vibrante od oscillante che stimola l'orecchio umano, fungendo da rivelatore. La percezione soggettiva, ovvero la trasformazione dello stimolo sonoro in sensazione da parte del cervello, è oggetto della psicoacustica.
 
@@ -29,7 +29,7 @@ Nell'aria, le onde sonore si propagano a una velocità di circa 330 m/s. Nei liq
 
 È interessante notare che la velocità del suono nell'aria è nettamente inferiore rispetto a quella della luce, che viaggia a circa 300.000 km/s nel vuoto. Questo spiega perché durante un temporale i tuoni associati ai lampi vengano percepiti con un certo ritardo, legato alla distanza del fenomeno. Misurando il tempo trascorso tra la visione del lampo e l'udito del tuono, è possibile stimare approssimativamente la distanza del fulmine in base alla velocità del suono.
 
-#note(bottom)[== *🧩* L'altoparlante <senza_numero>
+#boxfl(bottom)[== *🧩* L'altoparlante <senza_numero>
 
 Un altoparlante è un dispositivo in grado di trasformare un segnale elettrico in un segnale acustico.  
 

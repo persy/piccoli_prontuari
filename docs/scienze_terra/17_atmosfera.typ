@@ -67,7 +67,7 @@ La trasformazione fotochimica dell'ossigeno portò alla formazione dello strato 
 
 L'evoluzione dell'atmosfera, lontana dal raggiungere una condizione stabile, prosegue ancora oggi. Nei secoli più recenti, la sua composizione ha subito variazioni importanti causate dall'emissione di gas associati alle attività antropiche. Questi cambiamenti hanno generato squilibri termici e problemi di inquinamento atmosferico su scala globale.
 
-#note(top)[== *🧩* L'ozonosfera e il buco nell'ozono <senza_numero>
+#boxfl(top)[== *🧩* L'ozonosfera e il buco nell'ozono <senza_numero>
 
 L'ozono (O3) è un gas tossico dal colore bluastro e dall'odore pungente, particolarmente concentrato nell'ozonosfera, dove si origina dall'ossigeno biatomico (O2) per effetto dei raggi ultravioletti (UV) emessi dal Sole con lunghezze d'onda inferiori a 300 nanometri.
 
@@ -124,7 +124,7 @@ Nella zona superiore della termosfera, a partire dai 500 km, si trova l'esosfera
 Al di sopra dei 500 km, questa fascia prende anche il nome di magnetosfera. In essa, gli ioni sono così scarsi che le collisioni tra di loro avvengono raramente, garantendo una vita media più lunga e permettendo agli ioni di subire l'effetto del campo magnetico terrestre. La magnetosfera interagisce con il vento solare, che la modella comprimendola e conferendole una caratteristica forma a goccia.
 
 == La temperatura dell'aria nella troposfera
-#note(bottom)[== *🧩* L'effetto serra <senza_numero>
+#boxfl(bottom)[== *🧩* L'effetto serra <senza_numero>
 
 Con il termine effetto serra si intende un fenomeno che comporta il riscaldamento dell'atmosfera terrestre. Questo processo avviene perché l'energia irradiata dalla superficie terrestre, prevalentemente sotto forma di raggi infrarossi (IR), per bilanciare il flusso di energia proveniente dal Sole, viene parzialmente assorbita da alcuni gas presenti nell'atmosfera, chiamati gas serra, tra cui principalmente vapore acqueo e anidride carbonica (CO2). Questi gas, a loro volta, riemettono parte di quell'energia verso il suolo terrestre. Grazie a questo effetto, la temperatura media della superficie terrestre, intorno ai 15 °C, risulta significativamente superiore rispetto a quella che si avrebbe in assenza di atmosfera (come nel caso della Luna, dove la temperatura media è pari a circa –18 °C).
 
@@ -151,7 +151,7 @@ Per la misurazione della temperatura atmosferica, le stazioni meteorologiche uti
 
 Tra i dati di maggiore rilevanza per i meteorologi figurano la temperatura minima e massima giornaliera, rilevate rispettivamente all'alba e intorno alle ore 15, le temperature medie (diurne, mensili e annuali) e l'escursione termica, ovvero la differenza tra il valore minimo e massimo registrato nell'arco di un periodo specifico (giornata, mese o anno). Per rappresentare graficamente la distribuzione delle temperature su una carta geografica si utilizzano le isoterme, ossia linee immaginarie che collegano i punti con la medesima temperatura media riferita al livello del mare in un dato intervallo temporale (giorno, mese o anno).
 
-#note(top)[== *🧩* Il flusso energetico dal Sole alla Terra <senza_numero>
+#boxfl(top)[== *🧩* Il flusso energetico dal Sole alla Terra <senza_numero>
 
 L'interconnessione tra vento e flusso energetico solare è cruciale per comprendere le dinamiche atmosferiche. L'attività del "sistema Terra" dipende infatti dai flussi energetici provenienti dal Sole. L'energia solare raggiunge il pianeta attraverso diverse onde elettromagnetiche, prevalentemente infrarosse, luminose e ultraviolette. Tali radiazioni interagiscono con l'atmosfera mediante dispersione, riflessione o assorbimento; solo una parte riesce ad attraversarla completamente per giungere alla superficie delle terre emerse e degli oceani.
 
@@ -210,7 +210,7 @@ I venti si distinguono per diversi caratteri principali:
 
 // Rosa dei venti
 
-#note(bottom)[== *🧩* La forza di Coriolis <senza_numero>
+#boxfl(bottom)[== *🧩* La forza di Coriolis <senza_numero>
 
 I venti non si muovono seguendo il percorso più diretto, ovvero perpendicolare alle isobare, ma deviano a causa della rotazione della Terra. Nell'emisfero boreale tendono a spostarsi verso destra, mentre nell'emisfero australe deviano verso sinistra.
 
@@ -329,7 +329,7 @@ table.cell(rowspan: 14)[venti che soffiano irregolarmente nelle zone temperate t
 )  
 )
 ]
-#note(top)[== *🧩* I venti periodici, monsoni e brezze <senza_numero>
+#boxfl(top)[== *🧩* I venti periodici, monsoni e brezze <senza_numero>
 
 I venti sono definiti periodici quando la direzione del loro flusso si inverte a intervalli regolari, un fenomeno correlato alle variazioni periodiche delle condizioni di pressione atmosferica. Questo avviene, in particolare, quando un'area precedentemente caratterizzata da bassa pressione si trasforma in una zona di alta pressione e viceversa.
 

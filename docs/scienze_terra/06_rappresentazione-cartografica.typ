@@ -19,7 +19,7 @@ La scala grafica rappresenta un metodo alternativo, utilizzato già nell'antichi
 
 Infine, una carta geografica è simbolica perché utilizza convenzioni grafiche per rappresentare gli elementi del territorio. Gli oggetti cartografici vengono categorizzati in simboli altimetrici, che descrivono il profilo topografico del rilievo, e simboli planimetrici, che identificano sia aspetti naturali del paesaggio (ad esempio fiumi, boschi o scarpate) sia elementi artificiali quali centri abitati, reti ferroviarie, strade e confini amministrativi. Questi simboli sono concepiti per garantire un linguaggio univoco e universalmente comprensibile nel contesto cartografico.
 
-#notebr[== *🧩* L'evoluzione della cartografia <senza_numero>
+#boxbr[== *🧩* L'evoluzione della cartografia <senza_numero>
 
 I documenti cartografici più antichi giunti fino a noi risalgono alle civiltà dell'Antico Egitto e della Mesopotamia. Si trattava di piani urbani o mappe di aree minerarie di dimensioni limitate.
 
@@ -49,7 +49,7 @@ Nel XIX secolo, vari Stati completarono la preparazione delle loro cartografie n
 
 Nel corso del XX secolo, l'introduzione della tecnica dell'aerofotogrammetria e del telerilevamento da satellite ha segnato un progresso epocale. Questi strumenti hanno consentito di ridurre drasticamente molte delle operazioni geodetiche tradizionalmente svolte sul campo, rivoluzionando le modalità di rappresentazione geografica e cartografica.]
 
-#note(top)[== *🧩* Proiezione trasversa di Mercatore e Sistema Utm <senza_numero>
+#boxfl(top)[== *🧩* Proiezione trasversa di Mercatore e Sistema Utm <senza_numero>
 
 La proiezione cilindrica trasversa di Mercatore, nota anche come proiezione conforme di Gauss, rappresenta il principio fondante del sistema UTM (Universale Trasversa di Mercatore), oggi riconosciuto a livello globale e attualmente adottato dall'Istituto Geografico Militare di Firenze per la realizzazione della Carta Topografica d'Italia.
 
@@ -154,7 +154,7 @@ Un tipo particolare di carta climatica è la carta meteorologica, che registra l
 )  
 )
 
-#note(top)[== *🧩* Le carte geologiche <senza_numero>
+#boxfl(top)[== *🧩* Le carte geologiche <senza_numero>
 
 Le carte geologiche evidenziano i tipi di roccia che affiorano nella regione analizzata. Sono realizzate partendo da una base topografica tradizionale, arricchita da diverse aree colorate in modo differente per rappresentare le rocce presenti in superficie; inoltre, contengono simboli geologici specifici e segni convenzionali che aiutano a descrivere la struttura geologica dell'area rappresentata.
 

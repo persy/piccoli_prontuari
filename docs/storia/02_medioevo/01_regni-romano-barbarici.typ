@@ -13,7 +13,7 @@ I barbari erano perlopiù nomadi, praticavano un'agricoltura di base, si dedicav
 
 La società barbarica ruotava attorno alla classe dei guerrieri, che eleggeva il re e decideva le questioni principali. Tra le principali divinità vi erano Odino (dio della magia e della vittoria), Thor (dio del tuono) e Tiuz (dio della giustizia e delle assemblee). I Goti furono tra i primi convertiti al Cristianesimo quando, nel IV secolo, il vescovo Ulfila tradusse la Bibbia dal greco al gotico e diffuse l'arianesimo, una dottrina che negava la natura divina di Cristo e la sua unità con il Padre. Questo credo divenne rapidamente predominante anche tra altre popolazioni barbariche. 
 
-#note(bottom)[== *🧩* Significato delle invasioni barbariche: la lettura continuista <senza_numero>
+#boxfl(bottom)[== *🧩* Significato delle invasioni barbariche: la lettura continuista <senza_numero>
 
 Significato delle invasioni barbariche: la visione continuista  
 La periodizzazione tradizionale considera il 476 come l'inizio del Medioevo, associando la caduta dell'Impero Romano d'Occidente, determinata dalle invasioni barbariche, a un evento cruciale nella storia mondiale. Tuttavia, lo storico Henri Pirenne propone un'interpretazione differente. Secondo lui, l'arrivo dei barbari non alterò le strutture fondamentali dell'Impero né pose fine all'unità economica e politica del Mediterraneo. In questa prospettiva, il vero momento di svolta e l'avvio del Medioevo andrebbero collocati tra il VII e l'VIII secolo, in coincidenza con l'espansione araba.  

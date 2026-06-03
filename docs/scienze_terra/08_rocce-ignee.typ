@@ -13,7 +13,7 @@ Durante la fase di solidificazione, il magma subisce un processo di cristallizza
 
 Poiché i magmi tendono a risalire verso la superficie attraverso le fratture presenti nella crosta terrestre, le rocce ignee mostrano una grande varietà di forme di giacitura. Spesso queste rocce hanno configurazioni irregolari e discordanti rispetto alle masse rocciose circostanti, dette rocce incassanti. Inoltre, le rocce ignee mantengono una connessione con il sottosuolo attraverso una radice: questa corrisponde al canale di ascensione del magma, che solitamente rimane parzialmente riempito dal materiale eruttivo. Tale canale rappresenta il legame tra la massa eruttiva superficiale e il serbatoio magmatico profondo, da cui originano i materiali delle rocce.
 
-#note(top)[== *🧩* Serie di Bowen <senza_numero>
+#boxfl(top)[== *🧩* Serie di Bowen <senza_numero>
 
 Durante il raffreddamento graduale di un magma, la solidificazione avviene secondo un preciso schema di cristallizzazione minerale definito dalla serie di Bowen. Questo modello tecnico prende il nome dal petrografo canadese Norman Levi Bowen (1887-1956), il quale, alla fine degli anni Venti del Novecento, analizzò sperimentalmente in laboratorio la cristallizzazione di magmi sintetici. Il fenomeno, noto come cristallizzazione frazionata, descrive la sequenza ordinata con cui i minerali cristallizzano all'interno di un magma.
 

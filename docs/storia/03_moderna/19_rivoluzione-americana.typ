@@ -19,7 +19,7 @@ A seguito dell'incidente, il governatore britannico dichiarò lo stato d'assedio
 
 Nel settembre del 1774, cinquantadue delegati provenienti da dodici colonie (esclusa la Georgia) si riunirono a Filadelfia nel Primo Congresso Continentale. In tale sede si decretò il blocco totale del commercio con l'Inghilterra fino al riconoscimento dei diritti delle assemblee rappresentative americane. La notizia di un attacco delle truppe inglesi su Boston, epicentro della ribellione, determinò il superamento delle ultime esitazioni: si procedette alla costituzione di un esercito continentale sotto il comando del generale George Washington. Con tale iniziativa ebbe inizio la guerra d'indipendenza americana.
 
-#note(bottom)[== *🧩* George Washington <senza_numero>
+#boxfl(bottom)[== *🧩* George Washington <senza_numero>
 
 Ufficiale della milizia coloniale e deputato della Virginia, sua terra natale, nel 1732, partecipò ai conflitti contro Francesi e nativi americani durante la Guerra dei Sette Anni. Allo scoppio delle ostilità con gli inglesi, il Congresso lo nominò comandante dell'esercito americano. Nonostante la natura improvvisata e il limitato equipaggiamento delle truppe, riuscì a mantenere la coesione del suo esercito fino alla decisiva entrata in guerra della Francia.  
 
@@ -45,7 +45,7 @@ Con il Trattato di Versailles del 3 settembre 1783, la corona britannica riconob
 
 == I primi passi degli USA
 
-#note(top)[== *🧩* La Costituzione degli Stati Uniti <senza_numero>
+#boxfl(top)[== *🧩* La Costituzione degli Stati Uniti <senza_numero>
 
 Dopo essere stata sottoposta all'approvazione dei vari Stati, la Costituzione degli Stati Uniti fu definitivamente adottata nel 1787. Essa sancì la forma di governo come una Repubblica presidenziale. Ogni Stato contribuiva all'elezione di un Senato, composto da un numero fisso di rappresentanti per ciascuno, e di una Camera dei Rappresentanti, il cui numero di membri varia in base alla popolazione di ciascuno Stato. Il Senato si occupava principalmente di questioni di politica estera, mentre la Camera gestiva prevalentemente le tematiche finanziarie.  
 

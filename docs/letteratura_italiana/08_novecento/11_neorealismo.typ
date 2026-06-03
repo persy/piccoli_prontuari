@@ -57,7 +57,7 @@ Questo itinerario esistenziale assume i connotati di un imperativo morale inevit
 
 Il linguaggio utilizzato nel romanzo si caratterizza per l'impiego di termini quotidiani e di una sintassi modellata sui ritmi del dialetto locale e sul registro orale, tradendo così una duplice tensione: da un lato, la fatica di passare da una realtà vissuta intensamente ma con ingenuità; dall'altro, il bisogno crescente di raggiungere una consapevolezza più approfondita della condizione umana.
 
-#note(bottom)[== *🧩* Il teatro di Eduardo De Filippo <senza_numero>
+#boxfl(bottom)[== *🧩* Il teatro di Eduardo De Filippo <senza_numero>
 
 Il teatro di Eduardo De Filippo rappresenta uno dei massimi esempi di contributo allo sviluppo del teatro dialettale italiano del Novecento. Nato a Napoli nel 1900, De Filippo è riconosciuto a livello internazionale come una delle figure più significative della drammaturgia italiana. Cresciuto in ambienti teatrali fin dall'infanzia e lui stesso attore, iniziò negli anni Trenta a scrivere commedie dal tono prevalentemente farsesco. Tra queste spicca il celebre _Natale in casa Cupiello_ del 1931, che unisce profondità psicologica e tradizione comica.
 

@@ -53,7 +53,7 @@ Al contrario, materiali come plastica, vetro e ceramica impediscono alle cariche
 
 La differenza essenziale tra conduttori e isolanti risiede nel comportamento degli elettroni esterni. Nei conduttori, questi sono liberi di muoversi all'interno del materiale e trasportare cariche da un punto all'altro della superficie; negli isolanti, invece, gli elettroni risultano strettamente vincolati agli atomi e non possono migrare. Vi sono inoltre materiali con proprietà intermedie tra conduttori e isolanti, denominati semiconduttori, ampiamente utilizzati nella microelettronica.
 
-#note(bottom)[== *🧩* I semiconduttori <senza_numero>
+#boxfl(bottom)[== *🧩* I semiconduttori <senza_numero>
 
 I semiconduttori sono materiali caratterizzati da una conduttività elettrica intermedia tra quella dei conduttori e degli isolanti. Tra i principali semiconduttori si annoverano il silicio, il germanio e alcuni composti, come l'arseniuro di gallio.
 
@@ -142,7 +142,7 @@ La carica elettrica segue una legge di conservazione analoga a quella della mass
 Un esempio pratico è quello della bacchetta di vetro strofinata con un panno di lana: la bacchetta si carica positivamente cedendo gli elettroni in eccesso al panno, che diventa negativamente carico. Complessivamente, la quantità totale di carica nel sistema bacchetta-panno rimane invariata. Questo principio è valido anche a livello atomico: in una reazione atomica o nucleare, la produzione di una particella con carica negativa deve necessariamente essere accompagnata dalla creazione di una carica positiva.
 
 == La legge di Coulomb
-#note(bottom)[== *🧩* La bilancia a torsione <senza_numero>
+#boxfl(bottom)[== *🧩* La bilancia a torsione <senza_numero>
 
 Coulomb formulò la famosa legge sull'interazione elettrostatica grazie a un dispositivo noto come bilancia a torsione. Questo strumento è composto da un filo sottile connesso a una bacchetta di materiale isolante; ai suoi due estremi sono montate due piccole sfere metalliche chiamate A e A'. La sfera A porta una carica elettrica, mentre la sfera A' agisce come contrappeso, mantenendo la bacchetta in posizione orizzontale.
 

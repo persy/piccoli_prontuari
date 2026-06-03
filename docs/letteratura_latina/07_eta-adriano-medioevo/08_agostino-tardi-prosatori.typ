@@ -85,7 +85,7 @@ La grandezza delle _Confessiones_ si manifesta soprattutto nello stile elevato e
 
 Le _Confessiones_ sono primariamente un atto di fede: in esso anche la sincerità acquista valore solo se vista e offerta come dono a Dio, fonte luminosa e garanzia di ogni intenzione umana.
 
-#note(bottom)[== *🧩* Riassunto delle _Confessioni_ <senza_numero>
+#boxfl(bottom)[== *🧩* Riassunto delle _Confessioni_ <senza_numero>
 
 Libro I: racconta i primi quindici anni di vita, segnati da un debole interesse per lo studio e dalle sue prime colpe.
 

@@ -147,7 +147,7 @@ $
   G = 6.67 dot 10^(-11) "Nm"^2/"kg"^2
 $
 
-#note(bottom)[== *🧩* La determinazione della costante di gravitazione universale _G_ <senza_numero>
+#boxfl(bottom)[== *🧩* La determinazione della costante di gravitazione universale _G_ <senza_numero>
 
 La costante di gravitazione universale, denotata con il simbolo G, fu determinata con precisione per la prima volta nel 1798 dal fisico inglese Henry Cavendish (1731-1810). Cavendish si avvalse di uno strumento noto come bilancia a torsione, che consentì di misurare le forze gravitazionali tra corpi di massa diversa.  
 

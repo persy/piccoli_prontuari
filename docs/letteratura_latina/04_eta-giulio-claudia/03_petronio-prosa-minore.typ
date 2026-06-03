@@ -21,7 +21,7 @@ Al _Satyricon_ si associano molteplici questioni interpretative. La sua datazion
 
 La teoria prevalente è che si tratti di un romanzo a tutti gli effetti, sebbene caratterizzato da una profonda originalità formale, e che sia concepito come una parodia del romanzo ellenistico greco. In questa prospettiva, il _Satyricon_ rovescerebbe gli elementi sentimentali propri delle opere greche attraverso una rappresentazione improntata a un crudo realismo.
 
-#notebr[== *🧩* Riassunto del _Satyricon_ <senza_numero>
+#boxbr[== *🧩* Riassunto del _Satyricon_ <senza_numero>
 
 Encolpio, un giovane colto e dotato di un raffinato senso estetico e di un ironico distacco, racconta in prima persona le sue peripezie durante i vagabondaggi in diverse città dell'Italia meridionale. Sopravvive grazie a espedienti, furti e pranzi scroccati. Al suo fianco c'è Gitone, un adolescente di cui è innamorato. A completare il trio iniziale è Ascilto, anch'egli attratto da Gitone, il che scatena gelosie e litigi tra i protagonisti.
 

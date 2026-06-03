@@ -47,7 +47,7 @@ La cultura classica non si spense con la morte di Pericle nel 429 a.C., ma anzi 
 
 Questa crisi culturale trovò eco anche nella produzione letteraria: tragedie come quelle di Sofocle ed Euripide riflettevano le devastazioni morali provocate dalla guerra, ritraendo uomini oppressi dall'ingiustizia e svelando le debolezze della natura umana. Contemporaneamente, il commediografo Aristofane invitava il pubblico alla riflessione attraverso personaggi grotteschi e satirici. Gli storici, grazie alla maturazione della coscienza politica favorita dal regime democratico, diedero vita a un periodo di grande vivacità intellettuale e creativa.
 
-#note(top)[== *🧩* La condanna a morte di Socrate <senza_numero>
+#boxfl(top)[== *🧩* La condanna a morte di Socrate <senza_numero>
 
 Un esempio emblematico dell'intransigenza e del clima di sospetto che caratterizzò il regime ateniese dopo le guerre del Peloponneso fu la condanna a morte del filosofo Socrate. Socrate, profondamente influenzato dalla celebre massima dell'oracolo di Delfi "conosci te stesso", era solito condurre i suoi discepoli e oppositori attraverso interrogatori filosofici, portandoli a riconoscere la propria ignoranza e a giungere al cosiddetto "sapere di non sapere".
 

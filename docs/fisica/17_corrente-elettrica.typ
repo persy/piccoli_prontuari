@@ -41,7 +41,7 @@ Allo stesso modo, il generatore elettrico opera contro le forze del campo elettr
 
 Un generatore è generalmente dotato di due morsetti denominati polo negativo (−), a potenziale più basso, e polo positivo (+), a potenziale più alto. Questo dispositivo accumula cariche positive nel polo positivo e cariche negative nel polo negativo, svolgendo un lavoro contro le forze del campo elettrico. Collegando i poli opposti del generatore mediante un conduttore, ad esempio un filo metallico, si ottiene un flusso continuativo delle cariche al suo interno. In tal modo, il generatore consente di alimentare una corrente elettrica per periodi prolungati.
 
-#note(bottom)[== *🧩* La pila elettrica <senza_numero>
+#boxfl(bottom)[== *🧩* La pila elettrica <senza_numero>
 
 La pila elettrica è un dispositivo concepito per convertire l'energia chimica prodotta da una reazione di ossido-riduzione in energia elettrica. Tutte le pile moderne si ispirano al modello originario ideato da Volta. Quest'ultimo era costituito da una serie verticale di dischi metallici (elettrodi), composti da due metalli differenti, come zinco e rame, separati da dischi di carta impregnati in una soluzione acida (elettrolita). Collegando il primo e l'ultimo disco della pila si completava un circuito attraverso il quale poteva fluire corrente elettrica.
 
@@ -134,7 +134,7 @@ Le leggi di Ohm possono essere applicate anche agli isolanti, seppur con alcune 
 
 La resistività dei conduttori tende a crescere con l'aumentare della temperatura secondo una legge lineare. Tuttavia, a temperature vicine allo zero assoluto (-273 °C o 0 K), la resistività generalmente assume valori molto bassi. Per alcuni materiali specifici chiamati superconduttori, essa diminuisce improvvisamente fino ad annullarsi.
 
-#note(bottom)[== *🧩* I superconduttori <senza_numero>
+#boxfl(bottom)[== *🧩* I superconduttori <senza_numero>
 
 I superconduttori sono materiali speciali che, se raffreddati fino a temperature molto basse e al di sotto della temperatura critica (Tc), caratteristica di ciascun materiale e prossima allo zero assoluto (0 K = -273 °C), annullano completamente la loro resistività elettrica. Circa 30 elementi, insieme a diverse leghe e composti, mostrano proprietà superconduttive.
 
@@ -221,7 +221,7 @@ $
 Per quanto riguarda la resistenza complessiva di una disposizione in parallelo, il suo valore reciproco equivale alla somma dei reciproci delle singole resistenze.
 
 === Dispositivi di sicurezza e di misurazione
-#note(bottom)[== *🧩* Il diodo <senza_numero>
+#boxfl(bottom)[== *🧩* Il diodo <senza_numero>
 
 Il diodo è uno strumento fondamentale che consente il passaggio della corrente in una sola direzione. Questa caratteristica lo rende ideale per convertire la corrente alternata degli impianti elettrici, la quale alterna il senso di scorrimento nel circuito, in corrente continua che viaggia in un'unica direzione.
 
@@ -240,7 +240,7 @@ Un cortocircuito in ambito domestico può verificarsi quando si crea un collegam
 Per misurare l'intensità della corrente che attraversa un circuito si utilizza l'amperometro, mentre per determinare la differenza di potenziale tra due punti del circuito si impiega il voltmetro. È fondamentale, al fine di garantire una misura accurata senza alterare significativamente i parametri del circuito: l'amperometro deve avere una resistenza molto ridotta e il voltmetro una resistenza elevata.
 // Tabella Simboli grafici prescritti dalle norme CEI per gli schemi elettrici #TODO
 
-#note(top)[== *🧩* Il transistor <senza_numero>
+#boxfl(top)[== *🧩* Il transistor <senza_numero>
 
 Il transistor è composto essenzialmente da una doppia giunzione _p-n-p_ o _n-p-n_ ed è utilizzato principalmente per amplificare i segnali elettrici. Il transistor bipolare rappresenta il tipo più tradizionale di transistor, in cui la conduzione elettrica avviene sia tramite gli elettroni sia tramite le lacune. È costituito da una sottile piastrina di germanio o silicio, suddivisa in tre strati con zone di drogaggio alternato di tipo _p_ e _n_. La regione centrale, più sottile, è chiamata base, mentre le due zone che la delimitano sono denominate emettitore e collettore. L'emettitore invia cariche al collettore attraverso la base, e il collettore trasmette la corrente al terminale di uscita.
 
@@ -329,7 +329,7 @@ Quando i cationi raggiungono il catodo, acquisiscono elettroni (subiscono una ri
 Un caso pratico è l'elettrolisi del cloruro di sodio: al catodo si forma sodio metallico (Na), mentre all'anodo si genera cloro gassoso (Cl#sub[2]). Le applicazioni dell'elettrolisi sono molteplici e includono il rivestimento di oggetti con strati metallici, l'estrazione di metalli come alluminio e magnesio, la raffinazione di metalli impuri e la produzione di elementi, come il cloro, a partire dai loro composti. Anche il funzionamento delle pile elettriche si basa sui principi dell'elettrolisi.
 
 === Le leggi di Faraday sull'elettrolisi
-#note(bottom)[== *🧩* Il tubo a raggi catodici <senza_numero>
+#boxfl(bottom)[== *🧩* Il tubo a raggi catodici <senza_numero>
 
 I raggi catodici sono costituiti da fasci di elettroni emessi da un catodo e accelerati verso un anodo. In un tubo a raggi catodici, gli elettroni vengono generati da un filamento riscaldato tramite una corrente elettrica: quando la temperatura raggiunge valori adeguati, alcuni elettroni acquisiscono sufficiente energia per sfuggire dal metallo (effetto termoelettrico).
 

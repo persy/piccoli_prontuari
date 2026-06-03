@@ -21,7 +21,7 @@ Il liberalismo entrò in crisi, e sul piano governativo vi fu una successione di
 
 Nel giugno 1920 fu Giovanni Giolitti ad assumere la guida del governo fino a luglio 1921. Il suo operato fu segnato dalla necessità di affrontare la turbolenta fase conosciuta come "biennio rosso" e dalla conclusione della vicenda di Fiume, con la stipulazione del Trattato di Rapallo (12 novembre 1920) che pose fine alla vicenda fiumana. Infine l'Italia annetterà Fiume nel 1924.
 
-#note(top)[== *🧩* Il "biennio rosso" e la nascita del Partito Comunista Italiano <senza_numero>
+#boxfl(top)[== *🧩* Il "biennio rosso" e la nascita del Partito Comunista Italiano <senza_numero>
 
 Sull'onda dell'entusiasmo generato dalla rivoluzione bolscevica a Mosca, nel 1919 la direzione del Partito Socialista Italiano passò nelle mani dei massimalisti rivoluzionari guidati da Giacinto Menotti Serrati. Quell'anno fu caratterizzato da un'intensa mobilitazione dei lavoratori, che diedero vita a numerosi scioperi contro l'aumento del costo della vita. Durante l'estate, questa tensione sociale sfociò nel saccheggio di mercati e negozi, oltre che nell'occupazione delle terre incolte nel Meridione da parte dei contadini.
 

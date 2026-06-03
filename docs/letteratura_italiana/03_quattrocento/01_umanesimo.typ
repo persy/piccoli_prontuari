@@ -9,7 +9,7 @@ L'umanesimo trae origine dall'espressione _studia humanitatis_ (gli studi legati
 
 Un contributo fondamentale alla crescita degli studi umanistici venne da Francesco Petrarca, non solo attraverso le sue opere latine – tra cui spiccano il _De viris illustribus_ e l'_Africa_ – ma anche mediante la sua attività di scopritore di testi antichi perduti (tra cui l'orazione _Pro Archia_ e le lettere di Cicerone) e il suo lavoro filologico. Grazie al prestigio culturale acquisito, Petrarca ebbe un ruolo cruciale nell'affermazione della nuova cultura. A rafforzarne la diffusione fu anche Giovanni Boccaccio, che introdusse a Firenze lo studio del greco e contribuì alla formazione di giovani intellettuali toscani.
 
-#note(bottom)[== *🧩* Lo sviluppo degli studi greci <senza_numero>
+#boxfl(bottom)[== *🧩* Lo sviluppo degli studi greci <senza_numero>
 
 Lo sviluppo degli studi greci nel Quattrocento conosce una significativa rinascita culturale. La cultura greca, infatti, rappresenta in questo periodo un'apertura verso un platonismo inquieto, in netto contrasto con la teologia medievale. Un ruolo fondamentale viene svolto da Coluccio Salutati, che favorisce l'arrivo a Firenze di maestri greci: tra questi, il bizantino Manuele Crisolora, giunto nel 1396 allo Studio fiorentino per insegnare la lingua greca. Durante questa fase, grande impulso viene dato alla traduzione di testi classici, tra cui Platone e Plutarco, ma anche Omero e i tragici. L'influenza di Crisolora si estende anche alla Lombardia, lasciando un'impronta culturale duratura. 
 

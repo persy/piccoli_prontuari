@@ -81,7 +81,7 @@ Personaggi come Cicerone e Silla avevano scritto commentarii sui rispettivi cons
 
 I _Commentarii de bello Gallico_ includono sette libri, ciascuno dedicato a un anno di guerra (dal 58 al 52 a.C.), durante la quale fu sottomessa una nuova e significativa provincia al dominio romano. Il titolo originale dell'opera era probabilmente _Gai Iulii Caesaris commentarii rerum gestarum_, corredato dal sottotitolo "belli gallici". Secondo Aulo Irzio, luogotenente di Cesare, l'opera fu composta nell'inverno tra il 52 e il 51 a.C., anno in cui avvenne anche la sua pubblicazione.
 
-#notebr[== *🧩* Riassunto del _De bello gallico_ <senza_numero>
+#boxbr[== *🧩* Riassunto del _De bello gallico_ <senza_numero>
 
 Libro I (58): Il primo libro si apre con una descrizione geografica dettagliata della Gallia, seguita dalla narrazione delle campagne militari di Cesare volte a contrastare le migrazioni degli elvezi e dei suebi. Gli elvezi, spinti dal desiderio di stabilirsi nella fertile Gallia occidentale, rappresentavano una minaccia diretta per la provincia romana. Dopo una serie di scontri decisivi, tra cui la battaglia sul Rodano presso Ginevra e quella di Bibracte, Cesare sconfisse gli elvezi, obbligandoli a ritornare nei loro territori originari. Successivamente, l'attenzione si volse ai suebi, una tribù germanica guidata da Ariovisto e insediata in Gallia. Anche questi vennero sconfitti in Alsazia e furono costretti a oltrepassare nuovamente il Reno.
 
@@ -105,7 +105,7 @@ La defezione degli edui aggrava ulteriormente il contesto bellico. Cesare, con g
 
 I _Commentarii de bello civili_, invece, si articolano in tre libri che analizzano gli eventi degli anni 49 e 48 a.C., dall'attraversamento del Rubicone fino all'inizio della guerra alessandrina e alla morte di Pompeo. Anche in questo caso, il titolo originale sembrerebbe essere stato _Gai Iulii Caesaris commentarii rerum gestarum_, con il sottotitolo "belli civilis". Rimangono incerti sia il periodo di composizione sia quello di pubblicazione.
 
-#note(bottom)[== *🧩* Riassunto del _De bello civili_ <senza_numero>
+#boxfl(bottom)[== *🧩* Riassunto del _De bello civili_ <senza_numero>
 
 Libro I: Nei capitoli iniziali del Libro I viene delineata la complessa situazione politica di Roma nell'ultimo periodo della Repubblica. Segue la narrazione del passaggio del Rubicone effettuato da Cesare, evento che segna simbolicamente l'inizio della guerra civile. La successiva conquista dell'Italia da parte di Cesare provoca la fuga di Pompeo verso Oriente. Sono inoltre narrati l'assedio di Marsiglia e la campagna militare in Spagna, conclusa con la vittoria di Cesare sui legati pompeiani Afranio e Petreio nella battaglia di Ilerda (moderna Lleida).  
 

@@ -59,7 +59,7 @@ Questo fenomeno indica che la pressione esercitata sul fluido tramite lo stantuf
 
 Sulla base di questa osservazione, la legge di Pascal afferma che la pressione applicata a una qualsiasi superficie di un fluido si trasmette con identica intensità a tutta la massa del fluido.
 
-#note(bottom)[== *🧩* Le unità di misura della pressione atmosferica <senza_numero>
+#boxfl(bottom)[== *🧩* Le unità di misura della pressione atmosferica <senza_numero>
 
 Poiché il valore della pressione atmosferica espresso in pascal risulta numericamente molto elevato, sono state introdotte unità di misura più pratiche.
 

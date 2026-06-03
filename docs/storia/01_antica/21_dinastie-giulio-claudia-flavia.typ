@@ -29,7 +29,7 @@ In città si diffuse però l'ipotesi che fosse stato lo stesso Nerone a provocar
 
 La situazione divenne insostenibile quando Nerone alienò anche l'appoggio dei militari con l'uccisione del generale Corbulone. Amareggiati dalla sua condotta, nel 68 d.C., le truppe stanziate in Lusitania si ribellarono e proclamarono imperatore il loro comandante Galba. Abbandonato da tutti i suoi appoggi politici e militari, Nerone fu infine costretto a suicidarsi.
 
-#note(top)[== *🧩* Dagli accampamenti alle città <senza_numero>
+#boxfl(top)[== *🧩* Dagli accampamenti alle città <senza_numero>
 
 Fin dal I secolo d.C., i Romani costruirono un sistema di fortificazioni, noto come limes, lungo i confini settentrionali per difendersi dalle incursioni delle popolazioni germaniche. Strutture analoghe furono erette a Oriente lungo il fiume Danubio. Questi interventi ebbero un impatto significativo sul piano geografico e demografico.
 

@@ -1,14 +1,17 @@
 #import "@preview/showybox:2.0.4": * // Blocchi grafici dinamici (definizione, esempio, dimostrazione)
 #import "@preview/marginalia:0.3.1"
+
 // ==========================================
 // STATO GLOBALE PER L'ACCENTO DINAMICO
 // ==========================================
+
 #let accent_color = state("accent_color", rgb("#1E90FF"))
 #let gradient_color = state("gradient_color", gradient.linear(rgb("#1E90FF"), rgb("#63B8FF")))
 
 // ==========================================
 // CONFIGURAZIONE FONT
 // ==========================================
+
 #let serif-fonts = ("TeX Gyre Pagella",)
 #let sans-fonts = ("Lato",)
 #let title-fonts = ("Jost",)
@@ -18,6 +21,7 @@
 // ==========================================
 // CONFIGURAZIONE COLORI DELLA COLLANA (ACCENT)
 // ==========================================
+
 #let accent = (
   mat:  rgb("#2563eb"), // Matematica
   fis:  rgb("#4f46e5"), // Fisica
@@ -49,6 +53,8 @@
 // ==========================================
 // FUNZIONI DI UTILITÀ INDIPENDENTI
 // ==========================================
+
+// Box introduttivo
 #let intro(body) = context {
   let act-accent = accent_color.get()
   showybox(
@@ -63,20 +69,23 @@
   )
 }
 
-#let TODO(content) = {
+// Elemento incompleto
+#let TODO(body) = {
   align(center)[
-    #rect(fill: yellow.lighten(50%))[#content]
+    #rect(fill: yellow.lighten(50%))[#body]
   ]
 }
 
-#let notefl(where, body) = place(
+// Box testo flottante
+#let boxfl(where, body) = place(
   left + where,
   float: true,
   clearance: 6pt,
   rect(width: 100%, fill: black.lighten(95%), radius: 3pt, inset: 1em, body),
 )
 
-#let notebr(body) = block(
+// Box testo spezzabile
+#let boxbr(body) = block(
   width: 100%, 
   fill: black.lighten(95%), 
   radius: 3pt, 
@@ -85,47 +94,14 @@
   body
 )
 
+// Alias
 #let hl(body) = { highlight(body) }
 #let sh0 = h(0em)
 #let sv0 = v(0em)
 
 // =============================================================================
-// 1. BLOCCHI GRAFICI DINAMICI (Definizione, Esempio, Dimostrazione)
+// BLOCCHI GRAFICI DINAMICI (Definizione, esempio, dimostrazione)
 // =============================================================================
-
-/* #let definizione(title: none, label: none, ..sections) = context {  
-  let accent = accent_color.get() 
-  
-  let def-numbering(def-num) = context {
-    let cap = counter(heading).get()
-    let cap-num = if cap.len() > 0 { cap.first() } else { 0 }
-    [#cap-num.#def-num]
-  }
-  
-  let box-content = {
-    let args = (
-      frame: (
-        border-color: accent.lighten(20%), 
-        title-color: accent.lighten(80%), 
-        body-color: accent.lighten(95%), 
-        radius: (top-right: 5pt, rest: 0pt), 
-        thickness: (left: 1pt)
-      ),
-      title-style: (color: accent.darken(40%), weight: "bold", sep-thickness: 0pt),
-      body-style: (color: accent.darken(50%)),    
-      sep: (thickness: 0.5pt, dash: "dashed", color: accent.lighten(20%)),
-      breakable: true,
-    )
-    let display-title = {      
-      let n = counter(figure.where(kind: "definizione")).display(def-numbering)
-      let t = if title != none and title != "" [: #title] else []
-      text(size: 0.8em, weight: "bold", font: sans-fonts)[Definizione #text(fill: accent.darken(20%))[#n]#t]
-    }
-    args.insert("title", display-title)
-    showybox(..args, ..sections.pos())
-  }
-  [#figure(box-content, kind: "definizione", supplement: none, numbering: def-numbering, caption: none)#label]
-} */
 
 // Riquadro per definizioni, teoremi, dimostrazioni..; utilizzo: #definizione[title: "optional title", label: <optional label>]; inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo
 #let definizione(title: none, label: none, ..sections) = {  
@@ -156,7 +132,6 @@
     showybox(..args, ..sections.pos())
   }
   
-  // Assegniamo "1.1" come numbering nativo della figura
   [#figure(
     box-content, 
     kind: "definizione", 
@@ -181,18 +156,14 @@
   let n-sections = s.len()
   if n-sections == 0 { return }
 
-  // 1. Leggiamo il valore ATTUALE del contatore (prima degli step di questa funzione)
   let current-val = counter("esempio").get().first()
   
-  // 2. Calcoliamo i numeri futuri che verranno assegnati a queste sezioni
   let first-val = current-val + 1
   let last-val = current-val + n-sections
   let numbers = range(first-val, last-val + 1).map(str).join(", ")
   
-  // 3. Generiamo gli step necessari per far avanzare il contatore nel documento
   let steps = range(n-sections).map(idx => counter("esempio").step()).join()
 
-  // 4. Inviamo tutto al documento
   steps + showybox(
     frame: (border-color: accent.darken(40%), title-color: accent.lighten(65%), body-color: accent.lighten(90%), radius: (top-right: 5pt, rest: 0pt), thickness: (left: 1pt)),
     title-style: (color: accent.darken(70%), weight: "bold", sep-thickness: 0pt, size: 0.8em),

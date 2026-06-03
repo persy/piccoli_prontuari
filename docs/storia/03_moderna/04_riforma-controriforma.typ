@@ -33,7 +33,7 @@ Allo stesso tempo, alcune sette minori come gli Anabattisti, gli anti-trinitari 
 
 === La diffusione delle nuove dottrine
 
-#note(bottom)[== *🧩* L'anglicanesimo <senza_numero>
+#boxfl(bottom)[== *🧩* L'anglicanesimo <senza_numero>
 
 La nascita della Chiesa anglicana si deve al re Enrico VIII, che con l'Atto di Supremazia del 1534 si pose alla guida della Chiesa d'Inghilterra sostituendosi al papa. La ragione principale fu il rifiuto di Clemente VII di concedergli l'annullamento del matrimonio con Caterina d'Aragona. Dopo essere stato scomunicato, Enrico VIII sottrasse l'Inghilterra al controllo papale mantenendo comunque la struttura dogmatica cattolica, con tutti i sacramenti riconosciuti e la nomina diretta dei vescovi, senza assimilare i principi del protestantesimo.
 

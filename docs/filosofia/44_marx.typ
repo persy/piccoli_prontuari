@@ -6,7 +6,7 @@
 Marx elabora anche una concezione materialistica della storia, interpretando le dottrine filosofiche, etiche, giuridiche, religiose ed estetiche come manifestazioni della struttura economica di una società e degli interessi conflittuali che ne derivano. Quest'approccio permette di smascherare come ideologie quelle dottrine che si presentano come universali e assolute, rivelando i loro fondamenti negli interessi materiali e sociali sottostanti. Sulla base dell'analisi dell'economia capitalistica e delle dottrine marxiane, ampliate e diffuse da Engels, si costituirà il nucleo ideologico principale del movimento operaio e socialista.]
 
 == La critica a Hegel e a Feuerbach
-#note(bottom)[/ Alienazione: Nella società capitalistica, l'alienazione si configura come la riduzione del lavoratore salariato a mero oggetto. Secondo quanto esposto nei _Manoscritti economico-filosofici_, l'operaio risulta alienato rispetto a: 
+#boxfl(bottom)[/ Alienazione: Nella società capitalistica, l'alienazione si configura come la riduzione del lavoratore salariato a mero oggetto. Secondo quanto esposto nei _Manoscritti economico-filosofici_, l'operaio risulta alienato rispetto a: 
   + il prodotto del proprio lavoro; 
   + l'attività svolta, la quale è finalizzata a scopi estranei alla propria volontà; 
   + la propria essenza individuale, libera e creativa; 
@@ -30,7 +30,7 @@ Nei _Manoscritti economico-filosofici_ del 1844, pubblicati solo nel 1927, Marx 
 Per Marx, il lavoro dovrebbe invece riflettere l'espressione dell'"attività libera e consapevole" di ogni individuo, all'interno di un quadro di appartenenza sociale che consenta una sintesi tra gli obiettivi individuali e quelli collettivi dell'essere umano come specie. Tale condizione ideale di lavoro sarebbe raggiungibile solamente in una società comunista, la quale, oltre a mirare alla piena integrazione tra uomo e natura, si pone come una prospettiva storico-sociale capace di superare le alienazioni del lavoro. Tuttavia, Marx, coerente con il suo rigetto di ogni utopia, si astiene dal fornire una descrizione dettagliata di questa società nei suoi scritti.
 
 == La concezione materialistica della storia
-#note(bottom)[/ Plusvalore: Nel ciclo economico capitalista, caratterizzato dall'obiettivo principale di accumulare ricchezza monetaria, si osserva che il valore delle merci prodotte dai lavoratori è superiore al compenso percepito attraverso i salari. La differenza tra questi due valori genera il plusvalore, che viene appropriato dal capitalista sotto forma di profitto.
+#boxfl(bottom)[/ Plusvalore: Nel ciclo economico capitalista, caratterizzato dall'obiettivo principale di accumulare ricchezza monetaria, si osserva che il valore delle merci prodotte dai lavoratori è superiore al compenso percepito attraverso i salari. La differenza tra questi due valori genera il plusvalore, che viene appropriato dal capitalista sotto forma di profitto.
 
 / Proletariato: Il proletariato rappresenta la classe lavoratrice specifica del sistema di produzione capitalistico. I proletari non possiedono mezzi di produzione autonomi, ma dispongono unicamente della propria forza lavoro, che è venduta ai capitalisti in cambio di un salario.
 

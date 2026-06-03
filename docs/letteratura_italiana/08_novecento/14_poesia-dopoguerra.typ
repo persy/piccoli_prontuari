@@ -37,7 +37,7 @@ La raccolta d'esordio _Frontiera_ (1941), influenzata dall'ermetismo, mostra la 
 
 In _Diario d'Algeria_ (1947) prevalgono i temi legati alla guerra e alla prigionia, esperienze vissute direttamente da Sereni nei campi di internamento in Algeria e Marocco. Con la terza raccolta, _Gli strumenti umani_ (1965), il poeta affronta il disorientamento generato dalla società post-bellica, capitalista e consumistica, simbolo di un male di vivere che lo rende ora alienato, ora furioso. In questo contesto degradante, solo l'amore e l'amicizia rappresentano rifugi temporanei. La parola si fa più dura e il ritmo più irregolare, come si nota specialmente nella raccolta _Un posto di vacanza_ (1965), inclusa successivamente in _Stella variabile_ (1981). In quest'ultima fase Sereni interroga persino il ruolo della poesia stessa, adottando uno stile sempre più vicino alla prosa, coerentemente con la sua riflessione intensa.
 
-#note(top)[== *🧩* La "linea lombarda"  <senza_numero>
+#boxfl(top)[== *🧩* La "linea lombarda"  <senza_numero>
 
 Luciano Anceschi utilizzò questa espressione in un'antologia del 1952 per delineare una corrente poetica composta da autori nati tra il 1920 e il 1922. Questi poeti, influenzati dalla lezione di Vittorio Sereni, condividono un interesse per il rapporto tra poesia e realtà, caratterizzato da attenzione agli oggetti, concretezza, oggettività, senso critico, un'intensa tensione morale e l'uso dell'ironia.  
 

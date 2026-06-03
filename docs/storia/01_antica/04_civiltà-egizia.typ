@@ -51,7 +51,7 @@ Successore di Ramesse II, Ramesse III fu il secondo faraone della XX dinastia e 
 
 Tutankhamon, noto per essere il fratello minore di Akhenaton (Amenofi IV), ascese al trono in giovane età. Sotto l'influenza della classe sacerdotale, revocò le riforme religiose radicali del suo predecessore, restaurando il culto tradizionale e riportando la capitale a Tebe, abbandonando quello di Aton. Durante il suo regno, i suoi generali avviarono nuovamente politiche espansionistiche in Asia. Tuttavia, il faraone morì prematuramente all'età di 18 anni. La scoperta della sua tomba intatta nel 1923 rappresenta uno degli eventi archeologici più significativi del XX secolo.
 
-#note(bottom)[== *🧩* Il tesoro di Tutankhamon <senza_numero>
+#boxfl(bottom)[== *🧩* Il tesoro di Tutankhamon <senza_numero>
 
 La tomba di Tutankhamon fu oggetto di ricerca per lungo tempo prima di essere individuata dall'archeologo britannico Howard Carter e dal finanziatore Lord Carnarvon. La struttura funeraria è composta da quattro camere; tra queste, solo quella destinata alla sepoltura era completata e decorata. Nell'anticamera furono rinvenuti tre letti dorati in legno con teste animali scolpite.
 

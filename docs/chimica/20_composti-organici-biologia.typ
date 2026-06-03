@@ -47,7 +47,7 @@ Le forme D e L dello stesso monosaccaride sono enantiomeri. In soluzione acquosa
 
 Tra i monosaccaridi più rilevanti troviamo il ribosio e il desossiribosio (entrambi aldopentosi), che costituiscono gli acidi nucleici. Il glucosio, un aldoesoso, rappresenta la principale fonte energetica per tutti gli organismi viventi. Il fruttosio è largamente presente nella natura, specialmente nella frutta. Altri monosaccaridi comuni, come il galattosio, si trovano spesso combinati in disaccaridi.
 
-#note(bottom)[== *🧩* Il glucosio <senza_numero>
+#boxfl(bottom)[== *🧩* Il glucosio <senza_numero>
 
 Il glucosio, noto anche come destrosio per la sua capacità di deviare il piano della luce polarizzata verso destra, è essenziale nei processi di fermentazione e respirazione cellulare, dove viene utilizzato per produrre molecole altamente energetiche, come l'ATP (adenosintrifosfato), che rappresentano una riserva energetica per l'organismo.
 
@@ -92,7 +92,7 @@ La cellulosa è composta da catene lineari di β-glucosio e rappresenta il compo
 
 Il glicogeno, invece, è composto da catene ramificate di α-glucosio e rappresenta il polisaccaride di riserva degli animali. È particolarmente concentrato nel fegato e nei muscoli, dove funge da riserva energetica.
 
-#note(bottom)[== *🧩* Gli enzimi <senza_numero>
+#boxfl(bottom)[== *🧩* Gli enzimi <senza_numero>
 
 Gli enzimi sono proteine che funzionano come catalizzatori biologici, accelerando le reazioni biochimiche che avvengono all'interno delle cellule, sia quelle di sintesi che di demolizione. Grazie a questi catalizzatori, la velocità delle reazioni aumenta fino a un milione di volte. Ogni enzima è altamente specifico per una determinata reazione o per gruppi di reazioni affini.
 

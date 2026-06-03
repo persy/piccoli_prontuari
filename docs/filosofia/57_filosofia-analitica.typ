@@ -8,7 +8,7 @@ Il movimento analitico trova impulso a Cambridge nei primi anni '30 grazie a fil
 A partire dagli anni '50, Oxford diventa il centro di pensatori innovativi come Ryle e Austin. Questi sviluppano la filosofia del linguaggio ordinario, riconoscendo la complessità intrinseca del linguaggio. Essa supera gli elementi descrittivi e logico-formali per includere altre forme di discorso, quali quello etico, metafisico, teologico e giuridico.]
 
 == Tratti generali della filosofia analitica
-#note(bottom)[/ Atto linguistico: Secondo Austin, è l'enunciato considerato come una specifica forma di azione compiuta dal soggetto. Si distingue per tre aspetti fondamentali: locutorio, illocutorio e perlocutorio.
+#boxfl(bottom)[/ Atto linguistico: Secondo Austin, è l'enunciato considerato come una specifica forma di azione compiuta dal soggetto. Si distingue per tre aspetti fondamentali: locutorio, illocutorio e perlocutorio.
 
 / Cognitivismo etico: È una corrente etica che sostiene che i giudizi morali riguardano i "fatti", non si riducono a mere espressioni di atteggiamenti o preferenze personali e, di conseguenza, possono essere valutati come veri o falsi.]
 Storicamente, la filosofia analitica si è diffusa nella prima metà del Novecento in Inghilterra, Stati Uniti e Scandinavia, per poi consolidarsi nel resto d'Europa a partire dagli anni Settanta. Il suo sviluppo è stato influenzato dai contributi di Ludwig Wittgenstein, dal positivismo logico dell'Europa centrale e dalle analisi del linguaggio ordinario.

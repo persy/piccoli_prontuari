@@ -96,7 +96,7 @@ L'ossigeno riveste un ruolo fondamentale: esso è indispensabile per il funziona
 
 Anche la presenza di azoto nell'aria del suolo è significativa, poiché tramite la sua fissazione ad opera di batteri azotofissatori si formano composti azotati che possono essere assimilati dalle piante.
 
-#note(bottom)[== *🧩* I paleosuoli <senza_numero>
+#boxfl(bottom)[== *🧩* I paleosuoli <senza_numero>
 
 In determinate circostanze geomorfologiche conservative si sono preservati suoli antichissimi, risalenti a centinaia di milioni di anni fa. Quando suoli, indipendentemente dal loro grado di maturazione, vengono ricoperti da nuovi strati sedimentari, possono formarsi i paleosuoli. Questi ultimi, letteralmente "suoli antichi", rappresentano autentici reperti geostorici capaci di offrire preziose informazioni sull'evoluzione ambientale e climatica del passato. I paleosuoli possono essere definiti come suoli che si sono sviluppati in paesaggi remoti temporalmente e la cui evoluzione si è interrotta o modificata a causa di profondi cambiamenti delle condizioni ambientali, quali alterazioni del clima o della vegetazione.
 
@@ -143,7 +143,7 @@ Il colore del suolo è un indicatore diagnostico molto utile per identificare i 
 
 La sostanza organica e l'argilla presenti nei suoli costituiscono una sorta di "spugna naturale", nota come complesso di scambio. Questo sistema consente di trattenere gli elementi minerali del suolo, per poi rilasciarli progressivamente alle radici delle piante, rispondendo così alle loro esigenze vitali.
 
-#notebr[== *🧩* La potenzialità dei suoli <senza_numero>
+#boxbr[== *🧩* La potenzialità dei suoli <senza_numero>
 
 L'analisi dei suoli mira prevalentemente al loro utilizzo sostenibile, alla conservazione delle loro caratteristiche e al miglioramento delle loro potenzialità.
 

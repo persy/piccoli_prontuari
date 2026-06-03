@@ -33,7 +33,7 @@ La conquista della Sassonia nel 785 permise a Carlo di estendere il dominio fran
 
 Tra l'801 e l'813 Carlo sottrasse agli Arabi il controllo della Catalogna e della città di Barcellona in Spagna, istituendo una zona difensiva nota come Marca Hispanica. Questo termine designava specifiche circoscrizioni poste lungo le frontiere del regno, destinate a garantire la sicurezza e protezione dei confini.
 
-#note(bottom)[== *🧩* L'idea di Impero <senza_numero>
+#boxfl(bottom)[== *🧩* L'idea di Impero <senza_numero>
 
 La denominazione Sacro Romano Impero riflette il duplice fondamento religioso e politico su cui si basava l'istituzione imperiale. La sacralità dell'Impero, il cui principale obiettivo era garantire l'ordine sociale in armonia con la salvezza delle anime, venne ufficializzata attraverso la cerimonia di incoronazione di Carlo Magno da parte del Papa.
 
@@ -67,7 +67,7 @@ Due volte all'anno i grandi dell'Impero si riunivano in assemblee chiamate placi
 
 La corte imperiale fu anche epicentro di una significativa rinascita culturale, nota come "rinascita carolingia", caratterizzata da un vigoroso impulso all'istruzione e dalla creazione della Schola Palatina. In questo prestigioso ambiente accademico furono raccolti i più grandi intellettuali dell'epoca, tra cui Paolo Diacono, Alcuino, Rabano Mauro, Teodolfo d'Orléans e Giovanni Scoto Eriugena, i quali produssero opere principalmente di carattere religioso e teologico.
 
-#note(top)[== *🧩* La nuova scrittura <senza_numero>
+#boxfl(top)[== *🧩* La nuova scrittura <senza_numero>
 
 Un ruolo di particolare rilevanza culturale durante il periodo carolingio fu dato alla copiatura di antichi testi, in prevalenza religiosi, accompagnata da una significativa riforma della scrittura. Nel progetto di Carlo Magno era previsto che sorgessero scuole in ogni diocesi, il che implicava un aumento della domanda di libri. Gli scriptoria, ovvero i laboratori dove venivano copiati i manoscritti, operarono intensamente in quell'epoca.
 

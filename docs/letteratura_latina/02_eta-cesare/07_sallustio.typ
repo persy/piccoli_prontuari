@@ -59,7 +59,7 @@ La prima parte della monografia è dedicata all'analisi delle cause morali, psic
 
 Un punto forte dell'opera sono i ritratti psicologici dei protagonisti: Sempronia, Cesare, Catone e, soprattutto, Catilina. Quest'ultimo domina la scena con una combinazione inquietante di malvagità, coraggio e intelligenza.
 
-#note(top)[== *🧩* Riassunto della _Congiura di Catilina_ <senza_numero>
+#boxfl(top)[== *🧩* Riassunto della _Congiura di Catilina_ <senza_numero>
 
 Dopo un'introduzione generale, Sallustio delinea un profilo psicologico dettagliato di Catilina, collegando la sua figura alla corruzione morale dell'epoca. In tale contesto, offre una breve ricostruzione storica di Roma, segnando un confronto nostalgico con i tempi antichi caratterizzati da una maggiore integrità (capitoli 1-13).
 

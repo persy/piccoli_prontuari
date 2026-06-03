@@ -53,7 +53,7 @@ Firenze fu attraversata da intense lotte tra famiglie rivali, divise negli schie
 
 La classe dirigente fu costretta ad istituire nuove corporazioni (come quelle dei tintori, farsettai e ciompi) e ad ammettere i loro rappresentanti al governo. Tuttavia, i Ciompi, indeboliti internamente dalla defezione dei tintori e farsettai e abbandonati dall'appoggio di Michele di Lando, furono estromessi dal potere. Il controllo politico passò così nelle mani di poche famiglie aristocratiche e di grandi commercianti e banchieri, come gli Albizzi e gli Strozzi, finendo nella seconda metà del XV secolo sotto il dominio della famiglia de' Medici.
 
-#note(top)[== *🧩* Le università <senza_numero>
+#boxfl(top)[== *🧩* Le università <senza_numero>
 
 L'apice del fervore culturale e intellettuale emerso nel periodo comunale fu rappresentato dalla nascita delle Università. Nel primo Medioevo, l'educazione elementare era affidata ai monaci, mentre le scuole vescovili, sotto il controllo diretto del vescovo, garantivano l'insegnamento superiore. Spettava al vescovo la responsabilità di selezionare i docenti.
 

@@ -41,7 +41,7 @@ Nel frattempo, a Roma cresceva il sentimento anticarataginese, alimentato da fig
 
 Nel 133 a.C., Scipione Emiliano pose fine alla rivolta di Numanzia in Spagna dopo anni di guerriglia, aprendo così la strada alla romanizzazione del territorio. Contestualmente, Roma si assicurò il controllo della Gallia meridionale, estendendo il proprio dominio dalle Alpi ai Pirenei e trasformandola nella provincia della Gallia Narbonense. Questi successi dimostrarono ancora una volta la potenza e la stabilità dell'impero romano.
 
-#note(top)[== *🧩* _Carthago delenda est_ <senza_numero>
+#boxfl(top)[== *🧩* _Carthago delenda est_ <senza_numero>
 
 Le relazioni tra Roma e Cartagine si trasformarono nel tempo da collaborazioni e alleanze in una rivalità senza tregua. Dopo le ripetute vittorie contro le popolazioni italiche e contro Pirro, Roma iniziò a guardare con ostilità al predominio cartaginese sulla Sicilia e sul Mediterraneo. La competizione si fece spietata, alimentando un odio profondo tra le due civiltà.
 

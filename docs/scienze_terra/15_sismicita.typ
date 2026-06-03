@@ -49,7 +49,7 @@ Le onde superficiali si formano nell'epicentro quando le onde longitudinali e tr
 
 Le onde superficiali sono caratterizzate dalla capacità di percorrere lunghe distanze prima di dissiparsi; tuttavia, possiedono velocità inferiori rispetto alle onde P e S. In particolare, le onde L viaggiano a circa 3 km/s, leggermente più rapide delle onde R, che si propagano a circa 2,7 km/s.
 
-#note(bottom)[== *🧩* I maremoti, o tsunami <senza_numero>
+#boxfl(bottom)[== *🧩* I maremoti, o tsunami <senza_numero>
 
 I maremoti, o tsunami, rappresentano fenomeni marini eccezionali costituiti da onde di grande dimensione e potenza. Il termine "tsunami" deriva dal giapponese e significa "onda del porto", indicando il manifestarsi improvviso sul mare di onde molto alte e di ampia estensione che si propagano a elevatissime velocità e si abbattono violentemente sulle coste.
 

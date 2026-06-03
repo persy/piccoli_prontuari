@@ -31,7 +31,7 @@ In questo contesto di tensioni crescenti, i deputati girondini, esponenti modera
 
 == La Repubblica, la Convenzione e il Terrore
 
-#note(bottom)[== *🧩* La Rivoluzione in Italia <senza_numero>
+#boxfl(bottom)[== *🧩* La Rivoluzione in Italia <senza_numero>
 Le idee democratiche illuminate penetrarono progressivamente negli ambienti intellettuali piemontesi e napoletani durante la Rivoluzione francese. Nel 1793 diversi Stati italiani, tra cui lo Stato Pontificio e il Regno di Napoli, aderirono alla Prima Coalizione antifrancese; tuttavia, il Granducato di Toscana fu il primo a siglare un accordo di pace con la Francia regicida.  
 
 Tra il 1796 e il 1799, durante la Prima Campagna d'Italia condotta dal generale Bonaparte, il Regno di Sardegna e l'Austria vennero piegati militarmente. Questa serie di vittorie consentì alla Francia di negoziare favorevoli trattati di pace con i duchi padani e lo Stato Pontificio (come il Trattato di Tolentino del 19 febbraio 1797). 

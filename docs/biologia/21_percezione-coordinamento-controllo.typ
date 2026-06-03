@@ -138,7 +138,7 @@ La pelle, nota anche come cute, avvolge il corpo intero e svolge funzioni essenz
 
 Nel derma si trovano anche importanti recettori somatici, come i corpuscoli di Pacini e di Ruffini, responsabili della percezione della pressione, e i corpuscoli di Krause, sensibili a variazioni termiche.
 
-#note(bottom)[== *🧩* La struttura della pelle <senza_numero>
+#boxfl(bottom)[== *🧩* La struttura della pelle <senza_numero>
 
 Anatomicamente, la pelle è composta da diversi strati sovrapposti: l'epidermide, il derma e l'ipoderma. L'epidermide è costituita da cellule generate dallo strato basale; queste cellule attraversano diverse trasformazioni passando dagli strati sottostanti (spinoso, granuloso, lucido) fino a quello superiore (corneo). Durante questo processo, le cellule assumono una forma appiattita, perdono il nucleo e si arricchiscono di cheratina, conferendo loro proprietà impermeabili sia all'aria sia all'acqua. Il derma ospita strutture quali i follicoli piliferi dotati di muscoli erettori del pelo, nonché le ghiandole sudoripare e sebacee. L'ipoderma si trova al di sotto del derma ed è caratterizzato dalla presenza di cellule adipose, che hanno la funzione di isolare e ammortizzare.]
 

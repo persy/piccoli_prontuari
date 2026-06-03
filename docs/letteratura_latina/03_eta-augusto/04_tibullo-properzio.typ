@@ -35,7 +35,7 @@ Con certezza, i primi due libri sono attribuiti al poeta Tibullo. Il primo, noto
 
 Il secondo libro, _Nemesi_, è composto da sei elegie, tre delle quali dedicate a una figura femminile chiamata Nemesi. Questo nome, che in greco significa "vendetta", potrebbe simboleggiare una nuova passione maturata dal poeta dopo l'abbandono da parte di Delia, che avrebbe scelto un anziano ricco come compagno. Il terzo libro del corpus non è interamente attribuibile a Tibullo e contiene contributi di diversa natura e origine.
 
-#notebr[== *🧩* Riassunto dei primi due libri del _Corpus Tibullianum_ <senza_numero>
+#boxbr[== *🧩* Riassunto dei primi due libri del _Corpus Tibullianum_ <senza_numero>
 
 === Libro primo <senza_numero>
 

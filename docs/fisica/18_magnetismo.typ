@@ -71,7 +71,7 @@ Se avviciniamo tra loro i poli nord (o sud) di due calamite, questi tenderanno a
 
 Se proviamo a tagliare un magnete al centro, sperando di dividere tra loro i due poli, otterremo soltanto un magnete più piccolo, ma alle due estremità vi saranno sempre un polo nord e un polo sud. Anche riducendo il magnete a dimensioni microscopiche si ottengono sempre due poli, o dipolo: è impossibile ottenere un polo magnetico isolato, o un monopolo.
 
-#note(bottom)[== *🧩* La bussola magnetica <senza_numero>
+#boxfl(bottom)[== *🧩* La bussola magnetica <senza_numero>
 
 La bussola magnetica è uno strumento che sfrutta il magnetismo terrestre ed è costituita da un ago magnetico, una sottile sbarretta di materiale magnetico montata su un perno in modo che sia libera di ruotare nel piano orizzontale senza attrito: lontano da altri magneti che potrebbero influenzarne il comportamento, l'ago magnetico si orienta spontaneamente in direzione Nord-Sud, lungo i meridiani terrestri.
 
@@ -215,7 +215,7 @@ $
 
 La forza esercitata da un campo magnetico su un filo percorso da corrente è sfruttata nei motori elettrici per trasformare energia elettrica in energia meccanica.
 
-#note(bottom)[== *🧩* Il motore elettrico <senza_numero>
+#boxfl(bottom)[== *🧩* Il motore elettrico <senza_numero>
 
 In un motore elettrico l'energia elettrica fornita a una spira percorsa da corrente viene trasformata in energia meccanica. L'energia meccanica così prodotta può poi venire utilizzata per muovere per esempio le pale di un ventilatore o il cestello di una lavatrice.Un motore elettrico è costituito generalmente da una parte fissa (statore) e da una mobile (rotore).
 

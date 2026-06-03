@@ -260,7 +260,7 @@ La senescenza segna l'inizio del decadimento della pianta. Questo fenomeno inclu
 
 Il caratteristico cambiamento di colore nelle foglie autunnali deriva dalla riduzione della produzione di clorofilla verde, che normalmente maschera gli altri pigmenti rosso e giallo. Inoltre, nelle piante perenni anche le gemme entrano in uno stato di dormienza sviluppando involucri protettivi che le trasformano in gemme invernali.
 
-#note(top)[== *🧩* Esempi di movimenti della pianta <senza_numero>
+#boxfl(top)[== *🧩* Esempi di movimenti della pianta <senza_numero>
 
 Approfondendo il comportamento delle piante, è possibile osservare movimenti ben definiti che dimostrano la loro capacità di reagire agli stimoli esterni. Le radici, ad esempio, si orientano verso il basso seguendo un geotropismo positivo stimolato dalla forza di gravità, favorendo un ancoraggio profondo. Allo stesso tempo tendono verso le fonti d'acqua mediante idrotropismo e si allontanano dalla luce con un fototropismo negativo. Al contrario, il fusto si sviluppa in direzione opposta alla gravità con un geotropismo negativo, mentre si piega verso la luce grazie a un fototropismo positivo. Durante la crescita, l'apice del fusto descrive movimenti spiraliformi nello spazio, noti come nutazione.
 

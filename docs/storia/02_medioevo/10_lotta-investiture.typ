@@ -59,7 +59,7 @@ Gregorio VII, assediato in Castel Sant'Angelo, cercò aiuto presso i Normanni. T
 
 == Il Concordato di Worms
 
-#note(bottom)[== *🧩* Il Concordato di Worms e lo spirito riformatore <senza_numero>
+#boxfl(bottom)[== *🧩* Il Concordato di Worms e lo spirito riformatore <senza_numero>
 
 A partire dal pontificato di Pasquale II, si consolidarono orientamenti dottrinali moderati in merito alla questione del conferimento delle investiture. Studiosi come Ivo di Chartres, Gregorio da Catino e Ugo di Fleury sostennero la necessità di un chiarimento sulla natura di tali investiture. Pur divergendo nelle loro posizioni, questi pensatori concordavano sull'idea che il sovrano conferisse esclusivamente il possesso di beni materiali e una giurisdizione civile, mentre il conferimento di un incarico religioso rimaneva al di fuori delle sue competenze.
 

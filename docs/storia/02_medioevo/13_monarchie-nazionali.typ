@@ -21,7 +21,7 @@ Mentre la Chiesa attraversava queste difficoltà, anche l'Impero versava in una 
 
 Nel 1356 l'imperatore Carlo IV regolamentò formalmente il processo elettorale dell'Impero mediante la celebre _Bolla d'Oro_. Tale decreto affidava l'elezione a un collegio composto da tre membri ecclesiastici e quattro rappresentanti laici. Con questo atto si determinò il graduale tramonto del principio universale dell'Impero, riflesso anche nel declino del potere universale della Chiesa.
 
-#note(bottom)[== *🧩* Il _Defensor Pacis_ di Marsilio da Padova <senza_numero>
+#boxfl(bottom)[== *🧩* Il _Defensor Pacis_ di Marsilio da Padova <senza_numero>
 
 Nel 1324 Marsilio da Padova, un professore parigino, pubblicò un trattato politico rivoluzionario destinato a influenzare profondamente le idee dell'epoca: il _Defensor Pacis._
 

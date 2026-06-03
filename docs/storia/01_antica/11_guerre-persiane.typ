@@ -29,7 +29,7 @@ Temistocle convinse gli ateniesi a evacuare la città e rifugiarsi sull'isola di
 
 Serse fu costretto a ritirarsi ma non rinunciò all'idea di una nuova invasione l'anno seguente. Nel 479 a.C., l'esercito persiano rimasto in Tessaglia subì una disfatta nella battaglia di Platea per mano del generale spartano Pausania. Parallelamente, la flotta greca inflisse una dura sconfitta ai Persiani presso capo Micale, liberando le isole dell'Egeo dalla loro occupazione.
 
-#note(bottom)[== *🧩* La disfatta di Salamina nella tragedia di Eschilo <senza_numero>
+#boxfl(bottom)[== *🧩* La disfatta di Salamina nella tragedia di Eschilo <senza_numero>
 
 I Persiani di Eschilo rappresenta l'unica tragedia giunta fino a noi che affronta temi apertamente politici. L'azione si svolge a Susa durante le guerre tra Greci e Persiani. Un coro di anziani persiani celebra la grandeur dell'Impero, ma manifesta anche un profondo senso di angoscia per la mancanza di notizie dal fronte. Atossa, madre di Serse, compare sulla scena e racconta i suoi inquietanti presagi; poco dopo, giunge un messaggero per annunciare la sconfitta di Salamina.
 

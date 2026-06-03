@@ -8,7 +8,7 @@ Pensatori come Dilthey, Simmel e Spengler, pur rinunciando a una filosofia globa
 Parallelamente allo sviluppo dello storicismo, si è assistito a una rinascita del trascendentalismo kantiano con l'emergere del neokantismo. Questo movimento ha riproposto il problema fondamentale della fondazione e della legittimazione del sapere. In aperta critica sia alle metafisiche post-idealistiche sia al positivismo naturalistico, il neokantismo si è organizzato attorno a due scuole principali: quella di Marburgo (con Cohen, Natorp e Cassirer), più orientata allo studio della conoscenza nell'ambito delle scienze naturali, e quella di Baden (con Windelband e Rickert), dedita invece a elaborare una filosofia della cultura.]
 
 == Wilhelm Dilthey
-#note(bottom)[/ Comprendere: Rappresenta la modalità conoscitiva caratteristica delle scienze dello spirito, resa possibile grazie al patrimonio condiviso delle esperienze vissute (Erlebnis) sia dell'individuo che degli altri.
+#boxfl(bottom)[/ Comprendere: Rappresenta la modalità conoscitiva caratteristica delle scienze dello spirito, resa possibile grazie al patrimonio condiviso delle esperienze vissute (Erlebnis) sia dell'individuo che degli altri.
 
 / Scienze della natura: Si occupano dello studio della realtà esterna, una realtà che l'essere umano non ha creato ma che incontra come un dato oggettivo, sul quale applicare una spiegazione causale. Gli oggetti di queste scienze possiedono un nucleo costante di verità, immune al fluire del tempo e alla variabilità delle interpretazioni di significato.
 

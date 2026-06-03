@@ -35,7 +35,7 @@ Secondo Lucrezio, la morte costituisce semplicemente il termine naturale che chi
 
 La vita deve essere abbandonata con serenità e gratitudine: proprio come un commensale sazio si alza da un banchetto, riconoscente per le gioie eventualmente provate o sollevato per essere finalmente libero dalle delusioni e dalle sofferenze subite.
 
-#notebr[== *🧩* Riassunto del _De rerum natura_ <senza_numero> 
+#boxbr[== *🧩* Riassunto del _De rerum natura_ <senza_numero> 
 
 Il poema si apre con un ampio proemio, un solenne inno a Venere, rappresentata come forza generatrice della natura, dea dell'amore, del piacere e della fecondità, nonché simbolo di pace e di gioia infinita. Venere infonde ispirazione al poeta, che le rivolge una tradizionale invocazione divina per introdurre il suo lavoro. Questo approccio non è in contrasto con le convinzioni di Lucrezio: gli dèi potrebbero esistere, ma rimangono indifferenti alle vicende umane.
 

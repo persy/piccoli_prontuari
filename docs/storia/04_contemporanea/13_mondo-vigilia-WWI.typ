@@ -31,7 +31,7 @@ In particolare, Wilson avviò ciò che sarebbe stato definito neoliberismo o wil
 
 == Le tensioni tra le potenze
 
-#note(top)[== *🧩* La questione balcanica <senza_numero>
+#boxfl(top)[== *🧩* La questione balcanica <senza_numero>
 
 La questione balcanica era un problema complesso e radicato nella graduale decadenza dell'Impero Ottomano, riguardante il controllo della sua parte europea, ossia i Balcani. Le mire espansionistiche di Austria e Russia si intrecciavano con le aspirazioni di indipendenza dei popoli cristiani dominati dal governo turco.
 

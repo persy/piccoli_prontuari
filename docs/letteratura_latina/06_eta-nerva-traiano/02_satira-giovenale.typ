@@ -15,7 +15,7 @@ Giovenale iniziò a dedicarsi alla scrittura delle Satire in età avanzata, prob
 
 Il _corpus_ letterario di Giovenale si compone di 16 Satire per un totale di circa 3800 versi in esametri, raccolti in cinque libri di diversa estensione: le satire I-V, VI, VII-IX, X-XI e XIII-XVI. Dell'ultima satira ci restano solo i primi 60 versi. Non è noto il periodo esatto della loro pubblicazione; si ritiene tuttavia che Giovenale abbia iniziato a divulgarle solo dopo la morte di Domiziano nel 96 d.C., avendo continuato a comporle probabilmente durante gli ultimi trent'anni della sua vita.
 
-#notebr[== *🧩* Riassunto delle _Satire_ <senza_numero>
+#boxbr[== *🧩* Riassunto delle _Satire_ <senza_numero>
 
 Satira I: Giovenale introduce il genere satirico dichiarando che esso rappresenta pienamente le sue ambizioni artistiche ed etiche. Afferma di essersi dedicato alla satira per indignazione verso il malcostume e la corruzione dilagante a Roma. Conclude specificando che sceglierà di rivolgere le proprie invettive solo contro personaggi ormai defunti lungo le strade Flaminia e Latina, onde evitare possibili ritorsioni dai contemporanei.
 

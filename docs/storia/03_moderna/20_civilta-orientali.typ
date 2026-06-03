@@ -11,7 +11,7 @@ Anche in ambito religioso, Cina e Giappone condividono elementi distintivi: entr
 
 == La Cina alla fine della dominazione mongola
 
-#note(bottom)[== *🧩* Le religioni orientali <senza_numero>
+#boxfl(bottom)[== *🧩* Le religioni orientali <senza_numero>
 
 Nel VI secolo a.C., Buddha diede origine a una nuova religione, il buddhismo, fondata sulla dottrina della reincarnazione e sulla legge del karma, che regola la retribuzione dei meriti. Per liberarsi dal ciclo delle vite e delle sofferenze, Buddha insegnò il distacco dalle cose materiali e dagli eventi, invitando a raggiungere una profonda quiete interiore. 
 

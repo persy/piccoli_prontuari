@@ -179,7 +179,7 @@ Ad esempio, l'acqua bolle a 100 °C a pressione atmosferica normale (101,32 kPa)
 )  
 )
 
-#note(bottom)[== *🧩* Il vapore d'acqua nell'atmosfera <senza_numero>
+#boxfl(bottom)[== *🧩* Il vapore d'acqua nell'atmosfera <senza_numero>
 
 Il vapore acqueo, pur essendo presente nell'atmosfera terrestre in quantità piccole e variabili, rappresenta uno dei suoi componenti più rilevanti, poiché dalla sua condensazione prendono origine tutti i fenomeni meteorologici.
 

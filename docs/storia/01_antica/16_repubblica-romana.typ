@@ -33,7 +33,7 @@ Come risultato, vennero istituiti i tribuni della plebe, figure incaricate di pr
 
 La lotta per l'emancipazione continuò nel tempo, portando a ulteriori conquiste: l'abolizione del divieto di matrimoni misti (445 a.C.), l'accesso alla questura (421 a.C.), al consolato tramite le leggi Licinie-Sestie (367 a.C.), ai collegi sacerdotali (300 a.C.) e il riconoscimento giuridico dei comizi tributi (287 a.C., legge Ortensia), i cui plebisciti divennero vincolanti per l'intera popolazione.
 
-#note(top)[== *🧩* La legislazione scritta delle XII tavole <senza_numero>
+#boxfl(top)[== *🧩* La legislazione scritta delle XII tavole <senza_numero>
 
 Il codice delle XII tavole rappresentò il primo corpus di leggi scritte introdotto a Roma. Fino a quel momento, il diritto si fondava sulla consuetudine ed era interpretato arbitrariamente dai magistrati depositari del sapere giuridico. 
 

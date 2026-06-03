@@ -121,7 +121,7 @@ Attualmente sono noti nove pianeti: Mercurio, Venere, Terra, Marte, Giove, Satur
 )
 ]
 
-#notebr[== *🧩* Leggi che governano i moti dei pianeti <senza_numero>
+#boxbr[== *🧩* Leggi che governano i moti dei pianeti <senza_numero>
 
 Approfondendo le leggi che regolano i moti planetari, è utile ricordare che nell'antichità il cosmo veniva concepito come un insieme di sfere concentriche con la Terra situata al centro. Su ciascuna di queste sfere era posto un corpo celeste ("astro"), e il tutto era racchiuso da una sfera opaca perforata da piccoli fori attraverso cui filtrava la luce divina dell'empireo. Una visione introdotta dal matematico, astronomo e geografo greco Claudio Tolomeo nel I secolo d.C., che descriveva la Terra immobile al centro dell'universo. Secondo il sistema tolemaico, attorno al pianeta orbitavano la Luna, Mercurio, Venere, il Sole, Marte, Giove, Saturno e infine la sfera delle stelle fisse.
 

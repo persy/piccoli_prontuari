@@ -21,7 +21,7 @@ In seguito a tale fenomeno iniziale, la materia avrebbe iniziato a espandersi ne
 
 Con il passare del tempo e sotto l'azione delle forze gravitazionali, all'interno di questi agglomerati si sarebbero formati complessi stellari derivanti dal collasso gravitazionale delle nubi primordiali.
 
-#note(bottom)[== *🧩* Il gruppo locale <senza_numero>
+#boxfl(bottom)[== *🧩* Il gruppo locale <senza_numero>
 
 All'interno di questa cornice cosmologica si distingue il Gruppo Locale, un insieme di circa venti galassie legate gravitazionalmente. Le tre più grandi sono quelle a spirale: la Via Lattea, la galassia di Andromeda e la galassia del Triangolo.
 
@@ -72,7 +72,7 @@ Gli ammassi globulari orbitano intorno al centro della Galassia, il quale eviden
 La cosmologia è la disciplina scientifica che studia l'origine e l'evoluzione dell'universo, includendo l'ipotesi di una possibile pluralità di universi. Questi interrogativi hanno affascinato l'umanità fin dalle prime civiltà, dando origine nel corso dei secoli a risposte diverse, basate sulle conoscenze disponibili in ogni epoca.
 
 === Origine dell'universo
-#note(top)[== *🧩* Effetto Doppler <senza_numero>
+#boxfl(top)[== *🧩* Effetto Doppler <senza_numero>
 
 Il fenomeno noto come effetto Doppler, applicabile a tutti i tipi di onde, fu originariamente teorizzato dal fisico tedesco Christian Doppler (1803-1853) nell'ambito delle onde sonore. Esso rappresenta una variazione percepita della frequenza di un'onda, determinata dal movimento relativo tra la sorgente dell'onda e l'osservatore.
 

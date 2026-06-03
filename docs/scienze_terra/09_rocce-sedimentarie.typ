@@ -88,7 +88,7 @@ Anche i carboni rientrano tra le rocce organogene, essendo costituiti da resti d
 )  
 )
 
-#note(bottom)[== *🧩* La formazione del carbone fossile <senza_numero>
+#boxfl(bottom)[== *🧩* La formazione del carbone fossile <senza_numero>
 
 I depositi di carbone attualmente disponibili sulla Terra risalgono principalmente al periodo Carbonifero, che iniziò circa 345 milioni di anni fa. Questo periodo fu caratterizzato da un clima caldo e umido che favorì lo sviluppo di vaste foreste in aree paludose. Per centinaia di migliaia di anni, i resti delle piante si accumularono formando spessi strati, successivamente sepolti da sedimenti quali sabbie e fanghi. 
 
@@ -111,7 +111,7 @@ Le rocce piroclastiche rappresentano un'interessante categoria intermedia tra ro
 Il processo sedimentario è fondamentale nella formazione delle rocce sedimentarie e comprende una serie di trasformazioni derivanti da materiali preesistenti. Questo processo include: la degradazione meteorica delle rocce; il trasporto e la deposizione dei sedimenti in vari ambienti; e infine la diagenesi, cioè la conversione dei sedimenti incoerenti in roccia consolidata tramite compattazione e cementazione dei singoli frammenti.
 
 === La degradazione meteorica delle rocce
-#note(bottom)[== *🧩* L'azione degli organismi viventi sulle rocce <senza_numero>
+#boxfl(bottom)[== *🧩* L'azione degli organismi viventi sulle rocce <senza_numero>
 
 Anche gli organismi viventi contribuiscono alla degradazione delle rocce, esercitando un'azione sia meccanica sia chimica.
 
@@ -130,7 +130,7 @@ La disgregazione fisica può avvenire attraverso diversi processi specifici, tra
 
 I frammenti generati dalla degradazione meteorica delle rocce possono rimanere sul posto oppure essere trasportati altrove. Il trasporto dei sedimenti può avvenire grazie a vari agenti naturali come piogge, ghiacciai, fiumi, mari, vento e forza di gravità. Ogni agente opera con modalità proprie e specifiche. I luoghi in cui i sedimenti si accumulano sono chiamati ambienti di sedimentazione e si distinguono in tre categorie principali: ambienti continentali, ambienti di transizione e ambienti marini. Ogni ambiente è caratterizzato da particolari tipi di sedimenti o facies, termine che deriva dal latino e significa "aspetto esteriore". Le facies rappresentano l'insieme delle caratteristiche litologiche e paleontologiche (come la presenza di fossili) di una roccia.
 
-#notebr[== *🧩* Gli ambienti di sedimentazione <senza_numero>
+#boxbr[== *🧩* Gli ambienti di sedimentazione <senza_numero>
 
 === Ambienti continentali <senza_numero>
 

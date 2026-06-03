@@ -19,7 +19,7 @@ Al XX Congresso del Partito Comunista dell'Unione Sovietica (PCUS) nel marzo 195
 
 Una volta consolidato il proprio controllo, Krušcëv avviò ambiziosi tentativi di risollevare l'economia sovietica e perseguire una competitività con gli Stati Uniti soprattutto nel settore scientifico. Il Quinto Piano Quinquennale (1951-1955) fu emblematico di questa visione. Tuttavia, esso generò gravi squilibri interni che, combinati alle crescenti tensioni con la Cina, alla crisi cubana e al montare del dissenso verso il regime, contribuirono alla destituzione di Krušcëv il 15 ottobre 1964. 
 
-#note(top)[== *🧩* Castro e il comunismo a Cuba <senza_numero>
+#boxfl(top)[== *🧩* Castro e il comunismo a Cuba <senza_numero>
 
 Fidel Castro fu il principale artefice della transizione al comunismo nell'isola di Cuba. Opponendosi al regime autoritario di Fulgencio Batista, nel 1953 guidò l'assalto alla caserma Moncada a Santiago de Cuba, sperando di ottenere armi per rovesciare il dittatore. Il piano fallì e Castro fu incarcerato. Dopo essere stato liberato grazie a un'amnistia nel 1955, si trasferì prima negli Stati Uniti e poi in Messico. Qui organizzò una spedizione armata: il 2 dicembre 1956 sbarcò a Cuba con un piccolo gruppo di combattenti. Dopo intensi scontri militari, Castro e pochi superstiti, tra cui suo fratello Raúl e il medico argentino Ernesto "Che" Guevara, si rifugiarono nella Sierra Maestra. Da lì Castro mobilitò il popolo promettendo una seria riforma agraria e guidò la guerriglia contro Batista.
 

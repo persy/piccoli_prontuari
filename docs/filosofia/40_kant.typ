@@ -6,7 +6,7 @@
 Grazie a questo impegno speculativo, Kant rappresenta un punto di riferimento imprescindibile per la filosofia posteriore, offrendo un esempio di straordinario rigore intellettuale e sottolineando il valore della filosofia come costruzione teorica e interpretazione dell'esperienza.]
 
 == La vita e l'ambiente
-#note(bottom)[/ Dovere: Nel contesto del discorso filosofico, il dovere corrisponde alla necessità di un’azione non determinata da motivazioni contingenti, bensì giustificata dall’obbligo imposto dalla legge morale.
+#boxfl(bottom)[/ Dovere: Nel contesto del discorso filosofico, il dovere corrisponde alla necessità di un’azione non determinata da motivazioni contingenti, bensì giustificata dall’obbligo imposto dalla legge morale.
 
 / Fenomeno: Il fenomeno rappresenta l’oggetto dell’esperienza sensibile. Esso è conosciuto tramite le forme a priori della sensibilità, ovvero spazio e tempo, nonché attraverso le categorie dell’intelletto, definite in dodici distinzioni fondamentali.
 
@@ -30,7 +30,7 @@ Dai testi del secondo periodo precritico (1762-1768) si nota la crescente necess
 Nella _Critica della ragion pura_ (1781), Kant mira a sottoporre la ragione umana a un approfondito esame critico. Con il termine "critica della ragion pura" intende un'indagine rigorosa sulla "facoltà della ragione in relazione a tutte le conoscenze che può conseguire indipendentemente dall'esperienza". L'obiettivo è determinare se sia possibile considerare la metafisica una scienza. Le conoscenze che derivano dall'esperienza sono dette "a posteriori", mentre quelle indipendenti da essa sono "a priori", caratterizzate da universalità e necessità.
 
 Ogni tipo di conoscenza è formato da due elementi principali: la materia, ossia le impressioni sensibili che derivano dall'esperienza, e la forma, ovvero l'ordine e l'unità che le nostre facoltà cognitivo-percettive conferiscono alla materia. La conoscenza scientifica, come quella sviluppata in ambiti come la matematica e la fisica, è definita "sintesi a priori", perché include "giudizi sintetici a priori". Questi giudizi sono "sintetici", in quanto il predicato aggiunge una nuova informazione al soggetto, e "a priori", poiché universali e necessari, non derivati dall'esperienza (ad esempio, la somma degli angoli interni di un triangolo è sempre 180°).
-#note(bottom)[/ "Io penso": La formula "Io penso" rappresenta la funzione trascendentale che consente l’unificazione e la sintesi dei dati provenienti sia dalla sensibilità sia dall’intelletto.
+#boxfl(bottom)[/ "Io penso": La formula "Io penso" rappresenta la funzione trascendentale che consente l’unificazione e la sintesi dei dati provenienti sia dalla sensibilità sia dall’intelletto.
 
 / Noumeno o cosa in sé: Il noumeno designa l’oggetto nella sua realtà ultima e integrale, che risulta tuttavia inconoscibile all’intelletto umano. Quest’ultimo rimane strutturalmente condizionato all’apparenza fenomenica che si manifesta nella rappresentazione intellettuale.
 

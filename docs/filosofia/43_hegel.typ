@@ -6,7 +6,7 @@
 Dopo la scomparsa di Hegel, i suoi allievi si dividono in due correnti principali: la destra e la sinistra hegeliana. La prima enfatizza il carattere sistematico e conclusivo della filosofia hegeliana, mentre la seconda mette maggiormente in risalto il suo dinamismo dialettico e la dimensione storica.]
 
 == La vita e le opere
-#note(bottom)[/ Assoluto: L'Assoluto rappresenta l'integrazione dialettica tra il soggettivo e l'oggettivo, mediata attraverso il processo di sviluppo dialettico. Esso si identifica con lo Spirito, inteso come totalità che si manifesta e ritorna a sé attraverso le forme dell'arte, della religione e della filosofia.
+#boxfl(bottom)[/ Assoluto: L'Assoluto rappresenta l'integrazione dialettica tra il soggettivo e l'oggettivo, mediata attraverso il processo di sviluppo dialettico. Esso si identifica con lo Spirito, inteso come totalità che si manifesta e ritorna a sé attraverso le forme dell'arte, della religione e della filosofia.
 
 / Contraddizione: La contraddizione costituisce l'elemento razionale-negativo della dialettica. Essa evidenzia l'incapacità di ogni singola determinazione di sussistere autonomamente senza relazionarsi alle altre.
 
@@ -28,7 +28,7 @@ La dialettica fenomenologica di Hegel avanza attraversando relazioni via via pi�
 Nella versione più matura del sistema hegeliano, delineata nell'_Enciclopedia delle scienze filosofiche in compendio_, la fenomenologia dello spirito viene ridimensionata. Il suo ruolo speculativo si limita ai primi tre momenti (Coscienza, Autocoscienza e Ragione) e non è più considerata la chiave d'accesso al "sistema della scienza".
 
 == Il sistema hegeliano
-#note(bottom)[/ Eticità: L'eticità rappresenta l'attuazione concreta dell'idea di libertà nel contesto delle istituzioni oggettive storiche, culminando nell'organizzazione dello Stato.
+#boxfl(bottom)[/ Eticità: L'eticità rappresenta l'attuazione concreta dell'idea di libertà nel contesto delle istituzioni oggettive storiche, culminando nell'organizzazione dello Stato.
 
 / Idea: L'idea racchiude il movimento integrativo del pensiero nella sua totalità, sia sul piano soggettivo sia su quello oggettivo, confermandosi come coincidente con la realtà stessa.
 

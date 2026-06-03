@@ -27,7 +27,7 @@ Questa situazione alimentò conflitti agrari di rilievo, centrati sul diritto di
 
 == La Rivoluzione industriale
 
-#note(top)[== *🧩* Il luddismo <senza_numero>
+#boxfl(top)[== *🧩* Il luddismo <senza_numero>
 
 Le difficili condizioni di vita degli operai inglesi portarono a forme di ribellione e sabotaggio delle macchine utilizzate nelle fabbriche, ritenute responsabili della crescente disoccupazione operaia e della diminuzione dei salari.
 
@@ -53,7 +53,7 @@ La legislazione sociale arrivò solo nel secolo successivo, quando si consolidò
 
 In particolare, dopo le guerre napoleoniche, le esportazioni di prodotti industriali a basso costo dall'Inghilterra favorirono l'industrializzazione in aree dove le condizioni erano più adatte, come i territori settentrionali del Belgio e della Francia, grazie alla presenza di risorse come il carbone.
 
-#note(top)[== *🧩* La crisi della società per ceti <senza_numero>
+#boxfl(top)[== *🧩* La crisi della società per ceti <senza_numero>
 
 Sebbene la tradizionale stratificazione della società per ceti avesse ancora una certa rilevanza, nuovi fattori iniziarono a emergere nei paesi dell'Europa occidentale.
 

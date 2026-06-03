@@ -33,7 +33,7 @@ Nel 1846 emerse la leadership di Lord Robert Peel, che promosse una riforma doga
 
 Infine, nell'aprile del 1848, il paese fu scosso da proteste violente, che vennero tuttavia sedate con fermezza dal governo.
 
-#note(top)[== *🧩* Luigi Napoleone Bonaparte  <senza_numero>
+#boxfl(top)[== *🧩* Luigi Napoleone Bonaparte  <senza_numero>
 
 Carlo Luigi Napoleone, figlio terzogenito di Luigi Bonaparte, re d'Olanda e fratello di Napoleone I, e di Ortensia de Beauharnais, fu precocemente influenzato da una convinta credenza nel proprio destino come erede della tradizione bonapartista. 
 

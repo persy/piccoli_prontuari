@@ -21,7 +21,7 @@ La promulgazione dell'Editto di Nantes da parte di Enrico IV nel 1598 rappresent
 
 == Gli Asburgo di Spagna: Filippo II
 
-#note(bottom)[== *🧩* L'Impero <senza_numero>
+#boxfl(bottom)[== *🧩* L'Impero <senza_numero>
 
 Con la morte di Carlo V nel 1558, l'Impero passò al fratello Ferdinando, già re di Boemia e Ungheria, che venne eletto imperatore con il nome di Ferdinando I. Egli modernizzò l'organizzazione dei domini ereditari istituendo vari organi di governo, tra cui il Consiglio segreto per le questioni riservate, il Consiglio aulico per la politica estera, la Camera aulica per le finanze e un ulteriore Consiglio aulico per la difesa e la guerra.
 

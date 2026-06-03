@@ -27,7 +27,7 @@ Servio Tullio espanse ulteriormente il dominio romano verso sud, introdusse una 
 
 Con la caduta di Tarquinio il Superbo prese forma gradualmente l'ordinamento repubblicano. Dei sette re di Roma, le testimonianze più affidabili riguardano gli ultimi tre, poiché è certo che la potenza etrusca influenzò profondamente la città nascente. Per gli altri sovrani, purtroppo, il confine tra realtà storica e fantasia appare spesso indistinto.
 
-#note(bottom)[== *🧩* Fondazione di Roma e l'_Eneide_ virgiliana <senza_numero>
+#boxfl(bottom)[== *🧩* Fondazione di Roma e l'_Eneide_ virgiliana <senza_numero>
 
 La leggenda di Enea, eroe troiano che giunse in Italia insieme a un gruppo di profughi dopo essere sfuggito alla distruzione della sua città, è strettamente connessa alla storia di Romolo e Remo, fondatori di Roma. Questa narrazione mitologica conferiva alla città un'aura quasi divina, grazie al fatto che Enea era figlio della dea Venere. Tale caratterizzazione risulta particolarmente significativa in un periodo storico in cui Roma si consolidava e si espandeva territorialmente.
 

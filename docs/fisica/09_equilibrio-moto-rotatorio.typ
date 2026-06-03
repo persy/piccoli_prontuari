@@ -60,7 +60,7 @@ La direzione del vettore *M* è perpendicolare alla forza e al segmento _OP_; il
 
 Il concetto di momento si applica anche alle leve, che sono macchine semplici progettate per bilanciare una forza intensa applicandone un'altra meno intensa, ma con un braccio maggiore. In questo modo si ottiene l'equilibrio tra i momenti delle forze.
 
-#note(bottom)[== *🧩* Le leve <senza_numero>
+#boxfl(bottom)[== *🧩* Le leve <senza_numero>
 
 Le leve costituiscono il primo esempio di macchina semplice ideato dall'uomo. Una macchina semplice si definisce come un dispositivo capace di compiere lavoro mediante un singolo movimento. Le leve operano ruotando attorno a un punto fisso, denominato fulcro, trasmettendo una forza che ha il compito di vincere una resistenza esterna mediante l'applicazione di una forza meno intensa, detta potenza.
 

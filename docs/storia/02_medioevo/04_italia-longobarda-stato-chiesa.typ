@@ -37,7 +37,7 @@ Le iniziative politiche di Gregorio I, l'amministrazione del patrimonio ecclesia
 
 == Da Rotari a Desiderio
 
-#note(top)[== *🧩* L'Editto di Rotari <senza_numero>
+#boxfl(top)[== *🧩* L'Editto di Rotari <senza_numero>
 
 L'Editto di Rotari rappresenta una pietra miliare del diritto longobardo. Redatto in latino e composto da 388 articoli, esso si basa sulla tradizione longobarda, su altre legislazioni barbariche come la Lex Visigothorum e sul diritto romano giustinianeo e pregiustinianeo. Nonostante il progresso rispetto all'epoca di Alboino, permanevano alcune credenze superstiziose e usi barbarici.
 

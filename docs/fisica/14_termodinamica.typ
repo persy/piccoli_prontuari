@@ -158,7 +158,7 @@ Questa relazione, supportata dal secondo principio della termodinamica, mostra c
 
 Un esempio comune di macchina termica è il motore di un'automobile, che converte una parte del calore generato dalla combustione della benzina in lavoro utile per far muovere il veicolo.
 
-#note(bottom)[== *🧩* Il motore a combustione interna <senza_numero>
+#boxfl(bottom)[== *🧩* Il motore a combustione interna <senza_numero>
 
 Il motore a combustione interna, impiegato nella maggior parte dei veicoli, rappresenta un esempio di motore termico capace di trasformare l'energia generata dalla combustione di un carburante liquido o gassoso in energia meccanica.
 
@@ -254,7 +254,7 @@ Il rendimento del ciclo di Carnot aumenta all'aumentare di _T#sub[1]_ e al dimin
 
 Inoltre, nel ciclo di Carnot è possibile invertire la direzione delle trasformazioni: in questo caso il sistema non produce lavoro bensì lo assorbe per trasferire calore dalla sorgente fredda alla sorgente calda. Questo principio è alla base del funzionamento dei frigoriferi domestici, dove il motore elettrico impiega energia per sottrarre calore dall'interno del frigorifero e trasferirlo nell'ambiente esterno.
 
-#note(bottom)[== *🧩* Il frigorifero <senza_numero>
+#boxfl(bottom)[== *🧩* Il frigorifero <senza_numero>
 
 La macchina frigorifera è invece un esempio di macchina termica che, al contrario del motore termico, sottrae calore da una sorgente a bassa temperatura per trasferirlo a una sorgente più calda, raffreddandone ulteriormente la parte fredda. Un esempio pratico è dato dai frigoriferi domestici: la cella frigorifera costituisce la sorgente fredda, mentre l'ambiente circostante fa da sorgente calda.
 

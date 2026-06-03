@@ -37,7 +37,7 @@ Famosa è la concezione della fortuna elaborata da Machiavelli, intesa come l'in
 
 Ne "Il Principe", egli pone le basi di una nuova concezione della politica, individuando in essa il campo in cui la virtù individuale può trovare realizzazione. Questa virtù si configura come la capacità di affrontare gli eventi razionalmente, mirando a creare un sistema di convivenza tra gli uomini in cui l'interesse individuale si integri e venga riconosciuto nell'interesse collettivo.
 
-#note(bottom)[== *🧩* La trattistica storica <senza_numero>
+#boxfl(bottom)[== *🧩* La trattistica storica <senza_numero>
 
 La trattatistica storica si confronta con una visione della politica che si distanzia dalla tradizionale idea di vita civica, per concentrarsi invece sulle regole dello Stato e sulle tecniche legate alla sua conservazione. In questo periodo emerge una diffusa attenzione per le opere di Machiavelli e Tacito, tanto da sviluppare un vero e proprio fenomeno culturale definito "tacitismo", incentrato sulle riflessioni riguardanti l’assolutismo.
 

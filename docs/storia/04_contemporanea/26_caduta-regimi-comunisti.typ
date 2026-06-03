@@ -39,7 +39,7 @@ La Romania fu teatro della rivoluzione più cruenta. Il dittatore Nicolae Ceauș
 
 Infine rimase l'Albania. Nel 1990, sotto la pressione delle proteste popolari, il presidente Ramiz Alia introdusse il multipartitismo e consentì le libere elezioni. Nel 1992 salì al potere Sali Berisha, oppositore del regime comunista.
 
-#note(top)[== *🧩* Il dramma di piazza Tien An Men <senza_numero>
+#boxfl(top)[== *🧩* Il dramma di piazza Tien An Men <senza_numero>
 
 Tra aprile e maggio 1989, a Pechino, i cittadini cinesi manifestarono per imprimere una svolta alla politica del governo comunista, dando vita a una mobilitazione senza precedenti per la democrazia e la libertà.
 

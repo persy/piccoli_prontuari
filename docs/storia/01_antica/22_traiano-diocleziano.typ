@@ -27,7 +27,7 @@ Nel 169, alla morte di Lucio Vero, Marco Aurelio rimase l'unico imperatore. Nel 
 
 Filosofo di vasta cultura e seguace dello stoicismo, Marco Aurelio scrisse una preziosa opera intitolata "A se stesso", suddivisa in dodici libri. Morì nel 180, vittima di una peste che lo colpì lungo la frontiera danubiana dove si era recato per affrontare nuovamente i Germani. Alla sua morte, Commodo salì al trono all'età di diciannove anni e adottò una politica violenta contro il senato, rompendo con le tradizioni paterne. Malvisto dall'esercito a causa di accordi pacifici con Quadi e Marcomanni, fu assassinato nel 192 in una congiura organizzata dal prefetto del pretorio Leto.  
 
-#note(top)[== *🧩* L'Impero all'asta: il potere dell'esercito <senza_numero>
+#boxfl(top)[== *🧩* L'Impero all'asta: il potere dell'esercito <senza_numero>
 
 Nel corso della storia dell'Impero romano fu spesso l'esercito a determinare l'avvicendamento al potere. Un caso particolarmente emblematico si verificò nel 193 con l'assassinio di Elvio Pertinace da parte delle guardie pretoriane. Rimasto vacante il trono per alcuni giorni, i pretoriani decisero quindi di mettere all'asta il controllo dell'Impero a chi avesse offerto di più.
 

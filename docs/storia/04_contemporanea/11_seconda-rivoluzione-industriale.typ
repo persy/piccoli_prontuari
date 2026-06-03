@@ -13,7 +13,7 @@ La "Grande depressione", tra il 1873 e il 1896, interessò principalmente i paes
 
 In risposta alla situazione, molti governi abbandonarono le politiche liberoscambiste in favore del protezionismo doganale, mentre si registrava un forte aumento dell'emigrazione verso gli Stati Uniti.
 
-#note(bottom)[== *🧩* La crisi della ragione <senza_numero>
+#boxfl(bottom)[== *🧩* La crisi della ragione <senza_numero>
 
 Negli ultimi due decenni del XIX secolo si osservò un progressivo allineamento tra gli interessi delle classi dirigenti e quelli dei grandi gruppi capitalistici. Questo processo relegò in secondo piano il ruolo dell'opinione pubblica e segnò il declino degli ideali liberali e democratici che avevano caratterizzato l'epoca precedente. Anche la filosofia attraversò un periodo di crisi: la fiducia nella ragione, pilastro del positivismo, iniziò a cedere il passo all'intuizione e all'irrazionalità. Particolarmente influente fu il pensiero di Friedrich Wilhelm Nietzsche (1844-1900), critico della morale e del conformismo borghese. Nietzsche attribuiva grande valore all'intuizione e alla volontà di potenza, elaborando il concetto di superuomo, un individuo libero e creativo, capace di superare i limiti imposti dalla vita borghese.
 

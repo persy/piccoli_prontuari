@@ -15,7 +15,7 @@ Nel 313, i due Augusti si incontrarono a Milano e promulgarono un Editto che ric
 
 Nel 332 Costantino sconfisse i Goti e consolidò ulteriormente i confini orientali dell'Impero. Tuttavia, morì nel 337 mentre si preparava per una campagna militare contro i Persiani. Durante il suo regno, adottò una politica progressivamente più favorevole nei confronti del Cristianesimo, promuovendo attivamente la diffusione della religione tra i sudditi orientali e concedendo ai cristiani ruoli significativi all'interno dell'esercito e dell'amministrazione statale.
 
-#note(top)[== *🧩* Il Cristianesimo delle origini <senza_numero>
+#boxfl(top)[== *🧩* Il Cristianesimo delle origini <senza_numero>
 
 Il Cristianesimo si inserisce nel panorama delle religioni che trovano in Abramo il proprio progenitore. La sua peculiarità risiede però nel fatto che il nucleo della rivelazione non si basa su una Legge o un Libro, bensì sul Cristo stesso, il Verbo incarnato.  
 

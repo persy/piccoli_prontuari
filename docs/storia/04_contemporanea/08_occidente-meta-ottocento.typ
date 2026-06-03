@@ -31,7 +31,7 @@ In un'ottica di contenimento della Francia, nel 1879 Bismarck strinse un'alleanz
 
 == Dalla Comune di Parigi all'_affaire Dreyfus_
 
-#note(bottom)[== *🧩* L'affaire Dreyfus <senza_numero>
+#boxfl(bottom)[== *🧩* L'affaire Dreyfus <senza_numero>
 
 L'affare Dreyfus rappresentò uno dei più grandi scandali politici che profondamente agitò la Francia alla fine del XIX secolo. 
 

@@ -34,7 +34,7 @@ Seguendo la tradizione della _palliata_, Terenzio ha attinto i suoi soggetti dal
 
 Una questione rilevante è quella della _contaminatio_, pratica con cui Terenzio intrecciava liberamente brani, situazioni o elementi tratti da autori diversi o da opere dello stesso scrittore all'interno di un unico testo. Sebbene questa tecnica fosse probabilmente utilizzata anche da Plauto e altri autori comici romani, fu Terenzio il principale bersaglio delle critiche dei drammaturghi contemporanei.
 
-#note(bottom)[== *🧩* Riassunti delle commedie di Terenzio <senza_numero>
+#boxfl(bottom)[== *🧩* Riassunti delle commedie di Terenzio <senza_numero>
 
 - _Andria_ (_La ragazza di Andro_): La giovane di Andro, Glicerio, è stata abbandonata da bambina e cresciuta da una cortigiana. Panfilo si innamora di lei, ma il loro amore sembra irrealizzabile poiché il padre di lui, Simone, ha organizzato il fidanzamento tra Panfilo e Filomena, la figlia di Cremete. Tuttavia, Filomena è innamorata di Carino, un amico di Panfilo. La trama si complica a causa degli goffi interventi dello schiavo Davo, ma alla fine si scopre che Glicerio è in realtà la figlia di Cremete, permettendo così un lieto fine.
 - _Hècyra_ (_La suocera_): Questa commedia sentimentale priva di elementi comici ruota attorno alla figura di Sostrata, una suocera ideale. Suo figlio Panfilo ha sposato Filumena. Durante un viaggio, Panfilo non trova più la moglie, che si è rifugiata a casa dei genitori a seguito dei presunti maltrattamenti della suocera. In realtà, Filumena sta per dare alla luce un bambino concepito prima del matrimonio a seguito di una violenza subita da uno sconosciuto che si scopre poi essere Panfilo stesso. Grazie al supporto di Sostrata e della cortigiana Bacchide la coppia si riappacifica.

@@ -120,7 +120,7 @@ La complessità della natura umana viene ritratta in un contesto magico e intens
 Nei romances shakespeariani è evidente il percorso narrativo che porta dalla sofferenza alla rigenerazione, un cammino che attraversa inevitabilmente il peccato, la caduta e la distruzione. È nelle nuove generazioni che risiedono gli elementi di rinnovamento e speranza. A questa fase appartengono anche due delle ultime opere dell'autore: _Enrico VIII_ e _I due nobili parenti_, entrambe datate 1612-1613.
 
 == Le altre opere
-#note(bottom)[== *🧩* Il sonetto <senza_numero> 
+#boxfl(bottom)[== *🧩* Il sonetto <senza_numero> 
 
 Composizione poetica formata da quattordici versi organizzati secondo un preciso schema di rime. I versi sono strutturati attraverso un sistema di pause e collegamenti che conferiscono armonia al testo. \ Nei sonetti italiani, detti anche petrarcheschi, la struttura tradizionale prevede due quartine con rime alternate (ABBA, ABBA) e due terzine, il cui schema di rime può variare, ad esempio CDC, CDC oppure CDC, DCD. Questo schema suddivide il sonetto in due parti: un’ottava e una sestina. \ Diversamente, il sonetto shakespeariano presenta tre quartine seguite da un distico finale, con le rime disposte in questa sequenza: ABAB, CDCD, EFEF, GG.]
 Passando alle opere non teatrali, tra queste troviamo i due poemi narrativi _Venere e Adone_ (1593) e _Lucrezia violata_ (1594), un enigmatico poema simbolico intitolato _La fenice e la tartaruga_ (1601), e soprattutto la celebre raccolta di _Sonetti_, composta da 154 liriche considerate tra le migliori mai scritte in lingua inglese.

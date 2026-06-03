@@ -6,7 +6,7 @@
 Dopo Popper, emergono due prospettive epistemologiche di grande rilevanza. La prima è rappresentata dalla teoria dei paradigmi elaborata da Thomas Kuhn, che stabilisce una relazione tra epistemologia e storia della scienza proponendo un modello non cumulativo ma rivoluzionario per descrivere lo sviluppo scientifico. La seconda prospettiva è l'anarchismo metodologico di Paul Feyerabend, il quale mette radicalmente in discussione l'esistenza di regole metodologiche universalmente valide.]
 
 == Karl Popper
-#note(bottom)[/ Asserto-base: Una proposizione affermativa che risulti verificabile da osservatori diversi sulla base dell'analisi di oggetti empiricamente rilevabili. Ogni teoria scientifica definisce un confine tra gli asserti-base accettabili e quelli non accettabili, i quali rappresentano i potenziali criteri di falsificazione della teoria stessa.
+#boxfl(bottom)[/ Asserto-base: Una proposizione affermativa che risulti verificabile da osservatori diversi sulla base dell'analisi di oggetti empiricamente rilevabili. Ogni teoria scientifica definisce un confine tra gli asserti-base accettabili e quelli non accettabili, i quali rappresentano i potenziali criteri di falsificazione della teoria stessa.
 
 / Base empirica: Si tratta dell'insieme di proposizioni derivabili entro il contesto di una teoria scientifica, le quali consentono il controllo sperimentale della stessa. In un dato periodo storico, vi è generalmente consenso tra i ricercatori riguardo alla base empirica di riferimento, sebbene questa possa essere riconsiderata o modificata sulla base di nuovi accordi all'interno della comunità scientifica.
 
@@ -30,7 +30,7 @@ Questa capacità delle teorie scientifiche di essere falsificabili, oltre che fa
 Secondo Popper, questa peculiarità fa della scienza la forma più elevata di conoscenza disponibile e della razionalità scientifica il miglior esempio del potenziale razionale umano. Se da una parte egli ridimensiona l'immagine tradizionale della scienza come depositaria di verità assolute, dall'altra le attribuisce il significativo ruolo di paradigma del sapere.
 
 === La società aperta
-#note(bottom)[/ Miseria dello storicismo: Espressione centrale nella filosofia della storia di Karl Popper e titolo di una sua opera fondamentale. Secondo Popper, lo storicismo cela una base metafisica priva di fondamento, che suppone l'esistenza di un senso oggettivo e univoco degli eventi storici. Tale approccio porta a una visione deterministica e totalitaria della realtà umana, come se fosse regolata da leggi immutabili. Popper contrappone a questa prospettiva l'idea che le tendenze storiche siano interpretabili esclusivamente tramite ipotesi soggettive e mutevoli.
+#boxfl(bottom)[/ Miseria dello storicismo: Espressione centrale nella filosofia della storia di Karl Popper e titolo di una sua opera fondamentale. Secondo Popper, lo storicismo cela una base metafisica priva di fondamento, che suppone l'esistenza di un senso oggettivo e univoco degli eventi storici. Tale approccio porta a una visione deterministica e totalitaria della realtà umana, come se fosse regolata da leggi immutabili. Popper contrappone a questa prospettiva l'idea che le tendenze storiche siano interpretabili esclusivamente tramite ipotesi soggettive e mutevoli.
 
 / Olismo: Nell'interpretazione popperiana, l'olismo è la concezione—rigettata con decisione dall'autore—che considera la realtà storico-sociale come un'entità che trascende la somma delle sue singole componenti empiriche e individuali.
 

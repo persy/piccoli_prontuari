@@ -26,7 +26,7 @@ Oggi, la chimica si avvale prevalentemente di due sistemi di nomenclatura:
 
 La nomenclatura razionale opera una netta suddivisione dei composti chimici in due macro-categorie: i composti binari, formati da due elementi, e i composti ternari, costituiti da tre elementi.  
 
-#note(bottom)[== *🧩* Dalla nomenclatura tradizionale alla nomenclatura razionale o IUPAC <senza_numero>
+#boxfl(bottom)[== *🧩* Dalla nomenclatura tradizionale alla nomenclatura razionale o IUPAC <senza_numero>
 
 Fin dall'inizio del XIX secolo, i chimici si sono trovati di fronte alla necessità di definire criteri per attribuire un nome ai composti chimici identificati. Questo processo ha portato alla definizione progressiva di norme che, sebbene non sistematiche, erano ampiamente adottate, con alcune varianti nei diversi paesi, e che hanno dominato fino alla metà del XX secolo (nomenclatura tradizionale).
 

@@ -40,7 +40,7 @@ Nel 1612, dopo la morte di Rodolfo II, il trono imperiale passò al fratello Mat
 
 == La Guerra dei Trent'anni
 
-#note(bottom)[== *🧩* L'intermezzo italiano <senza_numero>
+#boxfl(bottom)[== *🧩* L'intermezzo italiano <senza_numero>
 
 Le vicende belliche investirono anche l'Italia a causa dell'importanza strategica della Valtellina, controllata dai Grigioni svizzeri, come corridoio per il movimento delle truppe spagnole verso i territori imperiali. La Spagna cercò senza successo di unirsi ai cattolici per contrastare la Lega dei Grigioni.
 

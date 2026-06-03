@@ -25,7 +25,7 @@ Durante la fase iniziale della guerra, le forze fedeli al re ottennero successi 
 
 Cromwell, ormai in posizione dominante, procedette con la purga del Parlamento eliminando i membri monarchici. Sotto la sua influenza, un tribunale rivoluzionario decretò la condanna a morte di Carlo I, che fu giustiziato mediante decapitazione il 30 gennaio 1649. In seguito alla morte del re, venne proclamata la Repubblica (_Commonwealth_), che perdurò fino alla restaurazione monarchica del 1660.
 
-#note(bottom)[== *🧩* _Whigs_ e _tories_ <senza_numero>
+#boxfl(bottom)[== *🧩* _Whigs_ e _tories_ <senza_numero>
 
 Durante il regno della dinastia Stuart, all'interno del Parlamento inglese emersero due fazioni che possono essere considerate i primi partiti politici nel senso moderno: i _whigs_ e i _tories_.
 

@@ -24,7 +24,7 @@ La stabilità acquisita dagli atomi attraverso la formazione di un legame chimic
 
 L'energia di legame è strettamente associata alle proprietà energetiche degli atomi coinvolti, determinate da valori come l'energia di ionizzazione e l'affinità elettronica. La distanza media che separa i nuclei di due atomi legati chimicamente è denominata distanza di legame.
 
-#note(bottom)[== *🧩* Distanza di legame e legge di Coulomb <senza_numero>
+#boxfl(bottom)[== *🧩* Distanza di legame e legge di Coulomb <senza_numero>
 
 La formazione di una molecola richiede che due o più atomi si avvicinino sufficientemente per superare le forze di repulsione che agiscono tra i rispettivi nuclei positivamente carichi e gli elettroni circostanti negativamente carichi.  
 
@@ -87,7 +87,7 @@ Questi legami vengono rappresentati attraverso formule di struttura e schemi di 
 
 Esistono diverse tipologie di legami covalenti: il legame covalente puro (o omopolare), il legame covalente polare e il legame dativo. Il legame covalente puro, detto anche omopolare, si verifica tra atomi dello stesso elemento.
 
-#note(bottom)[== *🧩* Formule di struttura e formule di Lewis <senza_numero>
+#boxfl(bottom)[== *🧩* Formule di struttura e formule di Lewis <senza_numero>
 
 Le formule di struttura risultano utili per illustrare il modo in cui gli atomi si legano all'interno di una molecola. In queste rappresentazioni grafiche, ogni legame chimico, corrispondente alla valenza degli atomi coinvolti, viene visualizzato tramite un trattino lineare.
 
@@ -96,7 +96,7 @@ Le formule di Lewis, invece, enfatizzano il completamento dell'ottetto elettroni
 // Tabella #TODO
 ]
 
-#note(top)[== *🧩* Doppi e tripli legami <senza_numero>
+#boxfl(top)[== *🧩* Doppi e tripli legami <senza_numero>
 
 Il legame $pi$ (pi greco) si verifica esclusivamente in presenza di un legame $sigma$ (sigma) ed è fondamentale per la formazione di legami multipli. Questi includono doppi legami (un legame $sigma$ accompagnato da un legame $pi$) e tripli legami (un legame $sigma$ unito a due legami $pi$), come osservato in diverse molecole organiche in cui il carbonio assume un ruolo centrale.
 
@@ -677,7 +677,7 @@ Il legame a idrogeno consiste in un'attrazione elettrostatica tra un atomo di id
 
 Questo tipo di legame è caratteristico di molecole fortemente polari come il fluoruro di idrogeno ($"HF"$), l'acqua ($"H"_2"O"$) e l'ammoniaca ($"NH"_3$). Le peculiari proprietà chimico-fisiche dell'acqua derivano dalla capacità delle sue molecole di instaurare legami a idrogeno con le molecole circostanti. 
 
-#note(top)[== *🧩* Influenza dei legami a idrogeno su alcune proprietà chimico-fisiche dell'acqua <senza_numero>
+#boxfl(top)[== *🧩* Influenza dei legami a idrogeno su alcune proprietà chimico-fisiche dell'acqua <senza_numero>
 
 Punto di ebollizione: Sotto una pressione atmosferica di 760 mmHg, l'acqua passa allo stato gassoso a 100 °C. In assenza dei legami a idrogeno, tuttavia, si stima che il punto di ebollizione sarebbe significativamente più basso, circa −80 °C. La presenza dei legami a idrogeno richiede una notevole quantità di energia per separare le molecole d'acqua e consentire il passaggio allo stato aeriforme.
 

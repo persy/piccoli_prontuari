@@ -15,7 +15,7 @@ Nelle opere successive, caratterizzate da una complessità linguistica ancora pi
 
 In _Fosfeni_, Zanzotto continua a esplorare i recessi della psiche e dei linguaggi, alla ricerca di una parola assoluta, unica via di salvezza contro la dissoluzione della comunicazione indotta dalla società dei mass media.
 
-#note(top)[== *🧩* Il concetto di postmoderno <senza_numero>
+#boxfl(top)[== *🧩* Il concetto di postmoderno <senza_numero>
 
 Il termine postmoderno ha assunto significati parzialmente diversi a seconda dell'ambito in cui è stato utilizzato. Negli ultimi vent'anni, tuttavia, ha descritto espressioni culturali che manifestano una consapevolezza della perdita dei punti di riferimento ideali su cui si era basato il concetto di modernità. 
 
@@ -39,7 +39,7 @@ Vivian Lamarque (1946) ha sviluppato una poetica degli opposti, caratterizzata d
 
 La poesia di Patrizia Valduga (1953), rigorosamente incastonata nell'uso del linguaggio tradizionale, in particolare nella quartina petrarchesca, rielabora e attualizza temi quali l'eros, lo smarrimento dell'anima, il dolore e la sofferenza. Tra le sue opere principali si trovano _Medicamenta_ (1982), _Donna di dolori_ (1991), _Requiem_ (1994) e _Cento quartine e altre storie d'amore_ (1997).
 
-#note(top)[== *🧩* Il teatro giullaresco di Dario Fo <senza_numero>
+#boxfl(top)[== *🧩* Il teatro giullaresco di Dario Fo <senza_numero>
 
 Dario Fo (1926-2016), originario di Leggiuno, nei pressi di Varese, rappresenta una delle figure più significative del panorama teatrale italiano del Novecento. Egli esordì come attore impegnato in spettacoli satirici di varietà, tra cui si ricordano _Il dito nell'occhio_ (1953) e _Sani da legare_ (1954). Nel periodo compreso tra il 1956 e il 1967, insieme alla moglie Franca Rame, mise in scena una serie di farse caratterizzate da un ritmo vivace e da trame fortemente inverosimili. Questi lavori, come _Isabella tre caravelle e un cacciaballe_ (1963) e _La signora è da buttare_ (1967), si proponevano di denunciare con ironia i paradossi sociali e politici dell'Italia contemporanea.
 

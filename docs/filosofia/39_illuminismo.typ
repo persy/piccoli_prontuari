@@ -8,7 +8,7 @@ Il periodo di massima fioritura dell'Illuminismo corrisponde al XVIII secolo, co
 Il movimento illuminista conosce una grande espansione anche al di fuori della Francia, adattandosi e assumendo caratteristiche peculiari in relazione alle diverse tradizioni storiche, politiche e religiose dei paesi europei. In Italia adotta un approccio più moderato, concentrandosi soprattutto sul rinnovamento civile e giuridico, come si evince dalle opere di Pietro Verri e Cesare Beccaria. In Germania sviluppa una concezione più articolata della ragione, capace di integrare le dimensioni emotive e sensoriali.]
 
 == I caratteri essenziali dell'Illuminismo
-#note(bottom)[/ Ateismo: È il rifiuto dell'esistenza di Dio e di qualsiasi possibilità di conoscenza legata a Lui. 
+#boxfl(bottom)[/ Ateismo: È il rifiuto dell'esistenza di Dio e di qualsiasi possibilità di conoscenza legata a Lui. 
 / Deismo: Si basa sulla credenza nell'esistenza di Dio, fondata esclusivamente su argomentazioni razionali. Esclude ogni forma di rivelazione, autorità divina, culto o mistero, accettando solo quei principi religiosi e morali che l'uomo può raggiungere attraverso la ragione e lo studio della natura.
 / Teismo: Rappresenta, in senso ampio, una dottrina religiosa o filosofica che riconosce l'esistenza di un Dio unico, personale e trascendente, opponendosi così all'ateismo. È una caratteristica distintiva delle tre principali religioni monoteiste: ebraismo, cristianesimo e islam.]
 Rispetto alla razionalità moderna, orientata verso grandi questioni metafisiche, la ragione illuministica si focalizza soprattutto sull'analisi della realtà tangibile e quotidiana, ponendo particolare attenzione ai temi della felicità individuale e dell'utilità sociale.

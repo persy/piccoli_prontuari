@@ -11,7 +11,7 @@ Le prime manifestazioni del sistema feudale si possono individuare nella regione
 
 Nel caso delle terre date in usufrutto (denominate _tenure_ nelle aree francofone e _Leihe_ in quelle germaniche), il beneficiario era tenuto a versare un tributo in denaro o, più frequentemente, in natura. La tutela offerta dal benefattore era nota come _mundium_. Tra le popolazioni germaniche era inoltre diffusa l'istituzione del _comitatus_, che indicava il gruppo di soldati che sceglievano volontariamente di combattere per un capo, prestando giuramento di fedeltà personale. I membri del comitato vennero successivamente denominati "vassalli", prendendo origine dal termine celtico _gwas_, utilizzato già nel VI secolo.
 
-#note(top)[== *🧩* La cavalleria <senza_numero>
+#boxfl(top)[== *🧩* La cavalleria <senza_numero>
 
 Fin dall'alto medioevo si formò una casta militare di cavalieri, combattenti che potevano disporre a proprie spese di un cavallo e dell'armatura. Essi avevano il compito di aiutare il principe, a cui erano legati da vincoli di vassallaggio, nella difesa dei deboli. 
 

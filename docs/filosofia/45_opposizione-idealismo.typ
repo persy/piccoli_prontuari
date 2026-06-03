@@ -6,7 +6,7 @@
 Tra i principali oppositori spiccano Schopenhauer e Kierkegaard, entrambi fortemente critici nei confronti dell'astrattezza e del distacco dal concreto che attribuiscono al sistema hegeliano. Schopenhauer lo respinge per promuovere una visione irrazionale e pessimistica del mondo, mentre Kierkegaard lo confuta in modo deciso, sostenendo l'impossibilità di ridurre la realtà umana alle leggi della ragione.]
 
 == Arthur Schopenhauer
-#note(bottom)[/ Principio di individuazione: Rappresenta ciò che definisce l’unicità di un ente, distinguendolo da tutti gli altri, inclusi quelli che condividono la stessa natura.
+#boxfl(bottom)[/ Principio di individuazione: Rappresenta ciò che definisce l’unicità di un ente, distinguendolo da tutti gli altri, inclusi quelli che condividono la stessa natura.
 
 / Principio di ragion sufficiente: Fondamento logico essenziale secondo il quale nulla può essere considerato vero senza una ragione adeguata che giustifichi perché è in quel modo e non in un altro.]
 Arthur Schopenhauer (nato a Danzica nel 1788 e morto a Francoforte sul Meno nel 1860) ha insegnato saltuariamente a Berlino tra il 1820 e il 1831. La sua opera principale, _Il mondo come volontà e rappresentazione_ (1819), ha influenzato profondamente il pensiero di Nietzsche e Freud, tanto da essere considerata uno dei testi più importanti del romanticismo antidealistico.

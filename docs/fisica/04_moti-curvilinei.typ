@@ -40,7 +40,7 @@ $
 
 dove _ɷ_ rappresenta la velocità angolare e determina lo stretto legame tra dinamiche lineari e rotazionali nel moto circolare uniforme.
 
-#note(bottom)[== *🧩* La velocità angolare <senza_numero>
+#boxfl(bottom)[== *🧩* La velocità angolare <senza_numero>
 
 Nel caso in cui un punto P si muova lungo una circonferenza con moto uniforme alla velocità v, questo implica che percorre archi uguali in tempi uguali. In altre parole, il rapporto tra la lunghezza _l_ dell'arco e il tempo _t_ trascorso rimane costante:
 

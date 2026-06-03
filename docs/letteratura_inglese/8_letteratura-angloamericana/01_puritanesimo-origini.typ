@@ -15,7 +15,7 @@ Le relazioni di Smith rivestivano un ruolo determinante poiché delineavano i pr
 
 Nelle pagine di Smith, l'America emergeva come una società aperta. Una realtà sociale nella quale anche coloro che non appartenevano a classi elevate potevano aspirare a una vita prospera e soddisfacente.
 
-#note(bottom)[== *🧩* Il puritanesimo <senza_numero>
+#boxfl(bottom)[== *🧩* Il puritanesimo <senza_numero>
 
 Ispirato al rigorismo calvinista nato in Inghilterra tra il XVI e il XVII secolo all'interno dell'anglicanesimo, il puritanesimo si fondava sull'autorità della Bibbia e sulla fede nel miracolo della conversione, operata dalla grazia divina. Questa, secondo un disegno imperscrutabile, rigenerava l'uomo, salvandolo dal peccato. Il movimento puritano non era completamente omogeneo, al suo interno si formarono tre correnti principali: il presbiterianesimo, che vedeva la Chiesa ancora guidata da un'élite ma capace di coinvolgere l'intera società, il congregazionalismo separatista e il congregazionalismo non separatista. 
 

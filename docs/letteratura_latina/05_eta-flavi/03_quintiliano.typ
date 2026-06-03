@@ -27,7 +27,7 @@ Il resto della sua produzione è andato perduto. Tra le opere non sopravvissute 
 
 Alcuni discepoli di Quintiliano pubblicarono due libri sull'arte retorica, _Ars rhetorica_, probabilmente basati su materiale didattico del maestro ma divulgati contro la sua volontà. Le declamazioni tramandate sotto il suo nome nei manoscritti sono in gran parte spurie: le 19 denominate "maggiori" risalgono al IV secolo, mentre le 145 "minori" costituiscono una selezione superstite di una raccolta originaria che ne contava ben 388, da collocarsi tra il I e il II secolo.  
 
-#note(top)[== *🧩* Riassunto della _Institutio oratoria_ <senza_numero>
+#boxfl(top)[== *🧩* Riassunto della _Institutio oratoria_ <senza_numero>
 
 Libro I: affronta l'educazione iniziale del fanciullo, raccomandando un'istruzione familiare seguita da una scuola pubblica per l'insegnamento di base.  
 

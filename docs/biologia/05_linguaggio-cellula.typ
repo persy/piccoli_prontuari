@@ -22,7 +22,7 @@ La struttura della molecola del DNA è stata chiarita nel 1953 grazie agli studi
 
 Secondo la regola dell'appaiamento delle basi, l'accoppiamento avviene esclusivamente tra basi di categorie diverse: l'adenina (base purinica) si lega alla timina (base pirimidinica) e la guanina (purinica) alla citosina (pirimidinica). Questo garantisce una lunghezza uniforme dei "gradini" e il parallelismo tra le "ringhiere". Sebbene la sequenza alternata di zucchero e gruppo fosfato sia identica in tutti gli organismi viventi, la disposizione specifica delle coppie di basi azotate (A-T e C-G) varia ed è unica per ogni specie, rappresentando la sua firma genetica.
 
-#note(bottom)[== *🧩* I geni discontinui degli eucarioti <senza_numero>
+#boxfl(bottom)[== *🧩* I geni discontinui degli eucarioti <senza_numero>
 
 Negli anni '70 del XX secolo si è scoperto che gli organismi eucarioti possiedono una quantità di DNA molto maggiore rispetto a quella strettamente necessaria per la sintesi delle proteine. I loro geni, infatti, si caratterizzano per la presenza di sequenze di nucleotidi codificanti proteine, chiamate esoni, intervallate da sequenze non codificanti, note come introni. Durante la trascrizione di un gene strutturato in questo modo, viene prodotto inizialmente un lungo filamento di mRNA, o trascritto primario, che include sia gli esoni che gli introni. In seguito, avviene un processo chiamato _splicing_, in cui gli introni vengono eliminati e le estremità degli esoni vengono unite tra loro. Solo al termine di questa fase, il mRNA maturo esce dal nucleo per essere tradotto. Questo sistema sembra rappresentare una strategia per migliorare l'efficienza e la versatilità nella produzione di proteine.]
 

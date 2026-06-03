@@ -41,7 +41,7 @@ L'Inghilterra, già invasa nel V secolo dagli Angli e dai Sassoni, venne attacca
 
 Un ulteriore esempio di espansione normanna si osserva in Oriente durante la Prima Crociata (1096). Boemondo di Taranto, figlio di Roberto il Guiscardo, conquistò Antiochia nel 1099 e vi costituì un principato normanno. Esso rimase formalmente vincolato al Regno di Gerusalemme fino al 1268.
 
-#note(top)[== *🧩* Il mondo vichingo <senza_numero>
+#boxfl(top)[== *🧩* Il mondo vichingo <senza_numero>
 
 La società vichinga era suddivisa in tre classi principali: nobili, contadini e schiavi, organizzazione che presentava analogie con il sistema feudale. Il diritto ereditario attribuiva al figlio maggiore tutte le proprietà familiari, purché risarcisse economicamente gli altri fratelli. Questi ultimi spesso intraprendevano percorsi alternativi diventando mercanti, pirati o colonizzatori di nuove terre. I contadini godevano di uno status di libertà ma erano vincolati ai signori delle terre cui prestavano lavoro in cambio di una retribuzione. La classe contadina comprendeva anche soldati, artigiani e mercanti.
 
@@ -61,7 +61,7 @@ Il Regno fu articolato in circoscrizioni amministrative denominate "giustizierat
 
 == I Mongoli
 
-#note(bottom)[== *🧩* Marco Polo <senza_numero>
+#boxfl(bottom)[== *🧩* Marco Polo <senza_numero>
 
 Marco Polo, mercante veneziano, intraprese un viaggio con il padre Niccolò e lo zio Matteo che li portò a Pechino nel 1275, come parte di una missione diplomatica inviata da Papa Gregorio IX a Kubilay Khan. Grazie alla stima del Khan, Marco fu incaricato di importanti missioni diplomatiche all'interno dell'Impero cinese e amministrò per tre anni la città di Yangchow.
 

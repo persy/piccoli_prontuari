@@ -11,7 +11,7 @@ Non tutti i minerali presenti nella crosta terrestre vengono sfruttati dall'uomo
 
 Le miniere comprendono l'insieme delle strutture destinate all'estrazione e alla separazione dei minerali dai giacimenti, siano essi situati nel sottosuolo o in superficie.
 
-#note(bottom)[== *🧩* Le miniere <senza_numero> 
+#boxfl(bottom)[== *🧩* Le miniere <senza_numero> 
 
 Prima di avviare una miniera, si procede con una fase di prospezione, un'esplorazione indiretta del sottosuolo effettuata utilizzando metodi sismici, gravimetrici, elettrici o magnetici. Questa tecnica consente di individuare i giacimenti mediante rilevazioni condotte sulla superficie o nel sottosuolo, attraverso pozzi e gallerie.
 
@@ -41,7 +41,7 @@ In funzione delle diverse fasi di consolidazione e differenziazione del magma, i
 
 === Giacimenti sedimentari
 
-#note(bottom)[== *🧩* Il petrolio <senza_numero> 
+#boxfl(bottom)[== *🧩* Il petrolio <senza_numero> 
 
 Il petrolio è una miscela multifasica di idrocarburi naturali, comprendente componenti solidi, liquidi e gassosi, e contenente piccole quantità di composti organici ossigenati, solforati e azotati. Tale risorsa assume un ruolo di primaria importanza come combustibile di origine fossile, risultando attualmente la fonte energetica più utilizzata dall'uomo. Il suo impiego non si limita alla produzione di carburanti per il trasporto e combustibili per uso energetico, ma include anche l'estrazione di derivati indispensabili per la produzione di materie plastiche e numerosi altri prodotti industriali.
 

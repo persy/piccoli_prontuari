@@ -135,7 +135,7 @@ Il clima subpolare, conosciuto anche come clima seminivale o della tundra, è ca
 
 Il clima polare, noto anche come clima nivale, domina le calotte glaciali della Groenlandia e dell'Antartide. Qui le temperature non superano mai gli 0 °C in qualsiasi periodo dell'anno, e il suolo rimane costantemente coperto da neve e ghiaccio. Le precipitazioni sono molto scarse ma si accumulano completamente, impedendo la presenza di vegetazione.
 
-#note(bottom)[== *🧩* Il clima in Italia <senza_numero>
+#boxfl(bottom)[== *🧩* Il clima in Italia <senza_numero>
 
 L'Italia si trova nella fascia dei climi mesotermici, ma la sua varietà climatica è influenzata dall'estensione latitudinale, dalla complessa conformazione orografica e dalla presenza del mare su tre lati. Questi fattori determinano una notevole diversità locale, suddivisibile in tre gruppi principali: climi montani, clima continentale e climi mediterranei, ulteriormente articolati in sottotipi.
 

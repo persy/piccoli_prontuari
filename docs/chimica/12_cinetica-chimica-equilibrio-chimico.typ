@@ -48,7 +48,7 @@ I dati sperimentali dimostrano che la velocità di una reazione chimica è influ
 - Lo stato di suddivisione dei reagenti: nelle reazioni eterogenee, dove i reagenti presentano stati fisici differenti, una maggiore suddivisione del reagente solido aumenta la superficie di contatto e quindi la velocità della reazione.  
 - La presenza di catalizzatori: alcune sostanze specifiche, chiamate catalizzatori, possono velocizzare o rallentare una reazione chimica senza subire alterazioni al termine del processo. Questo fenomeno viene definito catalisi. Queste conclusioni possono essere spiegate secondo la teoria delle collisioni.
 
-#note(bottom)[== *🧩* La catalisi e catalizzatori <senza_numero>
+#boxfl(bottom)[== *🧩* La catalisi e catalizzatori <senza_numero>
 
 La catalisi rappresenta un fenomeno chimico-fisico in cui specifiche sostanze, denominate catalizzatori, sono in grado di incrementare la velocità di una reazione chimica, pur essendo presenti in quantità estremamente ridotte. Questi agenti operano senza partecipare direttamente alla reazione e senza alterarne le condizioni termodinamiche, mantenendo invariato l'equilibrio della stessa. Questo effetto si realizza grazie alla riduzione dell'energia di attivazione necessaria per avviare il processo.
 
@@ -140,7 +140,7 @@ in cui K#sub[c] è una costante, detta costante di equilibrio.
 
 La costante di equilibrio K#sub[c] dipende esclusivamente dalla temperatura ed è descritta dalla legge dell'equilibrio chimico o legge dell'azione di massa, formulata nel 1864 dai chimici norvegesi W. Guldberg e P. Waage. Secondo questa legge, in un sistema chimico all'equilibrio e a una temperatura costante, il rapporto tra il prodotto delle concentrazioni delle sostanze formate e il prodotto delle concentrazioni dei reagenti, ciascuna elevata al proprio coefficiente stechiometrico, è una quantità costante.
 
-#note(bottom)[== *🧩* La legge dell'equilibrio nel caso di una reazione in fase gassosa <senza_numero>
+#boxfl(bottom)[== *🧩* La legge dell'equilibrio nel caso di una reazione in fase gassosa <senza_numero>
 
 Qualora i reagenti e i prodotti di una reazione chimica si trovino in fase gassosa, la costante di equilibrio (K#sub[P]) può essere espressa in relazione alle pressioni parziali dei reagenti (P#sub[A] e P#sub[B]) e dei prodotti (P#sub[C] e P#sub[D]). 
 

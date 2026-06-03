@@ -15,7 +15,7 @@ Negli organismi unicellulari la singola cellula svolge autonomamente tutte le fu
 
 Le cellule più piccole sono quelle dei batteri (1 µm), mentre le più grandi comprendono le cellule uovo di molti animali (100 µm nell'uomo) e le fibre di alcune piante. Le loro dimensioni ridotte garantiscono un rapporto ottimale con l'ambiente circostante, permettendo loro di assorbire nutrienti e eliminare sostanze di scarto con maggiore efficienza.
 
-#note(bottom)[== *🧩* La teoria cellulare <senza_numero>
+#boxfl(bottom)[== *🧩* La teoria cellulare <senza_numero>
 
 La scoperta delle cellule risale al XVII secolo, quando i primi microscopi erano ancora rudimentali. Tuttavia, ci vollero circa duecento anni per comprendere appieno la loro presenza universale in tutti gli esseri viventi. Il merito della prima osservazione di una cellula va allo scienziato inglese Robert Hooke (1635-1703), che nel 1665 identificò numerose piccole cavità vuote in una sottile sezione di sughero. Pur non intuendo il loro ruolo nell'organizzazione degli esseri viventi, Hooke diede a queste strutture il nome di "cellula". 
 

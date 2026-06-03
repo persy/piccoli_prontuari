@@ -95,7 +95,7 @@ Prendiamo come esempio il caso del cloro. Questo elemento è formato per il 75,7
 
 $ (34,9689 ⋅ 75,77 + 36,9659 ⋅ 24,23) / 100 space u = 35,45u $
 
-#note(bottom)[== *🧩* Gli isotopi <senza_numero>
+#boxfl(bottom)[== *🧩* Gli isotopi <senza_numero>
 
 Gli isotopi sono stati scoperti intorno al 1918-1919 e si riferiscono a quegli atomi che presentano identiche proprietà chimiche ma differenze nella massa. Questa variazione deriva dalla composizione interna dell'atomo. 
 

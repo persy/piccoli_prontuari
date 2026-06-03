@@ -27,7 +27,7 @@ Nel frattempo, il congresso di Verona (ottobre-dicembre 1822) pianificò la repr
 
 A livello internazionale, in Russia nel dicembre 1825 si verificarono i moti decabristi, avviati dalle società segrete, ma rapidamente repressi dal nuovo zar Nicola I (1825-1855). Diverso fu il caso della Grecia, unico paese a concludere vittoriosamente la propria insurrezione contro l'Impero Ottomano. La rivolta fu guidata dalla setta Eteria, sotto il comando di Alexandros Ypsilanti, generale di origini greche al servizio dello zar Alessandro I. Grazie al favore della popolazione e dell'interesse delle potenze europee, desiderose di indebolire la Turchia, la Grecia ottenne la libertà. Dopo anni di lotta, Russia, Inghilterra e Francia liberarono il paese nella battaglia navale di Navarino (1827) e con la Pace di Adrianopoli (1829).
 
-#note(top)[== *🧩* Le società segrete <senza_numero> 
+#boxfl(top)[== *🧩* Le società segrete <senza_numero> 
 
 Le società segrete erano organizzazioni clandestine, rigidamente strutturate e dotate di una forte gerarchia interna, che operavano per promuovere insurrezioni di stampo liberale e democratico.
 

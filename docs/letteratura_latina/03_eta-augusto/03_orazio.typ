@@ -70,7 +70,7 @@ Alcuni Epodi sono intrisi di tematiche politiche, mentre altri si concentrano su
 
 Le _Satire_ (_Saturae_), composte tra il 41 e il 30 a.C., rappresentano un momento della produzione letteraria di Orazio segnato da preoccupazioni economiche e dall'amarezza per la caduta degli ideali repubblicani dopo la battaglia di Filippi (42 a.C.). Si tratta di poesie satiriche scritte in esametri, suddivise in due libri: il primo, composto da dieci satire e dedicato a Mecenate, fu pubblicato circa tra il 35 e il 33 a.C.; il secondo, formato da otto componimenti, uscì nel 30 a.C. insieme agli _Epodi_.  
 
-#notebr[== *🧩* Riassunto delle _Satire_ <senza_numero>
+#boxbr[== *🧩* Riassunto delle _Satire_ <senza_numero>
 
 === Libro primo <senza_numero>
 
@@ -185,7 +185,7 @@ Il primo libro, formato da 20 componimenti e dedicato a Mecenate, venne pubblica
 
 Tra le opere non incluse nelle raccolte citate figura il _Carmen saeculare_, composto su incarico di Augusto nel 17 a.C. per invocare e ringraziare le divinità in occasione della celebrazione dei ludi secolari. Questo carme fu concepito per essere eseguito da due cori di 27 giovani e ragazze, simbolo di una rinnovata armonia tra sacro e umano nella glorificazione dell'età augustea.
 
-#notebr[== *🧩* Riassunto delle _Epistole_ <senza_numero>
+#boxbr[== *🧩* Riassunto delle _Epistole_ <senza_numero>
 
 === Primo libro <senza_numero>
 

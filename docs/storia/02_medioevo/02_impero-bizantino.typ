@@ -9,7 +9,7 @@ Numerosi fattori contribuirono alla longevità della civiltà bizantina, tra cui
 
 == Da Teodosio II a Giustino
 
-#note(bottom)[== *🧩* Il _Corpus luris Civilis_ <senza_numero>
+#boxfl(bottom)[== *🧩* Il _Corpus luris Civilis_ <senza_numero>
 
 La redazione del _Corpus Iuris Civilis_ rispondeva all'esigenza di mettere ordine nella vasta quantità di materiale giuridico accumulatosi nei secoli, che ormai era diventato difficile da consultare. Giustiniano ordinò di raccogliere tutte le costituzioni e i pareri giuridici ancora rilevanti, eliminando quelli considerati superati o inutili.
 

@@ -411,7 +411,7 @@ La classificazione dei Cordati si basa sulla localizzazione della notocorda. Gli
 )  
 )
 
-#note(bottom)[== *🧩* Altri _phyla_ di animali <senza_numero>
+#boxfl(bottom)[== *🧩* Altri _phyla_ di animali <senza_numero>
 
 Gli Gnatostomulidi (_phylum_ Gnathostomulida) sono animali di piccole dimensioni (0,5-3 mm), con corpo cilindrico e vermiforme rivestito di ciglia. La loro bocca è situata sulla parte ventrale. Questi organismi ermafroditi vivono principalmente nei fondali sabbiosi e fangosi.
 

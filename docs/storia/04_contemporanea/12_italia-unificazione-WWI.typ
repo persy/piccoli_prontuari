@@ -15,7 +15,7 @@ La morte di Cavour, avvenuta il 6 giugno 1861, segnò l'inizio dell'età della D
 
 Nonostante ciò, quando nel 1876 la Destra lasciò il potere, aveva gettato le basi per lo sviluppo nazionale futuro. La rete ferroviaria ormai collegava tutto il paese (8.100 km), il bilancio statale era stato risanato e il Regno d'Italia disponeva finalmente di un sistema amministrativo, doganale, legislativo e finanziario unificato. Inoltre, il processo di unificazione territoriale si era concluso con successo.
 
-#note(top)[== *🧩* La questione meridionale <senza_numero>
+#boxfl(top)[== *🧩* La questione meridionale <senza_numero>
 
 Fin dall'unificazione nazionale, la cosiddetta questione meridionale si è imposta agli statisti italiani con tutta la sua complessità e gravità.
 

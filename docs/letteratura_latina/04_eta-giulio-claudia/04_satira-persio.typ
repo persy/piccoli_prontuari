@@ -15,7 +15,7 @@ Pur non avendo pubblicato alcuna opera durante la sua vita, fu Cesio Basso a cur
 
 Le Satire riflettono pienamente la dottrina stoica di Persio: in esse condanna i vizi umani quali superstizione, ipocrisia, avarizia, inerzia e schiavitù alle passioni. La sua scrittura è permeata dal senso del dovere e da un ideale intransigente di una vita irreprensibile basata su alte norme morali. Pur ispirandosi ad Orazio nella scelta dei temi trattati, Persio si distingue per il suo rigore inflessibile, lontano dall'indulgenza e dalla cordialità del maestro. Si rivela più moralista che poeta, giudicando la società da un punto di vista distante e privilegiato, con un pessimismo marcato.  
 
-#notebr[== *🧩* Riassunto delle _Satire_ <senza_numero>
+#boxbr[== *🧩* Riassunto delle _Satire_ <senza_numero>
 
 Satira I: in forma di dialogo tra il poeta e un suo amico, si condanna il comportamento corrotto dei poetastri dell'epoca che, per ottenere applausi e ricchezze durante le declamazioni pubbliche, ricorrono a mezzi discutibili.
 

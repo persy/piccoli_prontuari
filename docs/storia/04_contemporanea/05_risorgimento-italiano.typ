@@ -31,7 +31,7 @@ Nel 1837 fu costretto a trasferirsi in Inghilterra dopo essere stato colpito da 
 
 Nel giugno 1844, alcuni suoi sostenitori, i fratelli Attilio ed Emilio Bandiera, organizzarono autonomamente, andando contro il parere del loro leader, un tentativo di sbarco in Calabria, confidando nell'appoggio dei contadini locali. Tuttavia, la popolazione rurale, ancora scarsamente preparata all'insurrezione, rimase indifferente; i rivoluzionari furono abbandonati al loro destino, arrestati e fucilati dalla polizia borbonica insieme ad altri sette compagni.
 
-#note(top)[== *🧩* La "tempesta del dubbio" <senza_numero>
+#boxfl(top)[== *🧩* La "tempesta del dubbio" <senza_numero>
 
 Dopo il fallimento dei piani insurrezionali del 1833 e del 1834, Giuseppe Mazzini attraversò una profonda crisi personale conosciuta come "tempesta del dubbio". Nei suoi scritti di quel periodo traspare tutta la disperazione per le vite sacrificate nella lotta, molte delle quali appartenevano a veri amici, tra cui Jacopo Ruffini.
 

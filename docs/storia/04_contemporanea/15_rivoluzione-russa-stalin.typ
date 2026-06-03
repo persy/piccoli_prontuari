@@ -39,7 +39,7 @@ Nel marzo 1919, Lenin promosse la creazione della III Internazionale, con l'obie
 
 == Da Lenin a Stalin
 
-#note(bottom)[== *🧩* Il regime staliniano <senza_numero>
+#boxfl(bottom)[== *🧩* Il regime staliniano <senza_numero>
 
 Tra il 1923 e il 1929, Stalin impiegò metodi al limite della legalità per consolidare il potere nelle proprie mani. Tuttavia, dopo il successo dei suoi piani quinquennali e l'acquisizione del sostegno di milioni di comunisti sovietici che lo consideravano un "capo infallibile", avviò una strategia del terrore per eliminare i suoi oppositori politici.
 

@@ -39,7 +39,7 @@ Augusto si presentò come il restauratore dell'antico ordine e dei tradizionali 
 
 La restaurazione religiosa si manifestò non solo con il recupero dei culti arcaici – Augusto fece restaurare templi ormai decaduti e riorganizzò i collegi sacerdotali, dei quali egli stesso entrò a far parte – ma anche con l'emergere di un culto rivolto alla sua figura. Quest'ultimo, nato spontaneamente in Oriente, trovò una sua espressione in Occidente e in Italia nell'associazione con la dea Roma. Il nuovo assetto politico e sociale garantì una generale ripresa della vita civile e dell'economia: vennero restaurati edifici antichi e costruiti nuovi complessi architettonici per abbellire Roma. Tra le opere principali si annoverano templi, basiliche, piazze e portici come il Pantheon, il teatro di Marcello e l'Ara Pacis.
 
-#note(top)[== *🧩* _Intellighenzia_ e potere <senza_numero>
+#boxfl(top)[== *🧩* _Intellighenzia_ e potere <senza_numero>
 
 Augusto comprese l'importanza di trasmettere un'immagine positiva del proprio governo e fece leva sulla collaborazione con gli intellettuali dell'epoca. Attorno a Mecenate, figura ricca e colta, nonché amico fidato del principe, si riunirono i migliori artisti e letterati, sostenuti anche economicamente. 
 

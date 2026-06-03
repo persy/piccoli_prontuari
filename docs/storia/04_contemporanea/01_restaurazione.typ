@@ -9,7 +9,7 @@ Concluso il Congresso, i regnanti assoluti sottoscrissero la Santa Alleanza e la
 
 == La situazione europea nel 1815
 
-#note(bottom)[== *🧩* La cultura della Restaurazione <senza_numero>
+#boxfl(bottom)[== *🧩* La cultura della Restaurazione <senza_numero>
 
 Nel primo Ottocento si sviluppò in Europa una nuova corrente culturale, spesso in forte contrasto con i principi razionalisti del secolo precedente. Questa corrente influenzò ambiti quali la poesia, le arti figurative, il pensiero filosofico e quello politico, e viene generalmente identificata con il termine romanticismo.
 
@@ -63,7 +63,7 @@ Nel Regno di Napoli fu restaurato Ferdinando IV di Borbone, che assunse il titol
 
 Infine, Vittorio Emanuele I di Savoia (1802-1821), re del Regno di Sardegna recentemente reintegrato nei suoi storici domini, riuscì ad annettere la Repubblica di Genova completando così la sua espansione territoriale.
 
-#note(bottom)[== *🧩* La Santa Alleanza <senza_numero>
+#boxfl(bottom)[== *🧩* La Santa Alleanza <senza_numero>
 
 Il 26 settembre 1815, su iniziativa dello zar Alessandro I Romanov, Russia, Austria e Prussia stipularono un trattato che rispondeva alle nuove esigenze cooperative delle principali potenze europee. Lo zar stesso redasse personalmente il testo, impregnandolo di un forte simbolismo mistico e denominandolo Santa Alleanza.
 

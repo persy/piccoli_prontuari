@@ -47,7 +47,7 @@ In politica interna, Caterina II abbracciò i principi illuministi. Si impegnò 
 
 Nonostante queste riforme illuministiche, permanevano gravi squilibri sociali. Lo sviluppo manifatturiero e industriale del paese si basava sullo sfruttamento indiscriminato delle masse servili. Questo clima di ingiustizia sociale portò alla rivolta contadina guidata dal cosacco Pugačëv, soffocata nel sangue e conclusa con la sua esecuzione nel 1757.
 
-#note(top)[== *🧩* La seconda Guerra del Nord (1700-21) <senza_numero>
+#boxfl(top)[== *🧩* La seconda Guerra del Nord (1700-21) <senza_numero>
 
 Danimarca, Polonia, Sassonia e Russia si coalizzarono contro l'espansionismo svedese sotto Carlo XII, sostenuto da Inghilterra e Olanda. Una prima vittoria svedese a Narva nel novembre 1700 costrinse temporaneamente i russi a ritirarsi. Successivamente, Carlo XII si scontrò con Augusto II, costringendolo ad abdicare al trono di Polonia in favore di Stanislao Leszczyński.
 

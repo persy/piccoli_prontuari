@@ -37,7 +37,7 @@ Le sue condizioni di salute peggiorarono rapidamente e nel 1637 diventò cieco; 
 
 Il _Dialogo sopra i due massimi sistemi del mondo_ rimane una delle opere più significative della letteratura italiana, sia per la rilevanza tematica che per l'innovazione stilistica. In essa si configura una prosa scientifica rigorosa, chiara e precisa, capace di esprimere concetti complessi senza ambiguità. Galileo impiega terminologie provenienti dalla lingua comune, conferendo loro un definitivo valore tecnico-scientifico. Questa eloquenza si arricchisce di un uso sapiente dell'ironia che dona leggerezza alla trattazione e riflette una raffinatezza intellettuale comparabile a quella del poeta Ludovico Ariosto, che Galileo considerava il suo autore preferito.
 
-#note(bottom)[== *🧩* La prosa scientifica <senza_numero>
+#boxfl(bottom)[== *🧩* La prosa scientifica <senza_numero>
 
 La prosa scientifica in Italia trovò un significativo impulso grazie a Galileo Galilei e ai suoi più stretti collaboratori, come Vincenzo Viviani (1622-1703). Da loro prese forma una vera e propria scuola di scienziati che, spesso riuniti in accademie, perpetuarono il metodo d'indagine scientifica e la libertà intellettuale promossa dal grande maestro. Tra i centri di studio più importanti spicca l'Accademia del Cimento, istituita da Leopoldo, fratello del granduca di Toscana Ferdinando II. 
 

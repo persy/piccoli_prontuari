@@ -13,7 +13,7 @@ La biosfera mantiene un equilibrio stazionario grazie alla sua capacità di auto
 
 Gli ecosistemi terrestri presentano una straordinaria varietà, ma al tempo stesso condividono elementi comuni. Tali somiglianze derivano dall'influenza di specifici fattori fisico-climatici ambientali, tra cui la disponibilità di nutrienti, energia, acqua e la temperatura media. L'effetto di questi fattori determina la suddivisione degli ecosistemi in grandi raggruppamenti omogenei, conosciuti come biomi, che costituiscono il primo livello organizzativo della biosfera.
 
-#note(bottom)[== *🧩* La fitogeografia e la zoogeografia <senza_numero>
+#boxfl(bottom)[== *🧩* La fitogeografia e la zoogeografia <senza_numero>
 
 La fitogeografia, nota anche come geografia botanica, geobotanica o biogeografia vegetale, indaga sulla distribuzione delle piante sul pianeta. Tale distribuzione dipende fortemente dalle caratteristiche climatiche, con le aree climatiche che generalmente corrispondono alle zone di diffusione della vegetazione predominante. Sulla base di questa analisi, la Terra viene distinta in sei principali regioni fitogeografiche:
 - La regione oloartica comprende l'intero continente europeo, l'Asia centrosettentrionale, la Groenlandia e parte del Nord America. Al suo interno si trovano biomi quali la tundra, le foreste di conifere e le foreste di latifoglie; nelle aree meridionali è presente una fascia subtropicale caratterizzata dalla macchia mediterranea tipica delle zone costiere.

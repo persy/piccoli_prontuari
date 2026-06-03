@@ -47,7 +47,7 @@ I _lahar_ sono colate di fango che si formano quando i materiali piroclastici ve
 
 Infine, i materiali aeriformi includono diverse sostanze contenute nel magma che si liberano quando la pressione diminuisce nel corso dell'eruzione. Tra questi troviamo vapore acqueo (il più abbondante), diossido di carbonio, monossido di carbonio, idrogeno, diossido di zolfo, triossido di zolfo, cloro, azoto e vari gas rari. Gli studiosi concordano sul fatto che le emissioni gassose vulcaniche abbiano avuto un ruolo essenziale nella formazione dell'atmosfera terrestre e continuino tuttora a influenzare il clima globale.
 
-#note(top)[== *🧩* I tipi di lava <senza_numero>
+#boxfl(top)[== *🧩* I tipi di lava <senza_numero>
 
 Dopo l'emissione dai vulcani, le colate laviche si solidificano dando origine a conformazioni distintive, influenzate sia dalle modalità di raffreddamento sia dalla composizione chimico-fisica delle lave. Queste conformazioni permettono di classificare le lave in diversi gruppi, tra cui troviamo le lave a cuscino, le lave pahoehoe e le lave aa.
 
@@ -69,7 +69,7 @@ L'eruzione esplosiva, invece, avviene quando il magma, ricco di silice e molto v
 
 Dopo la fase più intensa dell'eruzione segue una fase di emanazione, caratterizzata dalla fuoriuscita di vapori e gas caldi dal cratere. Successivamente si entra in una fase di riposo o quiescenza, durante la quale l'attività vulcanica sembra estinguersi, anche se spesso solo temporaneamente.
 
-#note(top)[== *🧩* L'attività vulcanica sottomarina <senza_numero>
+#boxfl(top)[== *🧩* L'attività vulcanica sottomarina <senza_numero>
 
 Le dorsali oceaniche, per la loro estensione, favoriscono un'intensa attività vulcanica sottomarina. Tale attività è associata a una successione di vulcani sottomarini che contribuiscono alla formazione dei fondali oceanici, costituiti principalmente da lava solidificata e coperti da strati variabili di sedimenti.
 
@@ -147,7 +147,7 @@ Le acque sotterranee che entrano in contatto con il magma possono riscaldarsi e 
 - sorgenti termali: molto più comuni rispetto ai geyser, queste sorgenti di acque calde si trovano in quasi tutte le regioni vulcaniche. Esse sono generalmente ricche di sali minerali, da cui prendono il nome (ad esempio acque sulfuree o salso-bromo-iodiche), e vengono utilizzate a fini terapeutici. In Italia le sorgenti termali sono ampiamente diffuse e conosciute sin dall'antichità; un esempio rinomato è rappresentato dalle terme di San Calogero sull'isola di Lipari.
 
 == La distribuzione geografica dell'attività vulcanica
-#note(bottom)[== *🧩* I punti caldi <senza_numero>
+#boxfl(bottom)[== *🧩* I punti caldi <senza_numero>
 
 In alcuni casi i vulcani non si sviluppano lungo i confini delle placche tettoniche, come avviene nella maggioranza delle situazioni, bensì all'interno delle placche stesse. Questi fenomeni sono legati alla presenza di punti caldi, aree del mantello terrestre da cui risalgono "pennacchi" di magma che perforano la litosfera originando edifici vulcanici. Il movimento delle placche tettoniche provoca lo spostamento rispetto al punto caldo, determinando la formazione di numerosi vulcani allineati secondo la direzione dello spostamento. Inoltre, l'età dei vulcani aumenta progressivamente man mano che ci si allontana dal punto caldo.
 

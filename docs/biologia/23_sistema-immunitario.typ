@@ -10,7 +10,7 @@ La protezione contro microrganismi patogeni (virus, batteri, protozoi, funghi) e
 - Difese interne non specifiche, proprie dell'immunità innata, riconoscono rapidamente e neutralizzano certi microrganismi considerati estranei sin dalla nascita.  
 - Un sistema di difesa interna specifico interviene in uno stadio successivo quando l'immunità innata non è sufficiente a contrastare gli agenti infettivi. Questo meccanismo genera una risposta immunologica mirata e consente all'organismo di sviluppare una memoria immunitaria (immunità acquisita o adattativa).
 
-#note(bottom)[== *🧩* Le barriere fisiche <senza_numero>
+#boxfl(bottom)[== *🧩* Le barriere fisiche <senza_numero>
 
 La cute rappresenta una difesa essenziale contro la penetrazione di sostanze nocive e patogeni grazie a una combinazione di proprietà strutturali e funzionali. Il suo strato corneo, costituito da cellule morte ricche di cheratina, opera come uno scudo impermeabile capace di limitare l'assorbimento di acqua, molecole idrosolubili e persino enzimi secreti da alcuni batteri. Inoltre, il processo di rigenerazione delle cellule cutanee attraverso mitosi consente una rapida riparazione in caso di danno. A completare questa barriera, sebo e sudore svolgono un ruolo aggiuntivo grazie alle loro potenti proprietà battericide.
 
@@ -115,7 +115,7 @@ La vaccinazione rappresenta una strategia preventiva contro alcune patologie inf
 
 Alcune patologie insorgono a seguito di disfunzioni del sistema immunitario. Le malattie autoimmuni si verificano quando il sistema immunitario produce anticorpi che attaccano i tessuti del proprio organismo, evidenziando un'alterazione nel riconoscimento del "self". Al contrario, le malattie da immunodeficienza si manifestano quando il sistema immunitario è incapace di generare una risposta adeguata a causa del numero insufficiente di linfociti funzionali; un esempio emblematico è l'AIDS, la forma più comune di immunodeficienza.
 
-#note(top)[== *🧩* L'AIDS <senza_numero>
+#boxfl(top)[== *🧩* L'AIDS <senza_numero>
 
 L'AIDS, acronimo di sindrome da immunodeficienza acquisita, è una patologia epidemica provocata dal virus HIV (Human Immunodeficiency Virus), classificato come retrovirus per la sua capacità di integrarsi nel materiale genetico della cellula ospite. Questo patogeno attacca selettivamente i linfociti T helper e i macrofagi, entrambi fondamentali per l'attivazione della risposta immunitaria. La progressione della malattia comporta un'alterazione del sistema autoimmune: l'incapacità dell'organismo di discriminare tra antigeni estranei e self induce i linfociti T e gli anticorpi a colpire i propri tessuti. Tale reazione autoimmune, combinata con l'azione citotossica del virus, deteriora le cellule infettate e compromette l'intero sistema immunitario, conducendo a una condizione di immunodeficienza.
 

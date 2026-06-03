@@ -71,7 +71,7 @@ Nel trattato _Orator_, egli dettaglia le tre qualità fondamentali dell'oratore:
 
 Commuovere gli animi degli ascoltatori rappresenta un obiettivo fondamentale dell'arringa conclusiva, denominata _peroratio_, che costituisce il culmine del discorso oratorio. Cicerone, nel suo contributo retorico, dichiara di non aver mai trascurato alcun stratagemma per rendere persuasiva la propria arringa.
 
-#notebr[== *🧩* Riassunti delle orazioni di Cicerone <senza_numero>
+#boxbr[== *🧩* Riassunti delle orazioni di Cicerone <senza_numero>
 
 La carriera forense e politica di Marco Tullio Cicerone è scandita da una serie di orazioni emblematiche che riflettono la sua abilità retorica e il suo impegno negli ambiti del diritto privato, penale e pubblico. Queste opere non solo testimoniano il suo ruolo centrale nella vita politica e giuridica romana, ma anche la sua capacità di affrontare una grande varietà di tematiche con rigore e eloquenza.  
 
@@ -145,7 +145,7 @@ Non aderendo a un sistema filosofico specifico, Cicerone mise a confronto le var
 
 Si opponeva fermamente all'epicureismo, considerandolo pericoloso per la vita pubblica a causa del culto dell'otium e della negazione di una provvidenza storica. Nonostante questo, nutriva anche dubbi riguardo al rigorismo stoico, preferendo un approccio eclettico. Questa scelta derivava sia dalla finalità educativa delle sue opere sia da una naturale inclinazione personale.
 
-#notebr[== *🧩* Riassunti delle opere filosofiche di Cicerone <senza_numero>
+#boxbr[== *🧩* Riassunti delle opere filosofiche di Cicerone <senza_numero>
 
 Le opere filosofiche di Cicerone rappresentano un corpus significativo per comprendere il pensiero del celebre oratore e filosofo romano. 
 

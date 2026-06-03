@@ -51,7 +51,7 @@ Procedendo lungo lo spettro elettromagnetico con frequenze decrescenti si incont
 
 Tutte le onde elettromagnetiche sono generate da cariche accelerate. La lunghezza d'onda dipende dalla dimensione della sorgente emissiva: più piccolo è il dispositivo di emissione, minore sarà la lunghezza d'onda prodotta. Per questo motivo, le onde radio—che occupano la parte dello spettro caratterizzata dalle maggiori lunghezze d'onda—richiedono dispositivi elettronici e antenne di grande dimensioni per essere generate. Al contrario, radiazioni infrarosse, visibili e ultraviolette sono create all'interno di molecole e atomi, mentre le radiazioni gamma si originano nei nuclei atomici.
 
-#note(bottom)[== *🧩* La produzione di onde elettromagnetiche <senza_numero>
+#boxfl(bottom)[== *🧩* La produzione di onde elettromagnetiche <senza_numero>
 
 A causa della loro lunga lunghezza d'onda, le onde radio non vengono ostacolate nel loro percorso da oggetti di dimensioni medie, come edifici o alberi, sebbene possano essere bloccate da strutture più imponenti come montagne, che causano zone d'ombra. Esse possono propagarsi su grandi distanze grazie alla capacità di essere riflesse dagli strati ionizzati dell'atmosfera.
 
@@ -156,7 +156,7 @@ Le frequenze dedicate ai diversi servizi di radiocomunicazione sono stabilite su
 )  
 )
 
-#note(bottom)[== *🧩* L'effetto serra <senza_numero>
+#boxfl(bottom)[== *🧩* L'effetto serra <senza_numero>
 
 La Terra riceve energia dal Sole sotto forma di radiazione elettromagnetica. La superficie solare, con una temperatura di circa 6000 °C, emette radiazioni principalmente nella gamma del visibile e dell'ultravioletto.  
 

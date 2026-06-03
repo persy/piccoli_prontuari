@@ -51,7 +51,7 @@ L'opera narra il viaggio di sette giorni che Dante intraprende nei regni ultrate
 
 Non vi è dubbio che Dante abbia tratto ispirazione dalla Sacra Scrittura, dai testi della latinità classica e dalla letteratura cristiana. Spicca particolarmente, nel suo immaginario, il rapimento di San Paolo al terzo cielo descritto nella Seconda Lettera ai Corinzi (12) e la discesa agli Inferi di Enea narrata nel VI libro dell'Eneide di Virgilio. La Commedia si configura quindi come un'Eneide della modernità, un'epopea dello spirito cristiano.
 
-#note(top)[== *🧩* Il successo della _Divina Commedia_ <senza_numero>
+#boxfl(top)[== *🧩* Il successo della _Divina Commedia_ <senza_numero>
 
 La fortuna della Divina Commedia non ha seguito un percorso uniformemente lineare nel corso dei secoli. Sebbene ampiamente diffusa e commentata sin dal Trecento, a partire dal figlio di Dante, Jacopo, l'opera fu accolta con sospetto nei circoli più radicali dell'umanesimo fiorentino. Poco apprezzata nei secoli XVII e XVIII, trovò un suo interprete privilegiato in Giambattista Vico, che ne facilitò l'accoglienza nell'Europa romantica. Qui Dante venne consacrato, come osserva E. Pasquini, a figura mitologica del genio creativo e naturale, accanto a Omero e Shakespeare.
 

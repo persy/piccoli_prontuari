@@ -64,7 +64,7 @@ Successiva è la composizione degli _Annales_ (Annali), che coprono il periodo c
 
 Secondo la testimonianza di San Girolamo, _Historiae_ e _Annales_ erano originariamente costituiti da un totale di 30 libri. Tuttavia, l'esatta suddivisione rimane oggetto di dibattito. Alcuni studiosi ritengono che le _Historiae_ fossero composte da 14 libri e gli _Annales_ da 16; altri ipotizzano che fossero rispettivamente composte da 12 libri per le prime e 18 per le seconde.
 
-#note(top)[== *🧩* Riassunto delle _Storie_ <senza_numero>
+#boxfl(top)[== *🧩* Riassunto delle _Storie_ <senza_numero>
 
 Libro I: La possibilità di creare un principe anche fuori Roma suscita inquietudine e divisioni profonde nella capitale e tra gli eserciti delle province. Le legioni stanziate in Germania acclamano imperatore Vitellio, rifiutandosi di giurare fedeltà a Galba, che viene assassinato a Roma dall'insorta guarnigione, la quale proclama Otone nuovo imperatore. Otone, primo marito di Poppea, muove guerra contro Vitellio, che nel frattempo marcia dalla Germania verso l'Italia.  
 
@@ -90,7 +90,7 @@ Negli _Annali_, la visione tacitiana raggiunge un pessimismo e una tragicità as
 
 Tacito offre una complessa analisi psicologica dei personaggi attraverso lo studio dei loro comportamenti e delle situazioni in cui sono chiamati ad agire.
 
-#note(top)[== *🧩* Riassunto degli _Annali_ <senza_numero>
+#boxfl(top)[== *🧩* Riassunto degli _Annali_ <senza_numero>
 
 Libri I-VI: Vengono descritti gli eventi del regno di Tiberio (14-37 d.C.). Dopo un'introduzione sul sistema del principato sotto Augusto e sulla sua morte, Tacito racconta il graduale inasprirsi del dispotismo e del carattere sospettoso di Tiberio. Emergono i numerosi processi per lesa maestà, la scalata al potere e la caduta del ministro Seiano, gli interminabili intrighi della famiglia imperiale, nonché l'aumento della crudeltà e della dissolutezza del principe fino alla sua morte. Si narrano anche le campagne militari di Germanico in Germania, la sua morte sospettata come avvelenamento, e la lotta contro i Numidi in Africa.  
 

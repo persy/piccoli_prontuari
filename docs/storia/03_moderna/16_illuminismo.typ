@@ -43,7 +43,7 @@ La visione laica esposta in quest'opera rappresentò un pilastro per il progress
 
 == Il pensiero fisiocratico
 
-#note(top)[== *🧩* Il dispotismo illuminato <senza_numero>
+#boxfl(top)[== *🧩* Il dispotismo illuminato <senza_numero>
 
 Il dispotismo illuminato emerse dall'unione di due processi storici distinti: l'assolutismo monarchico e il pensiero illuminista. Da una parte si aveva un rafforzamento progressivo del potere centrale che sottraeva autorità ai tradizionali gruppi dirigenti, tra cui la nobiltà e il patriziato; dall'altra, si sviluppava una nuova cultura basata su valori come libertà, tolleranza, ragione, istruzione ed uguaglianza.
 

@@ -70,7 +70,7 @@ I due postulati formulati da Einstein, pur non essendo dimostrabili direttamente
 
 La relatività ristretta ha condotto anche ad altre conclusioni sorprendenti: a velocità relativistiche, ovvero comparabili con quella della luce, si osservano fenomeni quali la dilatazione del tempo, la contrazione delle lunghezze e l'incremento della massa degli oggetti.
 
-#note(top)[== *🧩* La dilatazione del tempo nel decadimento dei muoni <senza_numero>
+#boxfl(top)[== *🧩* La dilatazione del tempo nel decadimento dei muoni <senza_numero>
 
 La dilatazione temporale può essere osservata nel decadimento di particelle elementari come i muoni, che vengono generate nei grandi acceleratori di particelle. Tuttavia, questo fenomeno era già stato rilevato nel decadimento dei muoni prodotti dall'interazione dei raggi cosmici con l'atmosfera terrestre. I raggi cosmici si formano a circa 10 km di altitudine e, muovendosi a una velocità quasi pari a quella della luce, impiegano circa 3 · 10#super[-5] secondi per raggiungere la superficie terrestre.
 

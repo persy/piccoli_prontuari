@@ -83,7 +83,7 @@ L'azoto fissato viene assimilato dalle piante e incorporato in composti organici
 
 Gli animali e le piante restituiscono l'azoto all'ambiente sotto forma di sostanze azotate eliminate durante il metabolismo o attraverso la decomposizione dei loro resti dopo la morte. I batteri del suolo svolgono un ruolo fondamentale: trasformano gli scarti organici azotati in ammoniaca o ioni ammonio (ammonificazione), da cui altri batteri originano nitriti e successivamente nitrati (nitrificazione), composti nuovamente disponibili per le piante. Infine, una terza categoria di batteri converte i nitrati in azoto molecolare (denitrificazione), reimmettendolo nell'atmosfera e completando così il ciclo.
 
-#note(top)[== *🧩* Il ciclo dell'acqua <senza_numero>
+#boxfl(top)[== *🧩* Il ciclo dell'acqua <senza_numero>
 
 L'acqua riveste un ruolo cruciale nei processi biologici e ambientali poiché rappresenta il mezzo primario in cui avviene la maggior parte delle reazioni metaboliche. Inoltre, essa è essenziale per le piante, partecipando ai fenomeni di fotosintesi e facilitando il trasporto dei sali minerali dal suolo e delle sostanze organiche sintetizzate nei tessuti vegetali.
 
@@ -195,7 +195,7 @@ Se la richiesta complessiva di ossigeno supera la capacità naturale di riossige
 
 L'eutrofizzazione è causata dall'eccessiva introduzione di nutrienti come fosfati e nitrati, spesso provenienti da fertilizzanti usati in agricoltura. La proliferazione incontrollata di vegetazione sommersa associata a questo fenomeno conduce a una successiva decomposizione che consuma grandi quantità di ossigeno disciolto. Ciò può compromettere gravemente la vita e l'equilibrio degli organismi viventi in ambiente acquatico. 
 
-#note(bottom)[== *🧩* Depurazione delle acque <senza_numero>
+#boxfl(bottom)[== *🧩* Depurazione delle acque <senza_numero>
 
 I processi di depurazione delle acque si suddividono tradizionalmente in tre categorie principali: trattamenti meccanici, biologici e chimico-fisici:
 - trattamenti meccanici: questi interventi sono finalizzati alla rimozione dei materiali grossolani presenti nelle acque e si configurano come operazioni preliminari necessarie per preparare le acque ai successivi trattamenti biologici o chimico-fisici. Tra le principali tecniche adottate si annoverano: la grigliatura, mirata alla separazione dei solidi di grandi dimensioni; la dissabbiatura, che consente l'eliminazione delle sabbie; e la sedimentazione, volta alla rimozione delle particelle sospese.
@@ -240,7 +240,7 @@ Le cause dell'inquinamento del suolo trovano origine, in parte, nelle stesse fon
 
 Le conseguenze maggiormente rilevanti di tale forma di inquinamento includono, oltre al fenomeno dell'accumulo di sostanze nocive nelle catene alimentari -- come antiparassitari e tossine contenute nei fertilizzanti sotto forma di impurità quali arsenico, cadmio e piombo -- anche una significativa riduzione della fertilità del suolo e un incremento nella vulnerabilità all'erosione accelerata.
 
-#note(bottom)[== *🧩* Le catene alimentari <senza_numero>
+#boxfl(bottom)[== *🧩* Le catene alimentari <senza_numero>
 
 La catena alimentare descrive una sequenza di organismi in cui ogni livello si nutre del precedente e diventa il cibo per quello successivo. Essa collega, in ordine gerarchico, i produttori primari (piante verdi) ai consumatori, che si classificano in categorie successive: consumatori primari (erbivori che si alimentano direttamente di vegetali), consumatori secondari (carnivori che mangiano erbivori), consumatori terziari (carnivori che predano altri carnivori) e così via. 
 

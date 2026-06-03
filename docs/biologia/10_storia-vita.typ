@@ -76,7 +76,7 @@ Un cambiamento nelle caratteristiche chimiche del mare si verificò circa 590 mi
 
 Circa 500 milioni di anni fa apparvero gli ostracodermi, i primi animali dotati di un endoscheletro, ovvero una struttura interna di sostegno. Gli ostracodermi erano privi di mascelle e arti ed erano rivestiti da una corazza ossea che lasciava libera solo la coda. Da queste forme primitive si svilupparono successivamente i pesci.
 
-#note(bottom)[== *🧩* L'evoluzione prebiotica riprodotta in laboratorio <senza_numero>
+#boxfl(bottom)[== *🧩* L'evoluzione prebiotica riprodotta in laboratorio <senza_numero>
 
 Negli anni \'20 del Novecento, il biochimico russo Aleksandr Oparin (1894-1980) e il biologo inglese John Burdon Sanderson Haldane (1892-1964) elaborarono un'ipotesi secondo cui, in un'atmosfera riducente, comuni reazioni chimiche sarebbero in grado di generare molecole organiche partendo da molecole inorganiche. 
 

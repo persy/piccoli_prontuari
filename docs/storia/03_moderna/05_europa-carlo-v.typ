@@ -11,7 +11,7 @@ Come Carlo V, egli riuscì a concentrare vasti domini: la Castiglia con le colon
 
 == L'Impero di Carlo V
 
-#note(bottom)[== *🧩* L'ideale imperiale di Carlo V <senza_numero>
+#boxfl(bottom)[== *🧩* L'ideale imperiale di Carlo V <senza_numero>
 
 Carlo V, influenzato sia dalla sua formazione culturale sia dai consigli dei suoi collaboratori, tra cui Mercurino di Gattinara, perseguì l'ambizioso progetto politico di una monarchia universale. Questo disegno mirava a far rivivere l'antico universalismo del Sacro Romano Impero attraverso la _Res publica christiana_, un'Europa in cui l'imperatore sarebbe stato il leader politico e morale della Cristianità, impegnato nella lotta contro l'Islam.
 

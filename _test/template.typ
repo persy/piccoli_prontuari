@@ -1,8 +1,7 @@
-#import "@preview/chic-hdr:0.5.0": * // Intestazioni, piè pagina chic
 #import "@preview/marginalia:0.3.1" as marginalia: note, notefigure, wideblock 
 #import "config.typ": *
 // =============================================================================
-// 3. SETUP GLOBALE (Matematica, Liste, Intestazioni, Layout)
+// TEMPLATE PRINCIPALE
 // =============================================================================
 
 #let template(
@@ -15,8 +14,6 @@
   full: false,
   header: true,
   footer: true,
-  header-content: none,
-  footer-content: none,
   bib: none,
   accent: none,
   doc,
@@ -32,7 +29,6 @@
     book: true,
   )
   show figure.where(kind: "marginalia"): set text(size: 8.5pt, spacing: 0.5em)
-
 
   let titleblock(title, authors, date) = {
     text([      
@@ -51,26 +47,6 @@
     ])
   }
   
-  // Intestazione
-  let headerblock(title, authors, date, header-content) = if header and header-content != none {
-    header-content
-  } else if header {
-    set text(size: 9pt, fill: accent, weight: "bold", font: sans-fonts)    
-      set align(left)
-      if counter(page).get().first() > 2 [
-        #chic-heading-name()
-      ]
-  } else { none }
-  
-  // Piè pagina
-  let footerblock(footer-content) = if footer and footer-content != none {
-    footer-content
-  } else if footer {
-    set text(size: 9pt, fill: accent, weight: "bold", font: sans-fonts)
-      set align(right)
-      counter(page).display("1") 
-  } else { none }
-  
   set document(title: title, author: authors) if authors != none
   set document(title: title) if authors == none
 
@@ -83,25 +59,51 @@
   )
 
   // Layout pagina
-
-
-// Layout pagina
   set page(
   width: 19cm, 
   height: 26cm,
   margin: (
-  top: 1.5cm,      // Margini superiori e inferiori storici a 1.5cm
-  bottom: 1.5cm,
-  inside: 1.5cm,   // Margine interno (rilegatura) a 1.5cm
-  outside: 6.5cm,  // Margine esterno totale (sep 0.5cm + width 4.5cm + far 1.5cm)
+    top: 1.5cm,      
+    bottom: 1.5cm,
+    inside: 1.5cm,  
+    outside: 6.5cm,  
   ),
+  // Header 
+    header: context {
+      let capitoli = query(selector(heading.where(level: 1)).before(here()))
+      if capitoli.len() > 0 {
+        let cap = capitoli.last()
+        let num-capitolo = counter(heading).at(cap.location()).first()
+        let titolo-completo = [#num-capitolo. #cap.body]
+        let i = counter(page).get().first()
+        let grigio = rgb("#555555")
+        
+        let testo-allineato = if calc.odd(i) {
+          align(left, text(font: sans-fonts, fill: black.lighten(30%), size: 8.5pt, style: "italic")[#titolo-completo])
+        } else {
+          align(right, text(font: sans-fonts, fill: black.lighten(30%), size: 8.5pt, style: "italic")[#titolo-completo])
+        }
+        
+        let posizione-box = if calc.odd(i) { left } else { right }
+        
+        align(posizione-box, box(width: 11.0cm)[
+          #testo-allineato
+          #v(-5pt)
+          #line(length: 100%, stroke: 0.5pt + accent)
+        ])
+      }
+    },
 
-  header: context { headerblock(title, authors, date, header-content) },
-  footer: context { footerblock(footer-content) },
-  footer-descent: 55%,
-  )
-
+    // Footer 
+    footer: context {
+      let i = counter(page).get().first()
+      if calc.odd(i) { 
+        align(left, text(font: sans-fonts, fill: accent, size: 9pt, weight: "bold")[#i]) 
+        } else { 
+        align(right, text(font: sans-fonts, fill: accent, size: 9pt, weight: "bold")[#i]) }
+    }
   
+  )
 
   // Testo principale
   set text( 
@@ -124,14 +126,11 @@
 
   set enum(indent: 0.5em)
   set list(indent: 0.5em)
-/*show enum: set par(spacing: 1.5em)
-  show list: set par(spacing: 1.5em) */
 
   // Math
   show math.equation: set text(size: 12pt, font: math-fonts)
   
   // Punto diventa virgola nelle equazioni
-  //show math.equation: set text(font: sans-fonts) 
   set math.equation(numbering: (..n) => {
   text(font: sans-fonts, numbering("1", ..n))
   })
@@ -142,7 +141,7 @@
     number-align: end
   )
   
-  // Il tuo codice per sostituire il punto con la virgola nei decimali
+  // Punto con la virgola nei decimali
   show math.equation: it => {
     show regex("\d+\.\d+"): it => {
       show ".": "," + h(0pt)
@@ -151,22 +150,6 @@
     it
   }
   
-  // Dimensione font formule nelle note a pie pagina; non sembra funzionare
-  
-  
-
-/*   show raw.where(block: false): box.with(
-    fill: luma(95%),
-    inset: (x: 3pt, y: 0pt),
-    outset: (y: 3pt),
-    radius: 2pt,
-  )
-  show raw.where(block: true): block.with(
-    fill: luma(95%),
-    inset: 5pt,
-    radius: 4pt,
-    width: 100%,
-  ) */
 
   //Titoli
   show heading.where( level: 1 ): set text(font: title-fonts, size: 17pt, weight: "bold", style: "normal")
@@ -181,22 +164,10 @@
   show heading: set text(hyphenate: false)
   show selector(<senza_numero>): set heading(numbering: none)
 
-
-// 3. CONFIGURAZIONE GLOBALE DI MARGINALIA
-/*   show: marginalia.setup.with(
-    outer: (
-      far: 1.5cm,    
-      width: 4.5cm,  
-      sep: 0.5cm,    
-    ),
-    book: true,
-  )
-  
-  show figure.where(kind: "marginalia"): set text(size: 8.5pt, spacing: 0.5em) */
-
   // Frontespizio
   titleblock(title, authors, date)
   v(1.5em)
+  
   // Pedici e apici
   set sub(typographic: false, baseline: 0.2em)
   set super(typographic: false, baseline: -0.45em)
@@ -218,4 +189,5 @@
   set highlight(radius: 1pt, extent: .2em, fill: accent.lighten(75%))
 
   doc
+  
 }

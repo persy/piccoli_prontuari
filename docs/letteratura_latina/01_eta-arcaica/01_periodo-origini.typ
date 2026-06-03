@@ -15,7 +15,7 @@ Sempre attribuibile allo stesso periodo e altrettanto complessa da interpretare 
 
 Di più semplice comprensione è invece l'iscrizione sulla cosiddetta Cista Ficoroni, databile a un'epoca considerevolmente più recente. Questo testo, inciso su un cofanetto cilindrico in bronzo ritrovato a Preneste (l'odierna Palestrina), recita: "Dindia Malconia mi donò alla figlia; Novio Plauzio mi fece a Roma". Invece, critiche accese e dubbi persistono sull'autenticità dell'iscrizione riportata sulla Fibula Praenestina, considerata il primo documento in lingua latina giunto sino a noi. Rinvenuta anch'essa in una tomba di Preneste, si tratta di una fibbia in oro risalente al VI secolo a.C., sulla quale compaiono i nomi dell'orafo o del donatore e del destinatario: "Manio mi fece per Numerio". La scrittura segue uno schema da destra a sinistra ed è realizzata con caratteri greci, senza alcun intervallo tra le parole.  
 
-#note(top)[== *🧩* Il verso saturnio <senza_numero>
+#boxfl(top)[== *🧩* Il verso saturnio <senza_numero>
 
 Il verso saturnio, unica forma metrica impiegata nella poesia latina arcaica, deve il proprio nome al dio Saturno, il quale, secondo la tradizione mitologica, si rifugiò nel Lazio dopo essere stato scacciato dal cielo; è altresì noto come _faunio_, in onore del dio Fauno, figura autoctona e considerata l'ipotetico inventore di questo metro. Il poeta Ennio testimonia che gli antichi compositori di canti utilizzavano i saturni e che tale verso era adoperato da vati e fauni, forse facendo riferimento al suo ruolo nei canti religiosi e rurali della tradizione primitiva. 
 

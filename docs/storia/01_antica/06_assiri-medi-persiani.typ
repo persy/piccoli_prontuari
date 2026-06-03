@@ -33,7 +33,7 @@ La Persia, corrispondente all'attuale Iran, venne unificata grazie alla leadersh
 
 Nella Bibbia viene ricordato per aver liberato gli Ebrei dalla prigionia babilonese, consentendo loro di tornare nella propria terra. La sua amministrazione si distinse per la tolleranza religiosa, la clemenza verso i popoli vinti e la sua attenzione per i sudditi. Senofonte celebrò la sua figura ideale nella "Ciropedia". Il figlio Cambise proseguì la politica espansionistica conquistando l'Egitto nel 525 a.C., trasformandolo in una provincia dell'impero persiano. Dario I (522-486 a.C.), successore di Cambise, affrontò gli Sciti e i Greci, conquistò la Tracia e la Macedonia, ma subì una pesante sconfitta dai Greci nella battaglia di Maratona del 490 a.C.
 
-#note(top)[== *🧩* Dario I e le sue riforme <senza_numero>
+#boxfl(top)[== *🧩* Dario I e le sue riforme <senza_numero>
 
 Dario I è ricordato per le principali riforme che riorganizzarono l'Impero persiano. Divise il regno in venti satrapie rispettando le diversità etniche e religiose presenti sul territorio. Queste unità amministrative erano gestite da funzionari civili e militari subordinati a un segretario regio. 
 

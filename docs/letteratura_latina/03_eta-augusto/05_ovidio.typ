@@ -91,7 +91,7 @@ Le leggende all'interno delle _Metamorfosi_ sono organizzate secondo criteri geo
 
 Il tema centrale resta sempre l'amore, trasfigurato dai contesti mondani della Roma contemporanea verso i territori fantastici del mito.
 
-#note(top)[== *🧩* Riassunto delle _Metamorfosi_ <senza_numero>
+#boxfl(top)[== *🧩* Riassunto delle _Metamorfosi_ <senza_numero>
 
 Il poema si apre con un'invocazione agli dèi, affinché favoriscano l'impresa narrativa, per poi raccontare la creazione del mondo a partire dal caos primordiale. Segue la formazione della terra, degli animali e degli uomini, il racconto delle quattro età del mondo, la trasformazione di Licaone in lupo come punizione divina, il diluvio universale e la rinascita dell'umanità grazie a Deucalione e Pirra.
 

@@ -31,7 +31,7 @@ Con la Pace di Amiens (1802), la Francia ottenne dall'Inghilterra la restituzion
 
 Nel 1802 Napoleone fu proclamato console a vita e assunse la presidenza della Repubblica Italiana. Repressa l'opposizione realista, culminata nel complotto di Cadoudal (1803), fece giustiziare il duca d'Enghien (21 marzo 1804), consolidando la propria posizione politica.
 
-#note(top)[== *🧩* Napoleone e l'Italia <senza_numero>
+#boxfl(top)[== *🧩* Napoleone e l'Italia <senza_numero>
 
 Durante la prima campagna d'Italia, Napoleone dimostrò grande abilità nel utilizzare a proprio vantaggio, e a beneficio della Francia, il fervore dei patrioti italiani, desiderosi di creare nuove entità politiche influenzate dall'esempio francese. Con un'acuta strategia, cercò sempre di evitare che i giacobini italiani, democratici convinti e sostenitori dell'unità nazionale, prendessero il sopravvento. Questi erano in parte già delusi dalla cessione di Venezia all'Austria sancita con la Pace di Campoformio. Napoleone preferiva invece affidarsi al "dotto, ricco volgo", una classe sociale più moderata, meglio disposta ad adattarsi ai suoi piani e riconoscente per l'opportunità di assumere il controllo politico ed economico del nuovo assetto statale.
 

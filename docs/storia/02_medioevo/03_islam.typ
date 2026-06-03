@@ -31,7 +31,7 @@ Una volta consolidata la comunità dei credenti originari, i musulmani (muslim, 
 
 Da quel momento iniziò un processo di espansione esponenziale dell'Islam, che portò Muhammad a estendere la sua autorità su quasi tutta la penisola arabica. Poco dopo, nel 632 d.C., Muhammad morì senza aver fornito indicazioni precise sulla propria successione.
 
-#note(top)[== *🧩* La religione islamica <senza_numero>
+#boxfl(top)[== *🧩* La religione islamica <senza_numero>
 
 Nella concezione islamica, la tradizione (_ad din_) affonda le radici nell'origine stessa della Creazione, con Adamo come primo khalifa. La rivelazione coranica tramandata al Profeta Muhammad chiude il ciclo delle rivelazioni prima della seconda venuta di Cristo, riconosciuto dai musulmani come il Paraclito promesso da Gesù.
 

@@ -21,7 +21,7 @@ Nel Nord America, la divisione dei possessi coloniali era ben definita: i France
 
 == America Latina
 
-#note(top)[== *🧩* La tratta degli schiavi <senza_numero>
+#boxfl(top)[== *🧩* La tratta degli schiavi <senza_numero>
 
 Un elemento cardine nella storia delle relazioni tra Europa e Africa è costituito dalla tratta degli schiavi, fenomeno che ebbe un impatto devastante sulle civiltà africane. Esso contribuì alla disgregazione delle società locali, privando il continente delle sue componenti vitali rappresentate da giovani uomini fisicamente abili. 
 

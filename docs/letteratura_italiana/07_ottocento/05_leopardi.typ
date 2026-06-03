@@ -4,7 +4,7 @@
 #intro[Giacomo Leopardi emerge come il massimo interprete poetico dell'Ottocento e uno dei fondatori della poesia italiana moderna. La sua unicità, spiccata anche nel panorama culturale internazionale, risiede nella capacità di innovare profondamente pur rifiutando il romanticismo e puntando a una continuità con la tradizione classica. Il tutto si colloca all'interno di una visione caratterizzata dal drammatico pessimismo cosmico. Il suo classicismo, tuttavia, non ha nulla della sterile rigidità di molti neoclassici italiani. La grandezza di Leopardi si può riassumere in una formula essenziale: concepire la poesia come uno strumento elevato per indagare l'esistenza e perseguire la verità.]
 
 == I primi anni
-#note(bottom)[== *🧩* Canzone leopardiana <senza_numero> 
+#boxfl(bottom)[== *🧩* Canzone leopardiana <senza_numero> 
 
 La canzone leopardiana si caratterizza per l'adozione di un "nuovo metro", definito come "canzone libera". Questo schema si distacca dalle rigide strutture della canzone petrarchesca, permettendo una varietà nella composizione delle strofe, con una libera alternanza di endecasillabi e settenari e una distribuzione delle rime estremamente flessibile. 
 

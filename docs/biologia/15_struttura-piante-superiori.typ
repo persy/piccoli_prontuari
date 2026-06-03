@@ -83,7 +83,7 @@ Questi tessuti lavorano insieme per formare le diverse strutture, apparati e sis
 )  
 )
 
-#note(bottom)[== *🧩* La dendrocronologia <senza_numero>
+#boxfl(bottom)[== *🧩* La dendrocronologia <senza_numero>
 
 La dendrocronologia offre un contributo significativo alla datazione assoluta mediante lo studio e la quantificazione degli anelli annuali di accrescimento degli alberi. Attraverso questa disciplina è possibile ricostruire le fluttuazioni climatiche del passato e stabilire cronologie precise.
 

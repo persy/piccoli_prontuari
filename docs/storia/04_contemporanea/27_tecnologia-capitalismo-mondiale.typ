@@ -23,7 +23,7 @@ Nel corso del secolo, medicina e biologia hanno raggiunto traguardi straordinari
 
 Il risultato di tali conquiste ha permesso un significativo aumento dell'aspettativa di vita, superando la soglia dei 70 anni per gran parte della popolazione. Tuttavia, questo miglioramento riguarda principalmente i Paesi più sviluppati.
 
-#note(top)[== *🧩* Le malattie del XX secolo <senza_numero>
+#boxfl(top)[== *🧩* Le malattie del XX secolo <senza_numero>
 
 Le trasformazioni socioeconomiche dei Paesi industrializzati nel XX secolo hanno profondamente modificato il panorama delle malattie. Molte patologie, come il colera e la difterite, sono praticamente scomparse o hanno ridotto drasticamente i loro effetti. Se alla fine del XIX secolo le principali cause di morte in Italia erano legate a malattie gastroenteriche (oltre 300 decessi all'anno ogni 100.000 abitanti), bronchite (250), polmonite (230) e tubercolosi (200), cento anni dopo prevalgono invece patologie cardiocircolatorie (oltre 400) e tumori (circa 240).
 

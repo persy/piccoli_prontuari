@@ -51,7 +51,7 @@ Per combattere le eresie, la Chiesa adottò due strategie principali: la repress
 
 === Federico II
 
-#note(top)[== *🧩* Federico II e la cultura <senza_numero>
+#boxfl(top)[== *🧩* Federico II e la cultura <senza_numero>
 
 Sotto il regno di Federico II la scuola medica di Salerno fiorì ulteriormente e venne fondata l'Università di Napoli (1224), con l'obiettivo dichiarato di creare una scuola giuridica "laica" alternativa a quella bolognese e di formare funzionari capaci di gestire le strutture amministrative del Regno. Poliglotta e appassionato di cultura, Federico coltivò lo studio della filosofia, dell'astrologia, della geografia e delle scienze.
 

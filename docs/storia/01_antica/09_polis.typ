@@ -29,7 +29,7 @@ L'espressione Magna Grecia appare per la prima volta nelle opere dello storico s
 
 Risale alla prima metà dell'VIII secolo a.C. l'insediamento greco sull'isola di Ischia, che segnò l'avvio della colonizzazione greca in Italia. Successivamente, le città di nuova fondazione generarono a loro volta ulteriori insediamenti, mentre le tribù indigene venivano spesso scacciate o ridotte a forza lavoro subordinata.
 
-#note(bottom)[== *🧩* L'unità della tradizione greca <senza_numero>
+#boxfl(bottom)[== *🧩* L'unità della tradizione greca <senza_numero>
 
 Nonostante la frammentazione estrema delle _poleis_, la civiltà greca trovò un elemento di coesione nell'identità tradizionale costituita dai patrimoni mitici e religiosi tramandati nei poemi omerici e nella Teogonia di Esiodo.  
 

@@ -63,7 +63,7 @@ La superficie interna dell'intestino tenue è caratterizzata da pieghe ricoperte
 
 L'intestino crasso, invece, è composto da tre porzioni principali: cieco, colon (ascendente, trasverso e discendente) e retto. Dal cieco si estende l'appendice, un piccolo diverticolo privo di funzione digestiva. Il colon riceve i residui della digestione, prevalentemente acqua e sostanze non digerite. Qui l'acqua viene assorbita, mentre i materiali di rifiuto vengono trasformati in feci semisolide e trasportati al retto per l'espulsione attraverso l'ano.
 
-#note(bottom)[== *🧩* La digestione della cellulosa <senza_numero>
+#boxfl(bottom)[== *🧩* La digestione della cellulosa <senza_numero>
 
 La cellulosa, principale componente delle cellule vegetali, viene degradata dall'enzima cellulasi. Tuttavia, i mammiferi erbivori come ruminanti, cavalli e conigli non sono in grado di produrlo direttamente. In alternativa, essi ospitano batteri simbiotici nello stomaco o nell'intestino responsabili della digestione della cellulosa.
 

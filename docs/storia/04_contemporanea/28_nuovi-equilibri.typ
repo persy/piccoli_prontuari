@@ -25,7 +25,7 @@ Nel 1973, con il sostegno degli Stati Uniti, si verificò un colpo di Stato mili
 
 In Uruguay, con la guerriglia dei Tupamaros, così come a El Salvador e in Nicaragua, si sono susseguiti decenni di sanguinose lotte interne. Solo il Messico, pur confrontandosi con grandi difficoltà, ha mostrato una maggiore stabilità politica.
 
-#note(bottom)[== *🧩* Il postcomunismo nell'Europa dell'Est <senza_numero>
+#boxfl(bottom)[== *🧩* Il postcomunismo nell'Europa dell'Est <senza_numero>
 
 Chi immaginava che il crollo del comunismo avrebbe segnato la fine immediata delle difficoltà nei paesi satelliti e nell'ex-URSS è stato, in parte, smentito. Nonostante gli sforzi profusi per riavviare le economie duramente provate, nella maggior parte degli Stati queste hanno faticato a riprendersi negli anni immediatamente successivi alla caduta del muro di Berlino.  
 
@@ -75,7 +75,7 @@ Di fronte al mancato accordo, Slovenia e Croazia dichiararono unilateralmente l'
 
 Ne scaturì una guerra civile devastante che durò sino alla fine del 1995 e si concluse con gli Accordi di Dayton, mediati dal presidente statunitense Bill Clinton e firmati a Parigi il 14 dicembre 1995 dalle parti coinvolte. Sarajevo, capitale bosniaca, attraversò uno dei periodi più bui della sua storia, subendo un lungo e tragico assedio dalle forze serbe.
 
-#note(bottom)[== *🧩* La Cambogia <senza_numero>
+#boxfl(bottom)[== *🧩* La Cambogia <senza_numero>
 
 La Cambogia rappresenta certamente una delle aree più instabili del pianeta.  
 

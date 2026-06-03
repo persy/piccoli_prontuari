@@ -98,7 +98,7 @@ A Seneca sono attribuite con certezza nove tragedie, sebbene l'autenticità dell
 
 Le opere trattano esclusivamente temi mitologici e mancano date precise di composizione. Pertanto, si considerano tramandate nell'ordine proposto dal codice etrusco-laurenziano.
 
-#note(bottom)[== *🧩* Riassunto delle tragedie <senza_numero>
+#boxfl(bottom)[== *🧩* Riassunto delle tragedie <senza_numero>
 
 _Hercules furens_ (_La follia di Ercole_): Giunone provoca la follia di Ercole, che finisce per uccidere la moglie e i figli. Quando torna in sé, medita il suicidio, ma cambia idea e decide di recarsi ad Atene per cercare la purificazione.
 

@@ -17,7 +17,7 @@ Nel periodo arcaico, il termine latino "fabula" indicava ogni tipo di rappresent
 
 La popolarità del teatro poteva trasformarsi in uno strumento utile per rafforzare la carriera politica di chi ne curava l'organizzazione. Non era raro che alcuni magistrati decidessero di coprire personalmente i costi relativi ai _ludi scaenici_, organizzati durante le festività religiose (_feriae_). In tali circostanze, oltre agli spettacoli teatrali, si svolgevano anche competizioni sportive (_ludi circenses_) e altre forme di intrattenimento collettivo.
 
-#note(bottom)[== *🧩* I generi teatrali <senza_numero>
+#boxfl(bottom)[== *🧩* I generi teatrali <senza_numero>
 
 La palliata (_fabula palliata_) era una forma di commedia ambientata in contesti greci, il cui nome deriva dal "pallium", il mantello greco tipicamente indossato dagli attori. Questa tipologia teatrale si ispirava apertamente ai lavori degli autori della commedia nuova, come Filemone, Difilo e, soprattutto, Menandro, dai quali traeva trame, ambientazioni e personaggi, pur concedendosi notevole libertà creativa e spesso ricorrendo alla pratica della contaminatio. Introdotta da Livio Andronico e Gneo Nevio, trovò i suoi principali interpreti in Cecilio Stazio, Plauto e Terenzio. 
 

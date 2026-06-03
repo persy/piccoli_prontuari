@@ -35,7 +35,7 @@ Queste informazioni ci sono fornite principalmente dalla spettroscopia stellare.
 
 Le stelle con temperature inferiori ai 3500 °C emettono prevalentemente radiazioni rosse (classe M), attorno ai 6000 °C la luce è gialla (classi F e G), mentre le stelle con temperature superiori ai 25.000 °C generano radiazioni bianco-azzurre (classe O).
 
-#note(bottom)[== *🧩* La spettroscopia stellare  <senza_numero>
+#boxfl(bottom)[== *🧩* La spettroscopia stellare  <senza_numero>
 
 Le stelle, attraverso le loro radiazioni luminose, ci trasmettono informazioni preziose. La spettroscopia studia le proprietà della luce basate sulla sua lunghezza d'onda. Utilizzando uno strumento chiamato spettroscopio, la luce viene suddivisa nelle sue componenti cromatiche, creando uno spettro che fornisce una descrizione completa della distribuzione energetica. Quest'ultima varia dalle lunghezze d'onda più lunghe a quelle più corte, corrispondenti rispettivamente a energie basse e alte.  
 
@@ -87,7 +87,7 @@ Le stelle, osservate a occhio nudo, sembrano mantenere una posizione costante ne
 
 Oltre alla rotazione terrestre, va considerato anche il moto di rivoluzione della Terra attorno al Sole, che ha una durata di un anno e una velocità angolare di circa 1 grado al giorno. Questo moto determina uno spostamento progressivo delle costellazioni: notte dopo notte, esse sorgono, culminano e tramontano con un anticipo di circa 4 minuti rispetto alla sera precedente e a una posizione leggermente più occidentale rispetto al giorno precedente. Di conseguenza, l'osservazione da mezzanotte a mezzanotte nel corso dei mesi mostra costellazioni differenti, evidenziando la ciclicità annuale della rivoluzione terrestre.
 
-#note(bottom)[== *🧩* La parallasse  <senza_numero>
+#boxfl(bottom)[== *🧩* La parallasse  <senza_numero>
 
 La parallasse rappresenta il cambiamento apparente della posizione di una stella rispetto al suo sfondo, generato dal movimento dell'osservatore lungo l'orbita terrestre attorno al Sole. Si definisce come l'angolo formato al vertice dell'astro osservato, attraverso il quale si percepisce la linea tra due punti (Sole e Terra).  
 

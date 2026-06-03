@@ -61,7 +61,7 @@ Presso l'Ufficio Internazionale dei Pesi e delle Misure di Sèvres, in Francia, 
 
 Quando la massa viene misurata in chilogrammi (kg) e l'accelerazione in metri al secondo quadrato (m/s#super[2]), l'unità di misura della forza viene espressa in kg·m/s#super[2]. Quest'unità prende il nome di newton, con simbolo N. Una forza avrà intensità pari a 1 N quando, applicata a un corpo avente massa di 1 kg, genera un'accelerazione di 1 m/s#super[2]. Lo strumento utilizzato per misurare la forza si chiama dinamometro.
 
-#note(bottom)[== *🧩* La misura della forza: il dinamometro <senza_numero>
+#boxfl(bottom)[== *🧩* La misura della forza: il dinamometro <senza_numero>
 
 La determinazione dell'intensità di una forza viene ottenuta mediante un dispositivo chiamato dinamometro, che consente di confrontare una forza di intensità incognita con altre di intensità nota, sia attraverso un confronto diretto (come avviene, ad esempio, con una bilancia a piatti nella quale la forza peso da misurare viene messa a confronto con quella generata da pesi campione), sia attraverso metodi indiretti.  
 
@@ -73,7 +73,7 @@ Per rendere lo strumento operativo, è necessario associarlo a una scala graduat
 
 L'alterazione dell'accelerazione gravitazionale g con la posizione geografica influisce sugli allungamenti prodotti dalle masse campione, modificando le risposte della molla del dinamometro. Di conseguenza, è necessario calibrare la scala graduata applicando un fattore di correzione che tenga conto delle variazioni di latitudine e di altitudine rispetto alle condizioni originarie di taratura.]
 
-#note(bottom)[== *🧩* La costanza dell'accelerazione di gravità: il piano inclinato <senza_numero>
+#boxfl(bottom)[== *🧩* La costanza dell'accelerazione di gravità: il piano inclinato <senza_numero>
 
 La comprensione del principio secondo cui, in uno stesso luogo, diversi corpi in caduta libera si muovono tutti sotto l'azione della medesima accelerazione gravitazionale è stata il risultato di numerosi esperimenti condotti da Galileo Galilei, attraverso i quali ha dato forma a una delle sue più importanti intuizioni. Tra questi, celebre è l'esperimento che coinvolse sfere metalliche fatte rotolare su un piano inclinato.  
 
@@ -112,7 +112,7 @@ Il vettore della forza peso *P* è meglio conosciuto come forza peso o semplicem
 
 Nel Sistema Internazionale il peso si misura in newton poiché è classificato come una forza. Tuttavia, nell'uso quotidiano è ancora diffusa l'unità di misura chiamata chilogrammo-peso (simbolo kg#sub[p]), dove 1 kg#sub[p] equivale a 9,81 N.
 
-#note(bottom)[== *🧩* Differenza tra peso e massa di un oggetto <senza_numero>
+#boxfl(bottom)[== *🧩* Differenza tra peso e massa di un oggetto <senza_numero>
 
 La massa è una proprietà intrinseca e universale dei corpi, con un valore costante indipendentemente dal punto dello spazio in cui ci si trova. Il peso, invece, dipende dal valore locale dell'accelerazione di gravità.
 
