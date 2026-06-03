@@ -152,7 +152,7 @@ Questa scelta è legata al fatto che la base $e$ è considerata la base naturale
 
 Le proprietà di monotonia delle funzioni esponenziali risultano fondamentali per risolvere equazioni e disequazioni contenenti esponenziali. In particolare, se $a > 0$ con $a != 1$, per ogni coppia di numeri reali $x$ e $y$, valgono le seguenti implicazioni:
 
-$ x = y &<==> a^x = a^y \ x < y &<==> a^x < a^y, quad "se" a > 1 \ x < y &<==> a^x > a^y, quad "se" 0 < a < 1 $
+$ x = y &<==> a^x = a^y \ x < y &<==> a^x < a^y, quad "se" a > 1 \ x < y &<==> a^x > a^y, quad "se" 0 < a < 1 $ <proprieta_monotonia_esponenziali>
 
 Un confronto interessante è quello tra funzioni esponenziali con basi diverse, come mostrato in @funzioni_esponenziali.
 
@@ -203,5 +203,73 @@ Un ragionamento simile può essere applicato anche alle funzioni trigonometriche
 
 #funzioni_log2_2x
 
+//
+Le relazioni tra una funzione e la sua inversa comportano conseguenze fondamentali, come mostrano le seguenti equazioni, valide se $a > 0, a != 1$:
 
+$ log_a(a^x) = x, quad forall x in RR \  a^(log_a(x)) = x, quad forall x in RR, x > 0 \  log_a(1) = 0 \  log_a(a) = 1 $
 
+Si osservi che, nelle ultime due proprietà sopra riportate, l'ipotesi $a != 1$ è essenziale. Infatti, se $a = 1$, si avrebbe $log_1 1 = 0$ dalla terza relazione, ma anche $log_11 = 1$ dalla quarta, il che risulta logicamente contraddittorio.
+
+Le proprietà di monotonia delle funzioni logaritmiche derivano direttamente dalle analoghe proprietà delle funzioni esponenziali. Perciò, in analogia con le relazioni @proprieta_monotonia_esponenziali, se $x$ e $y$ sono numeri reali positivi, valgono le seguenti affermazioni:
+
+$ x = y <==> log_a x = log_a y \ x < y <==> log_a(x) < log_a(y), quad a > 1 \ x < y <==> log_a(x) > log_a(y), quad a < 1 $
+
+Dalle proprietà delle potenze si possono dedurre anche due importanti proprietà dei logaritmi:
+
+$ log_a (alpha * beta) = log_a alpha + log_a beta, quad alpha > 0, beta > 0 \ log_a alpha^beta = beta dot log_a alpha, quad alpha > 0 $ <proprieta_logaritmi>
+
+#grafici_proprieta_logaritmi
+
+La dimostrazione di tali proprietà risulta particolarmente intuitiva se si utilizza un approccio grafico. Analizziamo la prima proprietà attraverso la @grafico_proprieta_logaritmi1. Dal grafico, si può dedurre che, "leggendo il grafico all'inverso", otteniamo: $ x_1 = log_a alpha, quad x_2 = log_a beta, quad x_1 + x_2 = log_a (alpha dot beta) $
+
+Utilizzando la @grafico_proprieta_logaritmi1, si osserva il grafico in senso inverso e si deduce che: $ x_1 = log_a alpha, quad x_2 = beta dot x_1 = log_a (alpha^beta) $
+
+È fondamentale prestare attenzione all'uso delle proprietà @proprieta_logaritmi: per garantirne la validità devono valere le condizioni $ alpha > 0, quad beta > 0 $
+
+Tale situazione è simile a quella che si verifica per i radicali (vedi equazioni @radicali2a e @radicali2 nella @numeri_naturali_reali). Per chiarire questi aspetti consideriamo i seguenti esempi.
+
+#esempio[Verifica che:
+$ log_a ((-2)(-3)) = log_a 2 + log_a 3 $
+In generale, $log_a (alpha beta) = log_a |alpha| + log_a |beta|$, quando sia $alpha$ sia $beta$ sono negativi.][Verifica che:
+$ log_a ((-5)^2) = 2 log_a 5 $
+In generale, $log_a (x^2) = 2 log_a |x|$]
+
+Un aspetto rilevante per le applicazioni riguarda le formule di cambio base nelle potenze e nei logaritmi:
+$ a^alpha = b^(alpha log_b (a)), quad log_a b = (log_c b) / (log_c a) $
+
+Entrambe queste relazioni sono una diretta conseguenza della definizione di logaritmo. Per la prima formula si ha:
+$ b^(alpha log_b (a)) = b^(log_b (a^alpha)) = a^alpha $
+
+Per la seconda formula:
+$ a^(log_a b) = b &=> log_c (a^(log_a b)) = log_c b \
+  &=> log_a b dot log_c a = log_c b \
+  &=> log_a b = (log_c b) / (log_c a) $
+
+Da questa seconda relazione, se $c = b$, si ha:
+$ log_a b = 1 / (log_b a) $
+
+== Funzioni del tipo $f(x)^(g(x))$
+
+Consideriamo ora una funzione espressa come $f(x)^(g(x))$ e cerchiamo di trovare il suo dominio naturale. Per definizione, il dominio naturale di una funzione su variabili reali è l'insieme dei valori di $x$ per cui i calcoli necessari per definire il valore della funzione hanno senso.
+
+Indicando con $E$ il dominio dell'esponente $g(x)$, il dominio $D$ della funzione $f(x)^(g(x))$ si ottiene come unione tra i seguenti tre insiemi:
+$ D_1 &= {x | f(x) > 0} inter E \ D_2 &= {x | f(x) = 0} inter {x | g(x) > 0} \ D_3 &= {x | f(x) < 0} inter {x | g(x) in ZZ} $
+
+#esempio[La funzione $f(x) = x^x$ ha come dominio naturale: $ {x in ZZ | x < 0} union ]0, +oo[ $ <fx-gx1>][La funzione $f(x) = x^(#std.text(size: 0.6em)[$2/x$])$ ha come dominio naturale: $ RR backslash {0} $<fx-gx2>][La funzione $f(x) = x^(2x)$ ha come dominio naturale: $ {..., -3, -5/2, -2, -3/2, -1, -1/2} union ]0, +oo[ $<fx-gx3> ovvero l'insieme dei numeri reali positivi e, tra i numeri negativi, quelli per cui $2x$ è intero, cioè quelli della forma $ x = -n/2, quad n in NN, quad n >= 1 $]
+
+Si noti che le funzioni degli esempi @fx-gx2 e @fx-gx3 presentano differenze significative nei rispettivi domini naturali. Di solito, tuttavia, quando si opera con funzioni di questo tipo si accetta come dominio solo l'insieme $D_1$ degli insiemi definiti sopra. Per questi valori di $x$, e solo per essi, è possibile applicare la pratica formula:
+$ f(x)^(g(x)) = a^(g(x) dot log_a f(x)), quad "se " f(x) > 0 " e " a > 0, quad a != 1 $
+
+La rilevanza di questa formula risiede nella capacità di trasformare una funzione del tipo $f(x)^(g(x))$ in una forma esponenziale con base fissa. Scegliendo comunemente come base il numero $e$, la formula diventa:
+$ f(x)^(g(x)) = e^(g(x) dot ln f(x)), quad "se " f(x) > 0 $
+
+//
+== Equazioni e disequazioni esponenziali e logaritmiche
+
+Le equazioni esponenziali sono caratterizzate dalla presenza dell'incognita nell'esponente, mentre le equazioni logaritmiche si distinguono per l'incognita che figura come argomento dei logaritmi. La risoluzione di tali equazioni può resultar particolarmente complessa. Ad esempio, l'equazione $x + 2^x = 0$ non ammette soluzioni maggiori o uguali a zero, in quanto il primo membro rappresenta la somma di due numeri non negativi. Tuttavia, potrebbe avere soluzioni negative, dato che in tali casi il primo membro diventa una somma di un numero negativo con un altro positivo non superiore a $1$. In effetti, le proprietà della funzione indicano che l'equazione ha esattamente una soluzione compresa tra $-1$ e $0$. 
+
+Purtroppo, non esistono metodi elementari per determinarla in modo preciso, anche se sono disponibili tecniche che permettono di calcolarne un valore approssimato con un numero arbitrario di cifre decimali, un aspetto cruciale per molte applicazioni pratiche. Vista la complessità di queste tecniche, in questa sede ci limitiamo a fornire, nella @grafico_x_2_x, il grafico della funzione definita dal primo membro $f(x) = x + 2^x$, che conferma quanto affermato: il grafico interseca l'asse delle ascisse in un solo punto, $P$.
+
+#grafico_x_2_x
+
+Considerazioni analoghe valgono per le disequazioni. In questo capitolo ci occuperemo esclusivamente di alcuni casi più semplici.

@@ -405,3 +405,4 @@ cspell.json
 # Test files
 _test/
 _test/*
+/_test

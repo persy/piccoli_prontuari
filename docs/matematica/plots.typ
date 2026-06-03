@@ -4003,7 +4003,7 @@ caption: []
       circle((x_p, 0), radius: 0.02, fill: black)
       content((x_p + 0.1, 0 - 0.1), $x$, anchor: "north")
       circle((x_p2, 0), radius: 0.02, fill: black)
-      content((x_p2 + 0.1, 0 - 0.1), $2^x$, anchor: "north")
+      content((x_p2 + 0.1, 0 - 0.1), $2^y$, anchor: "north")
       circle((0, y_p), radius: 0.02, fill: black)
       content((0 - 0.25, y_p), $log_2 x$, anchor: "east")
       circle((0, y_p2), radius: 0.02, fill: black)
@@ -4041,6 +4041,227 @@ caption: []
 ]]
 ]
 
+#let grafici_proprieta_logaritmi = [#align(center)[#grid(columns: 1, row-gutter: 1em)[#figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (8, 6),
+    axis-style: "school-book",
+    x-tick-step: none,      
+    y-tick-step: none,      
+    x-min: -2.5, x-max: 3.5,
+    y-min: -.6, y-max: 4,
+    x-label: [],        
+    y-label: [],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (4.1, 4.9),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    let x_p = 1
+    let y_p = calc.pow(1.5, x_p)
+    let x_p2 = 2
+    let y_p2 = calc.pow(1.5, x_p2)
+    let x_p3 = 3
+    let y_p3 = calc.pow(1.5, x_p3)
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat)),       
+      x => calc.pow(1.5, x),
+      samples: 200
+    )
+
+
+    plot.annotate({
+      // Punto P e P_1
+      circle((x_p, y_p), radius: 0.02, fill: black)
+      content((x_p + 0.2, y_p - 0.1), [], anchor: "west")
+      circle((x_p, 0), radius: 0.02, fill: black)
+      content((x_p + 0.1, 0 - 0.1), $x_1$, anchor: "north")
+      circle((0, y_p), radius: 0.02, fill: black)
+      content((0 - 0.1, y_p), $alpha = a^(x_1)$, anchor: "east")
+
+      circle((x_p2, 0), radius: 0.02, fill: black)
+      content((x_p2 + 0.1, 0 - 0.1), $x_2$, anchor: "north")
+      circle((x_p2, y_p2), radius: 0.02, fill: black)
+      content((x_p2 + 0.2, y_p2 - 0.1), [], anchor: "west")
+      circle((0, y_p2), radius: 0.02, fill: black)
+      content((0 - 0.1, y_p2), $beta = a^(x_2)$, anchor: "east")
+
+      circle((x_p3, 0), radius: 0.02, fill: black)
+      content((x_p3 + 0.1, 0 - 0.1), $x_1 + x_2$, anchor: "north")
+      circle((x_p3, y_p3), radius: 0.02, fill: black)
+      content((x_p3 + 0.2, y_p2 - 0.1), [], anchor: "west")
+      circle((0, y_p3), radius: 0.02, fill: black)
+      content((0 + 0.1, y_p3), $alpha dot beta = a^(x_1 + x_2)$, anchor: "east")
+
+      // Linee tratteggiate verso gli assi
+      line(
+        (x_p, 0), (x_p, y_p), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (x_p, y_p), (0, y_p),  
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (x_p2, 0),  (x_p2, y_p2), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (x_p2, y_p2), (0, y_p2), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (x_p3, 0),  (x_p3, y_p3), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (x_p3, y_p3), (0, y_p3), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+
+
+    })
+    
+    }
+  )
+}),
+caption: []
+) <grafico_proprieta_logaritmi1>
+
+][#figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (8, 6),
+    axis-style: "school-book",
+    x-tick-step: none,      
+    y-tick-step: none,      
+    x-min: -2.5, x-max: 3.5,
+    y-min: -.6, y-max: 4,
+    x-label: [],        
+    y-label: [],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (4.1, 4.9),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    let x_p = 1
+    let y_p = calc.pow(1.5, x_p)
+    let x_p2 = 3
+    let y_p2 = calc.pow(1.5, x_p2)
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat)),       
+      x => calc.pow(1.5, x),
+      samples: 200
+    )
+
+
+    plot.annotate({
+      // Punto P e P_1
+      circle((x_p, y_p), radius: 0.02, fill: black)
+      content((x_p + 0.2, y_p - 0.1), [], anchor: "west")
+      circle((x_p, 0), radius: 0.02, fill: black)
+      content((x_p + 0.1, 0 - 0.1), $x_1$, anchor: "north")
+      circle((0, y_p), radius: 0.02, fill: black)
+      content((0 - 0.1, y_p), $alpha = a^(x_1)$, anchor: "east")
+
+      circle((x_p2, 0), radius: 0.02, fill: black)
+      content((x_p2 + 0.1, 0 - 0.1), $beta x_1$, anchor: "north")
+      circle((x_p2, y_p2), radius: 0.02, fill: black)
+      content((x_p2 + 0.2, y_p2 - 0.1), [], anchor: "west")
+      circle((0, y_p2), radius: 0.02, fill: black)
+      content((0 - 0.1, y_p2), $a^(beta x_1) = (a^(x_1))^beta= alpha^beta$, anchor: "east")
+
+      // Linee tratteggiate verso gli assi
+      line(
+        (x_p, 0), (x_p, y_p), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (x_p, y_p), (0, y_p),  
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (x_p2, 0),  (x_p2, y_p2), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+      line(
+        (x_p2, y_p2), (0, y_p2), 
+        stroke: (dash: "dashed", paint: accent.mat, thickness: 0.5pt), mark: (end: ")>", fill: accent.mat, scale: .75)
+      )
+
+
+    })
+    
+    }
+  )
+}),
+caption: []
+) <grafico_proprieta_logaritmi2>
+
+]]
+]
+
+#let grafico_x_2_x = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (7, 4.5),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -2.5, x-max: 2.5,
+    y-min: -.6, y-max: 4,
+    x-label: [],        
+    y-label: [],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (4.1, 4.9),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    let x_p = -.64
+    let y_p = x_p + calc.pow(2, x_p)
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat)),       
+      x => x + calc.pow(2, x),
+      samples: 200
+    )
+
+
+    plot.annotate({
+      // Punto P e P_1
+      circle((x_p, y_p), radius: 0.02, fill: black)
+      content((x_p + 0.1, y_p + 0.1), [$P$], anchor: "south-east")
+      
 
 
 
+
+    })
+    
+    }
+  )
+}),
+caption: []
+) <grafico_x_2_x>
+]

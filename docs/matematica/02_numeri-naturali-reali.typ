@@ -998,7 +998,7 @@ $
 ]
 
 Una situazione che richiede particolare attenzione è la seguente:
-$ sqrt(a b) = sqrt(|a|) dot sqrt(|b|) $
+$ sqrt(a b) = sqrt(|a|) dot sqrt(|b|) $ <radicali2a>
 
 Questa uguaglianza è valida procedendo da sinistra a destra, ma non sempre vale nel senso opposto. È importante notare che il primo membro ha significato solo quando $a$ e $b$ sono concordi, mentre il secondo membro ha senso indipendentemente dai segni di $a$ e $b$. 
 

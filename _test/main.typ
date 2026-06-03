@@ -16,6 +16,7 @@
 // Layout del template
 #show: template.with(
   title: "Biologia",
+  tufte: false
 )
 
 #pagebreak()
