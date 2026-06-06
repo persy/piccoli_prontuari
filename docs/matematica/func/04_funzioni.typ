@@ -1,0 +1,2346 @@
+#import "../../../template/_global/template.typ": *
+#import "../../../template/_global/config.typ": *
+
+#import "@preview/cetz:0.5.2"
+#import "@preview/cetz-plot:0.1.4": plot, chart, smartart
+
+//===================
+
+// Tabelle
+
+#let tabella_funzione = [#figure(
+  caption: [],  
+  table(
+    stroke: 0.5pt + accent.mat.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return accent.mat // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return accent.mat.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (2),
+  table.header[$x$][$frac(x, 2, style: "skewed")$],
+  [$1$], [$frac(1, 2, style: "skewed")$],
+  [$2$], [$frac(2, 2, style: "skewed")$],
+  [$3$], [$frac(3, 2, style: "skewed")$],
+  [$4$], [$frac(4, 2, style: "skewed")$],
+  [$5$], [$frac(5, 2, style: "skewed")$]
+)  
+) <tabella_funzione>
+]
+
+// Grafici
+
+#let diagramma_frecce = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+
+  // insiemi
+  circle((0, 0), radius: (1, 1.5), stroke: .5pt, fill: accent.mat.lighten(80%), name: "insieme_A")
+  content((-1, 1.4), [$A$])
+  circle((3, 0), radius: (1, 1.5), stroke: .5pt, fill: silver.lighten(50%), name: "insieme_B")
+  content((4, 1.4), [$B$])  
+  
+
+  // coordinate punti e etichette (y + 0.03)
+  let (x_a, y_a) = (-0.2, 1)
+  let (x_b, y_b) = (0.1, 0.5)
+  let (x_c, y_c) = (-0.1, -0.1)
+  let (x_d, y_d) = (0.1, -0.75)
+  //let (x_e, y_e) = (-0.2, -1.2)
+  let (x_f, y_f) = (3, 0.6)
+  let (x_g, y_g) = (3.2, 1)
+  let (x_h, y_h) = (3.3, -0.5)
+  let (x_i, y_i) = (2.8, -0.8)
+  let (x_j, y_j) = (2.5, 0.1)
+  
+
+  // punti primo insieme
+  circle((x_a, y_a), radius: 0.02, fill: black); content((x_a, y_a), [], name: "a")
+  content("a", $x_1$, anchor: "north-east")
+  circle((x_b, y_b), radius: 0.02, fill: black); content((x_b, y_b), [], name: "b")
+  content("b", $x_2$, anchor: "north-east")
+  circle((x_c, y_c), radius: 0.02, fill: black); content((x_c, y_c), [], name: "c")
+  content("c", $x_3$, anchor: "north-east")
+  circle((x_d, y_d), radius: 0.02, fill: black); content((x_d, y_d), [], name: "d")  
+  content("d", $x_4$, anchor: "north-east")
+
+  // punti secondo insieme
+  circle((x_f, y_f), radius: 0.02, fill: black); content((x_f, y_f), [], name: "f")
+  content("f", $y_1$, anchor: "north-west")
+  circle((x_g, y_g), radius: 0.02, fill: black); content((x_g, y_g), [], name: "g")
+  content("g", $y_2$, anchor: "north-west")
+  circle((x_h, y_h), radius: 0.02, fill: black); content((x_h, y_h), [], name: "h")
+  content("h", $y_3$, anchor: "north-west")
+  circle((x_i, y_i), radius: 0.02, fill: black); content((x_i, y_i), [], name: "i")
+  content("i", $y_4$, anchor: "north-west")
+  circle((x_j, y_j), radius: 0.02, fill: black); content((x_j, y_j), [], name: "j")
+  content("j", $y_5$, anchor: "north-west")
+
+  // relazioni
+  bezier(
+    "a.south", 
+    "f.south",  
+    (1, 1),        
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
+  )
+  bezier(
+    "b.south", 
+    "f.south",  
+    (1, 1),         
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
+  )
+  bezier(
+    "c.south", 
+    "j.south",  
+    (1, .1),         
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
+  )
+  bezier(
+    "d.south", 
+    "i.south",  
+    (1, -1),         
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
+  )
+}),
+caption: [],
+kind: "grafico",
+supplement: none,
+) <diagramma_frecce>
+]
+
+#diagramma_frecce
+
+/* #let diagramma_torta = [
+  #align(center)[
+  #figure(  
+  cetz.canvas({
+    let data = (
+      ([Pordenone], 70),
+      ([Udine], 20),
+      ([Treviso], 15),
+      ([Trieste], 10),
+      ([Gorizia], 5)
+    )
+    
+    let formatted-data = data.map(item => (
+      [#item.at(0) (#item.at(1))], 
+      item.at(1)
+    ))
+    
+    let colors = range(data.len()).map(i => {
+      accent.mat.transparentize(75% - i * 20%)
+    })
+    
+    chart.piechart(
+      formatted-data, 
+      gap: .5deg,
+      clockwise: true,
+      radius: 2.5,       
+      label-radius: 0.5,
+      value-key: 1, 
+      label-key: 0, 
+      slice-style: colors,
+      stroke: 0pt,
+       // Sposta la legenda sotto il grafico
+      legend-style: (
+        padding: 0.4,
+        stroke: 0.5pt + luma(150),
+        radius: 0.2,
+        orientation: "vertical" // Disposizione orizzontale dei componenti
+      )        
+    )
+  }), caption: [])<diagramma_torta> 
+] 
+] */
+
+#let diagramma_torta = [
+  #align(center)[
+    // Ripristinate qui le tue definizioni originali dei colori e dei dati
+    #let data = (
+      ([Pordenone], 70),
+      ([Udine], 20),
+      ([Treviso], 15),
+      ([Trieste], 10),
+      ([Gorizia], 5)
+    )
+    
+    #let colors = range(data.len()).map(i => {
+      accent.mat.transparentize(75% - i * 20%)
+    })
+
+    #figure(  
+      stack(
+        spacing: 1em,
+        // 1. Il grafico a torta pulito con i TUOI colori
+        cetz.canvas({
+          let formatted-data = data.map(item => (
+            [#item.at(0) (#item.at(1))], 
+            item.at(1)
+          ))
+          
+          chart.piechart(
+            formatted-data, 
+            clockwise: true,
+            stroke: 0pt,
+            radius: 2.3,       
+            value-key: 1, 
+            label-key: none, // Rimuove le etichette sulle fette
+            slice-style: colors, // Applica i tuoi colori originali
+          )
+        }),
+        
+        // 2. La legenda in basso stilizzata che usa dinamicamente i tuoi colori
+        block(
+          //stroke: 0.5pt + luma(200),
+          inset: 12pt,
+          //radius: 6pt,
+          //fill: luma(252),
+          grid(
+            columns: data.len(), // Una colonna per ogni elemento
+            gutter: 15pt,
+            align: horizon,
+            ..range(data.len()).map(i => {
+              let item = data.at(i)
+              let color = colors.at(i)
+              stack(
+                dir: ltr,
+                spacing: 6pt,
+                box(fill: color, width: 9pt, height: 9pt, stroke: 0.5pt + luma(150)),
+                text(size: 9pt, weight: "medium", [#item.at(0) (#item.at(1))])
+              )
+            })
+          )
+        )
+      ),
+      caption: []
+    )<diagramma_torta> 
+  ]
+]
+
+#let diagramma_colonne = [
+#align(center)[
+  #figure(
+    cetz.canvas({
+      let data = (
+        ([Pordenone], 70),
+        ([Udine], 20),
+        ([Treviso], 15),
+        ([Trieste], 10),
+        ([Gorizia], 5)
+      )
+      
+      let get-color(i) = accent.mat.transparentize(85% - i * 15%)
+      
+      // Rimuove le etichette dall'asse X mappandole come blocco vuoto []
+      let data-senza-etichette = data.map(item => ([], item.at(1)))
+      
+      chart.columnchart(
+        data-senza-etichette,
+        size: (10, 6),        
+        y-max: 80,        
+        y-format: plot.formats.decimal.with(suffix: "%"),
+        y-tick-step: 25,  
+              
+        x-grid: false, // Disattiva la griglia verticale
+        //y-grid: false, // Disattiva la griglia orizzontale (il tratteggio di sfondo)
+        bar-style: i => (fill: get-color(i), stroke: 0pt),
+      )
+    }), 
+    caption: []
+  ) <diagramma_colonne> 
+]
+]
+
+#let grafico_cartesiano_punti = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+
+  plot.plot(
+    size: (8, 6),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1/2,      
+    minor-tick-step: 1/4,
+    x-min: -.3, x-max: 5,
+    y-min: -.3, y-max: 3,  
+    
+    {
+      let points = ((1, 0.5), (2, 1), (3, 1.5), (4, 2), (5, 2.5))
+
+      plot.add(points, style: (stroke: none), mark: "o", mark-size: .2em, mark-style: (fill: accent.mat, stroke: accent.mat))
+
+      plot.annotate({        
+        content((1, 0.5), [$A$], anchor: "north", padding: 0)
+        content((2, 1), [$B$], anchor: "north", padding: 0)
+        content((3, 1.5), [$C$], anchor: "north", padding: 0)
+        content((4, 2), [$D$], anchor: "north", padding: 0)
+        content((5, 2.5), [$E$], anchor: "north", padding: 0)     
+      })
+    }
+  )
+}),
+caption: []
+) <grafico_cartesiano_punti>
+]
+
+#let grafico_cartesiano_frecce = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+
+    plot.plot(
+      size: (8, 6),
+      axis-style: "school-book",
+      x-tick-step: 1,      
+      y-tick-step: 0.5,      
+      x-min: 0, x-max: 5.5, 
+      y-min: 0, y-max: 3,      
+      {
+        let points = ((1, 0.5), (2, 1), (3, 1.5), (4, 2), (5, 2.5))
+        
+        // Linee di proiezione
+        plot.annotate({
+          for (x, y) in points {
+            // Linea verticale
+            line((x, 0), (x, y), stroke: (paint: accent.mat.lighten(20%), thickness: 0.2pt), mark: (end: ")>", scale: .5), fill: accent.mat.lighten(20%), thickness: 0.1pt)
+            // Linea orizzontale
+            line((x, y), (0, y), stroke: (paint: accent.mat.lighten(20%), thickness: 0.2pt), mark: (end: ")>", scale: .5), fill: accent.mat.lighten(20%), thickness: 0.1pt)
+          }
+        })
+        
+        // Punti
+        plot.add(points, style: (stroke: none), mark: "o", mark-size: .2em, mark-style: (fill: accent.mat, stroke: accent.mat))
+
+        // Etichette
+        plot.annotate({        
+        content((1, 0.5), [$A$], anchor: "north", padding: 0)
+        content((2, 1), [$B$], anchor: "north", padding: 0)
+        content((3, 1.5), [$C$], anchor: "north", padding: 0)
+        content((4, 2), [$D$], anchor: "north", padding: 0)
+        content((5, 2.5), [$E$], anchor: "north", padding: 0)     
+        })
+      }
+    )
+  }),
+  caption: []
+) <grafico_cartesiano_frecce>
+]
+
+#let grafico_cartesiano_retta = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+
+    plot.plot(
+      size: (8, 6),
+      axis-style: "left",
+      x-tick-step: 1,      
+      y-tick-step: 0.5,      
+      x-min: 0, x-max: 5.5, 
+      y-min: 0, y-max: 3,      
+      {
+        
+        // Retta
+        plot.add(
+        domain: (-3, 5),        
+        style: (stroke: accent.mat, thickness: 0.5pt),        
+        x => x/2
+      )
+
+      }
+    )
+  }),
+  caption: []
+) <grafico_cartesiano_retta>
+]
+
+#let grafico_cartesiano_retta_punti = context [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+      set-style(tick: (
+      stroke: 0.5pt + black, // Stile dei trattini dei tick
+      length: 0.1,        // Lunghezza dei trattini (number)
+      label: (
+        offset: 0.2,      // Distanza dei numeri dall'asse (number)
+        angle: 0deg       // Rotazione dei numeri dell'asse (angle)
+      )
+    ),)
+    
+
+    plot.plot(
+      
+      size: (8, 6),
+      axis-style: "school-book",
+      x-tick-step: 1,      
+      y-tick-step: 0.5,      
+      x-min: 0, x-max: 5.5,        
+      y-min: 0, y-max: 3, 
+      {
+        let points = ((1, 0.5), (2, 1), (3, 1.5), (4, 2), (5, 2.5))
+        
+        // Retta
+        plot.add(
+        domain: (-3, 5),        
+        style: (stroke: accent.mat, thickness: 0.5pt),        
+        x => x/2
+      )
+
+        // Punti
+        plot.add(points, style: (stroke: none), mark: "o", mark-size: .2em, mark-style: (fill: accent.mat, stroke: accent.mat))
+
+        // Etichette
+        plot.annotate({        
+        content((1, 0.5), [$A$], anchor: "north", padding: 0)
+        content((2, 1), [$B$], anchor: "north", padding: 0)
+        content((3, 1.5), [$C$], anchor: "north", padding: 0)
+        content((4, 2), [$D$], anchor: "north", padding: 0)
+        content((5, 2.5), [$E$], anchor: "north", padding: 0)     
+      })
+      }
+    )
+  }),
+  caption: []
+) <grafico_cartesiano_retta_punti>
+]
+
+#let griglia_grafici_deformazioni = [
+  #grid(columns: 2, column-gutter: 2em, row-gutter: 2em)[#figure(
+  cetz.canvas({
+    import cetz.draw: *
+
+    plot.plot(
+      size: (5, 2.5),
+      axis-style: "school-book",
+      x-tick-step: 1,      
+      y-tick-step: 1,      
+      x-min: -2, x-max: 2, 
+      y-min: -1, y-max: 1,      
+      {
+        
+      // Circonferenza
+      plot.add(
+      domain: (-6, 6),        
+      style: (stroke: accent.mat, thickness: 0.5pt),        
+      x => (calc.cos(x), calc.sin(x))
+      )
+
+      }
+    )
+  }),
+  caption: []
+) <grafico_cartesiano_circonferenza1>][
+#figure(
+  cetz.canvas({
+    import cetz.draw: *
+
+    plot.plot(
+      size: (5, 2.5),
+      axis-style: "school-book",
+      x-tick-step: .5,      
+      y-tick-step: 1,      
+      x-min: -1, x-max: 1, 
+      y-min: -1, y-max: 1,      
+      {
+        
+      // Circonferenza
+      plot.add(
+      domain: (-3, 5),        
+      style: (stroke: accent.mat, thickness: 0.5pt),        
+      x => (calc.cos(x), calc.sin(x))
+      )
+
+      }
+    )
+  }),
+  caption: []
+) <grafico_cartesiano_circonferenza2>][
+#figure(
+  cetz.canvas({
+    import cetz.draw: *
+
+    plot.plot(
+      size: (5, 2.5),
+      axis-style: "school-book",
+      x-tick-step: 1,      
+      y-tick-step: 1,      
+      x-min: -2, x-max: 2, 
+      y-min: -1, y-max: 1,      
+      {
+        
+      // Retta
+      plot.add(
+      domain: (-3, 5),        
+      style: (stroke: accent.mat, thickness: 0.5pt),        
+      x => x/2
+      )
+
+      }
+    )
+  }),
+  caption: []
+) <grafico_cartesiano_bisettrice1>][#figure(
+  cetz.canvas({
+    import cetz.draw: *
+
+    plot.plot(
+      size: (5, 2.5),
+      axis-style: "school-book",
+      x-tick-step: .5,      
+      y-tick-step: 1,      
+      x-min: -1, x-max: 1, 
+      y-min: -1, y-max: 1,      
+      {
+        
+      // Retta
+      plot.add(
+      domain: (-3, 5),        
+      style: (stroke: accent.mat, thickness: 0.5pt),        
+      x => x/2
+      )
+
+      }
+    )
+  }),
+  caption: []
+) <grafico_cartesiano_bisettrice2>]
+]
+
+#let grafico_cartesiano_non_funzione = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+
+    plot.plot(
+      size: (10, 5),
+      axis-style: "school-book",
+      x-tick-step: none,      
+      y-tick-step: none,      
+      x-min: -.5, x-max: 4, 
+      y-min: -1, y-max: 4,      
+      {
+        // Retta verticale
+        plot.add(
+          style: (stroke: accent.mat.lighten(50%), thickness: 0.5pt),
+          ((1, -2), (1, 4)) 
+        )
+
+        // Proiezioni
+        plot.add(
+          style: (stroke: (dash: "dashed", paint: accent.mat.lighten(10%), thickness: 0.5pt)),
+          ((1, .69), (0, .69)) 
+        )
+
+        plot.add(
+          style: (stroke: (dash: "dashed", paint: accent.mat.lighten(20%), thickness: 0.5pt)),
+          ((1, 3.07), (0, 3.07)) 
+        )
+
+        // Curva quadratica calcolata per punti
+        let p0 = (4, 2)  // Inizio
+        let p1 = (-3.0, -2.0)  // Controllo
+        let p2 = (3, 6) // Fine
+        
+        let punti-bezier = ()
+        for i in range(0, 21) {
+          let t = i / 20
+          let x = (1 - t)*(1 - t)*p0.at(0) + 2*(1 - t)*t*p1.at(0) + t*t*p2.at(0)
+          let y = (1 - t)*(1 - t)*p0.at(1) + 2*(1 - t)*t*p1.at(1) + t*t*p2.at(1)
+          punti-bezier.push((x, y))
+        }
+
+        plot.add(
+          style: (stroke: (paint: accent.mat.lighten(5%), thickness: 1pt)),
+          punti-bezier
+        )
+
+        plot.annotate({        
+        content((0, 0.5), [$y_1$], anchor: "north-east")
+        content((0, 3), [$y_2$], anchor: "north-east")
+        content((1, 0), [$x$], anchor: "south-west")
+    
+        })
+
+      }
+    )
+  }),
+  caption: []
+) <grafico_cartesiano_non_funzione>
+]
+
+#let grafico_dominio_immagine = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+
+    plot.plot(
+      size: (8, 5),
+      axis-style: "school-book",
+      x-tick-step: 1,      
+      y-tick-step: 1,      
+      x-min: -2.2, x-max: 4.2, 
+      y-min: -4.2, y-max: 2.2,      
+      {
+        
+      // Retta
+      plot.add(
+      domain: (-3, 5),        
+      style: (stroke: (accent.mat.lighten(50%)), thickness: 0.5pt),        
+      x => 3 / 13 * calc.pow(x, 3) - 27 / 26 * calc.pow(x, 2) + 2
+      )
+
+      // Dominio e codominio
+      plot.add(
+          style: (stroke: (accent.mat.lighten(10%)), thickness: 1pt),
+          ((0, 2), (0, -4)) 
+      )
+
+      plot.add(
+          style: (stroke: accent.mat.lighten(10%), thickness: 1pt),
+          ((-2, 0), (4, 0)) 
+      )
+
+      // Proiezioni
+      plot.add(
+          style: (stroke: (dash: "dashed", paint: accent.mat.lighten(20%), thickness: 0.5pt)),
+          ((-2, 2), (4, 2)) 
+      )
+      plot.add(
+          style: (stroke: (dash: "dashed", paint: accent.mat.lighten(20%), thickness: 0.5pt)),
+          ((-2, -4), (4, -4)) 
+      )
+      plot.add(
+          style: (stroke: (dash: "dotted", paint: accent.mat.lighten(20%), thickness: 0.5pt)),
+          ((-2, 2), (-2, -4)) 
+      )
+      plot.add(
+          style: (stroke: (dash: "dotted", paint: accent.mat.lighten(20%), thickness: 0.5pt)),
+          ((4, 2), (4, -4)) 
+      )
+
+      }
+    )
+  }),
+  caption: []
+) <grafico_dominio_immagine>
+]
+
+#let input_output1 = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+smartart.process.chevron(
+    ([Input], [#text(fill: white.darken(10%))[$x^3 - x$]], [Output]),
+    spacing: 0.3,
+    start-cap: "",
+    middle-cap: ">", 
+    end-cap: "", 
+    step-style: (accent.mat.lighten(90%), black.lighten(20%), accent.mat.lighten(50%))
+  )
+    
+  }),
+  caption: []
+) <input_output1>
+]
+
+#let input_output2 = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+smartart.process.chevron(
+    ([$5$], [#text(fill: white.darken(10%))[$x^3 - x$]], [$120$]),
+    spacing: 0.3,
+    start-cap: "",
+    middle-cap: ">", 
+    end-cap: "", 
+    step-style: (accent.mat.lighten(90%), black.lighten(20%), accent.mat.lighten(50%))
+  )
+    
+  }),
+  caption: []
+) <input_output2>
+]
+
+#let funzione_iniettiva = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+
+      plot.plot(
+        size: (8, 5),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1,      
+        x-min: -4.5, x-max: 4.5, 
+        y-min: -2, y-max: 2,      
+        {
+        // Curva
+        plot.add(
+          domain: (-4.5, 4.5),        
+          style: (stroke: (paint: accent.mat)),        
+          x => calc.atan(x).rad()
+        )
+
+        // Retta r_1
+        plot.add(
+          style: (stroke: (dash: "dashed", paint: accent.mat.lighten(40%), thickness: 0.5pt)),
+          ((-4.5, calc.pi / 2), (4.5, calc.pi / 2)) 
+        )
+        
+        // Retta r_2
+        plot.add(
+          style: (stroke: (dash: "dashed", paint: accent.mat.lighten(40%), thickness: 0.5pt)),
+          ((-4.5, .5), (4.5, .5)), 
+        )
+
+        // Etichette
+        plot.annotate({ 
+        content((-4, (calc.pi / 2 + .1)), $r_1$, anchor: "north")
+        content((-4, .6), $r_2$, anchor: "north")
+        })
+        }
+      )
+      
+      
+    }),
+    caption: []
+  ) <funzione_iniettiva>
+]
+
+#let funzione_suriettiva = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+
+    plot.plot(
+      size: (8, 5),
+      axis-style: "school-book",
+      x-tick-step: 1,      
+      y-tick-step: 1,      
+      x-min: -2.2, x-max: 2.2, 
+      y-min: -1, y-max: 2.2,      
+      {
+        
+      // Curva
+      plot.add(
+      domain: (-3, 5),        
+      style: (stroke: (accent.mat)),        
+      x => calc.pow(x, 3) - 2 * calc.pow(x, 2) + 2
+      )
+
+
+      // Retta r_1
+      plot.add(
+        style: (stroke: (dash: "dashed", paint: accent.mat.lighten(40%), thickness: 0.5pt)),
+        ((-4.5, calc.pi / 2), (4.5, calc.pi / 2)) 
+      )
+      
+      // Retta r_2
+      plot.add(
+        style: (stroke: (dash: "dashed", paint: accent.mat.lighten(40%), thickness: 0.5pt)),
+        ((-4.5, .5), (4.5, .5)), 
+      )
+
+      // Etichette
+      plot.annotate({ 
+      content((-2 + .1, 1.6), $r_1$, anchor: "north")
+      content((-2 + .1, .6), $r_2$, anchor: "north")
+      })
+
+      }
+    )
+  }),
+  caption: []
+) <funzione_suriettiva>
+]
+
+#let funzione_biiettiva = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+
+    plot.plot(
+      size: (8, 5),
+      axis-style: "school-book",
+      x-tick-step: 1,      
+      y-tick-step: 1,      
+      x-min: -2.2, x-max: 2.2, 
+      y-min: -.5, y-max: 2.2,      
+      {
+        
+      // Curva
+      plot.add(
+      domain: (-3, 5),        
+      style: (stroke: (accent.mat)),        
+      x => 1 * calc.pow(x, 3)  + 1
+      )
+
+
+      // Retta r_1
+      plot.add(
+        style: (stroke: (dash: "dashed", paint: accent.mat.lighten(40%), thickness: 0.5pt)),
+        ((-4.5, calc.pi / 2), (4.5, calc.pi / 2)) 
+      )
+      
+      // Retta r_2
+      plot.add(
+        style: (stroke: (dash: "dashed", paint: accent.mat.lighten(40%), thickness: 0.5pt)),
+        ((-4.5, .5), (4.5, .5)), 
+      )
+
+      // Etichette
+      plot.annotate({ 
+      content((-2 + .1, 1.6), $r_1$, anchor: "north")
+      content((-2 + .1, .6), $r_2$, anchor: "north")
+      })
+
+      }
+    )
+  }),
+  caption: []
+) <funzione_biiettiva>
+]
+
+#let grafici_restrizione_dominio = [#align(center)[#grid(columns: 2, gutter: 1.5em, align: horizon + center)[
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+
+    plot.plot(
+      size: (5, 5),
+      axis-style: "school-book",
+      x-tick-step: 1,      
+      y-tick-step: 1,      
+      x-min: -1.5, x-max: 1.5, 
+      y-min: -.3, y-max: 2.2,      
+      {
+        
+      // Curva
+      plot.add(
+      domain: (-2, 2),        
+      style: (stroke: (accent.mat)),        
+      x => calc.pow(x, 2)
+      )
+      }
+    )
+  }),
+  caption: []
+) <grafico_restrizione_dominio1>
+  ][
+    #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+    plot.plot(
+      size: (5, 5),
+      axis-style: "school-book",
+      x-tick-step: 1,      
+      y-tick-step: 1,      
+      x-min: -1.5, x-max: 1.5, 
+      y-min: -.3, y-max: 2.2,      
+      {
+        
+      // Curva
+      plot.add(
+      domain: (0, 2),        
+      style: (stroke: (accent.mat)),        
+      x => calc.pow(x, 2)
+      )
+      }
+    )
+  }),
+  caption: []
+) <grafico_restrizione_dominio2>
+  ]]
+]
+
+#let composizione_funzione = [
+  #figure(
+cetz.canvas({
+  import cetz.draw: *
+
+  // insiemi
+  circle((0, 0), radius: (1, 1.5), stroke: .5pt, fill: accent.mat.lighten(60%), name: "insieme_A")
+  content((-1, 1.4), [$A$])
+  circle((3, 0), radius: (1, 1.5), stroke: .5pt, fill: accent.mat.lighten(75%), name: "insieme_B")
+  content((2.1, 1.4), [$C$])
+  circle((3, 0), radius: (0.6, 0.8), stroke:(paint: accent.mat, dash: "dashed", thickness: .5pt), fill: accent.mat.lighten(75%), name: "insieme_B")
+  content((3.8, .8), [$g(A)$])
+  circle((6, 0), radius: (1, 1.5), stroke: .5pt, fill: accent.mat.lighten(85%), name: "insieme_B")
+  content((6.9, 1.4), [$D$])
+
+  // coordinate punti e etichette (y + 0.03)
+  let (x_a, y_a) = (-0.2, 1)
+  let (x_b, y_b) = (0.1, 0.5)
+  let (x_c, y_c) = (-0.1, -0.1)
+  let (x_d, y_d) = (0.1, -0.75)
+  let (x_e, y_e) = (-0.2, -1.2)
+
+  let (x_f, y_f) = (3, 0.6)
+  let (x_g, y_g) = (2.7, 0)
+  let (x_h, y_h) = (3.1, -0.5)
+  let (x_i, y_i) = (2.7, -1)
+  let (x_j, y_j) = (3.3, 0.1)
+  let (x_k, y_k) = (3.3, -0.9)
+  let (x_m, y_m) = (3.1, -1.2)
+  let (x_n, y_n) = (3.1, 1.1)
+
+  let (x_o, y_o) = (5.8, 1)
+  let (x_p, y_p) = (6.0, .5)
+  let (x_q, y_q) = (6.1, -.3)
+  let (x_r, y_r) = (5.7, -.7)
+  let (x_s, y_s) = (6.2, -1.1)
+  // punti primo insieme
+  circle((x_a, y_a), radius: 0.02, fill: black); content((x_a, y_a), [$x_1$], name: "a", anchor: "south")
+  circle((x_b, y_b), radius: 0.02, fill: black); content((x_b, y_b), [$x_2$], name: "b", anchor: "south")
+  circle((x_c, y_c), radius: 0.02, fill: black); content((x_c, y_c), [$x_3$], name: "c", anchor: "south")
+  circle((x_d, y_d), radius: 0.02, fill: black); content((x_d, y_d), [$x_4$], name: "d", anchor: "south")
+  circle((x_e, y_e), radius: 0.02, fill: black); content((x_e, y_e), [$x_5$], name: "e", anchor: "south")
+
+  // punti secondo insieme
+  circle((x_f, y_f), radius: 0.02, fill: black); content((x_f, y_f), [], name: "f")
+  circle((x_g, y_g), radius: 0.02, fill: black); content((x_g, y_g), [], name: "g")
+  circle((x_h, y_h), radius: 0.02, fill: black); content((x_h, y_h), [$g(x_3)$], name: "h", anchor: "south")
+  circle((x_i, y_i), radius: 0.02, fill: black); content((x_i, y_i), [], name: "i")
+  circle((x_j, y_j), radius: 0.02, fill: black); content((x_j, y_j), [], name: "j")
+  circle((x_k, y_k), radius: 0.02, fill: black); content((x_k, y_k), [], name: "k")
+  circle((x_m, y_m), radius: 0.02, fill: black); content((x_m, y_m), [], name: "m")
+  circle((x_n, y_n), radius: 0.02, fill: black); content((x_n, y_n), [], name: "m")
+
+  // punti terzo insieme
+  circle((x_o, y_o), radius: 0.02, fill: black); content((x_o, y_o), [], name: "o")
+  circle((x_p, y_p), radius: 0.02, fill: black); content((x_p, y_p), [], name: "p")
+  circle((x_q, y_q), radius: 0.02, fill: black); content((x_q, y_q), [$f(g(x_3))$], name: "q", anchor: "south")
+  circle((x_r, y_r), radius: 0.02, fill: black); content((x_r, y_r), [], name: "r")
+  circle((x_s, y_s), radius: 0.02, fill: black); content((x_s, y_s), [], name: "s")
+    
+
+  // relazioni
+  bezier(
+    "c.south", 
+    "h.south",  
+    (1, 1),         
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
+  )
+  bezier(
+    "h.south", 
+    "q.south",  
+    (5, 1),         
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
+  )
+  
+}),
+caption: []
+) <composizione_funzione>
+]
+
+#let input_output3 = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+  smartart.process.chevron(
+    ([4], [#text(fill: white.darken(10%))[$x^2 + 20$]], [36], [#text(fill: white.darken(10%))[$sqrt(x)$]], [6]),
+    spacing: 0.3,
+    start-cap: "",
+    middle-cap: ">", 
+    end-cap: "", 
+    step-style: (accent.mat.lighten(80%), black.lighten(20%), accent.mat.lighten(65%), black.lighten(20%), accent.mat.lighten(40%))
+  ) 
+  }),
+  caption: []
+) <input_output3>
+]
+
+#let input_output4 = [
+  #figure(
+  cetz.canvas({
+    import cetz.draw: *
+    
+smartart.process.chevron(
+    ([4], [#text(fill: white.darken(10%))[$sqrt(x)$]], [2], [#text(fill: white.darken(10%))[$x^2 + 20$]], [24]),
+    spacing: 0.3,
+    start-cap: "",
+    middle-cap: ">", 
+    end-cap: "", 
+    step-style: (accent.mat.lighten(80%), black.lighten(20%), accent.mat.lighten(70%), black.lighten(20%), accent.mat.lighten(40%))
+  ) 
+  }),
+  caption: []
+) <input_output4>
+]
+
+#let funzione_biunivoca = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+
+      // insiemi
+      circle((0, 0), radius: (1, 1.5), stroke: .5pt, fill: accent.mat.lighten(80%), name: "insieme_A")
+      content((-1, 1.4), [])
+      circle((3, 0), radius: (1, 1.5), stroke: .5pt, fill: silver.lighten(50%), name: "insieme_B")
+      content((2.1, 1.4), [])  
+
+      // coordinate punti
+      let (x_a, y_a) = (-0.1, 0.9)
+      let (x_b, y_b) = (0.1, 0.4)
+      let (x_c, y_c) = (0.1, -0.1)
+      let (x_d, y_d) = (0.1, -0.75)
+
+      let (x_f, y_f) = (3, 0.8)
+      let (x_g, y_g) = (2.8, 0.2)
+      let (x_h, y_h) = (3, -0.4)
+      let (x_i, y_i) = (2.8, -0.9)
+
+      // punti primo insieme (etichette a sinistra del punto)
+      circle((x_a, y_a), radius: 0.02, fill: black, name: "a")
+      content("a", [$x_1$], anchor: "east", padding: 0.1)
+      
+      circle((x_b, y_b), radius: 0.02, fill: black, name: "b")
+      content("b", [$x_2$], anchor: "east", padding: 0.1)
+      
+      circle((x_c, y_c), radius: 0.02, fill: black, name: "c")
+      content("c", [$x_3$], anchor: "east", padding: 0.1)
+      
+      circle((x_d, y_d), radius: 0.02, fill: black, name: "d")
+      content("d", [$x_4$], anchor: "east", padding: 0.1)  
+
+      // punti secondo insieme (etichette a destra del punto)
+      circle((x_f, y_f), radius: 0.02, fill: black, name: "f")
+      content("f", [$y_1$], anchor: "west", padding: 0.1)
+      
+      circle((x_g, y_g), radius: 0.02, fill: black, name: "g")
+      content("g", [$y_2$], anchor: "west", padding: 0.1)
+      
+      circle((x_h, y_h), radius: 0.02, fill: black, name: "h")
+      content("h", [$y_3$], anchor: "west", padding: 0.1)
+      
+      circle((x_i, y_i), radius: 0.02, fill: black, name: "i")
+      content("i", [$y_4$], anchor: "west", padding: 0.1)  
+
+      // relazioni (aggiunto padding per non sovrapporsi ai punti)
+      bezier(
+        "a", 
+        "f",  
+        (1, 1),        
+        mark: (end: ">", fill: accent.mat),
+        stroke: (paint: accent.mat, thickness: 0.5pt), 
+        padding: 0.05,
+      )
+      bezier(
+        "b", 
+        "g",  
+        (1, 0.5),         
+        mark: (end: ">", fill: accent.mat),
+        stroke: (paint: accent.mat, thickness: 0.5pt), 
+        padding: 0.05,
+      )
+      bezier(
+        "c", 
+        "h",  
+        (1, -0.1),         
+        mark: (end: ">", fill: accent.mat),
+        stroke: (paint: accent.mat, thickness: 0.5pt), 
+        padding: 0.05,
+      )
+      bezier(
+        "d", 
+        "i",  
+        (1, -1),         
+        mark: (end: ">", fill: accent.mat),
+        stroke: (paint: accent.mat, thickness: 0.5pt), 
+        padding: 0.05,
+      )
+    }),
+    caption: []
+  ) <funzione_biunivoca>
+]
+
+#let funzione_inversa = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+
+      // insiemi
+      circle((0, 0), radius: (1, 1.5), stroke: .5pt, fill: accent.mat.lighten(80%), name: "insieme_A")
+      content((-1, 1.4), [])
+      circle((3, 0), radius: (1, 1.5), stroke: .5pt, fill: silver.lighten(50%), name: "insieme_B")
+      content((2.1, 1.4), [])  
+
+      // coordinate punti
+      let (x_a, y_a) = (-0.1, 0.9)
+      let (x_b, y_b) = (0.1, 0.4)
+      let (x_c, y_c) = (0.1, -0.1)
+      let (x_d, y_d) = (0.1, -0.75)
+
+      let (x_f, y_f) = (3, 0.8)
+      let (x_g, y_g) = (2.8, 0.2)
+      let (x_h, y_h) = (3, -0.4)
+      let (x_i, y_i) = (2.8, -0.9)
+
+      // punti primo insieme (etichette a sinistra del punto)
+      circle((x_a, y_a), radius: 0.02, fill: black, name: "a")
+      content("a", [$x_1$], anchor: "east", padding: 0.1)
+      
+      circle((x_b, y_b), radius: 0.02, fill: black, name: "b")
+      content("b", [$x_2$], anchor: "east", padding: 0.1)
+      
+      circle((x_c, y_c), radius: 0.02, fill: black, name: "c")
+      content("c", [$x_3$], anchor: "east", padding: 0.1)
+      
+      circle((x_d, y_d), radius: 0.02, fill: black, name: "d")
+      content("d", [$x_4$], anchor: "east", padding: 0.1)  
+
+      // punti secondo insieme (etichette a destra del punto)
+      circle((x_f, y_f), radius: 0.02, fill: black, name: "f")
+      content("f", [$y_1$], anchor: "west", padding: 0.1)
+      
+      circle((x_g, y_g), radius: 0.02, fill: black, name: "g")
+      content("g", [$y_2$], anchor: "west", padding: 0.1)
+      
+      circle((x_h, y_h), radius: 0.02, fill: black, name: "h")
+      content("h", [$y_3$], anchor: "west", padding: 0.1)
+      
+      circle((x_i, y_i), radius: 0.02, fill: black, name: "i")
+      content("i", [$y_4$], anchor: "west", padding: 0.1)  
+
+      // relazioni (aggiunto padding per non sovrapporsi ai punti)
+      bezier(
+        "f", 
+        "a",  
+        (1, 1),        
+        mark: (end: ">", fill: accent.mat),
+        stroke: (paint: accent.mat, thickness: 0.5pt), 
+        padding: 0.05,
+      )
+      bezier(
+        "g", 
+        "b",  
+        (1, 0.5),         
+        mark: (end: ">", fill: accent.mat),
+        stroke: (paint: accent.mat, thickness: 0.5pt), 
+        padding: 0.05,
+      )
+      bezier(
+        "h", 
+        "c",  
+        (1, -0.1),         
+        mark: (end: ">", fill: accent.mat),
+        stroke: (paint: accent.mat, thickness: 0.5pt), 
+        padding: 0.05,
+      )
+      bezier(
+        "i", 
+        "d",  
+        (1, -1),         
+        mark: (end: ">", fill: accent.mat),
+        stroke: (paint: accent.mat, thickness: 0.5pt), 
+        padding: 0.05,
+      )
+    }),
+    caption: []
+  ) <funzione_inversa>
+]
+
+#let esempio_grafico_funzione_inversa = [
+#figure(
+cetz.canvas({
+  // y = x
+  let data-line = range(-35, 46).map(i => {
+    let x = i / 10
+    (x, x)
+  })
+  
+  // f^-1
+  let data-cube = range(-20, 37).map(i => {
+    let x = i / 10
+    let y = 1 + calc.pow(x - 1, 3) / 5
+    (x, y)
+  })
+  
+  // radice cubica f 
+  let data-root = range(-35, 76).map(i => {
+    let x = i / 10
+    let dx = 5 * (x - 1)
+    let y = 1 + if dx < 0 { -calc.pow(-dx, 1/3) } else { calc.pow(dx, 1/3) }
+    (x, y)
+    
+  })
+
+  // 
+  plot.plot(
+    size: (6, 4),
+    axis-style: "left",
+    x-tick-step: none,      
+    y-tick-step: none,      
+    x-min: -1, x-max: 5,
+    y-min: -1, y-max: 4,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: "both",   
+    y-grid: "both",
+    legend: (4.3, 1.2),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+
+    {
+      plot.add(data-line, style: (stroke: (paint: accent.mat, thickness: .5pt, dash: "dotted")))
+      plot.add(data-root, style: (stroke: (paint: accent.mat.lighten(10%), thickness: 1pt)), label: $f(x)$)
+      plot.add(data-cube, style: (stroke: (paint: accent.mat.lighten(20%), thickness: 1pt, dash: "dashed")), label: $f^(-1)(x)$)
+    }
+
+  
+  
+
+  )
+
+}),
+caption: []
+) <esempio_grafico_funzione_inversa>
+]
+
+#let coefficiente_angolare = [#grid(columns: 2, gutter: 1.5em, align: horizon+ center)[#figure(
+cetz.canvas({
+  import cetz.draw: *
+  plot.plot(
+    size: (5, 5),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -1, x-max: 2,
+    y-min: -.2, y-max: 3.5,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+
+    {
+
+    plot.add(
+    domain: (-1.5, 3),        
+    style: (stroke: (accent.mat)),        
+    x => 2 * x + 1
+    )
+
+    plot.add(
+      ((0, 1), (1, 1)),
+      domain: (0, 1),        
+      style: (stroke: (paint: accent.mat.lighten(20%), thickness: 1pt, dash: "dashed")),        
+    )    
+    plot.add(
+      ((1, 1), (1, 3)),
+      domain: (0, 1),        
+      style: (stroke: (paint: accent.mat.lighten(20%), thickness: 1pt, dash: "dashed")),        
+    )
+
+    plot.annotate({
+      cetz.decorations.brace((0, 1), (1, 1),  name: "g1", outer-inset: .1, thickness: .008, amplitude: .2, flip: true, fill: accent.mat)        
+      cetz.decorations.brace((1, 1), (1, 3), name: "g2", outer-inset: .1, thickness: .005, amplitude: .2, flip: true, fill: accent.mat)
+      content("g1", [#text(fill: accent.mat)[$Delta x$]], anchor: "south", padding: .2)        
+      content("g2", [#text(fill: accent.mat)[$Delta y$]], anchor: "west", padding: .1)
+      content((0, 1), [$A$], anchor: "north-east", padding: .03)
+      content((1, 3), [$B$], anchor: "west", padding: .1)
+      
+      circle((0, 1), radius: 0.03, fill: accent.mat, stroke: none) // Vertice A
+      circle((1, 1), radius: 0.03, fill: accent.mat, stroke: none) // Angolo retto
+      circle((1, 3), radius: 0.03, fill: accent.mat, stroke: none) // Vertice B
+
+      })
+    }
+  )
+}),
+caption: []
+)
+
+][#figure(
+cetz.canvas({
+  import cetz.draw: *
+  plot.plot(
+    size: (5, 5),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -1, x-max: 1.5,
+    y-min: -2, y-max: 1.2,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+
+    {
+
+    plot.add(
+    domain: (-1.5, 3),        
+    style: (stroke: (accent.mat)),        
+    x => -2 * x + 1
+    )
+
+    plot.add(
+      ((0, 1), (1, 1)),
+      domain: (0, 1),        
+      style: (stroke: (paint: accent.mat.lighten(20%), thickness: 1pt, dash: "dashed")),        
+    ) 
+  
+    plot.add(
+      ((1, 1), (1, -1)),
+      domain: (0, 1),        
+      style: (stroke: (paint: accent.mat.lighten(20%), thickness: 1pt, dash: "dashed")),        
+    )
+
+    plot.annotate({
+      cetz.decorations.brace((0, 1), (1, 1),  name: "g1", outer-inset: .1, thickness: .008, amplitude: .2, fill: accent.mat)        
+      cetz.decorations.brace((1, 1), (1, -1), name: "g2", outer-inset: .1, thickness: .005, amplitude: .2, fill: accent.mat)
+      content("g1", [#text(fill: accent.mat)[$Delta x$]], anchor: "north", padding: .25)        
+      content((1.2, -.15), [#text(fill: accent.mat)[$Delta y$]], anchor: "north-west", padding: -1pt, frame: "rect", fill: white, stroke: none, inset: -2pt)
+      content((0, 1), [$A$], anchor: "north-east", padding: .03)
+      content((1, -1), [$B$], anchor: "west", padding: .1)
+      
+      circle((0, 1), radius: 0.03, fill: accent.mat, stroke: none) // Vertice A
+      circle((1, 1), radius: 0.03, fill: accent.mat, stroke: none) // Angolo retto
+      circle((1, -1), radius: 0.03, fill: accent.mat, stroke: none) // Vertice B
+
+      })
+    }
+  )
+}),
+caption: []
+)
+
+]<coefficiente_angolare>
+]
+
+#let funzione_valore_m = [#align(center)[#grid(columns: 3, gutter: 1em, align: horizon+ center)[#figure(
+cetz.canvas({
+  import cetz.draw: *
+  plot.plot(
+    size: (3, 3),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -1, x-max: 1,
+    y-min: -1, y-max: 1,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+
+    {
+
+    plot.add(
+    domain: (-1.5, 3),        
+    style: (stroke: (accent.mat)),        
+    x => x 
+    )
+
+    }
+  )
+}),
+caption: []
+)<funzione_valore_m>
+][#figure(
+cetz.canvas({
+  import cetz.draw: *
+  plot.plot(
+    size: (3, 3),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -1, x-max: 1,
+    y-min: -1, y-max: 1,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+
+    {
+
+    plot.add(
+    domain: (-1.5, 3),        
+    style: (stroke: (accent.mat)),        
+    x => -x 
+    )
+    
+    }
+  )
+}),
+caption: []
+)
+
+][#figure(
+cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (3, 3),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -1, x-max: 1,
+    y-min: -1, y-max: 1,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+
+    {
+
+    plot.add(
+    domain: (-1.5, 3),        
+    style: (stroke: (accent.mat)),        
+    y => .5 
+    )
+    
+    }
+  )
+}),
+caption: []
+)
+]
+]]
+
+#let funzione_polinomiale_II_grado = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (6, 3),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -1, x-max: 1,
+    y-min: -.7, y-max: 1,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+
+    {
+
+    plot.add(
+      domain: (-1.5, 3),        
+      style: (stroke: (accent.mat)),        
+      x => 2 * calc.pow(x, 2) - 1/2 * x - 1/2 
+    )
+
+    plot.add(
+      ((0.125, -2), (0.125, 2)),
+      domain: (-1, 1),        
+      style: (stroke: (paint: accent.mat.lighten(20%), thickness: 1pt, dash: "dashed")),        
+    )
+    
+    }
+  )
+}),
+caption: []
+) <funzione_polinomiale_II_grado>
+]
+
+#let funzione_valore_assoluto = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+
+  plot.plot(
+    size: (6, 3),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: 0, y-max: 3,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    
+    {
+      // 
+      plot.add(
+        domain: (0, 6),        
+        style: (stroke: accent.mat.lighten(5%), ),
+        x => x
+      )
+      //
+      plot.add(
+        domain: (-6, 0),        
+        style: (stroke: accent.mat.lighten(5%)),        
+        x => -x
+      )
+    }
+  )
+}),
+caption: []
+) <funzione_valore_assoluto_grafico>
+] 
+
+#let funzioni_pari_dispari = [
+  #align(center)[
+    #grid(columns: 2, column-gutter: 1em)[#figure(
+  cetz.canvas({
+  import cetz.draw: *
+
+  plot.plot(
+    size: (5, 4),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: -1.5, y-max: 2,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    
+    {
+      // 
+      plot.add(
+        domain: (-5, 5),        
+        style: (stroke: accent.mat.lighten(5%), ),
+        x => 1/5 * calc.pow(x, 4) - calc.pow(x, 2) - 1/5
+      )
+      
+    }
+  )
+}),
+caption: []
+) <funzione_pari>
+
+    ][#figure(
+  cetz.canvas({
+  import cetz.draw: *
+
+  plot.plot(
+    size: (5, 4),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: -1.5, y-max: 1,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    
+    {
+      // 
+      plot.add(
+        domain: (-5, 5),        
+        style: (stroke: accent.mat.lighten(5%), ),
+        x => 1/5 * calc.pow(x, 3) - x
+      )
+      //
+
+    }
+  )
+}),
+caption: []
+) <funzione_dispari>
+
+    ]
+  ] 
+]
+
+#let funzione_potenza_zero = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+
+  plot.plot(
+    size: (6, 3),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: 0, y-max: 2,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    
+    {
+      // 
+      plot.add(
+        domain: (-5, 5),        
+        style: (stroke: accent.mat.lighten(5%), ),
+        x => calc.pow(x, 0)
+      )
+      //
+
+    }
+  )
+}),
+caption: []
+) <funzione_potenza_zero>
+]
+
+#let funzione_esponente_2 = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (6, 3),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -2, x-max: 2,
+    y-min: 0, y-max: 2,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+
+    {
+
+    plot.add(
+      domain: (-1.5, 3),        
+      style: (stroke: (accent.mat)),        
+      x => 2 * calc.pow(x, 2) 
+    )
+    
+    }
+  )
+}),
+caption: []
+) <funzione_esponente_2>
+]
+
+#let funzione_esponente_-1 = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (8, 4),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 3,
+    y-min: -3, y-max: 3,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+
+    {
+
+    plot.add(
+      domain: (-3, 3),        
+      style: (stroke: (accent.mat)),        
+      x => 1 / x 
+    )
+    
+    }
+  )
+}),
+caption: []
+) <funzione_esponente_-1>
+]
+
+#let funzione_esponente_-1k = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (10, 5),
+    axis-style: "school-book",
+    x-tick-step: 2,      
+    y-tick-step: 2,      
+    x-min: -5, x-max: 5,
+    y-min: -5, y-max: 5,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (8, 4.5),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+
+    {
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (accent.mat)),        
+      label: [k = 2],
+      x => 2 / x 
+    )
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat, dash: "dotted")),        
+      label: [k = -2],
+      x => -2 / x 
+    )
+
+    plot.add(
+      ((1, 0), (1, 2)),
+      style: (stroke: (paint: accent.mat.lighten(50%))),
+    )
+    plot.add(
+      ((0, 2), (1, 2)),
+      style: (stroke: (paint: accent.mat.lighten(50%))),
+    )
+
+    plot.add(
+      ((1, 0), (1, -2)),
+      style: (stroke: (paint: accent.mat.lighten(50%), dash: "dotted")),
+    )
+    plot.add(
+      ((0, -2), (1, -2)),
+      style: (stroke: (paint: accent.mat.lighten(50%), dash: "dotted")),
+    )
+    
+    }
+  )
+}),
+caption: []
+) <funzione_esponente_-1k>
+]
+
+#let funzione_esponente_positivo = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (7, 5),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: 0, x-max: 3,
+    y-min: 0, y-max: 3,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (5, 3),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat, dash: "dotted")),        
+      label: [$x$],
+      x => x 
+    )
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat.lighten(10%))),        
+      label: [$x^2$],
+      x => calc.pow(x, 2) 
+    )
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat.lighten(45%))),        
+      label: [$x^3$],
+      x => calc.pow(x, 3) 
+    )
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat.lighten(60%))),        
+      label: [$x^7$],
+      x => calc.pow(x, 7) 
+    )
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat.lighten(85%))),        
+      label: [$x^(15)$],
+      x => calc.pow(x, 15) 
+    )
+    
+    }
+  )
+}),
+caption: []
+) <funzione_esponente_positivo>
+]
+
+#let funzione_esponente_negativo = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (7, 5),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: 0, x-max: 3,
+    y-min: 0, y-max: 3,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (5, 5),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    plot.add(
+      domain: (.1, 5),        
+      style: (stroke: (paint: accent.mat)),        
+      label: [$x^(-1)$],
+      x => calc.pow(x, -1)  
+    )
+
+    plot.add(
+      domain: (.1, 5),        
+      style: (stroke: (paint: accent.mat.lighten(10%))),        
+      label: [$x^(-2)$],
+      x => calc.pow(x, -2) 
+    )
+
+    plot.add(
+      domain: (.1, 5),        
+      style: (stroke: (paint: accent.mat.lighten(45%))),        
+      label: [$x^(-3)$],
+      x => calc.pow(x, -3) 
+    )
+
+    plot.add(
+      domain: (.1, 5),        
+      style: (stroke: (paint: accent.mat.lighten(60%))),        
+      label: [$x^(-7)$],
+      x => calc.pow(x, -7) 
+    )
+
+    plot.add(
+      domain: (.1, 5),        
+      style: (stroke: (paint: accent.mat.lighten(85%))),        
+      label: [$x^(-15)$],
+      x => calc.pow(x, -15) 
+    )
+    
+    }
+  )
+}),
+caption: []
+) <funzione_esponente_negativo>
+]
+
+#let funzione_radice = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (7, 5),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -3, x-max: 5,
+    y-min: -1.5, y-max: 2,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (.3, 5),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat)),        
+      label: [$root(2, x)$],
+      x => calc.root(x, 2)  
+    )
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat.lighten(10%))),        
+      label: [$root(3, x)$],
+      x => calc.root(x, 3)  
+    )
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat.lighten(45%))),        
+      label: [$root(5, x)$],
+      x => calc.root(x, 5)  
+    )
+
+    plot.add(
+      domain: (-5, 5),        
+      style: (stroke: (paint: accent.mat.lighten(60%))),        
+      label: [$root(7, x)$],
+      x => calc.root(x, 7)  
+    )
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat.lighten(85%))),        
+      label: [$root(10, x)$],
+      x => calc.root(x, 10)  
+    )
+    
+    }
+  )
+}),
+caption: []
+) <funzione_radice>
+]
+
+#let funzione_esponente_reale = [
+  #figure(
+  cetz.canvas({
+  import cetz.draw: *
+  
+  plot.plot(
+    size: (8, 5),
+    axis-style: "school-book",
+    x-tick-step: 1,      
+    y-tick-step: 1,      
+    x-min: -2, x-max: 5,
+    y-min: 0, y-max: 4,
+    x-label: [$x$],        
+    y-label: [$y$],    
+    x-grid: none,   
+    y-grid: none, 
+    legend: (0.2, 5),        
+    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+    legend-anchor: auto,
+
+    {
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat)),        
+      label: [$x^2$],
+      x => calc.pow(x, 2)  
+    )
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat.lighten(10%))),        
+      label: [$x^sqrt(2)$],
+      x => calc.pow(x, calc.root(2, 2))  
+    )
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat.lighten(35%))),        
+      label: [$x$],
+      x => x  
+    )
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat.lighten(45%))),        
+      label: [$x^(#std.text(size: 0.6em)[$1/sqrt(2)$])$],
+      x => calc.pow(x, 1 / calc.root(2, 2))  
+    )
+
+    plot.add(
+      domain: (0, 5),        
+      style: (stroke: (paint: accent.mat.lighten(55%))),        
+      label: [$x^(#std.text(size: 0.6em)[$1/2$])$],
+      x => calc.pow(x, 1/2)  
+    )
+
+    plot.add(
+      domain: (.1, 5),        
+      style: (stroke: (paint: accent.mat.lighten(65%))),        
+      label: [$x^(#std.text(size: 0.6em)[$-8/3$])$],
+      x => calc.pow(x, -8/3)  
+    )
+
+        plot.add(
+      domain: (.1, 5),        
+      style: (stroke: (paint: accent.mat.lighten(75%))),        
+      label: [$x^(-1)$],
+      x => calc.pow(x, -1)  
+    )
+
+    plot.add(
+      domain: (.01, 5),        
+      style: (stroke: (paint: accent.mat.lighten(85%))),        
+      label: [$x^(#std.text(size: 0.6em)[$-1/2$])$],
+      x => calc.pow(x, -1/2)  
+    )
+    
+    }
+  )
+}),
+caption: []
+) <funzione_esponente_reale>
+]
+
+#let funzione_segno = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (6, 3),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1,      
+        x-min: -2, x-max: 2,
+        y-min: -1.2, y-max: 1.2,
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: none,   
+        y-grid: none, 
+
+        {
+          plot.add(
+            domain: (-3, 0),        
+            style: (stroke: (accent.mat)),        
+            y => -1
+          )
+
+          plot.add(
+            domain: (0, 3),        
+            style: (stroke: (accent.mat)),        
+            y => 1
+          )
+
+          plot.annotate({            
+            circle((0, 0), radius: 0.03, fill: accent.mat, stroke: none)
+          })
+        }
+      )
+    }),
+    caption: []
+  ) <funzione_segno_grafico>
+]
+
+#let funzioni_floor_ceil = [#align(center)[#grid(columns: 2, column-gutter: .5em)[#figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (5, 3.5),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1,      
+        x-min: -3, x-max: 3,
+        y-min: -2, y-max: 2,
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: none,   
+        y-grid: none, 
+
+        {
+          plot.add(
+            ((0, 0), (1, 0)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((1, 1), (2, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((2, 2), (3, 2)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-1, -1), (0, -1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-2, -2), (-1, -2)),        
+            style: (stroke: (accent.mat)),        
+          )
+
+          plot.annotate({            
+            circle((0, 0), radius: 0.05, fill: accent.mat, stroke: none) 
+            circle((1, 1), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((2, 2), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-1, -1), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-2, -2), radius: 0.05, fill: accent.mat, stroke: none)
+          })
+        }
+      )
+    }),
+    caption: []
+  ) <funzione_floor>
+
+][#figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (5, 3.5),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1,      
+        x-min: -3, x-max: 3,
+        y-min: -2, y-max: 2,
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: none,   
+        y-grid: none, 
+
+        {
+          plot.add(
+            ((-1, 0), (0, 0)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((1, 1), (0, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((2, 2), (1, 2)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-1, -1), (-2, -1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-2, -2), (-3, -2)),        
+            style: (stroke: (accent.mat)),        
+          )
+
+          plot.annotate({            
+            circle((0, 0), radius: 0.05, fill: accent.mat, stroke: none) 
+            circle((1, 1), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((2, 2), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-1, -1), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-2, -2), radius: 0.05, fill: accent.mat, stroke: none)
+          })
+        }
+      )
+    }),
+    caption: []
+  ) <funzione_ceil>
+
+]]
+]
+
+#let funzione_parte_frazionaria = [#figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (8.5, 1),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1,      
+        x-min: -4.4, x-max: 4.4,
+        y-min: 0, y-max: 1,
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: none,   
+        y-grid: none, 
+
+        {
+          plot.add(
+            ((0, 0), (1, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((1, 0), (2, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((2, 0), (3, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((3, 0), (4, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((4, 0), (5, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-1, 0), (0, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-2, 0), (-1, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-3, 0), (-2, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-4, 0), (-3, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-5, 0), (-4, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          
+          plot.annotate({            
+            circle((0, 0), radius: 0.05, fill: accent.mat, stroke: none) 
+            circle((1, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((2, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((3, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((4, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-1, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-2, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-3, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-4, 0), radius: 0.05, fill: accent.mat, stroke: none)
+          })
+
+        }
+      )
+    }),
+    caption: []
+  ) <funzione_parte_frazionaria>
+
+]
+
+#let funzione_intero = [#figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (5, 3.5),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1,      
+        x-min: -3, x-max: 3,
+        y-min: -2, y-max: 2,
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: none,   
+        y-grid: none, 
+
+        {
+          plot.add(
+            ((-1, 0), (1, 0)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((1, 1), (2, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((2, 2), (3, 2)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-1, -1), (-2, -1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-2, -2), (-3, -2)),        
+            style: (stroke: (accent.mat)),        
+          )
+
+          plot.annotate({            
+            circle((0, 0), radius: 0.05, fill: accent.mat, stroke: none) 
+            circle((1, 1), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((2, 2), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-1, -1), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-2, -2), radius: 0.05, fill: accent.mat, stroke: none)
+          })
+        }
+      )
+    }),
+    caption: []
+  ) <funzione_intero>
+
+]
+
+#let funzione_parte = [#figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (8.5, 2),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1,      
+        x-min: -4.4, x-max: 4.4,
+        y-min: -1, y-max: 1,
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: none,   
+        y-grid: none, 
+
+        {
+          plot.add(
+            ((-1, -1), (1, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((1, 0), (2, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((2, 0), (3, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((3, 0), (4, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((4, 0), (5, 1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-1, 0), (-2, -1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-2, 0), (-3, -1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-3, 0), (-4, -1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          plot.add(
+            ((-4, 0), (-5, -1)),        
+            style: (stroke: (accent.mat)),        
+          )
+          
+          plot.annotate({             
+            circle((1, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((2, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((3, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((4, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-1, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-2, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-3, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-4, 0), radius: 0.05, fill: accent.mat, stroke: none)
+          })
+
+        }
+      )
+    }),
+    caption: []
+  ) <funzione_parte>
+
+]

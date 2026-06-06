@@ -1,7 +1,6 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
-#import "plots.typ": *
-#import "tables.typ": *
+#import "func/06_disequazioni.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
 #set math.equation(numbering: (..n) => {
@@ -70,7 +69,7 @@ La rappresentazione grafica delle soluzioni di una disequazione è spesso necess
 $ S = ] -infinity, -1[ union [1, 2[ union {3} union ]5, 6[ $  
 Il grafico che segue illustrerà questa rappresentazione.
 
-#grafico_disequazione1
+#tabella_ver_diseq1
 
 Questo tipo di grafico è estremamente utile per valutare rapidamente l'intersezione tra più insiemi di soluzioni, una funzione essenziale quando si tratta di risolvere sistemi di disequazioni. Inoltre, in alto a sinistra del grafico noteremo l'indicazione "V/F" (Vero/Falso), che segnala l'insieme in cui la disequazione è verificata.  
 
@@ -203,7 +202,7 @@ $ cases(
 
 Ciascuna disequazione è di facile soluzione, permettendo di costruire il seguente schema: 
 #v(4em)
-#tabella_ver_diseq1
+#tabella_ver_diseq2
 
 Il sistema risulta quindi verificato per $ x in [-2, -3/2[ $
 scritto anche: $ -2 <= x < -3/2 $]  

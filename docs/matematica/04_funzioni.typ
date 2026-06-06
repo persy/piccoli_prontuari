@@ -1,7 +1,6 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
-#import "plots.typ": *
-#import "tables.typ": *
+#import "func/04_funzioni.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
 #set math.equation(numbering: (..n) => {
@@ -25,7 +24,7 @@ Nella definizione di funzione, è importante sottolineare due proprietà fondame
 + ogni elemento dell'insieme $A$ deve corrispondere esattamente a un elemento dell'insieme $B$. Viceversa, non è necessario che ogni elemento di $B$ abbia una corrispondenza con un elemento di $A$.  
 
 L'insieme dei punti di $B$ che sono immagine di almeno un elemento di $A$ (ovvero, i valori dello spazio codominio ai quali corrisponde almeno un valore nel dominio) è un concetto cruciale, ed è definito come segue.  
-#v(3em)
+#v(4em)
 #definizione(title: "Insieme immagine", label: <insieme_immagine>)[Se $f : A -> B$ è una funzione, l'insieme degli elementi $y in B$ che sono immagine di almeno un elemento $x in A$ si chiama insieme immagine (o semplicemente immagine) di $A$ tramite $f$. Si indica con Im(f) o con f(A). Formalmente:  
 $ "Im"(f) = f(A) = {y in B | exists x in A, quad y = f(x)} $]  
 
@@ -346,10 +345,10 @@ Tuttavia, è importante notare che i calcoli possono diventare più complessi in
 
 Esistono determinate funzioni "fondamentali" che rivestono un ruolo essenziale nelle applicazioni matematiche e rappresentano i fondamenti su cui poggia un'ampia gamma di funzioni di uso comune. La loro importanza emerge chiaramente se si considera che ciascuna di esse ha un tasto specifico nelle calcolatrici scientifiche più diffuse: da queste funzioni elementari, infatti, si possono sviluppare espressioni più complesse attraverso operazioni come la composizione di funzioni o l'uso delle operazioni aritmetiche di somma, sottrazione, moltiplicazione e divisione. Nelle sezioni seguenti analizzeremo alcune tra le funzioni principali. Molti dei risultati che presenteremo dovranno essere accettati "senza approfondimenti preliminari"; tuttavia, nei corsi universitari successivi ne verrà fornita una rigorosa giustificazione teorica.
 
-=== La funzione polinomiale di primo grado
+=== La funzione polinomiale di primo grado <funzione_polinomiale_primo_grado>
 
 Il primo tipo di funzione che consideriamo è la funzione polinomiale di primo grado. Essa è definita come:
-$ f(x) = m x + q, quad "oppure" quad y = m x + q $
+$ f(x) = m x + q, quad "oppure" quad y = m x + q $ 
 Il grafico cartesiano di questa funzione è una retta (non parallela all'asse $y$). Il coefficiente $m$, moltiplicatore della variabile $x$, prende il nome di "coefficiente angolare" o "pendenza", mentre $q$ rappresenta l'"ordinata all'origine". Il significato geometrico di $q$ è evidente: quando $x = 0$, il valore corrispondente di $y$ è proprio $q$. 
 
 Per comprendere meglio il significato del coefficiente angolare $m$, analizziamo due esempi: la funzione $y = 2x + 1$ e la funzione $y = -2x + 1$. 

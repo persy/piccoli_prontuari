@@ -1,7 +1,6 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
-#import "plots.typ": *
-#import "tables.typ": *
+#import "func/07_potenze-esponenziali-logaritmi.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
 #set math.equation(numbering: (..n) => {
@@ -206,13 +205,13 @@ Un ragionamento simile può essere applicato anche alle funzioni trigonometriche
 //
 Le relazioni tra una funzione e la sua inversa comportano conseguenze fondamentali, come mostrano le seguenti equazioni, valide se $a > 0, a != 1$:
 
-$ log_a(a^x) = x, quad forall x in RR \  a^(log_a(x)) = x, quad forall x in RR, x > 0 \  log_a(1) = 0 \  log_a(a) = 1 $
+$ log_a a^x = x, quad forall x in RR \  a^(log_a x) = x, quad forall x in RR, x > 0 \  log_a = 0 \  log_a a = 1 $
 
 Si osservi che, nelle ultime due proprietà sopra riportate, l'ipotesi $a != 1$ è essenziale. Infatti, se $a = 1$, si avrebbe $log_1 1 = 0$ dalla terza relazione, ma anche $log_11 = 1$ dalla quarta, il che risulta logicamente contraddittorio.
 
 Le proprietà di monotonia delle funzioni logaritmiche derivano direttamente dalle analoghe proprietà delle funzioni esponenziali. Perciò, in analogia con le relazioni @proprieta_monotonia_esponenziali, se $x$ e $y$ sono numeri reali positivi, valgono le seguenti affermazioni:
 
-$ x = y <==> log_a x = log_a y \ x < y <==> log_a(x) < log_a(y), quad a > 1 \ x < y <==> log_a(x) > log_a(y), quad a < 1 $
+$ x = y <==> log_a x = log_a y \ x < y <==> log_a x) < log_a y, quad a > 1 \ x < y <==> log_a x > log_a y, quad a < 1 $
 
 Dalle proprietà delle potenze si possono dedurre anche due importanti proprietà dei logaritmi:
 
@@ -273,3 +272,227 @@ Purtroppo, non esistono metodi elementari per determinarla in modo preciso, anch
 #grafico_x_2_x
 
 Considerazioni analoghe valgono per le disequazioni. In questo capitolo ci occuperemo esclusivamente di alcuni casi più semplici.
+
+=== Equazioni e disequazioni elementari
+
+Sono definite elementari le equazioni esponenziali o logaritmiche che assumono la forma:  
+$ a^x = b \ log_a x = b $
+
+Per le equazioni esponenziali, se $b <= 0$, queste non ammettono soluzioni. Nel caso in cui $b > 0$, per risolverle si prende il logaritmo, solitamente alla base $a$, di entrambi i membri. Per quanto riguarda le equazioni logaritmiche, si comincia verificando il dominio di esistenza del logaritmo ($x > 0$) e successivamente si applica l'esponenziale alla base $a$ su entrambi i membri.  
+
+Le disequazioni elementari, invece, sono espresse nelle forme:  
+$ a^x lt.gt.eq b \ log_a x lt.gt.eq b $
+
+Ovvero, si tratta delle versioni in cui il segno di uguaglianza nelle equazioni sopra riportate è sostituito da un segno di disuguaglianza. Per risolverle è fondamentale tenere a mente che:
++ le funzioni esponenziali sono sempre rigorosamente positive per qualsiasi valore dell'esponente.  
++ se $a > 1$, sia le funzioni esponenziali che logaritmiche sono strettamente crescenti; invece, se $0 < a < 1$, esse risultano strettamente decrescenti.  
+
+In base a queste caratteristiche, sarà necessario, se opportuno, prendere il logaritmo o l'esponenziale di entrambi i membri della disequazione, prestando particolare attenzione al cambio di verso: per $0 < a < 1$ è necessario invertirlo, mentre per $a > 1$ non ci sono cambiamenti del verso.
+
+#esempio[Risolvere l'equazione: $ 3^x = 5 $ Prendendo il logaritmo in base $3$ di entrambi i membri:  
+$ log_3 3^x = log_3 5 $  
+Applichiamo la proprietà dei logaritmi:  
+$ x dot log_3 3 &= log_3 5 \ x &= log_3 5 $  
+Un'alternativa sarebbe stata utilizzare i logaritmi naturali (base $e$), ottenendo:  
+$ x = (ln 5) / (ln 5), $  
+risultato equivalente grazie alla formula del cambio di base. Per risolvere la disequazione $3^x < 5$, si procede in modo analogo considerando che $3 > 1$. La soluzione è $ x < log_3 5 $][Risolvere l'equazione: $ (1/2)^x = 3 $  
+Procedendo come nell'esempio precedente:  
+$ log_(#std.text(size: 0.6em)[$1/2$])(1/2)^x = log_(#std.text(size: 0.6em)[$1/2$])3, $  
+da cui si ottiene $x = log_(#std.text(size: 0.6em)[$1/2$])3$.  
+
+Per risolvere la disequazione $(1/2)^x > 3$ si tiene conto che $a = 1/2 < 1$, quindi è necessario invertire il verso nella soluzione. Si ottiene:  
+$ x < log_(#std.text(size: 0.6em)[$1/2$])3 $][Risolvere l'equazione: $ 3^x = -2 $ Poiché l'espressione $3^x$ è sempre positiva e il secondo membro negativo, non esistono soluzioni.  
+
+Per la disequazione $3^x < -2$, nessuna soluzione per lo stesso motivo. Al contrario, per $3^x > -2$, essendo la funzione esponenziale positiva per ogni esponente, l'insieme delle soluzioni è $RR$.][Risolvere l'equazione: $ log_2 x = 5 $ Applicando l'esponenziale in base $2$ a entrambi i membri dell'equazione, otteniamo $2^(log_2 x) = 2^5$, che si semplifica in $ x = 32 $ 
+
+Per risolvere la disequazione $log_2(x) < 5$, utilizziamo lo stesso metodo, arrivando a $0 < x < 32$, ricordando che l'argomento del logaritmo deve essere necessariamente positivo.][Risolvere l'equazione:  $ log_(#std.text(size: 0.6em)[$1/2$]) x = -2 $ Elevando entrambi i membri alla potenza in base $1/2$, otteniamo $(1/2)^(log_(#std.text(size: 0.6em)[$1/2$]) x) = (1/2)^(-2)$, che porta a: $ x = 4 $
+
+Per la disequazione $log_(#std.text(size: 0.6em)[$1/2$])(x) < -2$, applicando il medesimo ragionamento troviamo $x > 4$. Viceversa, per la disequazione $log_(#std.text(size: 0.6em)[$1/2$]) x > -2$ si può seguire lo stesso procedimento; tuttavia, è importante ricordare che l'argomento del logaritmo deve essere strettamente positivo. Pertanto, la soluzione sarà $0 < x < 4$.]
+
+In generale, non vi sono differenze significative tra le tecniche utilizzate per risolvere equazioni e disequazioni logaritmiche. Tuttavia, è fondamentale tenere presente che, nel caso delle equazioni, non è rilevante se la funzione logaritmica sia crescente o decrescente. Questo dettaglio diventa invece essenziale quando si affrontano le disequazioni.
+
+=== Equazioni e disequazioni non elementari
+
+Per affrontare equazioni e disequazioni non elementari non esiste un metodo standard applicabile universalmente. L'approccio principale consiste nel tentare di semplificare il problema, riconducendolo a uno o più casi di equazioni elementari. A tal proposito, esamineremo una serie di esempi esplicativi che illustrano alcune tra le strategie più utilizzate.
+
+#esempio[Risolvere l'equazione $ 2^(x^2-1) = 8 $  
+Anche se all'apparenza complessa, questa è in realtà un'equazione elementare. Prendendo il logaritmo in base $2$ su entrambi i membri e ricordando che $log_2 8 = log_2 2^3 = 3$, otteniamo:  
+$ x^2 - 1 = 3 $  
+da cui segue:  
+$ x^2 = 4 \ x = plus.minus 2. $  
+In alternativa, si sarebbe potuto osservare direttamente che $8 = 2^3$, concludendo subito che $x^2 - 1 = 3$.][
+Risolvere l'equazione: $ log_5(x + |x| + 1) = 0 $  
+Anche in questo caso si tratta di un'equazione elementare. Il dominio del termine a sinistra è $RR$, come è facile verificare. Elevando entrambi i membri all'esponenziale in base $5$ si ottiene:  
+$ x + |x| + 1 = 1 $  
+che ha come soluzione $lr(]-oo, 0])$.][Risolvere l'equazione: $ 2^(x+1) = 5 - 4^(x-1) $  
+La strategia per trasformare l'equazione è:  
+$ 2^x dot 2^1 = 5 - 4^x dot 4^(-1) \ 2^x dot 2 = 5 - 2^(2x) dot 4^(-1) $  
+
+Poniamo ora $t = 2^x$. Si ottiene, semplificando, l'equazione quadratica:  
+$ t^2 + 8t - 20 = 0, $  
+che risolta fornisce:  
+$ t = -10 or t = 2 $  
+
+Analizziamo le soluzioni:  
+- la condizione $t = -10$ non è valida in quanto $t = 2^x > 0$  
+- la condizione $t = 2$ conduce a $2^x = 2$, da cui segue che $x = 1.$  
+
+La soluzione dell'equazione originaria è dunque $S = {1}$.]La stessa metodologia può essere applicata ad altre equazioni contenenti solo termini del tipo $a^x$ o $log_a x$, purché la sostituzione $t = a^x$ o $t = log_a x$ conduca a un'equazione risolvibile. Proponiamo alcuni esempi qui di seguito.  
+#esempio[Risolviamo l'equazione: $ 9^x - 2 dot 3^x - 5 = 0 $
+
+Sostituendo t = $3^x$, con $t > 0$, si ottiene: 
+
+$ t^2 - 2t - 5 = 0 \ t_(1,2) = 1 plus.minus sqrt(6) $
+
+Poiché $t > 0$ l'unica soluzione accettabile è $1 + sqrt(6)$. Ripristinando la variabile, il risultato è $x = log_3 (1 + sqrt(6))$.][Risolviamo l'equazione: 
+
+$ log_5^2 x + log_5 x - 6 = 0 $
+
+Poniamo il dominio $x > 0$ e operiamo la sostituzione $t = log_5 x$:
+
+$ t^2 + t - 6 = 0 \ (t + 3)(t-2) = 0 $
+
+Si ottengono due valori: $t = -3$ e $t = 2$. Ripristinando la variabile si ottiene $x =  1/125 or x = 25$, entrambe accettabili.
+
+][Risolviamo l'equazione: 
+$ log_3^2 x + log_3 x^2 - 6 = 0 $
+
+Si pone $x > 0$ e si applicano le proprietà dei logaritmi:
+
+$ (log_3 x)^2 + 2 log_3 x - 6 = 0 $
+
+Sostituendo $t = log_3 x$:
+
+$ t^2 + 2t - 6 = 0 \ t_(1,2) = -1 plus.minus sqrt(7) $
+
+Ripristinando la variabile si ottiene $x_(1,2) = 3^(-1 plus.minus sqrt(7))$.
+
+] 
+
+In alcune delle equazioni sopra proposte compare una notazione come $log_2^5 x$. Questa scrittura, sebbene ambigua, è ormai di uso comune e va interpretata come $(log_5(x))^2$.  
+Per essere più precisi, si dovrebbe scrivere $(log_5(x))^2$, ma in assenza di ambiguità si tende a minimizzare il numero di parentesi. Nota inoltre che:  
+$ log_3^2 x != log_3 x^2 $ <relazione_logaritmo>
+La differenza risiede nell'ordine in cui vengono effettuate le operazioni:
+- in $log_3^2 x$, si calcola prima il logaritmo in base $3$ del numero $x$ e successivamente si eleva il risultato al quadrato.
+- in $log_3 x^2$, invece, si calcola prima il quadrato di $x$ e poi il logaritmo del risultato.
+
+Se risolviamo l'equazione $ log_3^2 x = log_3 x^2 $
+si ottiene $ (log_3 x)^2 = 2 log_3 |x| $
+Poiché il dominio impone $x > 0$, ne deriva $|x| = x$. Ponendo $log_3(x) = t$, si giunge a $t = 0$ oppure $t = 2$, da cui segue che $x = 1$ oppure $x = 9$. Questa soluzione trova conferma nei grafici delle due funzioni rappresentate nella relazione @relazione_logaritmo: come evidenziato nella @grafico_log3_2x, vi è una chiara distinzione tra i due casi e l'uguaglianza risulta valida solo per $x = 1 or x = 9$.
+
+#grafico_log3_2x
+
+#v(4em)
+#esempio[Risolviamo l'equazione:  
+$ log_5(x - 3) - log_5(5 - x) = 0 $  
+
+Come prima cosa, individuiamo il dominio:  
+$ cases( x - 3 > 0,  
+  5 - x > 0   
+) $  
+da cui si ottiene $3 < x < 5$.  
+
+L'equazione può essere riscritta nella forma:  
+$ log_5 (x - 3) / (5 - x) = 0 $  
+A questo punto eleviamo entrambi i membri dell'equazione alla potenza della base $5$, ottenendo:  
+$ (x - 3) / (5 - x) = 1 $  
+
+Risolviamo l'equazione:  
+$ x - 3 = 5 - x \ x = 4 $  
+
+Poiché il valore trovato $x = 4$ rientra nel dominio precedentemente calcolato ($3 < x < 5$), la soluzione è valida. Inoltre, è importante notare che abbiamo semplificato il denominatore poiché, in base al dominio, esso è sicuramente positivo e, quindi, diverso da zero. Perciò, la soluzione finale è $S = {4}$.  
+
+Un'ulteriore considerazione: siamo passati alla scrittura $log_5(x - 3) / (5 - x)$ solo dopo aver determinato il dominio della funzione. In questo caso particolare, determinare prima il dominio non comporta differenze, poiché le due funzioni $log_5(x - 3) - log_5(5 - x)$ e $log_5 (x - 3) / (5 - x)$ hanno lo stesso dominio. Tuttavia, questa equivalenza non è sempre valida.][Per esempio, consideriamo le seguenti funzioni:  
+$ log_5(x - 3) - log_5(x - 5) \ log_5((x - 3) / (x - 5)) $  
+
+La prima ha come dominio $x > 5$, mentre la seconda ha come dominio $x < 3$ o $x > 5$. Questo perché:  
+- nel caso della prima funzione, occorre risolvere il sistema:  
+  $ cases( x - 3 > 0,  
+    x - 5 > 0  
+  ) $  
+
+- nel caso della seconda funzione, invece, bisogna considerare la disequazione fratta:  
+  $ (x - 3) / (x - 5) > 0 $  
+
+Il grafico relativo al sistema è questo:  
+
+#tabella_ver_diseq_log
+
+Invece, il grafico relativo alla disequazione fratte è questo:
+
+#schema_diseq_log
+
+][Risolvere la disequazione:
+$ 3^(x+2) - 9/5 dot 5^(x+1) < 3^x - 5^x $
+Applicando le giuste regole, si ottiene:
+$ 3^x dot 3^2 - 9/5 dot 5^x dot 5 < 3^x - 5^x \ 9 dot 3^x - 9 dot 5^x < 3^x - 5^x \ 8 (3^x < 5^x) < 0 $
+
+Dividendo tutti i termini per $8$ e semplificando, si ottiene:
+$ 3^x < 5^x \ (3/5)^x < 1 $
+L'ultima è una disequazione elementare, la cui soluzione è $x > 0$. Si nota che il verso della disequazione cambia perché $3/5 < 1$.][Risolvere la disequazione:
+$ ln(2^x - 2) > ln(2 dot 2^(2x) + 2) - ln(2^x - 1) $ Per prima cosa troviamo il dominio di esistenza:
+$ cases(
+  2^x - 2 > 0,
+  2 times 2^(2x) + 2 > 0,
+  2^x - 1 > 0
+) $
+
+La prima e la terza hanno soluzioni elementari, rispettivamente $x > 1$ e $x > 0$; la seconda è sempre vera, essendo il primo membro la somma di due numeri strettamente positivi; il dominio della funzione è quindi $x > 1$.
+
+Sostituendo $t = 2^x$ e semplificando con le proprietà dei logaritmi, si ottiene:
+$ ln(t - 2) > ln(2 dot t^2 + 2) - ln(t - 1)  \ ln ((t - 2)(t - 1))/(2t^2 + 2) > 0 \ ((t - 2)(t -1))/(2t^2 + 2) > 1 $
+
+Eliminando il denominatore, che è strettamente positivo, si giunge a:
+$ (t - 2)(t - 1) > (2t^2 + 2). $
+
+Questa disequazione è di secondo grado, con soluzioni apparenti $-3 < t < 0$. Tuttavia, ciò viene escluso perché $t = 2^x$, e $t > 0$. Il problema, dunque, non ha soluzioni valide.][$ 2^(sqrt(3-x)) / ((x-1) ln(x+2)) > 0 $
+
+1. Calcoliamo innanzitutto il dominio della funzione:
+$ cases(
+  3 - x >= 0 &=> x <= 3,
+  x + 2 > 0 &=> x > -2,
+  (x - 1) ln(x + 2) != 0 &=> x != 1 and x != -1
+) $
+
+Combinando tutte le condizioni, il dominio è: $]-2, -1[ union ]-1, 1[ union ]1, 3]$.
+
+A questo punto, si analizza il segno dei fattori al numeratore e al denominatore all'interno del dominio. Il numeratore è strettamente positivo e si semplifica. Rimane da studiare il segno dei due fattori al denominatore, $x - 1$ e $ln(x + 2)$:
+
+#schema_segni16
+
+L'insieme delle soluzioni della disequazione è: $S = ]-2, -1[ union ]1, 3]$.]
+
+//
+Nel trovare le soluzioni alle disequazioni elementari, a cui tutte le altre possono essere ricondotte, è fondamentale prestare particolare attenzione sia alla base degli esponenziali e dei logaritmi, sia al requisito che l'argomento del logaritmo sia rigorosamente positivo. Per ridurre al minimo il rischio di errori o dimenticanze, è spesso utile ricorrere alle rappresentazioni grafiche, che offrono una visione più intuitiva del problema. Questo approccio è particolarmente evidente negli esempi seguenti.
+
+#v(2em)
+#esempio[Risolvere la disequazione:  
+$ log_(#std.text(size: 0.6em)[$2/3$]) x > -2 $
+
+Sebbene la risoluzione algebrica sia semplice e diretta, l'uso della rappresentazione grafica permette una comprensione visiva più immediata e aiuta ad evitare di commettere grossolani errori o dimenticanze durante il processo.
+
+La soluzione è:  
+$ S = lr(\] 0, (2/3)^(-2) \[) = lr(\] 0, 9/4 \[) $
+
+#grafico_log2_3
+][Risolvere la disequazione:  
+$ log_3 x < 2 $  
+La soluzione algebrica è immediata, calcolando   
+$x < 3^2$ e dunque $x < 9$ si ottiene:  
+$ S = lr(\]0, 9\[) $ 
+
+#grafico_log3_2
+
+][Risolvere il sistema di disequazioni: 
+
+$ 2 < 3^x < 4 $
+
+Si ottiene che $x$ è compreso tra $log_3 2$ e $log_3 4$. 
+
+$ S = lr(\]log_3 2, log_3 4\[) $  
+
+#grafico_2_3x_4
+
+]
+
+// TODO:Esercizi

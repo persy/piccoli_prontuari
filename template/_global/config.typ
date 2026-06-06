@@ -15,7 +15,7 @@
 #let sans-fonts = ("Lato",)
 #let title-fonts = ("Jost",)
 #let cover-fonts = ("Inter",)
-#let math-fonts = ("TeX Gyre Pagella Math",)
+#let math-fonts = ("TeX Gyre Pagella Math")
 
 // ==========================================
 // CONFIGURAZIONE COLORI DELLA COLLANA (ACCENT)

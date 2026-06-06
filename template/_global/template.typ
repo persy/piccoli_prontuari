@@ -86,6 +86,40 @@
     lang: "it",
     fill: black.lighten(10%)
   )
+  
+  //Titoli
+  show heading.where( level: 1 ): set text(font: title-fonts, size: 17pt, weight: "bold", style: "normal")
+  show heading.where( level: 2 ): set text(font: title-fonts, size: 15pt, weight: "bold", style: "normal")
+  show heading.where( level: 3 ): set text(font: title-fonts, size: 13pt, weight: "bold", style: "normal")
+  show heading.where( level: 4 ): set text(font: title-fonts, size: 11pt, weight: "bold", style: "normal")
+  set heading(numbering: (..nums) => {
+  let num-string = nums.pos().map(str).join(".")
+  text(fill: accent, weight: "bold", num-string)
+  })
+  show heading.where(level: 1): it => { colbreak(weak: true); it }
+  show heading: set text(hyphenate: false)
+  show selector(<senza_numero>): set heading(numbering: none)
+  
+  // Frontespizio
+  titleblock(title, authors, date)
+  v(1.5em)
+
+  // Pedici e apici
+/*   set sub(typographic: false, baseline: 0.2em)
+  set super(typographic: false, baseline: -0.45em) */
+
+  // Tabelle e figure
+  show figure: set block(breakable: true)
+  show table.cell: set text(size: 9pt, font: sans-fonts)
+  show table.cell.where(y: 0): set text(weight: "bold", fill: white, font: sans-fonts)
+  show table.cell.where(x: 0): set text(weight: "bold")
+
+  show figure.caption: set text(size: 9pt, font: sans-fonts) 
+  show figure.caption: it => {
+    text(size: 10pt, font: sans-fonts, accent)[#it.supplement #it.counter.display(it.numbering)]
+    [ ]
+    it.body
+  }
 
   // Citazioni, quote, note a piè di pagina, liste
   show ref: set text(accent, font: sans-fonts, size: 10pt)
@@ -105,76 +139,21 @@
 
   // Math
   show math.equation: set text(size: 12pt, font: math-fonts)
+  // Riduce l'altezza e l'ingombro di tutte le frazioni verticali compatte
   
-  // Punto diventa virgola nelle equazioni
-  //show math.equation: set text(font: sans-fonts) 
-  set math.equation(numbering: (..n) => {
-  text(font: sans-fonts, numbering("1", ..n))
-  })
-    
   set math.equation(
-    numbering: (..nums) => text(font: sans-fonts)[#numbering("1", ..nums)],
+    numbering: (..nums) => text(size: 12pt, font: sans-fonts)[#numbering("1", ..nums)],
     supplement: none, 
     number-align: end
   )
   
-  // Il tuo codice per sostituire il punto con la virgola nei decimali
+  // Punto diventa virgola nelle equazioni
   show math.equation: it => {
     show regex("\d+\.\d+"): it => {
       show ".": "," + h(0pt)
       it
     }
     it
-  }
-  
-  // Dimensione font formule nelle note a pie pagina; non sembra funzionare
-  
-  
-
-/*   show raw.where(block: false): box.with(
-    fill: luma(95%),
-    inset: (x: 3pt, y: 0pt),
-    outset: (y: 3pt),
-    radius: 2pt,
-  )
-  show raw.where(block: true): block.with(
-    fill: luma(95%),
-    inset: 5pt,
-    radius: 4pt,
-    width: 100%,
-  ) */
-
-  //Titoli
-  show heading.where( level: 1 ): set text(font: title-fonts, size: 17pt, weight: "bold", style: "normal")
-  show heading.where( level: 2 ): set text(font: title-fonts, size: 15pt, weight: "bold", style: "normal")
-  show heading.where( level: 3 ): set text(font: title-fonts, size: 13pt, weight: "bold", style: "normal")
-  show heading.where( level: 4 ): set text(font: title-fonts, size: 11pt, weight: "bold", style: "normal")
-  set heading(numbering: (..nums) => {
-  let num-string = nums.pos().map(str).join(".")
-  text(fill: accent, weight: "bold", num-string)
-  })
-  show heading.where(level: 1): it => { colbreak(weak: true); it }
-  show heading: set text(hyphenate: false)
-  show selector(<senza_numero>): set heading(numbering: none)
-  
-  // Frontespizio
-  titleblock(title, authors, date)
-  v(1.5em)
-  // Pedici e apici
-  set sub(typographic: false, baseline: 0.2em)
-  set super(typographic: false, baseline: -0.45em)
-
-  // Tabelle e figure
-  show figure: set block(breakable: true)
-  show table.cell: set text(size: 9pt, font: sans-fonts)
-  show table.cell.where(y: 0): set text(weight: "bold", fill: white, font: sans-fonts)
-  show table.cell.where(x: 0): set text(weight: "bold")
-
-  show figure.caption: set text(size: 9pt, font: sans-fonts) 
-  show figure.caption: it => {
-    text(size: 10pt, font: sans-fonts, accent)[#it.supplement #it.counter.display(it.numbering)]
-    [ ]
-    it.body
   }
 
   // Evidenzia

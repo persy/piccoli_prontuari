@@ -1,7 +1,6 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
-#import "tables.typ": *
-#import "plots.typ": *
+#import "func/01_logica.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
 #set math.equation(numbering: (..n) => {

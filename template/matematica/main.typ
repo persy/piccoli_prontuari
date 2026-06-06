@@ -18,8 +18,9 @@
   title: "Matematica",
 )
 
-// Resetta counter formule matematiche, #definizione e #esempio ad ogni nuovo capitolo
+// Resetta counter figure, formule matematiche, #definizione e #esempio ad ogni nuovo capitolo
 #show heading.where(level: 1): it => {
+  counter(figure.where(kind: image)).update(0)
   counter(math.equation).update(0)
   counter(figure.where(kind: "definizione")).update(0)
   counter("esempio").update(0)
@@ -60,9 +61,11 @@
 
 = Potenze, esponenziali, logaritmi <potenze_esponenziali_logaritmi>
 
-#include "../../docs/matematica/07_potenze_esponenziali_logaritmi.typ"
+#include "../../docs/matematica/07_potenze-esponenziali-logaritmi.typ"
 
 = Geometria analitica <geometria_analitica>
+
+#include "../../docs/matematica/08_geometria-analitica.typ"
 
 = Geometria euclidea piana <geometria_euclidea_piana>
 

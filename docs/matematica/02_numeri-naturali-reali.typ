@@ -1,7 +1,6 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
-#import "tables.typ": *
-#import "plots.typ": *
+#import "func/02_numeri-naturali-reali.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
 #set math.equation(numbering: (..n) => {
@@ -804,7 +803,7 @@ Con queste premesse, possiamo dimostrare alcune proprietà fondamentali dell'ins
 
 Queste considerazioni dimostrano alcune delle proprietà peculiari degli insiemi dei numeri reali e delle loro sotto-classi, come l'insieme dei numeri razionali e quello degli irrazionali.
 
-=== Ascisse su una retta
+=== Ascisse su una retta <ascisse_retta>
 
 Uno degli aspetti più significativi legati all'introduzione dei numeri reali è la possibilità di stabilire una corrispondenza biunivoca tra i numeri reali e i punti di una retta, definendo così un sistema di ascisse su di essa. In tal caso, la retta viene denominata asse delle ascisse. Il procedimento avviene in questo modo: si considera una retta $r$ sulla quale si fissa un punto $O$, detto origine, e un punto $U$. Assumendo la lunghezza del segmento $overline(O U)$ come unità di misura, al punto $U$ si associa il numero reale $1$. A qualsiasi altro punto $P$ della semiretta $O U$ si associa un numero reale positivo proporzionale alla lunghezza del segmento $overline(O P)$. Analogamente, ai punti $P$ appartenenti all'altra semiretta con origine $O$ si associa l'opposto del numero che rappresenta la lunghezza del segmento $overline(O P)$.
 

@@ -92,9 +92,12 @@
   )
 
   // Setup del Pacchetto Marginalia
-  if tufte {
+  show: it => if tufte {
     show: marginalia.setup.with(outer: (far: 1.5cm, width: 4.5cm, sep: 0.5cm), book: true)
     show figure.where(kind: "marginalia"): set text(size: 8.5pt, spacing: 0.5em)
+    it
+  } else {
+    it
   }
 
   // Elementi Tipografici Generici
