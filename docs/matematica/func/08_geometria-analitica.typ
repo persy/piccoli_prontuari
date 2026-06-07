@@ -707,3 +707,422 @@ caption: []
     caption: [],
   ) <grafico_rette_perpendicolari>
 ]
+
+#let grafico_triangolo_esempio1 = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (8, 8),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1,      
+        x-min: 0, x-max: 10,
+        y-min: 0, y-max: 10,
+        x-label: [],        
+        y-label: [],    
+        x-grid: true,   
+        y-grid: true, 
+        /* legend: (5.3, 2.6),        
+        legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5))),
+        legend-anchor: auto, */
+        {
+          // Definizione diretta dei punti come vettori (x, y)
+          let A = (0, 0)
+          let B = (0, 8)
+          let C = (8, 6)
+          let G = (8/3, 14/3)
+          let Q = (13/4, 4)
+          let H = (3/2, 6)
+
+          plot.add(
+            (A, B, C, A),
+            style: (stroke: 1pt + accent.mat)
+          )
+          plot.add(
+            domain: (-1, +10),
+            x => -8/7 * x + 54/7,
+            style: (stroke: (thickness: 1pt, paint: accent.mat, dash: "dotted")),            
+          )
+
+          plot.annotate({
+            content(A, [$A$], anchor: "south-west", padding: 5pt)
+            content(B, [$B$], anchor: "south-west", padding: 5pt)
+            content(C, [$C$], anchor: "west", padding: 5pt)
+            
+            circle(G, radius: 1pt, fill: black)
+            content(G, [$G$], anchor: "west", padding: 5pt)
+            circle(Q, radius: 1pt, fill: black)
+            content(Q, [$Q$], anchor: "west", padding: 5pt)
+            circle(H, radius: 1pt, fill: black)
+            content(H, [$H$], anchor: "west", padding: 5pt)
+
+            
+            content((7.2, 2), [$y = -8/7 x + 54/7$])
+          })
+        }
+      )
+    }),
+    caption: [],
+  ) <grafico_triangolo_esempio1>
+]
+
+#let grafico_triangolo_esempio2 = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (8, 8),
+        axis-style: "school-book",
+        x-tick-step: 5,      
+        y-tick-step: 5,      
+        x-min: -16, x-max: 22,
+        y-equal: "x",
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: "both",   
+        y-grid: "both",
+        {
+          let A = (0, 0)
+          let B = (0, 8)
+          let C = (8, 6)
+          let I = (32/(calc.sqrt(17) + 9), 64/(calc.sqrt(17) + 9))
+          let E_1 = (32/(calc.sqrt(17) - 1), -16/(calc.sqrt(17) - 1))
+          let E_2 = (-32/(calc.sqrt(17) + 1), 16/(calc.sqrt(17) + 1))
+          let E_3 = (32/(9 - calc.sqrt(17)), 64/(9 - calc.sqrt(17)))
+
+          plot.add(
+            (A, B, C, A),
+            style: (stroke: 1pt + accent.mat)
+          )
+          plot.add(
+            domain: (-16, +22),
+            x => 3/4 * x,
+            style: (stroke: (thickness: 1pt, paint: accent.mat, dash: "dotted")),            
+          )
+          plot.add(
+            domain: (-16, +23),
+            x => -1/4 * x + 8,
+            style: (stroke: (thickness: 1pt, paint: accent.mat, dash: "dotted")),            
+          )
+
+          plot.annotate({
+            content(A, [#text(fill: accent.mat)[$A$]], anchor: "south-east", padding: 25pt)
+            content(B, [#text(fill: accent.mat)[$B$]], anchor: "south-east", padding: 25pt)
+            content(C, [#text(fill: accent.mat)[$C$]], anchor: "south-west", padding: 25pt)
+            
+            circle(I, radius: 3pt, fill: black)
+            content(I, [$I$], anchor: "south-west", padding: 15pt)
+            circle(E_1, radius: 3pt, fill: black)
+            content(E_1, [$E_1$], anchor: "south-west", padding: 25pt)
+            circle(E_2, radius: 3pt, fill: black)
+            content(E_2, [$E_2$], anchor: "south-west", padding: 25pt)
+            circle(E_3, radius: 3pt, fill: black)
+            content(E_3, [$E_3$], anchor: "south-west", padding: 25pt)
+
+            circle(E_1, radius: (32 / (calc.sqrt(17) - 1)), fill: accent.mat.transparentize(85%), stroke: (thickness: .5pt))
+            circle(E_2, radius: (32 / (calc.sqrt(17) + 1)), fill: accent.mat.transparentize(85%), stroke: (thickness: .5pt))
+            circle(E_3, radius: (32 / (9 - calc.sqrt(17))), fill: accent.mat.transparentize(85%), stroke: (thickness: .5pt))
+            circle(I, radius: (32 / (9 + calc.sqrt(17))), fill: accent.mat.transparentize(85%), stroke: (thickness: .5pt))
+
+            // Proiezioni
+            line(E_1, (E_1.at(0), 0), stroke: (thickness: 0.5pt, dash: "dashed", paint: gray))
+            line(E_1, (0, E_1.at(1)), stroke: (thickness: 0.5pt, dash: "dashed", paint: gray))
+            line(E_2, (E_2.at(0), 0), stroke: (thickness: 0.5pt, dash: "dashed", paint: gray))
+            line(E_2, (0, E_2.at(1)), stroke: (thickness: 0.5pt, dash: "dashed", paint: gray))
+            line(E_3, (E_3.at(0), 0), stroke: (thickness: 0.5pt, dash: "dashed", paint: gray))
+            line(E_3, (0, E_3.at(1)), stroke: (thickness: 0.5pt, dash: "dashed", paint: gray))
+          })
+        }
+      )
+    }),
+    caption: [],
+  ) <grafico_triangolo_esempio2>
+]
+
+#let esempio_grafico_fascio1 = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (9, 6),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1, 
+        x-min: -3, x-max: 6,
+        y-equal: "x",
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: false,   
+        y-grid: false, 
+        {
+          // Linea r1: k = 0 -> y = -x + 3
+          plot.add(
+            domain: (-1.5, 5.5),
+            x => -x + 3,
+            style: (stroke: 1pt + accent.mat)
+          )
+          
+          // Linea k = 1/2 -> x = 2
+          plot.add(
+            ((2, -2), (2, 4)),
+            style: (stroke: (thickness: 1pt, paint: accent.mat, dash: "dash-dotted"))
+          )
+          
+          // Linea k = ±inf -> y = 0.5 * x
+          plot.add(
+            domain: (-3, 6),
+            x => 0.5 * x,
+            style: (stroke: (thickness: 1pt, paint: accent.mat, dash: "dashed"))
+          )
+          
+          // Annotazioni, punti e frecce di rotazione
+          plot.annotate({
+            let P = (2, 1)
+            
+            // Centro del fascio P
+            circle(P, radius: 1.5pt, fill: accent.mat)
+            content(P, [$P$], anchor: "east", padding: 5pt)
+            
+            // Etichette delle linee e dei valori di k
+            content((.1, 3), [$r_1 : k = 0$], anchor: "south-west")
+            content((2.1, 3.6), [$k = 1/2$], anchor: "west")
+            
+            content((4.9, 2.9), [$k = +oo$], anchor: "south")
+            content((4.8, 2.2), [$k = -oo$], anchor: "north-west")
+            
+            content((-1.6, -0.85), [$k = -oo$], anchor: "south-east")
+            content((-2.2, -1.2), [$k = +oo$], anchor: "north-west")
+            
+            // Frecce curve per indicare la rotazione del parametro k
+            arc((1.2, 1.6), start: 140deg, delta: -120deg, radius: 1, mark: (end: ")>", fill: accent.mat.lighten(50%)), stroke: (thickness: .5pt, paint: accent.mat.lighten(50%)))
+            arc((2.8, .5), start: 320deg, delta: -120deg, radius: 1, mark: (end: ")>", fill: accent.mat.lighten(50%)), stroke: (thickness: .5pt, paint: accent.mat.lighten(50%)))
+          })
+        }
+      )
+    }),
+    caption: [],
+  ) <esempio_grafico_fascio1>
+]
+
+#let esempio_grafico_fascio2 = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      plot.plot(
+        size: (9, 7),
+        axis-style: "school-book",
+        x-tick-step: 1,      
+        y-tick-step: 1, 
+        x-min: -3, x-max: 6,
+        y-min: -1, y-max: 3.5,
+        x-label: [$x$],        
+        y-label: [$y$],    
+        x-grid: false,   
+        y-grid: false, 
+        {
+          // Retta k = 0 -> y = 0.5 * x
+          plot.add(
+            domain: (-4.5, 5.5),
+            x => 0.5 * x,
+            style: (stroke: 1pt + accent.mat)
+          )
+          
+          // Retta k = 1 -> y = 0.5 * x + 1
+          plot.add(
+            domain: (-4.5, 5),
+            x => 0.5 * x + 1,
+            style: (stroke: (thickness: 1pt, paint: accent.mat, dash: "dash-dotted"))
+          )
+          
+          // Retta r2: k = ±inf -> y = 0.5 * x + 2
+          plot.add(
+            domain: (-4.5, 6),
+            x => 0.5 * x + 2,
+            style: (stroke: (thickness: 1pt, paint: accent.mat, dash: "dashed"))
+          )
+          
+          // Annotazioni, frecce di spostamento e testi
+          plot.annotate({
+            // Etichette delle rette principali
+            content((4.5, 2.2), [$k = 0$], anchor: "north-west")
+            content((4, 2.9), [$k = 1$], anchor: "north-west")
+            content((3.5, 3.3), [$r_2$], anchor: "south")
+            
+            // Etichette dei limiti all'infinito sulla retta r2
+            content((1.7, 2.9), [$k = -oo$], anchor: "south-east")
+            content((1.1, 2.2), [$k = +oo$], anchor: "south-west")
+            
+            // Frecce vettoriali con tratti tratteggiati/continui
+            // Freccia verso l'alto a sinistra (k = -1)
+            line((-1.5, 1.25), (-2.5, 2.5), mark: (end: ")>", fill: black), stroke: (thickness: 0.5pt, dash: "dashed"))
+            content((-2.2, 2.65), [$k = -1$], anchor: "south")
+            
+            
+            
+            // Freccia di transizione continua che attraversa le rette
+            line((0.1, -0.75), (-1.5, 1.25), mark: (end: ">", fill: black), stroke: (thickness: 0.5pt, dash: "dashed"))
+            content((0.3, -0.7), [$k = -1$], anchor: "west")
+          })
+        }
+      )
+    }),
+    caption: [],
+  ) <esempio_grafico_fascio2>
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#let calcola-distanza(punto-a, punto-b) = {
+  calc.sqrt(calc.pow(punto-a.at(0) - punto-b.at(0), 2) + calc.pow(punto-a.at(1) - punto-b.at(1), 2))
+}
+
+#let proietta-3d(x, y, z) = {
+  let inclinazione-x = -0.4
+  let inclinazione-y = 0.25
+  (x + y * inclinazione-x, z + y * inclinazione-y)
+}
+
+#let disegna-scena-conica(
+  pendenza-piano: 0.0,
+  intercetta-z: 0.0,
+  altezza-massima: 2.5,
+  colore-curva: black
+) = {
+  import cetz.draw: *
+  
+  let pendenza-cono = 0.6 
+  
+  // --- 1. SUPERFICIE DEL CONO ---
+  for i in range(0, 5) {
+    let altezza-z = -2.0 + (i * 1.0)
+    if altezza-z != 0 {
+      let raggio-z = pendenza-cono * calc.abs(altezza-z)
+      let punti-cerchio = ()
+      for j in range(0, 25) {
+        let radianti = (j * 15) * calc.pi / 180
+        punti-cerchio.push(proietta-3d(raggio-z * calc.cos(radianti), raggio-z * calc.sin(radianti), altezza-z))
+      }
+      line(..punti-cerchio, stroke: 0.25pt + gray.lighten(50%))
+    }
+  }
+  
+  for i in range(0, 8) {
+    let radianti = (i * 45) * calc.pi / 180
+    let raggio-max = pendenza-cono * altezza-massima
+    line(
+      proietta-3d(raggio-max * calc.cos(radianti), raggio-max * calc.sin(radianti), -altezza-massima),
+      (0,0),
+      proietta-3d(raggio-max * calc.cos(radianti), raggio-max * calc.sin(radianti), altezza-massima),
+      stroke: 0.3pt + gray.lighten(30%)
+    )
+  }
+  
+  let raggio-sagoma = pendenza-cono * altezza-massima
+  line(proietta-3d(-raggio-sagoma, 0, -altezza-massima), (0,0), proietta-3d(raggio-sagoma, 0, altezza-massima), stroke: 0.6pt + black)
+  line(proietta-3d(raggio-sagoma, 0, -altezza-massima), (0,0), proietta-3d(-raggio-sagoma, 0, altezza-massima), stroke: 0.6pt + black)
+  line(proietta-3d(0, 0, -altezza-massima), proietta-3d(0, 0, altezza-massima), stroke: (thickness: 0.5pt, paint: black, dash: "dashed"))
+
+  // --- 2. PIANO SEZIONANTE PROPORZIONALE ---
+  let estensione-x = if pendenza-piano > 1.5 { 1.0 } else { 1.8 }
+  let estensione-y = 1.5
+  let angoli-piano = (
+    proietta-3d(-estensione-x, -estensione-y, -pendenza-piano * estensione-x + intercetta-z),
+    proietta-3d(estensione-x, -estensione-y, pendenza-piano * estensione-x + intercetta-z),
+    proietta-3d(estensione-x, estensione-y, pendenza-piano * estensione-x + intercetta-z),
+    proietta-3d(-estensione-x, estensione-y, -pendenza-piano * estensione-x + intercetta-z)
+  )
+  line(..angoli-piano, close: true, stroke: 0.5pt + rgb("#007aff"), fill: rgb(0, 122, 255, 30))
+
+  // --- 3. INTERSEZIONE ANALITICA ---
+  let precedente-superiore = none
+  let precedente-inferiore = none
+  
+  for i in range(0, 181) {
+    let radianti = (i * 2) * calc.pi / 180
+    let cos-theta = calc.cos(radianti)
+    let sin-theta = calc.sin(radianti)
+    let componente-pendenza = pendenza-piano * cos-theta
+    
+    // Falda Superiore
+    let den-superiore = 1 - pendenza-cono * componente-pendenza
+    if calc.abs(den-superiore) > 0.001 {
+      let raggio = (pendenza-cono * intercetta-z) / den-superiore
+      if raggio >= 0 {
+        let quota-z = raggio / pendenza-cono
+        if calc.abs(quota-z) <= altezza-massima {
+          let punto = proietta-3d(raggio * cos-theta, raggio * sin-theta, quota-z)
+          if precedente-superiore != none and calcola-distanza(precedente-superiore, punto) < 0.8 {
+            line(precedente-superiore, punto, stroke: 1.6pt + colore-curva)
+          }
+          precedente-superiore = punto
+        } else { precedente-superiore = none }
+      } else { precedente-superiore = none }
+    }
+    
+    // Falda Inferiore
+    let den-inferiore = 1 + pendenza-cono * componente-pendenza
+    if calc.abs(den-inferiore) > 0.001 {
+      let raggio = -(pendenza-cono * intercetta-z) / den-inferiore
+      if raggio >= 0 {
+        let quota-z = -raggio / pendenza-cono
+        if calc.abs(quota-z) <= altezza-massima {
+          let punto = proietta-3d(raggio * cos-theta, raggio * sin-theta, quota-z)
+          if precedente-inferiore != none and calcola-distanza(precedente-inferiore, punto) < 0.8 {
+            line(precedente-inferiore, punto, stroke: 1.6pt + colore-curva)
+          }
+          precedente-inferiore = punto
+        } else { precedente-inferiore = none }
+      } else { precedente-inferiore = none }
+    }
+  }
+}
+
+#let grafico-sezioni-coniche = [
+  #figure(
+    cetz.canvas({
+      import cetz.draw: *
+      
+      // 1. ELLISSE (Pendenza piano < 1.667)
+      group({
+        disegna-scena-conica(pendenza-piano: 0.6, intercetta-z: 1.0, colore-curva: rgb("#ff3b30"))
+      })
+      
+      // 2. PARABOLA (Pendenza piano == 1.667)
+      group({
+        translate(x: 4.8, y: 0)
+        disegna-scena-conica(pendenza-piano: 1.6667, intercetta-z: 0.7, colore-curva: rgb("#4cd964"))
+      })
+      
+      // 3. IPERBOLE (Pendenza piano > 1.667)
+      group({
+        translate(x: 9.6, y: 0)
+        disegna-scena-conica(pendenza-piano: 2.6, intercetta-z: 0.6, colore-curva: rgb("#007aff"))
+      })
+    }),
+    caption: [Sezioni coniche reali: Ellisse (rosso), Parabola (verde) ed Iperbole a due rami (blu).],
+  )
+]

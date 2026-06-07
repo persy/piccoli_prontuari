@@ -304,3 +304,366 @@ Nel caso in cui una retta non sia né parallela agli assi né passi per l'origin
 o anche: $ x/p + y/q = 1 $ <eq-segmentaria>
 
 La @eq-segmentaria viene chiamata equazione segmentaria della retta.
+
+//
+Il seguente è uno dei principali teoremi per determinare la distanza di un punto da una retta e per ricavare l'equazione di una retta in base a diverse condizioni.
+
+#definizione(title: "Teorema della distanza di un punto da una retta", label: <teorema_distanza_punto-retta>)[Consideriamo un punto $P_0 (x_0, y_0)$ e una retta $r$ con equazione implicita $a x + b y + c = 0$. La distanza del punto $P_0$ dalla retta $r$ è espressa dalla formula:
+$ d(P_0, r) = lr(|a x_0 + b y_0 + c|) / sqrt(a^2 + b^2) $
+
+Da notare che, se il punto $P_0 in r$, la distanza calcolata con la formula sarà zero.]
+
+=== Determinazione dell'equazione di una retta
+
+I casi più comuni per determinare l'equazione di una retta sono:
++ retta passante per un punto con direzione nota
++ retta passante per due punti
+
+==== Retta passante per un punto e di direzione nota
+
+Se $P(x_0, y_0)$ è il punto per cui deve passare la retta e se la direzione è nota (ovvero è noto il coefficiente angolare $m$), l'equazione diventa:
+$ y - y_0 = m(x - x_0) $
+
+Nel caso in cui la retta sia verticale, l'equazione sarà invece:
+$ x = x_0 $
+
+Se è noto che la retta cercata è parallela a una retta con equazione implicita $a x + b y + c = 0$, la sua equazione può essere scritta direttamente come:
+$ a(x - x_0) + b(y - y_0) = 0 $
+
+Se invece la retta desiderata deve essere perpendicolare alla stessa retta ($a x + b y + c = 0$), allora l'equazione sarà data da:
+$ b(x - x_0) - a(y - y_0) = 0 $
+
+In ogni caso, si può sempre utilizzare la forma $y - y_0 = m(x - x_0)$, calcolando il coefficiente angolare appropriato quando necessario.
+
+==== Retta passante per due punti
+
+Siano $P(x_1, y_1)$ e $Q(x_2, y_2)$ i due punti sui quali deve passare la retta. L'equazione può essere formulata nel modo seguente:
+$ (y - y_1)(x_2 - x_1) = (x - x_1)(y_2 - y_1) $
+
+Questa forma è preferibile rispetto alla tradizionale forma fratta poiché include anche i casi in cui la retta è parallela a uno degli assi cartesiani. La forma classica, equivalente ma meno adatta a certi casi particolari, è:
+$ (x - x_1) / (x_2 - x_1) = (y - y_1) / (y_2 - y_1) $
+
+//
+#esempio[Determinare alcune proprietà del triangolo con vertici: 
+
+$ A(0, 0), \ B(0, 8), \ C(8, 6) $
+
+Calcolare il baricentro, il circocentro, l'ortocentro, l'incentro e i tre ex-centri. Inoltre, verificare che il baricentro, il circocentro e l'ortocentro risultano allineati e analizzare le principali caratteristiche di questi punti notevoli.
+
++ Baricentro (punto d'intersezione delle mediane): 
+
+  Bisogna innanzitutto determinare i punti medi di due lati del triangolo. Scegliamo $M$ come punto medio di $overline(A B)$ e $N$ come punto medio di $overline(A C)$. Calcolando otteniamo:
+  $ x_M = (0 + 0) / 2 = 0, quad y_M = (0 + 8) / 2 = 4 $
+  $ x_N = (0 + 8) / 2 = 4, quad y_N = (0 + 6) / 2 = 3 $
+
+  Per i calcoli successivi determiniamo anche il punto medio $S$, relativo al lato $overline(B C)$:
+  $ x_S = (0 + 8) / 2 = 4, quad y_S = (8 + 6) / 2 = 7 $
+
+  Le equazioni delle mediane $overline(B N)$ e $overline(C M)$ risultano:
+  $ (y - 8)(4 - 0) = (x - 0)(3 - 8) => \ => 5x + 4y - 32 = 0 \ x - 4y + 16 = 0 $
+
+  L'intersezione delle mediane determina la posizione del baricentro $G$:
+  $ cases(5x + 4y - 32 = 0, x - 4y + 16 = 0) $
+  da cui:
+  $ G lr((8/3, 14/3)) $
+
+  Si può arrivare a questo stesso risultato utilizzando la formula diretta per il baricentro in un triangolo.
+
++ Circocentro (punto d'intersezione degli assi): 
+  
+  Qui troviamo le equazioni di due assi del triangolo. Un asse passa per il punto medio $M$ ed è perpendicolare al lato $overline(A B)$. Poiché $overline(A B)$ è verticale, l'asse sarà orizzontale con equazione:
+  $ y = 4 $
+
+  L'altro asse passa per il punto medio $N$, è perpendicolare al lato $overline(A C)$ e ha pendenza negativa reciproca rispetto a $overline(A C)$. Calcoliamo il coefficiente angolare di $overline(A C)$:
+  $ m_(A C) = (6 - 0) / (8 - 0) = 3/4 $ <coefficiente-AC>
+
+  Il coefficiente angolare dell'asse sarà quindi $-4/3$. Scriviamo la sua equazione:
+  $ y - 3 = -4/3(x - 4) \ 4x + 3y - 25 = 0 $
+
+  L'intersezione tra le due rette dà il circocentro $Q$:
+  $ cases(y = 4, 4x + 3y - 25 = 0) $
+  da cui:
+  $ Q lr((13/4, 4)) $
+
+  Per determinare gli assi dei lati, si può anche utilizzare la proprietà secondo cui l'asse di un segmento rappresenta il luogo geometrico dei punti equidistanti dai suoi estremi. Come esercizio, riepiloghiamo il procedimento per trovare l'equazione dell'asse del segmento $overline(A C)$ seguendo questa definizione.
+
+  Consideriamo un punto generico $P(s, t)$ sull'asse. Per definizione, deve valere la condizione $|P A| = |P C|$, ovvero:
+  $ sqrt((s - 0)^2 + (t - 0)^2) = sqrt((s - 8)^2 + (t - 6)^2) $
+
+  Elevando al quadrato entrambi i membri e semplificando, si ottiene l'equazione:
+  $ 4s + 3t - 25 = 0 $
+
+  Questa è la stessa equazione calcolata precedentemente; si ottiene lo stesso risultato sostituendo semplicemente le coordinate $(s, t)$#footnote[In numerosi contesti, quando si cerca un luogo, risulta utile iniziare indicando la coppia di coordinate del generico punto del luogo come $(s, t)$, sostituendole successivamente con $(x, y$).] con $(x, y)$ per uniformità.
+
++ Ortocentro (punto d'intersezione delle altezze): 
+
+  Per calcolare l'ortocentro di un triangolo, è sufficiente determinare l'intersezione di due delle tre altezze. 
+
+  La retta passante per il vertice $C$, essendo ortogonale ad $A B$, è parallela all'asse $x$ e avrà equazione:
+  $ y = 6 $
+
+  #par(leading: 1em)[Per trovare l'equazione della retta passante per il punto $B$ e ortogonale al lato $A C$, basta riutilizzare il coefficiente angolare di $A C$, già precedentemente determinato in @coefficiente-AC, $3/4$. Quindi, il coefficiente angolare della retta perpendicolare sarà $-4/3$, e la sua equazione risulterà:]
+  $ y - 8 = -4/3(x - 0) $
+  da cui segue:
+  $ 4x + 3y - 24 = 0 $
+
+  L'ortocentro $H$ si trova dunque nel punto di intersezione delle due rette. Risolvendo il sistema:
+  $ cases(y = 6, 4x + 3y - 24 = 0) $
+  otteniamo: $ H = (3/2, 6) $
+
++ Verificare che baricentro, circocentro e orocentro siano allineati:
+  Per verificare se tre punti siano allineati, calcoliamo l'equazione della retta passante per due di essi e vediamo se il terzo appartiene alla stessa retta. Per esempio, consideriamo la retta $H Q$. La sua equazione sarà:
+  $ (y - 6) / (4 - 6) = (x - 3/2) / (13/4 - 3/2) $
+
+  che si semplifica in:
+  $ 8x + 7y - 54 = 0 $
+  o anche:
+  $ y = -8/7 x + 54/7 $
+
+  Verificare la posizione del punto $G$ su questa retta risulta immediato. La @grafico_triangolo_esempio1 illustra questa situazione.
+
+  #grafico_triangolo_esempio1
+
++ Incentro (punto di intersezione delle bisettrici degli angoli interni):
+
+  Sebbene siano sufficienti due bisettrici, le calcoleremo tutte per poter determinare anche successivamente gli ex-centri. Le bisettrici, come noto, sono luoghi geometrici dei punti equidistanti dai lati dell'angolo. Le equazioni dei tre lati del triangolo, calcolate con metodi già noti, sono:
+  $ A B&: x = 0 \ A C&: 3x - 4y = 0 \ B C&: x + 4y - 32 = 0 $
+
+  Per le bisettrici degli angoli formati dalle rette $A B$ e $A C$, considerando un generico punto della bisettrice $P(s, t)$, si deve avere:
+  $ lr(|s|) / sqrt(1^2 + 0^2) = lr(|3s - 4t|) / sqrt(3^2 + (-4)^2) \ 5lr(|s|) = lr(|3s - 4t|) \ 5s = plus.minus (3s - 4t) $
+
+  Risolvendo, otteniamo due rette:
+  $ 2x - y = 0, \ x + 2y = 0 $
+
+  che risultano mutuamente ortogonali, come deve essere. La prima retta rappresenta la bisettrice dell'angolo interno in $A$ (perché ha coefficiente angolare positivo), mentre la seconda rappresenta la bisettrice dell'angolo esterno in $A$ (perché ha coefficiente angolare negativo).
+
+  In modo analogo, per calcolare le bisettrici degli angoli formati dalle rette $A B$ e $B C$, bisogna soddisfare la seguente relazione:
+  $ lr(|s|) / sqrt(1^2 + 0^2) = lr(|s + 4t - 32|) / sqrt(1^2 + 4^2) $
+
+  da cui si ottiene:
+  $ sqrt(17) lr(|s|) = lr(|s + 4t - 32|) \ sqrt(17) s = plus.minus (s + 4t - 32) $
+
+  Risolvendo questa equazione, si determinano le due rette:
+  $ (sqrt(17) - 1)x - 4y + 32 = 0, \ (sqrt(17) + 1)x + 4y - 32 = 0 $
+
+  Queste due rette risultano perpendicolari tra loro. La seconda rappresenta la bisettrice dell'angolo interno in $B$ (poiché ha coefficiente angolare negativo), mentre la prima rappresenta la bisettrice dell'angolo esterno in $B$ (poiché ha coefficiente angolare positivo).
+
+  Successivamente, per le bisettrici degli angoli individuati dalle rette $A C$ e $B C$, si deve verificare:
+  $ lr(|3s - 4t|) / sqrt(3^2 + 4^2) = lr(|s + 4t - 32|) / sqrt(1^2 + 4^2) $
+
+  da cui si ricava:
+  $ sqrt(17)(3s - 4t) = plus.minus 5(s + 4t - 32) $
+
+  Risolvendo questa equazione, emergono le seguenti due rette:
+  $ (3sqrt(17) - 5)x - (4sqrt(17) + 20)y + 160 = 0 $
+  $ (3sqrt(17) + 5)x - (4sqrt(17) - 20)y - 160 = 0 $
+
+  Anche queste due rette sono perpendicolari tra loro. La prima è la bisettrice dell'angolo interno in $C$ (poiché ha coefficiente angolare positivo), mentre la seconda è la bisettrice dell'angolo esterno in $C$ (poiché il coefficiente angolare è negativo).
+  L'incentro $I$ si trova nell'intersezione di due delle tre bisettrici interne. Risolvendo il sistema:
+  $ cases(2x - y = 0, (sqrt(17) + 1)x + 4y - 32 = 0) $
+
+  si ottiene:
+  $ I = lr((32 / (sqrt(17) + 9), 64 / (sqrt(17) + 9))) $
+
++ Ex-centri (centri delle circonferenze ex-scritte al triangolo):
+
+  Per calcolare i tre ex-centri, è sufficiente intersecare due bisettrici degli angoli esterni, oppure una bisettrice di un angolo esterno con quella di un angolo interno, opportunamente scelti. Calcoliamo il primo ex-centro $E_1$, che si trova "dalla parte del lato $overline(A C)$":
+  $ cases(x + 2y = 0, (sqrt(17) + 1)x + 4y - 32 = 0) $
+
+  Risolvendo il sistema, si ottiene:
+  $ E_1 = lr((32 / (sqrt(17) - 1), -16 / (sqrt(17) - 1))) $
+
+  Procediamo quindi con il calcolo di $E_2$, l'ex-centro "dalla parte del lato $overline(A B)$":
+  $ cases(x + 2y = 0, (3sqrt(17) - 5)x - (4sqrt(17) + 20)y + 160 = 0) $
+
+  Risolvendo, risulta:
+  $ E_2 = lr((-32 / (sqrt(17) + 1), 16 / (sqrt(17) + 1))) $
+
+  Questi punti rappresentano i centri associati agli ex-cerchi del triangolo considerato.
+
+  //
+  Infine, analizziamo il punto $E_3$, che rappresenta l'excentro situato sul prolungamento del lato $B C$.
+
+  L'equazione della relativa retta risultante è ottenuta dal sistema:
+  $ cases(2x - y = 0, (3sqrt(17) + 5)x - (4sqrt(17) - 20)y - 160 = 0) $
+
+  da cui si ricava:
+  $ E_3 = lr((32 / (9 - sqrt(17)), 64 / (9 - sqrt(17)))) $
+
++ Verifica delle proprietà dei punti notevoli; a questo punto, si tratta di verificare che i vari punti individuati soddisfino le proprietà geometriche note. 
+
+  + verifica del baricentro $G$, che divide le mediane in modo tale che la parte contenente il vertice sia doppia rispetto all'altra: i calcoli pertinenti mostrano:
+
+    $ |overline(A G)| = sqrt((0 - 8/3)^2 + (0 - 14/3)^2) = 2/3 sqrt(65) \ |overline(B G)| = sqrt((0 - 8/3)^2 + (8 - 14/3)^2) = 2/3 sqrt(41) \ |overline(C G)| = sqrt((8 - 8/3)^2 + (6 - 14/3)^2) = 4/3 sqrt(17) \ |overline(S G)| = sqrt((4 - 8/3)^2 + (7 - 14/3)^2) = 1/3 sqrt(65) \ |overline(N G)| = sqrt((4 - 8/3)^2 + (3 - 14/3)^2) = 1/3 sqrt(41) \ |overline(S M)| = sqrt((0 - 8/3)^2 + (4 - 14/3)^2) = 2/3 sqrt(17) $
+
+  + verifica del circocentro $Q$, ovvero il punto di intersezione degli assi e centro della circonferenza circoscritta al triangolo: pr dimostrare questa proprietà basta verificare che $Q$ sia equidistante dai vertici del triangolo, ovvero:
+    $ |overline(Q A)| = sqrt((13/4 - 0)^2 + (4 - 0)^2) = 5/4 sqrt(17) \ |overline(Q B)| = sqrt((13/4 - 0)^2 + (4 - 8)^2) = 5/4 sqrt(17) \ |overline(Q C)| = sqrt((13/4 - 8)^2 + (4 - 6)^2) = 5/4 sqrt(17) $
+
+  + verifica dell'ortocentro: a livello elementare non vengono generalmente approfondite le sue proprietà. Tuttavia, una delle tante peculiarità di questo punto è che esso rappresenta l'incentro del triangolo ortico, ossia il triangolo formato dai piedi delle tre altezze. Gli interessati possono verificarlo autonomamente.
+
+  + verifica dell'incentro, il centro della circonferenza inscritta nel triangolo: per dimostrarlo, è sufficiente mostrare che $I$ è equidistante dai lati del triangolo. Si ottiene:
+    $ d(I, A B) = lr(|x_I|) = 32 / (sqrt(17) + 9) $
+
+    similmente:
+    $ d(I, A C) = frac(lr(|3 dot 32 / (sqrt(17) + 9) - 4 dot 64 / (sqrt(17) + 9)|), sqrt(3^2 + 4^2)) = 32 / (sqrt(17) + 9) \ d(I, B C) = frac(lr(|32 / (sqrt(17) + 9) + 4 dot 64 / (sqrt(17) + 9) - 32|), sqrt(1^2 + 4^2)) = 32 / (sqrt(17) + 9) $
+
+    Un'importante proprietà degli ex-centri è che ciascuno di essi è il centro di una circonferenza ex-scritta, tangente ad un lato del triangolo e ai prolungamenti degli altri due. Per verificarlo, basta controllare che gli ex-centri siano equidistanti dalle tre rette di interesse.
+
+    Consideriamo, ad esempio, $E_2$. Si ottengono le seguenti distanze:
+    $ d(E_2, A B) &= |x_(E_2)| = 32 / (sqrt(17) + 1) \ d(E_2, A C) &= frac(lr(|3 dot (-32) / (sqrt(17) + 1) - 4 dot 16 / (sqrt(17) + 1)|), sqrt(3^2 + 4^2)) = 32 / (sqrt(17) + 1) \ d(E_2, B C) &= frac(lr(|(-32) / (sqrt(17) + 1) + 4 dot 16 / (sqrt(17) + 1) - 32|), sqrt(1^2 + 4^2)) = 32 / (sqrt(17) + 1) $
+
+Possiamo concludere che tutte le verifiche richieste sono soddisfatte per i relativi punti caratteristici del triangolo.
+
+#grafico_triangolo_esempio2
+
+
+]
+
+=== Famiglie di curve  
+
+Se $f(x, y) = 0$ e $g(x, y) = 0$ rappresentano le equazioni di due curve, rispettivamente $Phi$ e $Gamma$, nel piano, allora, variando $lambda$ e $mu$ in $RR$, le equazioni  
+$ lambda f(x, y) + mu g(x, y) = 0, quad (lambda, mu) != (0, 0) $ <eq_combinazione_lineare>
+
+descrivono una famiglia $cal(F)$ di curve che comprende sia $Phi$ che $Gamma$: la prima corrisponde a $lambda = 1$ e $mu = 0$, mentre la seconda si ha per $lambda = 0$ e $mu = 1$. Inoltre, se un punto $P$ appartiene contemporaneamente sia a $Phi$ che a $Gamma$, allora esso appartiene a tutte le curve della famiglia. Le curve $Phi$ e $Gamma$ sono chiamate curve base della famiglia. Un'equazione della forma @eq_combinazione_lineare si definisce quindi una combinazione lineare delle equazioni delle curve $Phi$ e $Gamma$.  
+
+Supponendo che nella @eq_combinazione_lineare si abbia $lambda != 0$, e introducendo $k = mu / lambda$, otteniamo:  
+$ f(x, y) + k g(x, y) = 0, quad k in RR $ <eq_combinazione_monoparametrica>
+
+Variando $k$, le equazioni @eq_combinazione_monoparametrica definiscono un insieme $cal(G)$ di curve che appartengono tutte all'insieme più ampio $cal(F)$. Tuttavia, è evidente che le due famiglie $cal(F)$ e $cal(G)$ non coincidono del tutto, a meno che le curve base $Phi$ e $Gamma$ non siano la stessa curva. La differenza tra le due famiglie sta nel fatto che la curva $Gamma$ non appartiene a $cal(G)$, poiché l'equazione $g(x, y) = 0$ non può essere ottenuta dalle equazioni @eq_combinazione_monoparametrica per alcun valore finito di $k$. Tuttavia, questa è l'unica distinzione significativa tra i due insiemi. Considerando che nella rappresentazione @eq_combinazione_lineare la curva $Gamma$ si ottiene per $lambda = 0$ (e quindi necessariamente con un valore non nullo di $mu$, ad esempio $mu = 1$), è possibile immaginare che $k$ nella @eq_combinazione_monoparametrica, al tendere di $lambda$ a zero, cresca indefinitamente verso l'infinito. Per questo motivo si usa dire che nella rappresentazione @eq_combinazione_monoparametrica la curva $Gamma$ corrisponde al valore $k = oo$.  
+
+Nelle applicazioni pratiche, è generalmente preferibile rappresentare una famiglia di curve tramite un'equazione “a un solo parametro”, come la @eq_combinazione_monoparametrica, anziché mediante un'equazione “a due parametri” come la @eq_combinazione_lineare. Tuttavia, va tenuto presente che in una rappresentazione monodimensionale come @eq_combinazione_monoparametrica, quasi sempre una delle due curve base rimane esclusa dalla famiglia.  
+
+Data la natura complessa dell'argomento, ci concentreremo in seguito su insiemi particolari di curve, come rette e circonferenze, che rivestono un'importanza fondamentale anche nell'ambito della geometria sintetica.
+
+=== Fasci di rette  
+
+#definizione(title: "Fascio di rette", label: <fascio_rette>)[Un fascio proprio di rette è definito come l'insieme di tutte le rette di un piano che condividono un punto comune, denominato centro del fascio. Al contrario, un fascio improprio comprende l'insieme di tutte le rette di un piano che sono tra loro parallele, ossia aventi la stessa direzione.]
+
+Per affrontare l'analisi dei fasci di rette in termini analitici, utilizzeremo sia un'equazione a due parametri, come nella forma @eq_combinazione_lineare, sia un'equazione a un solo parametro, come esemplificato nella forma @eq_combinazione_monoparametrica. Va comunque osservato che l'approccio con un solo parametro è generalmente utilizzato nel contesto della scuola secondaria di secondo grado.
+
+==== Equazione a due parametri
+
+Consideriamo due rette espresse in forma cartesiana:  
+$ r_1: a_1 x + b_1 y + c_1 = 0, \ r_2: a_2 x + b_2 y + c_2 = 0 $ <eq_fascio_due_parametri_forma1>
+
+Un'equazione della forma  
+$ lambda(a_1 x + b_1 y + c_1) + mu(a_2 x + b_2 y + c_2) = 0, \ quad (lambda, mu) in RR^2, quad (lambda, mu) != (0, 0) $ <eq_fascio_due_parametri_forma2>
+
+è un'equazione di grado $<= 1$. Pertanto, può rappresentare:  
+- una retta, se si tratta di un'equazione di primo grado;
+- l'insieme vuoto, se è di grado $0$ ma non costituisce un'identità;
+- l'intero piano, se assume la forma di un'identità.
+
+Gli esempi sottostanti illustrano ciascuna di queste possibilità.
+
+#esempio[Consideriamo l'equazione:  
+$ lambda(x + 2y - 1) + mu(x - y + 2) = 0 $
+
+Sviluppando l'espressione si ottiene:  
+$ (lambda + mu)x + (2lambda - mu)y - lambda + 2mu = 0 $
+
+Osserviamo che si tratta sempre di un'equazione di primo grado, indipendentemente dai valori di $lambda$ e $mu$, a condizione che non siano entrambi nulli. Infatti, non esiste alcuna configurazione in cui i coefficienti di $x$ e $y$ siano simultaneamente nulli. Conseguentemente, la relazione rappresenta sempre una retta.][Consideriamo l'equazione: 
+$ lambda(x + y + 1) + mu(x + y + 2) = 0 $ 
+
+Sviluppando l'espressione si ottiene:
+$ (lambda + mu)x + (lambda + mu)y + lambda + 2mu = 0 $
+
+Si tratta di un'equazione di primo grado se $lambda + mu != 0$; in tal caso, rappresenta una retta. Tuttavia, nel caso in cui $lambda + mu = 0$, l'equazione si riduce a $-1 = 0$, ovvero un'equazione di grado $0$ che non ammette soluzioni e rappresenta dunque l'insieme vuoto.][Consideriamo l'equazione: 
+$ lambda(x + y + 1) + mu(x + y + 1) = 0 $
+
+Sviluppando l'espressione si ottiene:
+$ (lambda + mu)x + (lambda + mu)y + lambda + mu = 0 $
+
+Anche questa è un'equazione di primo grado se $lambda + mu != 0$; in tal caso rappresenta una singola retta che corrisponde a $x + y + 1 = 0$. Se invece $lambda + mu = 0$, l'equazione diventa un'identità, cioè $0 = 0$, rappresentando l'intero piano.]
+
+Si osservi che nel primo esempio le due rette di base non sono parallele e si incontrano nel punto $P(-1, 1)$. Le altre rette della famiglia passeranno tutte per questo stesso punto. Nel secondo esempio, invece, le rette di base sono parallele e distinte. Le altre rette della famiglia rimangono parallele alle due rette di base a meno che non si considerino le coppie $(lambda, mu)$ per cui $lambda + mu = 0$, equivalenti a $mu/lambda = -1$. Queste coppie verranno definite come "non ammesse" per la combinazione lineare. Infine, nel terzo esempio, le due rette coincidono; la combinazione lineare produce nuovamente la stessa retta, sempre escludendo le coppie $(lambda, mu)$ per cui $lambda + mu = 0$ o $mu/lambda = -1$.
+
+Queste situazioni presentate nei tre esempi possono essere generalizzate. Date due rette: 
+
+$ r_1: a_1 x + b_1 y + c_1 = 0, quad r_2: a_2 x + b_2 y + c_2 = 0 $
+
+si possono distinguere i seguenti casi:
+- se le rette non sono parallele, la @eq_fascio_due_parametri_forma1 descrive l'intero fascio proprio, il cui centro è il punto di incontro $P$ di $r_1$ e $r_2$.
+- se le rette sono parallele e distinte, la @eq_fascio_due_parametri_forma1 rappresenta un fascio improprio di rette caratterizzato dalla stessa direzione delle rette di base. Si devono escludere le combinazioni di parametri che annullano simultaneamente i coefficienti di $x$ e $y$.
+- se le rette coincidono, la @eq_fascio_due_parametri_forma1  corrisponde ancora alla stessa retta; anche in questo caso, è necessario escludere le coppie di parametri che provocano la cancellazione dei coefficienti di $x$ e $y$.
+
+Riprendendo l'espressione della combinazione lineare a due parametri @eq_fascio_due_parametri_forma2 e assumendo $lambda != 0$, si può dividere per $lambda$ ottenendo:
+$ (a_1 x + b_1 y + c_1) + (mu/lambda)(a_2 x + b_2 y + c_2) = 0 $
+
+Se definiamo $k = mu/lambda$, possiamo riscrivere l'equazione come:
+$ (a_1 x + b_1 y + c_1) + k(a_2 x + b_2 y + c_2) = 0 $ <eq_fascio_due_parametri_forma3>
+
+oppure:
+$ (a_1 + k a_2)x + (b_1 + k b_2)y + (c_1 + k c_2) = 0 $ <eq_fascio_due_parametri_forma4>
+
+Come precedentemente osservato, l'equazione @eq_fascio_due_parametri_forma4 differisce dalla @eq_fascio_due_parametri_forma1 solo per il fatto che, se $r_1 != r_2$, la retta $r_2$ stessa non può essere generata da alcun valore di $k$ poiché corrisponde al caso limite $k -> oo$. In questo scenario, viene chiamata retta esclusa quella associata al valore $k = oo$. Con questa limitazione, l'equazione a parametro singolo @eq_fascio_due_parametri_forma4 mantiene le stesse caratteristiche geometriche.
+
+==== Equazione con un solo parametro
+
+Consideriamo un'equazione del tipo @eq_fascio_due_parametri_forma4, ossia un'equazione di primo grado nelle incognite $x$ e $y$, i cui coefficienti sono funzioni lineari di grado $<= 1$ di un parametro reale $k$:  
+$ (a_1 + a_2 k)x + (b_1 + b_2 k)y + (c_1 + c_2 k) = 0, quad k in RR $ <eq_fascio_un_parametro_forma1>
+
+Riscrivendo questa equazione nella forma:  
+$ (a_1 x + b_1 y + c_1) + k(a_2 x + b_2 y + c_2) = 0, quad k in RR $ <eq_fascio_un_parametro_forma2>
+
+è facile dimostrare, rifacendoci anche alle osservazioni fatte sull'equazione a due parametri, che al variare di $k$ in $RR$, gli insiemi descritti da tale equazione possono essere i seguenti:  
+- un fascio proprio di rette, sempre con l'esclusione di una retta specifica 
+- un fascio improprio, eventualmente escludendo una retta.  
+- una singola retta 
+- l'intero piano
+- un insieme vuoto  
+
+I dettagli per ciascuna situazione sono presentati nei seguenti casi:
++ fascio proprio: se le equazioni $a_1 x + b_1 y + c_1 = 0$ e $a_2 x + b_2 y + c_2 = 0$ rappresentano due rette non parallele, denominate $r_1$ e $r_2$, e $P$ ne è il punto di intersezione, allora l'equazione @eq_fascio_un_parametro_forma1 descrive un fascio proprio di rette avente come centro il punto $P$, ma privo della retta $r_2$. Questa retta è detta *retta esclusa*, poiché appartiene al fascio ma non può essere generata dalla @eq_fascio_un_parametro_forma1 per alcun valore di $k$. Si parla comunque di fascio proprio anche se, formalmente, si tratta di un abuso terminologico.  
+  - la retta $r_1$ corrisponde al valore $k = 0$.  
+  - le altre rette del fascio sono ottenute ruotando attorno a $P$: quando ci si avvicina alla retta esclusa durante la rotazione in senso orario o antiorario, i valori di $k$ tendono rispettivamente a $-oo$ o $+oo$.  
++ fascio improprio: se le equazioni $a_1 x + b_1 y + c_1 = 0$ e $a_2 x + b_2 y + c_2 = 0$ rappresentano due rette parallele, denominate $r_1$ e $r_2$, allora l'equazione @eq_fascio_un_parametro_forma1 rappresenta un fascio improprio di rette parallele a $r_2$, ma con l'esclusione della stessa $r_2$, che non può essere generata dalla @eq_fascio_un_parametro_forma1 per alcun valore di $k$. Anche in questo caso, si parla di fascio improprio per consuetudine, pur con un certo abuso di linguaggio.  
+  - la retta $r_1$ corrisponde al valore del parametro $k = 0$.  
+  - esiste un valore specifico di $k$, che annulla sia il coefficiente di $x$ sia quello di $y$, ma per tale valore l'equazione non ha soluzioni: questo valore è detto non ammesso.  
+  - le altre rette del fascio si ottengono traslando parallelamente la retta esclusa:  
+    - avvicinandosi alla retta esclusa per traslazione in direzione opposta, i valori di $k$ tendono rispettivamente a $-oo$ o $+oo$.  
+    - allontanandosi dalla retta esclusa, invece, i valori di $k$ si avvicinano al valore non ammesso da un lato (per difetto) o dall'altro (per eccesso).  
++ casi degeneri: se una delle due equazioni $a_1 x + b_1 y + c_1 = 0$ e $a_2 x + b_2 y + c_2 = 0$ non rappresenta l'equazione di una retta (ovvero non è un'equazione di primo grado), si possono distinguere i seguenti casi:
+  - se $a_1 = b_1 = 0$ e $c_1 != 0$, l'equazione @eq_fascio_un_parametro_forma1 descrive un fascio improprio di rette parallele alla retta $r_2$, escludendo però $r_2$ stessa. In questo caso, il valore $k = 0$ non è ammesso e l'equazione risulta senza soluzioni
+  - se $a_1 = b_1 = c_1 = 0$, l'equazione @eq_fascio_un_parametro_forma1 corrisponde per $k != 0$ esclusivamente alla retta $r_2$, mentre per $k = 0$ diventa un'identità
+  - se $a_2 = b_2 = 0$ e $c_2 != 0$, l'equazione @eq_fascio_un_parametro_forma1 rappresenta l'intero fascio improprio di rette parallele alla retta $r_1$, senza alcuna esclusione, e ogni valore di $k$ è ammesso. Questo caso è particolarmente rilevante perché permette di descrivere un intero fascio con una sola equazione parametrica. In generale, dato il fascio di rette parallele a una retta $r$, la cui equazione è $a x + b y + c = 0$, tale fascio si può descrivere con l'espressione:  
+  $ a x + b y + k = 0, quad k in RR $
+  - se $a_2 = b_2 = c_2 = 0$, l'equazione @eq_fascio_un_parametro_forma1 rappresenta esclusivamente la retta $r_1$. Questo caso è però banale, poiché l'equazione non contiene alcun parametro.
+
+//
+#esempio[Rappresentare graficamente l'insieme di rette descritto dall'equazione $(1 + k)x + (1 - 2k)y - 3 = 0$, che può essere riscritta come:
+$ (x + y - 3) + k(x - 2y) = 0 $
+
+Le rette fondamentali associate a questa espressione sono $r_1: x + y - 3 = 0$ e $r_2: x - 2y = 0$, le quali si intersecano nel punto $P(2, 1)$. Pertanto, l'equazione rappresenta un fascio proprio di rette con centro in $P$. La retta $r_2$ è esclusa dal fascio.
+
+Ruotando in senso orario, i valori del parametro $k$ aumentano. Per verificare questa affermazione, è sufficiente tracciare due rette corrispondenti a differenti valori di $k$ e osservare la rotazione rispetto al semipiano delimitato dalla retta esclusa. Nella @esempio_grafico_fascio1 sono stati riportati due esempi: per $k = 0$ si ottiene la retta base $r_1$, mentre per $k = 1/2$ si ottiene una retta verticale passante per il punto $P$.
+
+#esempio_grafico_fascio1
+][Rappresentare graficamente  l'insieme di rette definito dall'equazione $(x - 2y) + k(x - 2y + 4) = 0$, che può essere riscritta nella forma equivalente:
+$ (1 + k)x - 2(1 + k)y + 4k = 0 $
+
+In questo caso, le rette base sono $r_1: x - 2y = 0$ e $r_2: x - 2y + 4 = 0$, che risultano parallele. Ne consegue che l'equazione rappresenta un fascio improprio, ossia un insieme di rette parallele con la stessa direzione di $r_1$ e $r_2$. La retta $r_2$ è esclusa dal fascio.
+
+Inoltre, per $k = -1$, sia il coefficiente di $x$ che quello di $y$ si annullano, rendendo non definito tale valore per il parametro (valore non ammesso). Come illustrato nella @esempio_grafico_fascio2, il parametro $k$ cresce in una direzione ben precisa: è possibile osservare questa dinamica tracciando due rette corrispondenti a valori distinti di $k$ e analizzando il comportamento nei semipiani definiti dalla retta esclusa.
+
+#esempio_grafico_fascio2
+][Individuare le caratteristiche dell'insieme delle rette rappresentato dall'equazione $x - 2y + 1 + 3k = 0$, che può essere riscritta come:
+$ (x - 2y + 1) + k(3) = 0 $
+
+L'equazione $x - 2y + 1 = 0$ rappresenta una retta, chiamata $r_1$, mentre l'equazione $3 = 0$ non ammette soluzioni. Di conseguenza, l'intero insieme rappresenta un fascio di rette parallele alla retta $r_1$, che include tutte le rette parallele senza escluderne alcuna e senza limitazioni sui valori del parametro $k$.]
+
+Un caso di particolare interesse riguarda il fascio proprio di rette descritto dalla seguente equazione, richiamata qui sotto per completezza:
+$ y - y_0 = m(x - x_0) $ <eq_fascio_proprio_m>
+
+Questa equazione rappresenta la retta non verticale che passa per un punto fissato $P(x_0, y_0)$ con coefficiente angolare $m$. Se vista come equazione di primo grado in due incognite ($x$ e $y$), con parametro $m$, essa descrive altresì un fascio di rette avente come centro il punto $P(x_0, y_0)$. Tuttavia, la retta verticale $x = x_0$, che passa anch'essa per $P$, è esclusa da tale fascio. Per questa ragione, tale insieme viene definito come il fascio di rette non verticali con centro $P$.
+
+È importante sottolineare che un'equazione di primo grado in due incognite, i cui coefficienti dipendono da un parametro, rappresenta un fascio di rette (salvo eccezioni) solo se la dipendenza dai coefficienti rispetto al parametro è lineare.
+
+Per esempio, si consideri la famiglia di rette definita dall'equazione:
+$ x - 2y + k^2 = 0 $
+
+In questo caso, tale equazione non rappresenta un fascio di rette propriamente detto. Sebbene le rette della famiglia siano tutte parallele alla retta di riferimento $x - 2y = 0$, la loro ordinata all'origine assume valori $>= 0$, mostrando una dipendenza non lineare rispetto a $k$.
+
+//
+
+#grafico-sezioni-coniche

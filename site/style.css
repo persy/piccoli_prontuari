@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
     color: var(--text-color);
     max-width: 1000px;
     margin: 60px auto;
@@ -14,18 +14,71 @@ body {
     background-color: var(--bg-color);
 }
 
+h1, h2, .macro-area-title { 
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+}
+
 h1 { 
     color: #0f172a; 
     font-size: 2.6rem;
-    font-weight: 800;
+    font-weight: 900;
     margin-bottom: 8px;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.035em;
+    margin: auto;
+    text-align: center;
+    
+    /* Configurazione gradiente animato */
+    background: linear-gradient(
+        90deg, 
+        #2563eb,
+        #4f46e5,
+        #0d9488,
+        #059669,
+        #0284c7,
+        #ea580c,
+        #d97706,
+        #b45309,
+        #991b1b,
+        #be185d,
+        #e23eb1,
+        #2563eb
+    );
+    background-size: 400% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: cangiante 20s linear infinite;
+}
+
+/* Animazione per lo scorrimento del gradiente */
+@keyframes cangiante {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #475569;
+    text-align: center;
+    margin-top: -4px;
+    margin-bottom: 24px;
+    min-height: 2rem; /* Evita oscillazioni di layout */
+}
+
+#carousel-text::after {
+    content: '|';
+    margin-left: 3px;
+    color: #2563eb; /* Colore del cursore coordinato con la prima macro-area */
+    animation: cursore 0.75s step-end infinite;
 }
 
 .intro {
     font-size: 1.15rem;
     color: var(--text-muted);
-    margin-bottom: 50px;
+    margin: 0 auto 50px auto;
+    text-align: center;
     max-width: 700px;
 }
 
@@ -141,10 +194,12 @@ h1 {
 }
 
 .card p {
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
     margin: 0 0 24px 0;
     color: var(--text-muted);
-    font-size: 0.93rem;
-    line-height: 1.6;
     flex-grow: 1; /* Spinge il pulsante sul fondo della card */
 }
 
