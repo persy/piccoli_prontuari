@@ -40,19 +40,18 @@ if (canvas) {
     const ctx = canvas.getContext('2d');
     let particles = [];
     const connectionDist = 130;
+    let lastWidth = window.innerWidth; // Memorizza la larghezza iniziale
 
-    function resize() {
+    function setCanvasSize() {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
     }
-    window.addEventListener('resize', resize);
-    resize();
 
     class Particle {
         constructor() {
             this.x = Math.random() * canvas.width;
             this.y = Math.random() * canvas.height;
-            this.vx = (Math.random() - 0.5) * 0.3; // Velocità ridotta per un effetto rilassante
+            this.vx = (Math.random() - 0.5) * 0.3;
             this.vy = (Math.random() - 0.5) * 0.3;
         }
         update() {
@@ -65,13 +64,23 @@ if (canvas) {
 
     function init() {
         particles = [];
-        const count = Math.floor((canvas.width * canvas.height) / 30000); // Quantità proporzionale allo schermo
+        const count = Math.floor((canvas.width * canvas.height) / 30000);
         for (let i = 0; i < count; i++) {
             particles.push(new Particle());
         }
     }
+
+    // Configurazione iniziale
+    setCanvasSize();
     init();
-    window.addEventListener('resize', init);
+
+    // Controlla il resize solo se cambia la larghezza (ignora lo scroll mobile)
+    window.addEventListener('resize', () => {
+        if (window.innerWidth === lastWidth) return; 
+        lastWidth = window.innerWidth;
+        setCanvasSize();
+        init();
+    });
 
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
