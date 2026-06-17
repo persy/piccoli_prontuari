@@ -1420,7 +1420,7 @@ caption: []
 ]
 ]]
 
-#let funzione_polinomiale_II_grado = [
+#let grafico_polinomiale_secondo_grado = [
   #figure(
   cetz.canvas({
   import cetz.draw: *
@@ -1455,7 +1455,7 @@ caption: []
   )
 }),
 caption: []
-) <funzione_polinomiale_II_grado>
+) <grafico_polinomiale_secondo_grado>
 ]
 
 #let funzione_valore_assoluto = [

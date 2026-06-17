@@ -97,9 +97,9 @@ Nel grafico della @grafico_cartesiano_retta sono compresi anche i punti preceden
 
 #grafico_cartesiano_retta_punti 
 
-In tutti i grafici cartesiani fin qui presentati è stata utilizzata la stessa unità di misura su entrambi gli assi: tali sistemi cartesiani sono detti monometrici. Tuttavia, nelle applicazioni pratiche questa condizione non è sempre soddisfatta, e come vedremo più avanti, l'uso di unità di misura differenti sui due assi può comportare deformazioni delle figure rappresentate. Ad esempio, nelle @grafico_cartesiano_circonferenza1 e @grafico_cartesiano_circonferenza2 sono mostrati due grafici che rappresentano una circonferenza di centro nell'origine e raggio pari a 1 in due sistemi di coordinate diversi; solo uno dei due è monometrico.
+In tutti i grafici cartesiani fin qui presentati è stata utilizzata la stessa unità di misura su entrambi gli assi: tali sistemi cartesiani sono detti monometrici. Tuttavia, nelle applicazioni pratiche questa condizione non è sempre soddisfatta, e come vedremo più avanti, l'uso di unità di misura differenti sui due assi può comportare deformazioni delle figure rappresentate. Ad esempio, nelle #ref(<grafico_cartesiano_circonferenza1>, supplement: "Figure") e #ref(<grafico_cartesiano_circonferenza2>, supplement: none) sono mostrati due grafici che rappresentano una circonferenza di centro nell'origine e raggio pari a 1 in due sistemi di coordinate diversi; solo uno dei due è monometrico.
 
-Analogamente, nelle @grafico_cartesiano_bisettrice1 e @grafico_cartesiano_bisettrice2 sono rappresentate la bisettrice del primo e terzo quadrante nei medesimi due sistemi cartesiani delle figure precedenti per evidenziare le differenze.
+Analogamente, nelle #ref(<grafico_cartesiano_bisettrice1>, supplement: "Figure") e #ref(<grafico_cartesiano_bisettrice2>, supplement: none) sono rappresentate la bisettrice del primo e terzo quadrante nei medesimi due sistemi cartesiani delle figure precedenti per evidenziare le differenze.
 
 #griglia_grafici_deformazioni
 
@@ -386,13 +386,13 @@ Ciò implica che $y$ e $x$ siano direttamente proporzionali; se $x$ aumenta o di
 
 Le funzioni del tipo $f(x) = m x + q$ con $q = 0$ sono dette funzioni lineari, mentre quelle con $q != 0$ vengono definite funzioni affini. Approfondiremo ulteriormente queste tematiche e altre proprietà delle funzioni polinomiali di primo grado nell'ambito dello studio della retta in geometria analitica.
 
-=== La funzione polinomiale di secondo grado  
+=== La funzione polinomiale di secondo grado <funzione_polinomiale_secondo_grado>
 La seconda funzione che vogliamo analizzare è quella definita come:  
 $ f(x) = a x^2 + b x + c $ ,oppure, più semplicemente: $ y = a x^2 + b x + c, quad a != 0 $  
 
-#funzione_polinomiale_II_grado
+#grafico_polinomiale_secondo_grado
 
-Questa funzione è denominata polinomiale di secondo grado e il suo grafico è una parabola con asse di simmetria verticale (@funzione_polinomiale_II_grado). Le sue principali caratteristiche si possono riassumere nel modo seguente:  
+Questa funzione è denominata polinomiale di secondo grado e il suo grafico è una parabola con asse di simmetria verticale (@grafico_polinomiale_secondo_grado). Le sue principali caratteristiche si possono riassumere nel modo seguente:  
 
 + La forma della parabola dipende dal valore di a:
    - Se $a > 0$, la concavità della parabola è rivolta verso l'alto (la parabola "sorride").
@@ -432,7 +432,7 @@ Questa categorizzazione ha implicazioni sul grafico delle funzioni:
 - le funzioni pari hanno un grafico simmetrico rispetto all'asse delle ordinate.
 - le funzioni dispari mostrano un grafico simmetrico rispetto all'origine del piano cartesiano
 
-Affinché queste simmetrie abbiano senso, è necessario che il dominio della funzione sia simmetrico rispetto all'origine, caratteristica che si verifica per le funzioni potenza qui descritte. Nelle @funzione_pari e @funzione_dispari vengono mostrati esempi di grafici di una funzione pari e di una funzione dispari. Un altro esempio di funzione pari già trattata è la funzione valore assoluto.
+Affinché queste simmetrie abbiano senso, è necessario che il dominio della funzione sia simmetrico rispetto all'origine, caratteristica che si verifica per le funzioni potenza qui descritte. Nelle #ref(<funzione_pari>, supplement: "Figure") e #ref(<funzione_dispari>, supplement: none) vengono mostrati esempi di grafici di una funzione pari e di una funzione dispari. Un altro esempio di funzione pari già trattata è la funzione valore assoluto.
 
 #funzioni_pari_dispari
 
@@ -467,7 +467,7 @@ Questa funzione è comunemente nota come funzione reciproca. Il suo grafico è u
 
 #funzione_esponente_-1
 
-Espressa nella forma $y = frac(1, x, style: "skewed")$, per $x != 0$ si può osservare che il prodotto tra $x$ e $y$ è sempre uguale a 1 ($x y = 1$), il che implica che $x$ e $y$ sono inversamente proporzionali: all'aumentare di una variabile, l'altra diminuisce proporzionalmente. In generale, una relazione di proporzionalità inversa assume la forma $y = frac(k, x, style: "skewed")$, e la funzione reciproca è un caso particolare con $k = 1$. Nelle @funzione_esponente_-1k trovate i grafici delle funzioni $f(x) = frac(k, x, style: "skewed")$, per $k = 2$ (a sinistra) e $k = -2$ (a destra).
+Espressa nella forma $y = frac(1, x, style: "skewed")$, per $x != 0$ si può osservare che il prodotto tra $x$ e $y$ è sempre uguale a 1 ($x y = 1$), il che implica che $x$ e $y$ sono inversamente proporzionali: all'aumentare di una variabile, l'altra diminuisce proporzionalmente. In generale, una relazione di proporzionalità inversa assume la forma $y = frac(k, x, style: "skewed")$, e la funzione reciproca è un caso particolare con $k = 1$. Nella @funzione_esponente_-1k trovate i grafici delle funzioni $f(x) = frac(k, x, style: "skewed")$, per $k = 2$ (a sinistra) e $k = -2$ (a destra).
 
 #funzione_esponente_-1k
 

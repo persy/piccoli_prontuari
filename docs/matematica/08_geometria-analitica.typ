@@ -12,6 +12,7 @@
 
 In precedenza, ci siamo avvalsi principalmente delle coordinate cartesiane per rappresentare i grafici di funzioni reali. In questo capitolo, approfondiremo l'argomento in modo più sistematico.
 
+
 == Concetti di base
 
 Iniziamo richiamando il concetto di ascisse sulla retta, già discusso nella @ascisse_retta. Sappiamo che è possibile stabilire una corrispondenza biunivoca tra i numeri reali e i punti di una retta, adottando un sistema di ascisse sulla stessa. Per questa ragione, la retta viene identificata con l'asse delle ascisse. Il processo si sviluppa come segue: su una retta $r$, si sceglie un punto $O$, chiamato origine, e un altro punto $U$. Assumendo la lunghezza del segmento $overline(O U)$ come unità di misura, al punto $U$ si associa il numero reale $1$. A ogni altro punto $P$ della semiretta $overline(O U)$ viene associato un numero reale positivo che corrisponde alla lunghezza del segmento $overline(O P)$. Analogamente, a ciascun punto $P$ dell'altra semiretta con origine $O$ si associa l'opposto del numero che rappresenta la lunghezza del segmento $overline(O P)$.
@@ -519,7 +520,7 @@ Possiamo concludere che tutte le verifiche richieste sono soddisfatte per i rela
 
 ]
 
-=== Famiglie di curve  
+=== Famiglie di curve <cap_famiglie_curve> 
 
 Se $f(x, y) = 0$ e $g(x, y) = 0$ rappresentano le equazioni di due curve, rispettivamente $Phi$ e $Gamma$, nel piano, allora, variando $lambda$ e $mu$ in $RR$, le equazioni  
 $ lambda f(x, y) + mu g(x, y) = 0, quad (lambda, mu) != (0, 0) $ <eq_combinazione_lineare>
@@ -614,7 +615,7 @@ $ (a_1 x + b_1 y + c_1) + k(a_2 x + b_2 y + c_2) = 0, quad k in RR $ <eq_fascio_
 - un insieme vuoto  
 
 I dettagli per ciascuna situazione sono presentati nei seguenti casi:
-+ fascio proprio: se le equazioni $a_1 x + b_1 y + c_1 = 0$ e $a_2 x + b_2 y + c_2 = 0$ rappresentano due rette non parallele, denominate $r_1$ e $r_2$, e $P$ ne è il punto di intersezione, allora l'equazione @eq_fascio_un_parametro_forma1 descrive un fascio proprio di rette avente come centro il punto $P$, ma privo della retta $r_2$. Questa retta è detta *retta esclusa*, poiché appartiene al fascio ma non può essere generata dalla @eq_fascio_un_parametro_forma1 per alcun valore di $k$. Si parla comunque di fascio proprio anche se, formalmente, si tratta di un abuso terminologico.  
++ fascio proprio: se le equazioni $a_1 x + b_1 y + c_1 = 0$ e $a_2 x + b_2 y + c_2 = 0$ rappresentano due rette non parallele, denominate $r_1$ e $r_2$, e $P$ ne è il punto di intersezione, allora l'equazione @eq_fascio_un_parametro_forma1 descrive un fascio proprio di rette avente come centro il punto $P$, ma privo della retta $r_2$. Questa retta è detta retta esclusa, poiché appartiene al fascio ma non può essere generata dalla @eq_fascio_un_parametro_forma1 per alcun valore di $k$. Si parla comunque di fascio proprio anche se, formalmente, si tratta di un abuso terminologico.  
   - la retta $r_1$ corrisponde al valore $k = 0$.  
   - le altre rette del fascio sono ottenute ruotando attorno a $P$: quando ci si avvicina alla retta esclusa durante la rotazione in senso orario o antiorario, i valori di $k$ tendono rispettivamente a $-oo$ o $+oo$.  
 + fascio improprio: se le equazioni $a_1 x + b_1 y + c_1 = 0$ e $a_2 x + b_2 y + c_2 = 0$ rappresentano due rette parallele, denominate $r_1$ e $r_2$, allora l'equazione @eq_fascio_un_parametro_forma1 rappresenta un fascio improprio di rette parallele a $r_2$, ma con l'esclusione della stessa $r_2$, che non può essere generata dalla @eq_fascio_un_parametro_forma1 per alcun valore di $k$. Anche in questo caso, si parla di fascio improprio per consuetudine, pur con un certo abuso di linguaggio.  
@@ -666,4 +667,1517 @@ In questo caso, tale equazione non rappresenta un fascio di rette propriamente d
 
 //
 
-#grafico-sezioni-coniche
+== Coniche
+
+Nello studio della geometria euclidea, dopo il concetto di retta, ci si imbatte generalmente in una singola curva distintiva: la circonferenza, che si distingue per le sue proprietà significative. Le coniche rappresentano le curve piane più semplici immediatamente successive alla circonferenza e sono tra le prime ad essere state esplorate storicamente. La loro teoria come sezioni ha raggiunto quasi una forma definitiva grazie al lavoro di Apollonio di Perga (o Perge) nel celebre trattato risalente alla fine del III secolo a.C., di cui parleremo brevemente nella @coniche_sezioni.
+
+Dal punto di vista della geometria analitica, tuttavia, è particolarmente interessante trattare le coniche come luoghi geometrici specifici. Esiste un noto teorema che dimostra come le sezioni coniche possano essere definite anche come luoghi geometrici. Questo teorema, pubblicato nel 1822 dal matematico belga G.P. Dandelin, è conosciuto anche come "Teorema del cono gelato". Nel seguito, analizzeremo esplicitamente le situazioni più comuni.
+
+La ragione per cui, nell'ambito della geometria analitica, le coniche vengono introdotte subito dopo la trattazione della retta è legata al fatto che ogni equazione di secondo grado in due incognite rappresenta, nel piano cartesiano, una conica (anche nella sua forma "degenere"). Viceversa, ogni conica può essere descritta nel piano in cui è definita mediante un sistema cartesiano $O x y$ attraverso un'equazione di secondo grado in due variabili. In termini analitici, il passaggio dalla retta alle coniche equivale alla transizione dalle equazioni di primo grado a quelle di secondo grado in due incognite. Per dimostrare questa relazione, si può affermare che ogni conica, anche se degenere, è descritta dall'equazione#footnote[$A$, $B$ e $C$ non contemporaneamente nulli.]:
+$ A x^2 + B x y + C y^2 + D x + E y + F = 0, quad not (A and B and C = 0) $ <eq_conica_generale>
+
+D'altro canto, ogni equazione di secondo grado del tipo sopra riportato rappresenta una conica, eventualmente degenere. L'equazione contiene sei parametri; tuttavia, poiché almeno uno tra i primi tre deve essere diverso da zero, essa può essere ridotta a una forma contenente cinque parametri. Di conseguenza, per determinare una conica saranno necessarie cinque condizioni indipendenti e compatibili, ad esempio il passaggio per cinque punti distinti. Verranno affrontati ulteriormente casi tipici nei paragrafi successivi.
+
+Un problema di rilevante importanza pratica nella teoria delle coniche è la determinazione delle tangenti condotte da un punto assegnato o aventi una direzione precisa. Va considerato che tale problema non sempre ammette soluzioni: un esempio comune è quello delle tangenti condotte da un punto interno a una circonferenza. Nei vari contesti che esamineremo più avanti, verranno individuate strategie specifiche per calcolare tali tangenti.
+
+È comunque utile introdurre sin da ora una tecnica generale applicabile a tutte le tipologie di coniche. Questa si basa su una proprietà ben nota delle tangenti alla circonferenza, che può essere estesa ad altre coniche: una retta risulta tangente a una conica se e solo se ha con essa punti di intersezione coincidenti. Tradotto in termini analitici, il sistema costituito dall'equazione della conica e dell'equazione della retta:
+$ cases(
+  A x^2 + B x y + C y^2 + D x + E y + F = 0,
+  a x + b y + c = 0
+) $
+
+ha due soluzioni coincidenti se la retta è tangente alla conica. Risolvendo il sistema, si esprime $x$ o $y$ dalla seconda equazione e si sostituisce nell'equazione della conica, ottenendo un'equazione di grado $<= 2$ denominata equazione risolvente. La condizione di tangenza tra la retta e la conica si verifica se e solo se questa equazione risolvente è di secondo grado e ha discriminante nullo ($Delta = 0$). Tuttavia, è cruciale verificare che l'equazione risolvente sia effettivamente di secondo grado e prima di analizzarne il discriminante.
+
+Se consideriamo, ad esempio, la conica $x^2 + 3x - 2y - 2 = 0$ (che, come vedremo, rappresenta una parabola) e la retta $x - 1 = 0$, il sistema:
+$ cases(
+  x^2 + 3x - 2y - 2 = 0,
+  x - 1 = 0
+) $
+
+ha come unica soluzione il punto $(1, 1)$. Tuttavia, l'equazione risolvente risulta essere $y - 1 = 0$, che non è di secondo grado. Ciò significa che la retta e la conica non sono tangenti, pur condividendo un solo punto in comune.
+
+In generale, per determinare le tangenti a una conica da un punto $P(x_0, y_0)$, si considera il fascio proprio di rette con centro in $P$, e si richiede che il discriminante dell'equazione risolvente del sistema tra il fascio di rette e la conica sia nullo. Se invece si vogliono trovare le tangenti di una determinata direzione, basta considerare un fascio improprio di rette anziché uno proprio. 
+
+#esempio[Determinare eventuali tangenti alla conica di equazione $x^2 + 2y^2 + 2x = 0$ passanti per il punto $P(0, 1)$.
+
+Costruiamo il fascio di rette per $P$, rappresentabile nella forma $y - 1 = m x$. Da esso risulta esclusa la retta $x = 0$, che tratteremo separatamente. Il sistema risultante tra la conica e il fascio di rette è:
+$ cases(
+  x^2 + 2y^2 + 2x = 0,
+  y - 1 = m x
+) $
+
+Sostituendo la seconda equazione nella prima, otteniamo l'equazione risolvente:
+$ (1 + 2m^2)x^2 + 2(2m + 1)x + 2 = 0 $
+
+Questa è un'equazione di secondo grado rispetto a $x$. Affinché il fascio generi una tangente alla conica, il discriminante $Delta$ (o il discriminante ridotto $Delta / 4$) deve essere nullo. Calcolando il discriminante, si trova che ciò accade per $m = 1/4$. Di conseguenza, la retta:
+$ y = 1/4 x + 1 $
+
+è tangente alla conica.
+
+Esaminiamo ora la retta esclusa $x = 0$. Il sistema con la conica può essere risolto immediatamente, e l'equazione risolvente diventa $y^2 = 0$. Trattandosi di un'equazione di secondo grado con discriminante pari a zero, deduciamo che anche la retta $x = 0$ è tangente alla conica.
+
+Va sottolineato che per affrontare questo problema non è stato necessario classificare il tipo di conica considerata, dato che la strategia adottata è indipendente dalla natura della curva. Tuttavia, per completezza, segnaliamo che la conica in questione è un'ellisse. Nella @grafico_conica1 è riportata la sua rappresentazione insieme alle tangenti trovate.
+
+#grafico_conica1
+]
+
+Per determinare l'unica tangente a una conica in un punto specifico $P(x_0, y_0)$, si possono utilizzare le formule di sdoppiamento. Dato che la conica ha un'equazione del tipo $A x^2 + B x y + C y^2 + D x + E y + F = 0$ e il punto $P$ appartiene alla conica, l'equazione della tangente in $P$ può essere trovata direttamente attraverso opportune sostituzioni nell'equazione della conica.
+
+Queste sostituzioni sono così definite:
+$ x^2 -> x_0 x, quad y^2 -> y_0y, \ x -> (x + x_0) / 2, quad y -> (y + y_0) / 2, \ x y -> (x y_0 + x_0 y) / 2 $
+
+Applicando queste trasformazioni si ottiene l'equazione esplicita della tangente nel punto $P(x_0, y_0)$.
+
+#esempio[Data la conica:
+$ 4x^2 + y^2 + 5x y + x - y = 0 $
+
+l'equazione della tangente nel punto $P_0(0, 1)$ si ottiene applicando le formule di sdoppiamento:
+$ y + (5x + x - y - 1)/2 = 0 $
+
+da cui si ricava la forma semplificata:
+$ 6x + y - 1 = 0 $
+
+In questo caso, non è necessario determinare il tipo di conica per scrivere l'equazione della tangente. Per completezza, viene considerato il grafico della curva in @grafico_conica2, che si identifica come un'iperbole, insieme alla tangente relativa al punto $P_0$.
+
+#grafico_conica2
+
+]
+
+=== Le coniche come sezioni <coniche_sezioni>
+
+In un piano $pi$ consideriamo due rette distinte $a$ e $g$, non perpendicolari, e immaginiamo di far compiere, nello spazio, una rotazione completa di $g$ attorno ad $a$. Se $a$ e $g$ si intersecano in un punto $V$, individuando un angolo acuto $alpha$ ($0 < alpha < pi/2$), otterremo una superficie detta cono circolare a due falde indefinito di semiapertura $alpha$. Se $a$ e $g$ sono parallele otterremo un cilindro circolare indefinito (cono degenere). 
+
+In entrambi i casi, illustrati nelle  #ref(<grafico_rotazione_retta_cono>, supplement: "Figure") e #ref(<grafico_rotazione_retta_cilindro>, supplement: none), la retta $a$ si chiama asse, mentre la retta $g$ e quelle ottenute dalla rotazione si chiamano generatrici. Il punto $V$ è il vertice del cono.
+
+#align(center)[#grid(columns: 2, column-gutter: 5em, align: bottom + center)[#grafico_rotazione_retta_cono][#grafico_rotazione_retta_cilindro]]
+
+==== Coniche non degeneri
+
+Consideriamo ora un piano sezionante $delta$ nello spazio. Se $delta$ non passa per $V$ (nel caso del cono) o non è parallelo ad $a$ (nel caso del cilindro), l'intersezione genera una conica non degenere.
+- cilindro: si ottiene sempre un'ellisse (@cilindro_sezionato_ellisse) o una circonferenza se $delta$ è perpendicolare all'asse $a$ (@cilindro_sezionato_circonferenza)
+- cono: detto $beta$ l'angolo non ottuso tra $delta$ e $a$ ($0 <= beta <= pi/2$), si ottiene:
+  - un'ellisse se $beta > alpha$ (@conica_asserita_ellisse o una circonferenza se $beta = pi/2$ (@conica_asserita_circonferenza)
+  - una parabola se $beta = alpha$ (@conica_asserita_parabola)
+  - un'iperbole se $beta < alpha$, il piano interseca entrambe le falde, generando due rami (@conica_asserita_iperbole)
+
+==== Coniche degeneri
+
+Se il piano $delta$ passa per il vertice $V$ o è parallelo all'asse del cilindro, si ottengono coniche degeneri. Nel caso del cono:
+- un punto (il vertice $v$) se $beta > alpha$ (@conica_asserita_punto_deg)
+- coppia di rette incidenti se $beta < alpha$ (@conica_asserita_rette_deg)
+- coppia di rette coincidenti se $beta = alpha$, con il piano tangente al cono (@conica_asserita_retta_deg)
+
+#grid(
+  columns: (1fr, 1fr, 1fr),
+  row-gutter: 10pt,
+  column-gutter: 5pt,
+  align: bottom + center,
+  [ #conica-asserita(a: 0.0, z0: 1.3) <conica_asserita_circonferenza>],
+  [ #conica-asserita(a: 0.3, z0: 0.8) <conica_asserita_ellisse> ],
+  [ #conica-asserita(a: 1.0, z0: 0.6) <conica_asserita_parabola> ],
+  [ #conica-asserita(a: 2.0, z0: 0.5) <conica_asserita_iperbole> ],
+  [ #conica-asserita(a: 0.0, z0: 0.0) <conica_asserita_punto_deg> ],
+  [ #conica-asserita(a: 1.4, z0: 0.0) <conica_asserita_rette_deg> ], 
+  [],[ #conica-asserita(a: 1.0, z0: 0.0) <conica_asserita_retta_deg>  ],[]
+
+)
+
+#v(2em)
+
+Nel caso del cilindro:
+- insieme vuoto se il piano è esterno al cilindro
+- coppia di rette parallele negli altri casi (@cilindro_sezionato_parallele)
+- coppia di rette coincidenti se il piano è tangente al cilindro (@cilindro_sezionato_degenere)
+
+#grid(
+  columns: (1fr, 1fr),
+  row-gutter: 25pt,
+  column-gutter: -5pt,
+  align: bottom + center,
+  [ #cilindro-sezionato(modo: "circonferenza")<cilindro_sezionato_circonferenza>  ],
+  [ #cilindro-sezionato(modo: "ellisse") <cilindro_sezionato_ellisse> ],
+  [ #cilindro-sezionato(modo: "parallele") <cilindro_sezionato_parallele> ],
+  [ #cilindro-sezionato(modo: "degenere") <cilindro_sezionato_degenere> ]
+) 
+//
+=== Le coniche come luoghi geometrici
+
+Le coniche, in accordo con il teorema di Dandelin, possono essere descritte come precisi luoghi geometrici del piano. Ci concentreremo esclusivamente sulle configurazioni non degeneri.
+
+#definizione(title: "Teorema", label: <teorema_ellisse>)[In un piano $pi$, dati due punti $F_1$ e $F_2$ detti fuochi, l'ellisse è il luogo geometrico dei punti per cui la somma delle distanze da $F_1$ e $F_2$ è costante e superiore alla distanza tra i fuochi stessi. Se i due fuochi coincidono, l'ellisse si riduce a una circonferenza.]
+
+#definizione(title: "Teorema", label: <teorema_iperbole>)[In un piano $pi$, dati due punti $F_1$ e $F_2$ detti fuochi, l'iperbole è il luogo geometrico dei punti per cui il valore assoluto della differenza delle distanze da $F_1$ e $F_2$ è costante e diversa da zero.]
+
+#definizione(title: "Teorema", label: <teorema_parabola>)[In un piano $pi$, dato un punto $F$ detto fuoco e una retta $d$ detta direttrice ($F in/ d$), la parabola è il luogo geometrico dei punti equidistanti da $F$ e da $d$.]
+
+La parabola si distingue per proprietà strutturali diverse rispetto a ellisse e iperbole, che condividono invece un'impostazione concettuale analoga. Sebbene sia possibile formulare una definizione geometrica univoca per tutte e tre le curve basata su una proprietà comune (la complementarità rispetto all'eccentricità), tale approccio esula dagli obiettivi di questo manuale.
+
+I teoremi @teorema_ellisse, @teorema_iperbole e @teorema_parabola pongono le basi per ricavare le rispettive equazioni cartesiane. Procedendo, ci limiteremo ad analizzare le forme canoniche derivanti da scelte specifiche degli assi coordinati.
+
+//
+== Circonferenza nel piano cartesiano
+
+Secondo la definizione della geometria euclidea, la circonferenza è il luogo geometrico dei punti del piano equidisatanti da un punto fisso detto centro $C(x_C, y_C)$. La distanza costante è detta raggio $r$. 
+
+In un sistema cartesiano ortogonale $O x y$, un punto generico $P(x, y)$ appartiene alla circonferenza se soddisfa la relazione di distanza:
+$ sqrt((x - x_C)^2 + (y - y_C)^2) = r $
+
+Elevando al quadrato entrambi i membri (lecito essendo entrambi i termini positivi):
+$ (x - x_C)^2 + (y - y_C)^2 = r^2 $ <eq_circonferenza_base>
+
+Sviluppando i quadrati si ottiene:
+$ x^2 + y^2 - 2x_C x - 2y_C y + x_C^2 + y_C^2 - r^2 = 0 $
+
+Ponendo le definizioni delle costanti:
+$ a = -2x_C, quad b = -2y_C, quad c = x_C^2 + y_C^2 - r^2 $
+
+L'equazione assume la forma canonica:
+$ x^2 + y^2 + a x + b y + c = 0 $ <eq_circonferenza_canonica>
+
+Inversamente, un'equazione in forma canonica, come la @eq_circonferenza_canonica, rappresenta una circonferenza reale se e solo se è verificata la condizione di esistenza:
+$ a^2/4 + b^2/4 - c >= 0 $ <eq_esistenza_circonferenza>
+
+Sotto tale condizione, le coordinate del centro e la misura del raggio sono determinate dalle formule:
+$ x_C = -a/2, quad y_C = -b/2, quad r = sqrt(a^2/4 + b^2/4 - c) $ <eq_centro_raggio>
+
+L'equazione della circonferenza si ricava dall'equazione generale delle coniche $A x^2 + B x y + C y^2 + D x + E y + F = 0$ imponendo le condizioni:
+$ A = C != 0, quad B = 0 $
+
+L'equazione assume quindi la forma:
+$ A x^2 + A y^2 + D x + E y + F = 0, quad A != 0 $
+Dividendo per $A$ si riconduce il sistema alla forma canonica#footnote[Da notare che la @eq_esistenza_circonferenza e la @eq_centro_raggio valgono solo per la forma canonica dell'equazione.] @eq_circonferenza_canonica per la verifica del raggio e del centro. Invece di memorizzare altre formule, è possibile determinare centro e raggio tramite il completamento del quadrato dei termini in $x$ e $y$:
+$ &x^2 + y^2 + a x + b y + c = (x^2 + a x) + (y^2 + b y) + c \
+&= (x^2 + a x + a^2/4) + (y^2 + b y + b^2/4) + c - a^2/4 - b^2/4 \
+&= (x + a/2)^2 + (y + b/2)^2 + c - a^2/4 - b^2/4 $
+
+Riscrivendo l'equazione canonica si ottiene:
+$ (x + a/2)^2 + (y + b/2)^2 = a^2/4 + b^2/4 - c $
+
+Il confronto diretto con la relazione geometrica @eq_circonferenza_base permette di fornire la condizione @eq_esistenza_circonferenza e identificare immediatamente il centro e il raggio (@eq_centro_raggio).
+
+#esempio[
+Determinare il centro e il raggio della circonferenza data dall'equazione:
+$ 4x^2 + 4y^2 - 4x - 16y + 13 = 0 $
+
+Dividendo per $4$, l'equazione si riscontra in forma canonica:
+$ x^2 + y^2 - x - 4y + 13/4 = 0 $
+
+Utilizzando il metodo del completamento dei quadrati:
+$ &x^2 + y^2 - x - 4y + 13/4 = (x^2 - x) + (y^2 - 4y) + 13/4 \
+&= [x^2 - x + (1/2)^2] + [y^2 - 4y + 4] - 1/4 - 4 + 13/4 \
+&= (x - 1/2)^2 + (y - 2)^2 - 1 $
+
+L'equazione può quindi essere riscritta come:
+$ (x - 1/2)^2 + (y - 2)^2 = 1 $
+
+Da questa forma si deduce immediatamente che l'equazione rappresenta una circonferenza con centro $C(1/2, 2)$ e raggio $r = 1$.]
+
+=== Tangenti a una circonferenza
+
+Per determinare le tangenti a una circonferenza, si possono applicare i metodi generali utilizzati per le coniche. Tuttavia, grazie alle proprietà geometriche di questa curva, sono disponibili procedure più rapide ed efficienti.
+
+Se il punto $P(x_0, y_0)$ appartiene alla curva, la tangente si può ricavare imponendo la perpendicolarità al raggio passante per $P$ o tramite le formule di sdoppiamento. Se invece $P$ è esterno, si può imporre che la distanza del centro dal fascio di rette sia uguale al raggio.
+
+#esempio[Determinare, applicando i diversi metodi proposti, le eventuali tangenti alla circonferenza $x^2 + y^2 + 2x - 2y - 3 = 0$ condotte dal punto $P(1, 2)$.
+
+Tramite completamento dei quadrati l'equazione diventa $(x + 1)^2 + (y - 1)^2 = 5$, da cui ricaviamo il centro $C(-1, 1)$ e il raggio $r = sqrt(5)$. Il punto $P(1, 2)$ appartiene alla circonferenza poiché ne soddisfa l'equazione.
+
++ Metodo del discriminante (fascio di rette): \
+  Consideriamo il fascio di rette per $P$: $y - 2 = m(x - 1)$. Impostiamo il sistema:
+  $ cases(
+    x^2 + y^2 + 2x - 2y - 3 = 0,
+    y - 2 = m(x - 1)
+  ) $
+  L'equazione risolvente è:
+  $ (1 + m^2)x^2 + 2(1 + m - m^2)x + (m^2 - 2m - 3) = 0 $
+  Imponendo $Delta = 0$ si ottiene $m = -2$#footnote[Esiste una sola tangente condotta a una circonferenza da un suo punto]. La tangente è $y = -2x + 4$.
+
++ Metodo delle formule di sdoppiamento: \
+  Applichiamo le sostituzioni per $P(1,2)$: 
+  $ x^2 -> x, quad y^2 -> 2y, quad x -> (x+1)/2, quad y -> (y+2)/2 $
+  Ottenendo:
+  $ x + 2y + 2((x + 1)/2) - 2((y + 2)/2) - 3 = 0 $
+  Semplificando si ottiene $2x + y - 4 = 0$, ovvero $y = -2x + 4$.
+
++ Metodo della perpendicolarità al raggio: \
+  Il coefficiente angolare della retta $C P$ è:
+  $ m_(C P) = (2 - 1)/(1 - (-1)) = 1/2 $
+  La retta tangente è perpendicolare al raggio, quindi $m = -1/m_(C P) = -2$.
+  L'equazione risulta $y - 2 = -2(x - 1) => y = -2x + 4$.
+
++ Metodo della distanza dal centro: \
+  Scriviamo il fascio in forma implicita: $m x - y - m + 2 = 0$. Imponiamo che la distanza da $C(-1,1)$ sia pari a $r = sqrt(5)$:
+  $ (|m(-1) - 1 - m + 2|)/sqrt(m^2 + 1) = sqrt(5) => (|1 - 2m|)/sqrt(m^2 + 1) = sqrt(5) $
+  Elevando al quadrato e semplificando:
+  $ (1 - 4m + 4m^2)/(m^2 + 1) = 5 => m^2 + 4m + 4 = 0 $
+  La soluzione è $m = -2$, che conferma la retta $y = -2x + 4$.][Determinare le tangenti alla circonferenza $x^2 + y^2 + x + y - 2 = 0$ condotte dal punto $P(3/4, 3/4)$.
+
+Riscriviamo l'equazione in forma canonica:
+$ (x + 1/2)^2 + (y + 1/2)^2 = 5/2 $
+
+Il centro è $C(-1/2, -1/2)$ e il raggio è $r = sqrt(5/2)$. 
+
+Calcoliamo la distanza tra $P$ e $C$:
+$ d(P, C) = sqrt((-1/2 - 3/4)^2 + (-1/2 - 3/4)^2) = (5sqrt(2))/4 $
+
+Essendo $d(P, C) > r$, il punto $P$ è esterno alla circonferenza; esistono dunque due rette tangenti.
+
++ Fascio di rette: \
+  Consideriamo il fascio di rette non verticali passanti per $P$: $y - 3/4 = m(x - 3/4)$. Impostiamo il sistema:
+  $ cases(
+    x^2 + y^2 + x + y - 2 = 0,
+    y - 3/4 = m(x - 3/4)
+  ) $
+
+  Sostituendo la seconda equazione nella prima si ottiene l'equazione risolvente:
+  $ (16 hs0+hs0 16m^2)x^2 hs0-hs0 (24m^2 hs0+hs0 40m hs0+hs0 16)x hs0+hs0 9m^2 hs0-hs0 30m hs0-hs0 11 hs0=hs0 0 $
+
+  Imponendo $Delta = 0$, si ricava l'equazione:
+  $ 3m^2 + 10m + 3 = 0 $
+
+  Le cui soluzioni sono $m_1 = -3$ e $m_2 = -1/3$. Le due rette tangenti sono:
+  $ 3x + y - 3 = 0, quad x + 3y - 3 = 0 $
+
++ Distanza dal centro: \
+  Riscriviamo il fascio in forma implicita: $4m x - 4y - 3m + 3 = 0$. Imponiamo che la distanza dal centro $C(-1/2, -1/2)$ sia pari al raggio $r = sqrt(5/2)$:
+  $ (lr(|4m(-1/2) - 4(-1/2) - 3m + 3|))/sqrt((4m)^2 + (-4)^2) = sqrt(5/2) \ (| -2m + 2 - 3m + 3|)/sqrt(16m^2 + 16) = sqrt(5/2) $
+
+  Elevando al quadrato e semplificando si riottiene:
+  $ 3m^2 + 10m + 3 = 0 $
+  che conferma i coefficienti angolari $m_1 = -3$ e $m_2 = -1/3$.
+
++ Soluzione geometrica: \
+  I punti di tangenza si trovano sull'intersezione tra la circonferenza data e una seconda circonferenza $gamma$, avente come diametro il segmento $overline(C P)$. Il centro di $gamma$ è il punto medio $M$:
+  $ x_M = 1/8, quad y_M = 1/8 $
+
+  Il raggio di $gamma$ è:
+  $ r_gamma = (|overline(P C)|)/ 2 = 5/8 sqrt(2) $
+
+  L'equazione di $gamma$ è quindi:
+  $ (x - 1/8)^2 hs0+ (y - 1/8)^2 = 25/32 \ x^2 + y^2 - 1/4 x - 1/4 y - 3/4 = 0 $
+
+  Impostiamo il sistema tra le due circonferenze per trovare i punti di tangenza:
+  $ cases(
+    x^2 + y^2 + x + y - 2 = 0,
+    x^2 + y^2 - 1/4 x - 1/4 y - 3/4 = 0
+  ) $
+
+  Sottraendo membro a membro si ottiene la retta passante per i punti di tangenza (asse radicale). Risolvendo il sistema si ricavano i punti $A(1, 0)$ e $B(0, 1)$. Le rette $P A$ e $P B$ sono le tangenti cercate.
+
+#grafico_tangente_circonferenza
+
+]
+
+=== Determinare l'equazione di una circonferenza
+
+Per esprimere l'equazione di una circonferenza nella sua forma canonica, è necessario determinare i tre parametri incogniti $a$, $b$ e $c$. Risulta quindi indispensabile disporre di tre condizioni indipendenti e compatibili.
+
+==== Il passaggio per tre punti
+
+La condizione più frequente consiste nell'imporre il passaggio per un punto specifico, sostituendone le coordinate nell'equazione canonica per ottenere un'equazione di primo grado nei parametri $a, b, c$#footnote[La strategia applicata a tutte le equazioni con due incognite prevede che una curva descritta dall'equazione $f(x, y) = 0$ passi per un punto $P(x_0_, y_0)$ se, e solo se, le coordinate del punto soddisfano tale equazione. In altre parole, ciò avviene esclusivamente quando, sostituendo $(x_0, y_0)$ al posto di $(x, y)$ nell'espressione $f(x, y) = 0$, si ottiene un'identità.]. 
+
+Se si richiede il passaggio per tre punti distinti e non allineati, si ottiene un sistema lineare di tre equazioni in tre incognite che determina un'unica circonferenza.
+
+#esempio[Trovare l'equazione della circonferenza passante per i punti $A(0,0)$, $B(1,1)$ e $C(4,0)$.
+
+Si considera l'equazione canonica:
+$ x^2 + y^2 + a x + b y + c = 0 $
+
+Imponendo il passaggio per i tre punti si costruisce il sistema:
+$ cases(
+  c = 0,
+  1 + 1 + a + b + c = 0,
+  16 + 4a + c = 0
+) $
+
+Risolvendo il sistema si determinano i valori dei parametri:
+$ a = -4, quad b = 2, quad c = 0 $
+
+L'equazione della circonferenza cercata è:
+$ x^2 + y^2 - 4x + 2y = 0 $]
+
+==== La tangenza a una retta
+
+Un'altra condizione comune è la tangenza a una retta data. In termini analitici, si imposta il sistema tra l'equazione della retta e quella della circonferenza generica, ricavando l'equazione risolvente di secondo grado. Imponendo che il discriminante sia nullo ($Delta = 0$), si ottiene un'equazione di secondo grado nei parametri $a$, $b$ e $c$.
+
+//
+#esempio[Per calcolare la condizione sui coefficienti $a$, $b$, $c$ affinché la circonferenza $x^2 + y^2 + a x + b y + c = 0$ sia tangente alla retta $x - 2y - 1 = 0$, si imposta il sistema:
+$ cases(
+  x^2 + y^2 + a x + b y + c = 0,
+  x - 2y - 1 = 0
+) $
+
+Sostituendo la retta nella conica si ricava l'equazione risolvente:
+$ 5y^2 + (4 + 2a + b)y + 1 + a + c = 0 $
+
+Annullando il discriminante ($Delta = 0$), si ottiene la relazione cercata:
+$ 4a^2 + b^2 + 4a b - 4a + 8b - 20c - 4 = 0 $]
+
+Sebbene l'approccio algebrico sia standard, spesso non è il più efficiente. Ad esempio, la determinazione delle circonferenze tangenti a tre rette comporterebbe un sistema di ottavo grado con tre equazioni di secondo grado, a fronte di un massimo di quattro soluzioni reali geometricamente possibili. È dunque preferibile sfruttare le proprietà geometriche della curva.
+
+#esempio[Riconsideriamo la ricerca della circonferenza passante per $A(0, 0)$, $B(1, 1)$ e $C(4, 0)$, già vista in precedenza. I segmenti $overline(A B)$, $overline(B C)$ e $overline(A C)$ sono corde della curva; il centro $O$ corrisponde quindi al circocentro del triangolo $A B C$, individuato dall'intersezione degli assi delle corde.
+
+Per via geometrica, determiniamo l'intersezione di due assi:
+- l'asse di $overline(A C)$ (segmento orizzontale) è la retta verticale: $x = 2$
+- l'asse di $overline(A B)$ passa per il punto medio $M(1/2, 1/2)$ con coefficiente angolare $m = -1$ (antireciproco di $m_(A B) = 1$): $x + y - 1 = 0$
+
+Il sistema tra i due assi fornisce il centro $O(2, -1)$. Il raggio al quadrato è $r^2 = |O A|^2 = 2^2 + (-1)^2 = 5$. L'equazione è:
+$ (x - 2)^2 + (y + 1)^2 = 5 $
+Dal punto di vista tecnico, non vi sono differenze significative rispetto alla strategia adottata in precedenza, tuttavia questo approccio risulta indubbiamente più raffinato. La @grafico_equazione_circonferenza1 illustra chiaramente la strategia adottata.
+
+#grafico_equazione_circonferenza1
+
+][Nel problema delle circonferenze tangenti a tre rette assegnate, se queste individuano un triangolo, i centri delle quattro soluzioni possibili corrispondono all'incentro (circonferenza inscritta) e ai tre ex-centri (circonferenze ex-inscritte), determinabili analiticamente come intersezione delle bisettrici, come mostrano nella figura  @grafico_equazione_circonferenza2.
+
+Se due delle tre rette sono parallele, la configurazione si riduce a due sole soluzioni (i cui centri giacciono sulla retta parallela mediana). Se infine le tre rette appartengono a un medesimo fascio (proprio o improprio), il problema non ammette alcuna soluzione.
+
+#grafico_equazione_circonferenza2
+
+][Determinare le circonferenze tangenti a una retta $r$ e a una retta $s$ nel punto $P in s$, sapendo che $r$ ed $s$ si intersecano in un punto $A != P$.
+
+I centri delle circonferenze cercate devono soddisfare simultaneamente due condizioni geometriche:
++ giacere sulla retta perpendicolare a $s$ condotta passante per il punto di tangenza $P$.
++ giacere sulle bisettrici degli angoli formati dalle due rette $r$ ed $s$.
+
+Come si nota nella @grafico_equazione_circonferenza3, i centri sono quindi individuati dalle intersezioni tra la perpendicolare in $P$ e le due bisettrici. I rispettivi raggi si ottengono calcolando la distanza tra i centri trovati e il punto $P$.
+
+Nel caso particolare in cui le rette $r$ ed $s$ siano parallele, il procedimento si semplifica: la retta perpendicolare a $s$ in $P$ viene intersecata con la retta parallela mediana (bisettrice della striscia delimitata da $r$ e $s$), riducendo il problema a un'unica soluzione reale.
+
+#grafico_equazione_circonferenza3
+][Determinare la circonferenza passante per un punto $A$ e tangente a una retta $r$ in un punto $P$.
+
+Il centro della circonferenza deve soddisfare contemporaneamente due vincoli geometrici:
++ giacere sulla retta perpendicolare a $r$ condotta passante per il punto di tangenza $P$.
++ giacere sull'asse del segmento $A P$ (luogo dei punti equidistanti dagli estremi $A$ e $P$).
+
+Il centro si ottiene come punto di intersezione tra la perpendicolare e l'asse del segmento. Il raggio coincide con la distanza del centro da $P$ (o da $A$), come è possibile notare nella @grafico_circonferenza_tangente_punto.
+
+#grafico_circonferenza_tangente_punto
+][Determinare le circonferenze passanti per due punti distinti $A$ e $B$ e tangenti a una retta $r$. Si assume che $A$ e $B$ non appartengano a $r$ e si trovino nel medesimo semipiano da essa delimitato.
+
+In alternativa alla risoluzione algebrica (sistema di secondo grado generato dalle condizioni di passaggio e dal discriminante nullo), si applica il teorema della secante e della tangente. La retta $A B$ rappresenta una secante comune per le circonferenze cercate. Sia $S$ il punto di intersezione tra la retta $A B$ e la retta $r$, e sia $T$ il punto di tangenza incognito su $r$. Per il teorema, il segmento $overline(S T)$ è medio proporzionale tra le distanze dei punti di intersezione:
+$ |overline(S T)|^2 = |overline(S A)| dot |overline(S B)| $
+
+Per capire meglio, basta fare un esempio numerico, con $A(2,1)$, $B(4,2)$ e la retta $r: 2x - y = 0$.
+La retta $A B$ ha equazione $x - 2y = 0$ e interseca la retta $r$ nell'origine $O(0,0)$, che assume il ruolo di punto $S$. Le distanze dall'origine sono:
+$ |overline(O A)| = sqrt(2^2 + 1^2) = sqrt(5) \ |overline(O B)| = sqrt(4^2 + 2^2) = sqrt(20) = 2sqrt(5) $
+
+Il segmento di tangenza deve soddisfare la relazione geometrica:
+$ |overline(O T)|^2 = |overline(O A)| dot |overline(O B)| = sqrt(5) dot 2sqrt(5) = 10 \ |overline(O T)| = sqrt(10) $
+
+I punti di tangenza $T$ corrispondono alle intersezioni tra la retta $r$ e la circonferenza ausiliaria con centro nell'origine e raggio $|overline(O T)| = sqrt(10)$:
+$ cases(
+  x^2 + y^2 = 10,
+  2x - y = 0
+) $
+
+Il sistema ammette due soluzioni reali e distinte, che individuano due punti di tangenza simmetrici:
+$ T_1(-sqrt(2), -2sqrt(2)), quad T_2(sqrt(2), 2sqrt(2)) $
+
+I centri $O_1$ e $O_2$ si ottengono intersecando l'asse del segmento $A B$ ($4x + 2y - 15 = 0$) con le rette perpendicolari a $r$ condotte rispettivamente per $T_1$ e $T_2$:
+- Perpendicolare in $T_1$: $x + 2y + 5sqrt(2) = 0$
+- Perpendicolare in $T_2$: $x + 2y - 5sqrt(2) = 0$
+
+Risolvendo i rispettivi sistemi lineari si ricavano le coordinate dei centri:
+$ O_1 = ( (15 + 5sqrt(2))/3 , -(15 + 20sqrt(2))/6 ), quad O_2 = ( (15 - 5sqrt(2))/3 , -(15 - 20sqrt(2))/6 ) $
+
+I raggi corrispondono alle distanze $|overline(O_1 T_1)|$ e $|overline(O_2 T_2)|$
+
+#grafico_circonferenze_due_punti_tangente
+]
+
+=== Fasci di circonferenze
+
+Considerando quanto discusso nella @cap_famiglie_curve, si prendono in esame ora due circonferenze, le cui equazioni sono rispettivamente:  
+$ gamma_1: x^2 + y^2 + a_1 x + b_1 y + c_1 = 0 $  
+$ gamma_2: x^2 + y^2 + a_2 x + b_2 y + c_2 = 0 $  
+
+Una loro combinazione lineare si può scrivere come:  
+$ lambda(x^2 + y^2 + a_1 x + b_1 y + c_1) + mu(x^2 + y^2 + a_2 x + b_2 y + c_2) = 0 $  
+
+che si sviluppa nella forma:  
+$  (lambda + mu)(x^2 + y^2) hs0+hs0 (a_1 lambda + a_2 mu)x hs0+hs0 (b_1 lambda + b_2 mu)y hs0+hs0 (c_1 lambda + c_2 mu) = 0 $  
+
+Tale espressione rappresenta una circonferenza, a meno che non risulti nell'insieme vuoto, purché sia soddisfatta la condizione $lambda + mu != 0$. In caso contrario, se $lambda + mu = 0$, essa rappresenterà una retta. Assumendo $lambda != 0$, l'equazione precedente può essere riscritta ponendo $k = mu/lambda$:  
+$ (1 + k)(x^2 + y^2) + (a_1 + a_2 k)x + (b_1 + b_2 k)y + (c_1 + c_2 k) = 0 $ <eq_fascio_circonferenze_parametro>
+
+Questa espressione descrive una stessa famiglia di circonferenze per $k != -1$, con l'esclusione della circonferenza $gamma_1$, che viene comunque inclusa nel fascio considerandola come il caso limite per $k -> oo$.  
+
+Tale insieme di circonferenze è noto come un fascio di circonferenze. Tuttavia, nel caso in cui $lambda + mu = 0$ (ovvero $k = -1$), le equazioni sopra riportate non rappresentano più una circonferenza, ma una retta. Questa retta particolare viene chiamata asse radicale del fascio. Può essere interpretata come una "circonferenza degenere" del fascio avente raggio infinito, da cui deriva la denominazione specifica. 
+
+In linea generale, ogni equazione della forma sopra indicata rappresenta una circonferenza (se l'insieme non è vuoto e $k != -1$) o, altrimenti, una retta (per $k = -1$), che coincide con l'asse radicale del fascio. Inoltre, i due cerchi ottenuti dalla suddetta equazione per i valori particolari $k = 0$ e $k -> oo$ vengono definiti i circoli base del fascio, se non risultano insiemi vuoti.  
+
+I fasci di circonferenze sono caratterizzati dalle proprietà seguenti:
++ Sostituendo nella relazione le due circonferenze base con altre due qualsiasi appartenenti allo stesso fascio, si ottiene nuovamente lo stesso fascio. Inoltre, combinando una circonferenza del fascio con l'asse radicale, se esistente, si può dedurre un'equazione della forma:
+  $ x^2 + y^2 + (a_1 + a_2 k)x + (b_1 + b_2 k)y + (c_1 + c_2 k) = 0 $
+  Tale equazione rappresenta ancora lo stesso fascio di circonferenze.
++ I centri delle circonferenze del fascio, se queste non sono concentriche, giacciono su una retta perpendicolare all'asse radicale, chiamata asse centrale del fascio.
++ Se le due circonferenze base del fascio si intersecano in due punti distinti $A$ e $B$, tutte le altre circonferenze del fascio passeranno attraverso gli stessi punti. Viceversa, qualsiasi circonferenza che passa per $A$ e $B$ appartiene al fascio. In questo caso, la retta che congiunge $A$ e $B$ costituisce l'asse radicale del fascio e il fascio viene definito ellittico.
++ Nel caso in cui le due circonferenze base del fascio siano tangenti in un punto $A$, tutte le circonferenze del fascio risulteranno tangenti reciprocamente in $A$. L'asse radicale in questo caso sarà la tangente comune nel punto di tangenza. Viceversa, ogni circonferenza tangente in $A$ all'asse radicale appartiene al fascio. Questo tipo di fascio è noto come fascio parabolico. Inoltre, la circonferenza degenere con raggio nullo che coincide con l'intersezione tra l'asse radicale e l'asse centrale fa parte del fascio; tale circonferenza è nota come punto limite o punto di Poncelet.
++ Se le due circonferenze base non hanno punti in comune, tutte le altre circonferenze del fascio saranno anch'esse prive di punti comuni. Nel caso in cui le due circonferenze base siano concentriche, allora tutte le circonferenze del fascio saranno a loro volta concentriche e non esisteranno né asse radicale né asse centrale. Invece, se le due circonferenze base non sono concentriche e non si intersecano, il fascio avrà due circonferenze degeneri di raggio nullo che appartengono al fascio, situate ai lati opposti rispetto all'asse radicale. Questi punti sono detti punti limite o punti di Poncelet e il fascio viene denominato fascio iperbolico.
+
+Per individuare gli eventuali punti limite, è sufficiente ricavare il raggio imponendo che sia nullo nell'equazione del fascio. Questo richiede la risoluzione dell'equazione del secondo grado in $k$:
+$ r_k = sqrt((a_1 + a_2 k)^2 + (b_1 + b_2 k)^2 - 4(c_1 + c_2 k)(1 + k)) / (2 |1 + k|) = 0 $
+
+L'equazione così ottenuta fornisce, al massimo, due soluzioni per $k$.
+
+#v(5em)
+#esempio[Determinare le caratteristiche del fascio di circonferenze definito dall'equazione:
+$ (1 + k)x^2 + (1 + k)y^2 - 6k x - 1 + 8k = 0 $
+
+che può essere riformulata così:
+$ (x^2 + y^2 - 1) + k(x^2 + y^2 - 6x + 8) = 0 $
+
+Le due circonferenze base del fascio sono rispettivamente:
+$ x^2 + y^2 - 1 = 0 \ x^2 + y^2 - 6x + 8 = 0 $
+
+Queste non hanno punti in comune e non sono concentriche; pertanto, il fascio è di tipo iperbolico. L'asse radicale è caratterizzato dall'equazione $ x = 3/2 $
+
+Per ogni valore di $k != -1$, il centro $C_k$ e il raggio $r_k$ della generica circonferenza del fascio sono dati da:
+$ C_k = ( (3k)/(1+k) , 0 ), quad r_k = sqrt((9k^2 - (8k - 1)(1 + k))/(1 + k)^2) $
+
+Per individuare i punti limite, si uguaglia il raggio a zero ($r_k = 0$) ed emergono due valori particolari di $k$:
+$ k = (7 plus.minus 3sqrt(5))/2 $
+
+Sostituendo questi valori nelle coordinate del centro $C_k$, si ottengono i punti limite:
+$ L_1 = ( (7 + 3sqrt(5))/(3 + sqrt(5)) , 0 ), quad L_2 = ( (7 - 3sqrt(5))/(3 - sqrt(5)) , 0 ) $
+
+Come si nota nella @grafico_fascio_circonferenze1, a seconda dei valori di $k$, il fascio si comporta in questa maniera:
+- per $k -> -oo$, le circonferenze del fascio si avvicinano alla circonferenza base destra partendo dall'esterno
+- per $-oo < k < -1$, le circonferenze si trovano tra l'asse radicale e la circonferenza base destra
+- quando $k = -1$, l'equazione rappresenta solo l'asse radicale.
+- per $-1 < k < 0$, le circonferenze sono comprese tra la circonferenza base sinistra e l'asse radicale
+- per $k = 0$, si ottiene la circonferenza base sinistra
+- per $0 < k < (7 - 3sqrt(5))/2$, le circonferenze sono interne alla circonferenza base sinistra
+- per $k = (7 - 3sqrt(5))/2$, si raggiunge il punto limite $L_2$
+- per $(7 - 3sqrt(5))/2 < k < (7 + 3sqrt(5))/2$, non esiste alcuna circonferenza reale
+- per $k = (7 + 3sqrt(5))/2$, si raggiunge il punto limite $L_1$
+- per $(7 + 3sqrt(5))/2 < k < +oo$, le circonferenze del fascio diventano interne alla circonferenza base destra.
+- per $k -> +oo$, le circonferenze si contraggono verso la circonferenza base destra, provenendo dall'interno
+
+Nel grafico del fascio si possono tracciare alcune delle circonferenze significative per i seguenti valori di $k$, procedendo dal punto limite $L_2$ fino al punto limite $L_1$: $(7 - 3sqrt(5))/2$, $0.1$, $0$ (circonferenza base sinistra), $-0.2$, $-0.4$, $-0.6$, $-1$ (asse radicale), $-2$, $-4$.
+
+#grafico_fascio_circonferenze1
+
+// TODO: problema con lista contenente formule matematiche frazionarie
+
+][Determinare le caratteristiche del fascio di circonferenze descritto dall'equazione:
+$ (1 + k)x^2 + (1 + k)y^2 - 4x - 1 - k = 0 $
+
+che può essere riformulata così:
+$ (x^2 + y^2 - 4x - 1) + k(x^2 + y^2 - 1) = 0 $
+
+Le due circonferenze base che definiscono il fascio sono:
+$ x^2 + y^2 - 4x - 1 = 0 \ x^2 + y^2 - 1 = 0 $
+
+con centri rispettivamente in $C_2$ e $C_1$. Queste due circonferenze condividono i punti di intersezione $(0, plus.minus 1)$, e tutte le altre circonferenze appartenenti al fascio passeranno necessariamente attraverso questi due punti. L'asse radicale corrisponde al caso $k = -1$ ed è rappresentato dall'equazione $x = 0$, cioè l'asse delle ordinate. 
+
+Osservazioni sui diversi valori di $k$:
+- per $k -> -oo$, i centri delle circonferenze del fascio tendono a spostarsi verso $C_1$ da sinistra
+- per $-oo < k < -1$, i centri si trovano a sinistra di $C_1$
+- per $k = -1$, si ottiene l'asse radicale, rappresentato da una "circonferenza" con centro all'infinito
+- per $-1 < k < 0$, i centri delle circonferenze si trovano oltre $C_2$
+- per $k = 0$, si genera la circonferenza base destra
+- per $0 < k < +oo$, i centri sono situati tra $C_1$ e $C_2$
+- per $k -> +oo$, i centri delle circonferenze tendono a spostarsi verso $C_1$ da destra
+
+Le circonferenze del fascio possono essere tracciate per specifici valori di $k$, in ordine dai centri più a sinistra a quelli più a destra: $k = -2$, $k = -4$, $k = -20$, $k -> -oo$ (circonferenza base sinistra), $k = 10$, $k = 2$, $k = 0.5$, $k = 0$ (circonferenza base destra), $k = -0.4$, $k = -0.8$.
+
+#grafico_fascio_circonferenze2
+
+][Determinare le caratteristiche del fascio di circonferenze descritto dall'equazione:  
+$ (1 + k)x^2 + (1 + k)y^2 - 6x + 5(1 - k) = 0 $
+
+che può essere riformulata così:  
+$ (x^2 + y^2 - 6x + 5) + k(x^2 + y^2 - 1) = 0 $  
+
+Le due circonferenze base del fascio sono:  
+$ x^2 + y^2 - 6x + 5 = 0 \ x^2 + y^2 - 1 = 0 $
+
+con centri rispettivamente in $C_2$ e $C_1$. Queste due circonferenze sono tangenti nel punto $T(1, 0)$, il che implica che tutte le altre circonferenze del fascio saranno anch'esse tangenti in quel punto.  
+
+L'asse radicale, associato al valore $k = -1$, è la retta di equazione $x = 1$. Il raggio delle circonferenze del fascio si esprime come:  
+$ r_k = sqrt((3/(1 + k))^2 - (5 - k)/(1 + k)) = lr(|(k - 2)/(1 + k)|) $
+
+Osservando questa relazione:  
+- per $k = 2$, il raggio si annulla, ottenendo una circonferenza degenere che coincide con il punto di tangenza comune $T$ 
+- per ogni altro valore di $k != -1$, si ottiene una vera e propria circonferenza non degenere
+
+La situazione può essere descritta nei seguenti casi:  
+- per $k -> -oo$, i centri delle circonferenze tendono al centro $C_1$ da sinistra  
+- per $-oo < k < -1$, le circonferenze hanno il centro a sinistra di $C_1$ 
+- per $k = -1$, si ottiene l'asse radicale (il centro è idealmente all'infinito)  
+- per $-1 < k < 0$, i centri si trovano a destra di $C_2$  
+- per $k = 0$, si ottiene la circonferenza base con centro in $C_2$  
+- per $0 < k < 2$, i centri delle circonferenze si trovano tra i punti $T$ e $C_2$  
+- per $k = 2$, si ottiene la circonferenza degenere che coincide con il punto limite $T$ (noto anche come punto di Poncelet)  
+- per $k > 2$, i centri delle circonferenze giacciono fra $C_1$ e $T$
+- per $k -> +oo$, i centri delle circonferenze si avvicinano a $C_1$ da destra
+
+Come negli esempi precendenti, nel grafico del fascio si possono tracciare alcune delle circonferenze significative per i seguenti valori di $k$, ordinati da quella con centro più a sinistra fino a quella più a destra: $k = -2$, $k = -4$, $k = -10$, $k -> -oo$ (circonferenza base sinistra), $k = 10$, $k = 2$ (punto limite in $T$), $k = 1$, $k = 0.2$, $k = 0$ (circonferenza base destra), $k = -0.2$, $k = -0.5$. Infine, viene incluso l'asse radicale corrispondente al valore $k = -1$.
+
+#grafico_fascio_circonferenze3
+
+]
+
+== Parabola in forma conica
+
+Sulla base del teorema in @teorema_parabola, la parabola è il luogo geometrico dei punti di un piano equidistanti da un punto fisso $F$ (detto fuoco) e da una retta fissa $d$ (detta direttrice), a patto che il fuoco $F$ non appartenga alla direttrice $d$#footnote[Nel caso $F$ appartenesse a $d$, il luogo degenererebbe nella retta passante per $F$, perpendicolare a $d$.].
+
+#grafico_parabola_ruotata
+
+La retta passante per $F$ e perpendicolare alla direttrice rappresenta l'asse di simmetria della parabola ed è chiamata asse della parabola. Denotiamo con $S$ il punto di intersezione tra l'asse della parabola e la direttrice: il punto medio $V$ del segmento $F S$ appartiene alla parabola e prende il nome di vertice.
+
+In questa sede ci limiteremo a determinare l'equazione della parabola nei casi in cui la direttrice sia parallela a uno degli assi coordinati. Quando si fa riferimento a tali situazioni, si parla di equazione canonica della parabola.
+
+Iniziamo considerando il caso in cui la direttrice è parallela all'asse $x$. Supponiamo che le coordinate del fuoco siano $F(p, q)$ e che l'equazione della direttrice sia $d: y = k$, con la condizione $q - k != 0$ per garantire che il fuoco non si trovi sulla direttrice. Il vertice $V$ avrà coordinate $(p, (q + k)/2)$. Indichiamo con $P(s, t)$ un generico punto del luogo cercato, e con $H(s, k)$ la proiezione di $P$ sulla direttrice. Affinché $P$ appartenga alla parabola, deve soddisfare la condizione:
+
+$ |overline(P F)| = |overline(P H)| $
+
+Questa uguaglianza può essere espressa come:
+$ sqrt((s - p)^2 + (t - q)^2) = |t - k| $
+
+Elevando entrambi i membri al quadrato e semplificando, otteniamo:
+$ 2y(q - k) = x^2 - 2p x + p^2 + q^2 - k^2 $
+
+Ora dividiamo entrambi i membri per $2(q - k)$, che sappiamo essere diverso da zero:
+$ y = 1/(2(q-k))x^2 - p/(q-k)x + (p^2 + q^2 - k^2)/(2(q-k)) $
+
+Introduciamo le seguenti notazioni:
+$ a = 1/(2(q-k)) \ b = -p/(q-k) \ c = (p^2 + q^2 - k^2)/(2(q-k)) = p^2/(2(q-k)) + (q+k)/2 $
+
+In questo modo, l'equazione può essere riscritta come:
+$ y = a x^2 + b x + c, quad a != 0 $ <eq_parabola>
+
+Il valore del coefficiente $a$ determina la concavità della parabola. Se $q > k$, allora $a > 0$, e la parabola ha concavità rivolta verso l'alto. Se invece $q < k$, allora $a < 0$, e la parabola ha concavità rivolta verso il basso. Pertanto, ogni parabola con direttrice orizzontale (e quindi con asse verticale) ha un'equazione della forma sopra indicata, con i coefficienti definiti come nelle espressioni precedenti.
+
+Valgono anche le implicazioni inverse: ogni equazione del tipo 
+$ y = a x^2 + b x + c $
+
+rappresenta una parabola, il cui fuoco e la cui direttrice possono essere determinati risolvendo il seguente sistema nelle incognite $p, q, k$:
+$ cases(
+  a = 1/(2(q-k)),
+  b = -p/(q-k),
+  c = a p^2 + (q+k)/2
+) $
+
+//
+Si può procedere nel seguente modo. Si considerino le equazioni seguenti:
+$ cases(
+  q - k = 1 / (2a),
+  b = -2 a p => p = - b / (2a),
+  c = a p^2 + (q + k) / 2 => c = b^2/(4a) + (q + k)/2
+) $
+
+Sviluppando il sistema derivante dalla prima e dalla terza equazione:
+$ cases(
+  q - k = 1 / (2a),
+  q + k = (4a c - b^2) / (2a)
+) $
+
+Sarà possibile determinare con facilità i valori di $q$ e $k$. Il parametro $Delta$, definito come $Delta = b^2 - 4a c$, conduce ai seguenti calcoli, per il fuoco $F$ e la direttrice $d$:
+$ F((-b) / (2a), (1 - Delta) / (4a)), quad d: y = (-1 - Delta) / (4a) $
+
+Riguardo al vertice, considerando che $V$ è un punto della parabola, la sua ordinata può essere determinata sostituendo l'ascissa nella formula dell'equazione generale della parabola con asse verticale. In particolare:
+$ V((-b) / (2a), -Delta / (4a)) $
+
+Dall'espressione emerge che la parabola con asse verticale rappresenta il grafico di una funzione polinomiale di secondo grado. Maggiori approfondimenti sono disponibili nella @funzione_polinomiale_secondo_grado. Nel caso in cui la direttrice sia verticale e quindi l'asse orizzontale, i risultati saranno analoghi con uno scambio tra $x$ e $y$.
+
+Per una parabola con asse orizzontale, l'equazione generale è:
+$ x = a y^2 + b y + c $ <eq_parabola_asse_orizz>
+
+In questo caso, la concavità sarà rivolta verso destra se $a > 0$, o verso sinistra se $a < 0$. Le coordinate del fuoco e l'equazione della direttrice vengono riportate come segue:
+$ F((1 - Delta) / (4a), -b / (2a)), quad d: x = (-1 - Delta) / (4a) $
+
+Per quando riguarda il vertice $V$:
+$ V(-Delta / (4a), -b / (2a)) $
+
+Qui, essendo $V$ un punto della curva, è possibile calcolare l'ascissa sostituendo l'ordinata nell'equazione @eq_parabola_asse_orizz.
+
+Va evidenziato che una parabola con asse orizzontale non può essere rappresentata graficamente come una funzione se si mantengono le convenzioni secondo cui il dominio è rappresentato sull'asse delle $x$ e il codominio sull'asse delle $y$; in tal caso, infatti, a un valore del dominio possono corrispondere due valori di codominio, cosa che contraddirebbe la definizione di funzione.
+
+D'altra parte, è utile trattare con maggiore dettaglio la parabola con asse verticale, poiché è più comune nelle applicazioni e può essere descritta graficamente nei termini convenzionali di una funzione. Quando nell'equazione generale @eq_parabola $c = 0$, la parabola passerà per l'origine; nel caso in cui anche $b = 0$, il vertice si troverà nell'origine. Qui, il coefficiente $a$ determinerà l'ampiezza della curva: un valore assoluto maggiore del parametro $a$ comporterà una parabola più stretta, mentre uno minore produrrà una curva più aperta, come si nota nella @grafico_famiglia_parabole.
+
+#grafico_famiglia_parabole
+
+Per i casi in cui $b$, $c$, o entrambi siano diversi da zero, è possibile applicare in modo efficace la tecnica del completamento del quadrato. Questo metodo permette di rappresentare la parabola come una traslazione di una parabola con il vertice nell'origine, senza dover ricorrere a formule particolari. 
+
+Considerando l'equazione, un'equazione generale di una parabola con asse verticale può essere scritta nella forma:
+$ y = a(x + b/(2a))^2 - (b^2 - 4a c)/(4a) $
+
+oppure:
+$ y + (b^2 - 4a c)/(4a) = a(x + b/(2a))^2 $
+
+Da questa espressione si comprende immediatamente che una parabola generica del tipo $y = a x^2 + b x + c$ può essere vista come una traslazione della parabola $y = a x^2$. In particolare, il suo vertice non si trova più nell'origine, ma viene traslato nel punto:
+$ V (-b/(2a), -Delta/(4a)) $
+
+dove $Delta = b^2 - 4a c$. Questa formula fornisce infatti le coordinate del vertice.
+
+#esempio[Consideriamo la parabola $y = 2x^2 - 12x + 17$. Possiamo riscriverla nella forma:
+$ y + 1 = 2(x - 3)^2 $
+
+che evidenzia chiaramente come questa parabola derivi dalla traslazione della parabola $y = 2x^2$, spostandone il vertice nel punto $(3, -1)$, come si vede dalla @grafico_parabola_traslata.
+
+#grafico_parabola_traslata]
+
+=== Tangenti a una parabola  
+
+Per determinare le tangenti a una parabola, è possibile seguire i metodi generali applicabili a tutte le coniche. Tuttavia, se si deve trovare la tangente a una parabola con asse verticale in un punto specifico $P(x_0, y_0)$, risulta conveniente adottare un approccio più diretto.
+
+Supponiamo di avere una parabola con asse verticale descritta dall'equazione $y = a x^2 + b x + c$, e consideriamo $P(x_0, y_0)$ come un suo punto. Ricorriamo quindi alle formule di sdoppiamento per calcolare l'equazione della tangente.
+
+A partire dall'equazione della parabola $y = a x^2 + b x + c$, possiamo scrivere:  
+$ (y + y_0)/2 = a x_0 + b (x + x_0)/2 + c $
+
+Da questa equazione si ricava la formula della tangente:  
+$ y = (2a x_0 + b)x + b x_0 + 2c - y_0 $
+
+L'aspetto cruciale di questa formula è il coefficiente angolare della tangente. Possiamo dedurre che, se $P(x_0, y_0)$ appartiene alla parabola con asse verticale data da $y = a x^2 + b x + c$, il coefficiente angolare della tangente in $P$ è dato dalla relazione:  
+$ m = 2a x_0 + b $  
+
+#esempio[Determinare la tangente alla parabola $y = 2x^2 + 3x - 1$ nel punto di ascissa $x = 1$.  
+
+Verifichiamo che il punto appartenga alla parabola: per $x = 1$, calcoliamo l'ordinata $y_0 = 2(1)^2 + 3(1) - 1 = 4$. Pertanto, il punto considerato è $P(1,4)$.
+
+Applicando la formula del coefficiente angolare, otteniamo:  
+$ m = 2 dot 2 dot 1 + 3 = 7 $
+
+L'equazione della tangente è dunque:  
+$ y - 4 = 7(x - 1) \ 7x - y - 3 = 0 $
+
+Utilizzando le formule di sdoppiamento, arriviamo allo stesso risultato. Partendo da $y = 2x^2 + 3x - 1$, abbiamo:  
+$ (y + 4)/2 = 2x + 3 thin (x + 1)/2 - 1 $  
+
+che, semplificata, diventa:  
+$ 7x - y - 3 = 0 $
+
+Infine, approcciando il problema con il metodo $Delta = 0$, si risolve il sistema formato da:  
+$ cases(
+  y = 2x^2 + 3x - 1,
+  y - 4 = m(x - 1)
+) $  
+
+ottenendo l'equazione risolvente:  
+$ 2x^2 + (3 - m)x + (m - 5) = 0 $
+
+Annullando il discriminante:  
+$ (3 - m)^2 - 4 dot 2 dot (m - 5) = m^2 - 14m + 49 = 0 $  
+
+da cui ricaviamo $m = 7$, in pieno accordo con i risultati precedenti.][Determinare le tangenti alla parabola $y = x^2 - 4x + 3$ passanti per il punto esterno $P(2, -5)$.  
+
+Poiché una retta verticale non può essere tangente a una parabola con asse verticale, consideriamo solo il fascio di rette non verticali passanti per $P$. Poniamo a sistema:  
+$ cases(
+  y = x^2 - 4x + 3,
+  y + 5 = m(x - 2)
+) $
+
+L'equazione che risolve il sistema è  
+$ x^2 - (4 + m)x + 3 + 2m + 5 = 0 $  
+
+il cui discriminante si annulla quando $m^2 - 16 = 0$, cioè per $m = plus.minus 4$. In questo caso, si individuano le due tangenti:  
+$ 4x - y - 13 = 0 \ 4x + y - 3 = 0 $   
+
+#grafico_parabola_tangenti
+]
+
+=== Determinare l'equazione di una parabola
+
+L'equazione di una parabola con asse verticale o orizzontale si basa su tre parametri: $a$, $b$, $c$. Per definirla, servono quindi tre condizioni indipendenti e compatibili. Di seguito sono riepilogate le situazioni principali che possono presentarsi, con alcuni esempi pratici. È fondamentale specificare se la parabola cercata ha il suo asse verticale o orizzontale.
+- Fuoco e direttrice: quando si conoscono sia il fuoco sia la direttrice, l'equazione può essere scritta direttamente utilizzando la definizione
+- Passaggio per un punto: il passaggio della parabola per un punto genera una condizione di primo grado per i parametri $a$, $b$, $c$
+- Vertice: conoscendo il vertice si ottengono due condizioni. La prima presuppone che la parabola passi per quel punto specifico. La seconda deriva dalla relazione $x_V = -b / (2a)$ Non è conveniente usare l'ordinata del vertice, in quanto essa introduce una condizione di secondo grado
+- Fuoco: se sono definite le coordinate del fuoco, si ottengono due condizioni confrontando questi valori con le formule generali che descrivono il fuoco
+- Direttrice nota: conoscendo l'equazione della direttrice si ottiene una condizione, tramite la sua forma analitica
+- Tangente e punto di tangenza: in questo caso si ottengono due condizioni; la prima stabilisce che la parabola passa per il punto di tangenza, la seconda deriva dalla formula della tangente $m = 2a x_0 + b$
+- Tangente senza il punto di tangenza: se si conosce solo la tangente, si ricorre al metodo del discriminante nullo ($Delta = 0$) per ricavare una condizione
+
+#esempio[Determinare l'equazione della parabola avente fuoco $F(5/4, 0)$ e vertice $V(5/4, -1/8)$.
+
+La parabola ha asse verticale poiché l'ascissa del fuoco e del vertice coincidono. Il sistema delle condizioni (ascissa del vertice e del fuoco, ordinata del fuoco e passaggio per il vertice) è il seguente:
+$ cases(
+  -b / (2a) = 5/4,
+  (1 - Delta) / (4a) = 0,
+  -1/8 = a(5/4)^2 + b(5/4) + c
+) $
+
+Risolvendo il sistema, si ottiene l'equazione della parabola:
+$ y = 2x^2 - 5x + 3 $][Determinare l'equazione della parabola con asse orizzontale che passa per i punti $(-3, 0)$, $(7, -2)$ e $(-2, 1)$.
+
+Utilizzando il passaggio per i tre punti si ricava il sistema:
+$ cases(
+  c = -3,
+  7 = 4a - 2b + c,
+  -2 = a + b + c
+) $
+
+Dopo aver risolto, si ottiene:  
+$ x = 2y^2 - y - 3 $
+][Trovare l'equazione della parabola con asse verticale che passa per i punti $(-1, 1)$ e $(2, 1)$, e che sia tangente alla retta $x - y + 3 = 0$.
+
+Si parte dal sistema:
+$ cases(
+  y = a x^2 + b x + c,
+  x - y + 3 = 0
+) $
+
+L'equazione risolvente del sistema è:
+$ a x^2 + (b - 1)x + c - 3 = 0 $
+
+Annullando il discriminante, si ricava un'equazione in $a$, $b$ e $c$. Unendo questa relazione con le condizioni di passaggio per i due punti dati, si ottiene il seguente sistema:
+$ cases(
+  (b - 1)^2 - 4a(c - 3) = 0,
+  1 = a - b + c,
+  1 = 4a + 2b + c
+) $
+
+Risolvendo il sistema, si ottengono due soluzioni:
+$ y = -x^2 + x + 3 $  
+$ y = -1/9 x^2 + 1/9 x + 11/9 $
+][Determinare l'equazione della parabola con asse verticale che passa per il punto $A(-1, 2)$, il punto $B$ di ascissa $x = 1$, e che sia tangente in $B$ alla retta $3x - y - 3 = 0$.
+
+Se il punto $B$ appartiene alla retta, la sua ordinata deve essere zero. Impostando le condizioni del passaggio per $A$, $B$ e la condizione di tangenza $m = 2a x_0 + b$ con $m = 3$ e $x_0 = 1$, si ottiene il sistema:
+$ cases(
+  2 = a - b + c,
+  0 = a + b + c,
+  3 = 2a + b
+) $
+
+Risolvendo il sistema, si trova:
+$ y = 2x^2 - x - 1 $]
+
+// TODO: trovare titolo sezione
+
+Analizziamo analiticamente una caratteristica interessante delle parabole: se il profilo della parabola è una superficie perfettamente riflettente, allora ogni raggio emesso dal fuoco viene riflesso parallelamente all'asse della parabola. Al contrario, ogni raggio incidente parallelamente all'asse della parabola viene riflesso passando attraverso il fuoco. Questa proprietà è notevole#footnote[Per l'ellisse si osserva una proprietà analoga: i raggi che provengono da uno dei fuochi vengono riflessi sulla superficie dell'ellisse attraversando l'altro fuoco. Questa caratteristica, valida per la parabola, può essere interpretata come il caso limite di un'ellisse in cui uno dei due fuochi si allontana all'infinito.] e rappresenta anche un valido esercizio conclusivo sull'interazione tra rette e parabole.
+
+Consideriamo una parabola di equazione $y = a x^2 + b x + c$ con asse verticale e un punto generico $P(p, q)$ appartenente alla parabola. Definiamo:
+- $t$: la retta tangente alla parabola nel punto $P$;
+- $n$: la retta normale (perpendicolare alla tangente) nel punto $P$;
+- $f$: la retta passante per $F$ (fuoco) e $P$;
+- $r$: la retta passante per $P$ e parallela all'asse della parabola.
+
+Per dimostrare che gli angoli $alpha$ e $beta$ sono uguali, occorre verificare che le rette $n$ e $t$ siano rispettivamente le bisettrici degli angoli formati da $f$ e $r$.
+
+Indichiamo con $F(s, u)$ le coordinate del fuoco, definite come:
+$ s = -b / (2a), quad u = (1 - b^2 + 4a c) / (4a) $
+
+Poiché il punto $P(p, q)$ appartiene alla parabola, si ha $q = a p^2 + b p + c$. Inoltre, i coefficienti angolari della retta tangente ($t$) e della normale ($n$) sono dati rispettivamente da:
+$ m_t = 2a p + b, quad m_n = -1 / (2a p + b) $
+
+L'equazione della retta parallela all'asse $r$ è $x - p = 0$, mentre la retta $f$, passante per il fuoco e il punto $P$, ha l'equazione:
+$ (x - p)(u - q) = (y - q)(s - p) $
+
+che si può scrivere come:
+$ x(u - q) - y(s - p) - p u + q s = 0 $
+
+Per individuare le bisettrici degli angoli determinati dalle due rette, utilizziamo la proprietà secondo cui i punti appartenenti alle bisettrici sono equidistanti dalle due rette. Dato un punto generico di coordinate $(x, y)$, la condizione di equidistanza si esprime così:
+$ |x - p| = lr(|x(u - q) - y(s - p) - p u + q s|) / sqrt((u - q)^2 + (s - p)^2) $
+
+Espandendo, otteniamo:
+$ x - p = plus.minus (x(u - q) - y(s - p) - p u + q s) / sqrt((u - q)^2 + (s - p)^2) $
+
+Consideriamo la bisettrice associata al segno "+" nel secondo membro della precedente relazione. Il suo coefficiente angolare ($m_1$) sarà:
+$ m_1 = u - q - sqrt((u - q)^2 + (s - p)^2) / (s - p) $
+
+Dobbiamo ora verificare che questo coefficiente angolare corrisponda a quello di una delle due rette tangenti o normali. Procederemo dimostrando che:
+$ m_1 = m_n $
+
+ovvero:
+$ -1 / (2a p + b) = u - q - sqrt((u - q)^2 + (s - p)^2) / (s - p) $
+
+Attribuendo al denominatore del secondo termine ($s - p$) il valore derivato dall'espressione di $s$, si ottiene:
+
+$ sqrt((u - q)^2 + (s - p)^2) = (u - q) - 1/(2a) $
+
+Semplificando ed effettuando le opportune sostituzioni dei valori di $s, u, q$ in funzione di $a, b, c$, arriviamo alla dimostrazione finale. Questa interessante caratteristica delle parabole viene utilizzata, ad esempio, nei fari delle automobili: quando la lampada è posizionata nel fuoco, i raggi vengono riflessi e si propagano parallelamente all'asse della parabola (configurazione relativa ai "fari abbaglianti"). Un'altra applicazione si trova nelle parabole impiegate come antenne riceventi, dove i raggi provenienti da una sorgente distante, considerati paralleli tra loro, vengono concentrati nel fuoco dell'antenna parabolica. //TODO: da aggiungere nelle note a margine?
+
+#grafico_proprieta_riflessiva
+
+== Ellisse e iperbole in forma canonica
+
+=== Ellisse
+Secondo il teorema (@teorema_ellisse), l'ellisse si definisce come il luogo geometrico dei punti nel piano la cui somma delle distanze da due punti fissi, detti fuochi, è costante e maggiore della distanza tra i fuochi stessi.
+
+La retta che unisce i due fuochi $F_1$ e $F_2$ e funge da asse di simmetria viene chiamata asse focale o asse maggiore. Il punto medio $C$ del segmento $F_1 F_2$ è detto centro. La retta passante per il centro e perpendicolare all'asse focale, anch'essa di simmetria, è detta asse minore.
+
+I punti in cui l'ellisse interseca l'asse focale e l'asse minore prendono il nome di vertici. I segmenti $C V_2$ o $C V_1$ sono detti semiassi maggiori, mentre i segmenti $C V_3$ o $C V_4$ sono detti semiassi minori.
+
+È importante notare che la circonferenza rappresenta un caso particolare di ellisse in cui i due fuochi coincidono.
+
+#grafico_ellisse_ruotata
+
+Per determinare l'equazione dell'ellisse, si assume un sistema di coordinate cartesiane $O x y$ in cui l'asse delle ascisse coincide con l'asse focale e il centro dell'ellisse corrisponde all'origine $(0, 0)$.
+
+Indichiamo con $-c$ e $c$ le ascisse dei due fuochi ($c > 0$, con $c$ che rappresenta quindi la semidistanza focale). Inoltre, sia $2a$ la somma costante delle distanze di un generico punto dell'ellisse dai due fuochi. Sulla base della figura 8.41, è evidente che:
+$ 2a = |V_1 V_2| $
+
+Se indichiamo con $P(x, y)$ un generico punto appartenente all'ellisse, si ha:
+$ sqrt((x-c)^2 + y^2) + sqrt((x+c)^2 + y^2) = 2a $
+
+Risolviamo questa equazione per dedurre la forma canonica dell'ellisse:
++ Separiamo una delle due radici e trasponiamo sull'altro lato:
+  $ sqrt((x+c)^2 + y^2) = 2a - sqrt((x-c)^2 + y^2) $
++ Eleviamo entrambi i membri al quadrato e semplifichiamo:
+  $ (x-c)^2 + y^2 = a^2 - c x $
++ Elevando nuovamente entrambi i lati al quadrato ed eseguendo ulteriori semplificazioni otteniamo:
+  $ (a^2-c^2)x^2 + a^2 y^2 = a^2(a^2-c^2) $
+
+Poiché si verifica che $a > c > 0$, risulta anche $a^2 > c^2$. Si può dunque introdurre un nuovo parametro $b > 0$, minore di $a$, tale che:
+$ b^2 = a^2 - c^2 $
+
+Riscrivendo l'equazione precedente, otteniamo infine la forma canonica dell'equazione dell'ellisse:
+$ x^2 / a^2 + y^2 / b^2 = 1 $
+
+Dove i punti $(plus.minus a, 0)$ e $(0, plus.minus b)$ rappresentano rispettivamente i vertici sull'asse maggiore e quelli sull'asse minore. Da questa forma risulta evidente che $a$ è il semiasse maggiore e $b$ è il semiasse minore.
+
+La determinazione del parametro $c$ per un'ellisse può variare in base alla disposizione dei fuochi rispetto agli assi. Quando l'asse focale è parallelo all'asse orizzontale e il centro dell'ellisse è nell'origine, il valore del semiasse $c$ è calcolato come segue:
+$ c = sqrt(a^2 - b^2) wide text("con ") a > b. $
+
+Nel caso in cui il centro dell'ellisse venga spostato nel punto $C(x_C, y_C)$, l'equazione generale diventa:
+$ ((x - x_C)^2) / a^2 + ((y - y_C)^2) / b^2 = 1. $
+
+Se invece l'asse focale dell'ellisse è verticale, con i fuochi nei punti $(0, plus.minus c)$, e la costante della somma delle distanze dai fuochi è indicata con $2b$, si ottiene un'equazione analoga. In questo caso, però, valgono le seguenti relazioni:
+$ a^2 = b^2 - c^2 wide text("con ") a < b, $
+e il calcolo del parametro $c$ sarà:
+$ c = sqrt(b^2 - a^2). $
+
+Le equazioni generali per l'ellisse (sia con asse focale orizzontale che verticale) vengono denominate "equazioni dell'ellisse riferita agli assi", poiché gli assi dell'ellisse coincidono con quelli del sistema di coordinate.
+
+Riassumendo, l'equazione di un'ellisse con centro nel punto $C(x_C, y_C)$ e fuochi situati su una retta parallela a uno degli assi coordinati è:
+$ ((x - x_C)^2) / a^2 + ((y - y_C)^2) / b^2 = 1, $
+
+dove:
+- $a$ e $b$ sono i semiassi,
+- $a > b$ se l'asse focale è orizzontale,
+- $a < b$ se l'asse focale è verticale.
+
+In entrambi i casi, la semidistanza focale è data dalla formula:
+$ c = sqrt(|a^2 - b^2|). $
+
+Si possono quindi interpretare $a$ come la lunghezza del semiasse orizzontale e $b$ come quella del semiasse verticale. A seconda della relazione tra $a$ e $b$, i fuochi si trovano rispettivamente sull'asse orizzontale o verticale.
+
+=== L'iperbole
+Come stabilito dal teorema in @teorema_iperbole, l'iperbole è il luogo geometrico dei punti appartenenti al piano per i quali il valore assoluto della differenza delle distanze da due punti fissi, detti fuochi, risulta costante e diverso da zero.
+
+#grafico_iperbole_ruotata
+
+Nell'analisi dell'iperbole, si mantengono le stesse denominazioni già utilizzate per l'ellisse, laddove applicabili. In particolare, la retta che attraversa i due fuochi $F_1$ ed $F_2$, e che è un asse di simmetria, si chiama asse focale, asse principale o asse trasverso; il punto medio del segmento $F_1 F_2$ si chiama centro (indicato con $C$); la retta passante per il centro e perpendicolare all'asse focale si chiama asse secondario o asse non trasverso; i punti in cui l'iperbole interseca l'asse focale sono detti vertici e il segmento $C V_1$ (o $C V_2$) viene denominato semiasse trasverso.
+
+// grafico
+
+Per ottenere un'equazione cartesiana dell'iperbole, si adotta un sistema di riferimento tale che l'asse focale risulti orientato orizzontalmente o verticalmente. Le convenzioni usate sono analoghe a quelle viste per l'ellisse:
+- se l'asse focale è orizzontale, la costante rappresentata dal valore assoluto della differenza delle distanze di un punto sull'iperbole dai due fuochi è indicata con $2a$.
+- se, invece, l'asse focale è verticale, tale costante si indica con $2b$.
+
+In entrambi i casi, la distanza focale è rappresentata dal valore $2c$.
+
+Ripetendo calcoli e ragionamenti simili a quelli effettuati per l'ellisse, si ottiene la seguente forma canonica dell'equazione dell'iperbole:
+- se l'asse focale è l'asse $x$:
+  $ x^2 / a^2 - y^2 / b^2 = 1 $
+- se l'asse focale è l'asse $y$:
+  $ -x^2 / a^2 + y^2 / b^2 = 1 $
+In entrambi i casi, vale la relazione:
+$ c = sqrt(a^2 + b^2) $
+
+Le rette di equazione
+$ x : a = plus.minus y : b, wide text("ovvero ") y = plus.minus b / a x $
+sono dette asintoti dell'iperbole. Queste rette rappresentano le direzioni alle quali i rami dell'iperbole si avvicinano indefinitamente man mano che ci si allontana dall'origine. Sebbene in maniera non del tutto rigorosa, gli asintoti si possono descrivere come "tangenti all'infinito" dell'iperbole.
+
+Le #ref(<grafico_iperbole_tangente1>, supplement: "Figure") e #ref(<grafico_iperbole_tangente2>, supplement: none) aiutano a visualizzare meglio tali concetti, evidenziando il significato geometrico dei parametri $a$ e $b$ nell'equazione. In particolare: quando l'asse focale è orizzontale, i vertici $V_1$ e $V_2$ hanno le ascisse indicate rispettivamente da $plus.minus a$; mentre, quando l'asse focale è verticale, i vertici si trovano alle ordinate $plus.minus b$.
+
+#grafico_iperbole1-2
+
+Le equazioni dell'iperbole il cui asse focale coincide con l'asse $x$ o l'asse $y$ vengono chiamate, analogamente al caso dell'ellisse, equazioni dell'iperbole riferita agli assi. Questo perché gli assi dell'iperbole corrispondono agli assi del sistema di coordinate cartesiane.
+
+Se il centro dell'iperbole non coincide con l'origine del sistema di riferimento, è sufficiente effettuare una traslazione, analogamente a quanto fatto per l'ellisse. In questo caso, si ottengono le seguenti equazioni:
+
+$ ((x - x_C)^2) / a^2 - ((y - y_C)^2) / b^2 = 1, \ -((x - x_C)^2) / a^2 + ((y - y_C)^2) / b^2 = 1 $
+
+rispettivamente per l'asse focale orizzontale e quello verticale.
+
+Similmente a quanto avviene per l'ellisse, il parametro $a$ può essere interpretato come la lunghezza del semiasse orizzontale, mentre il parametro $b$ rappresenta la lunghezza del semiasse verticale. A seconda dei segni presenti nel primo membro dell'equazione, i fuochi dell'iperbole si troveranno lungo l'asse orizzontale oppure lungo l'asse verticale.
+
+=== Confronto fra ellisse e iperbole <confronto-ellisse-iperbole>
+
+Come evidenziato nei paragrafi precedenti, le equazioni canoniche dell'ellisse e dell'iperbole presentano una struttura molto simile. Questa similitudine rende utile riassumere le formule fondamentali come segue.
+
+Le equazioni canoniche di un'ellisse o di un'iperbole con assi paralleli agli assi coordinati, caratterizzate da semidistanza focale $c$, semiassi orizzontale $a$ e verticale $b$, e centro con coordinate $(x_C, y_C)$, possono essere espresse in questa forma:
+$ plus.minus ((x - x_C)^2) / a^2 plus.minus ((y - y_C)^2) / b^2 = 1. $ <eq-canonica-ellisse-iperbole>
+
+Si possono distinguere quattro diversi casi a seconda della combinazione dei segni nel primo membro dell'equazione:
++ "-,-": l'equazione non ammette soluzioni, poiché il primo membro sarà minore o uguale a zero, mentre il secondo sarà sempre strettamente positivo.
++ "+,+": è un'ellisse con centro in $C(x_C, y_C)$, asse orizzontale lungo $2a$, asse verticale lungo $2b$, e i fuochi disposti lungo l'asse maggiore.
++ "+,-": è un'iperbole con centro in $C(x_C, y_C)$, asse orizzontale lungo $2a$, asse verticale lungo $2b$, e i fuochi situati sull'asse orizzontale.
++ "-,+": è un'iperbole con centro in $C(x_C, y_C)$, asse orizzontale lungo $2a$, asse verticale lungo $2b$, e i fuochi situati sull'asse verticale.
+
+Per quanto riguarda la semidistanza focale, le formule da applicare sono le seguenti:
+- Per l'ellisse:
+  $ c = sqrt(|a^2 - b^2|) $
+- Per l'iperbole:
+  $ c = sqrt(a^2 + b^2) $
+
+Nel caso particolare dell'iperbole, le sue rette asintotiche sono descritte dall'equazione:
+$ (x - x_C) / a = plus.minus (y - y_C) / b. $
+
+Questa relazione può essere ricavata uguagliando a zero il primo membro dell'equazione generale dell'iperbole riportata sopra.
+
+Per tracciare le curve si procede nel seguente modo:
++ Identificare il centro $C(x_C, y_C)$ e localizzare i quattro vertici con coordinate $(x_C plus.minus a, y_C)$ e $(x_C, y_C plus.minus b)$.
++ Disegnare un rettangolo con lati paralleli agli assi coordinati che passi per i quattro vertici individuati.
++ Se è un'ellisse, la curva sarà internamente tangente al rettangolo.
++ Se è un'iperbole:
+  - Tracciare le rette che passano attraverso le diagonali del rettangolo; queste rappresentano gli asintoti dell'iperbole.
+  - Disegnare la curva come tangente esterna al rettangolo in due dei suoi vertici e asintoticamente tangente alle rette asintotiche. L'asse focale sarà orizzontale o verticale in base ai segni del primo membro dell'equazione.
+
+Le #ref(<grafico_ellisse_rettangolo>, supplement: "Figure"), #ref(<grafico_iperbole_rettangolo>, supplement: none) e #ref(<grafico_iperbole_verticale_rettangolo>, supplement: none) mostrano un esempio specifico di questa costruzione, considerando il caso in cui il centro si trova nell'origine degli assi cartesiani.
+
+#grafico_ellissi_iperbole
+
+Procedendo con i calcoli e le opportune semplificazioni, l'equazione @eq-canonica-ellisse-iperbole può essere espressa nella seguente forma#footnote[Si precisa che nella notazione adottata abbiamo utilizzato le lettere $A$, $C$, $D$, $E$, $F$ come coefficienti, evitando appositamente la lettera $B$, che viene riservata per indicare il coefficiente del termine misto $x y$, qualora presente.]:
+
+$ A x^2 + C y^2 + D x + E y + F = 0 $
+
+dove $A$, $C$, $D$, $E$ e $F$ rappresentano specifici coefficienti. Si tratta di un'equazione di secondo grado in due incognite, caratterizzata dall'assenza del termine misto e dalla non nullità dei coefficienti di $x^2$ e $y^2$. Nel paragrafo /* TODO */analizzeremo il problema inverso, ovvero come determinare le caratteristiche e rappresentare graficamente le soluzioni di un'equazione generale di secondo grado in due incognite, sempre priva del termine misto e con i coefficienti di $x^2$ e $y^2$ diversi da zero.
+
+=== Eccentricità
+
+Tanto per l'ellisse quanto per l'iperbole, il rapporto tra la semidistanza focale $c$ e il semiasse focale (che, nel caso dell'ellisse, corrisponde sempre al semiasse maggiore) prende il nome di eccentricità ed è indicato con la lettera $e$. 
+
+Per quanto riguarda l'ellisse, questa relazione soddisfa sempre la condizione $e < 1$, mentre per l'iperbole vale $e > 1$. Sebbene si possa definire anche per la parabola, tale argomento esula dagli scopi del manuale. Tuttavia, si segnala che per una parabola l'eccentricità è pari a $1$.
+
+L'eccentricità rappresenta una misura della "schiacciatura" dell'ellisse o dell'iperbole. Ad esempio, per un'ellisse con i fuochi posizionati sull'asse orizzontale, l'eccentricità è data da $c/a$, dove risulta tanto più vicina a $1$ quanto maggiormente i fuochi sono vicini ai vertici del semiasse maggiore. Questo concetto è evidente se consideriamo che:
+$ e = c / a = sqrt(a^2 - b^2) / a = sqrt(1 - b^2 / a^2) $
+
+#grafico_tre_ellissi
+
+Nella @grafico_tre_ellissi sono illustrate tre configurazioni diverse per rendere più chiaro tale concetto. Va osservato che una circonferenza presenta eccentricità nulla, dal momento che $c = 0$ e $a = b$.
+
+Nel caso di un'iperbole, qualora $a = b$, l'eccentricità assume il valore $sqrt(2)$. Infatti, per un'iperbole con asse focale orizzontale si verifica che:
+$ e = c / a = sqrt(a^2 + b^2) / a = sqrt(1 + b^2 / a^2), $
+da cui deriva che $e = sqrt(2)$ quando $a = b$. Questa particolare situazione verrà analizzata nel dettaglio nel paragrafo /* TODO */ dedicato all'iperbole equilatera.
+
+//
+== Equazione di secondo grado in due incognite senza termine misto <cap-secondo-grado-due-incognite>
+
+Esaminiamo un'equazione di secondo grado in due incognite priva del termine misto, che assume la forma seguente:
+$ A x^2 + C y^2 + D x + E y + F = 0 $ <eq-secondo-grado-due-incognite>
+dove si suppone che i coefficienti $A$ e $C$ non possano essere contemporaneamente nulli. Per comprendere quale curva sia rappresentata e per tracciarla graficamente, è necessario analizzare i vari casi possibili:
++ Quando $A = 0$ e $D = 0$, l'equazione si riduce a:
+  $ C y^2 + E y + F = 0 $
+  In questo caso, si ottiene un'equazione di secondo grado nella sola variabile $y$:
+  - se l'equazione ha due soluzioni reali ($y_1$ e $y_2$), queste rappresentano due rette parallele all'asse delle $x$, quindi $y = y_1$ e $y = y_2$.
+  - se l'equazione ha un'unica soluzione, si tratta di una retta parallela all'asse delle $x$, oppure di una coppia di rette coincidenti ($y = y_1$).
+  - se non vi sono soluzioni, l'insieme è vuoto.
+
+  In tutti i casi, la conica è degenere.
++ Quando $A = 0$ e $D != 0$:
+  L'equazione si può riscrivere nella forma:
+  $ x = -C / D y^2 - E / D y - F / D. $
+  Questa rappresenta una parabola avente l'asse parallelo all'asse delle $x$.
++ Quando $C = 0$ e $E = 0$:
+  L'equazione diventa:
+  $ A x^2 + D x + F = 0. $
+  Questo corrisponde a un'equazione di secondo grado nella sola variabile $x$:
+  - se vi sono due soluzioni reali ($x_1$ e $x_2$), queste rappresentano due rette parallele all'asse delle $y$, quindi $x = x_1$ e $x = x_2$.
+  - se vi è un'unica soluzione, si ha una retta parallela all'asse delle $y$, oppure una coppia di rette coincidenti ($x = x_1$).
+  - se non vi sono soluzioni, l'insieme è vuoto.
+
+  Anche in questo caso, la conica è degenere.
++ Quando $C = 0$ e $E != 0$:
+  L'equazione può essere riscritta come segue:
+  $ y = -A / E x^2 - D / E x - F / E. $
+  In questo caso, si ottiene una parabola con l'asse parallelo all'asse delle $y$.
++ Quando $A != 0$ e $C != 0$:
+  Per analizzare questo caso, si utilizza la tecnica del completamento dei quadrati. Riscrivendo l'equazione di partenza:
+  $ A x^2 + C y^2 + D x + E y + F = A (x^2 + D / A x) + C (y^2 + E / C y) + F $
+  Procedendo con il completamento dei quadrati, si ottiene:
+  $ A (x + D / (2A))^2 + C (y + E / (2C))^2 + F - D^2 / (4A) - E^2 / (4C) $
+  Definendo:
+  $ x_C = -D / (2A), wide y_C = -E / (2C), wide H = -F + D^2 / (4A) + E^2 / (4C) $
+  l'equazione può essere espressa in forma centrata:
+  $ A (x - x_C)^2 + C (y - y_C)^2 = H $
+  A questo punto, si distinguono due casi principali.
+    + con $H$ uguale a zero:
+      - se i coefficienti $A$ e $C$ sono concordi (ovvero hanno lo stesso segno), l'equazione diventa:
+        $ A (x - x_C)^2 + C (y - y_C)^2 = 0 $ il cui unico punto soluzione è $(x_C, y_C)$. Si tratta, in questo caso, di una conica degenere.
+      - se invece i coefficienti $A$ e $C$ sono discordi, è necessario riscrivere l'equazione portando uno dei due termini al secondo membro ed estraendo le radici quadrate:
+        $ sqrt(|A|) (x - x_C) = plus.minus sqrt(|C|) (y - y_C) $
+        che equivale a un sistema di due rette incidenti nel punto $(x_C, y_C)$. Anche in questo caso si tratta di una conica degenere.
+    + con $H$ diverso da zero, dividendo entrambi i membri per $H$ e portando i coefficienti $A$ e $C$ al denominatore, si ottiene:
+      $ ((x - x_C)^2) / (H / A) + ((y - y_C)^2) / (H / C) = 1 $ Definendo:
+      $ sqrt(lr(|H / A|)) = a^2, quad sqrt(lr(|H / C|)) = b^2 $
+      l'equazione diventa:
+      $ plus.minus ((x - x_C)^2) / a^2 plus.minus ((y - y_C)^2) / b^2 = 1 $
+      L'equazione @eq-secondo-grado-due-incognite rappresenta quindi un'ellisse, un'iperbole o un insieme vuoto, in base ai segni relativi di $A$, $C$ e $H$. Questo aspetto è già stato analizzato nel dettaglio nella @confronto-ellisse-iperbole.
+
+//
+#esempio[Disegnare il grafico della conica seguente:
+$ x^2 + 2y^2 - 2x - 8y + 7 = 0 $
+
+Per semplificare, riscriviamo l'equazione:
+$ (x^2 - 2x) + 2(y^2 - 4y) + 7 = \
+= (x^2 - 2x + 1) + 2(y^2 - 4y + 4) + 7 - 1 - 8 = \
+= (x - 1)^2 + 2(y - 2)^2 - 2 $
+
+Ora possiamo riscrivere l'equazione nella forma:
+$ ((x - 1)^2) / 2 + ((y - 2)^2) / 1 = 1. $
+
+Da ciò si deduce che si tratta di un'ellisse centrata nel punto $(1, 2)$, con semiassi $sqrt(2)$ e $1$. Poiché il semiasse maggiore corrisponde a quello orizzontale, l'asse focale sarà orizzontale.
+
+Ricaviamo ora la distanza focale $c$:
+$ c = sqrt(2 - 1) = 1 $
+
+I fuochi risultano quindi essere nei punti $F_1(0, 2)$ e $F_2(2, 2)$. 
+
+#grafico_ellisse_traslata
+][Disegnare il grafico della conica seguente:
+$ 4x^2 - y^2 - 16x + 2y + 15 = 0 $
+
+Procediamo con la risoluzione:
+$ 4(x^2 - 4x) - (y^2 - 2y) + 15 = \
+= 4(x^2 - 4x + 4) - (y^2 - 2y + 1) + 15 - 16 + 1 = \
+= 4(x - 2)^2 - (y - 1)^2. $
+
+Possiamo quindi riscrivere l'equazione nella forma:
+$ (x - 2)^2 = ((y - 1)^2) / 4, $
+che rappresenta una coppia di rette intersecanti nel punto $C(2, 1)$, che è il centro della conica degenere.][Tracciare il grafico della seguente conica:
+$ x^2 - 2y^2 - 2x + 4y - 3 = 0 $
+
+L'equazione può essere riscritta come segue:
+$ (x^2 - 2x) - 2(y^2 - 2y) - 3 = \
+= (x^2 - 2x + 1) - 2(y^2 - 2y + 1) - 3 - 1 + 2 = \
+= (x - 1)^2 - 2(y - 1)^2 - 2. $
+
+Riorganizzando, l'equazione assume la forma:
+$ ((x - 1)^2) / 2 - ((y - 1)^2) / 1 = 1, $
+
+che rappresenta un'iperbole con asse focale orizzontale, centro in $C(1, 1)$, semiassi rispettivamente di $sqrt(2)$, lungo l'asse maggiore (orizzontale), e $1$, lungo l'asse minore (verticale), e distanza focale di $c = sqrt(a^2 + b^2) = sqrt(2 + 1) = sqrt(3). $
+
+Pertanto, le coordinate dei fuochi risultano essere:
+$ F_1(1 - sqrt(3), 1) wide text("e ") F_2(1 + sqrt(3), 1) $
+
+Le equazioni degli asintoti dell'iperbole sono:
+$ (x - 1) / sqrt(2) = plus.minus (y - 1) $
+
+che si può anche esprimere nella forma equivalente:
+$ y - 1 = plus.minus (x - 1) / sqrt(2) $
+
+Questo consente di rappresentare il grafico dell'iperbole, il quale avrà i suoi rami che tendono asintoticamente alle rette sopra indicate e un orientamento con asse focale orizzontale.
+
+#grafico_iperbole_traslata
+]
+
+== Iperbole equilatera
+
+Un'iperbole viene definita equilatera quando $a = b$. Come già accennato, un'iperbole di questo tipo possiede un'eccentricità $e = sqrt(2)$. In tal caso, la sua equazione si semplifica nella forma:
+$ (x - x_C)^2 - (y - y_C)^2 = plus.minus a^2 $
+
+Se il centro dell'iperbole è posto nell'origine, l'equazione diventa:
+$ x^2 - y^2 = plus.minus a^2 $
+
+Poiché gli asintoti dell'iperbole equilatera sono perpendicolari tra loro e, nel caso in cui il centro sia sull'origine, coincidono con le bisettrici dei quadranti, si può effettuare una rotazione degli assi di $plus.minus pi/4$, facendo in modo che coincidano con gli stessi asintoti.
+
+Considerando una rotazione di $pi/4$, le equazioni della trasformazione degli assi diventano:
+$ cases(
+  x = sqrt(2)/2 (x' - y'),
+  y = sqrt(2)/2 (x' + y')
+) $ <eq-iperbole-trasformazione-assi>
+
+Sostituendo queste espressioni nell'equazione $x^2 - y^2 = plus.minus a^2$ e svolgendo semplici calcoli, si giunge alla forma:
+$ x' y' = plus.minus a^2 / 2 $
+
+Utilizzando nuovamente $x$ e $y$ per sovrascrivere gli assi con gli asintoti, possiamo concludere che un'iperbole equilatera riferita agli asintoti ha un'equazione del tipo:
+$ x y = k, wide k != 0, wide |k| = a^2 / 2 = b^2 / 2 $
+
+I due rami dell'iperbole si posizionano nel primo e nel terzo quadrante se $k > 0$, e nel secondo e quarto quadrante se $k < 0$. I vertici dell'iperbole si trovano nei punti di intersezione con una delle bisettrici dei quadranti, dove ascissa e ordinata risultano uguali oppure hanno segno opposto. Il loro modulo è dato da $sqrt(|k|)$, e le coordinate dei vertici sono espresse come:
+$ (sqrt(k), sqrt(k)), wide (-sqrt(k), -sqrt(k)), \ (-sqrt(-k), sqrt(-k)), wide (sqrt(-k), -sqrt(-k)) $
+
+Per quanto riguarda i fuochi, ricordiamo che
+$ c = sqrt(a^2 + b^2) = sqrt(2a^2) = a sqrt(2) $
+quindi le coordinate dei fuochi si ottengono moltiplicando quelle dei vertici per $sqrt(2)$.
+
+Infine, considerando che nell'equazione $x y = k$, $x != 0$, possiamo riscriverla come:
+$ y = k / x $
+
+La formula risultante rivela che l'iperbole, in questo caso, rappresenta il grafico di una legge di proporzionalità inversa, un tema già trattato in precedenza (@funzioni). Anche per questo motivo, la rappresentazione dell'iperbole equilatera ha ampie applicazioni pratiche.
+
+=== Funzione omografica
+
+Analizziamo ora un'iperbole equilatera con il centro posizionato al di fuori dell'origine. La sua equazione sarà della forma:
+
+$ (x - x_C)^2 - (y - y_C)^2 = plus.minus a^2 $ <eq-funzione-omografica1>
+
+oppure:
+
+$ x^2 - y^2 - 2x_C x + 2y_C y + x_C^2 - y_C^2 = plus.minus a^2 $ <eq-funzione-omografica2>
+
+Proponiamo una rotazione degli assi di $pi/4$ e sostituiamo la relazione @eq-iperbole-trasformazione-assi nella @eq-funzione-omografica2. Dopo alcune semplificazioni si ottiene:
+
+$ x' y' + sqrt(2)/2 (x' (x_C - y_C) - y' (x_C + y_C)) = -x_C^2 + y_C^2 plus.minus a^2 $
+
+Tenendo conto che, grazie alla relazione (8.9):
+$ x'_C = sqrt(2)/2 x_C + sqrt(2)/2 y_C, \
+y'_C = -sqrt(2)/2 x_C + sqrt(2)/2 y_C $
+
+l'equazione si può riscrivere nella forma:
+
+$ x' y' - y'_C x' - x'_C y' = h $
+
+Pertanto, possiamo concludere, riportando le variabili principali $x$ e $y$ per gli assi, che un'iperbole equilatera con centro nel punto $(x_C, y_C)$ e assi paralleli agli asintoti ha l'equazione:
+
+$ x y - y_C x - x_C y = h $
+
+#esempio[Considerare l'iperbole equilatera di equazione:
+$ (x - 1)^2 - (y - 2)^2 = 1 $
+il cui centro è $C(1, 2)$ e i semiassi hanno lunghezza pari a $1$. Supponendo una rotazione degli assi di $pi/4$ e utilizzando la procedura descritta in precedenza, l'equazione diventa:
+$ x' y' - sqrt(2)/2 x' - 3sqrt(2)/2 y' = -2 $
+
+Il centro $C$ assume allora le nuove coordinate:
+$ C'(3sqrt(2)/2, sqrt(2)/2). $
+
+Considerando che $x != x_0$, questa può essere trasformata nella forma seguente:
+$ y = (y_0 x + h) / (x - x_0) $
+la quale viene comunemente espressa come:
+
+$ y = (a x + b) / (c x + d) $
+
+L'equazione dimostra quindi che l'iperbole equilatera può essere interpretata come il grafico di una funzione reale di variabile reale:
+
+$ f(x) = (a x + b) / (c x + d) $
+con dominio naturale $x != -d/c$, denominata funzione omografica.
+
+#grafico_iperbole_asintoti_ruotati
+
+Va però sottolineato che non tutte le funzioni di questo tipo rappresentano il grafico di un'iperbole equilatera. Infatti:
+
++ Se $c = 0$, la funzione si riduce alla forma $f(x) = (a/d)x + (b/d)$, il cui grafico rappresenta una retta;
++ Se $a d - b c = 0$, si ha $b = (a d)/c$ e quindi:
+  $ f(x) = (a x + b) / (c x + d) = (a x + (a d)/c) / (c x + d) = a/c, wide text("quando ") c x + d != 0, $
+  il che corrisponde a una retta parallela all'asse delle ascisse, ad eccezione del punto con ascissa $-d/c$.]
+
+== Equazione di secondo grado in due incognite con termine misto
+
+Durante lo studio dell'iperbole equilatera, abbiamo incontrato equazioni di secondo grado in due incognite contenenti il termine misto $x y$. Ora vogliamo proporre una strategia generale per affrontarle. Prendiamo in considerazione una generica equazione del secondo grado in due incognite, che includa il termine misto:
+$ A x^2 + B x y + C y^2 + D x + E y + F = 0, wide B != 0 $
+e cerchiamo, se possibile, di individuare una rotazione degli assi tale da eliminare il termine $x y$; così facendo, l'equazione risultante potrà essere trattata tramite la tecnica descritta nella @cap-secondo-grado-due-incognite. Una generica rotazione degli assi è data dall'equazione @rotazione_assi1. Sostituendo le nuove espressioni di $x$ e $y$ nell'equazione precedente e semplificando, si ottiene una nuova equazione nella quale il coefficiente del termine misto $x' y'$ risulta:
+$ -2A sin alpha cos alpha + B cos^2 alpha - B sin^2 alpha + 2C sin alpha cos alpha = \ = (-A + C) sin 2alpha + B cos 2alpha $
+
+Affinché il termine misto scompaia, tale coefficiente deve essere nullo. Questo condiziona l'angolo $alpha$ a soddisfare la relazione:
+$ cot 2alpha = (A - C) / B $
+
+Tra le infinite soluzioni di questa equazione, sarà sufficiente scegliere un angolo acuto.
+
+#esempio[Rappresentare graficamente la conica definita dall'equazione:
+$ x^2 + x y + y^2 - x - 1 = 0 $
+
+Utilizzando la relazione (8.103), si ottiene $cot 2alpha = 0$, da cui $alpha = pi/4$. Le equazioni di rotazione degli assi diventano:
+$ cases(
+  x = sqrt(2)/2 x' - sqrt(2)/2 y', 
+  y = sqrt(2)/2 x' + sqrt(2)/2 y'
+) $
+
+Sostituendo queste espressioni nell'equazione originale e semplificando, otteniamo:
+$ 3(x')^2 + (y')^2 - sqrt(2)x' + sqrt(2)y' - 2 = 0 $
+
+Applicando la tecnica del completamento del quadrato, l'equazione si può riscrivere come:
+$ (x' - sqrt(2)/6)^2 / (8/9) + (y' + sqrt(2)/2)^2 / (8/3) = 1. $
+
+Il grafico (@grafico_ellisse_ruotata_assi) risultante nel sistema ruotato è un'ellisse con centro in:
+$ C(sqrt(2)/6, -sqrt(2)/2) $
+e semiassi:
+$ a = sqrt(8/9), wide b = sqrt(8/3) $
+
+#grafico_ellisse_ruotata_assi
+]
+
+== Altri luoghi geometrici
+Utilizzando la geometria analitica, risulta semplice esaminare le caratteristiche di numerosi luoghi geometrici notevoli, la cui descrizione sintetica può risultare complessa. Di seguito presentiamo due esempi, utili sia a scopo illustrativo che come esercizio.
+
+=== Circonferenza di Apollonio
+
+Si considerino due punti $A$ e $B$ del piano. Il luogo dei punti $P$ di questo stesso piano per cui vale la relazione $ (|A P|)/(|P B|) = k, quad k > 0 and k != 1 $, è una circonferenza nota come circonferenza di Apollonio.
+
+Il caso $k = 1$ è escluso perché banale: si ottiene in questo caso semplicemente l'asse del segmento $A B$.
+
+Per analizzare questo problema in termini analitici, è utile considerare un sistema di coordinate opportuno che semplifichi i calcoli il più possibile. Scegliamo dunque un sistema cartesiano $O x y$ nel quale i punti dati abbiano coordinate $A(0, 0)$ e $B(a, 0)$, con $a > 0$. Indichiamo con $P(x, y)$ un punto generico del piano. Questo punto soddisfa la condizione del luogo geometrico se e solo se:
+$ sqrt(x^2 + y^2) = k sqrt((x - a)^2 + y^2) $
+
+Elevando entrambi i membri al quadrato, semplificando e dividendo per $k^2 - 1$ (operazione legittima poiché $k > 0$ e $k != 1$), si ottiene:
+$ x^2 + y^2 - (2a k^2) / (k^2 - 1) x + (a^2 k^2) / (k^2 - 1) = 0 $
+
+L'equazione risultante rappresenta una circonferenza, il cui centro e raggio sono dati rispettivamente da:
+$ C((a k^2) / (k^2 - 1), 0), wide r = a k / (|k^2 - 1|) $
+
+Dalla condizione: $ k^2 / (k^2 - 1) < 0 or k^2 / (k^2 - 1) > 1 $ deduciamo che il centro della circonferenza si trova sempre all'esterno del segmento $A B$. In particolare:
+- se $0 < k < 1$, il centro è situato dalla parte di $A$.
+- se $k > 1$, il centro è situato dalla parte di $B$.
+
+Nel caso in cui $0 < k < 1$, la distanza del centro dal punto $A$ si calcola come:
+$ (a k^2) / (1 - k^2) $
+ed è inferiore al raggio della circonferenza; ciò implica che il punto $A$ è contenuto all'interno del cerchio. Analogamente, nel caso in cui $k > 1$, il punto $B$ sarà incluso nel cerchio. Queste proprietà sono intuitive, poiché un punto appartenente al segmento $A B$ deve necessariamente appartenere al luogo geometrico.
+
+La @grafico_circonferenza_apollonio illustra questa situazione con i valori $a = 2$ e $k = 2$.
+
+#grafico_circonferenza_apollonio
+
+=== Eccentricità di una conica generica
+
+Consideriamo un piano in cui sono date una retta $d$ e un punto $F$, che non appartiene alla retta ($F in.not d$). Il luogo geometrico costituito dai punti del piano, le cui distanze soddisfano la relazione
+$ (|P F|) / d(P, d) = k, quad k > 0 and k != 1 $ rappresenta un'ellisse quando $0 < k < 1$ e un'iperbole quando $k > 1$. Nel caso particolare $k = 1$, si ottiene invece una parabola, caratterizzata da un fuoco $F$ e da una direttrice $d$. I termini di fuoco e direttrice rimangono validi anche nel caso generale trattato.
+
+Per comprendere meglio, scegliamo un sistema di coordinate in cui la retta $d$ coincide con l'asse $y$, e il punto $F$ è posizionato in $(p, 0)$, con $p > 0$. Considerando un punto generico $P(x, y)$ appartenente al luogo geometrico descritto, la sua appartenenza è verificata dalla relazione
+$ sqrt((x - p)^2 + y^2) = k |x| $
+
+Elevando al quadrato entrambi i membri e semplificando, otteniamo:
+$ (1 - k^2)x^2 + y^2 - 2p x + p^2 = 0 $
+
+L'equazione risultante mostra chiaramente che si tratta di una conica. Applicando il metodo del completamento del quadrato, possiamo riscriverla nella forma:
+$ (x - p / (1 - k^2))^2 / ((p^2 k^2) / (1 - k^2)^2) + y^2 / ((p^2 k^2) / (1 - k^2)) = 1 $
+
+Questa è l'equazione di una conica con asse focale lungo l'asse $x$; i valori del centro, dei semiassi e della semidistanza focale sono dunque:
+$ C = (p / (1 - k^2), 0), quad a = (p k) / (|1 - k^2|), quad b = (p k sqrt(|1 - k^2|)) / (|1 - k^2|), quad c = (p k^2) / (|1 - k^2|) $
+
+La natura della conica dipende dal valore di $k$:
+1. Se $0 < k < 1$, la conica è un'ellisse.
+2. Se $k > 1$, la conica è un'iperbole.
+
+In entrambi i casi, se si considera il simmetrico $F'$ di $F$ rispetto al centro della conica e la retta $d'$ simmetrica di $d$ rispetto al centro, si ha ancora:
+$ (|P F'|) / d(P, d') = k $
+
+Questo implica che anche $F'$ e $d'$ agiscono, rispettivamente, come fuoco e direttrice. Inoltre, sono valide le proprietà focali ben note delle ellissi e delle iperboli:
+- per le ellissi: $|P F'| + |P F| = 2a$
+- per le iperboli: $|P F'| - |P F| = 2a$
+
+Si può osservare facilmente che il valore del rapporto
+$ k = c / a $
+corrisponde esattamente all'eccentricità dell'ellisse o dell'iperbole.
+
+Questa definizione "unificata" di ellisse e iperbole attraverso fuoco e direttrice consente di integrare in maniera coerente le tre sezioni coniche (ellisse, parabola e iperbole). Tutte possono essere intese come luoghi geometrici dei punti del piano che mantengono costante il rapporto tra la distanza da un punto fisso (fuoco) e una retta fissa (direttrice), a condizione che il fuoco sia esterno alla direttrice:
+
+Se $0 < k < 1$ il luogo geometrico rappresenta un'ellisse, quando $k = 1$ diventa una parabola, mentre per $k > 1$ si ottiene un'iperbole. Come evidenziato dall'equazione:
+$ (1 - k^2)x^2 + y^2 - 2p x + p^2 = 0 $
+il luogo può essere una circonferenza solo nel caso in cui $k = 0$. Tuttavia, questo valore non può essere ottenuto direttamente dal rapporto $(|P F|) / d(P, d)$. Si può comunque immaginare di raggiungere $k = 0$ allontanando la direttrice verso l'infinito. In tale scenario, il centro $C$ coincide con $F$ e anche l'altro fuoco finisce per sovrapporsi a $F$. La circonferenza può dunque essere interpretata, sotto questa prospettiva, come una conica caratterizzata da "eccentricità limite" nulla, con i due fuochi e il centro coincidenti, mentre le direttrici si trovano a distanza infinita.
+
+Le #ref(<grafico_luogo_geometrico1>, supplement: "Figure") e #ref(<grafico_luogo_geometrico2>, supplement: none) mostrano due casi specifici: nella prima, con $p = 3$ e $k = 2$, è rappresentata un'iperbole; nella seconda, con $p = 3$ e $k = 1/2$, è illustrata un'ellisse.
+
+#grafico_luogo_geometrico1
+
+#grafico_luogo_geometrico2
+
+== Altri tipi di equazioni
+Le curve algebriche descritte da equazioni di grado superiore al secondo richiedono tecniche avanzate per essere studiate in dettaglio, argomenti che esulano dallo scopo di questo testo. Tuttavia, ci sono alcune situazioni che si possono affrontare con strumenti elementari, e su queste faremo qualche considerazione.
+
+Un caso particolarmente semplice si presenta quando l'equazione della curva, nella forma $f(x, y) = 0$, può essere riscritta scomponendo il primo membro in un prodotto di fattori di grado pari o inferiore a 2. In tal caso, si può applicare la legge del prodotto nullo per analizzare la curva. Esaminiamo un esempio per chiarire il concetto.
+
+#esempio[Rappresentare graficamente la curva data dall'equazione $(x - y^2)(x^2 + y^2 - 1) = 0$.
+
+Questa equazione rappresenta l'unione dei grafici di due curve: $x - y^2 = 0$, che corrisponde a una parabola, e $x^2 + y^2 - 1 = 0$, che rappresenta una circonferenza. La loro intersezione determina il grafico complessivo della curva, illustrato nella @grafico_luogo_geometrico3.
+
+#grafico_luogo_geometrico3]
+
+Proponiamo ora ulteriori tecniche per analizzare curve più complesse, che includono sia curve di grado superiore al secondo sia curve non razionali.
+
+#esempio[Tracciare il grafico della curva definita dall'equazione cartesiana $x^3 - y^2 = 0$.
+
+Riorganizzando l'equazione nella forma $y^2 = x^3$, si osserva subito che $x$ deve essere maggiore o uguale a zero ($x >= 0$). Da questa condizione segue che $y = plus.minus sqrt(x^3) = plus.minus x^(3/2)$. Pertanto, la curva cercata è l'unione di due funzioni potenza con segno opposto, come illustrato nella @grafico_luogo_geometrico4.
+
+#grafico_luogo_geometrico4
+
+
+Tracciare il grafico della curva descritta dall'equazione $y = sqrt(x^2 - 2x)$.
+
+Per iniziare, occorre considerare le condizioni di esistenza: $x < 0$ oppure $x > 2$. Successivamente, l'equazione iniziale può essere riscritta come il sistema:
+$ cases(
+  y >= 0, 
+  y^2 = x^2 - 2x
+) $
+
+Il grafico dell'equazione $y^2 = x^2 - 2x$ rappresenta un'iperbole con centro in $(1, 0)$ e semiassi $a = b = 1$. Tuttavia, la condizione $y >= 0$ richiede di considerare unicamente la porzione superiore dell'iperbole, situata sopra l'asse delle $x$, come si vede nella @grafico_luogo_geometrico5.
+
+#grafico_luogo_geometrico5
+
+][Tracciare il grafico della curva definita dall'equazione $y = sqrt(1 - x^2) + 1$.
+
+Per iniziare, l'argomento della radice quadrata impone che $-1 <= x <= 1$. Questo vincolo deriva dal fatto che $1 - x^2$ deve essere maggiore o uguale a zero. Riscrivendo l'equazione nella forma $y - 1 = sqrt(1 - x^2)$, ci accorgiamo che essa equivale al sistema:
+$ cases(
+  y >= 1, 
+  (y - 1)^2 = 1 - x^2
+) $
+
+Il secondo punto rappresenta un'equazione di una circonferenza con centro in $(0, 1)$ e raggio $1$. Tuttavia, il vincolo della disequazione $y >= 1$ ci dice che dobbiamo considerare solo la semicirconferenza superiore, situata al di sopra della retta orizzontale $y = 1$. Si veda la @grafico_luogo_geometrico6 per visualizzare la soluzione.
+
+#grafico_luogo_geometrico6
+
+]
+
+== Equazioni parametriche
+Fino a questo punto, abbiamo analizzato rette e curve nel piano utilizzando un'equazione a due incognite, denominata rappresentazione cartesiana. Tuttavia, esistono altri metodi per descrivere gli stessi luoghi geometrici. Tra questi, accenneremo alla rappresentazione parametrica. Si tratta di semplici considerazioni introduttive, poiché una trattazione più approfondita sarà oggetto di corsi universitari futuri.
+
+Se consideriamo due funzioni reali $f$ e $g$ di una variabile reale definite su un intervallo comune $I$, utilizziamo $t$ per indicare la variabile indipendente e $x$ e $y$ come variabili dipendenti. Al variare di $t$ in $I$, il punto con coordinate $(x, y) = (f(t), g(t))$ descrive un insieme nel piano che, sotto determinate condizioni, può essere interpretato come una curva nel senso intuitivo del termine. Le equazioni della curva vengono espresse così:
+$ cases(
+  x = f(t),
+  y = g(t)
+) $
+
+Queste sono chiamate equazioni parametriche della curva.
+
+#esempio[Tracciare per punti la curva definita dalle equazioni parametriche:
+$ cases(
+  x = t^3 - 2t^2,
+  y = t^3 - t
+) $
+
+Per rappresentare questa curva è possibile costruire una tabella attraverso alcuni valori di $t$:
+
+#tabella_curva_parametrica1
+
+Per ottenere un grafico preciso sarebbe necessario calcolare molti più punti. La figura 8.57 illustra la risultante curva parametrica, tracciata con l'ausilio di un software specifico, evidenziando alcuni dei punti riportati nella tabella.
+
+In alcuni casi, può essere possibile eliminare il parametro $t$, ad esempio esprimendolo in funzione di una delle variabili (se possibile), e sostituendo quindi il suo valore nell'altra equazione. In questo modo si ricava un'equazione che lega direttamente $x$ ed $y$: questa corrisponde alla forma cartesiana della curva.
+
+#grafico_curva_parametrica1
+
+][Determinare l'equazione cartesiana di una curva definita dalle equazioni parametriche:
+$ cases(
+  x = t - 1, 
+  y = t^2
+) $
+
+Dalla prima equazione si ricava $t = x + 1$. Sostituendo questo valore di $t$ nella seconda equazione, si ottiene $y = (x + 1)^2$, ovvero $y = x^2 + 2x + 1$. Questa è l'equazione di una parabola.][Determinare l'equazione cartesiana di una curva definita dalle equazioni parametriche:
+$ cases(
+  x = 1 + 2 cos(t), 
+  y = sin(t)
+) wide t in [0, 2pi] $
+
+Riscrivendo la prima equazione nella forma $(x - 1)/2 = cos(t)$ e sommando il quadrato di questa espressione con il quadrato della seconda equazione $y = sin(t)$, si ottiene:
+$ ((x - 1)^2) / 4 + y^2 = 1. $
+
+Questa è l'equazione di un'ellisse con centro nel punto $(1, 0)$ e semiassi di lunghezza pari a $2$ e $1$.]
+
+Le equazioni parametriche sono particolarmente importanti poiché possono essere interpretate come leggi orarie del movimento di un punto nel piano: il parametro $t$ rappresenta il tempo, e la curva grafico descrive la traiettoria percorsa dal punto al variare del tempo.
+
+Un aspetto da sottolineare è che una curva può avere diverse rappresentazioni parametriche. Se si considera solo la geometria della curva come insieme di punti, tutte le rappresentazioni sono equivalenti. Tuttavia, nel caso in cui ci interessino le leggi orarie del moto, le diverse rappresentazioni parametriche possono riferirsi a situazioni fisiche molto differenti, come sarà evidente con l'esempio seguente.
+
+#esempio[Tracciare il grafico delle curve delle curve parametriche:
+
+$ gamma_1: cases(x = t, y = 1), quad  gamma_2: cases(x = t^3, y = 1), quad gamma_3: cases(x = t sin(t), y = 1) $
+
+Come si può osservare, in tutti e tre i casi il valore di $y$ rimane costante e uguale a $1$, quindi le curve risultano stendersi lungo la retta orizzontale $y = 1$. Variando il parametro $t$, si ottengono tutti i punti di questa retta, ma il comportamento delle tre curve differisce notevolmente in base alla definizione del parametro $x$:
++ $gamma_1$: rappresenta un moto rettilineo uniforme poiché $x = t$. Il punto si sposta lungo la retta con velocità costante
++ $gamma_2$: descrive un moto accelerato, con un'accelerazione che cresce al crescere di $t$, dato che $x = t^3$
++ $gamma_3$: corrisponde a un moto oscillante lungo la retta, con oscillazioni di ampiezza sempre maggiore, essendo $x = t sin(t)$
+
+Determinare esattamente queste proprietà richiederebbe l'uso del calcolo differenziale per analizzare le velocità e le accelerazioni coinvolte. Tuttavia, anche calcolando i valori di $x$ corrispondenti a intervalli di tempo costanti ($t$) possiamo cogliere intuitivamente questa distinzione. La tabella sottostante riporta i valori di $x$ calcolati per ciascuna curva parametrica con valori specifici di $t$:
+
+#tabella_curva_parametrica2
+
+Dai valori ottenuti si può osservare quanto segue:
+- per $gamma_1$, $x$ cresce in modo lineare rispetto a $t$
+- per $gamma_2$, $x$ aumenta rapidamente con il cubo del tempo, traducendosi in una crescita molto più rapida rispetto a $gamma_1$
+- per $gamma_3$, il valore di $x$ oscilla tra valori positivi e negativi, con un'ampiezza delle oscillazioni che tende a crescere con il valore di $t$
+
+Questa analisi mostra che, pur restando nella stessa retta, i tre moti riflettono dinamiche completamente diverse.
+]
+
+=== Equazioni parametriche della retta
+
+Consideriamo una retta definita dall'equazione cartesiana $a x + b y + c = 0$:
+- se $a != 0$, ponendo $y = t$, si ottiene il sistema:
+  $ cases(
+    x = -b/a t - c/a, 
+    y = t
+  ) $ <eq-parametrica-retta1>
+- se $b != 0$, ponendo $x = t$, si ottiene il sistema:
+  $ cases(
+    x = t, 
+    y = -a/b t - c/b
+  ) $ <eq-parametrica-retta2>
+
+Le due espressioni sopra possono essere riscritte nella forma generale:
+$ cases(
+  x = x_0 + l t, 
+  y = y_0 + m t
+) $ <eq-parametrica-retta3>
+dove queste sono le cosiddette equazioni parametriche canoniche della retta.
+
+Invertendo il processo, ovvero ricavando il parametro $t$ da una delle due equazioni e sostituendolo nell'altra, possiamo tornare a un'equazione di primo grado nelle variabili $x$ e $y$, che corrisponde all'equazione cartesiana della retta.
+
+Nel sistema @eq-parametrica-retta3, il punto di coordinate $(x_0, y_0)$ appartiene alla retta ed è ottenuto imponendo $t = 0$. Questo punto può essere definito punto iniziale o punto in evidenza della retta.
+
+== Cenno sulle disequazioni in due incognite
+Per le disequazioni in una sola incognita reale, l'uso della rappresentazione grafica era spesso opzionale. Tuttavia, nel caso delle disequazioni in due incognite, essa diventa pressoché inevitabile, poiché non esistono metodi analitici semplici per descrivere in modo esaustivo l'insieme delle soluzioni. Generalmente, la rappresentazione grafica avviene sul piano cartesiano. In questa breve introduzione ci concentreremo esclusivamente sulle disequazioni di primo e secondo grado, includendo casi di sistemi semplici.
+
+Consideriamo il luogo geometrico dei punti nel piano che soddisfano un'equazione del tipo $f(x, y) = 0$. Nei casi di nostro interesse, tale luogo è una retta, se $f(x, y)$ è un polinomio di primo grado in due variabili, ad esempio $f(x, y) = a x + b y + c$, o una conica, se $f(x, y)$ è un polinomio di secondo grado in due variabili, come $f(x, y) = a x^2 + b x y + c y^2 + d x + e y + f$. Le disequazioni che affronteremo saranno espresse nella forma $f(x, y) > 0$, oppure $f(x, y) < 0$, $f(x, y) >= 0$, o $f(x, y) <= 0$.
+
+Poiché la retta o la conica divide il piano in regioni distinte (tipicamente due, anche se l'iperbole ne genera tre, ma considereremo le due principali per semplificazione), la disequazione sarà verificata solo in una di queste regioni e non nell'altra. Sarà sufficiente scegliere un punto appartenente a una delle regioni per determinare in quale sia verificata la disequazione. Gli esempi successivi chiariranno meglio questo concetto.
+
+Per la risoluzione di sistemi di disequazioni, sarà sufficiente individuare l'intersezione degli insiemi di soluzione relativi a ciascuna disequazione. Per le disequazioni che coinvolgono frazioni o prodotti, si utilizzeranno le regole relative ai segni, analogamente a quanto fatto per le disequazioni in un'incognita.
+
+=== Disequazioni di primo grado
+
+#esempio[Risolvere la disequazione $2x + 3y - 6 > 0$.
+
+Iniziamo col rappresentare sul piano cartesiano la retta corrispondente all'equazione $2x + 3y - 6 = 0$. Successivamente, scegliamo un punto qualsiasi che non appartiene alla retta per verificarne l'inserimento nella disequazione. Usando le coordinate dell'origine degli assi $(0, 0)$, sostituendole nella disequazione si ottiene:
+$ 2(0) + 3(0) - 6 = -6, $
+e poiché $-6 > 0$ è falso, concludiamo che l'origine non appartiene all'insieme delle soluzioni.
+
+Pertanto, l'insieme delle soluzioni è costituito dall'altro semipiano delimitato dalla retta e viene rappresentato graficamente con tratteggio nell'illustrazione della @grafico_disequazione_lineare1. La retta stessa non è inclusa nelle soluzioni poiché la disuguaglianza è strettamente maggiore.
+
+#grafico_disequazione_lineare1
+
+][Considerare la disequazione $x - 2y + 1 <= 0$. Per risolverla, si inizia rappresentando sul piano cartesiano la retta corrispondente all'equazione $x - 2y + 1 = 0$. Successivamente, si verifica il segno della disequazione sostituendo le coordinate di un punto, ad esempio l'origine $(0, 0)$. Sostituendo, si ottiene:
+$ 1 <= 0 $
+che risulta falso. Ciò implica che l'insieme delle soluzioni non comprende il semipiano in cui si trova l'origine, ma l'altro semipiano individuato dalla retta.
+
+#grafico_disequazione_lineare2
+
+Questo semipiano è evidenziato attraverso un tratteggio nella @grafico_disequazione_lineare2. In questo caso, la retta stessa appartiene all'insieme delle soluzioni, essendo soddisfatta l'uguaglianza nella disequazione.]
+
+=== Disequazioni di secondo grado
+#esempio[Risolvere la disequazione $x^2 - 3y^2 + 4x - 6y - 4 < 0$.
+
+Rappresentando l'iperbole $x^2 - 3y^2 + 4x - 6y - 4 = 0$, possiamo verificare se l'origine soddisfa la disequazione sostituendo le coordinate $(0, 0)$. Si ottiene:
+$ -4 < 0, $
+ua disequazione vera. Questo indica che la disequazione è verificata nella parte del piano individuata dall'iperbole e comprendente l'origine (la regione tratteggiata nella @grafico_disequazione_iperbole). 
+
+#grafico_disequazione_iperbole
+
+L'iperbole, infatti, suddivide il piano in tre regioni distinte; tuttavia, considerando come si origina questa curva, le due regioni "interne" (quelle non tratteggiate in figura) possono essere viste come un'unica regione continua che si estende all'infinito. L'iperbole stessa, confine della regione tratteggiata, è esclusa dall'insieme delle soluzioni della disequazione.][Risolvere la disequazione $8x^2 - 4x y + 5y^2 - 100 <= 0$.
+
+Rappresentando l'ellisse $8x^2 - 4x y + 5y^2 - 100 = 0$, verifichiamo nuovamente includendo le coordinate dell'origine $(0, 0)$ nella disequazione. Si ottiene:
+$ -100 <= 0, $
+un risultato valido. Pertanto, la disequazione è soddisfatta in tutta la parte interna all'ellisse, includendola completamente. Questa situazione è illustrata nella @grafico_disequazione_ellisse.
+
+#grafico_disequazione_ellisse
+
+]
+==== Sistemi di disequazioni ed equazioni
+
+Analogamente al caso con una sola incognita, è possibile considerare sistemi di disequazioni. In tal caso, si determina l'intersezione tra gli insiemi soluzione di ciascuna disequazione. Ad esempio, il sistema che combina le due disequazioni appena trattate avrà come insieme soluzione la regione tratteggiata rappresentata in @grafico_sistema_disequazioni.
+
+#grafico_sistema_disequazioni
+
+Particolarmente rilevanti nelle applicazioni sono anche i sistemi formati sia da equazioni sia da disequazioni a due incognite. La risoluzione di tali sistemi consiste nell'intersecare l'insieme delle soluzioni dell'equazione (una curva nei casi di interesse) con quello delle soluzioni della disequazione (un sottoinsieme appropriato del piano).
+
+#esempio[Risolvere il sistema seguente:
+$ cases(
+  x^2 + y^2 - 1 = 0, 
+  4x + 2y - 1 > 0
+) $
+
+L'insieme soluzione corrisponde all'arco di circonferenza evidenziato nella @grafico_sistema_misto. Questo risultato si ottiene intersecando la circonferenza (che rappresenta l'insieme delle soluzioni dell'equazione di secondo grado) con il semipiano tratteggiato (che rappresenta l'insieme delle soluzioni della disequazione di primo grado).
+
+#grafico_sistema_misto
+
+Nel caso in cui si debba risolvere una disequazione fratta o una disequazione che coinvolge prodotti, sarà sufficiente applicare la regola dei segni, come spiegato in precedenza.][Risolvere la disequazione:
+$ (x^2 + y^2 - 1) / (4x + 2y - 1) >= 0 $
+
+La risoluzione si basa sull'analisi dei segni del numeratore e del denominatore. Nella figura 8.64 vengono rappresentati graficamente:
+- l'insieme di positività del numeratore (sulla sinistra)
+- l'insieme di positività del denominatore (al centro)
+- l'insieme in cui la disequazione è soddisfatta (sulla destra)
+
+Il risultato finale include due archi di circonferenza, dai quali sono esclusi i punti estremi, e non include la retta identificata dal denominatore nullo. La @grafico_disequazione_fratta visualizza chiaramente tali insiemi e la loro combinazione per verificare la disequazione.
+
+#grafico_disequazione_fratta
+
+]

@@ -198,7 +198,7 @@ Questo aspetto risulta particolarmente utile quando ci si dedica alla risoluzion
 
 #funzione_esp_e_ln
 
-Un ragionamento simile può essere applicato anche alle funzioni trigonometriche. Un'analisi accurata nelle @grafico_esp_2 e @grafico_log_2, relativa ai grafici delle funzioni $2^x$ e $log_2 x$, potrà ulteriormente chiarire come sfruttare al meglio questi strumenti grafici per l'analisi delle funzioni.
+Un ragionamento simile può essere applicato anche alle funzioni trigonometriche. Un'analisi accurata nelle #ref(<grafico_esp_2>, supplement: "Figure") e #ref(<grafico_log_2>, supplement: none), relativa ai grafici delle funzioni $2^x$ e $log_2 x$, potrà ulteriormente chiarire come sfruttare al meglio questi strumenti grafici per l'analisi delle funzioni.
 
 #funzioni_log2_2x
 

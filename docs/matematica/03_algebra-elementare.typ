@@ -234,14 +234,14 @@ Questa formula, letta al contrario, consente di scomporre una differenza di quad
 $ (A #math.plus.minus B)^2 = A^2 #math.plus.minus 2A B + B^2 $
 Questa formula, letta al contrario, permette di trasformare alcune somme composte da tre termini in un quadrato complesso, individuando due termini che sono quadrati e uno che rappresenta il doppio prodotto tra essi.]
 
-#esempio[$ (#h(-.3em)-1/4 x y z^2 + #sh0  2/5 x^2  y^2#h(-.3em))^2 #h(-.5em) &= #sh0  (#h(-.3em)-1/4 x y z^2#h(-.3em))^2 #h(-.5em) + 2(#h(-.3em)-1/4 x y z^2#h(-.3em))(#h(-.2em)2/5 x^2 y^2#h(-.3em)) #sh0  + #sh0  (#h(-.2em)2/5 x^2 y^2#h(-.3em))^2 \ &= 1/16 x^2 y^2 z^4 - 1/5 x^3 y^3 z^2 + 4/25 x^4 y^4 $][$ (3a - 2b - c)^2 &= [(3a - 2b) - c]^2 \ &= (3a - 2b)^2 - 2(3a - 2b)c + c^2 \ &= 9a^2 - 12a b + 4b^2 - 6a c + 4b c + c^2 $][$ (a - 2b)^4 &= [(a - 2b)^2]^2 \ &= (a^2 - 4a b + 4b^2)^2 \ &= (a^2 - 4a b)^2 + 2(a^2 - 4a b)(4b^2) + 16b^4 \ &= a^4 - 8a^3 b + 24a^2 b^2 - 32a b^3 + 16b^4 $][$ 4x^2 + 25y^2 - 20x y &= (2x)^2 + (5y)^2 - 2(2x)(5y) \ &= (2x - 5y)^2 $][  
+#esempio[$ (#h(-.3em)-1/4 x y z^2 + #hs0  2/5 x^2  y^2#h(-.3em))^2 #h(-.5em) &= #hs0  (#h(-.3em)-1/4 x y z^2#h(-.3em))^2 #h(-.5em) + 2(#h(-.3em)-1/4 x y z^2#h(-.3em))(#h(-.2em)2/5 x^2 y^2#h(-.3em)) #hs0  + #hs0  (#h(-.2em)2/5 x^2 y^2#h(-.3em))^2 \ &= 1/16 x^2 y^2 z^4 - 1/5 x^3 y^3 z^2 + 4/25 x^4 y^4 $][$ (3a - 2b - c)^2 &= [(3a - 2b) - c]^2 \ &= (3a - 2b)^2 - 2(3a - 2b)c + c^2 \ &= 9a^2 - 12a b + 4b^2 - 6a c + 4b c + c^2 $][$ (a - 2b)^4 &= [(a - 2b)^2]^2 \ &= (a^2 - 4a b + 4b^2)^2 \ &= (a^2 - 4a b)^2 + 2(a^2 - 4a b)(4b^2) + 16b^4 \ &= a^4 - 8a^3 b + 24a^2 b^2 - 32a b^3 + 16b^4 $][$ 4x^2 + 25y^2 - 20x y &= (2x)^2 + (5y)^2 - 2(2x)(5y) \ &= (2x - 5y)^2 $][  
 $ -1/4 a^2 + a - 1 &= -(1/4 a^2 - a + 1) \ &= dots \ &= -(1/2 a - 1)^2. $]
 
 #definizione(title: "Cubo di un binomio")[Se $A$ e $B$ sono due polinomi (anche costituiti da un solo monomio), si ha:  
 $ (A #math.plus.minus B)^3 = A^3 #math.plus.minus 3A^2 B + 3A B^2 #math.plus.minus B^3 $
 Questa formula, letta al contrario, consente di trasformare certe somme di quattro termini in un cubo, individuando opportunamente due cubi e due tripli prodotti.]
 
-#esempio()[$ (1/4 a - 2b)^3 &= \ &= (1/4 a)^3 - 3(1/4 a)^2 (2b) + 3(1/4 a)(2b)^2 - (2b)^3 \ &= 1/64 a^3 - 3/8 a^2 b + 3a b^2 - 8b^3 $][$ (a - b + c)^3 &= \ &= [(a - b) + c]^3 \ &= (a - b)^3 + 3(a - b)^2 c + 3(a - b) c^2 + c^3 \ &= a^3 #sh0 - 3a^2 b #sh0 + 3a b^2 #sh0 - b^3 #sh0 + 3(a^2 #sh0 - 2a b #sh0 + b^2) c #sh0 + 3(a #sh0 - b) c^2 #sh0 + c^3 \ &= a^3 #sh0 - 3a^2 b #sh0 + 3a b^2 #sh0 - b^3 #sh0 + 3a^2 c #sh0 - 6a b c #sh0 + 3b^2 c #sh0 + 3a c^2 #sh0 - 3b c^2 #sh0 + c^3 $]
+#esempio()[$ (1/4 a - 2b)^3 &= \ &= (1/4 a)^3 - 3(1/4 a)^2 (2b) + 3(1/4 a)(2b)^2 - (2b)^3 \ &= 1/64 a^3 - 3/8 a^2 b + 3a b^2 - 8b^3 $][$ (a - b + c)^3 &= \ &= [(a - b) + c]^3 \ &= (a - b)^3 + 3(a - b)^2 c + 3(a - b) c^2 + c^3 \ &= a^3 #hs0 - 3a^2 b #hs0 + 3a b^2 #hs0 - b^3 #hs0 + 3(a^2 #hs0 - 2a b #hs0 + b^2) c #hs0 + 3(a #hs0 - b) c^2 #hs0 + c^3 \ &= a^3 #hs0 - 3a^2 b #hs0 + 3a b^2 #hs0 - b^3 #hs0 + 3a^2 c #hs0 - 6a b c #hs0 + 3b^2 c #hs0 + 3a c^2 #hs0 - 3b c^2 #hs0 + c^3 $]
 
 #definizione(title: "Potenza n-esima di un binomio")[Le formule per il quadrato e il cubo di un binomio possono essere generalizzate alla potenza $n$-esima tramite il triangolo aritmetico, noto anche come triangolo di Tartaglia o di Pascal. Le righe di questo triangolo forniscono i coefficienti dei monomi nel polinomio derivante dal calcolo di $(a + b)^n$, con $n = 0$ (prima riga), $n = 1$ (seconda riga), ecc. 
 
@@ -273,11 +273,11 @@ $ = a^4 - 8 a^3 b + 24 a^2 b^2 - 32 a b^3 + 16 b^4 $]
 #v(4em)
 
 #definizione(title: "Quadrato di un polinomio")[Il calcolo del quadrato di un polinomio può essere semplificato riducendo il polinomio a una somma di soli due termini, come mostrato in alcuni esempi già affrontati. Tuttavia, è molto utile tenere a mente una formula specifica che permette di velocizzare ulteriormente questo calcolo:
-$ (A + B + C + D + dots)^2 = \ A^2 #sh0 + B^2 #sh0 + C^2 #sh0 + D^2 #sh0 + dots #sh0 + 2A B #sh0 + 2A C #sh0 + 2A D #sh0 + dots #sh0 + 2B C #sh0 + 2B D #sh0 + dots #sh0 + 2C D #sh0 + dots $]
+$ (A + B + C + D + dots)^2 = \ A^2 #hs0 + B^2 #hs0 + C^2 #hs0 + D^2 #hs0 + dots #hs0 + 2A B #hs0 + 2A C #hs0 + 2A D #hs0 + dots #hs0 + 2B C #hs0 + 2B D #hs0 + dots #hs0 + 2C D #hs0 + dots $]
 
 In parole semplici, la formula afferma che il quadrato di un polinomio si ottiene sommando il quadrato di ciascun termine e il doppio prodotto di ogni termine per tutti quelli che seguono. In caso di termini negativi, è preferibile riscriverli come addizioni:
 
-$ (a - b - c)^2 &= [a + (-b) + (-c)]^2 \ &= a^2 #sh0 + (-b)^2 #sh0 + (-c)^2 #sh0 + 2a(-b) #sh0 + 2a(-c) #sh0 + 2(-b)(-c) \ &= a^2 + b^2 + c^2 - 2a b - 2a c + 2b c. $
+$ (a - b - c)^2 &= [a + (-b) + (-c)]^2 \ &= a^2 #hs0 + (-b)^2 #hs0 + (-c)^2 #hs0 + 2a(-b) #hs0 + 2a(-c) #hs0 + 2(-b)(-c) \ &= a^2 + b^2 + c^2 - 2a b - 2a c + 2b c. $
 In alcune situazioni, può essere utile applicare la formula al contrario, ossia partire da una somma per giungere a una potenza. Tuttavia, questo procedimento non è sempre immediato.
 
 #definizione(title: "Raccoglimento a fattor comune")[Il raccoglimento a fattor comune è una tecnica fondamentale per scomporre un polinomio in un prodotto, generalmente tra un monomio e un polinomio. Si basa sull'applicazione della proprietà distributiva della moltiplicazione rispetto all'addizione, letta al contrario.]
@@ -302,21 +302,21 @@ $ (x + 2y)^2 - 3x^2 - 6x y + (2x + 4y)(a + 4y) = \ = (x + 2y)(x + 2y - 3x + 2a +
 
 #definizione(title: "Differenza di Potenze n-esime", label: <differenza_potenze_nesime>)[Oltre alla classica regola per la differenza di due quadrati, esiste una formula generale per la differenza delle potenze $n$-esime:
 
-$ A^n #sh0 - B^n = (A #sh0 - B)(A^(n-1) #sh0 + A^(n-2)B #sh0 + A^(n-3)B^2 #sh0 + dots #sh0 + A B^(n-2) #sh0 + B^(n-1)) $]
+$ A^n #hs0 - B^n = (A #hs0 - B)(A^(n-1) #hs0 + A^(n-2)B #hs0 + A^(n-3)B^2 #hs0 + dots #hs0 + A B^(n-2) #hs0 + B^(n-1)) $]
 
 Un caso speciale, molto usato, si presenta quando $n = 3$:  
 $ a^3 - b^3 = (a - b)(a^2 + a b + b^2) $
 Il secondo fattore qui viene spesso chiamato "falso quadrato", poiché differisce dal quadrato del binomio: contiene infatti il prodotto dei due fattori, ma non il doppio prodotto.
 
 #definizione(title: "Differenza di potenze n-esime pari", label: <differenza_potenze_nesime_pari>)[Oltre alla formula in @differenza_potenze_nesime per la differenza di due potenze $n$-esime, nel caso in cui $n$ sia pari, risultano valide anche altre espressioni derivate dalla formula stessa (3.6) e dalla regola della differenza di quadrati: Se $n$ è pari:  
-$ A^n #sh0 - B^n #sh0 = #sh0 (A #sh0 + B)(A^(n-1) #sh0 - A^(n-2)B #sh0 + A^(n-3)B^2 #sh0 - dots #sh0 + A B^(n-2) #sh0 - B^(n-1)) $ 
+$ A^n #hs0 - B^n #hs0 = #hs0 (A #hs0 + B)(A^(n-1) #hs0 - A^(n-2)B #hs0 + A^(n-3)B^2 #hs0 - dots #hs0 + A B^(n-2) #hs0 - B^(n-1)) $ 
 Sempre per $n$ pari:  
-$ A^n #sh0 - B^n #sh0 = #sh0 (A #sh0 - B)(A #sh0 + B)(A^(n-2) #sh0 + A^(n-4)B^2 #sh0 + dots + A^2 B^(n-4) #sh0 + B^(n-2)) $ ]
+$ A^n #hs0 - B^n #hs0 = #hs0 (A #hs0 - B)(A #hs0 + B)(A^(n-2) #hs0 + A^(n-4)B^2 #hs0 + dots + A^2 B^(n-4) #hs0 + B^(n-2)) $ ]
 
 #definizione(title: "Somma di potenze n-esime dispari", label: <differenza_potenze_nesime_dispari>)[ 
 Una relazione analoga alla formula (3.6), ma per la somma di potenze $n$-esime, esiste solo quando $n$ è dispari. Si sottolinea l'importanza di ricordarsi di questo fatto:  
 Se $n$ è dispari:  
-$ A^n #sh0 + B^n #sh0 = #sh0 (A + B)(A^(n-1) #sh0 - A^(n-2)B #sh0 + A^(n-3)B^2 #sh0 - dots #sh0 + A B^(n-2) #sh0 + B^(n-1)) $ ]
+$ A^n #hs0 + B^n #hs0 = #hs0 (A + B)(A^(n-1) #hs0 - A^(n-2)B #hs0 + A^(n-3)B^2 #hs0 - dots #hs0 + A B^(n-2) #hs0 + B^(n-1)) $ ]
 
 #v(2em)
 Un esempio molto frequente ed utile da memorizzare è il caso di $n = 3$:  
@@ -342,7 +342,7 @@ $ N = Q D $
 dove il polinomio $N$ risulta scomposto nel prodotto dei fattori $Q$ e $D$.
 
 #esempio()[ 
-$ (x^7 + 3x^4 - 3x^3 + 6x^2 - 2x + 3) #sh0 : #sh0 (x^3 - 2x + 3) = x^4 + 2x^2 + 1 $  
+$ (x^7 + 3x^4 - 3x^3 + 6x^2 - 2x + 3) #hs0 : #hs0 (x^3 - 2x + 3) = x^4 + 2x^2 + 1 $  
 
 quindi:  
 $ x^7 + 3x^4 - 3x^3 + 6x^2 - 2x + 3 = (x^4 + 2x^2 + 1)(x^3 - 2x + 3) $ ] 
@@ -486,7 +486,7 @@ Il teorema fondamentale dell'algebra rappresenta uno dei risultati più rilevant
 #definizione(title: "Teorema fondamentale dell'algebra", label: <teorema_fondamentale_algebra>)[ 
 Se $P(x)$ è un polinomio di grado $n$ e $alpha_1, alpha_2, dots, alpha_r$ sono i suoi eventuali zeri reali, aventi molteplicità rispettivamente $m_1, m_2, dots, m_r$, allora è sempre possibile decomporre il polinomio nella forma seguente: 
 
-$ P(x) #sh0  = #sh0   a_n (x #sh0 - alpha_1)^(m_1)(x #sh0 - alpha_2)^(m_2) dots (x #sh0 - alpha_r)^(m_r)(x^2 #sh0 + p_1 x #sh0 + q_1)^(s_1) dots \ dots (x^2 #sh0 + p_t x #sh0 + q_t)^(s_t) $<t_f_a1>
+$ P(x) #hs0  = #hs0   a_n (x #hs0 - alpha_1)^(m_1)(x #hs0 - alpha_2)^(m_2) dots (x #hs0 - alpha_r)^(m_r)(x^2 #hs0 + p_1 x #hs0 + q_1)^(s_1) dots \ dots (x^2 #hs0 + p_t x #hs0 + q_t)^(s_t) $<t_f_a1>
 
 dove $p_1, q_1, dots, p_t, q_t$ sono numeri reali opportuni e $s_1, dots, s_t$ sono numeri interi positivi. Inoltre, tutti i trinomi di secondo grado che figurano nella decomposizione @t_f_a1 presentano un discriminante negativo, il che implica che non sono ulteriormente scindibili nei numeri reali. Vale infine la seguente relazione:  
 

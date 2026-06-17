@@ -27,8 +27,8 @@
   it
 }
 
-// Equazioni fratte
-#show math.frac: it => $display(it)$
+/* // Equazioni fratte
+#show math.frac: it => $display(it)$ */
 
 // Capitoli
 = Introduzione <senza_numero>
