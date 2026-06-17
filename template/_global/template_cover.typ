@@ -21,10 +21,7 @@ place(top + left)[
   #rect(
     width: 100% + 1pt,
     height: 100%,
-    // black.transparentize(60%) crea un velo nero al 40% di opacità.
-    // Più il valore è alto (es. 70%), più l'immagine sarà Chiara.
-    // Più il valore è basso (es. 40%), più l'immagine sarà Scura.
-    fill: black.transparentize(50%) 
+    fill: black.transparentize(75%) 
   )
 ]
 

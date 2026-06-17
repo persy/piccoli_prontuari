@@ -92,8 +92,8 @@
 )
 
 #let hl(body) = { highlight(body) }
-#let sh0 = h(0em)
-#let sv0 = v(0em)
+#let hs0 = h(0em)
+#let vs0 = v(0em)
 
 // =============================================================================
 // BLOCCHI GRAFICI DINAMICI (Definizione, Esempio, Dimostrazione)
