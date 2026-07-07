@@ -69,7 +69,11 @@
 
 = Geometria euclidea piana <geometria_euclidea_piana>
 
+#include "../../docs/matematica/09_geometria-euclidea-piana.typ"
+
 = Geometria euclidea solida <geometria_euclidea_solida>
+
+#include "../../docs/matematica/10_geometria-euclidea-solida.typ"
 
 = Goniometria e trigonometria <goniometria_trigonometria>
 

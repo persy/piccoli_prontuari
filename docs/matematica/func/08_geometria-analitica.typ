@@ -919,7 +919,7 @@ caption: []
       import cetz.draw: *
       
       plot.plot(
-        size: (9, 7),
+        size: (9, 4.5),
         axis-style: "school-book",
         x-tick-step: 1,      
         y-tick-step: 1, 
@@ -964,13 +964,13 @@ caption: []
             
             // Frecce vettoriali con tratti tratteggiati/continui
             // Freccia verso l'alto a sinistra (k = -1)
-            line((-1.5, 1.25), (-2.5, 2.5), mark: (end: ")>", fill: black), stroke: (thickness: 0.5pt, dash: "dashed"))
+            line((-1.5, 1.25), (-2.5, 2.5), mark: (end: ">>", fill: black), stroke: (thickness: 0.5pt, dash: "dashed"))
             content((-2.2, 2.65), [$k = -1$], anchor: "south")
             
             
             
             // Freccia di transizione continua che attraversa le rette
-            line((0.1, -0.75), (-1.5, 1.25), mark: (end: ">", fill: black), stroke: (thickness: 0.5pt, dash: "dashed"))
+            line((0.1, -0.75), (-1.5, 1.25), mark: (end: ">>", fill: black), stroke: (thickness: 0.5pt, dash: "dashed"))
             content((0.3, -0.7), [$k = -1$], anchor: "west")
           })
         }

@@ -747,7 +747,7 @@ In questo caso, non è necessario determinare il tipo di conica per scrivere l'e
 
 In un piano $pi$ consideriamo due rette distinte $a$ e $g$, non perpendicolari, e immaginiamo di far compiere, nello spazio, una rotazione completa di $g$ attorno ad $a$. Se $a$ e $g$ si intersecano in un punto $V$, individuando un angolo acuto $alpha$ ($0 < alpha < pi/2$), otterremo una superficie detta cono circolare a due falde indefinito di semiapertura $alpha$. Se $a$ e $g$ sono parallele otterremo un cilindro circolare indefinito (cono degenere). 
 
-In entrambi i casi, illustrati nelle  #ref(<grafico_rotazione_retta_cono>, supplement: "Figure") e #ref(<grafico_rotazione_retta_cilindro>, supplement: none), la retta $a$ si chiama asse, mentre la retta $g$ e quelle ottenute dalla rotazione si chiamano generatrici. Il punto $V$ è il vertice del cono.
+In entrambi i casi, illustrati nelle #ref(<grafico_rotazione_retta_cono>, supplement: "Figure") e #ref(<grafico_rotazione_retta_cilindro>, supplement: none), la retta $a$ si chiama asse, mentre la retta $g$ e quelle ottenute dalla rotazione si chiamano generatrici. Il punto $V$ è il vertice del cono.
 
 #align(center)[#grid(columns: 2, column-gutter: 5em, align: bottom + center)[#grafico_rotazione_retta_cono][#grafico_rotazione_retta_cilindro]]
 

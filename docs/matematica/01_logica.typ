@@ -29,7 +29,7 @@ Ci sono anche situazioni più complesse, come nell'affermazione "Tutti i numeri 
 === Definizioni
 
 Tenendo conto di queste osservazioni, daremo ora una definizione di enunciato, o proposizione, segnalando comunque che il concetto di verità è estremamente delicato e un'analisi del problema esula dagli scopi di questa trattazione.
-#v(2em)
+#v(4em)
 #definizione[Si chiama proposizione o enunciato ogni affermazione che assume uno e un solo dei due valori: vero o falso.]
 
 Si noti che è implicito nella definizione data il fatto che ammettiamo che la logica che utilizziamo sia bivalente, cioè preveda che le espressioni di cui ci occupiamo possano avere uno solo dei due valori di verità "vero" o "falso".
@@ -299,7 +299,7 @@ Ad esempio:
 Come dice Samuel Coxeter, "un circolo vizioso illustra l'importante principio che qualunque definizione richiede altre parole che a loro volta necessitano ulteriori definizioni. L'unico modo per evitare un circolo vizioso è considerare certi concetti primitivi come talmente semplici e ovvi da non doverli definire."
 
 In ogni teoria, dunque, dobbiamo accettare alcuni concetti come primitivi o termini non definiti: si tratta di parole di cui non viene fornita spiegazione. Nella geometria euclidea i termini sono ad esempio punto, retta, piano, giace su, tra, congruente. Nella teoria (ingenua) degli insiemi tali termini sono: insieme, appartiene.
-#v(2em)
+
 === Assiomi o postulati
 
 #definizione[
@@ -437,7 +437,7 @@ Nell'uso della rappresentazione intensiva è necessario prestare ulteriore atten
 
 È importante sottolineare che, per definire un insieme, è necessario disporre di un criterio che consenta di stabilire quali elementi ne facciano parte. Tuttavia, in alcuni casi, verificare esplicitamente se un elemento appartiene o meno a un insieme può risultare estremamente complesso. Un esempio classico è rappresentato dall'insieme $P$ dei numeri primi. Sebbene sia immediato riconoscere che, ad esempio, $31 in P$, risulta molto più arduo verificare che anche $15.485.863$ appartenga a $P$. Ancora più complesso è determinare che $2^{43112609} - 1 in P$, uno dei numeri primi più grandi conosciuti alla metà del 2012, composto da ben $12.978.189$ cifre. Per questa verifica sono necessari tempi di calcolo enormi anche con i computer più avanzati.
 
-Considerando due insiemi $A$ e $B$, si dice che $A$ è un sottoinsieme di $B$ (oppure contenuto in $B$) quando ogni elemento di $A$ appartiene anche a $B$. In alternativa, si può affermare che $B$ è un soprainsieme di $A$ (o contiene $A$). In simboli, si rappresenta questa relazione come 
+Considerando due insiemi $A$ e $B$, si dice che $A$ è un sottoinsieme di $B$ (oppure contenuto in $B$) quando ogni elemento di $A$ appartiene anche a $B$. In alternativa, si può affermare che $B$ è un soprainsieme di $A$ (o contiene $A$). In simboli, si rappresenta questa relazione come: 
 
 $
   A subset.eq B quad o quad B supset.eq A
@@ -445,14 +445,14 @@ $
 
 È importante osservare che, seguendo questa notazione, ogni insieme è sempre contenuto in se stesso, ossia $A subset.eq A$.
 
-Qualora si voglia indicare che $A subset.eq B$, ma esiste almeno un elemento in $B$ che non appartiene a $A$, si utilizza la scrittura 
+Qualora si voglia indicare che $A subset.eq B$, ma esiste almeno un elemento in $B$ che non appartiene a $A$, si utilizza la scrittura: 
 
 
 $
   A subset B quad o quad B supset A
 $
 
-e si parla di sottoinsieme (o soprainsieme) proprio. Va notato che alcuni utilizzano la notazione $A subset B$ anche per indicare sottinsiemi non propri; in tal caso, per identificare i sottoinsiemi propri, possono essere adottate notazioni alternative come 
+e si parla di sottoinsieme (o soprainsieme) proprio. Va notato che alcuni utilizzano la notazione $A subset B$ anche per indicare sottinsiemi non propri; in tal caso, per identificare i sottoinsiemi propri, possono essere adottate notazioni alternative come: 
 
 $
   A subset.neq B "oppure" A subset.!= B

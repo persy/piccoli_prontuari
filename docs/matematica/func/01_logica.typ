@@ -29,7 +29,7 @@
   },
   align: center + horizon,
   columns: (7),
-  table.header[ $sans(P)$ ][ $sans(Q)$ ][ $sans(not P)$ ][ $sans(P and Q)$ ][ $P or Q$ ][ $P arrow.r.double Q$ ][ $P arrow.l.r.double Q$ ], 
+  table.header[ $sans(P)$ ][ $sans(Q)$ ][ $sans(not P)$ ][ $sans(P and Q)$ ][ $sans(P or Q)$ ][ $sans(P arrow.r.double Q)$ ][ $sans(P arrow.l.r.double Q)$ ], 
   [ V ], [ V ], [ F ], [ V ], [ V ], [ V ], [ V ],  
   [ V ], [ F ], [ F ], [ F ], [ V ], [ F ], [ F ],  
   [ F ], [ V ], [ V ], [ F ], [ V ], [ V ], [ F ],  
