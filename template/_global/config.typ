@@ -11,11 +11,21 @@
 // CONFIGURAZIONE FONT
 // ==========================================
 
-#let serif-fonts = ("TeX Gyre Pagella",)
-#let sans-fonts = ("Lato",)
-#let title-fonts = ("Jost",)
-#let cover-fonts = ("Inter",)
-#let math-fonts = ("TeX Gyre Pagella Math")
+#let serif-fonts = (
+  "Faustina",
+)
+#let sans-fonts = (
+  "Archivo"  
+  )
+#let title-fonts = (
+  "Archivo"
+  )
+#let cover-fonts = (
+  "Archivo"
+  )
+#let math-fonts = (
+  "STIX Two Math",
+  )
 
 // ==========================================
 // CONFIGURAZIONE COLORI DELLA COLLANA (ACCENT)

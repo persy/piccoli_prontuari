@@ -24,9 +24,8 @@
   let accent = accent_color.get()
   let titleblock(title, authors, date) = {
     text([      
-      #if title != none { [#align(center)[#text(14pt, font: title-fonts, weight: "bold", [#text(accent)[P]iccolo #text(accent)[P]rontuario di #text(fill: accent)[*#title*]])] \ \ ] }      
-      #align(left)[#text(font: sans-fonts)[*Autori*: #link("mailto:persy@tuta.io")[Marco Persy] + #link("https://wikibigino.miraheze.org/wiki/Pagina_principale")[
-        WikiBigino]      
+      #if title != none { [#align(center)[#text(14pt, font: title-fonts, weight: "black", [Piccolo Prontuario di #text(fill: accent)[*#title*]])] \ \ ] }      
+      #align(left)[#text(font: sans-fonts)[*Autori*: #link("mailto:marco.persy@gmail.com")[#text(fill: accent)[Marco Persy]] + #link("https://wikibigino.miraheze.org/wiki/Pagina_principale")[#text(fill: accent)[WikiBigino]]      
       #if date != none { [#align(left)[*Ultimo aggiornamento*: #date] \ ] }]]
       
       // Prefazione e licenza
@@ -87,11 +86,11 @@
     fill: black.lighten(10%)
   )
   
-  //Titoli
-  show heading.where( level: 1 ): set text(font: title-fonts, size: 17pt, weight: "bold", style: "normal")
-  show heading.where( level: 2 ): set text(font: title-fonts, size: 15pt, weight: "bold", style: "normal")
-  show heading.where( level: 3 ): set text(font: title-fonts, size: 13pt, weight: "bold", style: "normal")
-  show heading.where( level: 4 ): set text(font: title-fonts, size: 11pt, weight: "bold", style: "normal")
+  // Titoli
+  show heading.where( level: 1 ): set text(font: title-fonts, size: 17pt, weight: 900)
+  show heading.where( level: 2 ): set text(font: title-fonts, size: 15pt, weight: 750)
+  show heading.where( level: 3 ): set text(font: title-fonts, size: 13pt, weight: 500)
+  show heading.where( level: 4 ): set text(font: title-fonts, size: 11pt, weight: 400)
   set heading(numbering: (..nums) => {
   let num-string = nums.pos().map(str).join(".")
   text(fill: accent, weight: "bold", num-string)
@@ -114,15 +113,16 @@
   show table.cell.where(y: 0): set text(weight: "bold", fill: white, font: sans-fonts)
   show table.cell.where(x: 0): set text(weight: "bold")
 
-  show figure.caption: set text(size: 9pt, font: sans-fonts) 
+  // Didascalie
+  show figure.caption: set text(size: 11pt, font: sans-fonts) 
   show figure.caption: it => {
-    text(size: 10pt, font: sans-fonts, accent)[#it.supplement #it.counter.display(it.numbering)]
+    text(size: 11pt, font: sans-fonts, accent)[#it.supplement #it.counter.display(it.numbering)]
     [ ]
     it.body
   }
 
   // Citazioni, quote, note a piè di pagina, liste
-  show ref: set text(accent, font: sans-fonts, size: 10pt)
+  show ref: set text(accent, font: sans-fonts, size: 12pt)
   show link: set text(accent)
 
   show footnote: set text(fill: accent)
