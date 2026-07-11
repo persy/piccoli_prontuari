@@ -22,6 +22,10 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccol
 │       ├── img/
 │       │   ├── immagine.png
 │       │   └── diagramma.jpg
+|       |   func/
+│       │   ├── 01_capitolo.typ
+│       │   ├── 02_capitolo.typ
+|       |   └── ...
 │       ├── 00_introduzione.typ
 │       ├── 01_capitolo.typ
 │       ├── 02_capitolo.typ
@@ -41,28 +45,46 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccol
         └── retro.typ
 ```
 
-- I testi sono formattati in [typst](https://typst.app/), utilizzando [Tinymist](https://github.com/Myriad-Dreamin/tinymist) e si trovano nella cartella `docs/`, suddivisi per materia 
-- Essendo file `.typ`, possono essere aperti da qualsiasi editor di testo, notepad incluso 🍋. Per invece esportare i manuali completi, leggi la sezione sotto
-- Tutti i libri utilizzano lo stesso template (`template.typ`), con alcune modifiche particolari (colori, copertine, retro)
-- Le immagini `img/` sono all'interno della sottocartella della materia, sempre in `docs/` (es. `docs/biologia/img/`)
+# Struttura delle cartelle e file principali
 
-### Come esportare il pdf di un manuale
+- `docs/<materia>/` contiente tutti i testi dei manuali, suddivisi per materia (vedi in seguito)
+    - `/img/` contiene le immagini
+    - `/func/` contiene tutte le funzioni dei grafici e delle tabelle di una materia
+- `template/_global/` è la cartella che contiene i template in comune fra tutti i manuali: 
+    - `config.typ` contiene tutte le variabili e le funzioni che riguardano i font, i colori, i gradienti, i box...
+    - `template.typ` è il template principale di tutti i manuali e riguarda prettamente la tipografia (margini, grandezza dei font, rientri...) 
+- `template/<materia>/` contiene i template specifici per la materia, solitamente sono tre: 
+    - `cover.typ`, la copertina
+    - `retro.typ`, la quarta di copertina
+    - `main.typ`, il file principale del manuale e unisce i singoli file di `docs/<materia>` con i `template/`
+- Essendo i file in formato `.typ`, essi possono essere aperti da qualsiasi editor di testo, notepad incluso 🍋, anche senza aver installato `typst`
+
+### Come vedere l'anteprima ed esportare il pdf di un manuale
 
 - Clona il repository
-- Installa typst seguendo la [guida](https://github.com/typst/typst?tab=readme-ov-file#installation), sfrutta [tinymist](https://github.com/Myriad-Dreamin/tinymist) oppure usa VS Code assieme all'[estensione ufficiale](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist).
-- Posizionati nella sottocartella di una materia, all'interno della cartella /template (es. /template/biologia/)
-- Compila ed esporta il file con il comando:
+- Installa typst seguendo la [guida](https://github.com/typst/typst?tab=readme-ov-file#installation)
+- Installa [tinymist](https://github.com/Myriad-Dreamin/tinymist) (oppure usa VS Code assieme all'[estensione ufficiale](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist))
+- Per l'anteprima, posizionati nella cartella del progetto e digita:
 
 ```typst
-typst compile --font-paths ./fonts main.typ
+tinymist preview --root . --partial-rendering=true template/<materia>/main.typ
 ```
 
-N.B. Usando `tinymist`, il file `main` verrà automaticamente designato come principale, risolvendo i collegamenti e i riferimenti fra i subfile[^1]. Nel caso volessi impostare manualmente, invoca su VSCode il comando "Pin the Main File to the Currently Open Document" oppure digita:
+- Per compilare il pdf invece, posizionati nella cartella del progetto ed esegui il comando:
+
+```typst
+typst compile --font-paths ./fonts template/<materia>/main.typ
+```
+
+Ovviamente, sostituisci <materia> con la materia che hai scelto.
+
+N.B. Usando `tinymist`, il file `main` verrà automaticamente designato come principale, risolvendo i collegamenti e i riferimenti fra i subfile[^1]. Nel caso volessi impostarlo manualmente, invoca su VSCode il comando "Pin the Main File to the Currently Open Document" oppure digita:
 
 ```typst
 Typst Pin Main
 ```
 
+## Materie
 
 Di seguito una tabella con le materie trattate e il livello di completamento dei rispettivi libri:
 
@@ -80,4 +102,21 @@ Di seguito una tabella con le materie trattate e il livello di completamento dei
 | matematica     | ✍️            | -             | -     | -               | -               |
 | st. dell'arte  | ✅            | ✅             | -     | -               | -               |
 
+## Filosofia del progetto
+
+- Linguaggio semplice e non accademico
+- Parte testuale prioritaria
+- Poche immagini e tabelle, nessuno schema preconfezionato
+- Grafica minimale, con pochi colori
+- Nessun "fuffa-box" con contenuti pop, aneddotici o pseudo-interdisciplinari 
+- Approfondimenti mirati e pertinenti
+- Modularità
+- Rispetto degli standard di accessibilità
+- Licenza libera per ogni documento (CC BY-NC-SA 4.0)
+- Uso di modelli AI liberi, relegati esclusivamente a ruoli di supporto (correzione bozze, formattazione, pulitura del codice...)
+
 [^1]: https://myriad-dreamin.github.io/tinymist/feature/project.html#:~:text=Use%20command%20Typst%20Pin%20Main,to%20unset%20the%20main%20file.
+
+## Futuro del progetto
+- Ottenuta una certa "stabilità" dei testi principali, il progetto verrà ampliato con l'inclusione di testi da fonti primarie ed esercizi originali
+- Quando l'esportazione dei file in HTML avrà raggiunto una certa maturazione, verrà aperto un sito dove poeter consultare online, pagina per pagina, ogni manuale, senza doverli scaricare singolarmente
