@@ -114,15 +114,15 @@
   show table.cell.where(x: 0): set text(weight: "bold")
 
   // Didascalie
-  show figure.caption: set text(size: 11pt, font: sans-fonts) 
+  show figure.caption: set text(size: 10pt, font: sans-fonts) 
   show figure.caption: it => {
-    text(size: 11pt, font: sans-fonts, accent)[#it.supplement #it.counter.display(it.numbering)]
+    text(size: 10pt, font: sans-fonts, accent)[#it.supplement #it.counter.display(it.numbering)]
     [ ]
     it.body
   }
 
   // Citazioni, quote, note a piè di pagina, liste
-  show ref: set text(accent, font: sans-fonts, size: 12pt)
+  show ref: set text(accent, font: sans-fonts, size: 11pt)
   show link: set text(accent)
 
   show footnote: set text(fill: accent)
@@ -142,7 +142,7 @@
   // Riduce l'altezza e l'ingombro di tutte le frazioni verticali compatte
   
   set math.equation(
-    numbering: (..nums) => text(size: 12pt, font: sans-fonts)[#numbering("1", ..nums)],
+    numbering: (..nums) => text(size: 11pt, font: sans-fonts)[#numbering("1", ..nums)],
     supplement: none, 
     number-align: end
   )
