@@ -203,9 +203,9 @@ Da ciascun vertice di un triangolo ABC si può tracciare una perpendicolare risp
 I segmenti $overline(A A')$, $overline(B B')$ e $overline(C C')$ prendono il nome di altezze del triangolo. Le tre altezze, o i loro eventuali prolungamenti, si incontrano in un unico punto detto ortocentro.
 
 Diversamente da mediane e bisettrici, le altezze non sono sempre interne al triangolo. Le loro caratteristiche dipendono dalla tipologia del triangolo:
-- in un triangolo acutangolo, tutte le altezze e l'ortocentro sono interni (@grafico_triangolo_ortocentro)
-- in un triangolo rettangolo, due altezze coincidono con i cateti e l'ortocentro corrisponde al vertice dell'angolo retto (@grafico_triangolo_ortocentro_rettangolo)
-- in un triangolo ottusangolo, l'altezza tracciata dal vertice contenente l'angolo ottuso rimane interna al triangolo, mentre le altre due altezze e l'ortocentro si trovano all'esterno; in questo caso, è necessario considerare i prolungamenti delle altezze per identificare l'ortocentro (@grafico_triangolo_ortocentro_ottusangolo).
+- in un triangolo acutangolo, tutte le altezze e l'ortocentro sono interni (@grafico_triangolo_ortocentro1)
+- in un triangolo rettangolo, due altezze coincidono con i cateti e l'ortocentro corrisponde al vertice dell'angolo retto (@grafico_triangolo_ortocentro2)
+- in un triangolo ottusangolo, l'altezza tracciata dal vertice contenente l'angolo ottuso rimane interna al triangolo, mentre le altre due altezze e l'ortocentro si trovano all'esterno; in questo caso, è necessario considerare i prolungamenti delle altezze per identificare l'ortocentro (@grafico_triangolo_ortocentro3).
 
 #grafici_triangolo_ortocentro
 
@@ -213,13 +213,13 @@ Diversamente da mediane e bisettrici, le altezze non sono sempre interne al tria
 
 L'asse di un segmento rappresenta il luogo geometrico dei punti del piano che sono equidistanti dagli estremi del segmento.]
 
-In un triangolo, si possono considerare gli assi dei tre lati. Questi si incontrano in un punto comune chiamato circocentro, che è equidistante dai tre vertici del triangolo. Il circocentro rappresenta il centro della circonferenza che passa attraverso i tre vertici del triangolo, nota come circonferenza circoscritta, da qui deriva il suo nome. La posizione del circocentro dipende dal tipo di triangolo: è interno nei triangoli acutangoli (@grafico_triangolo_circocentro), coincide con il punto medio dell'ipotenusa nei triangoli rettangoli (@grafico_triangolo_circocentro_rettangolo) ed è esterno nei triangoli ottusangoli (@grafico_triangolo_circocentro_ottusangolo).
+In un triangolo, si possono considerare gli assi dei tre lati. Questi si incontrano in un punto comune chiamato circocentro, che è equidistante dai tre vertici del triangolo. Il circocentro rappresenta il centro della circonferenza che passa attraverso i tre vertici del triangolo, nota come circonferenza circoscritta, da qui deriva il suo nome. La posizione del circocentro dipende dal tipo di triangolo: è interno nei triangoli acutangoli (@grafico_triangolo_circocentro1), coincide con il punto medio dell'ipotenusa nei triangoli rettangoli (@grafico_triangolo_circocentro2) ed è esterno nei triangoli ottusangoli (@grafico_triangolo_circocentro3).
 
 #grafici_triangolo_circocentro
 
 #definizione(title: "Teorema")[In un triangolo isoscele, la bisettrice dell'angolo al vertice è perpendicolare alla base e la divide in due parti uguali. Essa è quindi contemporaneamente una altezza, una bisettrice e la retta che la contiene funge da asse della base.]
 
-Da questa proprietà si deduce che nel caso di un triangolo isoscele, i quattro punti notevoli del triangolo (baricentro, incentro, ortocentro e circocentro) sono allineati e si trovano sull'asse della base#footnote[La linea che attraversa baricentro, circocentro e ortocentro è chiamata retta di Eulero. La distanza tra il baricentro e il circocentro su questa retta è esattamente la metà di quella tra il baricentro e l'ortocentro, ovvero: $overline(O H) = 3 overline(O G)$.] (@grafico_triangolo_centri). Nel caso di un triangolo equilatero, questa proprietà vale per tutti i vertici, poiché i quattro punti notevoli coincidono in un unico punto, denominato centro del triangolo (@grafico_triangolo_equilatero_centri).
+Da questa proprietà si deduce che nel caso di un triangolo isoscele, i quattro punti notevoli del triangolo (baricentro, incentro, ortocentro e circocentro) sono allineati e si trovano sull'asse della base#footnote[La linea che attraversa baricentro, circocentro e ortocentro è chiamata retta di Eulero. La distanza tra il baricentro e il circocentro su questa retta è esattamente la metà di quella tra il baricentro e l'ortocentro, ovvero: $overline(O H) = 3 overline(O G)$.] (@grafico_triangolo_centri1). Nel caso di un triangolo equilatero, questa proprietà vale per tutti i vertici, poiché i quattro punti notevoli coincidono in un unico punto, denominato centro del triangolo (@grafico_triangolo_centri2).
 
 #grafici_triangolo_centri
 
@@ -513,8 +513,6 @@ I teoremi di Pitagora ed Euclide, tra i più celebri della geometria, rappresent
 
 #grafico_euclide1
 
-#pagebreak(weak: true)
-
 #definizione(title: "Secondo teorema di Euclide", label: <def-secondo-teorema-euclide>)[In un triangolo rettangolo, l'area del quadrato costruito sull'altezza relativa all'ipotenusa è equivalente all'area del rettangolo i cui lati corrispondono alle proiezioni dei cateti sull'ipotenusa.]
 
 #grafico_euclide2
@@ -709,7 +707,7 @@ Visto che il rapporto tra due lunghezze positive deve essere obbligatoriamente p
 
 #grafico_segmento_aureo
 
-#definizione(title: "Teorema")[Il lato di un decagono regolare inscritto in un cerchio rappresenta la sezione aurea del raggio.]
+#definizione(title: "Teorema", label: <def-teorema-decagono>)[Il lato di un decagono regolare inscritto in un cerchio rappresenta la sezione aurea del raggio.]
 
 == Costruzioni con riga e compasso
 
@@ -723,13 +721,13 @@ In questo paragrafo presenteremo alcune delle costruzioni più rilevanti, rinvia
 
 Per dividere il segmento $overline(A B)$ a metà, si inizia tracciando due circonferenze con centri rispettivamente in $A$ e $B$, entrambe con un raggio maggiore della metà del segmento. Le circonferenze si incrociano nei punti $C$ e $D$. La linea $overline(C D)$ interseca $overline(A B)$ nel punto $M$, il quale risulta essere il punto medio del segmento. Inoltre, la retta $C D$ funge da asse del segmento $overline(A B)$.
 
-#grafico_divisione_segmento
+#grafico_sezione_segmento
 
 === Divisione di un angolo a metà
 
 Supponiamo di avere l'angolo $angle A B C$. Con centro in $B$ e un'apertura a scelta, si descrive un arco che incontra i lati dell'angolo nei punti $E$ e $D$. Utilizzando la stessa apertura, si tracciano due archi con centri in $E$ e $D$, che si incontrano in $F$ (diverso da $B$). La retta $B F$ funge da bisettrice dell'angolo, dividendolo in due parti uguali.
 
-#grafico_divisione_angolo
+#grafico_sezione_angolo
 
 === Costruzione della perpendicolare a una retta da un punto
 
@@ -807,7 +805,7 @@ Da notare come il punto $D$ non intersechi l'arco $overparen(M O)$ e che $overli
 
 === Costruzione del decagono, pentagono e pentadecagono regolari inscritti in un cerchio
 
-Per costruire un decagono regolare, secondo il teorema 9.73, basta determinare la sezione aurea del raggio del cerchio. Saltando un punto di congiunzione a uno si ottiene il pentagono. Per costruire un pentadecagono si osserva il seguente: se $O$ è il centro del cerchio, $A B$ rappresenta il lato dell'esagono (raggio del cerchio) e $A C$ è la sua sezione aurea (lato del decagono), allora $C B$ sarà il lato del pentadecagono poiché l'angolo al centro $C O B$ misura 24°.
+Per costruire un decagono regolare, secondo il teorema descritto in @def-teorema-decagono, basta determinare la sezione aurea del raggio del cerchio. Saltando un punto di congiunzione a uno si ottiene il pentagono. Per costruire un pentadecagono si osserva il seguente: se $O$ è il centro del cerchio, $A B$ rappresenta il lato dell'esagono (raggio del cerchio) e $A C$ è la sua sezione aurea (lato del decagono), allora $C B$ sarà il lato del pentadecagono poiché l'angolo al centro $C O B$ misura 24°.
 
 #grafici_costruzioni_decapenta
 

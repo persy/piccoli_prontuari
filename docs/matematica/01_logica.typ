@@ -512,7 +512,7 @@ $ { A_alpha } $
 
 In molti casi, l'insieme $A$ coincide con l'insieme dei numeri naturali o con un suo sottoinsieme. Per rappresentare l'unione di tutti gli insiemi appartenenti a una famiglia, utilizzeremo notazioni del tipo:
 
-$ union.big.sq_(alpha in A) A_alpha, quad union.big.sq_(n=0)^(oo) A_n, quad union.big.sq_(n=0)^(10) A_n, quad union.big.sq_(n in {1, 2, dots, k}) A_n, dots$
+$ union.big.sq_(alpha in A) A_alpha, quad union.big.sq_(n=0)^(oo) A_n, quad union.big.sq_(n=0)^(10) A_n, quad union.big.sq_(n in {1, 2, dots, k}) A_n, dots $
 
 e analoghe per le intersezioni#footnote[Come si può notare, c'è un'analogia nella notazione usata per il simbolo della sommatoria]. In alcuni contesti, possiamo sfruttare notazioni più compatte, nel caso in cui l'insieme degli indici sia chiaramente determinabile dal contesto:
 
@@ -524,9 +524,7 @@ Di seguito riportiamo alcune proprietà fondamentali delle operazioni di unione 
 
 $
   A union A = A; quad A inter A = A; \ A union B = B union A; quad A inter B = B inter A; \ A union emptyset = A; quad A inter emptyset = emptyset; \ A union B supset.eq A; quad A inter B subset.eq A; \ A union B = A <=> A supset.eq B; quad A inter B = A <=> A subset.eq B.
-$<insiemi2>
-
-// Arrivato qui #TODO
+$ <insiemi2>
 
 Valgono anche le proprietà distributive di un'operazione rispetto ad un'altra:
 

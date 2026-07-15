@@ -23,9 +23,9 @@ Un piano $alpha$ nel suo insieme determina due semispazi opposti. Ciascun semisp
 
 === Intersezioni tra piani e tra piani e rette
 
-Quando due piani distinti condividono almeno un punto, essi contengono anche una retta comune che passa attraverso quel punto, conosciuta come retta di intersezione. Due piani senza punti in comune sono detti paralleli. 
+Quando due piani distinti condividono almeno un punto, essi contengono anche una retta comune che passa attraverso quel punto, conosciuta come retta di intersezione. Due piani senza punti in comune sono detti paralleli.
 
-#definizione(title: "Angolo diedro")[Se nello spazio consideriamo due semipiani che hanno la stessa retta origine, essi dividono lo spazio in due parti, ciascuna definita come angolo diedro o semplicemente diedro.] 
+#definizione(title: "Angolo diedro")[Se nello spazio consideriamo due semipiani che hanno la stessa retta origine, essi dividono lo spazio in due parti, ciascuna definita come angolo diedro o semplicemente diedro.]
 
 Le superfici dei semipiani sono dette facce del diedro, mentre la loro origine comune è detta spigolo. Se i due semipiani non giacciono sullo stesso piano, uno dei due diedri sarà convesso e l'altro concavo. Di default, quando parliamo di diedro, ci riferiamo a quello convesso, salvo diversa indicazione.
 
@@ -71,11 +71,15 @@ Per due rette sghembe esiste una sola retta perpendicolare a entrambe e il segme
 
 == Angoloidi e poliedri
 
-#definizione(title: "Angoloide", label: <def-angoloide>)[Un angoloide convesso, o semplicemente angoloide#footnote[Un angoloide è un tipo particolare di angolo solido, che può essere definito in modo semplificato. Immaginiamo una sfera e una curva semplice e chiusa disegnata su di essa. Successivamente, tracciamo delle semirette che partono dal centro della sfera e attraversano i punti di questa curva: la superficie delimitata da queste semirette divide lo spazio in due aree, ciascuna delle quali rappresenta un angolo solido. La misura di questo angolo è data dal rapporto tra la porzione di superficie sferica racchiusa entro l’angolo e il quadrato del raggio della sfera. L’unità di misura utilizzata per esprimere questo rapporto è lo steradiante.], è definito come l'intersezione di $n$ semispazi originati da piani, ciascuno dei quali contiene una delle $n$ semirette con un'origine comune. Queste semirette non sono complanari in gruppi di tre e sono disposte in modo che il piano formato da due semirette successive lasci tutte le altre dalla stessa parte.]
+#definizione(title: "Angoloide", label: <def-angoloide>)[Un angoloide convesso, o semplicemente angoloide#footnote[Un angoloide è un tipo particolare di angolo solido, che può essere definito in modo semplificato. Immaginiamo una sfera e una curva semplice e chiusa disegnata su di essa. Successivamente, tracciamo delle semirette che partono dal centro della sfera e attraversano i punti di questa curva: la superficie delimitata da queste semirette divide lo spazio in due aree, ciascuna delle quali rappresenta un angolo solido. La misura di questo angolo è data dal rapporto tra la porzione di superficie sferica racchiusa entro l'angolo e il quadrato del raggio della sfera. L'unità di misura utilizzata per esprimere questo rapporto è lo steradiante.], è definito come l'intersezione di $n$ semispazi originati da piani, ciascuno dei quali contiene una delle $n$ semirette con un'origine comune. Queste semirette non sono complanari in gruppi di tre e sono disposte in modo che il piano formato da due semirette successive lasci tutte le altre dalla stessa parte.]
+
+#grafico_angoloide1
 
 Il punto d'origine comune è chiamato vertice, le semirette sono gli spigoli, e gli angoli convessi formati da due semirette consecutive sono le facce dell'angoloide. Un angoloide con tre facce è detto triedro, con quattro facce tetraedro, e così via.
 
 Un angoloide può essere anche definito utilizzando un poligono non intrecciato in un piano e un punto $V$ fuori dal piano. L'angoloide è identificato da tutte le semirette con origine in $V$ che passano per i vertici del poligono. Se il poligono è convesso, l'angoloide risultante è convesso come descritto nella @def-angoloide; altrimenti, se il poligono è concavo, si ottiene un angoloide concavo che non verrà ulteriormente considerato. La somma degli angoli delle facce di un angoloide è minore di un angolo giro e ogni singola faccia ha un angolo minore della somma degli angoli delle altre facce.
+
+#grafici_angoloide2-3
 
 === Piramide
 
@@ -83,52 +87,68 @@ Un angoloide può essere anche definito utilizzando un poligono non intrecciato 
 
 Una proprietà delle piramidi stabilisce che una perpendicolare tracciata dal piede $H$ dell'altezza alla retta di uno spigolo della base, con un'intersezione nel punto $K$, determina in $V K$ l'altezza della corrispondente faccia triangolare rispetto allo spigolo della base.
 
+#grafici_piramide
+
 #definizione(title:"Teorema")[Quando una piramide viene sezionata da un piano parallelo alla base, il poligono risultante è simile alla base stessa; i loro perimetri sono proporzionali alle rispettive distanze dal vertice $V$, mentre le aree sono proporzionali ai quadrati di queste distanze.]
+
+Questo lo si può notare osservando la @grafico_piramide_sezione.
 
 #definizione(title: "Piramide retta")[Una piramide si definisce retta se la sua base è un poligono circoscritto#footnote[
 Da notare che se il poligono di base non fosse circoscrittibile non avrebbe senso parlare di centro.] a un cerchio, e l'altezza cade nel centro di questo cerchio.]
 
-In tali piramidi, le altezze#footnote[Questa proprietà deriva dal fatto che il poligono di base è circoscrittibile a un cerchio.] delle facce laterali rispetto agli spigoli della base sono uguali e si chiamano apotemi. In una piramide retta, l'apotema $a$, l'altezza $h$, e il raggio $r$ del cerchio inscritto formano un triangolo rettangolo, rispettando la relazione:
+In tali piramidi, le altezze#footnote[Questa proprietà deriva dal fatto che il poligono di base è circoscrittibile a un cerchio.] delle facce laterali rispetto agli spigoli della base sono uguali e si chiamano apotemi. Come si vede nella @grafico_piramide_retta, in una piramide retta, l'apotema $a$, l'altezza $h$, e il raggio $r$ del cerchio inscritto formano un triangolo rettangolo, rispettando la relazione:
+
 $ a^2 = h^2 + r^2 $
+
+#grafici_piramide_sezione_retta
 
 Una piramide retta con base poligonale regolare è talvolta chiamata piramide regolare, sebbene impropriamente, poiché in geometria solida l'attributo "regolare" ha un'altra valenza.
 
 Il calcolo delle aree della superficie laterale e totale di una piramide è reso semplice dall'applicazione delle note formule per le aree di triangoli e poligoni.
 
-#definizione(title: "Tetraedro regolare")[Una piramide retta, con una base e tre facce laterali tutte triangoli equilateri, è conosciuta come tetraedro regolare. In un tetraedro regolare, il termine faccia include anche la base. Infatti, ciascuna delle quattro facce può essere considerata come base, mentre il vertice opposto diventa il vertice del tetraedro. Inoltre, tutti gli spigoli e gli angoli diedri tra le due facce risultano identici. Quando si stende la superficie totale di un tetraedro regolare su un piano, si ottiene un triangolo equilatero con il lato che è il doppio della lunghezza di uno spigolo del tetraedro.]
+#definizione(title: "Tetraedro regolare")[Una piramide retta, con una base e tre facce laterali tutte triangoli equilateri, è conosciuta come tetraedro regolare.]
 
-=== Il tronco di piramide
+#grafici_tetraedro
 
-#definizione(title: "Tronco di piramide")[Quando una piramide viene sezionata con un piano parallelo alla base, si divide in due parti: quella contenente il vertice rimane una piramide, mentre la parte senza il vertice è chiamata tronco di piramide a basi parallele, o più semplicemente tronco di piramide. Le basi del tronco sono poligoni simili, e le facce laterali sono trapezi.] 
+In un tetraedro regolare, il termine faccia include anche la base. Infatti, ciascuna delle quattro facce può essere considerata come base, mentre il vertice opposto diventa il vertice del tetraedro. Inoltre, tutti gli spigoli e gli angoli diedri tra le due facce risultano identici. Quando si stende la superficie totale di un tetraedro regolare su un piano, si ottiene un triangolo equilatero con il lato che è il doppio della lunghezza di uno spigolo del tetraedro.
+
+=== Tronco di piramide
+
+#definizione(title: "Tronco di piramide")[Quando una piramide viene sezionata con un piano parallelo alla base, si divide in due parti: quella contenente il vertice rimane una piramide, mentre la parte senza il vertice è chiamata tronco di piramide a basi parallele, o più semplicemente tronco di piramide. Le basi del tronco sono poligoni simili, e le facce laterali sono trapezi.]
 
 Se il tronco deriva da una piramide retta, viene chiamato tronco di piramide retta. In questo scenario, le facce laterali sono trapezi di uguale altezza, denominata apotema, e tutti e due i poligoni di base possono essere inscritti in un cerchio. Calcolare le aree delle superfici laterale e totale di un tronco di piramide è semplice utilizzando le formule note per i trapezi e i poligoni.
 
-=== Il prisma
+#grafici_piramide_tronca_retta
 
-#definizione(title: "Prisma")[Considerando $n$ ($n > 2$) rette parallele in un certo ordine, tre a tre non complanari, e tali che il piano formato da due di esse lasci tutte le altre dalla stessa parte, si definisce prisma convesso indefinito o prisma indefinito l’insieme comune agli $n$ semispazi originato dai piani determinati da due semirette consecutive che contengono tutte le altre rette da un lato.]
+=== Prisma
+
+#definizione(title: "Prisma")[Considerando $n$ ($n > 2$) rette parallele in un certo ordine, tre a tre non complanari, e tali che il piano formato da due di esse lasci tutte le altre dalla stessa parte, si definisce prisma convesso indefinito o prisma indefinito l'insieme comune agli $n$ semispazi originato dai piani determinati da due semirette consecutive che contengono tutte le altre rette da un lato.]
 
 Queste rette parallele sono chiamate spigoli e le strisce tra due rette parallele consecutive sono le facce del prisma indefinito. Il poligono formato intersecando il prisma con un piano non parallelo agli spigoli è la sua sezione.
 
-#definizione(title: "Prisma finito")[Un prisma finito, o semplicemente prisma, è l’intersezione di un prisma indefinito con una striscia solida le cui facce non sono parallele agli spigoli.] 
+#definizione(title: "Prisma finito")[Un prisma finito, o semplicemente prisma, è l'intersezione di un prisma indefinito con una striscia solida le cui facce non sono parallele agli spigoli.]
 
-Le basi sono poligoni uguali, le facce laterali sono parallelogrammi, e c’è un’altezza definita per il prisma. Gli spigoli indicano tutti i lati delle facce laterali e delle basi, e i vertici delle facce laterali e delle basi sono i vertici del prisma.
-
-#definizione(title: "Prisma retto")[Un prisma è detto retto se i piani delle basi sono perpendicolari agli spigoli laterali.] 
+Le basi sono poligoni uguali, le facce laterali sono parallelogrammi, e c'è un'altezza definita per il prisma. Gli spigoli indicano tutti i lati delle facce laterali e delle basi, e i vertici delle facce laterali e delle basi sono i vertici del prisma.
+#v(3em)
+#definizione(title: "Prisma retto")[Un prisma è detto retto se i piani delle basi sono perpendicolari agli spigoli laterali.]
 
 Un prisma non retto si chiama obliquo. Per calcolare le aree della superficie laterale o totale di un prisma si possono utilizzare le formule conosciute per poligoni e parallelogrammi.
 
-==== Il parallelepipedo e il cubo
+#grafici_prisma
 
-#definizione(title: "Parallelepipedo")[Un prisma con basi costituite da parallelogrammi è un parallelepipedo.] 
+==== Parallelepipedo e cubo
+
+#definizione(title: "Parallelepipedo")[Un prisma con basi costituite da parallelogrammi è un parallelepipedo.]
 
 In questo caso, anche le basi vengono chiamate facce, quindi un parallelepipedo ha sei facce tutte parallelogrammi. Due vertici non sulla stessa faccia sono opposti, e la loro connessione si chiama diagonale. Ogni parallelepipedo ha quattro diagonali che si incontrano in un unico punto medio per ciascuna di esse. Facce senza vertici comuni sono opposte e uguali. Qualsiasi coppia di facce può essere considerata come basi.
 
-#definizione(title: "Parallelepipedo rettangolo")[Un parallelepipedo rettangolo è un parallelepipedo retto con due rettangoli come basi.] 
+#definizione(title: "Parallelepipedo rettangolo")[Un parallelepipedo rettangolo è un parallelepipedo retto con due rettangoli come basi.]
 
 Ogni faccia è un rettangolo, e i tre spigoli che si incontrano in un singolo vertice sono le dimensioni del solido. Le quattro diagonali di un parallelepipedo rettangolo sono uguali tra loro.
 
 #definizione(title: "Cubo")[Un parallelepipedo rettangolo con tutte e tre le dimensioni uguali è chiamato cubo o esaedro regolare.]
 
+#grafici_parallelepipedo
 //
 === Poliedri in generale
 
@@ -139,7 +159,7 @@ Lo spazio racchiuso da una superficie poliedrica viene chiamato poliedro convess
 #definizione(title: "Formula di Eulero per i poliedri")[Dato un poliedro, se $f$ indica il numero delle facce, $n$ quello dei vertici e $s$ il numero degli spigoli, allora si ha la formula di Eulero per i poliedri:
 $ f + n = s + 2 $]
 
-Come visto nel caso del tetraedro regolare, la superficie totale di un poliedro può essere proiettata su un piano: si può appoggiare il poliedro su un piano e ruotare una faccia adiacente attorno al lato comune fino a portarla sullo stesso piano, ripetendo il processo per le altre facce adiacenti. In questo modo si ottiene un poligono formato dall’unione di molti poligoni identici alle facce del poliedro.
+Come visto nel caso del tetraedro regolare, la superficie totale di un poliedro può essere proiettata su un piano: si può appoggiare il poliedro su un piano e ruotare una faccia adiacente attorno al lato comune fino a portarla sullo stesso piano, ripetendo il processo per le altre facce adiacenti. In questo modo si ottiene un poligono formato dall'unione di molti poligoni identici alle facce del poliedro.
 
 === Poliedri regolari
 
@@ -150,48 +170,57 @@ Come visto nel caso del tetraedro regolare, la superficie totale di un poliedro 
 #dimostrazione()
 La somma degli angoli delle facce di un angoloide convesso è inferiore a 360°, e un angoloide ha almeno tre facce.
 
-Consideriamo i poliedri regolari con facce composte da triangoli equilateri, i cui angoli misurano 60° ciascuno: possono esistere angoloidi con 3, 4 o 5 facce da 60°. A questi corrispondono il tetraedro regolare con 4 facce, l’ottaedro regolare con 8 facce e l’icosaedro regolare con 20 facce. Il tetraedro regolare ha 4 facce, 4 vertici e 6 spigoli; l’ottaedro regolare ha 8 facce, 6 vertici e 12 spigoli; l’icosaedro regolare ha 20 facce, 12 vertici e 30 spigoli.
+Consideriamo i poliedri regolari con facce composte da triangoli equilateri, i cui angoli misurano 60° ciascuno: possono esistere angoloidi con 3, 4 o 5 facce da 60°. A questi corrispondono il tetraedro regolare con 4 facce, l'ottaedro regolare con 8 facce (@grafico_poliedro_regolare1) e l'icosaedro regolare con 20 facce (@grafico_poliedro_regolare3). Il tetraedro regolare ha 4 facce, 4 vertici e 6 spigoli; l'ottaedro regolare ha 8 facce, 6 vertici e 12 spigoli; l'icosaedro regolare ha 20 facce, 12 vertici e 30 spigoli.
 
-Passiamo al caso delle facce quadrate. Dato che gli angoli di un quadrato sono di 90°, esiste solo un angoloide con 3 facce, corrispondente al cubo o esaedro regolare. L’esaedro regolare ha 6 facce, 8 vertici e 12 spigoli.
+Passiamo al caso delle facce quadrate. Dato che gli angoli di un quadrato sono di 90°, esiste solo un angoloide con 3 facce, corrispondente al cubo o esaedro regolare. L'esaedro regolare ha 6 facce, 8 vertici e 12 spigoli.
 
-Infine, consideriamo le facce pentagonali. Sapendo che gli angoli dei pentagoni regolari misurano 108°, esiste un solo angoloide con 3 facce, corrispondente al dodecaedro regolare, che ha 12 facce, 20 vertici e 30 spigoli. Per poligoni regolari con più di 5 lati, il triplo dei loro angoli supera i 360°, quindi non possono esistere poliedri regolari con tali facce.
+Infine, consideriamo le facce pentagonali. Sapendo che gli angoli dei pentagoni regolari misurano 108°, esiste un solo angoloide con 3 facce, corrispondente al dodecaedro regolare (@grafico_poliedro_regolare5), che ha 12 facce, 20 vertici e 30 spigoli. Per poligoni regolari con più di 5 lati, il triplo dei loro angoli supera i 360°, quindi non possono esistere poliedri regolari con tali facce.
 
 Gli unici poliedri regolari sono dunque quelli menzionati, noti anche come solidi platonici.]
 
+#grafici_poliedro_regolare
 //
-== I solidi rotondi
+== Solidi rotondi
 
 #definizione(title: "Superficie di rotazione")[Consideriamo un semipiano $alpha$ originato da una retta $a$ e una qualsiasi linea $gamma$ situata in $alpha$. La superficie che $gamma$ descrive durante una rotazione completa attorno ad $a$ è chiamata superficie di rotazione. Se si prende in considerazione una superficie chiusa $Sigma$ nel semipiano $alpha$, la medesima rotazione genererà una regione dello spazio nota come solido di rotazione. La retta $a$ funge da asse di rotazione e la linea $gamma$ agisce come generatrice della superficie di rotazione.]
 
-=== Il cilindro
+#grafici_curva_piana
 
-#definizione(title: "Cilindro indefinito")[Un cilindro indefinito è il solido creato dalla rotazione completa di una striscia attorno a una retta del suo contorno.] 
+=== Cilindro
 
-La superficie derivata dalla rotazione della retta non fissa del contorno della striscia è denominata superficie cilindrica indefinita. La retta fissa del contorno della striscia si definisce asse del cilindro indefinito, mentre l'altra retta e tutte le rette da essa generate durante la rotazione sono chiamate generatrici della superficie cilindrica. L'altezza della striscia è definita raggio $r$ del cilindro indefinito. La superficie cilindrica costituisce il contorno del cilindro. 
+#definizione(title: "Cilindro indefinito")[Un cilindro indefinito è il solido creato dalla rotazione completa di una striscia attorno a una retta del suo contorno.]
 
-#definizione(title: "Cilindro retto")[Un cilindro circolare retto, o semplicemente cilindro, è l'intersezione di una striscia solida con un cilindro circolare indefinito il cui asse è perpendicolare alle due facce della striscia solida.] 
+La superficie derivata dalla rotazione della retta non fissa del contorno della striscia è denominata superficie cilindrica indefinita. La retta fissa del contorno della striscia si definisce asse del cilindro indefinito, mentre l'altra retta e tutte le rette da essa generate durante la rotazione sono chiamate generatrici della superficie cilindrica. L'altezza della striscia è definita raggio $r$ del cilindro indefinito. La superficie cilindrica costituisce il contorno del cilindro.
+
+#definizione(title: "Cilindro retto")[Un cilindro circolare retto, o semplicemente cilindro, è l'intersezione di una striscia solida con un cilindro circolare indefinito il cui asse è perpendicolare alle due facce della striscia solida.]
 
 L'altezza della striscia solida viene chiamata altezza del cilindro; i cerchi formati dall'intersezione del cilindro indefinito con le facce della striscia sono detti basi del cilindro; il raggio del cilindro indefinito corrisponde anche al raggio del cilindro.
 
-Un cilindro può essere concepito come il solido generato dalla rotazione completa di un rettangolo attorno a uno dei suoi lati. 
+Un cilindro può essere concepito come il solido generato dalla rotazione completa di un rettangolo attorno a uno dei suoi lati.
 
 #definizione(title: "Cilindro equilatero")[Un cilindro è detto equilatero se la sua altezza è pari al diametro della base, ossia se la sezione con un piano passante per l'asse è un quadrato.]
+
+#grafici_cilindro
 
 #definizione(title: "Teorema")[La superficie laterale di un cilindro corrisponde a un rettangolo i cui lati sono l'altezza del cilindro e la circonferenza rettificata della base.]
 
 Anche il cilindro obliquo è di notevole interesse nelle applicazioni, poiché risulta dall'intersezione di un cilindro circolare indefinito con due piani: uno perpendicolare all'asse e l'altro obliquo, senza che i piani si intersechino all'interno del cilindro stesso. In questo contesto, i due segmenti più lungo e più corto delle generatrici si chiamano altezza maggiore e altezza minore del cilindro.
 
-=== Il cono
+#grafici_cilindro2
 
-#definizione(title: "Cono indefinito")[Un cono indefinito è definito come il solido generato da un angolo acuto $alpha$ mediante la rotazione completa attorno a uno dei suoi lati.] 
+=== Cono
+
+#definizione(title: "Cono indefinito")[Un cono indefinito è definito come il solido generato da un angolo acuto $alpha$ mediante la rotazione completa attorno a uno dei suoi lati.]
 
 La superficie risultante dalla rotazione è nota come superficie conica indefinita. L'angolo $alpha$ viene chiamato semiapertura del cono. Il lato fisso dell'angolo $alpha$ è noto come asse del cono, mentre il lato che ruota, insieme a tutte le sue successive posizioni, costituisce le generatrici della superficie conica indefinita.
 
 #definizione(title: "Teorema")[Le sezioni trasversali di un cono indefinito attraverso piani perpendicolari all'asse sono cerchi; le loro aree sono proporzionali al quadrato delle rispettive distanze dal vertice del cono.]
 
-#definizione(title: "Teorema")[Un cono circolare retto, o semplicemente un cono, è ottenuto intersecando un cono indefinito con un semispazio contenente il vertice del cono, dove il piano d'origine interseca perpendicolarmente l'asse del cono in un punto diverso dal vertice.] 
+#definizione(title: "Teorema")[Un cono circolare retto, o semplicemente un cono, è ottenuto intersecando un cono indefinito con un semispazio contenente il vertice del cono, dove il piano d'origine interseca perpendicolarmente l'asse del cono in un punto diverso dal vertice.]
 
 Il cerchio risultante dall'intersezione del piano d'origine con il cono indefinito è definito base del cono, mentre la distanza tra il vertice e la base è l'altezza. Le intersezioni delle generatrici con il semispazio sono chiamate apotemi e sono di lunghezza uguale. Un cono circolare retto può anche essere visualizzato come il solido ottenuto dalla rotazione di un triangolo rettangolo attorno a uno dei suoi cateti.
+
+#grafici_cono
 
 #definizione(title: "Teorema")[La superficie laterale di un cono è equivalente a un triangolo con la circonferenza di base rettificata come base e l'apotema come altezza.]
 
@@ -199,8 +228,9 @@ Il cerchio risultante dall'intersezione del piano d'origine con il cono indefini
 
 I due cerchi di sezione vengono chiamati basi, la distanza tra questi cerchi è l'altezza, e i segmenti risultanti dalle generatrici sono chiamati lati o apotemi del tronco di cono. Un tronco di cono può essere visualizzato anche come il solido creato dalla rotazione di un trapezio rettangolo attorno al lato perpendicolare alle basi.
 
+#grafici_tronco_cono
 //
-=== La sfera
+=== Sfera
 
 #definizione(title: "Sfera")[Si dice sfera il solido generato da una rotazione completa di un semicerchio attorno al suo diametro. Si dice superficie sferica la superficie generata dalla rotazione completa di una semicirconferenza attorno al suo diametro. La superficie sferica è il contorno della sfera.]
 
@@ -208,45 +238,56 @@ Sia per la sfera che per la superficie sferica si considerano il centro e il rag
 
 Una retta ha due, uno o nessun punto in comune con una sfera a seconda che la sua distanza dal centro sia minore, uguale o maggiore del raggio; nei tre casi la retta si dice, rispettivamente, secante, tangente o esterna.
 
+#grafici_sfera
+
 Un piano ha in comune con una superficie sferica una circonferenza, un punto o nessun punto, a seconda che la sua distanza dal centro sia minore, uguale o maggiore del raggio; nei tre casi il piano si dice, rispettivamente, secante, tangente o esterno. Se un piano secante passa per il centro, la circonferenza intersezione ha lo stesso centro e raggio della superficie sferica; se non passa per il centro, ha raggio minore.
 
-Una retta o un piano passanti per il centro di una superficie sferica si dicono diametrali. I piani passanti per un diametro qualunque intersecano la superficie sferica secondo circonferenze massime, dette meridiani. I piani perpendicolari al diametro intersecano la superficie secondo circonferenze minori, dette paralleli, di raggio diverso a seconda della distanza dal centro. Il piano passante per il centro individua la circonferenza massima, detta equatore. Il diametro a cui sono perpendicolari i piani sezionanti è detto asse e i suoi estremi sono detti poli.
+Una retta o un piano passanti per il centro di una superficie sferica si dicono diametrali. I piani passanti per un diametro qualunque intersecano la superficie sferica secondo circonferenze massime, dette meridiani (@grafico_sfera3). I piani perpendicolari al diametro intersecano la superficie secondo circonferenze minori, dette paralleli, di raggio diverso a seconda della distanza dal centro (@grafico_sfera4). Il piano passante per il centro individua la circonferenza massima, detta equatore. Il diametro a cui sono perpendicolari i piani sezionanti è detto asse e i suoi estremi sono detti poli.
 
-#definizione(title: "Teorema")[ L’area della superficie sferica è uguale a quattro volte l’area del suo cerchio massimo. Detto $r$ il raggio della sfera $Sigma$, si ha:
+#grafici_meridiani_paralleli
+
+#definizione(title: "Teorema")[ L'area della superficie sferica è uguale a quattro volte l'area del suo cerchio massimo. Detto $r$ il raggio della sfera $Sigma$, si ha:
 $ A(Sigma) = 4 pi r^2 $]
 
 ==== Parti della superficie sferica e della sfera
 
-#definizione(title: "Calotta sferica")[ Data una superficie sferica e un piano $alpha$ perpendicolare in un punto $C$ a un suo diametro $A B$, si dice calotta sferica ciascuna delle due parti in cui la superficie viene divisa dal piano $alpha$. La corrispondente parte di sfera si chiama segmento sferico a una base.]
+#definizione(title: "Calotta sferica")[ Data una superficie sferica e un piano $alpha$ perpendicolare in un punto $C$ a un suo diametro $overline(A B)$, si dice calotta sferica ciascuna delle due parti in cui la superficie viene divisa dal piano $alpha$ (@grafico_parte_sfera1). 
 
-La circonferenza di centro $C$, intersezione della superficie sferica con il piano $alpha$, si dice base della calotta, mentre il corrispondente cerchio è la base del segmento sferico; il segmento $A C$, oppure $C B$, si dice altezza della calotta o del segmento sferico.
+La corrispondente parte di sfera si chiama segmento sferico a una base (@grafico_parte_sfera2).]
 
-#definizione(title: "Zona sferica")[Data una superficie sferica e due piani $alpha$ e $beta$ perpendicolari rispettivamente in $C$ e $D$ a un suo diametro $A B$, si dice zona sferica la parte di superficie sferica compresa tra i due piani.] 
+La circonferenza di centro $C$, intersezione della superficie sferica con il piano $alpha$, si dice base della calotta, mentre il corrispondente cerchio è la base del segmento sferico; il segmento $overline(A C)$, oppure $overline(C B)$, si dice altezza della calotta o del segmento sferico.
 
-La corrispondente parte di sfera si chiama segmento sferico a due basi.
+#definizione(title: "Zona sferica")[Data una superficie sferica e due piani $alpha$ e $beta$ perpendicolari rispettivamente in $C$ e $D$ a un suo diametro $overline(A B)$, si dice zona sferica la parte di superficie sferica compresa tra i due piani (@grafico_parte_sfera3).
 
-#definizione(title: "Teorema")[ L’area $A$ della superficie di una calotta o di una zona sferica di altezza $h$, appartenenti a una sfera di raggio $r$, è data da:
+La corrispondente parte di sfera si chiama segmento sferico a due basi (@grafico_parte_sfera4).]
+
+#definizione(title: "Teorema")[ L'area $A$ della superficie di una calotta o di una zona sferica di altezza $h$, appartenenti a una sfera di raggio $r$, è data da:
 $ A = 2 pi r h $]
 
-#definizione(title: "Fuso sferico")[ Un fuso sferico è definito come l'intersezione di una superficie sferica con un diedro il cui spigolo passa per il centro della sfera stessa.] 
+#grafici_parti_sfera
 
-La parte della sfera risultante viene chiamata spicchio sferico. L'angolo del diedro è noto come angolo del fuso o dello spicchio. 
+#definizione(title: "Fuso sferico")[Un fuso sferico è definito come l'intersezione di una superficie sferica con un diedro il cui spigolo passa per il centro della sfera stessa (@grafico_parte_sfera5).
+
+La parte della sfera risultante viene chiamata spicchio sferico (@grafico_parte_sfera6). L'angolo del diedro è noto come angolo del fuso o dello spicchio.]
 
 I fusi appartenenti alla stessa sfera sono proporzionali ai rispettivi angoli. L'area $A$ di un fuso può quindi essere determinata attraverso la proporzione:
 $ 4 pi r^2 : A = 360° : alpha $
 
+#grafici_parti_sfera2
+
 ==== Poliedri inscritti e circoscritti
 
-Un poliedro si dice inscritto in una sfera se tutti i suoi vertici appartengono alla superficie sferica, si
-dice invece circoscritto se tutte le sue facce sono tangenti alla superficie sferica.
-Un poliedro regolare è sempre inscrivibile e circoscrivibile ad una sfera. Le sfere inscritte e circoscritte
-a un poliedro hanno il medesimo centro, detto centro del poliedro, che è anche il punto di incontro di
-tutte le rette perpendicolari alle facce nei rispettivi centri. Il raggio della sfera inscritta si chiama apotema
-del poliedro, quello della sfera circoscritta si chiama raggio del poliedro.
+Un poliedro è descritto come inscritto in una sfera quando tutti i suoi vertici giacciono sulla superficie della sfera. Al contrario, è considerato circoscritto se tutte le sue facce toccano la superficie della sfera. Un poliedro regolare può sempre essere sia inscritto che circoscritto a una sfera. 
+
+Le sfere inscritte e circoscritte a un poliedro condividono lo stesso centro, noto come il centro del poliedro, che è anche il punto di intersezione di tutte le rette perpendicolari alle facce nei loro centri. Il raggio della sfera inscritta è chiamato apotema del poliedro, mentre il raggio della sfera circoscritta è noto come raggio del poliedro.
+
+#grafici_sfera_poligoni1
+
+#grafici_sfera_poligoni2
 
 == Volume e estensione solida
 
-Così come abbiamo trattato linee e superfici, consideriamo come concetto primitivo anche l'estensione dei solidi. 
+Così come abbiamo trattato linee e superfici, consideriamo come concetto primitivo anche l'estensione dei solidi.
 
 #definizione(title: "Solidi equivalenti")[Due solidi che hanno la stessa estensione si definiscono equivalenti.]
 
@@ -257,7 +298,7 @@ Di seguito presentiamo i teoremi utili per calcolare il volume dei solidi esamin
 #definizione(title: "Volume di un prisma o di un cilindro")[Il volume di un prisma o di un cilindro si ottiene moltiplicando l'area della base per la lunghezza dell'altezza. In particolare, il volume di un parallelepipedo rettangolo è dato dal prodotto delle sue tre dimensioni:
   $ V = A_b · h $]
 
-#definizione(title: "Volume di una piramide o di un cono")[Il volume di una piramide o di un cono corrisponde a un terzo del prodotto dell’area della base per l’altezza:
+#definizione(title: "Volume di una piramide o di un cono")[Il volume di una piramide o di un cono corrisponde a un terzo del prodotto dell'area della base per l'altezza:
   $ V = 1/3 A_b · h $]
 
 #definizione(title: "Volume di una sfera")[ Il volume di una sfera è pari a $4/3 pi$ moltiplicato per il cubo del raggio:

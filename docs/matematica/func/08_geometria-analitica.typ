@@ -3266,8 +3266,7 @@ caption: []
           // Rettangolo di riferimento (tangente solo nei vertici verticali)
           plot.annotate({
             rect((-a, -b), (a, b), 
-              stroke: (thickness: 0.8pt, paint: gray, dash: "dashed"),
-              fill: none)
+              stroke: (thickness: 0.8pt, paint: gray, dash: "dashed"), fill: none)
           })
 
           // Ramo destro

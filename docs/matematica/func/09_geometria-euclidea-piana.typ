@@ -1,7 +1,7 @@
 #import "../../../template/_global/template.typ": *
 #import "../../../template/_global/config.typ": *
 
-#import "@preview/ctz-euclide:0.1.5": *
+#import "@preview/ctz-euclide:0.2.0": *
 #import "@preview/cetz:0.5.2"
 #import "@preview/cetz-plot:0.1.4": plot, chart, smartart
 
@@ -523,9 +523,9 @@ caption: []
       A: "below left", 
       B: "below right", 
       C: "above", 
-      M_1: "above right", 
-      M_2: "above left", 
-      M_3: "below",
+      M_1: (text: $M_1$, pos: "above right"), 
+      M_2: (text: $M_1$, pos: "above left"), 
+      M_3: (text: $M_1$, pos: "below"),
       G: "above left"
     )
   )
@@ -537,7 +537,7 @@ caption: []
 
 #let grafico_triangolo_incentro = [
 #figure(
-  ctz-canvas(length: 0.8cm, clip-canvas: (-0.5, -0.5,
+  ctz-canvas(length: 1.0cm, clip-canvas: (-0.5, -0.5,
 6, 3), {
   import cetz.draw: *
   ctz-init()
@@ -602,7 +602,7 @@ caption: []
 ) <grafico_triangolo_incentro>
 ]
 
-#let grafico_triangolo_ortocentro = [
+#let grafico_triangolo_ortocentro1 = [
 #figure(
   ctz-canvas(length: 0.6cm, clip-canvas: (-0.5, -0.5,
 5.5, 3), {
@@ -634,17 +634,17 @@ caption: []
   ctz-draw(points: ("A", "B", "C", "H"), labels: (
   A: "left",
   B: "right",
-  C: "above right",
+  C: "above",
   H: "below right"
   ))
 
 
   }),
 caption: []
-) <grafico_triangolo_ortocentro>
+) <grafico_triangolo_ortocentro1>
 ]
 
-#let grafico_triangolo_ortocentro_rettangolo = [
+#let grafico_triangolo_ortocentro2 = [
 #figure(
   ctz-canvas(length: 0.6cm, clip-canvas: (-0.5, -0.5,
 5.5, 3.5), {
@@ -677,17 +677,17 @@ caption: []
   ctz-draw(points: ("A", "B", "C", "H"), labels: (
   A: "left",
   B: "right",
-  C: "above right",
+  C: "above",
   H: "below right"
   ))
 
 
   }),
 caption: []
-) <grafico_triangolo_ortocentro_rettangolo>
+) <grafico_triangolo_ortocentro2>
 ]
 
-#let grafico_triangolo_ortocentro_ottusangolo = [
+#let grafico_triangolo_ortocentro3 = [
 #figure(
   ctz-canvas(length: 0.6cm, clip-canvas: (-1.5, -1.9,
 5.5, 3.5), {
@@ -718,22 +718,22 @@ caption: []
   ctz-draw(points: ("A", "B", "C", "H"), labels: (
   A: "left",
   B: "right",
-  C: "above right",
+  C: "above",
   H: "below right"
   ))
 
 
   }),
 caption: []
-) <grafico_triangolo_ortocentro_ottusangolo>
+) <grafico_triangolo_ortocentro3>
 ]
 
-#let grafici_triangolo_ortocentro = [#v(-1em)
+#let grafici_triangolo_ortocentro = [
 #align(center)[
-  #grid(columns: 3, column-gutter: -0.5em, row-gutter: 0.1em, align: center + bottom)[#grafico_triangolo_ortocentro][#grafico_triangolo_ortocentro_rettangolo][#grafico_triangolo_ortocentro_ottusangolo]
+  #grid(columns: 3, column-gutter: -2.5em, row-gutter: 0.1em, align: center + bottom)[#grafico_triangolo_ortocentro1][][#grafico_triangolo_ortocentro2][][#grafico_triangolo_ortocentro3][]
 ]]
 
-#let grafico_triangolo_circocentro = [
+#let grafico_triangolo_circocentro1 = [
 #figure(
   ctz-canvas(length: 0.75cm, clip-canvas: (-0.5, -0.5,
 4.5, 3.5), {
@@ -772,10 +772,10 @@ caption: []
   ))
 }),
 caption: []
-) <grafico_triangolo_circocentro>
+) <grafico_triangolo_circocentro1>
 ]
 
-#let grafico_triangolo_circocentro_rettangolo = [
+#let grafico_triangolo_circocentro2 = [
 #figure(
   ctz-canvas(length: 0.66cm, clip-canvas: (-0.5, -0.5,
 4.5, 3.5), {
@@ -814,10 +814,10 @@ caption: []
   ))
 }),
 caption: []
-) <grafico_triangolo_circocentro_rettangolo>
+) <grafico_triangolo_circocentro2>
 ]
 
-#let grafico_triangolo_circocentro_ottusangolo = [
+#let grafico_triangolo_circocentro3 = [
 #figure(
   ctz-canvas(length: 0.5cm, clip-canvas: (-0.5, -0.5,
 4.5, 3.5), {
@@ -856,20 +856,21 @@ caption: []
   ))
 }),
 caption: []
-) <grafico_triangolo_circocentro_ottusangolo>
+) <grafico_triangolo_circocentro3>
 ]
 
 #let grafici_triangolo_circocentro = [
 #align(center)[
-  #grid(columns: 3, column-gutter: 0.1em, align: center + bottom)[#grafico_triangolo_circocentro][#grafico_triangolo_circocentro_rettangolo][#grafico_triangolo_circocentro_ottusangolo]
+  #grid(columns: 3, column-gutter: -2.5em, align: center + bottom)[#grafico_triangolo_circocentro1][][#grafico_triangolo_circocentro2][][#grafico_triangolo_circocentro3][]
 ]]
 
-#let grafico_triangolo_centri = [
+#let grafico_triangolo_centri1 = [
 #figure(
   ctz-canvas(length: 0.7cm, {
   import cetz.draw: *
   ctz-init()
-  ctz-style(point: (shape: "dot", size: 0.07, fill: black))
+  ctz-style(point: (shape: "dot", size: 0.07, fill: accent.mat))
+
   ctz-def-points(A: (0, 0), B: (5, 0), C: (2.5, 6))
   ctz-draw(line: ("A", "B", "C", "A"), stroke: accent.mat)
   
@@ -878,22 +879,18 @@ caption: []
   ctz-def-incenter("I", "A", "B", "C")
   ctz-def-orthocenter("H", "A", "B", "C")
 
-  // Euler line (H, G, O are collinear)
-  ctz-draw(segment: ("H", "O"), stroke: (
-  paint: accent.mat.darken(20%),
-  dash: "dotted",
-  thickness: 1pt
-  ))
-  // Circumcircle and incircle
+  ctz-draw(segment: ("H", "O"), stroke: (paint: accent.mat.darken(20%),dash: "dotted",thickness: 1pt))
   ctz-draw(circle-through: ("O", "A"), stroke: (paint: accent.mat.lighten(50%), dash: "dashed"))
   ctz-draw(incircle: ("A", "B", "C"), stroke: (paint: accent.mat, dash: "dotted"))
-  // Draw medians to centroid
   ctz-def-midpoint("Ma", "B", "C")
   ctz-def-midpoint("Mb", "A", "C")
   ctz-def-midpoint("Mc", "A", "B")
   ctz-draw(segment: ("A", "Ma"), stroke: (paint: accent.mat, dash: "dashed"))
   ctz-draw(segment: ("B", "Mb"), stroke: (paint: accent.mat, dash: "dashed"))
   ctz-draw(segment: ("C", "Mc"), stroke: (paint: accent.mat, dash: "dashed"))
+
+  ctz-draw-mark-segment("A", "C", mark: 2)
+  ctz-draw-mark-segment("C", "B", mark: 2)
 
   ctz-draw(points: ("A", "B", "C", "G", "O", "I", "H"), labels: (
   A: "below left",
@@ -906,37 +903,38 @@ caption: []
   ))
 }),
 caption: []
-) <grafico_triangolo_centri>
+) <grafico_triangolo_centri1>
 ]
 
-#let grafico_triangolo_equilatero_centri = [
+#let grafico_triangolo_centri2 = [
 #figure(
   ctz-canvas(length: 0.6cm, {
   import cetz.draw: *
   ctz-init()
-  ctz-style(point: (shape: "dot", size: 0.07, fill: black))
+  ctz-style(point: (shape: "dot", size: 0.07, fill: accent.mat))
   ctz-def-points(A: (0, 0), B: (7, 0), C: (3.5, 7 * calc.sqrt(3)/2))
+
   ctz-draw(line: ("A", "B", "C", "A"), stroke: accent.mat)
   ctz-def-centroid("G", "A", "B", "C")
   ctz-def-circumcenter("O", "A", "B", "C")
   ctz-def-incenter("I", "A", "B", "C")
   ctz-def-orthocenter("H", "A", "B", "C")
-  // Euler line (H, G, O are collinear)
-  ctz-draw(segment: ("H", "O"), stroke: (
-  paint: accent.mat.darken(20%),
-  dash: "dotted",
-  thickness: 1pt
-  ))
-  // Circumcircle and incircle
+
+  ctz-draw(segment: ("H", "O"), stroke: (paint: accent.mat.darken(20%),dash: "dotted",thickness: 1pt))
+
   ctz-draw(circle-through: ("O", "A"), stroke: (paint: accent.mat.lighten(50%), dash: "dashed"))
   ctz-draw(incircle: ("A", "B", "C"), stroke: (paint: accent.mat, dash: "dotted"))
-  // Draw medians to centroid
+
   ctz-def-midpoint("Ma", "B", "C")
   ctz-def-midpoint("Mb", "A", "C")
   ctz-def-midpoint("Mc", "A", "B")
   ctz-draw(segment: ("A", "Ma"), stroke: (paint: accent.mat, dash: "dashed"))
   ctz-draw(segment: ("B", "Mb"), stroke: (paint: accent.mat, dash: "dashed"))
   ctz-draw(segment: ("C", "Mc"), stroke: (paint: accent.mat, dash: "dashed"))
+
+  ctz-draw-mark-segment("A", "B", mark: 1)
+  ctz-draw-mark-segment("B", "C", mark: 1)
+  ctz-draw-mark-segment("A", "C", mark: 1)
 
   ctz-draw(points: ("A", "B", "C", "G", "O", "I", "H"), labels: (
   A: "below left",
@@ -949,12 +947,12 @@ caption: []
   ))
 }),
 caption: []
-) <grafico_triangolo_equilatero_centri>
+) <grafico_triangolo_centri2>
 ]
 
 #let grafici_triangolo_centri = [
 #align(center)[
-  #grid(columns: 2, column-gutter: 0.5em, align: center + bottom)[#grafico_triangolo_centri][#grafico_triangolo_equilatero_centri]
+  #grid(columns: 2, column-gutter: 1.2em, align: center + bottom)[#grafico_triangolo_centri1][#grafico_triangolo_centri2]
 ]]
 
 #let grafico_rette_incidenti_bisettrici = [
@@ -966,10 +964,8 @@ caption: []
   
   ctz-style(point: (shape: "dot", size: 0.08, fill: accent.mat))
   
-  // 1. Centro di intersezione O
   let pO = (0.0, 0.0)
   
-  // 2. Direzioni geometriche delle rette A e B (vettori normalizzati)
   let lenA = calc.sqrt(3.0*3.0 + 1.0*1.0)
   let uAx = 3.0 / lenA
   let uAy = 1.0 / lenA
@@ -978,7 +974,6 @@ caption: []
   let uBx = 2.0 / lenB
   let uBy = -2.5 / lenB
 
-  // 3. Calcolo delle direzioni delle bisettrici (somma e differenza dei vettori)
   let b1x = uAx + uBx
   let b1y = uAy + uBy
   let lenB1 = calc.sqrt(b1x*b1x + b1y*b1y)
@@ -991,7 +986,6 @@ caption: []
   let ub2x = b2x / lenB2
   let ub2y = b2y / lenB2
 
-  // 4. Generazione degli estremi delle rette (lunghezza semiasse = 3.5 cm)
   let L = 3.5
   let pA1 = (-uAx * L, -uAy * L)
   let pA2 = (uAx * L, uAy * L)
@@ -1003,7 +997,6 @@ caption: []
   let pBis2_1 = (-ub2x * L, -ub2y * L)
   let pBis2_2 = (ub2x * L, ub2y * L)
   
-  // 5. Registrazione di tutti i punti nel sistema di coordinate
   ctz-def-points(
     O: pO,
     A1: pA1,
@@ -1016,18 +1009,14 @@ caption: []
     Bis2_2: pBis2_2
   )
   
-  // 6. Disegno delle rette principali A e B
   ctz-draw(line: ("A1", "A2"), stroke: accent.mat)
   ctz-draw(line: ("B1", "B2"), stroke: accent.mat)
   
-  // 7. Disegno delle due bisettrici (tratteggiate)
   ctz-draw(line: ("Bis1_1", "Bis1_2"), stroke: (paint: accent.mat, dash: "dashed"))
   ctz-draw(line: ("Bis2_1", "Bis2_2"), stroke: (paint: accent.mat, dash: "dashed"))
   
-  // 8. Simbolo di Angolo Retto tra le due bisettrici nell'origine O
   ctz-draw-mark-right-angle("Bis1_2", "O", "Bis2_2", size: 0.2)
   
-  // 9. Disegno del punto di intersezione O con etichetta
   ctz-draw(
     points: ("O"), 
     labels: (
@@ -1035,7 +1024,6 @@ caption: []
     )
   )
 
-  // 10. Inserimento manuale delle etichette descrittive per rette e bisettrici
   content("A2", anchor: "south-west", padding: 0.1, $A$)
   content("B2", anchor: "north-west", padding: 0.1, $B$)
   content("Bis1_2", anchor: "west", padding: 0.1, $b_1$)
@@ -2100,7 +2088,7 @@ caption: []
   ctz-def-rotation("A", "R", "O", 150)
   ctz-def-rotation("B", "R", "O", 30)
 
-  arc(anchor: "origin", "O", start: 150deg, stop: 30deg, radius: 3, stroke: accent.mat) // TODO: la funzione di cetz-euclide non funziona; v. 0.1.5
+  ctz-draw-arc("O", "B", "A", stroke: accent.mat)
 
 
   ctz-draw(segment: ("A", "O"), stroke: accent.mat.lighten(75%))
@@ -2169,20 +2157,22 @@ caption: []
   
   ctz-def-points(O: (0, 0), R: (3, 0))
   
-  ctz-draw(circle-r: (_pt("O"), 3), stroke: accent.mat.lighten(75%))
 
   ctz-def-rotation("A", "R", "O", 150)
   ctz-def-rotation("B", "R", "O", 30)
 
-  arc(anchor: "origin", "O", start: 150deg, stop: 30deg, radius: 3, stroke: accent.mat, fill: accent.mat.lighten(75%), mode: "PIE") // TODO: la funzione di cetz-euclide non funziona; v. 0.1.5
-
-
-  ctz-draw(segment: ("A", "O"), stroke: accent.mat)
-  ctz-draw(segment: ("B", "O"), stroke: accent.mat)
   ctz-draw-line-add("O", "A", add: (0, 1), stroke:
   accent.mat.lighten(75%))
   ctz-draw-line-add("O", "B", add: (0, 1), stroke:
   accent.mat.lighten(75%))
+  
+  ctz-draw-sector("O", "B", "A", stroke: accent.mat, fill: accent.mat.lighten(75%))
+  ctz-draw(circle-r: (_pt("O"), 3), stroke: accent.mat.lighten(75%))
+  
+  ctz-draw-arc("O", "B", "A", stroke: accent.mat)
+  ctz-draw(segment: ("A", "O"), stroke: accent.mat)
+  ctz-draw(segment: ("B", "O"), stroke: accent.mat)
+  
   
 
   ctz-draw(points: ("O", "A", "B"), labels: (
@@ -2210,8 +2200,12 @@ caption: []
 
   ctz-def-rotation("A", "R", "O", 150)
   ctz-def-rotation("B", "R", "O", 30)
+  ctz-def-polygon("Trng", "A", "O", "B")
 
-  arc(anchor: "origin", "O", start: 150deg, stop: 30deg, radius: 3, stroke: accent.mat, fill: accent.mat.lighten(75%), mode: "CLOSE") // TODO: la funzione di cetz-euclide non funziona; v. 0.1.5
+  ctz-draw-sector("O", "B", "A", stroke: accent.mat, fill: accent.mat.lighten(75%))
+  ctz-draw-polygon("Trng", fill: white)
+  ctz-draw-arc("O", "B", "A", stroke: accent.mat)
+  ctz-draw(segment: ("A", "B"), stroke: accent.mat)
 
 
   ctz-draw(segment: ("A", "O"), stroke: accent.mat.lighten(75%))
@@ -2250,20 +2244,36 @@ caption: []
 
   ctz-draw(segment: ("A", "O"), stroke: accent.mat.lighten(75%))
   ctz-draw(segment: ("B", "O"), stroke: accent.mat.lighten(75%))
-  ctz-draw-line-add("O", "A", add: (0, 1), stroke:
-  accent.mat.lighten(75%))
-  ctz-draw-line-add("O", "B", add: (0, 1), stroke:
-  accent.mat.lighten(75%))
 
   ctz-def-line("L1", (-1, -1), (2, -1))
   ctz-def-circle("C1", "O", radius: 3)
   ctz-def-lc(("D", "E"), "L1", "C1")
+  ctz-def-polygon("Trng", "A", "O", "B")
+  ctz-def-polygon("Trng2", "D", "O", "E")
 
-  arc(anchor: "origin", "O", start: 200deg, stop: -20deg, radius: 3, stroke: accent.mat, fill: accent.mat.lighten(75%), mode: "CLOSE") // TODO: la funzione di cetz-euclide non funziona; v. 0.1.5
+  /* arc(anchor: "origin", "O", start: 200deg, stop: -20deg, radius: 3, stroke: accent.mat, fill: accent.mat.lighten(75%), mode: "CLOSE") // TODO: la funzione di cetz-euclide non funziona; v. 0.1.5 */
 
-  arc(anchor: "origin", "O", start: 150deg, stop: 30deg, radius: 3, stroke: white, fill: white, mode: "CLOSE") // TODO: la funzione di cetz-euclide non funziona; v. 0.1.5
+  //ctz-draw-sector("O", "B", "A", stroke: white, fill: white)
+  //ctz-draw-sector("O", "D", "E", stroke: white, fill: white)
+
+  //ctz-draw-polygon("Trng", stroke: accent.mat.lighten(75%), fill: accent.mat.lighten(75%))
+  //ctz-draw-polygon("Trng2", stroke: accent.mat.lighten(75%), fill: accent.mat.lighten(75%))
+   
+  ctz-draw-line-add("O", "A", add: (0, 1), stroke:  accent.mat.lighten(75%))
+  ctz-draw-line-add("O", "B", add: (0, 1), stroke:  accent.mat.lighten(75%))
+  ctz-draw-line-add("O", "E", add: (0, 1), stroke:  accent.mat.lighten(75%))
+  ctz-draw-line-add("O", "D", add: (0, 1), stroke:  accent.mat.lighten(75%))
+  arc(anchor: "origin", "O", start: 200deg, stop: -20deg, radius: 3, stroke: accent.mat, fill: accent.mat.lighten(75%), mode: "CLOSE") // TODO: la funzione di cetz-euclide non funziona; v. 0.2.0
+
+  arc(anchor: "origin", "O", start: 150deg, stop: 30deg, radius: 3, stroke: white, fill: white, mode: "CLOSE") // TODO: la funzione di cetz-euclide non funziona; v. 0.2.0
+  
+
   
   ctz-draw(segment: ("A", "B"), stroke: accent.mat)
+  /* ctz-draw(segment: ("D", "E"), stroke: accent.mat) */
+
+  // ctz-draw-arc("O", "E", "B", stroke: accent.mat)
+  //ctz-draw-arc("O", "A", "D", stroke: accent.mat)
 
   ctz-draw(points: ("O", "A", "B", "D", "E"), labels: (
   O: "below",
@@ -3702,7 +3712,7 @@ caption: []
 ) <grafico_segmento_aureo>
 ]
 
-#let grafico_divisione_segmento = [
+#let grafico_sezione_segmento = [
 #figure(
   ctz-canvas(length: 0.7cm, clip-canvas: (-3.3, -3.3, 8.2, 3.3), {
   import cetz.draw: *
@@ -3714,22 +3724,19 @@ caption: []
   ctz-def-points(A: (0, 0), B:(5, 0), /* R1: (3, 0), R2:(2, 0) */)
 
   ctz-def-circle("Circ1", "A", radius: 3)
-  ctz-draw("Circ1", stroke: (paint: accent.mat.lighten(75%)))
+  //ctz-draw("Circ1", stroke: (paint: accent.mat.lighten(75%)))
   ctz-def-circle("Circ2", "B", radius: 3)
-  ctz-draw("Circ2", stroke: (paint: accent.mat.lighten(75%)))
-
-  // TODO: Uso i cerchi e non gli archi perché non ho capito come funzionano..
-  /* arc((2.7, 1.3), start: 26deg, stop: 75deg, radius: 3, stroke: 1pt + gray) */
-  /* ctz-def-rotation("A1", "R1", "A", 25)
-  ctz-def-rotation("A2", "R1", "A", 75)
-  ctz-draw(arc: (center: "A", start: "A1", end: "A2"), stroke: black) */
+  ctz-draw("Circ2", stroke: (paint: accent.mat, dash: "dotted")) // TODO: bug cetz-euclide 0.2.0
 
 
   ctz-def-cc(("C", "D"), "Circ1", "Circ2")
-  ctz-draw-line-add("C", "D", add: (2, 2), stroke:  (paint: accent.mat.lighten(50%), dash: "dotted"))
+  ctz-draw-line-add("C", "D", add: (2, 2), stroke: (paint: accent.mat, dash: "dotted"))
   
-  ctz-draw(segment: ("A", "B"), stroke: (paint: accent.mat))
   ctz-def-midpoint("M", "A", "B")
+  ctz-draw(segment: ("A", "B"), stroke: (paint: accent.mat))
+
+  ctz-draw-arc("A", "D", "C", delta: 10, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("B", "C", "D", delta: 10, stroke: (paint: white, thickness: 1.3pt)) // TODO: bug cetz-euclide 0.2.0
 
   ctz-draw(points: ("A", "B", "C", "D", "M"), labels: (
   A: "left",
@@ -3739,10 +3746,12 @@ caption: []
   ))
 }),
 caption: []
-) <grafico_divisione_segmento>
+) <grafico_sezione_segmento>
 ]
 
-#let grafico_divisione_angolo = [
+#grafico_sezione_segmento
+
+#let grafico_sezione_angolo = [
 #figure(
   ctz-canvas(length: 0.85cm, clip-canvas: (-2.8, -3.3, 6.2, 3.3), {
   import cetz.draw: *
@@ -3757,36 +3766,37 @@ caption: []
   ctz-def-ll("C", ("T1", "T2"), ("U1", "U2"))
 
   ctz-def-circle("Circ1", "B", radius: 2)
-  ctz-draw("Circ1", stroke: (paint: accent.mat.lighten(75%)))
   ctz-def-lc(("", "D"), ("L1", "L2"), "Circ1")
   ctz-def-lc(("", "E"), ("T1", "T2"), "Circ1")
-
   ctz-def-circle("Circ2", "D", radius: 2)
-  ctz-draw("Circ2", stroke: (paint: accent.mat.lighten(75%)))
   ctz-def-circle("Circ3", "E", radius: 2)
-  ctz-draw("Circ3", stroke: (paint: accent.mat.lighten(75%)))
+
   ctz-def-cc(("F", ""), "Circ2", "Circ3")
 
-  ctz-draw-line-add("A", "B", add: (1, 0), stroke:  (paint: accent.mat))
-  ctz-draw-line-add("C", "B", add: (1, 0), stroke:  (paint: accent.mat))
-  ctz-draw-line-add("B", "F", add: (2, 2), stroke:  (paint: accent.mat.lighten(50%), dash: "dotted"))
+  ctz-draw-arc("B", "D", "E", delta: 50, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("D", "F", "F", delta: 20, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("E", "F", "F", delta: 20, stroke: (paint: accent.mat, dash: "dotted"))
+
+  ctz-draw-line-add("A", "B", add: (1, 0), stroke: (paint: accent.mat))
+  ctz-draw-line-add("C", "B", add: (1, 0), stroke: (paint: accent.mat))
+  ctz-draw-line-add("B", "F", add: (0, 2), stroke: (paint: accent.mat.lighten(50%), dash: "dotted"))
 
   ctz-draw(points: ("A", "B", "C", "D", "E", "F",), labels: (
   A: "above",
   B: "left",
   C: "below",
-  D: "above",
-  E: "below",
+  D: "above left",
+  E: "below left",
   F: "right",
   ))
 }),
 caption: []
-) <grafico_divisione_angolo>
+) <grafico_sezione_angolo>
 ]
 
 #let grafico_parallela_punto = [
 #figure(
-  ctz-canvas(length: 0.7cm, clip-canvas: (-2.3, -3.3, 6.5, 3.3), {
+  ctz-canvas(length: 0.7cm, {
   import cetz.draw: *
   ctz-init()
   
@@ -3802,18 +3812,18 @@ caption: []
   ctz-def-circle("Circ3", "P", radius: calc.sqrt(8))
   ctz-def-cc(("", "C"), "Circ2", "Circ3")
 
-  ctz-draw("Circ1", stroke: (paint: accent.mat.lighten(75%)))
-  ctz-draw("Circ2", stroke: (paint: accent.mat.lighten(75%)))
-  ctz-draw("Circ3", stroke: (paint: accent.mat.lighten(75%)))
+  ctz-draw-arc("A", "P", "B", delta: 60, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("P", "C", "C", delta: 20, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("B", "C", "C", delta: 20, stroke: (paint: accent.mat, dash: "dotted"))
 
   ctz-draw-line-add("A", (5, 0), add: (0.3, 0.5), stroke: (paint: accent.mat.lighten(35%)))
-  ctz-draw-line-add("P", "C", add: (2, 2), stroke:  (paint: accent.mat.lighten(35%), dash: "dotted"))
+  ctz-draw-line-add("P", "C", add: (1.25, 1), stroke:  (paint: accent.mat.lighten(35%), dash: "dashed"))
 
   ctz-draw(points: ("A", "P", "B", "C"), labels: (
-  A: "below left",
+  A: "below",
   B: "below right",
   C: "above right",
-  P: "above left",
+  P: "above right",
   )) 
 }),
 caption: []
@@ -3835,6 +3845,8 @@ caption: []
   ctz-def-perp("P1", "P2", ("A", "B"), "P")
   ctz-def-project("H", "P", "A", "B")
 
+  ctz-draw-arc("A", "P", "P", delta: 20, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("B", "P", "P", delta: 20, stroke: (paint: accent.mat, dash: "dotted"))
 
   ctz-draw("Circ1", stroke: (paint: accent.mat.lighten(75%)))
   ctz-draw-line-add("S1", "S2", add: (0.5, 0.3), stroke: (paint: accent.mat))
@@ -3844,7 +3856,7 @@ caption: []
   ctz-draw(points: ("A", "B", "P", ), labels: (
   A: "below left",
   B: "below right",
-  P: "above right",
+  P: "right",
   ))
 }),
 caption: []
@@ -3962,7 +3974,8 @@ caption: []
   O: "above",
   A: "above",
   B: "below",
-  P: "above"
+  P: "above",
+  M: "right"
   ))
 
 }),
@@ -4039,8 +4052,12 @@ caption: []
   ctz-def-rotation("C", "R", "O", 180)
   ctz-def-rotation("D", "R", "O", 270)
 
+  ctz-draw-mark-right-angle("A", "O", "B")
+
   ctz-draw(segment: ("A", "C"), stroke: (paint: accent.mat, dash: "dotted"))
   ctz-draw(segment: ("B", "D"), stroke: (paint: accent.mat, dash: "dotted"))
+
+  ctz-draw-arc("C", "D", "D", delta: 15, stroke: (paint: white, dash: "dotted")) // Invisibile, solo per allineare le tre figure
 
   ctz-draw(line: ("A", "B", "C", "D", "A"), stroke: (paint: accent.mat))
 
@@ -4061,8 +4078,6 @@ caption: []
   
   ctz-def-points(O: (0, 0), R: (3, 0))
   
-  ctz-draw(circle-r: (_pt("O"), 3), stroke: accent.mat.lighten(75%))
-
   ctz-def-rotation("A", "R", "O", 90)
   ctz-def-rotation("B", "R", "O", 150)
   ctz-def-rotation("C", "R", "O", 210)
@@ -4070,12 +4085,14 @@ caption: []
   ctz-def-rotation("E", "R", "O", 330)
   ctz-def-rotation("F", "R", "O", 30)
 
-  ctz-draw(arc-r: ((0.3, 2.4), 4, 20deg, 40deg), stroke: (paint: accent.mat, dash: "dotted"))
-  ctz-draw(arc-r: ((3.0, 2.2), 4, -25deg, -45deg), stroke: (paint: accent.mat, dash: "dotted"))
-  ctz-draw(arc-r: ((3.25, -1.43), 4, -80deg, -100deg), stroke: (paint: accent.mat, dash: "dotted"))
-  ctz-draw(arc-r: ((-0.07, -2.3), 4, 180deg, 200deg), stroke: (paint: accent.mat, dash: "dotted"))
-  ctz-draw(arc-r: ((-2.9, -2.15), 4, 160deg, 140deg), stroke: (paint: accent.mat, dash: "dotted"))
-  ctz-draw(arc-r: ((-3.3, 1.45), 4, 100deg, 80deg), stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw(circle-r: (_pt("O"), 3), stroke: accent.mat.lighten(75%))
+
+  ctz-draw-arc("A", "B", "B", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("B", "C", "C", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C", "D", "D", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("D", "E", "E", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("E", "F", "F", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("F", "A", "A", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
 
   ctz-draw(line: ("A", "B", "C", "D", "E", "F", "A"), stroke: (paint: accent.mat))
 
@@ -4106,6 +4123,13 @@ caption: []
   ctz-def-rotation("F", "R", "O", 30)
 
   ctz-draw(line: ("A", "C", "E", "A"), stroke: (paint: accent.mat))
+
+  ctz-draw-arc("A", "B", "B", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("B", "C", "C", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C", "D", "D", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("D", "E", "E", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("E", "F", "F", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("F", "A", "A", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
 
   ctz-draw(points: ("O", "A", "B", "C", "D", "E", "F"))
 
@@ -4186,8 +4210,8 @@ caption: []
   ctz-def-rotation("H", "G", "B", 90deg)
   ctz-def-rotation("I", "B", "H", 90deg)
 
-  ctz-draw-arc((5, 3), (8, 3), (5, 4), stroke: (paint: accent.mat, dash: "dotted")) // TODO: uso approssimativo di ctz-draw-arc
-  ctz-draw-semicircle((0, -4), (0, 4), stroke: (paint: accent.mat, dash: "dotted")) // TODO: uso approssimativo di ctz-draw-semicircle
+  ctz-draw-arc("B", "C", "E", stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc-r("F", 4, -180deg, 0deg, stroke: (paint: accent.mat, dash: "dotted")) // TODO: uso approssimativo di ctz-draw-arc-r; ctz-euclide 0.2.0
 
 /*   ctz-draw("Circ1", stroke: accent.mat)
   ctz-draw("Circ2", stroke: accent.mat.lighten(75%))
@@ -4217,7 +4241,7 @@ caption: []
 
 #let grafici_quadratura_poligono = [
 #align(center)[
-  #grid(columns: 2, column-gutter: -0.5em, row-gutter: 1.5em, align: center + bottom)[#grafico_quadratura_poligono1][#grafico_quadratura_poligono2]
+  #grid(columns: 2, column-gutter: 0.5em, row-gutter: 1.5em, align: center + bottom)[#grafico_quadratura_poligono1][#grafico_quadratura_poligono2]
 ]]
 
 #let grafico_divisione_segmento = [
@@ -4330,7 +4354,7 @@ caption: []
   ctz-draw(segment: ("B", "C"), stroke: (paint: accent.mat.lighten(50%)))
   ctz-draw(segment: ("B", "D"), stroke: (paint: accent.mat.lighten(5%)))
   
-  ctz-draw-semicircle((6, 3), (6, -3), stroke: (paint: accent.mat.lighten(35%), dash: "dotted")) // TODO: uso approssimativo di ctz-draw-arc
+  ctz-draw-semicircle("A", "C", stroke: (paint: accent.mat.lighten(35%), dash: "dotted")) // TODO: uso approssimativo di ctz-draw-arc
 
   ctz-draw-measure-segment("A", "B", label: $m$, side: "below", arrows: "|_|", offset: 0.5, stroke: accent.mat.lighten(85%))
   ctz-draw-measure-segment("B", "C", label: $n$, side: "below", arrows: "|_|", offset: 0.5, stroke: accent.mat.lighten(85%)) 
@@ -4375,8 +4399,11 @@ caption: []
 
   /* ctz-draw("Circ2", stroke: (paint: red, dash: "dotted")) */
   /* ctz-draw-arc("A", "D", "C", stroke: (paint: green, dash: "dotted")) // TODO: uso approssimativo di ctz-draw-arc */
-  arc("C", start: 0deg, stop: 29deg, radius: 3.5, stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
-  arc("O", start: 90deg, stop: 180deg, radius: 3, stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
+  /* arc("C", start: 0deg, stop: 29deg, radius: 3.5, stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
+  arc("O", start: 90deg, stop: 180deg, radius: 3, stroke: (paint: accent.mat.lighten(35%), dash: "dotted")) */
+
+  ctz-draw-arc("B", "O", "M", delta: 10, stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
+  ctz-draw-arc("A", "D", "C", delta: 35, stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
 
   ctz-draw-mark-right-angle("C", "B", "O", size: 0.2)
 
@@ -4405,9 +4432,9 @@ caption: []
 
   ctz-def-circle("Circ", "O", through: "R")
   ctz-draw-circle("Circ", stroke: accent.mat.lighten(75%))
-  ctz-draw(segment: ((-3, 0), (3, 0)), stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
-  ctz-draw(segment: ((0, 3), (0, -3)), stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
-  ctz-draw(segment: ((-3, 0), "P"), stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
+  ctz-draw(segment: ((-3, 0), (3, 0)), stroke: (paint: accent.mat.lighten(75%), dash: "dashed"))
+  ctz-draw(segment: ((0, 3), (0, -3)), stroke: (paint: accent.mat.lighten(75%), dash: "dashed"))
+  ctz-draw(segment: ((-3, 0), "P"), stroke: (paint: accent.mat.lighten(75%), dash: "dashed"))
 
   ctz-def-regular-polygon("Deca", ("A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"), "O", "R")
   ctz-draw("Deca", stroke: accent.mat)
@@ -4415,7 +4442,18 @@ caption: []
   ctz-def-circle("Circ2", "P", through: "O")
   ctz-draw-circle("Circ2", stroke: accent.mat.lighten(75%))
 
-  arc((-1.33, 0.8), start: 32deg, stop: 65deg, radius: 2.5, stroke: (paint: accent.mat.lighten(75%)))
+  ctz-draw-arc("A1", "A10", "A10", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A2", "A1", "A1", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A3", "A2", "A2", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A4", "A3", "A3", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A5", "A4", "A4", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A6", "A5", "A5", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A7", "A6", "A6", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A8", "A7", "A7", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A9", "A8", "A8", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A10", "A9", "A9", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+
+  /* arc((-1.33, 0.8), start: 32deg, stop: 65deg, radius: 2.5, stroke: (paint: accent.mat.lighten(75%))) */
   
   ctz-draw(points: ("O", "R", "P", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"))
 
@@ -4437,6 +4475,18 @@ caption: []
   ctz-def-regular-polygon("Deca", ("A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"), "O", "R")
 
   ctz-draw-circle("Circ", stroke: accent.mat.lighten(75%))
+
+  ctz-draw-arc("A1", "A10", "A10", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A2", "A1", "A1", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A3", "A2", "A2", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A4", "A3", "A3", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A5", "A4", "A4", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A6", "A5", "A5", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A7", "A6", "A6", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A8", "A7", "A7", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A9", "A8", "A8", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("A10", "A9", "A9", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+
   ctz-draw-line("A1", "A3", "A5", "A7", "A9", "A1", stroke: accent.mat)
   ctz-draw(points: ("O", "R", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"))
 
@@ -4465,9 +4515,28 @@ caption: []
   ctz-draw-line("A5", "O", stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
   ctz-draw-line("O", "B3", stroke: (paint: accent.mat.lighten(35%), dash: "dotted"))
   ctz-draw-angle("O", "A5", "B3", radius: 0.7, label: $alpha$, fill: accent.mat.lighten(60%), stroke: accent.mat.lighten(60%))
+
+  ctz-draw-arc("C1", "C15", "C15", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C2", "C1", "C1", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C3", "C2", "C2", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C4", "C3", "C3", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C5", "C4", "C4", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C6", "C5", "C5", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C7", "C6", "C6", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C8", "C7", "C7", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C9", "C8", "C8", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C10", "C9", "C9", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C11", "C10", "C10", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C12", "C11", "C11", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C13", "C12", "C12", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C14", "C13", "C13", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+  ctz-draw-arc("C15", "C14", "C14", delta: 15, stroke: (paint: accent.mat, dash: "dotted"))
+
+  ctz-draw("Deca", stroke: accent.mat.lighten(75%))
+  ctz-draw("Esa", stroke: accent.mat.lighten(75%))
   ctz-draw("Pndc", stroke: accent.mat)
 
-  ctz-draw(points: ("O", "A5", "A6", "B3",), labels: (
+  ctz-draw(points: ("O", "A5", "A6", "B3"), labels: (
   O: "below",
   A5: (text: $C$, pos: "left"),
   A6: (text: $A$, pos: "left"),
