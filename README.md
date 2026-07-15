@@ -6,9 +6,20 @@ In questo repository trovi i file sorgente in [typst](https://github.com/typst/t
 
 Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccoli_prontuari/) dedicato.
 
+<!--toc:start-->
+- [Manuali per il WikiBigino](#manuali-per-il-wikibigino)
+  - [Struttura del repository](#struttura-del-repository)
+- [Struttura delle cartelle e file principali](#struttura-delle-cartelle-e-file-principali)
+    - [Come vedere l'anteprima ed esportare il pdf di un manuale](#come-vedere-lanteprima-ed-esportare-il-pdf-di-un-manuale)
+  - [Materie](#materie)
+  - [Filosofia del progetto](#filosofia-del-progetto)
+  - [Futuro del progetto](#futuro-del-progetto)
+<!--toc:end-->
+
 ## Struttura del repository
 
 ```bash
+.
 ├── docs/
 │   ├── <materia>/
 │   │   ├── img/
@@ -22,32 +33,35 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccol
 │       ├── img/
 │       │   ├── immagine.png
 │       │   └── diagramma.jpg
-|       |   func/
+│       ├── func/
 │       │   ├── 01_capitolo.typ
-│       │   ├── 02_capitolo.typ
-|       |   └── ...
+│       │   └── 01_capitolo.typ
 │       ├── 00_introduzione.typ
 │       ├── 01_capitolo.typ
 │       ├── 02_capitolo.typ
 │       └── ...
 └── template/
-    ├── global/
+    ├── _global/
     │   ├── config.typ
     │   ├── template.typ
+    │   ├── template_cover.typ
+    │   ├── template_retro.typ
+    │   ├── prefazione.typ
     │   └── ...
     ├── <materia>/
     │   ├── main.typ
     │   ├── cover.typ
     │   └── retro.typ
-    └── <materia>/
-        ├── main.typ
-        ├── cover.typ
-        └── retro.typ
+    ├── <materia>/
+    │   ├── main.typ
+    │   ├── cover.typ
+    │   └── retro.typ
+    └── ...
 ```
 
 # Struttura delle cartelle e file principali
 
-- `docs/<materia>/` contiente tutti i testi dei manuali, suddivisi per materia (vedi in seguito)
+- `docs/<materia>/` contiene tutti i testi dei manuali, suddivisi per materia (vedi in seguito)
     - `/img/` contiene le immagini
     - `/func/` contiene tutte le funzioni dei grafici e delle tabelle di una materia
 - `template/_global/` è la cartella che contiene i template in comune fra tutti i manuali: 
@@ -119,4 +133,4 @@ Di seguito una tabella con le materie trattate e il livello di completamento dei
 
 ## Futuro del progetto
 - Ottenuta una certa "stabilità" dei testi principali, il progetto verrà ampliato con l'inclusione di testi da fonti primarie ed esercizi originali
-- Quando l'esportazione dei file in HTML avrà raggiunto una certa maturazione, verrà aperto un sito dove poeter consultare online, pagina per pagina, ogni manuale, senza doverli scaricare singolarmente
+- Quando l'esportazione dei file in HTML avrà raggiunto una certa maturazione, verrà aperto un sito dove poter consultare online, pagina per pagina, ogni manuale, senza doverli scaricare singolarmente
