@@ -18,8 +18,6 @@
   title: "Biologia",
 )
 
-#pagebreak()
-
 // Capitoli
 // Passa --input chapter=<path> a "typst compile"/"typst watch" per compilarne uno solo
 // (path relativo a questo file, esattamente come negli #include sotto)
