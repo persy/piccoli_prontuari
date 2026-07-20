@@ -407,9 +407,16 @@ _test/
 _test/*
 /_test
 /_test
+cover-exports/
 
 # Codebook
 codebook.toml
 
 # Kate Editor
 .kateproject
+
+# Windows PowerShell
+*.ps1
+
+# Backup Files
+*.bak
