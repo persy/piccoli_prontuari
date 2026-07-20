@@ -11,6 +11,7 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccol
   - [Struttura del repository](#struttura-del-repository)
 - [Struttura delle cartelle e file principali](#struttura-delle-cartelle-e-file-principali)
     - [Come vedere l'anteprima ed esportare il pdf di un manuale](#come-vedere-lanteprima-ed-esportare-il-pdf-di-un-manuale)
+    - [Compilare solo un capitolo](#compilare-solo-un-capitolo)
   - [Materie](#materie)
   - [Filosofia del progetto](#filosofia-del-progetto)
   - [Futuro del progetto](#futuro-del-progetto)
@@ -19,44 +20,36 @@ Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccol
 ## Struttura del repository
 
 ```bash
-.
-├── docs/
-│   ├── <materia>/
-│   │   ├── img/
-│   │   │   ├── immagine.png
-│   │   │   └── diagramma.jpg
-│   │   ├── 00_introduzione.typ
-│   │   ├── 01_capitolo.typ
-│   │   ├── 02_capitolo.typ
-│   │   └── ...
-│   └── <materia>/
-│       ├── img/
-│       │   ├── immagine.png
-│       │   └── diagramma.jpg
-│       ├── func/
-│       │   ├── 01_capitolo.typ
-│       │   └── 01_capitolo.typ
-│       ├── 00_introduzione.typ
-│       ├── 01_capitolo.typ
-│       ├── 02_capitolo.typ
-│       └── ...
-└── template/
-    ├── _global/
-    │   ├── config.typ
-    │   ├── template.typ
-    │   ├── template_cover.typ
-    │   ├── template_retro.typ
-    │   ├── prefazione.typ
-    │   └── ...
-    ├── <materia>/
-    │   ├── main.typ
-    │   ├── cover.typ
-    │   └── retro.typ
-    ├── <materia>/
-    │   ├── main.typ
-    │   ├── cover.typ
-    │   └── retro.typ
+docs/
+└── <materia>/
+    ├── <capitolo>/
+    │   ├── chapter.typ <-- testo
+    │   ├── figures.typ <-- grafici e tabelle
+    │   └── img/
+    │       └── immagine.webp
     └── ...
+template/
+├── _global/
+│   ├── config.typ <-- colori, box, font
+│   ├── template.typ <-- layout
+│   ├── template_cover.typ
+│   ├── template_retro.typ
+│   ├── prefazione.typ
+│   └── ...
+├── <materia>/
+│   ├── main.typ <-- file principale
+│   ├── cover.typ
+│   └── retro.typ
+└── ...
+fonts/
+├── <font>
+└── ...
+site/
+├── index.html
+└── ...
+.gitignore
+LICENSE
+README.md
 ```
 
 # Struttura delle cartelle e file principali
@@ -97,6 +90,31 @@ N.B. Usando `tinymist`, il file `main` verrà automaticamente designato come pri
 ```typst
 Typst Pin Main
 ```
+
+### Compilare solo un capitolo
+
+Per velocizzare l'anteprima su manuali lunghi, `main.typ` supporta la compilazione di un singolo capitolo tramite l'argomento `chapter`, passato come `sys.inputs`. Quando è attivo, i riferimenti verso capitoli esclusi vengono mostrati come `??` invece di generare un errore. Per compilare/vedere l'anteprima di un solo capitolo:
+
+```typst
+typst compile --input chapter=../../docs/<materia>/<capitolo>/chapter.typ --font-paths ./fonts template/<materia>/main.typ
+```
+
+```typst
+tinymist preview --root . --partial-rendering=true --input chapter=../../docs/<materia>/<capitolo>/chapter.typ template/<materia>/main.typ
+```
+
+- Se usi l'estensione tinymist su VS Code, imposta lo stesso argomento in `.vscode/settings.json`:
+
+```json
+{
+  "tinymist.typstExtraArgs": [
+    "--input=chapter=../../docs/<materia>/<capitolo>/chapter.typ",
+    "template/<materia>/main.typ"
+  ]
+}
+```
+
+Per tornare alla compilazione dell'intero manuale, rimuovi l'argomento `--input`/il blocco `tinymist.typstExtraArgs` (o svuotalo).
 
 ## Materie
 
