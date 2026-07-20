@@ -14,7 +14,7 @@
   single()
   branch({
   single(angle: 1)
-  molecule("H")
+  fragment("H")
   })
   single()
   single()
@@ -29,7 +29,7 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("CH_3")
+ fragment("CH_3")
  single(angle: 3)
   },
 )
@@ -42,7 +42,7 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("CH_3")
+ fragment("CH_3")
  single(angle: 4) 
   },
 )
@@ -55,7 +55,7 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH")   
+ fragment("CH")   
  single(angle: 4) 
   },
 )
@@ -68,7 +68,7 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_2")
+ fragment("CH_2")
  single(angle: 4) 
   },
 )
@@ -81,7 +81,7 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -93,17 +93,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH")
+ fragment("CH")
  branch({
       single(angle: 1)
-      molecule("CH_3")                    
+      fragment("CH_3")                    
     })
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -115,21 +115,21 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH")
+ fragment("CH")
  branch({
       single(angle: 1)
-      molecule("CH_3")                    
+      fragment("CH_3")                    
     })
  single()
- molecule("CH")
+ fragment("CH")
  branch({
       single(angle: 1)
-      molecule("CH_3")                    
+      fragment("CH_3")                    
     })
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -141,21 +141,21 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("C")
+ fragment("C")
  branch({
       single(angle: 1)
-      molecule("CH_3")                    
+      fragment("CH_3")                    
     })
  branch({
       single(angle: 3)
-      molecule("CH_3")                    
+      fragment("CH_3")                    
     })
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -167,7 +167,7 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_4") 
+ fragment("CH_4") 
   },
 )
 $
@@ -179,9 +179,9 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH_3") 
+ fragment("CH_3") 
   },
 )
 $
@@ -193,9 +193,9 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
-molecule("CH_2")
+fragment("CH_2")
 double()
-molecule("CH_2")
+fragment("CH_2")
   },
 )
 $
@@ -207,11 +207,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
-molecule("CH_3")
+fragment("CH_3")
 single()
-molecule("CH_2")
+fragment("CH_2")
 single()
-molecule("Cl")
+fragment("Cl")
   },
 )
 $
@@ -223,13 +223,13 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_2")
+ fragment("CH_2")
  double()
- molecule("CH")
+ fragment("CH")
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -241,11 +241,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  double()
- molecule("CH") 
+ fragment("CH") 
  single()
- molecule("CH_2")
+ fragment("CH_2")
   },
 )
 $
@@ -257,13 +257,13 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH") 
+ fragment("CH") 
  double()
- molecule("CH")
+ fragment("CH")
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -275,9 +275,9 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH_2OH")  
+ fragment("CH_2OH")  
   },
 )
 $
@@ -289,11 +289,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH_2")  
+ fragment("CH_2")  
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -305,13 +305,13 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH_2")  
+ fragment("CH_2")  
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -323,11 +323,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CHCl")  
+ fragment("CHCl")  
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -339,11 +339,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_2Br")
+ fragment("CH_2Br")
  single()
- molecule("CH_2")  
+ fragment("CH_2")  
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -355,11 +355,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CHOH")  
+ fragment("CHOH")  
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -371,11 +371,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CHCl")  
+ fragment("CHCl")  
  single()
- molecule("CH_2Cl")
+ fragment("CH_2Cl")
   },
 )
 $
@@ -387,15 +387,15 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("C")  
+ fragment("C")  
  branch({
   double(angle: 4.5)
-  molecule("O")
+  fragment("O")
  })
  single(angle: 3.5)
- molecule("H")
+ fragment("H")
   },
 )
 $
@@ -407,15 +407,15 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("H")
+ fragment("H")
  single()
- molecule("C")  
+ fragment("C")  
  branch({
   double(angle: 4.5)
-  molecule("O")
+  fragment("O")
  })
  single(angle: 3.5)
- molecule("H")
+ fragment("H")
   },
 )
 $
@@ -429,12 +429,12 @@ $
     //import cetz.draw: * 
  parenthesis(
  l:"(", r:")", resonance: true, {
-  molecule("CH_2")
+  fragment("CH_2")
   branch({
   single(angle: 2)  
  })
  single()
- molecule("CH_2")  
+ fragment("CH_2")  
  single() 
   })},
 )
@@ -447,9 +447,9 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH")
+ fragment("CH")
  triple()
- molecule("CH") 
+ fragment("CH") 
   },
 )
 $
@@ -461,11 +461,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH")
+ fragment("CH")
  triple()
- molecule("C") 
+ fragment("C") 
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -477,13 +477,13 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH")
+ fragment("CH")
  triple()
- molecule("C") 
+ fragment("C") 
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -495,13 +495,13 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("C") 
+ fragment("C") 
  triple()
- molecule("C")
+ fragment("C")
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -513,15 +513,15 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_2")
+ fragment("CH_2")
  double()
- molecule("C") 
+ fragment("C") 
  branch({
  single(angle: 1)
- molecule("Cl")
+ fragment("Cl")
  })
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -533,19 +533,19 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("C") 
+ fragment("C") 
  branch({
  single(angle: 1)
- molecule("Cl")
+ fragment("Cl")
  })
  branch({
  single(angle: 3)
- molecule("Cl")
+ fragment("Cl")
  })
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -557,11 +557,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CO") 
+ fragment("CO") 
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -597,7 +597,7 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("CH_3")
+  fragment("CH_3")
   })
   single()
   single()
@@ -618,12 +618,12 @@ $
   single()
   branch({
   single(angle: 4.5)
-  molecule("CH_3")
+  fragment("CH_3")
   })
   single()
   branch({
   single(angle: 1)
-  molecule("CH_3")
+  fragment("CH_3")
   })
   single()
   single()
@@ -643,13 +643,13 @@ $
   single()
   branch({
   single(angle: 4)
-  molecule("CH_3")
+  fragment("CH_3")
   })
   single()
   single()
   branch({
   single(angle: 1)
-  molecule("CH_3")
+  fragment("CH_3")
   })
   single()
   single()
@@ -668,14 +668,14 @@ $
   single()
   branch({
   single(angle: 3)
-  molecule("CH_3")
+  fragment("CH_3")
   })
   single()
   single()
   single()
   branch({
   single(angle: 1)
-  molecule("CH_3")
+  fragment("CH_3")
   })
   single()
   single()
@@ -696,10 +696,10 @@ $
   single()
   branch({
   single(angle: 4.5)
-  molecule("CH")
+  fragment("CH")
   branch({
   double(angle: 4)
-  molecule("CH_2")
+  fragment("CH_2")
   })
   })
   single()
@@ -817,7 +817,7 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("NO_2")
+  fragment("NO_2")
   })
   single()
   single()
@@ -837,7 +837,7 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("Cl")
+  fragment("Cl")
   })
   single()
   single()
@@ -857,7 +857,7 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("SO_3H")
+  fragment("SO_3H")
   })
   single()
   single()
@@ -876,12 +876,12 @@ $
   single()
   branch({
   single(angle: 4.5)
-  molecule("B")
+  fragment("B")
   })
   single()
   branch({
   single(angle: 1)
-  molecule("A")
+  fragment("A")
   })
   single()
   single()
@@ -899,13 +899,13 @@ $
   single()
   branch({
   single(angle: 3.5)
-  molecule("B")
+  fragment("B")
   })
   single()
   single()
   branch({
   single(angle: 1)
-  molecule("A")
+  fragment("A")
   })
   single()
   single()
@@ -922,14 +922,14 @@ $
   single()
   branch({
   single(angle: 3)
-  molecule("B")
+  fragment("B")
   })
   single()
   single()
   single()
   branch({
   single(angle: 1)
-  molecule("A")
+  fragment("A")
   })
   single()
   single()
@@ -1116,13 +1116,13 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_2")
+ fragment("CH_2")
  double()
- molecule("CH") 
+ fragment("CH") 
  single()
- molecule("CH")
+ fragment("CH")
  double()
- molecule("CH_2")
+ fragment("CH_2")
   },
 )
 $
@@ -1134,13 +1134,13 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_2")
+ fragment("CH_2")
  double()
- molecule("CCH_3") 
+ fragment("CCH_3") 
  single()
- molecule("CH")
+ fragment("CH")
  double()
- molecule("CH_2")
+ fragment("CH_2")
   },
 )
 $
@@ -1153,32 +1153,32 @@ $
   cycle(6, {
   branch({
   single(angle: 2.3)
-  molecule("H")
+  fragment("H")
   })
   single()
   branch({
   single(angle: 3)
-  molecule("H")
+  fragment("H")
   })
   double()
   branch({
   single(angle: 3.7)
-  molecule("H")
+  fragment("H")
   })
   single()
   branch({
   single(angle: 4.3)
-  molecule("H")
+  fragment("H")
   })
   double()
   branch({
   single(angle: 1)
-  molecule("H")
+  fragment("H")
   })
   single()
   branch({
   single(angle: 1.6)
-  molecule("H")
+  fragment("H")
   })
   double()  
   })
@@ -1193,32 +1193,32 @@ $
   cycle(6, {
   branch({
   single(angle: 2.3)
-  molecule("H")
+  fragment("H")
   })
   double()
   branch({
   single(angle: 3)
-  molecule("H")
+  fragment("H")
   })
   single()
   branch({
   single(angle: 3.7)
-  molecule("H")
+  fragment("H")
   })
   double()
   branch({
   single(angle: 4.3)
-  molecule("H")
+  fragment("H")
   })
   single()
   branch({
   single(angle: 1)
-  molecule("H")
+  fragment("H")
   })
   double()
   branch({
   single(angle: 1.6)
-  molecule("H")
+  fragment("H")
   })
   single()  
   })
@@ -1237,7 +1237,7 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("F")
+  fragment("F")
   })
   single()
   single()
@@ -1257,7 +1257,7 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("Br")
+  fragment("Br")
   })
   single()
   single()
@@ -1277,7 +1277,7 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("I")
+  fragment("I")
   })
   single()
   single()
@@ -1292,9 +1292,9 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_2")
+ fragment("CH_2")
  double()
- molecule("CHCl") 
+ fragment("CHCl") 
   },
 )
 $
@@ -1306,9 +1306,9 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH_2Br") 
+ fragment("CH_2Br") 
   },
 )
 $
@@ -1320,11 +1320,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_2Cl")
+ fragment("CH_2Cl")
  single()
- molecule("CH")
+ fragment("CH")
  double()
- molecule("CH_2") 
+ fragment("CH_2") 
   },
 )
 $
@@ -1336,7 +1336,7 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3OH")  
+ fragment("CH_3OH")  
   },
 )
 $
@@ -1348,15 +1348,15 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("COH")
+ fragment("COH")
  branch({
   single(angle: 1, from: 0)
-  molecule("CH_3")
+  fragment("CH_3")
  })
  single()
- molecule("CH_3") 
+ fragment("CH_3") 
   },
 )
 $
@@ -1368,11 +1368,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH_2") 
+ fragment("CH_2") 
  single()
- molecule("CH_2Cl") 
+ fragment("CH_2Cl") 
   },
 )
 $
@@ -1384,11 +1384,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH_2") 
+ fragment("CH_2") 
  single()
- molecule("CH_2OH") 
+ fragment("CH_2OH") 
   },
 )
 $
@@ -1400,7 +1400,7 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3COOH") 
+ fragment("CH_3COOH") 
   },
 )
 $
@@ -1412,13 +1412,13 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3CO") 
+ fragment("CH_3CO") 
  single(width: .5em)
- molecule("O")
+ fragment("O")
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("CH_3") 
+ fragment("CH_3") 
   },
 )
 $
@@ -1435,7 +1435,7 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("OH")
+  fragment("OH")
   })
   single()
   single()
@@ -1454,12 +1454,12 @@ $
   single()
   branch({
   single(angle: .3)
-  molecule("OH")
+  fragment("OH")
   })
   single()
   branch({
   single(angle: 1)
-  molecule("OH")
+  fragment("OH")
   })
   single()
   single()
@@ -1477,13 +1477,13 @@ $
   single()
   branch({
   single(angle: 3.5)
-  molecule("OH")
+  fragment("OH")
   })
   single()
   single()
   branch({
   single(angle: 1)
-  molecule("OH")
+  fragment("OH")
   })
   single()
   single()
@@ -1500,14 +1500,14 @@ $
   single()
   branch({
   single(angle: 3)
-  molecule("OH")
+  fragment("OH")
   })
   single()
   single()
   single()
   branch({
   single(angle: 1)
-  molecule("OH")
+  fragment("OH")
   })
   single()
   single()
@@ -1527,10 +1527,10 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("O")
+  fragment("O")
   branch({
   single(angle: 4)
-  molecule("COCH_3")
+  fragment("COCH_3")
   })
   })
   single()
@@ -1548,14 +1548,14 @@ $
   single()
   branch({
   single(angle: 3)
-  molecule("NO_2")
+  fragment("NO_2")
   })
   single()
   single()
   single()
   branch({
   single(angle: 1)
-  molecule("OH")
+  fragment("OH")
   })
   single()
   single()
@@ -1574,12 +1574,12 @@ $
   single()
   branch({
   single(angle: 4.5)
-  molecule("NO_2")
+  fragment("NO_2")
   })
   single()
   branch({
   single(angle: 1)
-  molecule("OH")
+  fragment("OH")
   })
   single()
   single()
@@ -1594,15 +1594,15 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("O")
+ fragment("O")
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -1614,7 +1614,7 @@ $
   config: (angle-increment: 90deg, atom-sep: 1.5em),
   {
     //import cetz.draw: * 
- molecule("C")
+ fragment("C")
  branch({
   single(angle: 1.5)
  })
@@ -1622,7 +1622,7 @@ $
   single(angle: 2.5)
  })
  double(angle: 4, atom-sep: 2.5em)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1634,9 +1634,9 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("CHO")
+ fragment("CHO")
   },
 )
 $
@@ -1648,17 +1648,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:1.5)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 2.5)
-  molecule("R")
+  fragment("R")
  })
  double(angle: 4)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1670,17 +1670,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:1.5)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 2.5)
-  molecule("Ar")
+  fragment("Ar")
  })
  double(angle: 4)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1692,17 +1692,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:1.5)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 2.5)
-  molecule("CH_3")
+  fragment("CH_3")
  })
  double(angle: 4)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1714,17 +1714,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:1.5)
-  molecule("R'")
+  fragment("R'")
  })
  branch({
   single(angle: 2.5)
-  molecule("R")
+  fragment("R")
  })
  double(angle: 4)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1736,17 +1736,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:1.5)
-  molecule("R")
+  fragment("R")
  })
  branch({
   single(angle: 2.5)
-  molecule("R'")
+  fragment("R'")
  })
  double(angle: 4)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1758,17 +1758,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:1.5)
-  molecule("R")
+  fragment("R")
  })
  branch({
   single(angle: 2.5)
-  molecule("Ar")
+  fragment("Ar")
  })
  double(angle: 4)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1780,17 +1780,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:1.5)
-  molecule("Ar")
+  fragment("Ar")
  })
  branch({
   single(angle: 2.5)
-  molecule("Ar'")
+  fragment("Ar'")
  })
  double(angle: 4)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1806,14 +1806,14 @@ $
   single()
   branch({
   single(angle: .5)
-  molecule("C")
+  fragment("C")
   branch({
     double(angle: .5)
-    molecule("O")
+    fragment("O")
   })
   branch({
     single(angle: 3.5)
-    molecule("H")
+    fragment("H")
   })
   })
   single()
@@ -1830,17 +1830,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:1.5)
-  molecule("CH_3")
+  fragment("CH_3")
  })
  branch({
   single(angle: 2.5)
-  molecule("CH_3")
+  fragment("CH_3")
  })
  double(angle: 4)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1856,14 +1856,14 @@ $
   single()
   branch({
   single(angle: .5)
-  molecule("C")
+  fragment("C")
   branch({
     double(angle: .5)
-    molecule("O")
+    fragment("O")
   })
   branch({
     single(angle: 3.5)
-    molecule("CH_3")
+    fragment("CH_3")
   })
   })
   single()
@@ -1880,11 +1880,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("CH_3") 
+ fragment("CH_3") 
  single(angle: 4)
- molecule("CO")
+ fragment("CO")
  single()
- molecule("CH_3")
+ fragment("CH_3")
   },
 )
 $
@@ -1896,17 +1896,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:3.5)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 2)
-  molecule("CH_3")
+  fragment("CH_3")
  })
  double(angle: 4.5)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1918,11 +1918,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2.5em),
   {
     //import cetz.draw: *
- molecule("CH_3")
+ fragment("CH_3")
  single()
- molecule("Mg")
+ fragment("Mg")
  single()
- molecule("Br")
+ fragment("Br")
   },
 )
 $
@@ -1934,21 +1934,21 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle: 4)
-  molecule("CH_3")
+  fragment("CH_3")
  })
  branch({
   single(angle:3.5)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 2)
-  molecule("CH_3")
+  fragment("CH_3")
  })
  single(angle: 4.5)
- molecule("OMgBr")
+ fragment("OMgBr")
   },
 )
 $
@@ -1960,29 +1960,29 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:3.5)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 2)
-  molecule("C")
+  fragment("C")
   branch({
     single(angle: 2)
-    molecule("H")
+    fragment("H")
   })
   branch({
     single(angle: 2.5)
-    molecule("H")
+    fragment("H")
   })
   branch({
     single(angle: 1.5)
-    molecule("H")
+    fragment("H")
   })
  })
  double(angle: 4.5)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -1994,28 +1994,28 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("C")
+ fragment("C")
  branch({
   single(angle:1)
-  molecule("OH")
+  fragment("OH")
  })
  branch({
   single(angle: 2)
-  molecule("CH_3")
+  fragment("CH_3")
  })
  branch({
   single(angle:3)
-  molecule("H")
+  fragment("H")
  })
  single(angle: 4)
- molecule("CH_2")
+ fragment("CH_2")
  branch({
   single(angle:3.5)
-  molecule("H")
+  fragment("H")
  })
  branch({
   double(angle:4.5)
-  molecule("O")
+  fragment("O")
  })
   },
 )
@@ -2028,16 +2028,16 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("R") 
+ fragment("R") 
  single(angle: 4)
- molecule("C")
+ fragment("C")
  branch({
   single(angle:4.5)
-  molecule("OH")
+  fragment("OH")
  })
  branch({
   double(angle:3.5)
-  molecule("O")
+  fragment("O")
  })
   },
 )
@@ -2050,16 +2050,16 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("Ar") 
+ fragment("Ar") 
  single(angle: 4)
- molecule("C")
+ fragment("C")
  branch({
   single(angle:4.5)
-  molecule("OH")
+  fragment("OH")
  })
  branch({
   double(angle:3.5)
-  molecule("O")
+  fragment("O")
  })
   },
 )
@@ -2072,16 +2072,16 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("CH_3") 
+ fragment("CH_3") 
  single(angle: 4)
- molecule("C")
+ fragment("C")
  branch({
   single(angle:4.5)
-  molecule("OH")
+  fragment("OH")
  })
  branch({
   double(angle:3.5)
-  molecule("O")
+  fragment("O")
  })
   },
 )
@@ -2100,14 +2100,14 @@ $
   single()
   branch({
   single(angle: 4)
-  molecule("C")
+  fragment("C")
   branch({
     single(angle:4.5)
-    molecule("OH")
+    fragment("OH")
   })
  branch({
     double(angle:3.5)
-    molecule("O")
+    fragment("O")
   })
   })
   single()
@@ -2125,9 +2125,9 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("COOH") 
+ fragment("COOH") 
  single(angle: 3, from: 0)
- molecule("COOH") 
+ fragment("COOH") 
   },
 )
 $
@@ -2139,11 +2139,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("COOH") 
+ fragment("COOH") 
  single(angle: 3, from: 0)
- molecule("CH_2")
+ fragment("CH_2")
  single(angle: 3, from: 0)
- molecule("COOH")  
+ fragment("COOH")  
   },
 )
 $
@@ -2155,11 +2155,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("CH_3") 
+ fragment("CH_3") 
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("CN")  
+ fragment("CN")  
   },
 )
 $
@@ -2171,11 +2171,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("CH_3") 
+ fragment("CH_3") 
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("COOH")  
+ fragment("COOH")  
   },
 )
 $
@@ -2187,16 +2187,16 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("R") 
+ fragment("R") 
  single(angle: 4)
- molecule("C")
+ fragment("C")
  branch({
   single(angle:3.5)
-  molecule("OR'")
+  fragment("OR'")
  })
  branch({
   double(angle:4.5)
-  molecule("O")
+  fragment("O")
  })
   },
 )
@@ -2209,16 +2209,16 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("R") 
+ fragment("R") 
  single(angle: 4)
- molecule("C")
+ fragment("C")
  branch({
   single(angle:3.5)
-  molecule("OH")
+  fragment("OH")
  })
  branch({
   double(angle:4.5)
-  molecule("O")
+  fragment("O")
  })
   },
 )
@@ -2231,9 +2231,9 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *
- molecule("HO") 
+ fragment("HO") 
  single()
- molecule("R'")   
+ fragment("R'")   
   },
 )
 $
@@ -2245,15 +2245,15 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3") 
+ fragment("CH_3") 
  single()
- molecule("CO")
+ fragment("CO")
  single()
- molecule("O")
+ fragment("O")
  single()
- molecule("CH_2")
+ fragment("CH_2")
  single()
- molecule("CH_3") 
+ fragment("CH_3") 
   },
 )
 $
@@ -2271,16 +2271,16 @@ $
   single()
   branch({
   single(angle: 4)
-  molecule("C")
+  fragment("C")
   branch({
     single(angle:4.5)
-    molecule("O")
+    fragment("O")
     single()
-    molecule("CH_3")
+    fragment("CH_3")
   })
  branch({
     double(angle:3.5)
-    molecule("O")
+    fragment("O")
   })
   })
   single()
@@ -2298,19 +2298,19 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3") 
+ fragment("CH_3") 
  single()
- molecule("C")
+ fragment("C")
  branch({
  single()
- molecule("CH_3") 
+ fragment("CH_3") 
  })
  branch({
  single(angle: 3)
- molecule("CH_3") 
+ fragment("CH_3") 
  }) 
  single(angle: 1)
- molecule("OMgI")
+ fragment("OMgI")
   },
 )
 $
@@ -2322,19 +2322,19 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3") 
+ fragment("CH_3") 
  single()
- molecule("C")
+ fragment("C")
  branch({
  single()
- molecule("CH_3") 
+ fragment("CH_3") 
  })
  branch({
  single(angle: 3)
- molecule("CH_3") 
+ fragment("CH_3") 
  }) 
  single(angle: 1)
- molecule("OH")
+ fragment("OH")
   },
 )
 $
@@ -2346,16 +2346,16 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: *  
- molecule("C")
+ fragment("C")
  branch({
  single()
- molecule("NH_2") 
+ fragment("NH_2") 
  })
  branch({
  single(angle: 2)
   })   
  double(angle: .5)
- molecule("O")
+ fragment("O")
   },
 )
 $
@@ -2372,7 +2372,7 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("NH_2")
+  fragment("NH_2")
   })
   single()
   single()
@@ -2392,10 +2392,10 @@ $
   single()
   branch({
   single(angle: 1)
-  molecule("NH")
+  fragment("NH")
   branch({
     single(angle: 4)
-    molecule("CH_3")
+    fragment("CH_3")
   })
   })
   single()
@@ -2411,11 +2411,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule("CH_3") 
+ fragment("CH_3") 
  single()
- molecule("NH")
+ fragment("NH")
  single()
- molecule("COCH_3")
+ fragment("COCH_3")
   },
 )
 $
@@ -2427,7 +2427,7 @@ $
     {
   cycle(5, {
   single()
-  molecule("O")
+  fragment("O")
   single()
   double()
   single()
@@ -2443,7 +2443,7 @@ $
     {
   cycle(5, {
   single()
-  molecule("S")
+  fragment("S")
   single()
   double()
   single()
@@ -2459,10 +2459,10 @@ $
     {
   cycle(5, {
   single()
-  molecule("N")
+  fragment("N")
   branch({
     single()
-    molecule("H")
+    fragment("H")
   })
   single()
   double()
@@ -2479,7 +2479,7 @@ $
     {
   cycle(6, {
   double()
-  molecule("N")  
+  fragment("N")  
   single()
   double()
   single()
@@ -2496,67 +2496,67 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule($#hide[]_1C$) 
+ fragment($attach("", bl: "1")C$) 
  branch({
   single(angle: 1.5, from: 1)
-  molecule("H")
+  fragment("H")
  })
  branch({
   double(angle: 4.5, from: 1)
-  molecule("O")
+  fragment("O")
  })
  single(angle: 3, to: 1)
- molecule($#hide[]_2C^(\*)$)
+ fragment($attach("", bl: "2")C^(\*)$)
  branch({
   single(angle: 2)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 4)
-  molecule("OH")
+  fragment("OH")
  })
  single(angle: 3, to: 1)
- molecule($#hide[]_3C^(\*)$)
+ fragment($attach("", bl: "3")C^(\*)$)
  branch({
   single(angle: 2)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 4)
-  molecule("OH")
+  fragment("OH")
  })
  single(angle: 3, to: 1)
- molecule($#hide[]_4C^(\*)$)
+ fragment($attach("", bl: "4")C^(\*)$)
  branch({
   single(angle: 2)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 4)
-  molecule("OH")
+  fragment("OH")
  })
  single(angle: 3, to: 1)
- molecule($#hide[]_5C^(\*)$)
+ fragment($attach("", bl: "5")C^(\*)$)
  branch({
   single(angle: 2)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 4)
   fragment("OH", colors: (accent.chi))
  })
  single(angle: 3, to: 1)
- molecule($#hide[]_6C^(\*)$)
+ fragment($attach("", bl: "6")C^(\*)$)
  branch({
   single(angle: 2)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 4)
-  molecule("OH")
+  fragment("OH")
  })
  single(angle: 3)
- molecule("H")
+ fragment("H")
   },
 )
 $
@@ -2568,55 +2568,55 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule($#hide[]_1 C H_(2) O H$) 
+ fragment($attach("", bl: "1") C H_(2) O H$) 
  single(angle: 3, from: 1, to: 1)
- molecule($#hide[]_2C^(\*)$) 
+ fragment($attach("", bl: "2")C^(\*)$) 
  branch({
   double(angle: 4)
-  molecule("O")
+  fragment("O")
  })
  single(angle: 3, to: 1)
- molecule($#hide[]_3C^(\*)$)
+ fragment($attach("", bl: "3")C^(\*)$)
  branch({
   single(angle: 2)
-  molecule("HO")
+  fragment("HO")
  })
  branch({
   single(angle: 4)
-  molecule("H")
+  fragment("H")
  })
  single(angle: 3, to: 1)
- molecule($#hide[]_4C^(\*)$)
+ fragment($attach("", bl: "4")C^(\*)$)
  branch({
   single(angle: 2)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 4)
-  molecule("OH")
+  fragment("OH")
  })
  single(angle: 3, to: 1)
- molecule($#hide[]_5C^(\*)$)
+ fragment($attach("", bl: "5")C^(\*)$)
  branch({
   single(angle: 2)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 4)
   fragment("OH", colors: (accent.chi))
  })
  single(angle: 3, to: 1)
- molecule($#hide[]_6C^(\*)$)
+ fragment($attach("", bl: "6")C^(\*)$)
  branch({
   single(angle: 2)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 4)
-  molecule("OH")
+  fragment("OH")
  })
  single(angle: 3)
- molecule("H")
+ fragment("H")
   },
 )
 $
@@ -2628,17 +2628,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule($#hide[]_1C$) 
+ fragment($attach("", bl: "1")C$) 
  branch({
   single(angle: 4.5, from: 1)
-  molecule("H")
+  fragment("H")
  })
  branch({
   double(angle: 3.5, from: 1)
-  molecule("O")
+  fragment("O")
  })
  cram-filled-left(angle: 2.5, from: 1, to: 1, base-length: .3em, atom-sep: 5em)
- molecule($#hide[]_2C$)
+ fragment($attach("", bl: "2")C$)
  branch({
   single(angle: 1)  
  })
@@ -2646,7 +2646,7 @@ $
   single(angle: 3)  
  })
  single(angle: 2, from: 1, to: 1, stroke: .3em, atom-sep: 5em)
- molecule($#hide[]_3C$)
+ fragment($attach("", bl: "3")C$)
  branch({
   single(angle: 1)
    })
@@ -2654,7 +2654,7 @@ $
   single(angle: 3)  
  })
  cram-filled-right(angle: 1.5, from: 1, to: 1, base-length: .3em, atom-sep: 5em)
- molecule($#hide[]_4C$)
+ fragment($attach("", bl: "4")C$)
  branch({
   single(angle: 1)  
  })
@@ -2662,7 +2662,7 @@ $
   single(angle: 3)
    })
  single(angle: 4.5, from: 1, to: 1, atom-sep: 5em)
- molecule($#hide[]_5C$)
+ fragment($attach("", bl: "5")C$)
  branch({
   single(angle: 1)
   })
@@ -2671,10 +2671,10 @@ $
  })
  branch({
   single(angle: 4, atom-sep: 5em)
-  molecule("OH")
+  fragment("OH")
  })
  single(angle: 1, from: 1, to: 1, atom-sep: 2.5em)
- molecule($#hide[]_6C H_2 O H$)
+ fragment($attach("", bl: "6")C H_2 O H$)
  
   },
 )
@@ -2687,17 +2687,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule($#hide[]_1C$) 
+ fragment($attach("", bl: "1")C$) 
  branch({
   single(angle: 1, from: 1)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 3, from: 1)
-  molecule("OH")
+  fragment("OH")
  })
  cram-filled-left(angle: 2.5, from: 1, to: 1, base-length: .3em, atom-sep: 5em)
- molecule($#hide[]_2C$)
+ fragment($attach("", bl: "2")C$)
  branch({
   single(angle: 1)  
  })
@@ -2705,7 +2705,7 @@ $
   single(angle: 3)  
  })
  single(angle: 2, from: 1, to: 1, stroke: .3em, atom-sep: 5em)
- molecule($#hide[]_3C$)
+ fragment($attach("", bl: "3")C$)
  branch({
   single(angle: 1)
    })
@@ -2713,7 +2713,7 @@ $
   single(angle: 3)  
  })
  cram-filled-right(angle: 1.5, from: 1, to: 1, base-length: .3em, atom-sep: 5em)
- molecule($#hide[]_4C$)
+ fragment($attach("", bl: "4")C$)
  branch({
   single(angle: 1)  
  })
@@ -2721,7 +2721,7 @@ $
   single(angle: 3)
    })
  single(angle: 4.5, from: 1, to: 1, atom-sep: 5em)
- molecule($#hide[]_5C$)
+ fragment($attach("", bl: "5")C$)
  branch({
   single(angle: 1)
   })
@@ -2730,11 +2730,11 @@ $
  })
  branch({
   single(angle: 4, atom-sep: 5em)
-  molecule("O")
+  fragment("O")
   single(angle: 3.5, atom-sep: 4.5em)
  })
  single(angle: 1, from: 1, to: 1, atom-sep: 2.5em)
- molecule($#hide[]_6C H_2 O H$)
+ fragment($attach("", bl: "6")C H_2 O H$)
  
   },
 )
@@ -2747,17 +2747,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
     //import cetz.draw: * 
- molecule($#hide[]_1C$) 
+ fragment($attach("", bl: "1")C$) 
  branch({
   single(angle: 3, from: 1)
-  molecule("H")
+  fragment("H")
  })
  branch({
   single(angle: 1, from: 1)
-  molecule("OH")
+  fragment("OH")
  })
  cram-filled-left(angle: 2.5, from: 1, to: 1, base-length: .3em, atom-sep: 5em)
- molecule($#hide[]_2C$)
+ fragment($attach("", bl: "2")C$)
  branch({
   single(angle: 1)  
  })
@@ -2765,7 +2765,7 @@ $
   single(angle: 3)  
  })
  single(angle: 2, from: 1, to: 1, stroke: .3em, atom-sep: 5em)
- molecule($#hide[]_3C$)
+ fragment($attach("", bl: "3")C$)
  branch({
   single(angle: 1)
    })
@@ -2773,7 +2773,7 @@ $
   single(angle: 3)  
  })
  cram-filled-right(angle: 1.5, from: 1, to: 1, base-length: .3em, atom-sep: 5em)
- molecule($#hide[]_4C$)
+ fragment($attach("", bl: "4")C$)
  branch({
   single(angle: 1)  
  })
@@ -2781,7 +2781,7 @@ $
   single(angle: 3)
    })
  single(angle: 4.5, from: 1, to: 1, atom-sep: 5em)
- molecule($#hide[]_5C$)
+ fragment($attach("", bl: "5")C$)
  branch({
   single(angle: 1)
   })
@@ -2790,11 +2790,11 @@ $
  })
  branch({
   single(angle: 4, atom-sep: 5em)
-  molecule("O")
+  fragment("O")
   single(angle: 3.5, atom-sep: 4.5em)
  })
  single(angle: 1, from: 1, to: 1, atom-sep: 2.5em)
- molecule($#hide[]_6C H_2 O H$)
+ fragment($attach("", bl: "6")C H_2 O H$)
  
   },
 )
@@ -2807,11 +2807,11 @@ $
   config: (angle-increment: 90deg, atom-sep: 2.5em),
   {
     //import cetz.draw: * 
-  molecule("CH_2OH")
+  fragment("CH_2OH")
   single(angle: 3, from: 0, to: 0)
-  molecule("CH_2OH")
+  fragment("CH_2OH")
   single(angle: 3, from: 0, to: 0)
-  molecule("CH_2OH")
+  fragment("CH_2OH")
   },
 )
 $
@@ -2824,17 +2824,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2.5em),
   {
     //import cetz.draw: * 
-  molecule("C")
+  fragment("C")
   branch({
     double(angle: 1)
-    molecule("O")
+    fragment("O")
   })
   branch({
     single(angle: 2)
-    molecule("HO")
+    fragment("HO")
   })
   single(angle: 4, from: 0, to: 0)
-  molecule("R")
+  fragment("R")
   },
 )
 
@@ -2842,17 +2842,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2.5em),
   {
     //import cetz.draw: * 
-  molecule("C")
+  fragment("C")
   branch({
     double(angle: 1)
-    molecule("O")
+    fragment("O")
   })
   branch({
     single(angle: 2)
-    molecule("HO")
+    fragment("HO")
   })
   single(angle: 4, from: 0, to: 0)
-  molecule("R'")
+  fragment("R'")
   },
 )
 
@@ -2862,17 +2862,17 @@ $
   config: (angle-increment: 90deg, atom-sep: 2.5em),
   {
     //import cetz.draw: * 
-  molecule("C")
+  fragment("C")
   branch({
     double(angle: 1)
-    molecule("O")
+    fragment("O")
   })
   branch({
     single(angle: 2)
-    molecule("HO")
+    fragment("HO")
   })
   single(angle: 4, from: 0, to: 0)
-  molecule("R''")
+  fragment("R''")
   },
 )
 
@@ -2889,46 +2889,46 @@ $
   config: (angle-increment: 90deg, atom-sep: 2.5em),
   {
     //import cetz.draw: * 
-  molecule("CH_2")
+  fragment("CH_2")
   branch({
     single(angle: 4)
-    molecule("O")
+    fragment("O")
     single()
-    molecule("C")
+    fragment("C")
     branch({
       double(angle: 1)
-      molecule("O")
+      fragment("O")
     })
     single()
-    molecule("R")
+    fragment("R")
   })
   single(angle: 3, from: 0, to: 0, atom-sep: 4em)
-  molecule("CH")
+  fragment("CH")
   branch({
     single(angle: 4)
-    molecule("O")
+    fragment("O")
     single()
-    molecule("C")
+    fragment("C")
     branch({
       double(angle: 1)
-      molecule("O")
+      fragment("O")
     })
     single()
-    molecule("R'")
+    fragment("R'")
   })
   single(angle: 3, from: 0, to: 0, atom-sep: 4em)
-  molecule("CH_2")
+  fragment("CH_2")
   branch({
     single(angle: 4)
-    molecule("O")
+    fragment("O")
     single()
-    molecule("C")
+    fragment("C")
     branch({
       double(angle: 1)
-      molecule("O")
+      fragment("O")
     })
     single()
-    molecule("R''")
+    fragment("R''")
   })
   },
 )
@@ -2942,31 +2942,31 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
   //import cetz.draw: * 
-  molecule("H")
+  fragment("H")
   single()
-  molecule("N")
+  fragment("N")
   branch({
   single(angle: 3)
-  molecule("H")
+  fragment("H")
   }) 
   single()
-  molecule("C")
+  fragment("C")
   branch({
   single(angle: 3)
-  molecule("H")
+  fragment("H")
   }) 
   branch({
   single(angle: 1)
-  molecule("R")
+  fragment("R")
   }) 
   single()
-  molecule("C")
+  fragment("C")
   branch({
   double(angle: 3)
-  molecule("O")
+  fragment("O")
   }) 
   single()
-  molecule("OH")
+  fragment("OH")
   },
 )
 $
@@ -2978,31 +2978,31 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
   //import cetz.draw: * 
-  molecule("H")
+  fragment("H")
   single()
-  molecule("N")
+  fragment("N")
   branch({
   single(angle: 3)
-  molecule("H")
+  fragment("H")
   }) 
   single()
-  molecule("C")
+  fragment("C")
   branch({
   single(angle: 3)
-  molecule("H")
+  fragment("H")
   }) 
   branch({
   single(angle: 1)
-  molecule("R'")
+  fragment("R'")
   }) 
   single()
-  molecule("C")
+  fragment("C")
   branch({
   double(angle: 3)
-  molecule("O")
+  fragment("O")
   }) 
   single()
-  molecule("OH")
+  fragment("OH")
   },
 )
 $
@@ -3014,22 +3014,22 @@ $
   config: (angle-increment: 90deg, atom-sep: 2em),
   {
   //import cetz.draw: * 
-  molecule("H")
+  fragment("H")
   single()
-  molecule("N")
+  fragment("N")
   branch({
   single(angle: 3)
-  molecule("H")
+  fragment("H")
   }) 
   single()
-  molecule("C")
+  fragment("C")
   branch({
   single(angle: 3)
-  molecule("H")
+  fragment("H")
   }) 
   branch({
   single(angle: 1)
-  molecule("R")
+  fragment("R")
   }) 
   single()
   fragment("C", colors: (accent.chi))
@@ -3044,23 +3044,23 @@ $
   fragment("H", colors: (accent.chi))
   }) 
   single()
-  molecule("C")
+  fragment("C")
   branch({
   single(angle: 3)
-  molecule("H")
+  fragment("H")
   }) 
   branch({
   single(angle: 1)
-  molecule("R'")
+  fragment("R'")
   }) 
   single()
-  molecule("C")
+  fragment("C")
   branch({
   double(angle: 3)
-  molecule("O")
+  fragment("O")
   }) 
   single()
-  molecule("OH")
+  fragment("OH")
   },
 )
 $
