@@ -1,7 +1,7 @@
 #import "../../../template/_global/template.typ": *
 #import "../../../template/_global/config.typ": *
 
-= Che cos'è la fisica
+= Che cos'è la fisica <senza_numero>
 
 #intro[La fisica, derivante dal termine greco "phýsis" che significa natura, rappresenta la disciplina scientifica dedicata allo studio dei fenomeni naturali. Essa esclude, tuttavia, quelli associati alle trasformazioni chimiche della materia e ai processi biologici. L'obiettivo principale della fisica consiste nel descrivere tali fenomeni mediante la misurazione delle proprietà fisiche (dette grandezze) e nello stabilire relazioni matematiche tra di esse, le cosiddette leggi.
 
