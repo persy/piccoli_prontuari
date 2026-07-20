@@ -1,4 +1,4 @@
-#import "../_global/template.typ": *
+﻿#import "../_global/template.typ": *
 #import "../_global/config.typ": accent, accent_color, gradient_color
 
 // ==========================================
@@ -19,203 +19,68 @@
 )
 
 // Capitoli
-
-= *L'età arcaica* <senza_numero>
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/00_introduzione.typ"
-
-= Il periodo delle origini
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/01_periodo-origini.typ"
-
-= Il teatro arcaico
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/02_teatro-arcaico.typ"
-
-= Andronico e Nevio
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/03_andronico-nevio.typ"
-
-= Plauto
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/04_plauto.typ"
-
-= Ennio
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/05_ennio.typ"
-
-= Catone e la prosa arcaica
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/06_catone-prosa-arcaica.typ"
-
-= Stazio e Terenzio
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/07_stazio-terenzio.typ"
-
-= Il ritorno dell'atellana
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/08_ritorno-atellana.typ"
-
-= Lucilio
-
-#include "../../docs/letteratura_latina/01_eta-arcaica/09_lucilio.typ"
-
-= *L'età di Cesare* <senza_numero>
-
-#include "../../docs/letteratura_latina/02_eta-cesare/00_introduzione.typ"
-
-= Il periodo classico della letteratura latina
-
-#include "../../docs/letteratura_latina/02_eta-cesare/01_periodo-classico.typ"
-
-= I _poetae novi_, o _neoteroi_
-
-#include "../../docs/letteratura_latina/02_eta-cesare/02_poetae-novi.typ"
-
-= Catullo
-
-#include "../../docs/letteratura_latina/02_eta-cesare/03_catullo.typ"
-
-= Lucrezio
-
-#include "../../docs/letteratura_latina/02_eta-cesare/04_lucrezio.typ"
-
-= Cicerone
-
-#include "../../docs/letteratura_latina/02_eta-cesare/05_cicerone.typ"
-
-= Cesare
-
-#include "../../docs/letteratura_latina/02_eta-cesare/06_cesare.typ"
-
-= Sallustio
-
-#include "../../docs/letteratura_latina/02_eta-cesare/07_sallustio.typ"
-
-= Varrone e gli scrittori minori
-
-#include "../../docs/letteratura_latina/02_eta-cesare/08_varrone-scrittori-minori.typ"
-
-= *L'età di Augusto* <senza_numero>
-
-#include "../../docs/letteratura_latina/03_eta-augusto/00_introduzione.typ"
-
-= Società e cultura sotto il principato di Augusto
-
-#include "../../docs/letteratura_latina/03_eta-augusto/01_societa-cultura-augusto.typ"
-
-= Virgilio
-
-#include "../../docs/letteratura_latina/03_eta-augusto/02_virgilio.typ"
-
-= Orazio
-
-#include "../../docs/letteratura_latina/03_eta-augusto/03_orazio.typ"
-
-= L'elegia d'amore, Tibullo e Properzio
-
-#include "../../docs/letteratura_latina/03_eta-augusto/04_tibullo-properzio.typ"
-
-= Ovidio
-
-#include "../../docs/letteratura_latina/03_eta-augusto/05_ovidio.typ"
-
-= Livio
-
-#include "../../docs/letteratura_latina/03_eta-augusto/06_livio.typ"
-
-= *L'età giulio-claudia* <senza_numero>
-
-#include "../../docs/letteratura_latina/04_eta-giulio-claudia/00_introduzione.typ"
-
-= Seneca
-
-#include "../../docs/letteratura_latina/04_eta-giulio-claudia/01_seneca.typ"
-
-= Lucano e la poesia minore
-
-#include "../../docs/letteratura_latina/04_eta-giulio-claudia/02_lucano-poesia-minore.typ"
-
-= Petronio e la prosa minore
-
-#include "../../docs/letteratura_latina/04_eta-giulio-claudia/03_petronio-prosa-minore.typ"
-
-= La satira di Persio
-
-#include "../../docs/letteratura_latina/04_eta-giulio-claudia/04_satira-persio.typ"
-
-= *L'età dei Flavi* <senza_numero>
-
-#include "../../docs/letteratura_latina/05_eta-flavi/00_introduzione.typ"
-
-= Marziale
-
-#include "../../docs/letteratura_latina/05_eta-flavi/01_marziale.typ"
-
-= Poeti epici
-
-#include "../../docs/letteratura_latina/05_eta-flavi/02_poeti-epici.typ"
-
-= Quintiliano
-
-#include "../../docs/letteratura_latina/05_eta-flavi/03_quintiliano.typ"
-
-= Plinio il Vecchio
-
-#include "../../docs/letteratura_latina/05_eta-flavi/04_plinio-vecchio.typ"
-
-= *L'età di Nerva e Traiano* <senza_numero>
-
-#include "../../docs/letteratura_latina/06_eta-nerva-traiano/00_introduzione.typ"
-
-= Tacito
-
-#include "../../docs/letteratura_latina/06_eta-nerva-traiano/01_tacito.typ"
-
-= La satira di Giovenale
-
-#include "../../docs/letteratura_latina/06_eta-nerva-traiano/02_satira-giovenale.typ"
-
-= Plinio il Giovane
-
-#include "../../docs/letteratura_latina/06_eta-nerva-traiano/03_plinio-giovane.typ"
-
-= *Dall'età di Adriano alle soglie del Medioevo* <senza_numero>
-
-#include "../../docs/letteratura_latina/07_eta-adriano-medioevo/00_introduzione.typ"
-
-= La poesia
-
-#include "../../docs/letteratura_latina/07_eta-adriano-medioevo/01_poesia.typ"
-
-= La prosa di Svetonio, Floro, Frontone e Gellio
-
-#include "../../docs/letteratura_latina/07_eta-adriano-medioevo/02_svetonio-floro-frontone-gellio.typ"
-
-= Apuleio
-
-#include "../../docs/letteratura_latina/07_eta-adriano-medioevo/03_apuleio.typ"
-
-= La fine della letteratura pagana, i prosatori e gli ultimi poeti
-
-#include "../../docs/letteratura_latina/07_eta-adriano-medioevo/04_fine-letteratura-pagana.typ"
-
-= Tertulliano e l'apologetica cristiana
-
-#include "../../docs/letteratura_latina/07_eta-adriano-medioevo/05_tertulliano-apologetica-cristiana.typ"
-
-= La poesia cristiana
-
-#include "../../docs/letteratura_latina/07_eta-adriano-medioevo/06_poesia-cristiana.typ"
-
-= I Padri della Chiesa latina
-
-#include "../../docs/letteratura_latina/07_eta-adriano-medioevo/07_padri-chiesa-latina.typ"
-
-= Agostino e i tardi prosatori latini
-
-#include "../../docs/letteratura_latina/07_eta-adriano-medioevo/08_agostino-tardi-prosatori.typ"
-
+// Passa --input chapter=<path> a "typst compile"/"typst watch" per compilarne uno solo
+// (path relativo a questo file, esattamente come negli #include sotto)
+
+#let chapter = sys.inputs.at("chapter", default: none)
+
+#let chapterlist = (
+  "../../docs/letteratura_latina/eta-arcaica/introduzione/chapter.typ",
+  "../../docs/letteratura_latina/eta-arcaica/periodo-origini/chapter.typ",
+  "../../docs/letteratura_latina/eta-arcaica/teatro-arcaico/chapter.typ",
+  "../../docs/letteratura_latina/eta-arcaica/andronico-nevio/chapter.typ",
+  "../../docs/letteratura_latina/eta-arcaica/plauto/chapter.typ",
+  "../../docs/letteratura_latina/eta-arcaica/ennio/chapter.typ",
+  "../../docs/letteratura_latina/eta-arcaica/catone-prosa-arcaica/chapter.typ",
+  "../../docs/letteratura_latina/eta-arcaica/stazio-terenzio/chapter.typ",
+  "../../docs/letteratura_latina/eta-arcaica/ritorno-atellana/chapter.typ",
+  "../../docs/letteratura_latina/eta-arcaica/lucilio/chapter.typ",
+  "../../docs/letteratura_latina/eta-cesare/introduzione/chapter.typ",
+  "../../docs/letteratura_latina/eta-cesare/periodo-classico/chapter.typ",
+  "../../docs/letteratura_latina/eta-cesare/poetae-novi/chapter.typ",
+  "../../docs/letteratura_latina/eta-cesare/catullo/chapter.typ",
+  "../../docs/letteratura_latina/eta-cesare/lucrezio/chapter.typ",
+  "../../docs/letteratura_latina/eta-cesare/cicerone/chapter.typ",
+  "../../docs/letteratura_latina/eta-cesare/cesare/chapter.typ",
+  "../../docs/letteratura_latina/eta-cesare/sallustio/chapter.typ",
+  "../../docs/letteratura_latina/eta-cesare/varrone-scrittori-minori/chapter.typ",
+  "../../docs/letteratura_latina/eta-augusto/introduzione/chapter.typ",
+  "../../docs/letteratura_latina/eta-augusto/societa-cultura-augusto/chapter.typ",
+  "../../docs/letteratura_latina/eta-augusto/virgilio/chapter.typ",
+  "../../docs/letteratura_latina/eta-augusto/orazio/chapter.typ",
+  "../../docs/letteratura_latina/eta-augusto/tibullo-properzio/chapter.typ",
+  "../../docs/letteratura_latina/eta-augusto/ovidio/chapter.typ",
+  "../../docs/letteratura_latina/eta-augusto/livio/chapter.typ",
+  "../../docs/letteratura_latina/eta-giulio-claudia/introduzione/chapter.typ",
+  "../../docs/letteratura_latina/eta-giulio-claudia/seneca/chapter.typ",
+  "../../docs/letteratura_latina/eta-giulio-claudia/lucano-poesia-minore/chapter.typ",
+  "../../docs/letteratura_latina/eta-giulio-claudia/petronio-prosa-minore/chapter.typ",
+  "../../docs/letteratura_latina/eta-giulio-claudia/satira-persio/chapter.typ",
+  "../../docs/letteratura_latina/eta-flavi/introduzione/chapter.typ",
+  "../../docs/letteratura_latina/eta-flavi/marziale/chapter.typ",
+  "../../docs/letteratura_latina/eta-flavi/poeti-epici/chapter.typ",
+  "../../docs/letteratura_latina/eta-flavi/quintiliano/chapter.typ",
+  "../../docs/letteratura_latina/eta-flavi/plinio-vecchio/chapter.typ",
+  "../../docs/letteratura_latina/eta-nerva-traiano/introduzione/chapter.typ",
+  "../../docs/letteratura_latina/eta-nerva-traiano/tacito/chapter.typ",
+  "../../docs/letteratura_latina/eta-nerva-traiano/satira-giovenale/chapter.typ",
+  "../../docs/letteratura_latina/eta-nerva-traiano/plinio-giovane/chapter.typ",
+  "../../docs/letteratura_latina/eta-adriano-medioevo/introduzione/chapter.typ",
+  "../../docs/letteratura_latina/eta-adriano-medioevo/poesia/chapter.typ",
+  "../../docs/letteratura_latina/eta-adriano-medioevo/svetonio-floro-frontone-gellio/chapter.typ",
+  "../../docs/letteratura_latina/eta-adriano-medioevo/apuleio/chapter.typ",
+  "../../docs/letteratura_latina/eta-adriano-medioevo/fine-letteratura-pagana/chapter.typ",
+  "../../docs/letteratura_latina/eta-adriano-medioevo/tertulliano-apologetica-cristiana/chapter.typ",
+  "../../docs/letteratura_latina/eta-adriano-medioevo/poesia-cristiana/chapter.typ",
+  "../../docs/letteratura_latina/eta-adriano-medioevo/padri-chiesa-latina/chapter.typ",
+  "../../docs/letteratura_latina/eta-adriano-medioevo/agostino-tardi-prosatori/chapter.typ",
+)
+
+#for cap in chapterlist {
+  if chapter == none or cap == chapter {
+    include cap
+  }
+}
 #pagebreak()
 
 // Retro

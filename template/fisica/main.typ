@@ -1,4 +1,4 @@
-#import "../_global/template.typ": *
+﻿#import "../_global/template.typ": *
 #import "../_global/config.typ": accent, accent_color, gradient_color
 
 // ==========================================
@@ -21,117 +21,48 @@
 // Capitoli
 
 =  Che cos'è la fisica <senza_numero>
+// Capitoli
+// Passa --input chapter=<path> a "typst compile"/"typst watch" per compilarne uno solo
+// (path relativo a questo file, esattamente come negli #include sotto)
 
-#include "../../docs/fisica/00_introduzione.typ"
+#let chapter = sys.inputs.at("chapter", default: none)
 
-=  Il metodo sperimentale
+#let chapterlist = (
+  "../../docs/fisica/introduzione/chapter.typ",
+  "../../docs/fisica/metodo-sperimentale/chapter.typ",
+  "../../docs/fisica/vettori/chapter.typ",
+  "../../docs/fisica/moti-rettilinei/chapter.typ",
+  "../../docs/fisica/moti-curvilinei/chapter.typ",
+  "../../docs/fisica/dinamica/chapter.typ",
+  "../../docs/fisica/gravitazione/chapter.typ",
+  "../../docs/fisica/lavoro-energia-potenza/chapter.typ",
+  "../../docs/fisica/leggi-conservazione/chapter.typ",
+  "../../docs/fisica/equilibrio-moto-rotatorio/chapter.typ",
+  "../../docs/fisica/meccanica-fluidi/chapter.typ",
+  "../../docs/fisica/calore-temperatura/chapter.typ",
+  "../../docs/fisica/cambiamenti-stato/chapter.typ",
+  "../../docs/fisica/teoria-cinetica-gas/chapter.typ",
+  "../../docs/fisica/termodinamica/chapter.typ",
+  "../../docs/fisica/elettricita-statica/chapter.typ",
+  "../../docs/fisica/campo-elettrico/chapter.typ",
+  "../../docs/fisica/corrente-elettrica/chapter.typ",
+  "../../docs/fisica/magnetismo/chapter.typ",
+  "../../docs/fisica/induzione-elettromagnetica-maxwell/chapter.typ",
+  "../../docs/fisica/fenomeni-ondulatori/chapter.typ",
+  "../../docs/fisica/suono/chapter.typ",
+  "../../docs/fisica/onde-elettromagnetiche/chapter.typ",
+  "../../docs/fisica/luce/chapter.typ",
+  "../../docs/fisica/meccanica-quantistica/chapter.typ",
+  "../../docs/fisica/nucleo-particelle-elementari/chapter.typ",
+  "../../docs/fisica/relatività/chapter.typ",
+  "../../docs/fisica/calcoli-fisica/chapter.typ",
+)
 
-#include "../../docs/fisica/01_metodo-sperimentale.typ"
-
-=  I vettori
-
-#include "../../docs/fisica/02_vettori.typ"
-
-=  I moti rettilinei
-
-#include "../../docs/fisica/03_moti-rettilinei.typ"
-
-=  I moti curvilinei
-
-#include "../../docs/fisica/04_moti-curvilinei.typ"
-
-=  Le forze e i principi della dinamica
-
-#include "../../docs/fisica/05_dinamica.typ"
-
-=  La gravitazione universale
-
-#include "../../docs/fisica/06_gravitazione.typ"
-
-=  Lavoro, energia e potenza
-
-#include "../../docs/fisica/07_lavoro-energia-potenza.typ"
-
-=  Le leggi di conservazione
-
-#include "../../docs/fisica/08_leggi-conservazione.typ"
-
-=  L'equilibrio e il moto rotatorio dei corpi
-
-#include "../../docs/fisica/09_equilibrio-moto-rotatorio.typ"
-
-=  La meccanica dei fluidi
-
-#include "../../docs/fisica/10_meccanica-fluidi.typ"
-
-=  Il calore e la temperatura
-
-#include "../../docs/fisica/11_calore-temperatura.typ"
-
-=  I cambiamenti di stato
-
-#include "../../docs/fisica/12_cambiamenti-stato.typ"
-
-=  La teoria cinetica dei gas
-
-#include "../../docs/fisica/13_teoria-cinetica-gas.typ"
-
-=  La termodinamica
-
-#include "../../docs/fisica/14_termodinamica.typ"
-
-=  L'elettricità statica
-
-#include "../../docs/fisica/15_elettricita-statica.typ"
-
-=  Il campo elettrico
-
-#include "../../docs/fisica/16_campo-elettrico.typ"
-
-=  La corrente elettrica
-
-#include "../../docs/fisica/17_corrente-elettrica.typ"
-
-=  Il magnetismo
-
-#include "../../docs/fisica/18_magnetismo.typ"
-
-=  L'induzione elettromagnetica e le equazioni di Maxwell
-
-#include "../../docs/fisica/19_induzione-elettromagnetica-maxwell.typ"
-
-=  I fenomeni ondulatori
-
-#include "../../docs/fisica/20_fenomeni-ondulatori.typ"
-
-=  Il suono
-
-#include "../../docs/fisica/21_suono.typ"
-
-=  Le onde elettromagnetiche
-
-#include "../../docs/fisica/22_onde-elettromagnetiche.typ"
-
-=  La luce
-
-#include "../../docs/fisica/23_luce.typ"
-
-=  La meccanica quantistica e l'atomo
-
-#include "../../docs/fisica/24_meccanica-quantistica.typ"
-
-=  Il nucleo e le particelle elementari
-
-#include "../../docs/fisica/25_nucleo-particelle-elementari.typ"
-
-=  La relatività
-
-#include "../../docs/fisica/26_relatività.typ"
-
-=  Calcoli per la fisica
-
-#include "../../docs/fisica/27_calcoli-fisica.typ"
-
+#for cap in chapterlist {
+  if chapter == none or cap == chapter {
+    include cap
+  }
+}
 #pagebreak()
 
 // Retro

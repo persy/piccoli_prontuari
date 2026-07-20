@@ -27,67 +27,38 @@
   it
 }
 
-/* // Equazioni fratte
-#show math.frac: it => $display(it)$ */
-
 // Capitoli
-= Introduzione <senza_numero>
+// Passa --input chapter=<path> a "typst compile"/"typst watch" per compilarne uno solo
+// (path relativo a questo file, esattamente come negli #include sotto)
 
-#include "../../docs/matematica/00_introduzione.typ"
+#let chapter = sys.inputs.at("chapter", default: none)
 
-= Elementi di logica <logica>
+#let chapterlist = (
+  "../../docs/matematica/introduzione.typ",
+  "../../docs/matematica/logica/chapter.typ",
+  "../../docs/matematica/numeri-naturali-reali/chapter.typ",
+  "../../docs/matematica/algebra-elementare/chapter.typ",
+  "../../docs/matematica/funzioni/chapter.typ",
+  "../../docs/matematica/equazioni-sistemi/chapter.typ",
+  "../../docs/matematica/disequazioni/chapter.typ",
+  "../../docs/matematica/potenze-esponenziali-logaritmi/chapter.typ",
+  "../../docs/matematica/geometria-analitica/chapter.typ",
+  "../../docs/matematica/geometria-euclidea-piana/chapter.typ",
+  "../../docs/matematica/geometria-euclidea-solida/chapter.typ",
+  "../../docs/matematica/goniometria-trigonometria/chapter.typ",
+  "../../docs/matematica/calcolo-combinatorio/chapter.typ",
+  "../../docs/matematica/funzioni-iperboliche/chapter.typ",
+  "../../docs/matematica/numeri-complessi/chapter.typ",
+  "../../docs/matematica/sistemi-lineari-geometria-spaziale/chapter.typ",
+  "../../docs/matematica/affinita/chapter.typ",
+  "../../docs/matematica/grafici-elementari/chapter.typ",
+)
 
-#include "../../docs/matematica/01_logica.typ"
-
-= Dai numeri naturali ai quelli reali <numeri_naturali_reali>
-
-#include "../../docs/matematica/02_numeri-naturali-reali.typ"
-
-= Algebra elementare <algebra>
-
-#include "../../docs/matematica/03_algebra-elementare.typ"
-
-= Funzioni <funzioni>
-
-#include "../../docs/matematica/04_funzioni.typ"
-
-= Equazioni e sistemi <equazioni>
-
-#include "../../docs/matematica/05_equazioni-sistemi.typ"
-
-= Disequazioni <disequazioni>
-
-#include "../../docs/matematica/06_disequazioni.typ"
-
-= Potenze, esponenziali, logaritmi <potenze_esponenziali_logaritmi>
-
-#include "../../docs/matematica/07_potenze-esponenziali-logaritmi.typ"
-
-= Geometria analitica <geometria_analitica>
-
-#include "../../docs/matematica/08_geometria-analitica.typ"
-
-= Geometria euclidea piana <geometria_euclidea_piana>
-
-#include "../../docs/matematica/09_geometria-euclidea-piana.typ"
-
-= Geometria euclidea solida <geometria_euclidea_solida>
-
-#include "../../docs/matematica/10_geometria-euclidea-solida.typ"
-
-= Goniometria e trigonometria <goniometria_trigonometria>
-
-= Calcolo combinatorio <calcolo_combinatorio>
-
-= Funzioni iperboliche <funzioni_iperboliche>
-
-= Numeri complessi <numeri_complessi>
-
-= Sistemi lineari e geometria spaziale <sistemi_lineari_geometria_spaziale> // trova un titolo migliore #TODO
-
-= Affinità <affinità>
-
-= Grafici costruibili per via elementare <grafici_elementari>
+#for cap in chapterlist {
+  if chapter == none or cap == chapter {
+    include cap
+  }
+}
 
 #pagebreak()
 

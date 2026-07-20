@@ -1,15 +1,21 @@
 #import "@preview/showybox:2.0.4": * // Blocchi grafici dinamici (definizione, esempio, dimostrazione)
 
-// ==========================================
+// ===========================================
+// COMPILA L'INTERO MANUALE O SOLO UN CAPITOLO
+// ===========================================
+
+#let standalone = sys.inputs.at("chapter", default: none) != none
+
+// ====================================
 // STATO GLOBALE PER L'ACCENTO DINAMICO
-// ==========================================
+// ====================================
 
 #let accent_color = state("accent_color", rgb("#1E90FF"))
 #let gradient_color = state("gradient_color", gradient.linear(rgb("#1E90FF"), rgb("#63B8FF")))
 
-// ==========================================
+// ===================
 // CONFIGURAZIONE FONT
-// ==========================================
+// ===================
 
 #let serif-fonts = (
   "Faustina",
@@ -27,9 +33,9 @@
   "STIX Two Math",
   )
 
-// ==========================================
+// ============================================
 // CONFIGURAZIONE COLORI DELLA COLLANA (ACCENT)
-// ==========================================
+// ============================================
 
 #let accent = (
   mat:  rgb("#2563eb"), // Matematica
@@ -59,9 +65,9 @@
   fil:  gradient.linear(rgb("#e23eb1"), rgb("#942372"))
 )
 
-// ==========================================
+// ================================
 // FUNZIONI DI UTILITÀ INDIPENDENTI
-// ==========================================
+// ================================
 
 #let intro(body) = context {
   let act-accent = accent_color.get()
@@ -84,30 +90,40 @@
 }
 
 // Box testo flottante
-#let boxfl(where, body) = place(
-  left + where,
-  float: true,
-  clearance: 6pt,
-  rect(width: 100%, fill: black.lighten(95%), radius: 3pt, inset: 1em, body),
-)
+#let boxfl(where, body) = context {  
+  let accent = accent_color.get()
+  place(
+    left + where,
+    float: true,
+    clearance: 6pt,
+    rect(
+      width: 100%, 
+      fill: accent.negate(space: rgb).lighten(95%), 
+      radius: 3pt, 
+      inset: 1em, 
+      body
+    ),
+)}
 
 // Box testo spezzabile
-#let boxbr(body) = block(
-  width: 100%, 
-  fill: black.lighten(95%), 
-  radius: 3pt, 
-  inset: 1em, 
-  breakable: true, 
-  body
-)
+#let boxbr(body) = context {
+  let accent = accent_color.get()
+  block(
+    width: 100%, 
+    fill: accent.negate(space: rgb).lighten(95%), 
+    radius: 3pt, 
+    inset: 1em, 
+    breakable: true, 
+    body
+)}
 
 #let hl(body) = { highlight(body) }
 #let hs0 = h(0em)
 #let vs0 = v(0em)
 
-// =============================================================================
+// ==============================================================
 // BLOCCHI GRAFICI DINAMICI (Definizione, Esempio, Dimostrazione)
-// =============================================================================
+// ==============================================================
 
 // Riquadro per definizioni, teoremi, dimostrazioni..; utilizzo: #definizione[title: "optional title", label: <optional label>]; inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo
 #let definizione(title: none, label: none, ..sections) = {  
