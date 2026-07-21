@@ -2,9 +2,10 @@
 
 ![Static Badge](https://img.shields.io/badge/typst-blue?logo=typst&logoColor=fff&color=%23239dad&link=https%3A%2F%2Ftypst.app%2F) [![Licenza: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
 
-In questo repository trovi i file sorgente in [typst](https://github.com/typst/typst) per compilare i manuali, in formato PDF, che verranno pubblicati sul [WikiBigino](https://wikibigino.miraheze.org/wiki/Pagina_principale). 
+In questo repository trovi i sorgente in [typst](https://github.com/typst/typst) e tutti i file necessari per compilare i manuali. Qui sono trovi i pdf già precompilati, gli stessi  scaricabili dal [sito](https://persy.github.io/piccoli_prontuari/) dedicato.
 
-Per scaricare i pdf già compilati, vai al [sito](https://persy.github.io/piccoli_prontuari/) dedicato.
+<!-- PDF-LIST:START -->
+<!-- PDF-LIST:END -->
 
 <!--toc:start-->
 - [Manuali per il WikiBigino](#manuali-per-il-wikibigino)
