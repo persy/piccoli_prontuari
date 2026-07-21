@@ -4,9 +4,15 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      rebuild_all:
+        description: "Ricompila tutte le materie, non solo quelle modificate"
+        type: boolean
+        default: false
 
 permissions:
-  contents: read
+  contents: write # richiesto per pubblicare la release "latest" e aggiornare il README
   pages: write
   id-token: write
 
@@ -26,93 +32,157 @@ jobs:
         with:
           fetch-depth: 0 # Fondamentale per permettere il calcolo dei file modificati
 
-      # --- AGGIORNATO AL REPOSITORY UFFICIALE DELLA COMMUNITY ---
       - name: Setup Typst
         uses: typst-community/setup-typst@v5
         with:
           version: ^0.15.0
 
-      # 1. Rileva i file Typst modificati o aggiunti
+      # 1. Rileva i file Typst modificati o aggiunti (non serve se rebuild_all è attivo)
       - name: Get Changed Files
         id: changed-files
+        if: github.event.inputs.rebuild_all != 'true'
         uses: tj-actions/changed-files@v44
         with:
+          since_last_remote_commit: true
           files: |
             **/*.typ
             !site/**
             !dist/**
 
-      # 2. Ripristina i PDF compilati nei deploy precedenti (evita di perderli)
-      - name: Cache Compiled PDFs
-        uses: actions/cache@v4
-        with:
-          path: dist/pdf
-          key: ${{ runner.os }}-typst-pdfs-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-typst-pdfs-
-
-      # 3. Organizza la cartella 'dist' e compila SOLO i modificati
-      - name: Compile and Organize PDFs
+      # 2. Prepara dist/ e recupera i PDF già pubblicati sulla release "latest"
+      #    (sostituisce actions/cache: persistente, non scade mai)
+      - name: Prepara dist e recupera PDF esistenti
         run: |
-          # Crea le cartelle necessarie per il deploy
           mkdir -p dist/pdf
 
-          # Copia il contenuto di 'site/' (HTML, immagini, ecc.) dentro 'dist'
           if [ -d "site" ]; then
             cp -r site/* dist/
-            echo "✅ Risorse del sito (HTML e Assets) copiate con successo in dist/"
+            echo "✅ Risorse del sito copiate in dist/"
           else
-            echo "⚠️ ATTENZIONE: La cartella 'site/' non è stata trovata nella radice!"
+            echo "⚠️ ATTENZIONE: cartella 'site/' non trovata."
           fi
 
-          # Se non ci sono file Typst modificati, saltiamo la compilazione
-          if [ "${{ steps.changed-files.outputs.any_changed }}" != "true" ]; then
-            echo "✨ Nessun file Typst modificato. Salto la compilazione."
+          gh release download latest --dir dist/pdf --pattern "*.pdf" --clobber 2>/dev/null \
+            && echo "✅ PDF precedenti recuperati dalla release 'latest'" \
+            || echo "ℹ️ Nessuna release 'latest' precedente (primo deploy?)"
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      # 3. Determina quali materie compilare
+      - name: Determina le materie da compilare
+        id: subjects
+        run: |
+          if [ "${{ github.event.inputs.rebuild_all }}" == "true" ]; then
+            echo "🔁 Rebuild completo richiesto."
+            subjects=$(for d in template/*/; do
+              m=$(basename "$d")
+              [ -f "template/$m/main.typ" ] && echo "$m"
+            done | sort -u)
+          elif [ "${{ steps.changed-files.outputs.any_changed }}" == "true" ]; then
+            subjects=$(for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+              case "$file" in
+                template/*) echo "$file" | cut -d'/' -f2 ;;
+                docs/*)     echo "$file" | cut -d'/' -f2 ;;
+              esac
+            done | sort -u)
           else
-            echo "🔍 File modificati rilevati: ${{ steps.changed-files.outputs.all_changed_files }}"
-
-            # Array associativo per evitare doppie compilazioni nello stesso push
-            declare -A compilati
-
-            for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-              materia=""
-
-              # CASO 1: Modifica dentro template/matematica/...
-              if [[ "$file" == template/* ]]; then
-                materia=$(echo "$file" | cut -d'/' -f2)
-
-              # CASO 2: Modifica dentro docs/matematica/...
-              elif [[ "$file" == docs/* ]]; then
-                materia=$(echo "$file" | cut -d'/' -f2)
-              fi
-
-              # Se abbiamo isolato il nome della materia e non l'abbiamo ancora elaborata in questo run
-              if [ -n "$materia" ] && [ -z "${compilati[$materia]}" ]; then
-
-                # Il target punta sempre alla cartella della materia dentro template
-                main_file="template/${materia}/main.typ"
-
-                if [ -f "$main_file" ]; then
-                  echo "------------------------------------------------"
-                  echo "📄 Modifica rilevata per la materia: $materia"
-
-                  target_pdf="dist/pdf/${materia}.pdf"
-                  echo "🚀 Compilazione incrementale in corso: $main_file -> $target_pdf"
-
-                  typst compile --root . --font-path ./fonts "$main_file" "$target_pdf" || { echo "❌ Errore critico in Typst per $main_file"; exit 1; }
-
-                  # Segna la materia come completata per saltare eventuali altri file correlati nello stesso commit
-                  compilati[$materia]=1
-                else
-                  echo "ℹ️ Trovata modifica in '$file' (materia: $materia), ma non esiste il file principale '$main_file'. Salto."
-                fi
-              fi
-            done
+            subjects=""
           fi
 
-          echo "------------------------------------------------"
-          echo "Contenuto finale della cartella dist (pronta per il web):"
-          ls -R dist/
+          {
+            echo "subjects<<EOF"
+            echo "$subjects"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          if [ -z "$subjects" ]; then
+            echo "✨ Nessuna materia da ricompilare."
+          else
+            echo "📄 Materie da compilare:"
+            echo "$subjects"
+          fi
+
+      # 4. Compila in parallelo solo le materie individuate
+      - name: Compila i PDF (in parallelo)
+        if: steps.subjects.outputs.subjects != ''
+        run: |
+          declare -a pids=()
+          declare -a names=()
+
+          while IFS= read -r materia; do
+            [ -z "$materia" ] && continue
+            main_file="template/${materia}/main.typ"
+            if [ ! -f "$main_file" ]; then
+              echo "ℹ️ '$main_file' non esiste, salto '$materia'."
+              continue
+            fi
+            target_pdf="dist/pdf/${materia}.pdf"
+            echo "🚀 Avvio compilazione: $main_file -> $target_pdf"
+            typst compile --root . --font-path ./fonts "$main_file" "$target_pdf" &
+            pids+=($!)
+            names+=("$materia")
+          done <<< "${{ steps.subjects.outputs.subjects }}"
+
+          fail=0
+          for i in "${!pids[@]}"; do
+            if wait "${pids[$i]}"; then
+              echo "✅ Completato: ${names[$i]}"
+            else
+              echo "❌ Errore Typst per: ${names[$i]}"
+              fail=1
+            fi
+          done
+
+          if [ "$fail" -eq 1 ]; then
+            echo "❌ Una o più compilazioni sono fallite."
+            exit 1
+          fi
+
+      - name: Contenuto finale di dist/
+        run: ls -R dist/
+
+      # 5. Pubblica/aggiorna la release "latest" con tutti i PDF (modificati + recuperati)
+      - name: Pubblica i PDF sulla release "latest"
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: "Manuali (build automatica)"
+          body: "PDF aggiornati automaticamente ad ogni push su main."
+          files: dist/pdf/*.pdf
+          make_latest: true
+
+      # 6. Aggiorna la sezione download nel README, tra i marcatori
+      - name: Aggiorna README con i link ai PDF
+        run: |
+          START="<!-- PDF-LIST:START -->"
+          END="<!-- PDF-LIST:END -->"
+
+          if ! grep -q "$START" README.md 2>/dev/null; then
+            echo "⚠️ Marcatori PDF-LIST non trovati in README.md, salto l'aggiornamento."
+            exit 0
+          fi
+
+          LIST=$(for pdf in dist/pdf/*.pdf; do
+            [ -e "$pdf" ] || continue
+            name=$(basename "$pdf" .pdf)
+            echo "- [${name}](https://github.com/${{ github.repository }}/releases/download/latest/${name}.pdf)"
+          done)
+
+          awk -v start="$START" -v end="$END" -v list="$LIST" '
+            $0 ~ start {print; print list; skip=1; next}
+            $0 ~ end {skip=0}
+            !skip {print}
+          ' README.md > README.md.tmp && mv README.md.tmp README.md
+
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: aggiorna elenco PDF scaricabili [skip ci]"
+            git push
+          else
+            echo "README già aggiornato, nessun commit necessario."
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
