@@ -5,7 +5,17 @@
 In questo repository trovi i sorgente in [typst](https://github.com/typst/typst) e tutti i file necessari per compilare i manuali. Qui sono trovi i pdf già precompilati, gli stessi  scaricabili dal [sito](https://persy.github.io/piccoli_prontuari/) dedicato.
 
 <!-- PDF-LIST:START -->
-
+- [biologia](https://github.com/persy/piccoli_prontuari/releases/download/latest/biologia.pdf)
+- [chimica](https://github.com/persy/piccoli_prontuari/releases/download/latest/chimica.pdf)
+- [filosofia](https://github.com/persy/piccoli_prontuari/releases/download/latest/filosofia.pdf)
+- [fisica](https://github.com/persy/piccoli_prontuari/releases/download/latest/fisica.pdf)
+- [letteratura_inglese](https://github.com/persy/piccoli_prontuari/releases/download/latest/letteratura_inglese.pdf)
+- [letteratura_italiana](https://github.com/persy/piccoli_prontuari/releases/download/latest/letteratura_italiana.pdf)
+- [letteratura_latina](https://github.com/persy/piccoli_prontuari/releases/download/latest/letteratura_latina.pdf)
+- [matematica](https://github.com/persy/piccoli_prontuari/releases/download/latest/matematica.pdf)
+- [scienze_terra](https://github.com/persy/piccoli_prontuari/releases/download/latest/scienze_terra.pdf)
+- [storia](https://github.com/persy/piccoli_prontuari/releases/download/latest/storia.pdf)
+- [storia_arte](https://github.com/persy/piccoli_prontuari/releases/download/latest/storia_arte.pdf)
 <!-- PDF-LIST:END -->
 
 <!--toc:start-->
