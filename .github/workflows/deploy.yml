@@ -52,6 +52,7 @@ jobs:
       # 2. Prepara dist/ e recupera i PDF già pubblicati sulla release "latest"
       #    (sostituisce actions/cache: persistente, non scade mai)
       - name: Prepara dist e recupera PDF esistenti
+        id: recover
         run: |
           mkdir -p dist/pdf
 
@@ -62,9 +63,13 @@ jobs:
             echo "⚠️ ATTENZIONE: cartella 'site/' non trovata."
           fi
 
-          gh release download latest --dir dist/pdf --pattern "*.pdf" --clobber 2>/dev/null \
-            && echo "✅ PDF precedenti recuperati dalla release 'latest'" \
-            || echo "ℹ️ Nessuna release 'latest' precedente (primo deploy?)"
+          if gh release download latest --dir dist/pdf --pattern "*.pdf" --clobber 2>/dev/null; then
+            echo "found_previous=true" >> "$GITHUB_OUTPUT"
+            echo "✅ PDF precedenti recuperati dalla release 'latest'"
+          else
+            echo "found_previous=false" >> "$GITHUB_OUTPUT"
+            echo "ℹ️ Nessuna release 'latest' precedente: forzo un rebuild completo."
+          fi
         env:
           GH_TOKEN: ${{ github.token }}
 
@@ -72,8 +77,8 @@ jobs:
       - name: Determina le materie da compilare
         id: subjects
         run: |
-          if [ "${{ github.event.inputs.rebuild_all }}" == "true" ]; then
-            echo "🔁 Rebuild completo richiesto."
+          if [ "${{ github.event.inputs.rebuild_all }}" == "true" ] || [ "${{ steps.recover.outputs.found_previous }}" == "false" ]; then
+            echo "🔁 Rebuild completo (richiesto esplicitamente, oppure nessuna release precedente trovata)."
             subjects=$(for d in template/*/; do
               m=$(basename "$d")
               [ -f "template/$m/main.typ" ] && echo "$m"
