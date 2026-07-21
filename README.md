@@ -5,6 +5,7 @@
 In questo repository trovi i sorgente in [typst](https://github.com/typst/typst) e tutti i file necessari per compilare i manuali. Qui sono trovi i pdf già precompilati, gli stessi  scaricabili dal [sito](https://persy.github.io/piccoli_prontuari/) dedicato.
 
 <!-- PDF-LIST:START -->
+
 <!-- PDF-LIST:END -->
 
 <!--toc:start-->
