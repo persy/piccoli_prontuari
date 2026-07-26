@@ -14,6 +14,7 @@ In questo repository trovi i sorgente in [typst](https://github.com/typst/typst)
 - [Struttura delle cartelle e file principali](#struttura-delle-cartelle-e-file-principali)
     - [Come vedere l'anteprima ed esportare il pdf di un manuale](#come-vedere-lanteprima-ed-esportare-il-pdf-di-un-manuale)
     - [Compilare solo un capitolo](#compilare-solo-un-capitolo)
+    - [Compilare con lo script interattivo](#compilare-con-lo-script-interattivo)
   - [Materie](#materie)
   - [Filosofia del progetto](#filosofia-del-progetto)
   - [Futuro del progetto](#futuro-del-progetto)
@@ -49,6 +50,7 @@ fonts/
 site/
 ├── index.html
 └── ...
+compila.py <-- script interattivo per compilare i manuali
 .gitignore
 LICENSE
 README.md
@@ -111,12 +113,36 @@ tinymist preview --root . --partial-rendering=true --input chapter=../../docs/<m
 {
   "tinymist.typstExtraArgs": [
     "--input=chapter=../../docs/<materia>/<capitolo>/chapter.typ",
-    "template/<materia>/main.typ"
+    "main.typ"
   ]
 }
 ```
 
 Per tornare alla compilazione dell'intero manuale, rimuovi l'argomento `--input`/il blocco `tinymist.typstExtraArgs` (o svuotalo).
+
+### Compilare con lo script interattivo
+
+In alternativa ai comandi `typst`/`tinymist` visti sopra, nella root del repository trovi `compila.py`: uno script interattivo che, senza dover ricordare a memoria i vari path, ti fa scegliere da menù:
+
+1. la materia,
+2. i capitoli da includere: tutti (invio a vuoto), uno solo (es. `7`), oppure una lista anche non consecutiva (es. `2,3,5,9,10`, l'ordine finale rispetta comunque quello del manuale),
+
+e compila il pdf corrispondente in `output/`. Copertina e retro vengono sempre inclusi, qualunque sia la selezione.
+
+Per usarlo:
+
+```bash
+python3 compila.py
+```
+
+**Pacchetti necessari**: 
+- `python 3.9+`
+- `typst`, disponibile in uno di questi due modi 
+  - tramite pip:
+  ```bash
+  pip install typst
+  ```
+  - con il binario `typst` a riga di comando, installato seguendo la [guida ufficiale](https://github.com/typst/typst?tab=readme-ov-file#installation) e già richiesto nella sezione precedente.
 
 ## Materie
 
@@ -154,3 +180,4 @@ Di seguito una tabella con le materie trattate e il livello di completamento dei
 ## Futuro del progetto
 - Ottenuta una certa "stabilità" dei testi principali, il progetto verrà ampliato con l'inclusione di testi da fonti primarie ed esercizi originali
 - Quando l'esportazione dei file in HTML avrà raggiunto una certa maturazione, verrà aperto un sito dove poter consultare online, pagina per pagina, ogni manuale, senza doverli scaricare singolarmente
+- `compila.py` verrà trasformato in una TUI, con selezione di materia e capitoli via tastiera/click (checkbox multi-selezione stile `[x]`), al posto dell'attuale menù testuale a numeri
