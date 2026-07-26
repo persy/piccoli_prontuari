@@ -420,3 +420,6 @@ codebook.toml
 
 # Backup Files
 *.bak
+
+# Output Files
+output/*
