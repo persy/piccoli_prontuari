@@ -1,3 +1,85 @@
+// script.js — genera la griglia delle anteprime da AREAS (books.js) e gestisce
+// il modale di dettaglio. Nessuna dipendenza esterna.
+
+document.addEventListener("DOMContentLoaded", () => {
+  const areasContainer = document.getElementById("areas");
+  const modal = document.getElementById("book-modal");
+  const modalCoverImg = document.getElementById("modal-cover-img");
+  const modalTitle = document.getElementById("modal-title");
+  const modalDescription = document.getElementById("modal-description");
+  const modalPdfBtn = document.getElementById("modal-pdf-btn");
+  const modalOnlineBtn = document.getElementById("modal-online-btn");
+  const modalClose = document.getElementById("modal-close");
+
+  // --- Genera la griglia ---
+  for (const area of AREAS) {
+    const areaTitle = document.createElement("div");
+    areaTitle.className = "macro-area-title";
+    areaTitle.textContent = area.title;
+    areasContainer.appendChild(areaTitle);
+
+    const grid = document.createElement("div");
+    grid.className = "grid";
+
+    for (const book of area.books) {
+      const thumb = document.createElement("button");
+      thumb.type = "button";
+      thumb.className = `book-thumb ${book.slug}`;
+      thumb.setAttribute("aria-label", `Apri dettagli: ${book.title}`);
+      thumb.title = book.title;
+      thumb.innerHTML = `
+        <img src="${book.cover}" alt="Copertina ${book.title}" loading="lazy">
+      `;
+      thumb.addEventListener("click", () => openModal(book));
+      grid.appendChild(thumb);
+    }
+
+    areasContainer.appendChild(grid);
+  }
+
+  // --- Modale ---
+  function openModal(book) {
+    modalCoverImg.src = book.cover;
+    modalCoverImg.alt = `Copertina ${book.title}`;
+    modalTitle.textContent = book.title;
+    modalDescription.textContent = book.description;
+
+    modalPdfBtn.href = book.pdfHref;
+
+    // Riusa le classi .matematica/.fisica/.scienze-terra/... già definite in style.css
+    // (impostano --materia-gradient e --hover-color). colorClass è distinto da slug:
+    // vedi il commento in testa a books.js.
+    modal.className = book.colorClass;
+
+    const onlineActive = ONLINE_READING_ENABLED && !!book.onlineHref;
+
+    if (onlineActive) {
+      modalOnlineBtn.href = book.onlineHref;
+      modalOnlineBtn.classList.remove("modal-btn-disabled");
+      modalOnlineBtn.textContent = "Leggi online";
+      modalOnlineBtn.removeAttribute("aria-disabled");
+    } else {
+      modalOnlineBtn.removeAttribute("href");
+      modalOnlineBtn.classList.add("modal-btn-disabled");
+      modalOnlineBtn.textContent = "Presto disponibile";
+      modalOnlineBtn.setAttribute("aria-disabled", "true");
+    }
+
+    modal.dataset.subject = book.slug;
+    modal.showModal();
+  }
+
+  modalClose.addEventListener("click", () => modal.close());
+
+  // Chiudi cliccando sullo sfondo (fuori da .modal-content)
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) modal.close();
+  });
+
+  // <dialog> gestisce già Esc nativamente
+});
+
+//
 document.addEventListener("DOMContentLoaded", () => {
     const parole = ["Gratuiti", "Liberi", "Condivisibili", "Modificabili"];
     const target = document.getElementById("carousel-text");
