@@ -82,12 +82,22 @@ document.addEventListener("DOMContentLoaded", () => {
 //
 document.addEventListener("DOMContentLoaded", () => {
     const parole = ["Gratuiti", "Liberi", "Condivisibili", "Modificabili"];
+    const colori = ["#1f54c8", "#0ca876", "#8c1606", "#d97706", "#3f25eb", "#ed3a7c"];
     const target = document.getElementById("carousel-text");
     if (!target) return;
 
     let parolaIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
+    let coloreCorrente = "";
+
+    function impostaColoreCasuale() {
+        const disponibili = colori.filter(c => c !== coloreCorrente);
+        coloreCorrente = disponibili[Math.floor(Math.random() * disponibili.length)];
+        target.style.color = coloreCorrente;
+    }
+
+    impostaColoreCasuale();
 
     function gestisciCarousel() {
         const parolaCorrente = parole[parolaIndex];
@@ -108,6 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (isDeleting && charIndex === 0) {
             isDeleting = false;
             parolaIndex = (parolaIndex + 1) % parole.length;
+            impostaColoreCasuale();
             velocita = 400;
         }
 
@@ -117,6 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(gestisciCarousel, 500);
 });
 
+//
 const canvas = document.getElementById('constellation');
 if (canvas) {
     const ctx = canvas.getContext('2d');
