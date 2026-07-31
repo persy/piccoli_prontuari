@@ -129,6 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //
+/* 
 const canvas = document.getElementById('constellation');
 if (canvas) {
     const ctx = canvas.getContext('2d');
@@ -205,4 +206,4 @@ if (canvas) {
         requestAnimationFrame(animate);
     }
     animate();
-}
+} */
