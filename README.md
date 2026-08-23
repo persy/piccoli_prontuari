@@ -105,6 +105,32 @@ N.B. Usando `tinymist`, il file `main` verrà automaticamente designato come pri
 Typst Pin Main
 ```
 
+### Cambiare il tema
+
+Il tema definisce i colori usati nei manuali. Ogni manuale ha un colore primario, dal quale dipendono i gradienti utilizzati nei titoli, box, tabelle e grafici. Il tema di default si chiama _storico_ e utilizza colori legati logicamente o storicamente alla materia (es. Biologia utilizza un verde clorofilla, Matematica un blu generato usando il numero di Nepero, Arte un oro antico... ). È possibile cambiare il tema con questo comando:
+
+```typst
+typst compile --root . --input theme=<nome-tema> template/matematica/main.typ output.pdf
+```
+
+oppure cambiando la seguente riga in `config.typ`:
+
+```typst
+#let theme-attivo = sys.inputs.at("theme", default: "storico")
+```
+
+in:
+
+```typst
+#let theme-attivo = "<nome-tema>"
+```
+Tra i temi disponibili:
+
+- gruvbox: una palette molto calda e colori pastello
+- nord: colori più freddi e contrasto meno marcato
+- catppuccin-latte: colori più vividi, contrasto più elevato
+
+
 ### Compilare solo un capitolo
 
 Per velocizzare l'anteprima su manuali lunghi, `main.typ` supporta la compilazione di un singolo capitolo tramite l'argomento `chapter`, passato come `sys.inputs`. Quando è attivo, i riferimenti verso capitoli esclusi vengono mostrati come `??` invece di generare un errore. Per compilare/vedere l'anteprima di un solo capitolo:
