@@ -29,7 +29,7 @@ Nel 169, alla morte di Lucio Vero, Marco Aurelio rimase l'unico imperatore. Nel 
 
 Filosofo di vasta cultura e seguace dello stoicismo, Marco Aurelio scrisse una preziosa opera intitolata "A se stesso", suddivisa in dodici libri. Morì nel 180, vittima di una peste che lo colpì lungo la frontiera danubiana dove si era recato per affrontare nuovamente i Germani. Alla sua morte, Commodo salì al trono all'età di diciannove anni e adottò una politica violenta contro il senato, rompendo con le tradizioni paterne. Malvisto dall'esercito a causa di accordi pacifici con Quadi e Marcomanni, fu assassinato nel 192 in una congiura organizzata dal prefetto del pretorio Leto.  
 
-#boxfl(top)[== *🧩* L'Impero all'asta: il potere dell'esercito <senza_numero>
+#boxfl(top)[== 🐺 L'Impero all'asta: il potere dell'esercito <senza_numero>
 
 Nel corso della storia dell'Impero romano fu spesso l'esercito a determinare l'avvicendamento al potere. Un caso particolarmente emblematico si verificò nel 193 con l'assassinio di Elvio Pertinace da parte delle guardie pretoriane. Rimasto vacante il trono per alcuni giorni, i pretoriani decisero quindi di mettere all'asta il controllo dell'Impero a chi avesse offerto di più.
 
@@ -59,8 +59,7 @@ Sul piano economico, cercò di rafforzare le finanze imperiali attraverso misure
 
 Con questa struttura politica, Diocleziano segnò l'inizio dell'epoca del dominato (dal termine latino "dominus", signore). Tuttavia, nel 303, a fronte dell'opposizione sollevata dal tentativo di enfatizzare il carattere divino della figura imperiale, emanò una serie di editti che avviarono persecuzioni sistematiche contro i cristiani. Nel 305, afflitto da problemi di salute, abdicò insieme a Massimiano affidando il governo ai rispettivi Cesari.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Da Nerva a Commodo: A seguito dell'uccisione dell'imperatore Domiziano, i congiurati assegnano il potere al senatore Nerva, inaugurando una nuova fase politica. Nel 98, Nerva designa come suo successore Traiano, da lui adottato. \ Tra il 101 e il 105, quest'ultimo conduce la campagna contro i Daci, sottomettendoli e trasformando la Dacia in una nuova provincia dell'Impero. Successivamente, tra il 114 e il 116, anche l'Armenia e la Mesopotamia vengono integrate nel dominio romano. \ Traiano nomina Adriano come erede. Durante il suo regno, tra il 122 e il 127, Adriano ordina la costruzione del "Vallo di Adriano" in Britannia, una struttura difensiva volta a consolidare i confini imperiali. Tra il 132 e il 135 si occupa di reprimere una rivolta ebraica in Giudea. \ Nel 138, Antonino Pio succede ad Adriano e prosegue il rafforzamento dei confini imperiali, come testimoniato dalla costruzione del "Vallo di Antonino" in Britannia. Le minacce ai confini settentrionali si intensificano dal 165, quando Quadi e Marcomanni penetrano nel territorio romano. \ Marco Aurelio e Lucio Vero, eredi al trono dopo la morte di Antonino Pio, fronteggiano questi invasori tra il 167 e il 168, ma Lucio Vero muore nel 169. Nel 175, Marco Aurelio sconfigge Avidio Cassio in una rivolta interna, celebrando contemporaneamente un trionfo militare contro i Germani. Tra il 178 e il 180 affronta nuovamente i Germani, ma muore di peste nello stesso anno. \ Gli succede suo figlio Commodo, che mantiene il potere fino al 192, quando viene assassinato da una congiura orchestrata dai pretoriani. Dopo Commodo, per brevi periodi ascendono al trono Elvio Pertinace e Didio Giuliano, dando avvio alla celebre "vendita all'asta dell'Impero".  
@@ -77,3 +76,5 @@ Con questa struttura politica, Diocleziano segnò l'inizio dell'epoca del domina
 
 
 
+
+]

@@ -23,7 +23,7 @@ Nel Nord America, la divisione dei possessi coloniali era ben definita: i France
 
 == America Latina
 
-#boxfl(top)[== *🧩* La tratta degli schiavi <senza_numero>
+#boxfl(top)[== 🐺 La tratta degli schiavi <senza_numero>
 
 Un elemento cardine nella storia delle relazioni tra Europa e Africa è costituito dalla tratta degli schiavi, fenomeno che ebbe un impatto devastante sulle civiltà africane. Esso contribuì alla disgregazione delle società locali, privando il continente delle sue componenti vitali rappresentate da giovani uomini fisicamente abili. 
 
@@ -61,8 +61,7 @@ La Guerra dei Sette Anni (1756-1763) rappresenta un momento cruciale per la ride
 
 La conclusione del conflitto avvenne con il Trattato di Parigi del febbraio 1763, che ridisegnò gli equilibri geopolitici globali. La Francia cedette il Canada, le Antille, il Senegal e alcune basi in India alla Gran Bretagna, mentre alla Spagna fu trasferita la Louisiana come compensazione per la cessione forzata della Florida agli Inglesi. Con un ulteriore trattato, l'Impero asburgico confermò il possesso della Slesia alla Prussia. Tali eventi sancirono l'affermazione della supremazia coloniale britannica e l'ascesa definitiva della Prussia quale potenza di primo piano nella scena continentale.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / XVI sec.: Spagna e Portogallo iniziano la colonizzazione dell'America Latina. Il Portogallo amplia il proprio dominio, fondando un vasto impero basato sullo sfruttamento che include anche le Filippine a partire dal 1565.  
@@ -71,3 +70,5 @@ La conclusione del conflitto avvenne con il Trattato di Parigi del febbraio 1763
 
 / 1756-1763: Durante la Guerra dei Sette Anni, combattuta anche nei territori coloniali, si verifica un ribaltamento delle alleanze europee. Con il Trattato di Parigi del 1763, la Francia perde tutte le proprie colonie a favore dell'Inghilterra; la Spagna cede la Florida agli inglesi in cambio della Louisiana francese.  
 
+
+]

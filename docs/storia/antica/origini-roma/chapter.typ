@@ -29,7 +29,7 @@ Servio Tullio espanse ulteriormente il dominio romano verso sud, introdusse una 
 
 Con la caduta di Tarquinio il Superbo prese forma gradualmente l'ordinamento repubblicano. Dei sette re di Roma, le testimonianze più affidabili riguardano gli ultimi tre, poiché è certo che la potenza etrusca influenzò profondamente la città nascente. Per gli altri sovrani, purtroppo, il confine tra realtà storica e fantasia appare spesso indistinto.
 
-#boxfl(bottom)[== *🧩* Fondazione di Roma e l'_Eneide_ virgiliana <senza_numero>
+#boxfl(bottom)[== 🐺 Fondazione di Roma e l'_Eneide_ virgiliana <senza_numero>
 
 La leggenda di Enea, eroe troiano che giunse in Italia insieme a un gruppo di profughi dopo essere sfuggito alla distruzione della sua città, è strettamente connessa alla storia di Romolo e Remo, fondatori di Roma. Questa narrazione mitologica conferiva alla città un'aura quasi divina, grazie al fatto che Enea era figlio della dea Venere. Tale caratterizzazione risulta particolarmente significativa in un periodo storico in cui Roma si consolidava e si espandeva territorialmente.
 
@@ -63,8 +63,7 @@ Oltre ai Pontefici, vi erano altri collegi di rilievo. Il collegio dei Salii era
 
 Tra le divinità, tre si distinguevano per importanza: _Iuppiter_ (Giove), Marte e Quirino. Notevole era anche il culto rivolto alle divinità familiari: i Lari, che rappresentavano gli spiriti degli antenati, e i Penati, protettori della dispensa domestica.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Origini storiche di Roma: Tra l'VIII e il VII secolo a.C., per proteggersi dall'avanzata etrusca, il villaggio del Palatino si unisce a quelli circostanti: Esquilino, Celio, Viminale, Quirinale e Capitolino. Da questo processo di fusione, insieme all'arrivo delle popolazioni sabine, nasce la città di Roma.
@@ -72,3 +71,5 @@ Tra le divinità, tre si distinguevano per importanza: _Iuppiter_ (Giove), Marte
 / Leggenda della fondazione: La leggenda narra che Romolo, nipote di Numitore, re di Albalonga e discendente dell'eroe troiano Enea, dopo aver ridato al nonno il trono sottratto dal fratello Amulio, fonda la città di Roma insieme al fratello Remo. Tuttavia, Remo, osando attraversare i confini tracciati da Romolo, viene ucciso da quest'ultimo. Romolo diventa così il primo re di Roma il 21 aprile del 753 a.C. La monarchia, per lungo tempo, rappresenta un periodo di prosperità, pace e sviluppo culturale.
 
 / Dalla Monarchia alla Repubblica: Dopo Romolo, secondo la tradizione, si susseguono altri sei re. Tuttavia, solo gli ultimi tre, di origine etrusca, trovano un riscontro storico, come dimostrano le testimonianze dei rapporti tra Etruschi e Romani. Romolo viene seguito da Numa Pompilio, che istituisce i primi culti religiosi. Il terzo re, Tullo Ostilio, avvia l'espansione territoriale a scapito dei popoli limitrofi. Il quarto sovrano, Anco Marzio, conquista Ostia e stabilisce relazioni con Greci, Cartaginesi ed Etruschi. \ Tarquinio Prisco è il primo monarca di origine etrusca, noto per aver avviato importanti opere architettoniche e ampliato il numero dei senatori. Servio Tullio amplia gli orizzonti territoriali verso sud e introduce una nuova costituzione basata sul censo. L'ultimo re, Tarquinio il Superbo, viene deposto per la sua condotta dispotica e autoritaria. \ Una tradizione riporta che Tarquinio, dopo essere stato cacciato dai Romani, tenta di recuperare il potere chiedendo aiuto al lucumone di Chiusi, Porsenna; questi viene però sconfitto da eroi come Orazio Coclite e Muzio Scevola. Secondo Tacito, invece, è lo stesso Porsenna a deporre l'ultimo re. Da quel momento inizia a delinearsi l'ordinamento repubblicano: siamo nel 509 a.C.
+
+]

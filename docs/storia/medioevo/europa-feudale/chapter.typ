@@ -13,7 +13,7 @@ Le prime manifestazioni del sistema feudale si possono individuare nella regione
 
 Nel caso delle terre date in usufrutto (denominate _tenure_ nelle aree francofone e _Leihe_ in quelle germaniche), il beneficiario era tenuto a versare un tributo in denaro o, più frequentemente, in natura. La tutela offerta dal benefattore era nota come _mundium_. Tra le popolazioni germaniche era inoltre diffusa l'istituzione del _comitatus_, che indicava il gruppo di soldati che sceglievano volontariamente di combattere per un capo, prestando giuramento di fedeltà personale. I membri del comitato vennero successivamente denominati "vassalli", prendendo origine dal termine celtico _gwas_, utilizzato già nel VI secolo.
 
-#boxfl(top)[== *🧩* La cavalleria <senza_numero>
+#boxfl(top)[== 🐺 La cavalleria <senza_numero>
 
 Fin dall'alto medioevo si formò una casta militare di cavalieri, combattenti che potevano disporre a proprie spese di un cavallo e dell'armatura. Essi avevano il compito di aiutare il principe, a cui erano legati da vincoli di vassallaggio, nella difesa dei deboli. 
 
@@ -63,8 +63,7 @@ Nel XII secolo, anche la Chiesa, con la riforma promossa da Gregorio VII, cercò
 
 Questo fenomeno trovò particolare applicazione nei Regni normanni d'Inghilterra e del Sud Italia, nei principati franco-latini d'Oriente, nel Regno di Francia sotto i Capetingi e nei principati tedeschi. Al potere centrale del sovrano si affiancava quello dei singoli feudatari, una dinamica che venne progressivamente contrastata dalle nascenti monarchie nazionali, le quali iniziarono a limitare la formazione di nuovi centri autonomi di potere e a imporre la loro autorità sui potentati feudali esistenti.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Sistema feudale: Il sistema feudale ha le sue prime radici nel periodo successivo alla caduta dell'Impero Romano. Tra gli elementi fondamentali che ne hanno favorito l'evoluzione, spiccano le istituzioni della _commendatio_ e del _comitatus_.
@@ -74,3 +73,4 @@ Questo fenomeno trovò particolare applicazione nei Regni normanni d'Inghilterra
 / Prima età feudale: In Europa si vive un periodo di anarchia: lotte interne tra feudatari e vassalli per il controllo del potere sono all'ordine del giorno, mentre cavalieri e bande di briganti seminano violenza e saccheggi. Inoltre, le incursioni di Normanni e Saraceni contribuiscono ad alimentare il clima d'insicurezza, spingendo le popolazioni a cercare rifugio nei castelli. Nel 1037, la Constitutio de feudis sancisce l'ereditarietà anche dei feudi minori, consolidando ulteriormente il sistema feudale.
 
 / Seconda età feudale: Con Papa Gregorio VII si cerca di sottrarre diocesi e abbazie alla sfera dei benefici feudali, riportandole sotto il diretto controllo ecclesiastico. Durante questa fase, vassallaggio e feudo raggiungono una struttura più definita grazie a raccolte sistematiche di leggi e consuetudini. \ Pur continuando a esistere, il potere dei feudatari viene progressivamente limitato dall'affermazione delle monarchie nazionali. Questi nuovi stati centralizzati impediscono la nascita di ulteriori nuclei autonomi e rafforzano il controllo sui centri di potere già esistenti.
+]

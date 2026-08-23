@@ -61,8 +61,7 @@ Nel XVII secolo, dopo aver sottratto Creta ai Veneziani nel 1669, i Turchi tenta
 
 La Pace di Carlowitz del 1699 rappresentò un ulteriore colpo per l'Impero ottomano, sancendo la perdita dei territori ungheresi, della Slavonia e della Transilvania. Contestualmente cominciò a emergere una nuova minaccia sul fronte orientale con l'ascesa dei Russi sul Mar Caspio, preludio a futuri conflitti in quella regione.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Spagna: Il fallimento del progetto riformista promosso da Gaspar de Guzmán, conte-duca di Olivares, segnò un momento cruciale nella crisi della Spagna, ormai evidente a livello interno ed esterno. La situazione fu ulteriormente aggravata da rivolte nei domini italiani e dall'intensificarsi delle guerre europee. Il conflitto con Luigi XIV culminò nella perdita definitiva dei Paesi Bassi spagnoli, sancendo un declino politico e territoriale irreversibile. L'ultimo rappresentante della dinastia degli Asburgo in Spagna fu Carlo II, la cui morte aprì la strada al periodo della successione borbonica.
@@ -77,3 +76,5 @@ La Pace di Carlowitz del 1699 rappresentò un ulteriore colpo per l'Impero ottom
 
 / Impero ottomano: Le sconfitte subite a Lepanto e Carlowitz rappresentarono tappe fondamentali nel progressivo declino dell'Impero Ottomano, ormai indebolito rispetto alle grandi potenze europee. Durante questa fase emergente si delineava un nuovo avversario: l'espansionismo russo, che avrebbe profondamente influenzato gli equilibri geopolitici del Mediterraneo orientale e del Mar Nero.
 
+
+]

@@ -29,7 +29,7 @@ Questa situazione alimentò conflitti agrari di rilievo, centrati sul diritto di
 
 == La Rivoluzione industriale
 
-#boxfl(top)[== *🧩* Il luddismo <senza_numero>
+#boxfl(top)[== 🐺 Il luddismo <senza_numero>
 
 Le difficili condizioni di vita degli operai inglesi portarono a forme di ribellione e sabotaggio delle macchine utilizzate nelle fabbriche, ritenute responsabili della crescente disoccupazione operaia e della diminuzione dei salari.
 
@@ -55,7 +55,7 @@ La legislazione sociale arrivò solo nel secolo successivo, quando si consolidò
 
 In particolare, dopo le guerre napoleoniche, le esportazioni di prodotti industriali a basso costo dall'Inghilterra favorirono l'industrializzazione in aree dove le condizioni erano più adatte, come i territori settentrionali del Belgio e della Francia, grazie alla presenza di risorse come il carbone.
 
-#boxfl(top)[== *🧩* La crisi della società per ceti <senza_numero>
+#boxfl(top)[== 🐺 La crisi della società per ceti <senza_numero>
 
 Sebbene la tradizionale stratificazione della società per ceti avesse ancora una certa rilevanza, nuovi fattori iniziarono a emergere nei paesi dell'Europa occidentale.
 
@@ -65,8 +65,7 @@ In Francia, invece, si assistette a una maggiore rigidità dei rapporti sociali,
 
 Situazioni simili si osservavano nella Penisola Iberica e nell'Italia meridionale, sebbene la nobiltà lombarda fosse più dinamica e attiva.]
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / XVIII sec.: Nel XVIII secolo, miglioramenti igienici e alimentari, insieme alla fine di numerose epidemie, favorirono un aumento della popolazione europea e la riduzione della mortalità. In Inghilterra, il processo delle _enclosures_, ovvero la recinzione delle terre comuni, permise uno sfruttamento più intenso dei terreni, portando a un incremento della produttività agricola. Questo fenomeno liberò molta manodopera che si spostò verso le città in crescita, contribuendo alla rivoluzione agricola. \ L'aumento delle risorse alimentari, la disponibilità di materie prime come il carbone, le innovazioni tecnologiche di rilievo e lo sviluppo dei commerci su scala mondiale favorirono l'insediamento delle industrie. Il lavoro salariato, spesso svolto da donne e bambini, era caratterizzato da turni estenuanti all'interno delle fabbriche. \ Le attività manifatturiere, estrattive e siderurgiche furono tra quelle che beneficiarono maggiormente delle innovazioni tecnologiche. La rivoluzione industriale si diffuse in Europa soprattutto dopo le guerre napoleoniche.   
@@ -80,3 +79,5 @@ Situazioni simili si osservavano nella Penisola Iberica e nell'Italia meridional
 
 
 
+
+]

@@ -35,7 +35,7 @@ La conquista della Sassonia nel 785 permise a Carlo di estendere il dominio fran
 
 Tra l'801 e l'813 Carlo sottrasse agli Arabi il controllo della Catalogna e della città di Barcellona in Spagna, istituendo una zona difensiva nota come Marca Hispanica. Questo termine designava specifiche circoscrizioni poste lungo le frontiere del regno, destinate a garantire la sicurezza e protezione dei confini.
 
-#boxfl(bottom)[== *🧩* L'idea di Impero <senza_numero>
+#boxfl(bottom)[== 🐺 L'idea di Impero <senza_numero>
 
 La denominazione Sacro Romano Impero riflette il duplice fondamento religioso e politico su cui si basava l'istituzione imperiale. La sacralità dell'Impero, il cui principale obiettivo era garantire l'ordine sociale in armonia con la salvezza delle anime, venne ufficializzata attraverso la cerimonia di incoronazione di Carlo Magno da parte del Papa.
 
@@ -69,7 +69,7 @@ Due volte all'anno i grandi dell'Impero si riunivano in assemblee chiamate placi
 
 La corte imperiale fu anche epicentro di una significativa rinascita culturale, nota come "rinascita carolingia", caratterizzata da un vigoroso impulso all'istruzione e dalla creazione della Schola Palatina. In questo prestigioso ambiente accademico furono raccolti i più grandi intellettuali dell'epoca, tra cui Paolo Diacono, Alcuino, Rabano Mauro, Teodolfo d'Orléans e Giovanni Scoto Eriugena, i quali produssero opere principalmente di carattere religioso e teologico.
 
-#boxfl(top)[== *🧩* La nuova scrittura <senza_numero>
+#boxfl(top)[== 🐺 La nuova scrittura <senza_numero>
 
 Un ruolo di particolare rilevanza culturale durante il periodo carolingio fu dato alla copiatura di antichi testi, in prevalenza religiosi, accompagnata da una significativa riforma della scrittura. Nel progetto di Carlo Magno era previsto che sorgessero scuole in ogni diocesi, il che implicava un aumento della domanda di libri. Gli scriptoria, ovvero i laboratori dove venivano copiati i manoscritti, operarono intensamente in quell'epoca.
 
@@ -87,8 +87,7 @@ La crisi dell'Impero carolingio fu aggravata dalle spinte centrifughe delle pote
 
 Nei decenni successivi si verificarono importanti cambiamenti dinastici: in Francia emerse la dinastia capetingia, mentre Arnolfo fu incoronato anche re d'Italia, unificando alla corona tedesca quella imperiale. Tuttavia, l'Impero carolingio era ormai irrimediabilmente frammentato.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Dai Merovingi ai Pipinidi: Nel 687 Pipino di Heristal, maestro di palazzo del Regno d'Austrasia, riuscì a consolidare il suo potere annettendo il Regno di Neustria, avviando così una significativa centralizzazione del dominio franco. Nel 724, suo erede Carlo Martello intraprese una serie di campagne militari finalizzate all'espansione territoriale e al rafforzamento dell'autorità dei Franchi. Degna di nota fu la vittoria di Carlo Martello nel 732 contro gli Arabi nella celebre Battaglia di Poitiers, che permise di ristabilire il controllo franco sulla Gallia meridionale.  \ Nel 751, su incarico di papa Zaccaria, il monaco Bonifacio consacrò Pipino il Breve, figlio di Carlo Martello, quale nuovo re dei Franchi, sancendo ufficialmente il passaggio dal regno merovingio al potere dei Pipinidi. Successivamente, nel 754, papa Stefano II conferì a Pipino e ai suoi figli il titolo di "patrizio dei Romani", rafforzando ulteriormente il legame tra la dinastia franca e la Chiesa. Alla morte prematura del fratello Carlomanno nel 771, Carlo Magno assunse la guida unica del regno, consolidando la sua posizione. \ Nel 774 Carlo Magno sconfisse Desiderio, ultimo re dei Longobardi, annettendo il regno longobardo ai domini franchi. Tra il 776 e il 787 intraprese varie campagne in Italia, conquistando il Ducato di Spoleto. Tuttavia, nel 778 fallì un'importante spedizione contro gli Arabi in Spagna, culminata nella disfatta della battaglia di Roncisvalle. Malgrado questa debacle, Carlo ottenne importanti successi militari: nel 785 completò la sottomissione dei Sassoni e incorporò la Germania meridionale nei suoi domini; nel 788 depose il duca Tassilone e annesse Baviera e Carinzia. Infine, nel 795 fu eletto papa Leone III, figura che avrebbe svolto un ruolo cruciale negli eventi successivi.
@@ -97,3 +96,5 @@ Nei decenni successivi si verificarono importanti cambiamenti dinastici: in Fran
 
 / Dissoluzione dell'impero: A Carlo Magno succedette Ludovico il Pio, che nel 817 promulgò l'ordinamento noto come _Ordinatio Imperii_. Con tale documento centralizzò ulteriormente i poteri, togliendo autonomia al Regno longobardo e trasformandolo nel _Regnum Italiae_. Tuttavia, dopo la morte di Ludovico nel 840, l'equilibrio ereditario fu spezzato dai conflitti tra i suoi figli. L'alleanza sancita nel Giuramento di Strasburgo del 842 tra Ludovico il Germanico e Carlo il Calvo contro il fratello maggiore Lotario anticipò la definitiva spartizione dell'impero: con il Trattato di Verdun del 843, i domini carolingi vennero suddivisi tra i tre eredi, segnando l'inizio della frammentazione politica. \ Un ulteriore passo verso la disgregazione del potere centrale avvenne nel 877 con il capitolare di Quierzy emanato da Carlo il Calvo. Tale provvedimento rese ereditari i feudi maggiori, dando avvio a un sistema feudale sempre più autonomo. Carlo il Grosso, ultimo esponente significativo della dinastia carolingia, riunificò temporaneamente l'impero nel 884 ma fu deposto pochi anni dopo, nel 887. La deposizione segnò ufficialmente la dissoluzione del potere carolingio e l'avvento di nuove strutture politiche nell'Europa medievale.
 
+
+]

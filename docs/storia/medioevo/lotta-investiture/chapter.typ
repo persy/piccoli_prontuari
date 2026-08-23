@@ -61,7 +61,7 @@ Gregorio VII, assediato in Castel Sant'Angelo, cercò aiuto presso i Normanni. T
 
 == Il Concordato di Worms
 
-#boxfl(bottom)[== *🧩* Il Concordato di Worms e lo spirito riformatore <senza_numero>
+#boxfl(bottom)[== 🐺 Il Concordato di Worms e lo spirito riformatore <senza_numero>
 
 A partire dal pontificato di Pasquale II, si consolidarono orientamenti dottrinali moderati in merito alla questione del conferimento delle investiture. Studiosi come Ivo di Chartres, Gregorio da Catino e Ugo di Fleury sostennero la necessità di un chiarimento sulla natura di tali investiture. Pur divergendo nelle loro posizioni, questi pensatori concordavano sull'idea che il sovrano conferisse esclusivamente il possesso di beni materiali e una giurisdizione civile, mentre il conferimento di un incarico religioso rimaneva al di fuori delle sue competenze.
 
@@ -75,8 +75,7 @@ La tensione tra Impero e Chiesa proseguì sotto il pontificato di Pasquale II (1
 
 Una soluzione alla controversia delle investiture giunse durante il pontificato di Callisto II (1119-1124). Nel 1122, grazie al Concordato di Worms, papa e imperatore giunsero a un accordo. Enrico V rinunciò al diritto di conferire le investiture ecclesiastiche mentre Callisto II accettò che queste avvenissero in Germania alla presenza dell'imperatore, che avrebbe assegnato i benefici temporali prima della consacrazione religiosa. Questo accordo rappresentò un compromesso significativo per la definizione del rapporto tra Chiesa e Impero nella lotta per la supremazia.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Imperatori sassoni e i vescovi-conti: In Germania, a partire dal 919 con l'avvento della dinastia sassone, i sovrani iniziano a conferire feudi e poteri di giurisdizione agli ecclesiastici. Ottone I, incoronato imperatore a Roma nel 962, stabilisce con il _Privilegium Othonis_ che l'elezione del pontefice debba avvenire con il consenso dell'imperatore. Successivamente, Ottone III interviene direttamente nelle nomine papali.
@@ -91,3 +90,5 @@ Una soluzione alla controversia delle investiture giunse durante il pontificato 
 
 
 
+
+]

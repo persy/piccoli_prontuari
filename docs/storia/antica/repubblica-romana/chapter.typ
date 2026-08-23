@@ -35,7 +35,7 @@ Come risultato, vennero istituiti i tribuni della plebe, figure incaricate di pr
 
 La lotta per l'emancipazione continuò nel tempo, portando a ulteriori conquiste: l'abolizione del divieto di matrimoni misti (445 a.C.), l'accesso alla questura (421 a.C.), al consolato tramite le leggi Licinie-Sestie (367 a.C.), ai collegi sacerdotali (300 a.C.) e il riconoscimento giuridico dei comizi tributi (287 a.C., legge Ortensia), i cui plebisciti divennero vincolanti per l'intera popolazione.
 
-#boxfl(top)[== *🧩* La legislazione scritta delle XII tavole <senza_numero>
+#boxfl(top)[== 🐺 La legislazione scritta delle XII tavole <senza_numero>
 
 Il codice delle XII tavole rappresentò il primo corpus di leggi scritte introdotto a Roma. Fino a quel momento, il diritto si fondava sulla consuetudine ed era interpretato arbitrariamente dai magistrati depositari del sapere giuridico. 
 
@@ -57,8 +57,7 @@ Nel momento in cui Roma intervenne nelle dispute interne di Turi, si trovò a fr
 
 Quando Pirro si spostò in Sicilia per sostenere le città greche contro i Cartaginesi, il conflitto prese nuova forma e si concluse con la vittoria romana nel 275 a.C., nella battaglia di Maleventum (che venne allora rinominata Beneventum). Successivamente le due forze stabilirono un'alleanza nel 272 a.C. A quel punto Roma esercitava il proprio dominio fino allo stretto di Messina, adottando diverse modalità di amministrazione: i municipi mantennero una certa autonomia amministrativa ma dovevano fornire truppe e pagare tributi; alcuni godevano anche di diritti politici; le città federate, alleate liberamente a Roma, avevano autonomia amministrativa e non pagavano tributi, ma restavano prive di diritti politici e dovevano contribuire con truppe; infine, le colonie fondate nei territori sottratti ai vinti avevano diritti civili e politici se abitate da Romani, mentre quelle abitate da Latini avevano gli stessi diritti delle città federate.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Dalla Monarchia alla Repubblica: In seguito alla cacciata di Tarquinio il Superbo, ultimo re di Roma, ad opera di una rivolta patrizia, viene introdotta la carica di consolato. I primi due consoli eletti sono Bruto e Collatino.
@@ -66,3 +65,4 @@ Quando Pirro si spostò in Sicilia per sostenere le città greche contro i Carta
 / Dalle secessioni plebee alla conquista di Veio: Nel 494 a.C., per protestare contro le disuguaglianze dei diritti rispetto ai patrizi, i plebei si ritirano sul Monte Sacro (o, secondo alcune fonti, sull'Aventino). Questo gesto porta alla nascita del tribunato della plebe. Nel 493 a.C., Spurio Cassio sigla il _Foedus Cassianum_, un'alleanza con le città latine. Fino al 430 a.C. si susseguono guerre con i popoli confinanti. \ Tra il 451 e il 450 a.C., il diritto consuetudinario viene trasformato in un codice scritto, favorendo l'uguaglianza giuridica tra plebei e patrizi. Nel 445 a.C., viene abolito il divieto di matrimoni misti tra patrizi e plebei; successivamente, nel 421 a.C., i plebei ottengono accesso alla questura. Nel 396 a.C., dopo un assedio durato dieci anni, i Romani conquistano la città etrusca di Veio.
 
 / Dall'invasione dei Galli alle guerre contro Pirro: Nel 390 a.C., i Galli saccheggiano e incendiano Roma, provocando instabilità nella regione. Alcuni vecchi alleati di Roma si ribellano, ma la città riesce, attraverso complesse e prolungate campagne militari, a ristabilire la sua supremazia. Le leggi Licinie-Sestie del 367 a.C. garantiscono ai plebei l'accesso al consolato. \ Tra il 343 e il 290 a.C., Roma affronta i Sanniti in tre guerre (343-341; 326-304; 298-290 a.C.). Inoltre, tra il 340 e il 338 a.C., i Romani sconfiggono le città della Lega Latina, consolidando il loro dominio nella regione. Nel 300 a.C., i plebei ottengono il diritto di ricoprire cariche sacerdotali. Successivamente, nel 287 a.C., la legge Ortensia sancisce l'autorità dei comizi tributi, assicurando la validità delle decisioni prese dalle assemblee popolari. \ Tra il 280 e il 275 a.C., Roma si scontra con Taranto, difesa da Pirro, re dell'Epiro. Nonostante alcune sconfitte iniziali, i Romani ottengono una vittoria decisiva nella battaglia di Maleventum, nel 275 a.C., che poi sarà rinominata Beneventum. Due anni dopo, nel 272 a.C., viene firmata un'alleanza conclusiva tra Roma e Taranto.
+]

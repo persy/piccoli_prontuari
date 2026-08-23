@@ -33,7 +33,7 @@ Con la Pace di Amiens (1802), la Francia ottenne dall'Inghilterra la restituzion
 
 Nel 1802 Napoleone fu proclamato console a vita e assunse la presidenza della Repubblica Italiana. Repressa l'opposizione realista, culminata nel complotto di Cadoudal (1803), fece giustiziare il duca d'Enghien (21 marzo 1804), consolidando la propria posizione politica.
 
-#boxfl(top)[== *🧩* Napoleone e l'Italia <senza_numero>
+#boxfl(top)[== 🐺 Napoleone e l'Italia <senza_numero>
 
 Durante la prima campagna d'Italia, Napoleone dimostrò grande abilità nel utilizzare a proprio vantaggio, e a beneficio della Francia, il fervore dei patrioti italiani, desiderosi di creare nuove entità politiche influenzate dall'esempio francese. Con un'acuta strategia, cercò sempre di evitare che i giacobini italiani, democratici convinti e sostenitori dell'unità nazionale, prendessero il sopravvento. Questi erano in parte già delusi dalla cessione di Venezia all'Austria sancita con la Pace di Campoformio. Napoleone preferiva invece affidarsi al "dotto, ricco volgo", una classe sociale più moderata, meglio disposta ad adattarsi ai suoi piani e riconoscente per l'opportunità di assumere il controllo politico ed economico del nuovo assetto statale.
 
@@ -65,8 +65,7 @@ Con le truppe esperte impegnate in Spagna e privato di risorse adeguate, mentre 
 
 Nel marzo del 1815 Napoleone riuscì a fuggire dalla sorveglianza inglese e fece ritorno in Francia il primo giorno del mese. La popolazione, insoddisfatta dal regime dei Borboni, favorì il suo ritorno al potere durante i "Cento Giorni". Tuttavia, fu definitivamente sconfitto nella battaglia di Waterloo il 18 giugno 1815 dalla Settima coalizione. Abdicò nuovamente il 22 giugno e si consegnò agli inglesi, che lo deportarono sull'isola di Sant'Elena. Qui morì il 5 maggio 1821. Le sue ceneri vennero riportate in patria solo nel 1840.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / L'ascesa: Nato in Corsica nel 1769, Napoleone acquisì notorietà con l'assedio di Tolone, guadagnandosi il comando dell'Armata d'Italia. Alla guida di questa forza, conquistò il Nord Italia e impose all'Austria la Pace di Campoformio nel 1797, dimostrando straordinarie capacità strategiche e una marcata autonomia politica.
@@ -74,3 +73,5 @@ Nel marzo del 1815 Napoleone riuscì a fuggire dalla sorveglianza inglese e fece
 / La presa di potere: Dopo il rientro dalla sfortunata campagna in Egitto, Napoleone prese parte al colpo di Stato del 18 brumaio, conquistando il potere. Da quel momento avviò un'importante riorganizzazione dello Stato, intervenendo su giustizia, istruzione e codice legislativo. La vittoria di Marengo nel 1800 consolidò le sue posizioni sia a livello nazionale, con il titolo di Console a vita, sia internazionale, attraverso la Pace di Amiens.
 
 / L'impero: Nel 1804 fu proclamato imperatore e inaugurò un'aggressiva politica espansionistica in Europa. Affidò ai suoi familiari la guida di nuovi stati e propagò le conquiste della Rivoluzione francese. Contro l'egemonia francese si formarono coalizioni europee che Napoleone seppe inizialmente sconfiggere con maestria a Austerlitz nel 1805, Eylau nel 1807 e Wagram nel 1809. Tuttavia, la guerriglia spagnola, il rifiuto britannico al Blocco Continentale e la fallimentare campagna di Russia del 1812 portarono alla sconfitta di Lipsia nel 1813 e alla sua prima abdicazione. Un ultimo tentativo di ritorno al potere, conosciuto come i Cento Giorni, si concluse con la disfatta di Waterloo nel 1815. Esiliato nell'isola di Sant'Elena, vi morì nel 1821.
+
+]

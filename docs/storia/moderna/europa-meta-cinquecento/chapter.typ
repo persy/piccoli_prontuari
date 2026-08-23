@@ -23,7 +23,7 @@ La promulgazione dell'Editto di Nantes da parte di Enrico IV nel 1598 rappresent
 
 == Gli Asburgo di Spagna: Filippo II
 
-#boxfl(bottom)[== *🧩* L'Impero <senza_numero>
+#boxfl(bottom)[== 🐺 L'Impero <senza_numero>
 
 Con la morte di Carlo V nel 1558, l'Impero passò al fratello Ferdinando, già re di Boemia e Ungheria, che venne eletto imperatore con il nome di Ferdinando I. Egli modernizzò l'organizzazione dei domini ereditari istituendo vari organi di governo, tra cui il Consiglio segreto per le questioni riservate, il Consiglio aulico per la politica estera, la Camera aulica per le finanze e un ulteriore Consiglio aulico per la difesa e la guerra.
 
@@ -65,8 +65,7 @@ Un evento chiave del suo regno fu la condanna e decapitazione di Maria Stuart, c
 
 Elisabetta I fu anche una rinomata mecenate delle arti, promuovendo opere profondamente influenzate dalla cultura rinascimentale italiana e fiamminga.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Francia: Durante i regni di Caterina de' Medici e dei suoi figli, il paese fu segnato dalle devastanti guerre di religione tra cattolici e ugonotti. Gli editti precedenti avevano garantito ai nobili ugonotti il diritto di professare liberamente il loro culto. Tuttavia, nel massacro della Notte di San Bartolomeo (1572), migliaia di ugonotti furono uccisi a Parigi, scatenando una guerra che culminò con l'ascesa al trono di Enrico di Borbone, leader ugonotto, dopo la sua conversione al cattolicesimo. Con l'Editto di Nantes (1598), fu riconosciuta a tutti piena libertà di culto.  
@@ -79,3 +78,5 @@ Elisabetta I fu anche una rinomata mecenate delle arti, promuovendo opere profon
 
 / Impero: Ferdinando I riorganizzò i domini ereditari degli Asburgo, rafforzando il potere della dinastia attraverso l'istituzione di organi amministrativi sotto il controllo diretto del sovrano. Suo figlio Massimiliano II, più incline al protestantesimo, concesse piena libertà religiosa nei territori imperiali.  
 
+
+]

@@ -33,7 +33,7 @@ Nel 1837 fu costretto a trasferirsi in Inghilterra dopo essere stato colpito da 
 
 Nel giugno 1844, alcuni suoi sostenitori, i fratelli Attilio ed Emilio Bandiera, organizzarono autonomamente, andando contro il parere del loro leader, un tentativo di sbarco in Calabria, confidando nell'appoggio dei contadini locali. Tuttavia, la popolazione rurale, ancora scarsamente preparata all'insurrezione, rimase indifferente; i rivoluzionari furono abbandonati al loro destino, arrestati e fucilati dalla polizia borbonica insieme ad altri sette compagni.
 
-#boxfl(top)[== *🧩* La "tempesta del dubbio" <senza_numero>
+#boxfl(top)[== 🐺 La "tempesta del dubbio" <senza_numero>
 
 Dopo il fallimento dei piani insurrezionali del 1833 e del 1834, Giuseppe Mazzini attraversò una profonda crisi personale conosciuta come "tempesta del dubbio". Nei suoi scritti di quel periodo traspare tutta la disperazione per le vite sacrificate nella lotta, molte delle quali appartenevano a veri amici, tra cui Jacopo Ruffini.
 
@@ -69,8 +69,7 @@ Nel Lombardo-Veneto l'Austria implementò riforme amministrative e scolastiche, 
 
 Infine, nello Stato Sabaudo Carlo Alberto, succeduto nel 1831 a Carlo Felice, pur mantenendo una visione conservatrice, introdusse importanti riforme economiche e amministrative ispirate alla legislazione napoleonica.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Dal 1815: Prende avvio in Italia il Risorgimento, il processo che condurrà all'unificazione nazionale. I moti del '20 e del '30 avevano già evidenziato l'inefficacia delle società segrete.
@@ -79,3 +78,5 @@ Infine, nello Stato Sabaudo Carlo Alberto, succeduto nel 1831 a Carlo Felice, pu
 
 
 
+
+]

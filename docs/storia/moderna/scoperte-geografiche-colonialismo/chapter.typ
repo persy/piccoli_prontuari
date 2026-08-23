@@ -21,7 +21,7 @@ Parallelamente, navigatori come Magellano tra il 1519 e il 1522 si avventuravano
 
 Nei secoli XVII e XVIII, il Pacifico divenne protagonista delle maggiori imprese esplorative. Viaggiatori come Tasman (1642-1643), Bougainville (1767-1768), von Humboldt (1799-1804) e soprattutto James Cook (1768-1779) unirono interessi commerciali e militari a finalità scientifiche, ampliando ulteriormente la conoscenza geografica mondiale.
 
-#boxfl(top)[== *🧩* Cristoforo Colombo <senza_numero>
+#boxfl(top)[== 🐺 Cristoforo Colombo <senza_numero>
 
 Cristoforo Colombo, partendo dalla convinzione che la Terra fosse rotonda, riteneva possibile raggiungere le Indie navigando verso occidente. Tuttavia, sottovalutò l'estensione del continente asiatico verso est, calcolando erroneamente la distanza tra Europa e Indie. I sovrani spagnoli che finanziarono il suo viaggio si impegnarono a conferirgli i titoli di ammiraglio e viceré delle terre che avrebbe acquisito per la Spagna, oltre a garantire un decimo dei profitti derivanti dalle sue scoperte (Capitolazioni di Santa Fé).
 
@@ -57,8 +57,7 @@ La Francia fece il suo ingresso tardivo sulla scena coloniale, spinta dall'ambiz
 
 L'impero coloniale olandese nacque grazie all'iniziativa di mercanti ed era motivato esclusivamente da ragioni economiche, senza alcun intento religioso o politico. L'Olanda fondò colonie commerciali e di sfruttamento nell'arcipelago indonesiano, nella penisola indiana, in Nuova Guinea, in Africa e in America (Antille e Suriname). L'unica colonia di popolamento fu quella fondata nel 1652 nell'attuale Sudafrica dai coloni olandesi, dai quali in seguito discese la comunità boera.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Colombo: Cristoforo Colombo, convinto che la Terra fosse sferica, ottenne il finanziamento della corona spagnola per intraprendere un viaggio alla ricerca di una nuova rotta verso le Indie nel 1492. Tuttavia, il suo approdo il 12 ottobre dello stesso anno segnò la scoperta del continente americano. Nei successivi viaggi Colombo proseguì l'esplorazione delle terre appena scoperte. 
@@ -69,3 +68,5 @@ L'impero coloniale olandese nacque grazie all'iniziativa di mercanti ed era moti
 
 / Imperi coloniali: Spagna e Portogallo stabilirono le rispettive sfere d'influenza mondiali con il Trattato _de la raya_ del 1494. La Spagna, attraverso le spedizioni di Hernán Cortés contro gli Aztechi (1519-1522) e di Francisco Pizarro contro gli Incas (1531-1534), conquistò vasti territori interni dove le popolazioni locali furono costrette al lavoro nelle miniere di metalli preziosi in condizioni di schiavitù. \ Il territorio coloniale spagnolo fu organizzato in _encomiendas_, grandi appezzamenti gestiti dai conquistadores con una struttura simile a quella feudale. Nonostante le proteste dei gesuiti, che cercarono di proteggere gli indigeni creando le _reducciones_ -- comunità basate sulla proprietà comune della terra -- gli abusi contro le popolazioni locali rimasero frequenti e difficili da arginare.
 
+
+]

@@ -27,7 +27,7 @@ Le idee di Proudhon furono ancora più radicali. Egli auspicava un modello di au
 
 Prima della diffusione delle idee di Marx, alcuni altri esperimenti socialisti si distinsero. Sul piano politico spiccarono le attività di Louis Blanqui, mentre sul piano pratico si ricordano quelle di Louis Blanc, ideatore degli _ateliers nationaux_.
 
-#boxfl(bottom)[== *🧩* I partiti socialisti <senza_numero>
+#boxfl(bottom)[== 🐺 I partiti socialisti <senza_numero>
 
 I partiti socialisti nazionali cominciarono a emergere nella scena europea a partire dal 1875. Un evento cruciale fu la fondazione del Partito Socialdemocratico Tedesco (SPD) durante il congresso di Gotha. Nei decenni successivi si affermarono anche il Partito Operaio Francese nel 1880 e il Partito Operaio Italiano nel 1882, da cui nasce il Partito Socialista Italiano nel Congresso di Genova del 1892. Inoltre, il Partito Operaio Socialdemocratico Russo venne costituito nel 1898, contribuendo alla diffusione delle istanze socialiste.  
 
@@ -68,11 +68,12 @@ In tale contesto, senza ricorrere all'autorità di un Concilio ecumenico, procla
 
 Un ulteriore segnale della sua opposizione alle idee del tempo giunse nel 1864 con la pubblicazione del Sillabo, allegato all'enciclica _Quanta Cura_. Il documento elencava una serie di proposizioni condannate dalla Chiesa, tra le quali spiccavano quelle riguardanti la libertà religiosa, il liberalismo e il socialismo, ribadendo la posizione rigidamente critica del pontefice rispetto ai cambiamenti socio-politici in atto.  
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1800-1848: Durante questo periodo si diffondono le idee di intellettuali e imprenditori filantropi, che analizzano le difficili condizioni dei lavoratori nelle fabbriche e propongono nuovi modelli di organizzazione sociale. Robert Owen (1751-1858) introduce riforme umanitarie nella sua fabbrica di cotone, ma l'esperimento di New Harmony (1826-1828) si rivela un fallimento.  \ Charles Fourier (1772-1837), ideatore dell'armonia universale, costruisce la sua teoria intorno al concetto di "falansterio". \ Claude-Henry Saint-Simon (1760-1825), sostenitore dell'industrializzazione, promuove un approccio scientifico alle questioni sociali, dando vita al movimento del Saint-Simonismo, a cui aderirà anche Giuseppe Mazzini. \ Pierre-Joseph Proudhon (1809-1865), fautore dell'anarchia e critico della proprietà privata che ritiene "un furto", contribuisce a radicalizzare il dibattito.  
 
 / 1848-1900: Karl Marx (1818-1883) e Friedrich Engels (1820-1895) gettano le basi scientifiche del socialismo, teorizzando la rivoluzione proletaria. Il 28 settembre 1864 nasce a Londra l'Associazione Internazionale dei Lavoratori (Prima Internazionale), il cui programma viene redatto da Marx. Nel 1867 viene pubblicato a Londra il primo volume de "Il Capitale", opera fondamentale di Marx. \ La Prima Internazionale viene sciolta nel 1876, a seguito di tensioni con Bakunin durante una riunione a Philadelphia. Nel 1889 si istituisce a Parigi la Seconda Internazionale, che sostiene la creazione di partiti socialisti nazionali. Nel frattempo, la Chiesa assume una posizione ostile ai cambiamenti sociali, esprimendo la sua condanna attraverso il Sillabo del 1864.
 
+
+]

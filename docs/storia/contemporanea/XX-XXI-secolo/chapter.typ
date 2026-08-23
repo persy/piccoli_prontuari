@@ -29,7 +29,7 @@ Sul piano interno e internazionale, il quadro subisce un'accelerazione drammatic
 
 Nel gennaio 2002 emerge lo scandalo Enron, relativo al fallimento del colosso energetico americano, coinvolgendo personalità vicine all'amministrazione presidenziale. Parallelamente, Bush identifica nei cosiddetti "Paesi canaglia" -- Iraq, Iran e Corea del Nord -- gli obiettivi prioritari della sua offensiva antiterroristica globale, definendoli parte integrante dell'"asse del male". Le dichiarazioni si traducono in azioni concrete nel marzo 2003, quando gli Stati Uniti -- affiancati dalla Gran Bretagna e da altri Paesi -- avviano l'operazione Iraq Freedom, bypassando il veto annunciato dal Consiglio di Sicurezza delle Nazioni Unite per intraprendere le ostilità contro l'Iraq.
 
-#boxfl(top)[== *🧩* L'11 settembre 2001 <senza_numero>
+#boxfl(top)[== 🐺 L'11 settembre 2001 <senza_numero>
 
 L'attacco terroristico più spettacolare e inquietante della storia moderna si svolge nella prima mattina dell'11 settembre 2001 e si consuma in poco più di un'ora, sconvolgendo il mondo intero.
 
@@ -177,8 +177,7 @@ Sul fronte militare, il riassetto strategico in Europa ha visto un ruolo signifi
 
 L'avanzata dell'Occidente verso i territori dell'ex impero sovietico si è spinta fino alle aree periferiche della Russia, con la presenza di truppe statunitensi nel Caucaso, in Georgia (in relazione alla questione cecena), e in Asia centrale, in Kirghizistan e Uzbekistan. Questi interventi si sono inseriti nel contesto della crisi afghana in evoluzione.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Stati Uniti: Dopo il duplice mandato presidenziale (1992-2000) del democratico Bill Clinton, nel 2001 il repubblicano George W. Bush ha adottato una politica estera improntata all'unilateralismo. L'attacco terroristico dell'11 settembre 2001, portando per la prima volta la guerra al cuore del territorio americano, ha determinato l'avvio delle operazioni militari contro l'Afghanistan (2001) e successivamente contro l'Iraq (2003).
@@ -201,3 +200,5 @@ L'avanzata dell'Occidente verso i territori dell'ex impero sovietico si è spint
 
 / Italia: Al primo governo Romano Prodi (1996), durante il quale il Paese ha aderito alla zona euro, sono seguiti gli esecutivi di Massimo D'Alema (1998) e Giuliano Amato (2000). Con Silvio Berlusconi il centro-destra è tornato al governo, promuovendo un programma di liberalizzazioni. Nel maggio 2006 si è insiedata una coalizione di centro-sinistra portando al governo Romano Prodi.
 
+
+]

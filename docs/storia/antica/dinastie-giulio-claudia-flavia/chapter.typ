@@ -31,7 +31,7 @@ In città si diffuse però l'ipotesi che fosse stato lo stesso Nerone a provocar
 
 La situazione divenne insostenibile quando Nerone alienò anche l'appoggio dei militari con l'uccisione del generale Corbulone. Amareggiati dalla sua condotta, nel 68 d.C., le truppe stanziate in Lusitania si ribellarono e proclamarono imperatore il loro comandante Galba. Abbandonato da tutti i suoi appoggi politici e militari, Nerone fu infine costretto a suicidarsi.
 
-#boxfl(top)[== *🧩* Dagli accampamenti alle città <senza_numero>
+#boxfl(top)[== 🐺 Dagli accampamenti alle città <senza_numero>
 
 Fin dal I secolo d.C., i Romani costruirono un sistema di fortificazioni, noto come limes, lungo i confini settentrionali per difendersi dalle incursioni delle popolazioni germaniche. Strutture analoghe furono erette a Oriente lungo il fiume Danubio. Questi interventi ebbero un impatto significativo sul piano geografico e demografico.
 
@@ -51,8 +51,7 @@ Domiziano ampliò i confini imperiali combattendo contro i Catti, una popolazion
 
 Sul piano amministrativo riformò la gestione delle province, introducendo un controllo più severo sull'operato dei governatori. Tuttavia, la sua propensione al dispotismo lo rese inviso al Senato e provocò varie congiure contro di lui, culminate nella trama definitiva del 96 d.C. ordita dai prefetti del pretorio e da sua moglie Domizia Longina, che pose fine al suo regno.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Dinastia Giulio-Claudia: Nel 14 d.C., alla morte di Augusto, il potere imperiale passa a Tiberio, suo figlio adottivo. Durante il periodo tra il 14 e il 16 d.C., Germanico, nipote di Tiberio, riporta diverse vittorie contro le tribù germaniche. Nel 26 d.C., Tiberio si ritira nella sua villa sull'isola di Capri, delegando la gestione del governo al prefetto del pretorio, Seiano. Quest'ultimo trama per ottenere il trono, ma nel 31 d.C. Tiberio ritorna a Roma e ordina l'esecuzione di Seiano insieme ai suoi sostenitori. \ Tiberio muore nel 37 d.C. e il Senato proclama imperatore suo nipote Caligola. Sebbene Caligola mostri atteggiamenti da sovrano assolutista, conquista il favore della plebe; tuttavia, la sua impopolarità presso la nobiltà senatoria culmina in una congiura dei pretoriani nel 41 d.C., che lo conducono alla morte. Dopo la sua uccisione, i pretoriani innalzano al trono Claudio, zio di Caligola. \ Durante il regno di Claudio, nel 44 d.C., viene conquistata la parte meridionale della Britannia, dove sorgerà Londra. Nel 54 d.C., Claudio viene assassinato per ordine di sua moglie Agrippina, che garantisce la successione al figlio naturale, Nerone. \ Liberatosi dalla madre e dai suoi tutori, Afranio Burro e Seneca, Nerone conduce un governo caratterizzato da pratiche dispotiche. Nel 64 d.C., un vasto incendio devasta Roma; secondo alcune ipotesi, orchestrato dallo stesso Nerone, il quale attribuisce la colpa ai cristiani. La situazione politica degenera nel 68 d.C., con la rivolta delle legioni in Lusitania che proclamano Galba come imperatore. Nerone, incapace di fronteggiare la crisi, si vede costretto a suicidarsi.
@@ -63,3 +62,5 @@ Sul piano amministrativo riformò la gestione delle province, introducendo un co
 
 
 
+
+]

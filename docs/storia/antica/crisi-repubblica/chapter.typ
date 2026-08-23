@@ -45,8 +45,7 @@ Silla, furioso, sconfisse i sostenitori di Mario, costringendolo alla fuga, e ma
 
 Silla, impegnato in Asia, riportò vittoria contro Mitridate e, nell'83 a.C., fece ritorno in Italia. Con l'aiuto di Gneo Pompeo, combatté gli Italici e i seguaci di Mario, sconfiggendoli entrambi. Dopo aver consolidato la propria posizione, si fece nominare dittatore e avviò una serie di repressioni brutali verso gli oppositori. Confiscò numerose terre per distribuirle ai suoi soldati e accrebbe la propria ricchezza approfittando delle persecuzioni. Sul piano politico, restaurò l'autorità del Senato limitando il potere dei tribuni e dei cavalieri. Infine, con grande sorpresa, abdicò dalla dittatura e si ritirò a Pozzuoli dove morì nel 78 a.C.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Crisi economico-sociale e riforma dei Gracchi: Dopo il confronto con l'Oriente, Roma si trova ad affrontare una grave crisi amministrativa. I senatori rafforzano il loro potere, entrando in conflitto con i cavalieri, mentre gli ottimati si appropriano delle terre dell'ager publicus, impoverendo ulteriormente le classi medie. Nel 133 a.C., Tiberio Gracco viene eletto tribuno della plebe e introduce una riforma per la redistribuzione delle terre, ma trova la morte durante un tumulto. \ Dieci anni dopo, nel 123 a.C., il fratello Caio Gracco assume la carica di tribuno e propone una nuova serie di riforme, incontrando però l'opposizione del Senato. Nel 121 a.C. il Senato emana il senatus consultum ultimum, che assegna pieni poteri ai consoli, tra cui Lucio Opimio, accanito oppositore di Caio. Sentendosi sconfitto, Caio decide di togliersi la vita, mentre i suoi sostenitori vengono brutalmente eliminati.
@@ -55,3 +54,5 @@ Silla, impegnato in Asia, riportò vittoria contro Mitridate e, nell'83 a.C., fe
 
 / Guerra sociale e Silla: Nel 91 a.C., l'uccisione del tribuno Livio Druso per le sue proposte invise alla classe dirigente scatena la rivolta dei soci Italici contro Roma, dando inizio alla guerra sociale. Per contrastare l'insurrezione, Roma affida il comando a Mario, Pompeo Strabone e Cornelio Silla. Dopo anni di lotte, la rivolta viene sedata nell'88 a.C., ma la situazione si complica ulteriormente quando a Silla viene tolto il comando della guerra contro Mitridate. Silla risponde marciando su Roma con il proprio esercito, generando una guerra civile contro i suoi oppositori politici. Nell'87 a.C. Silla espugna Atene e sconfigge Mitridate. \ Nel frattempo Mario, tornato in Italia dopo una fuga, riesce temporaneamente a prendere Roma con un esercito, ma muore l'anno seguente, nell'86 a.C. Silla torna nuovamente in Italia nell'83 a.C., alleandosi con Gneo Pompeo per combattere gli Italici e liquidare i seguaci di Mario. Dopo aver consolidato il proprio potere, si fa proclamare dittatore. Muore nel 78 a.C., lasciando alle sue spalle una Roma segnata da profonde divisioni e trasformazioni politiche.
 
+
+]

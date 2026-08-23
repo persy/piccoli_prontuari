@@ -33,7 +33,7 @@ Una volta consolidata la comunità dei credenti originari, i musulmani (muslim, 
 
 Da quel momento iniziò un processo di espansione esponenziale dell'Islam, che portò Muhammad a estendere la sua autorità su quasi tutta la penisola arabica. Poco dopo, nel 632 d.C., Muhammad morì senza aver fornito indicazioni precise sulla propria successione.
 
-#boxfl(top)[== *🧩* La religione islamica <senza_numero>
+#boxfl(top)[== 🐺 La religione islamica <senza_numero>
 
 Nella concezione islamica, la tradizione (_ad din_) affonda le radici nell'origine stessa della Creazione, con Adamo come primo khalifa. La rivelazione coranica tramandata al Profeta Muhammad chiude il ciclo delle rivelazioni prima della seconda venuta di Cristo, riconosciuto dai musulmani come il Paraclito promesso da Gesù.
 
@@ -55,8 +55,7 @@ Verso il 750, una rivolta diede origine alla dinastia abbaside (750-1258), con i
 
 La questione araba ha assunto una rilevanza centrale nel panorama mediorientale soprattutto dal 1945. Nonostante siano frequenti tentativi di trasformare l'Islam in ideologia politica, questa religione resta principalmente una dimensione spirituale globale, diffusa principalmente tra i non arabi (gli arabi rappresentano il 20% dei musulmani), includendo una quota crescente di europei.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Arabia preislamica: I primi regni dell'Arabia meridionale, tra cui emerge quello dei Nabatei, si sviluppano tra l'VIII e il III secolo a.C. Nel 106 d.C., l'imperatore Traiano istituisce la provincia romana d'Arabia. Nei secoli V e VI d.C., la Mecca si afferma come un importante centro commerciale e religioso.
@@ -70,3 +69,5 @@ La questione araba ha assunto una rilevanza centrale nel panorama mediorientale 
 / Dagli Abbasidi alla conquista mongola: Intorno al 750, una rivolta porta al potere la dinastia degli Abbasidi, che trasferisce la capitale a Baghdad. Nell'827 conquista la Sicilia, mentre nell'XI secolo inizia l'espansione in India. Tuttavia, sotto gli Abbasidi, l'Impero si frammenta progressivamente: alcune regioni governate da emiri guadagnano autonomia formale (come Tunisia, Marocco ed Egitto). Contemporaneamente i Turchi Selgiuchidi conquistano la Persia ed espugnano Baghdad. Nel 1258 i Mongoli rovesciano il califfato abbaside.
 
 
+
+]

@@ -35,7 +35,7 @@ La Persia, corrispondente all'attuale Iran, venne unificata grazie alla leadersh
 
 Nella Bibbia viene ricordato per aver liberato gli Ebrei dalla prigionia babilonese, consentendo loro di tornare nella propria terra. La sua amministrazione si distinse per la tolleranza religiosa, la clemenza verso i popoli vinti e la sua attenzione per i sudditi. Senofonte celebrò la sua figura ideale nella "Ciropedia". Il figlio Cambise proseguì la politica espansionistica conquistando l'Egitto nel 525 a.C., trasformandolo in una provincia dell'impero persiano. Dario I (522-486 a.C.), successore di Cambise, affrontò gli Sciti e i Greci, conquistò la Tracia e la Macedonia, ma subì una pesante sconfitta dai Greci nella battaglia di Maratona del 490 a.C.
 
-#boxfl(top)[== *🧩* Dario I e le sue riforme <senza_numero>
+#boxfl(top)[== 🐺 Dario I e le sue riforme <senza_numero>
 
 Dario I è ricordato per le principali riforme che riorganizzarono l'Impero persiano. Divise il regno in venti satrapie rispettando le diversità etniche e religiose presenti sul territorio. Queste unità amministrative erano gestite da funzionari civili e militari subordinati a un segretario regio. 
 
@@ -57,8 +57,7 @@ L'esercito persiano si distingueva per la sua efficienza e forza militare. Oltre
 
 La religione persiana, introdotta dal profeta Zarathustra nel VI secolo a.C., è ancora praticata da circa 100.000 fedeli, principalmente in India (comunità Parsi). Il culto era gestito dai Magi, una casta sacerdotale. Ahura Mazda, il dio della luce, si contrapponeva eternamente a Arimane (Angra Mainyu), la divinità delle tenebre e del male. Secondo questa visione religiosa, l'uomo è libero di scegliere tra il bene e il male. Gli imperatori persiani erano considerati vicari terreni di Ahura Mazda, incaricati di garantire la vittoria del bene attraverso un Impero universale.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / II-I millennio a.C.: Tra i secoli XX e XVIII a.C., gli Assiri stabiliscono diverse colonie mercantili in Anatolia. Dal XV secolo cadono sotto il dominio del Regno hurrita dei Mitanni, fino a essere liberati da Assuruballit I nel XIII secolo. \ Intorno al 1200 a.C., i Medi e i Persiani si insediano nell'altopiano iranico: i Medi occupano la parte settentrionale, vicino al Mar Caspio, mentre i Persiani si stabiliscono al sud, nei pressi del Golfo Persico. Durante il regno di Tiglatpileser III (746-727 a.C.), l'Impero Assiro raggiunge il suo apogeo, adottando un sistema di governo centralizzato. Sotto Sennacherib (704-681 a.C.) e Assaraddon (681-669 a.C.), l'Assiria estende le proprie frontiere al massimo. \ Con Assurbanipal (668-626 a.C.), iniziano i primi segni di declino: i Babilonesi si ribellano e i Medi infliggono colpi decisivi alla stabilità dell'impero.
@@ -69,3 +68,5 @@ La religione persiana, introdotta dal profeta Zarathustra nel VI secolo a.C., è
 
 / Conquista araba: La presa della Persia da parte degli Arabi nel 636 d.C. dà inizio alla diffusione dell'Islam nella regione.
 
+
+]

@@ -81,7 +81,7 @@ Il 21 aprile 1996 la coalizione di centrosinistra, denominata L'Ulivo e guidata 
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* Economia e lavoro nel dopoguerra <senza_numero>
+== 🐺 Economia e lavoro nel dopoguerra <senza_numero>
 
 Riguardo all'economia e al lavoro nel dopoguerra, l'Italia si trovò di fronte a enormi difficoltà. Tuttavia, grazie alle politiche messe in atto dal ministro del Bilancio Luigi Einaudi nel 1947, che tra le altre cose arginarono l'inflazione con una stretta sul credito industriale, i danni vennero gradualmente riparati.
 
@@ -93,8 +93,7 @@ Nonostante queste disparità regionali, il sistema economico italiano mantenne s
 
 Negli anni Ottanta si registrò una nuova fase di espansione economica. Tuttavia, l'inefficienza del sistema politico e le avverse condizioni internazionali causarono nei primi anni Novanta una nuova crisi dalla quale l'Italia, nel 1996, non era ancora completamente uscita.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1945-1948: Il primo dopoguerra è dominato dalla figura di Alcide De Gasperi (1881-1954), leader della Democrazia Cristiana, alla guida di governi sostenuti dal PSI e dal PCI. Con il referendum del 2 giugno 1946, la Repubblica vince sull'opzione monarchica. La "guerra fredda" causa una frattura tra DC e PCI, portando alla nascita della politica centrista. Alle elezioni del 1948, la DC raggiunge l'impressionante risultato del 48% dei voti.  
@@ -104,3 +103,4 @@ Negli anni Ottanta si registrò una nuova fase di espansione economica. Tuttavia
 / 1958-1968: In questi anni si assiste a un aumento delle masse operaie e nel 1958 viene eletto Papa Giovanni XXIII (1958-1963). La DC include il PSI nella maggioranza di governo, suscitando forti polemiche. Il governo Tambroni, orientato a destra, è travolto nel 1960 da proteste popolari. Nel 1962, Amintore Fanfani e Aldo Moro concretizzano l'alleanza tra DC e PSI, nonostante timori tra i conservatori e vicende come il Piano Solo. Nei tardi anni Sessanta, la stagnazione economica e la paralisi politica alimentano tra studenti e lavoratori pressanti richieste di cambiamento, culminando nelle manifestazioni del 1968.  
 
 / 1968-1996: La reazione al movimento del '68 vede emergere gruppi eversivi: quelli di destra organizzano attentati legati alle cosiddette "trame nere", mentre l'estremismo di sinistra si concretizza nelle Brigate Rosse, che mirano a trasformare la società in senso marxista. Nel 1978 avviene l'episodio simbolico della crisi italiana: il 16 marzo, giorno del "compromesso storico", Aldo Moro, protagonista dell'accordo tra DC e PCI, viene rapito e successivamente trovato morto il 9 maggio. Negli anni Ottanta emergono governi DC-PSI e Bettino Craxi diventa nel 1983 il primo Presidente del Consiglio socialista della storia italiana. Questi anni vedono il radicarsi della corruzione politica attraverso tangenti e connessioni con la criminalità organizzata. Nel 1993 esplode lo scandalo di Tangentopoli, che distrugge il sistema tradizionale dei partiti politici. Emergono nuove forze politiche e nel 1996 si registra la vittoria del centro-sinistra nelle elezioni.
+]

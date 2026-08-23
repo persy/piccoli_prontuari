@@ -65,7 +65,7 @@ Roma fu sede dell'attività di studiosi come Lorenzo Valla e Giulio Pomponio Let
 
 == Letteratura, arte e scienza
 
-#boxfl(top)[== *🧩* La diffusione delle armi da fuoco <senza_numero>
+#boxfl(top)[== 🐺 La diffusione delle armi da fuoco <senza_numero>
 
 La rivoluzione rinascimentale non si limitò ai campi artistico, letterario e filosofico, ma interessò anche il settore tecnico. Tra le innovazioni più significative emerse la diffusione delle armi da fuoco. Già nel Medioevo la cavalleria feudale aveva ceduto il passo alla fanteria: mercenari armati di lance e archi riuscivano facilmente a contrastare la forza dei cavalieri, ma furono le armi da fuoco, conosciute sin dal XIV secolo, a diventare davvero predominanti nei secoli successivi.  
 
@@ -83,7 +83,7 @@ Questo processo di trasformazione coinvolse anche il panorama scientifico. Gli s
 
 Un altro elemento cruciale dell'epoca fu l'entusiasmo culturale che alimentò i viaggi e le scoperte geografiche. La sete di avventura unita a motivazioni economiche spinse uomini come Bartolomeo Diaz, Vasco da Gama, Cristoforo Colombo e Amerigo Vespucci a intraprendere coraggiosi viaggi oltremare.  
 
-#boxfl(top)[== *🧩* L'invenzione dei caratteri mobili della stampa <senza_numero>
+#boxfl(top)[== 🐺 L'invenzione dei caratteri mobili della stampa <senza_numero>
 
 Tra le invenzioni più importanti e decisive per il futuro figura quella dei caratteri mobili per la stampa, sebbene il primo libro stampato risalga alla Cina nell'858. Nel Medioevo i testi venivano copiati dagli amanuensi, un processo che limitava la diffusione delle opere. Tuttavia, verso la fine del Quattrocento fecero la loro comparsa i caratteri mobili, inizialmente in legno e successivamente in metallo. Grazie alla modularità delle lettere, ogni singolo carattere poteva essere intercambiabile e riutilizzabile per creare qualsiasi tipo di composizione o modello.  
 

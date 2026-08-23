@@ -17,7 +17,7 @@ La fiducia suscitata dal nuovo papa facilitò anche iniziative comuni tra i prin
 
 Tuttavia, non tutti i sovrani furono inclini al cambiamento. Ferdinando II delle Due Sicilie oppose inizialmente ferma resistenza alle richieste di riforme, ma fu costretto a concedere uno statuto costituzionale il 11 febbraio 1848 in seguito a una rivolta interna. Questo atto fu poi seguito da ulteriori concessioni costituzionali: Carlo Alberto introdusse lo Statuto Albertino (4 marzo), Leopoldo II promulgò una costituzione il 17 febbraio, e Pio IX partecipò al clima riformista con analoga concessione il 14 marzo.
 
-#boxfl(top)[== *🧩* Camillo Benso, conte di Cavour <senza_numero>
+#boxfl(top)[== 🐺 Camillo Benso, conte di Cavour <senza_numero>
 
 Camillo Benso, conte di Cavour, nacque nel 1810 da una famiglia nobile piemontese. Secondogenito del marchese Michele e della ginevrina Adele di Sellon, ricevette un'educazione che risentiva di forti influenze calviniste. Giovane ufficiale dell'esercito sabaudo, nel 1831 abbandonò la carriera militare e intraprese un lungo viaggio in Europa della durata di quattro anni. Durante questa esperienza approfondì lo studio degli effetti della Rivoluzione Industriale in paesi come Gran Bretagna, Francia e Svizzera, acquisendo una solida formazione sui principi economici e socio-politici dei sistemi liberali britannici.
 
@@ -83,7 +83,7 @@ L'11 maggio 1860 Giuseppe Garibaldi sbarcò a Marsala, dando avvio alla sua sped
 
 Con l'appoggio entusiastico della popolazione locale e con un minimo sforzo militare, Garibaldi riuscì a conquistare l'intera Sicilia, culminando nella vittoria nella battaglia di Milazzo il 20 luglio.
 
-#boxfl(top)[== *🧩* L'amministrazione garibaldina in Sicilia  <senza_numero>
+#boxfl(top)[== 🐺 L'amministrazione garibaldina in Sicilia  <senza_numero>
 
 Dopo lo sbarco dei Mille a Marsala, Garibaldi istituì la propria dittatura in Sicilia (Salemi, 14 maggio) in nome di Vittorio Emanuele, nominando il 17 maggio Francesco Crispi come segretario di Stato.
 
@@ -100,8 +100,7 @@ Garibaldi, fedele agli impegni presi in nome dell'unità italiana, accettò la n
 
 Il processo culminò il 17 marzo 1861, quando il Parlamento proclamò Vittorio Emanuele II re d'Italia, segnando simbolicamente la nascita del nuovo Stato unitario.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1846-1849: Con l'elezione di papa Pio IX (1846-1878), di orientamento neoguelfo, soffia un vento di riforme liberali. A gennaio del 1848, un'insurrezione nel Regno delle Due Sicilie porta alla concessione dello Statuto (29 gennaio), rapidamente seguita dagli altri Stati: Carlo Alberto concede lo Statuto Albertino il 4 marzo nel Regno Sardo. I moti rivoluzionari a Vienna fomentano l'insurrezione a Venezia (17 marzo) e a Milano durante le Cinque Giornate (18-23 marzo 1848). Il 23 marzo Carlo Alberto dichiara guerra all'Austria, segnando l'inizio della Prima Guerra d'Indipendenza. Inizialmente si schierano con lui lo Stato della Chiesa, la Toscana e il Regno delle Due Sicilie, ma, intimoriti dalla potenza austriaca e contrari a rafforzare il Piemonte, si ritirano. Carlo Alberto vince la battaglia di Peschiera (30 aprile) ma perde a Custoza (23-25 luglio). Rompe l'armistizio temendo che i democratici prevalgano a Roma e Firenze, ma subisce una sconfitta definitiva a Novara (23 marzo 1849), abdicando in favore di Vittorio Emanuele II (1849-1878). Il successivo armistizio viene firmato il 24 marzo a Vignale.
@@ -109,3 +108,4 @@ Il processo culminò il 17 marzo 1861, quando il Parlamento proclamò Vittorio E
 / 1850-1858: In Piemonte emerge la figura dello statista Camillo Benso conte di Cavour (1810-1861). Moderato e pragmatico, sostiene borghesia e aristocrazia contro le istanze democratiche. Cavour vede nell'unificazione d'Italia l'opportunità di favorire lo sviluppo socio-economico del Paese.
 
 / 1858-1861: La Seconda Guerra d'Indipendenza ha inizio il 26 marzo 1859 grazie agli accordi di Plombières tra Piemonte e Francia (20 luglio 1858). Il comando militare viene affidato a Napoleone III. Seguono le vittorie di Magenta (4 giugno), San Martino e Solferino (24 giugno). Le insurrezioni nell'Italia centrale suscitano le preoccupazioni di Napoleone, portando all'armistizio di Villafranca (11 luglio 1859). Nonostante ciò, i Ducati, l'Emilia e la Toscana sono successivamente annesse al Piemonte. \ La Spedizione dei Mille, diretta dal Partito d'Azione, viene affidata a Garibaldi. L'11 maggio 1860, Garibaldi sbarca a Marsala; il 20 luglio vince la battaglia di Milazzo e riconquista l'intera Sicilia. Il 7 settembre entra a Napoli. Quest'avanzata genera tensioni con il Piemonte: Cavour teme che nelle regioni liberate possa essere instaurata una repubblica. Garibaldi affronta con successo la battaglia del Volturno (1-2 ottobre). Il 26 ottobre incontra Vittorio Emanuele II a Teano, riconoscendo l'annessione al Piemonte. Finalizzato il processo, il 17 marzo 1861 Vittorio Emanuele II diventa re d'Italia.
+]

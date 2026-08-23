@@ -33,7 +33,7 @@ La vita economica dei sumeri era basata sull'agricoltura, l'artigianato e il com
 
 Superata la crisi iniziale, il III millennio a.C. vide l'apice dello sviluppo di questa civiltà. La scrittura si evolse in un sistema fonetico sillabico basato sul carattere cuneiforme. Politicamente, il periodo fu segnato da un forte policentrismo, con l'affermarsi di diverse città-Stato di dimensioni comparabili: a sud spiccavano Uruk, Ur, ed Eridu; nella parte orientale emergevano Lagash e Umma; mentre a nord troviamo Nippur, Kish ed Eshnunna.
 
-#boxfl(bottom)[== *🧩* Ebla <senza_numero>
+#boxfl(bottom)[== 🐺 Ebla <senza_numero>
 
 Nel 1964, una spedizione italiana portò alla luce nella Siria settentrionale i resti della città di Ebla, prospera tra il 3000 e il 2250 a.C. La città aveva una pianta circolare ed era dotata di quattro porte; era rinomata per la qualità dei suoi tessuti. Ebla ebbe rapporti conflittuali con Accad e, intorno al 2000 a.C., fu occupata da Naramsin, nipote di Sargon. La sua distruzione definitiva avvenne nel 1600 a.C., ad opera degli Ittiti. All'interno del palazzo reale furono trovati archivi contenenti tavolette cuneiformi di notevole valore, scritte in una lingua semitica antica di particolare interesse. Anche il pantheon cittadino era di matrice semitica, con divinità come Dagan, Ishtar e Rashap; la letteratura eblaite tuttavia mostrava una forte influenza sumera.]
 
@@ -61,7 +61,7 @@ Tra le testimonianze più celebri del suo governo spicca il Codice di Hammurabi,
 
 Con l'ascesa di Samsuiluna (1750 - 1712 a.C.), l'Impero babilonese iniziò il suo lento declino, culminando con la sua caduta nel 1595 a seguito di un attacco degli Ittiti. Nel 1530 a.C., il territorio fu conquistato dai Cassiti, un popolo di origine caucasica che dominò la regione per 400 anni, senza però lasciare un segno significativo sulla cultura e sulla civiltà locale.
 
-#boxfl(bottom)[== *🧩* Il codice di Hammurabi <senza_numero>
+#boxfl(bottom)[== 🐺 Il codice di Hammurabi <senza_numero>
 
 Hammurabi, re della prima dinastia di Babilonia (1792 - 1750 a.C.), apparteneva alla stirpe amorrea e salì al trono all'età di 25 anni. Inizialmente governava su una piccola area situata tra l'Assiria e il principato di Larsa, ma grazie a una politica espansionistica determinata, riuscì a estendere il dominio babilonese su tutta la valle del Tigri e parte di quella dell'Eufrate. 
 
@@ -72,8 +72,7 @@ Il codice di Hammurabi, che porta il suo nome, rappresenta il più vasto corpus 
 
 Un nuovo periodo di splendore, noto come il Secondo Impero Babilonese, ebbe inizio nel 626 a.C., quando il caldeo Nabopolassar si proclamò re di Babilonia e fondò un nuovo regno. Egli guidò una serie di conquiste in Mesopotamia occidentale, Siria e Palestina, consolidando il potere babilonese. La fase di massima prosperità si raggiunse con Nabucodonosor II (605 - 562 a.C.), celebre per le sue vittorie militari contro l'Egitto e per la distruzione di Gerusalemme. Durante il suo regno, Babilonia divenne la principale potenza del Medio Oriente e si arricchì di monumentali opere urbanistiche e architettoniche, tra cui la celebre Torre di Babele, una ziggurat alta 90 metri costruita per suo volere. La città giocò un ruolo centrale nell'economia e nel commercio dell'intera regione. Tuttavia, nel 539 a.C., i Persiani sotto Ciro il Grande conquistarono Babilonia, integrandola come satrapia del loro vasto impero, che includeva anche una parte dell'Assiria.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Periodo sumero-accadico: (3000-1730 a.C.) Gli abitanti più antichi della Mesopotamia furono i Sumeri, i quali, a partire dall'inizio del III millennio a.C., si organizzarono politicamente in città-Stato indipendenti. Queste erano governate da sovrani che ricevevano il proprio potere attraverso un'investitura considerata di origine divina. \ La stratificazione sociale era suddivisa in tre classi principali: liberi, semiliberi e schiavi. L'economia si fondava primariamente sull'agricoltura. \ Nel 2350 a.C., gli Accadi, guidati da Sargon, invasero la Sumeria, stabilendo un potente regno nella Mesopotamia meridionale con capitale ad Accad.
@@ -85,3 +84,5 @@ Un nuovo periodo di splendore, noto come il Secondo Impero Babilonese, ebbe iniz
 
 
 
+
+]

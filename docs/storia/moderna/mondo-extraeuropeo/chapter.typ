@@ -61,8 +61,7 @@ Un'altra popolazione che, al pari delle civiltà precolombiane, affrontò uno sc
 
 L'incompatibilità tra lo stile di vita dei nativi e quello dei coloni bianchi emerse sin da subito e portò a conflitti culminati in un vero e proprio genocidio. Nel 1900 la popolazione indigena era drammaticamente ridotta a duecentocinquantamila. Sebbene inizialmente fossero stati pensati alcuni strumenti di protezione per i diritti delle tribù indigene, come l'Editto della Corona britannica del 1763 che riservava ai nativi americani i territori posti ad ovest dei Monti Appalachi, la continua pressione legata alla fame di terre e alle esigenze di sicurezza da parte dei colonizzatori portò nell'Ottocento alla creazione di riserve chiuse destinate alla popolazione indigena.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Islam: Tra il 1206 e il 1526 si sviluppò il Sultanato musulmano di Delhi, uno dei principali centri del potere islamico nel subcontinente indiano. In Persia, dal 1502 al 1722, dominò la dinastia dei Safavidi, che contribuì significativamente alla diffusione e all'istituzionalizzazione dell'Islam sciita. Nel 1453 gli Ottomani conquistarono Costantinopoli, trasformandola nella nuova capitale del loro impero. Successivamente, nel 1534, le armate di Solimano il Magnifico invasero la Persia e conquistarono Baghdad, consolidando il potere ottomano in Mesopotamia.
@@ -71,3 +70,5 @@ L'incompatibilità tra lo stile di vita dei nativi e quello dei coloni bianchi e
 
 / Africa: Tra il 690 e il 1590 il Regno Songhai dominò l'Africa centro-settentrionale, sottomettendo vaste aree tra la Guinea, l'Atlantico e il Sahara. Il suo massimo splendore fu raggiunto nel XV secolo prima dell'invasione marocchina. Nella regione equatoriale e nell'Africa australe prosperarono invece il Regno di Monomotapa e quello del Grande Zimbabwe, la cui epoca d'oro si colloca tra il XIII e il XIV secolo. Nel 1491, il regno del Congo abbracciò ufficialmente il Cattolicesimo con la conversione del suo re. Più tardi, nel 1795, gli Inglesi presero il controllo della Colonia del Capo, che in precedenza apparteneva agli Olandesi.
 
+
+]

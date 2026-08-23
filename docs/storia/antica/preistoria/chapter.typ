@@ -13,7 +13,7 @@ La Preistoria è generalmente suddivisa in due macroperiodi, denominati "età de
 
 Il Paleolitico, definito anche "età della pietra antica" (dal greco _palaiòs_ che significa "antico" e _lithos_, "pietra"), è ulteriormente suddiviso in tre sotto-periodi: Paleolitico inferiore, medio e superiore.
 
-#boxfl(bottom)[== *🧩* La datazione dei reperti <senza_numero>
+#boxfl(bottom)[== 🐺 La datazione dei reperti <senza_numero>
 
 Per quanto riguarda la datazione dei reperti preistorici, si utilizzano metodi induttivi provenienti dal campo delle scienze naturali. Tra questi, il più conosciuto è il metodo del radiocarbonio (C14), basato sull'assorbimento di questa sostanza durante il ciclo vitale degli organismi viventi. Dopo la morte, il C14 presente nell'organismo si disintegra progressivamente, dimezzandosi ogni 5.730 anni. Misurando la quantità residua di radiocarbonio in un reperto organico, è possibile determinare l'epoca in cui l'organismo è vissuto. Tecniche analoghe includono l'analisi di elementi come azoto, fluoro e uranio, che vengono assimilati dalle ossa attraverso il terreno secondo ritmi considerati costanti.
 
@@ -53,7 +53,7 @@ In Francia emersero culture come quella gravettiana o perigordiana (da La Gravet
 
 Nel maddaleniano (da La Madeleine in Dordogna), risalente a circa 15.000 anni fa, l'arte rupestre e la decorazione su oggetti mobili come pietra scheggiata, osso e avorio raggiunsero livelli straordinari. I ritrovamenti più significativi includono le pitture nelle grotte di Lascaux in Dordogna e quelle di Altamira in Spagna. Reperti analoghi si trovano anche ai confini della Siberia e del Medio Oriente.
 
-#boxfl(top)[== *🧩* Evoluzionismo e creazione <senza_numero>
+#boxfl(top)[== 🐺 Evoluzionismo e creazione <senza_numero>
 
 Fino ai primi decenni del Novecento, quando Jean-Baptiste Lamarck introdusse per la prima volta una prospettiva evoluzionista sulla vita, il principio della perpetuità delle specie naturali era rimasto largamente incontestato. 
 
@@ -71,8 +71,7 @@ Il Mesolitico, derivante dal termine greco _mésos_ che significa "in mezzo", ra
 
 Nella regione della Mezzaluna Fertile, che si estendeva dall'Egitto al Golfo Persico coprendo anche la Turchia e il Mar Caspio a nord, alcuni dei gruppi umani iniziarono a domesticare gli animali e a coltivare cereali. L'arte di questo periodo subì un impoverimento, limitandosi alla decorazione di ciottoli su cui venivano incisi segni schematici con l'uso di ocra rossa. Nel Capsiano, una cultura preistorica originaria di Gafsa in Tunisia risalente al 9.000 a.C., si osserva l'insediamento di gruppi umani in villaggi con abitazioni circolari. Parallelamente, in Giappone si diffuse la cultura ceramica Jomon, caratterizzata da decorazioni create con corde, che le conferivano il nome.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Paleolitico (2.500.000 - 10.000 a.C.):
@@ -81,3 +80,4 @@ Nella regione della Mezzaluna Fertile, che si estendeva dall'Egitto al Golfo Per
   - Paleolitico superiore (40.000 - 10.000 a.C.): Appare l'_Homo sapiens sapiens_, con un significativo affinamento delle tecniche nella produzione di utensili e manufatti. L'arte preistorica raggiunge il suo massimo splendore, grazie alle "veneri preistoriche" e altre forme artistiche simboliche. 
 
 / Mesolitico (10.000 - 8.000 a.C.): Periodo di transizione verso nuove forme di vita: iniziano a diffondersi le prime forme di agricoltura e allevamento, e si riscontrano tracce sempre più numerose di insediamenti stabili.
+]

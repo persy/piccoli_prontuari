@@ -53,7 +53,7 @@ Per combattere le eresie, la Chiesa adottò due strategie principali: la repress
 
 === Federico II
 
-#boxfl(top)[== *🧩* Federico II e la cultura <senza_numero>
+#boxfl(top)[== 🐺 Federico II e la cultura <senza_numero>
 
 Sotto il regno di Federico II la scuola medica di Salerno fiorì ulteriormente e venne fondata l'Università di Napoli (1224), con l'obiettivo dichiarato di creare una scuola giuridica "laica" alternativa a quella bolognese e di formare funzionari capaci di gestire le strutture amministrative del Regno. Poliglotta e appassionato di cultura, Federico coltivò lo studio della filosofia, dell'astrologia, della geografia e delle scienze.
 
@@ -83,8 +83,7 @@ Tuttavia, i patti non furono rispettati e l'isola finì sotto il controllo effet
 
 I progetti di restaurazione imperiale furono ripresi da Enrico VII di Lussemburgo, eletto imperatore nel 1308. Enrico scese in Italia e si fece incoronare re, ma si trovò osteggiato da Roberto d'Angiò. Morì prima di riuscire a fronteggiarlo, e i suoi successori della dinastia lussemburghese dimostrarono scarso interesse per le vicende italiane.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Federico I Di Svevia: Alla morte di Enrico V di Franconia nel 1125, la Germania si trova divisa dai conflitti tra Guelfi e Ghibellini. Nel 1152 Federico I di Svevia sale al trono e riordina il territorio tedesco. Nel 1154 scende in Italia per affrontare i comuni e viene incoronato imperatore da Papa Adriano IV. Nel 1158, durante la Dieta di Roncaglia, vengono stabilite le regalìe che i Comuni devono restituire all'Impero. Tuttavia, nel 1176 subisce una sconfitta a Legnano contro i Comuni uniti nella Lega Lombarda. La Pace di Costanza del 1183 chiude la disputa con un accordo. Federico muore nel 1190 partecipando alla Terza Crociata.
@@ -94,3 +93,4 @@ I progetti di restaurazione imperiale furono ripresi da Enrico VII di Lussemburg
 / Innocenzo III e Federico II: Nel 1198, Papa Innocenzo III assume la tutela del giovane Federico II. Dopo aver inizialmente sostenuto Ottone di Brunswick nella sua ascesa al trono, Innocenzo lo contrasta favorendo Federico II. Nel II Concilio Lateranense del 1215 ribadisce la supremazia papale e intraprende azioni contro le eresie. Nel frattempo, Federico viene incoronato imperatore: a Francoforte nel 1212 e in Italia nel 1220. \ Nel 1228 parte per una crociata e riesce a riconquistare Gerusalemme, Betlemme e Nazareth senza ricorrere a conflitti armati. Nel 1231 emana in Sicilia le Costituzioni Melfitane, fondamentali per l'organizzazione del regno. A Cortenuova, nel 1237, sconfigge i Comuni lombardi. Tuttavia, le sue politiche anticlericali portano Papa Innocenzo IV a deporlo dal trono. Federico muore in Puglia nel 1250 lasciando un'eredità complessa.
 
 / L'Italia e L'Impero dopo Federico II: Dopo la morte di Federico II, suo figlio Corrado IV eredita il titolo imperiale in Germania, mentre Manfredi assume il controllo sul Regno di Sicilia. Tuttavia, il papa chiama Carlo d'Angiò, che nel 1266 sconfigge Manfredi e instaura il suo dominio sul regno. \ Nel 1282 la Sicilia si ribella contro gli Angioini con l'aiuto di Pietro d'Aragona, scatenando la Guerra del Vespro tra Angioini e Aragonesi. La pace viene sancita con l'accordo di Caltabellotta nel 1302: l'isola viene temporaneamente assegnata agli Aragonesi, che successivamente ne consolidano il controllo. In Germania, dopo un periodo di interregno, Enrico VII di Lussemburgo è eletto imperatore nel 1308, ma i suoi tentativi di ripristinare l'autorità imperiale in Italia si rivelano infruttuosi.
+]

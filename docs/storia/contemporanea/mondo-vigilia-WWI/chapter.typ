@@ -33,7 +33,7 @@ In particolare, Wilson avviò ciò che sarebbe stato definito neoliberismo o wil
 
 == Le tensioni tra le potenze
 
-#boxfl(top)[== *🧩* La questione balcanica <senza_numero>
+#boxfl(top)[== 🐺 La questione balcanica <senza_numero>
 
 La questione balcanica era un problema complesso e radicato nella graduale decadenza dell'Impero Ottomano, riguardante il controllo della sua parte europea, ossia i Balcani. Le mire espansionistiche di Austria e Russia si intrecciavano con le aspirazioni di indipendenza dei popoli cristiani dominati dal governo turco.
 
@@ -65,8 +65,7 @@ Nell'autunno del 1911 scoppiò anche la guerra italo-turca per il controllo dell
 
 Tuttavia, poco dopo la Bulgaria attaccò la Serbia, insoddisfatta dell'accordo raggiunto. La pronta reazione di Turchia, Grecia e Romania, che si schierarono al fianco della Serbia, portò alla sconfitta bulgara. La seconda guerra balcanica si concluse con la Pace di Bucarest nell'agosto 1913.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Inghilterra: Il periodo è segnato da un corso di riforme sociali e dal potenziamento militare, anche se l'economia si presenta stagnante.  
@@ -92,3 +91,5 @@ Tuttavia, poco dopo la Bulgaria attaccò la Serbia, insoddisfatta dell'accordo r
   / 1912-1913: Prima guerra balcanica.  
   / Giugno-luglio 1913: Seconda guerra balcanica.  
 
+
+]

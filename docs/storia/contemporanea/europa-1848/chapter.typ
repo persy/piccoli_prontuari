@@ -35,7 +35,7 @@ Nel 1846 emerse la leadership di Lord Robert Peel, che promosse una riforma doga
 
 Infine, nell'aprile del 1848, il paese fu scosso da proteste violente, che vennero tuttavia sedate con fermezza dal governo.
 
-#boxfl(top)[== *🧩* Luigi Napoleone Bonaparte  <senza_numero>
+#boxfl(top)[== 🐺 Luigi Napoleone Bonaparte  <senza_numero>
 
 Carlo Luigi Napoleone, figlio terzogenito di Luigi Bonaparte, re d'Olanda e fratello di Napoleone I, e di Ortensia de Beauharnais, fu precocemente influenzato da una convinta credenza nel proprio destino come erede della tradizione bonapartista. 
 
@@ -65,8 +65,7 @@ In Austria, il popolo si sollevò contro il regime oppressivo il 13 marzo 1848. 
 
 Ulteriori rivolte si verificarono tra i Cechi, dove furono soffocate dalle azioni del generale Windisch-Graetz; in Ungheria, in cui si registrò l'intervento di un contingente militare russo; e nel Lombardo-Veneto, dove, come verrà analizzato successivamente, la notizia della deposizione di Metternich stimolò l'insurrezione di tutte le forze democratiche.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Francia (1830-48): In Francia domina la monarchia orleanista, un regime liberale moderato sostenuto dalla borghesia. Tra le figure politiche di spicco ci sono Thiers e Guizot. Tuttavia, nel 1847 il governo, inasprito dal rifiuto di concedere una riforma elettorale, genera crescente insoddisfazione. Nascono i banchetti politici come forma di protesta. \ Intanto in Austria, Russia e Prussia si rafforza l'assolutismo, segnalato dal Congresso di Münchengrätz del 1833. L'Inghilterra, invece, avvia una politica sociale con l'arrivo al trono della regina Vittoria nel 1837, inaugurando un nuovo corso politico.  
@@ -79,3 +78,5 @@ Ulteriori rivolte si verificarono tra i Cechi, dove furono soffocate dalle azion
 
 
 
+
+]

@@ -31,7 +31,7 @@ L'espressione Magna Grecia appare per la prima volta nelle opere dello storico s
 
 Risale alla prima metà dell'VIII secolo a.C. l'insediamento greco sull'isola di Ischia, che segnò l'avvio della colonizzazione greca in Italia. Successivamente, le città di nuova fondazione generarono a loro volta ulteriori insediamenti, mentre le tribù indigene venivano spesso scacciate o ridotte a forza lavoro subordinata.
 
-#boxfl(bottom)[== *🧩* L'unità della tradizione greca <senza_numero>
+#boxfl(bottom)[== 🐺 L'unità della tradizione greca <senza_numero>
 
 Nonostante la frammentazione estrema delle _poleis_, la civiltà greca trovò un elemento di coesione nell'identità tradizionale costituita dai patrimoni mitici e religiosi tramandati nei poemi omerici e nella Teogonia di Esiodo.  
 
@@ -67,8 +67,7 @@ La contrapposizione tra queste forme di governo fu così marcata che la Guerra d
 
 L'età ellenistica segnò il declino della polis come entità politica autonoma. Sottoposte alla supremazia militare delle monarchie, le _poleis_ furono gradualmente inglobate nei Regni ellenistici e successivamente nell'impero romano, all'interno del quale sopravvissero solamente come strutture amministrative custodi dell'eredità culturale e politica che il mondo romano aveva assimilato.  
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / _Polis_ e la colonizzazione: La struttura della _polis_, la città-Stato greca, trova già una sua prima forma nei poemi omerici, ma è durante l'età arcaica (VIII-VI secolo a.C.) che si consolida pienamente. In questo periodo, la monarchia viene gradualmente abbandonata in favore di forme di governo che rispecchiano maggiormente la volontà popolare. Inizialmente, il potere è gestito dagli _áristoi_, un gruppo di nobili che supporta il sovrano nelle questioni politiche. \ La nascita delle città-Stato deriva dal loro bisogno di luoghi adatti, al di fuori del palazzo reale, in cui riunirsi per prendere decisioni amministrative. \ L'aumento demografico genera tensioni sociali legate alla necessità di nuove terre, dando impulso a una fase di colonizzazione tra il 750 e il 650 a.C. Numerosi insediamenti vengono fondati dalle città madri greche sulle coste del Mediterraneo e del Mar Nero. Le colonie stabilite nella penisola italiana (a partire da Ischia nell'VIII secolo a.C.) saranno successivamente identificate con il termine Magna Grecia.
@@ -84,3 +83,5 @@ L'età ellenistica segnò il declino della polis come entità politica autonoma.
 
 
 
+
+]

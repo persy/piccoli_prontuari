@@ -57,7 +57,7 @@ Osteggiato dalle correnti conservatrici, fu costretto a dimettersi mentre l'infl
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* I principali provvedimenti del _New Deal_ <senza_numero>
+== 🐺 I principali provvedimenti del _New Deal_ <senza_numero>
 
 Il New Deal rappresentò una serie di interventi straordinari volti al risanamento socio-economico del Paese. Sul fronte dei lavori pubblici, furono attivati progetti che crearono quattro milioni di posti di lavoro. Per quanto concerne l'assistenza sociale, si istituirono misure significative a favore di disoccupati, malati e giovani, accompagnate dalla creazione di un sistema previdenziale e pensionistico federale.
 
@@ -65,8 +65,7 @@ Nel campo della riforma finanziaria, le banche furono poste sotto l'autorità de
 
 Sebbene questa legge fosse dichiarata incostituzionale nel 1935, venne sostituita dalla Legge Wagner, che sancì il diritto di sciopero e rafforzò la libertà sindacale. Infine, nel contesto della pianificazione strategica emerge l'istituzione dell'Ente per lo sviluppo della Valle del Tennessee: un organismo speciale con competenze straordinarie concepito per la realizzazione e lo sfruttamento di opere pubbliche e di promozione di iniziative industriali pubbliche nei sette stati del sud.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Stati Uniti: I presidenti repubblicani Harding, Coolidge e Hoover, in carica fino al 1932, adottano una politica di isolazionismo, caratterizzata da un minimo intervento statale nell'economia. Nel 1929 si verifica la più grave crisi economica mai affrontata dal capitalismo globale, provocata dalla speculazione finanziaria. Dal 1932 al 1945, il presidente democratico Franklin Delano Roosevelt avvia il New Deal, un piano che contribuisce a risollevare l'economia del paese.
@@ -76,3 +75,5 @@ Sebbene questa legge fosse dichiarata incostituzionale nel 1935, venne sostituit
 / Giappone: Nel 1926, l'imperatore Hirohito sale al trono e guida il paese fino al 1989. Sostenute dagli zaibatsu, le aspirazioni imperialistiche giapponesi si concentrano sulla Cina. Nel 1932 viene creato lo stato del Manciukuò, ufficialmente indipendente ma sotto il controllo giapponese. Tra il 1936 e il 1939 si rafforza l'alleanza con Italia e Germania. Nel 1938, il Giappone dichiara pubblicamente le proprie ambizioni imperialistiche in Asia.
 
 / Cina: Sun Yat-sen (1866-1925) è considerato il leader della liberazione nazionale. Nel 1911 fonda il Kuomintang e la fine dell'Impero porta alla nascita della Repubblica, di cui Sun diventa presidente. Tuttavia, a causa dell'opposizione dei conservatori, è costretto a dimettersi. Nel 1921 Pechino è già sotto il controllo giapponese e Sun guida un governo alternativo a Canton. In questo periodo nasce anche il Partito Comunista Cinese, tra i cui principali dirigenti emerge Mao Tse-tung.
+
+]

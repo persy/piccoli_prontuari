@@ -13,7 +13,7 @@ Anche in ambito religioso, Cina e Giappone condividono elementi distintivi: entr
 
 == La Cina alla fine della dominazione mongola
 
-#boxfl(bottom)[== *🧩* Le religioni orientali <senza_numero>
+#boxfl(bottom)[== 🐺 Le religioni orientali <senza_numero>
 
 Nel VI secolo a.C., Buddha diede origine a una nuova religione, il buddhismo, fondata sulla dottrina della reincarnazione e sulla legge del karma, che regola la retribuzione dei meriti. Per liberarsi dal ciclo delle vite e delle sofferenze, Buddha insegnò il distacco dalle cose materiali e dagli eventi, invitando a raggiungere una profonda quiete interiore. 
 
@@ -63,8 +63,7 @@ La rivolta contadina di Shimabara, caratterizzata da motivazioni religiose e soc
 
 Nel 1639, lo Shogun Iemitsu emanò un editto che vietava l'accesso degli stranieri al Giappone e impediva ai giapponesi di lasciare l'arcipelago. Tale provvedimento sancì l'inizio di un periodo di isolamento nazionale che si protrasse per oltre due secoli. Il Giappone uscì da questo isolamento solo nel 1853, quando una flotta statunitense guidata dal commodoro Perry si presentò al largo di Uraga, reclamando l'apertura del paese agli occidentali.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Cina (1271-1911): 
@@ -81,3 +80,5 @@ Nel 1639, lo Shogun Iemitsu emanò un editto che vietava l'accesso degli stranie
 
   / Periodo Tokugawa (1603-1868): Con i Tokugawa, lo shogunato divenne ereditario e furono poste le basi giuridiche e amministrative dello Stato moderno. Edo divenne la capitale politica del Giappone. Alcune rivolte contadine portarono al divieto del cristianesimo, mentre dal 1639 venne proibito l'accesso degli stranieri al territorio giapponese.  
 
+
+]

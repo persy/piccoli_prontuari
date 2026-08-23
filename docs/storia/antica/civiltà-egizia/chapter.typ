@@ -53,7 +53,7 @@ Successore di Ramesse II, Ramesse III fu il secondo faraone della XX dinastia e 
 
 Tutankhamon, noto per essere il fratello minore di Akhenaton (Amenofi IV), ascese al trono in giovane età. Sotto l'influenza della classe sacerdotale, revocò le riforme religiose radicali del suo predecessore, restaurando il culto tradizionale e riportando la capitale a Tebe, abbandonando quello di Aton. Durante il suo regno, i suoi generali avviarono nuovamente politiche espansionistiche in Asia. Tuttavia, il faraone morì prematuramente all'età di 18 anni. La scoperta della sua tomba intatta nel 1923 rappresenta uno degli eventi archeologici più significativi del XX secolo.
 
-#boxfl(bottom)[== *🧩* Il tesoro di Tutankhamon <senza_numero>
+#boxfl(bottom)[== 🐺 Il tesoro di Tutankhamon <senza_numero>
 
 La tomba di Tutankhamon fu oggetto di ricerca per lungo tempo prima di essere individuata dall'archeologo britannico Howard Carter e dal finanziatore Lord Carnarvon. La struttura funeraria è composta da quattro camere; tra queste, solo quella destinata alla sepoltura era completata e decorata. Nell'anticamera furono rinvenuti tre letti dorati in legno con teste animali scolpite.
 
@@ -65,8 +65,7 @@ Nel 525 a.C., l'Egitto perse la propria autonomia diventando una provincia dell'
 
 Nonostante questi sviluppi, la vita politica egiziana rimase segnata da conflitti dinastici. Con Cleopatra VII, le sorti dell'Egitto si intrecciarono inevitabilmente con quelle di Roma. Dopo la vittoria di Ottaviano su Antonio nella battaglia di Azio del 31 a.C., l'Egitto fu annesso come provincia romana. Con Diocleziano, il territorio venne suddiviso in tre province e inserito nella diocesi orientale con capitale ad Antiochia. Infine, nel VII secolo, con la conquista araba, l'Egitto entrò a far parte della civiltà islamica.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / L'Antico Regno: (3000-2000 a.C.) Intorno al 3000 a.C., l'Alto e il Basso Egitto furono unificati sotto la guida dell'Alto Egitto. Durante le dinastie tinite (3000-2665 a.C.), si delineò una solida organizzazione burocratica e amministrativa. Il faraone Zoser e i suoi successori, tra cui Cheope, Chefren e Micerino, rafforzarono la posizione dell'Egitto, portandolo a raggiungere alti livelli di sviluppo culturale e sociale. Tuttavia, gli abusi dei governatori provinciali, che si sottrassero al controllo centrale del faraone, determinarono una prima crisi politica tra il 2200 e il 2050 a.C.
@@ -78,3 +77,5 @@ Nonostante questi sviluppi, la vita politica egiziana rimase segnata da conflitt
 / La perdita dell'indipendenza: (525-30 a.C.) Nel 525 a.C., l'impero persiano sotto Cambise trasformò l'Egitto in una provincia. Successivamente, con la morte di Alessandro Magno nel 332 a.C., il paese fu assegnato a Tolomeo Lago, fondatore della dinastia tolemaica, che regnò fino al 30 a.C. Durante l'epoca di Cleopatra VII, l'Egitto entrò in conflitto con Roma e, dopo la vittoria di Ottaviano su Antonio, divenne una provincia romana. Sotto Diocleziano, fu suddiviso in tre province e incorporato nella diocesi orientale.
 
 / La conquista araba: Nel VII secolo d.C., l'Egitto cadde sotto l'influenza islamica e divenne parte del mondo arabo.
+
+]

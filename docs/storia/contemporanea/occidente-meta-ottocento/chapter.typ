@@ -33,7 +33,7 @@ In un'ottica di contenimento della Francia, nel 1879 Bismarck strinse un'alleanz
 
 == Dalla Comune di Parigi all'_affaire Dreyfus_
 
-#boxfl(bottom)[== *🧩* L'affaire Dreyfus <senza_numero>
+#boxfl(bottom)[== 🐺 L'affaire Dreyfus <senza_numero>
 
 L'affare Dreyfus rappresentò uno dei più grandi scandali politici che profondamente agitò la Francia alla fine del XIX secolo. 
 
@@ -89,8 +89,7 @@ Il 12 aprile 1861 i confederati attaccarono con un bombardamento Forte Sumter, d
 
 Il 9 aprile 1865, incapace ormai di difendere Richmond dal pressing militare di Grant, il Sud si arrese. Pochi giorni dopo, il 14 aprile, Abraham Lincoln (1809-1865) venne assassinato in teatro da un attore mentre si stava preparando a procedere alla reintegrazione degli Stati secessionisti attraverso approcci moderati.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Inghilterra: Dal 1846, i liberali Palmerston (1784-1865) e Gladstone (1809-1898), insieme al conservatore Disraeli (1804-1881), furono i protagonisti della scena politica. I governi furono caratterizzati da una particolare attenzione alle problematiche sociali.
@@ -103,3 +102,5 @@ Il 9 aprile 1865, incapace ormai di difendere Richmond dal pressing militare di 
 
 / Stati Uniti: Tra il 1860 e il 1865 si combatté una violenta guerra civile tra il Nord industrializzato e il Sud agricolo. La vittoria arrise al Nord. Il 14 aprile 1865 fu assassinato Abraham Lincoln (1809-1865), presidente associato alla difesa dell'unità nazionale e all'abolizione della schiavitù.
 
+
+]

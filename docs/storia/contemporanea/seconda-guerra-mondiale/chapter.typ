@@ -89,7 +89,7 @@ Le conferenze di Jalta (4-11 febbraio 1945) e Potsdam (estate 1945) videro USA, 
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* Approfondimenti <senza_numero>
+== 🐺 Approfondimenti <senza_numero>
 
 === La Guerra civile spagnola <senza_numero>
 
@@ -114,8 +114,7 @@ Dopo la liberazione di Roma, avvenuta il 5 giugno 1944, un'insurrezione congiunt
 Mussolini, nel tentativo di fuggire verso la Svizzera, fu catturato a Dongo, vicino Como, e giustiziato il 28 aprile.
 
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 
@@ -124,3 +123,5 @@ Mussolini, nel tentativo di fuggire verso la Svizzera, fu catturato a Dongo, vic
 / 1939-1945: La Seconda Guerra Mondiale rappresentò un conflitto totale che sconvolse irrimediabilmente l'equilibrio globale. La Germania avviò la guerra lampo (Blitzkrieg), riuscendo a sconfiggere velocemente la Francia e coinvolgendo così anche l'Italia, che colse l'opportunità per entrare nel conflitto. Nel settembre si combatté la Battaglia d'Inghilterra, ma la Germania ne uscì sconfitta. Contemporaneamente, le forze italiane attaccarono gli inglesi in Africa con risultati deludenti, mentre si accumulavano insuccessi per l'esercito fascista. Nel giugno del 1941 Hitler violò il patto di non aggressione con l'Unione Sovietica, dando avvio all'Operazione Barbarossa; gli italiani inviarono rinforzi attraverso l'ARMIR (Armata Italiana in Russia). Tuttavia, nel dicembre dello stesso anno, le forze tedesche furono obbligate al ritiro, e tra febbraio e marzo del 1942 i sovietici riportarono una vittoria cruciale nella Battaglia di Stalingrado. \ Intanto, nel dicembre 1941, il Giappone trascinò gli Stati Uniti nel conflitto dopo l'attacco a Pearl Harbor. Tra il 1942 e il 1943, le forze dell'Asse subirono pesanti sconfitte sia in Africa sia sul fronte orientale. Il 24-25 luglio 1943, approfittando dello sbarco alleato in Sicilia, il re Vittorio Emanuele III e Dino Grandi orchestrarono una manovra politica che mise Mussolini in minoranza e lo fece arrestare. Si instaurò così il governo guidato da Badoglio, durato appena 45 giorni. L'8 settembre dello stesso anno venne annunciato l'armistizio con gli Alleati, provocando una dura reazione da parte dei nazisti su Roma e dividendo l'Italia in due parti. Il 23 settembre Mussolini venne liberato dai tedeschi e posto alla guida della Repubblica Sociale Italiana con sede a Salò. \ Nel dicembre del 1943 si tenne la conferenza di Teheran, dove venne deciso lo sbarco alleato in Normandia nel giugno del 1944. La Germania iniziò ad essere accerchiata su più fronti fino al tragico epilogo: il 30 aprile 1945 Adolf Hitler si suicidò a Berlino ormai senza via di scampo, mentre il 7 maggio i tedeschi deposero la resa incondizionata agli Alleati. In Italia tra il 25 e il 26 aprile scoppiò l'insurrezione nazionale che portò alla Liberazione. \ Mussolini, in fuga, viene catturato e giustiziato dai partigiani il 28 aprile. Tra il 6 e il 9 agosto 1945, gli Stati Uniti pongono fine alla resistenza giapponese attraverso l'uso delle bombe atomiche su Hiroshima e Nagasaki. Le conferenze di Jalta, tenutasi tra il 4 e l'11 febbraio 1945, e quella di Potsdam, del 12 aprile dello stesso anno, definiscono la suddivisione del mondo in "sfere d'influenza". La Germania viene spartita in quattro zone di occupazione.
 
 
+
+]

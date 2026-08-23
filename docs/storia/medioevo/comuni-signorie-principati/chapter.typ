@@ -55,7 +55,7 @@ Firenze fu attraversata da intense lotte tra famiglie rivali, divise negli schie
 
 La classe dirigente fu costretta ad istituire nuove corporazioni (come quelle dei tintori, farsettai e ciompi) e ad ammettere i loro rappresentanti al governo. Tuttavia, i Ciompi, indeboliti internamente dalla defezione dei tintori e farsettai e abbandonati dall'appoggio di Michele di Lando, furono estromessi dal potere. Il controllo politico passò così nelle mani di poche famiglie aristocratiche e di grandi commercianti e banchieri, come gli Albizzi e gli Strozzi, finendo nella seconda metà del XV secolo sotto il dominio della famiglia de' Medici.
 
-#boxfl(top)[== *🧩* Le università <senza_numero>
+#boxfl(top)[== 🐺 Le università <senza_numero>
 
 L'apice del fervore culturale e intellettuale emerso nel periodo comunale fu rappresentato dalla nascita delle Università. Nel primo Medioevo, l'educazione elementare era affidata ai monaci, mentre le scuole vescovili, sotto il controllo diretto del vescovo, garantivano l'insegnamento superiore. Spettava al vescovo la responsabilità di selezionare i docenti.
 
@@ -77,8 +77,7 @@ A Firenze, centro nevralgico dell'opposizione prima antiviscontea e successivame
 
 Tra il 1485 e il 1492, Lorenzo rafforzò il proprio prestigio politico, diventando una figura di riferimento dell'equilibrio italiano. In questo periodo, stabilì un'alleanza duratura con Milano e Napoli. A Milano, dopo una fase di instabilità interna, Ludovico Sforza detto "il Moro" assunse la reggenza sul giovane Gian Galeazzo (1480), legittimo erede del ducato milanese. Ludovico consolidò ulteriormente il proprio potere attraverso il matrimonio di Gian Galeazzo con una delle nipoti di Ferrante d'Aragona, re di Napoli (1489).
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Comuni: Durante il periodo della lotta per le investiture, nelle città emergono le prime forme di Comune (_coniurationes_), che gradualmente si espandono verso il contado. Inizialmente il governo è gestito da due consoli, successivamente da un podestà. Più avanti, la piccola borghesia promuove il "comune del popolo", una struttura governativa in cui le cariche sono ricoperte dai "priori delle arti" e dal "gonfaloniere".
@@ -95,3 +94,5 @@ Tra il 1485 e il 1492, Lorenzo rafforzò il proprio prestigio politico, diventan
 
 
 
+
+]

@@ -57,8 +57,7 @@ In ambito religioso e filosofico, si sviluppò una sensibilità verso culti e do
 
 Questi nuovi ideali trovarono espressione anche nelle opere poetiche di Callimaco e Teocrito, nelle commedie di Menandro, nei testi storici di Polibio e in numerose manifestazioni artistiche come scultura, pittura e architettura.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Da Tebe alla crisi della _polis_: Nel 386 a.C., Sparta intraprese un tentativo di liberare le colonie dell'Asia Minore dal dominio persiano, ma fu sconfitta nello stesso anno. Tra il 371 e il 362 a.C., Tebe consolidò la propria supremazia militare sotto la guida del generale Epaminonda. Tuttavia, questa fase di predominio si concluse bruscamente con la morte dello stratega tebano, segnando l'inizio di una crisi profonda per il sistema delle polis greche.
@@ -75,3 +74,5 @@ Questi nuovi ideali trovarono espressione anche nelle opere poetiche di Callimac
 
 
 
+
+]

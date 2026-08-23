@@ -31,7 +31,7 @@ L'espansione della produzione industriale richiedeva una struttura finanziaria s
 
 Parallelamente, le stesse aziende, con la loro crescita, dovettero strutturarsi in modo più stabile. Questo portò alla nascita delle Società per Azioni, in cui diversi investitori capitalisti contribuivano con il proprio denaro, creando un sistema condiviso di risorse. Per gestire la compravendita delle azioni, il cambio di valuta e il collocamento dei prestiti pubblici si fondarono le Borse, con quelle di Londra e Parigi che divennero le più rilevanti.
 
-#boxfl(top)[== *🧩* L'espansione demografica nell'Europa d'inizio '800 e le teorie di Malthus <senza_numero> 
+#boxfl(top)[== 🐺 L'espansione demografica nell'Europa d'inizio '800 e le teorie di Malthus <senza_numero> 
 
 Durante i primi cinquant'anni del XIX secolo, la popolazione europea aumentò da 188 milioni a 247 milioni di abitanti. A livello mondiale, si passò da 900 milioni a 1,2 miliardi. In questo contesto storico assunsero una certa rilevanza le teorie formulate sul finire del Settecento dal pastore anglicano Thomas Robert Malthus (1766-1834).
 
@@ -61,8 +61,9 @@ In Italia, dove le frequenti barriere doganali rappresentavano un ostacolo signi
 
 Nel 1848, le ferrovie italiane coprivano appena 300 chilometri complessivi. Si dovette attendere la fine del secolo per assistere a un vero processo di industrializzazione sul territorio italiano.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1800-1850: Seguendo l'esempio dell'Inghilterra, anche alcune regioni nord-occidentali dell'Europa hanno attraversato la Rivoluzione Industriale. Questo processo è stato sostenuto da un incremento nell'agricoltura e nei commerci, dall'avanzamento tecnologico e da un'espansione demografica. Si sviluppano industrie fondamentali come quelle legate all'estrazione del carbone, alla siderurgia e alla chimica. \ Nasce un nuovo sistema economico, il capitalismo: basato sulla proprietà privata dei mezzi di produzione e dei capitali, vede anche il consolidamento del sistema bancario e l'istituzione delle Borse. \ Un ruolo chiave nell'industrializzazione è giocato dalle ferrovie, che diventano simbolo dello sviluppo. Questo periodo porta profondi cambiamenti sociali, con la nascita della borghesia capitalista, proprietaria dei mezzi di produzione, e del proletariato, la cui unica risorsa è la forza lavoro. \ Gli operai vivono condizioni di lavoro estremamente difficili nelle fabbriche. In Inghilterra, si costituiscono le Trade Unions, legalizzate nel 1824, mentre in Francia nascono le Società di mutuo soccorso. Tuttavia, la loro lotta per i diritti dei lavoratori incontra molte difficoltà, poiché solo una piccola parte della borghesia sostiene le loro rivendicazioni. La prima legge per la tutela dei bambini viene emanata in Inghilterra nel 1831 e in Francia nel 1841.  
+
+]

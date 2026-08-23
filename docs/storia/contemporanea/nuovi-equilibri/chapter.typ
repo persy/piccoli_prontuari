@@ -27,7 +27,7 @@ Nel 1973, con il sostegno degli Stati Uniti, si verificò un colpo di Stato mili
 
 In Uruguay, con la guerriglia dei Tupamaros, così come a El Salvador e in Nicaragua, si sono susseguiti decenni di sanguinose lotte interne. Solo il Messico, pur confrontandosi con grandi difficoltà, ha mostrato una maggiore stabilità politica.
 
-#boxfl(bottom)[== *🧩* Il postcomunismo nell'Europa dell'Est <senza_numero>
+#boxfl(bottom)[== 🐺 Il postcomunismo nell'Europa dell'Est <senza_numero>
 
 Chi immaginava che il crollo del comunismo avrebbe segnato la fine immediata delle difficoltà nei paesi satelliti e nell'ex-URSS è stato, in parte, smentito. Nonostante gli sforzi profusi per riavviare le economie duramente provate, nella maggior parte degli Stati queste hanno faticato a riprendersi negli anni immediatamente successivi alla caduta del muro di Berlino.  
 
@@ -77,7 +77,7 @@ Di fronte al mancato accordo, Slovenia e Croazia dichiararono unilateralmente l'
 
 Ne scaturì una guerra civile devastante che durò sino alla fine del 1995 e si concluse con gli Accordi di Dayton, mediati dal presidente statunitense Bill Clinton e firmati a Parigi il 14 dicembre 1995 dalle parti coinvolte. Sarajevo, capitale bosniaca, attraversò uno dei periodi più bui della sua storia, subendo un lungo e tragico assedio dalle forze serbe.
 
-#boxfl(bottom)[== *🧩* La Cambogia <senza_numero>
+#boxfl(bottom)[== 🐺 La Cambogia <senza_numero>
 
 La Cambogia rappresenta certamente una delle aree più instabili del pianeta.  
 
@@ -107,8 +107,7 @@ Negli Stati Uniti il passaggio presidenziale dal repubblicano George Bush (1988-
 
 Sul fronte europeo, l'Europa occidentale avviava un processo verso l'integrazione continentale non privo di contrasti. L'Unione Europea introdusse nel 2002 la moneta unica e definì i principi fondamentali per l'adozione di una nuova costituzione europea, contribuendo così alla ridefinizione delle dinamiche per una nuova costituzione europea.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / America Latina: In Argentina, nel 1946, il colonnello Juan Domingo Perón assume la presidenza, ponendo le basi per il movimento politico noto come giustizialismo. Nonostante i successi iniziali, il paese affronta una crisi sempre più profonda. Nel 1955, il suo regime viene abbattuto da un colpo di stato orchestrato da settori militari conservatori, inaugurando un periodo di instabilità istituzionale. Nel 1989, Carlos Menem, esponente del peronismo, vince le elezioni e guida il paese verso una nuova fase politica. \ Il Brasile entra in una fase di governo riformista a partire dal 1954, ma nel 1964 subisce un colpo di stato militare che instaura un regime autoritario. Sebbene il paese sperimenti un intenso sviluppo industriale, questo avviene al costo di gravi squilibri socioeconomici. Negli anni Ottanta, tensioni sociali significative emergono a causa delle disparità accumulate. \ In Cile, negli anni Sessanta, una potente classe di proprietari terrieri domina l'economia e la politica. Nel 1970, Salvador Allende, leader della sinistra, assume la presidenza e avvia un ambizioso programma di riforme socialiste. Tuttavia, nel 1973 un colpo di stato militare di destra rovescia il suo governo e porta al potere Augusto Pinochet. Soltanto nel 1993 il paese ritorna a una leadership democratica con una coalizione di centrosinistra.
@@ -120,3 +119,5 @@ Sul fronte europeo, l'Europa occidentale avviava un processo verso l'integrazion
 / Ex Jugoslavia: La morte del maresciallo Tito segna l'inizio di tensioni centrifughe che portano Slovenia, Croazia e Bosnia-Erzegovina a rivendicare la propria indipendenza. L'opposizione della Serbia a queste rivendicazioni sfocia in una guerra civile che proseguirà fino al 1995 con la firma degli accordi di Dayton, sancendo ufficialmente la cessazione delle ostilità.
 
 / Stati Uniti: Bill Clinton assume la presidenza nel 1992 e guida il paese in un contesto geopolitico caratterizzato dal multipolarismo emergente. Questo nuovo assetto vede l'ascesa di potenze regionali che potrebbero minacciare la stabilità globale.  
+
+]

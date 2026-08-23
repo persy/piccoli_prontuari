@@ -42,7 +42,7 @@ Nel 1612, dopo la morte di Rodolfo II, il trono imperiale passò al fratello Mat
 
 == La Guerra dei Trent'anni
 
-#boxfl(bottom)[== *🧩* L'intermezzo italiano <senza_numero>
+#boxfl(bottom)[== 🐺 L'intermezzo italiano <senza_numero>
 
 Le vicende belliche investirono anche l'Italia a causa dell'importanza strategica della Valtellina, controllata dai Grigioni svizzeri, come corridoio per il movimento delle truppe spagnole verso i territori imperiali. La Spagna cercò senza successo di unirsi ai cattolici per contrastare la Lega dei Grigioni.
 
@@ -68,8 +68,7 @@ Nel 1636, Richelieu si alleò con la Svezia e avviò un'offensiva contro la Spag
 
 La Francia continuò a ottenere successi come a Rocroi nel 1643, dove inflisse una significativa sconfitta agli Spagnoli. Seguirono negoziati di pace separati tra i principali contendenti: Francia e Impero, Svezia e Sassonia con l'Impero (1646), e Francia con Baviera (1647). La Pace di Vestfalia nel 1648 pose fine al conflitto, garantendo ai protestanti la libertà di culto all'interno dei territori imperiali. La Spagna, invece, non ratificò l'accordo e proseguì la guerra contro la Francia fino al 1659.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Spagna: Succeduto a Filippo III, Filippo IV delegò il governo al conte duca di Olivares, il quale intraprese un ambizioso programma di riforme volto a risanare l'economia, migliorare l'efficienza della burocrazia e uniformare il sistema fiscale in tutte le regioni del regno. Tuttavia, tali iniziative incontrarono una forte opposizione che sfociò in rivolte, costringendo il re a rimuoverlo dalla carica. Nello stesso periodo, nel 1640, il Portogallo riconquistò la propria indipendenza.
@@ -88,3 +87,5 @@ La Francia continuò a ottenere successi come a Rocroi nel 1643, dove inflisse u
 
   / Fase francese: Nel 1636 la Spagna e l'Impero lanciarono un'offensiva contro la Francia, alleata dei Paesi Bassi e della Casa Savoia. Nel 1637 Ferdinando III fu eletto imperatore. Tra il 1645 e il 1648 furono negoziati accordi preliminari che portarono alla conclusione della guerra con la Pace di Vestfalia. Quest'ultima sancì la libertà di culto all'interno dell'Impero e ridefinì l'assetto politico-religioso europeo.
 
+
+]

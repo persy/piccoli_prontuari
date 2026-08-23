@@ -41,7 +41,7 @@ La Romania fu teatro della rivoluzione più cruenta. Il dittatore Nicolae Ceauș
 
 Infine rimase l'Albania. Nel 1990, sotto la pressione delle proteste popolari, il presidente Ramiz Alia introdusse il multipartitismo e consentì le libere elezioni. Nel 1992 salì al potere Sali Berisha, oppositore del regime comunista.
 
-#boxfl(top)[== *🧩* Il dramma di piazza Tien An Men <senza_numero>
+#boxfl(top)[== 🐺 Il dramma di piazza Tien An Men <senza_numero>
 
 Tra aprile e maggio 1989, a Pechino, i cittadini cinesi manifestarono per imprimere una svolta alla politica del governo comunista, dando vita a una mobilitazione senza precedenti per la democrazia e la libertà.
 
@@ -71,8 +71,7 @@ Dopo questi eventi, il PCUS fu sciolto e, a dicembre, Gorbačëv si vide costret
 
 Le Repubbliche decisero di porre fine all'URSS e si unirono nella Comunità degli Stati Indipendenti (CSI). Al di fuori dell'Europa, il comunismo sopravviveva in Cina, a Cuba e in poche nazioni del Terzo Mondo.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Solidarność (1980-1987): Nell'estate del 1980 in Polonia nasce Solidarność, il primo sindacato autonomo guidato dai lavoratori di Danzica sotto la leadership di Lech Wałęsa. Nel dicembre 1981, il sindacato viene dichiarato illegale e costretto a operare clandestinamente fino al 1987.
@@ -81,3 +80,5 @@ Le Repubbliche decisero di porre fine all'URSS e si unirono nella Comunità degl
 
 
 
+
+]

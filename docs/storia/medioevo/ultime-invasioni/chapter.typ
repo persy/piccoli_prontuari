@@ -43,7 +43,7 @@ L'Inghilterra, già invasa nel V secolo dagli Angli e dai Sassoni, venne attacca
 
 Un ulteriore esempio di espansione normanna si osserva in Oriente durante la Prima Crociata (1096). Boemondo di Taranto, figlio di Roberto il Guiscardo, conquistò Antiochia nel 1099 e vi costituì un principato normanno. Esso rimase formalmente vincolato al Regno di Gerusalemme fino al 1268.
 
-#boxfl(top)[== *🧩* Il mondo vichingo <senza_numero>
+#boxfl(top)[== 🐺 Il mondo vichingo <senza_numero>
 
 La società vichinga era suddivisa in tre classi principali: nobili, contadini e schiavi, organizzazione che presentava analogie con il sistema feudale. Il diritto ereditario attribuiva al figlio maggiore tutte le proprietà familiari, purché risarcisse economicamente gli altri fratelli. Questi ultimi spesso intraprendevano percorsi alternativi diventando mercanti, pirati o colonizzatori di nuove terre. I contadini godevano di uno status di libertà ma erano vincolati ai signori delle terre cui prestavano lavoro in cambio di una retribuzione. La classe contadina comprendeva anche soldati, artigiani e mercanti.
 
@@ -63,7 +63,7 @@ Il Regno fu articolato in circoscrizioni amministrative denominate "giustizierat
 
 == I Mongoli
 
-#boxfl(bottom)[== *🧩* Marco Polo <senza_numero>
+#boxfl(bottom)[== 🐺 Marco Polo <senza_numero>
 
 Marco Polo, mercante veneziano, intraprese un viaggio con il padre Niccolò e lo zio Matteo che li portò a Pechino nel 1275, come parte di una missione diplomatica inviata da Papa Gregorio IX a Kubilay Khan. Grazie alla stima del Khan, Marco fu incaricato di importanti missioni diplomatiche all'interno dell'Impero cinese e amministrò per tre anni la città di Yangchow.
 
@@ -79,8 +79,7 @@ Nel 1241 gli eserciti tedesco-polacchi e ungherese subirono una dura sconfitta. 
 
 Dopo la fine della dinastia Yüan, nel 1368, Tamerlano, sovrano turco supposto discendente di Gengis Khan, si fece proclamare gran Khan, dando vita al secondo Impero mongolo, conquistando immensi territori. Nel 1405, alla vigilia di un attacco contro la Cina, Tamerlano morì e l'Impero declinò rapidamente, sfaldandosi in molti stati.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Saraceni: Tra l'827 e l'878, i Saraceni attuarono una sistematica occupazione di territori strategici quali la Sicilia, la Sardegna, la Corsica e le Baleari, estendendo la loro influenza fino a Roma e Ostia. Nel 915, una coalizione delle città dell'Italia meridionale riuscì a eliminare la loro base sul fiume Garigliano. Tuttavia, nel 982, l'imperatore Ottone II fu sconfitto dai Saraceni in una battaglia significativa.  
@@ -94,3 +93,5 @@ Dopo la fine della dinastia Yüan, nel 1368, Tamerlano, sovrano turco supposto d
 / Mongoli: L'espansione mongola ebbe inizio sotto la guida di Gengis Khan nel 1206, interessando territori vasti che si estendevano dal Mar Caspio alla Manciuria. Sotto la leadership dei suoi successori, l'Impero mongolo raggiunse una grande estensione territoriale e giunse a minacciare l'Europa a partire dal 1236. Kubilay Khan consolidò l'influenza mongola in Cina attraverso la fondazione della dinastia Yüan nel 1280. \ Nel 1370 Tamerlano inaugurò un secondo Impero mongolo caratterizzato da importanti conquiste territoriali. La sua morte nel 1405 segnò però il rapido declino dell'Impero, riducendone drasticamente la rilevanza politica globale.  
 
 
+
+]

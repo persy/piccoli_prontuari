@@ -15,7 +15,7 @@ I barbari erano perlopiù nomadi, praticavano un'agricoltura di base, si dedicav
 
 La società barbarica ruotava attorno alla classe dei guerrieri, che eleggeva il re e decideva le questioni principali. Tra le principali divinità vi erano Odino (dio della magia e della vittoria), Thor (dio del tuono) e Tiuz (dio della giustizia e delle assemblee). I Goti furono tra i primi convertiti al Cristianesimo quando, nel IV secolo, il vescovo Ulfila tradusse la Bibbia dal greco al gotico e diffuse l'arianesimo, una dottrina che negava la natura divina di Cristo e la sua unità con il Padre. Questo credo divenne rapidamente predominante anche tra altre popolazioni barbariche. 
 
-#boxfl(bottom)[== *🧩* Significato delle invasioni barbariche: la lettura continuista <senza_numero>
+#boxfl(bottom)[== 🐺 Significato delle invasioni barbariche: la lettura continuista <senza_numero>
 
 Significato delle invasioni barbariche: la visione continuista  
 La periodizzazione tradizionale considera il 476 come l'inizio del Medioevo, associando la caduta dell'Impero Romano d'Occidente, determinata dalle invasioni barbariche, a un evento cruciale nella storia mondiale. Tuttavia, lo storico Henri Pirenne propone un'interpretazione differente. Secondo lui, l'arrivo dei barbari non alterò le strutture fondamentali dell'Impero né pose fine all'unità economica e politica del Mediterraneo. In questa prospettiva, il vero momento di svolta e l'avvio del Medioevo andrebbero collocati tra il VII e l'VIII secolo, in coincidenza con l'espansione araba.  
@@ -64,8 +64,7 @@ Alla morte di Clodoveo, il suo territorio fu diviso tra i figli che regnarono st
 
 I re merovingi dimostrarono un'incapacità politica, cedendo progressivamente il potere ai "maggiordomi" o "maestri di palazzo". Questi funzionari amministrativi, rappresentanti dei nobili laici ed ecclesiastici, gestivano i territori reali. Nel 687, il maggiordomo d'Austrasia sconfisse il rivale di Neustria e ristabilì l'unità del Regno.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Regno Visigotico di Tolosa: I Visigoti, incaricati dall'imperatore d'Oriente di contrastare Vandali, Alani e Suebi, fondarono un regno in Aquitania nel l419. Questo dominio fu assorbito dai Franchi nel 507.
@@ -81,3 +80,5 @@ I re merovingi dimostrarono un'incapacità politica, cedendo progressivamente il
 / Regno dei Franchi: Tra il 486 e il 496 Clodoveo, re dei Franchi, riuscì a unificare gran parte della Gallia e una vasta porzione della Germania sotto il proprio dominio. Tuttavia, dopo di lui il regno si frammentò in diverse entità minori, che furono riunificate solo nel 687.
 
 
+
+]

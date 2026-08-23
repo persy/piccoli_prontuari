@@ -41,7 +41,7 @@ Augusto si presentò come il restauratore dell'antico ordine e dei tradizionali 
 
 La restaurazione religiosa si manifestò non solo con il recupero dei culti arcaici – Augusto fece restaurare templi ormai decaduti e riorganizzò i collegi sacerdotali, dei quali egli stesso entrò a far parte – ma anche con l'emergere di un culto rivolto alla sua figura. Quest'ultimo, nato spontaneamente in Oriente, trovò una sua espressione in Occidente e in Italia nell'associazione con la dea Roma. Il nuovo assetto politico e sociale garantì una generale ripresa della vita civile e dell'economia: vennero restaurati edifici antichi e costruiti nuovi complessi architettonici per abbellire Roma. Tra le opere principali si annoverano templi, basiliche, piazze e portici come il Pantheon, il teatro di Marcello e l'Ara Pacis.
 
-#boxfl(top)[== *🧩* _Intellighenzia_ e potere <senza_numero>
+#boxfl(top)[== 🐺 _Intellighenzia_ e potere <senza_numero>
 
 Augusto comprese l'importanza di trasmettere un'immagine positiva del proprio governo e fece leva sulla collaborazione con gli intellettuali dell'epoca. Attorno a Mecenate, figura ricca e colta, nonché amico fidato del principe, si riunirono i migliori artisti e letterati, sostenuti anche economicamente. 
 
@@ -55,10 +55,11 @@ Augusto si preoccupò di garantire una transizione pacifica del potere. Sebbene 
 
 Il principe optò per una successione ereditaria: non avendo figli maschi, identificò via via possibili eredi che adottò formalmente, tra cui i nipoti Marcello, Gaio e Lucio. Tuttavia, sopravvivendo a tutti loro, nel 5 d.C. fu indotto ad adottare Tiberio, membro della potente gens Claudia e figlio del primo matrimonio della sua seconda moglie Livia. A Tiberio Augusto concesse importanti prerogative istituzionali come la potestà tribunizia e l'imperium proconsulare maius, integrandolo gradualmente nel governo imperiale e predisponendolo per ricevere la sua eredità.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Principato di Augusto: Dal 31 al 23 a.C., Ottaviano ricopre senza interruzioni la carica di console. Nel 27 a.C., il Senato gli conferisce l'imperium, ovvero il potere militare, insieme al governo di un certo numero di province. In questa occasione, ottiene anche il titolo di Augusto e altre onorificenze simboliche. Nel 23 a.C., gli viene assegnato l'_imperium proconsulare maius et infinitum_, che gli garantisce un'autorità superiore rispetto ai proconsoli sulle province e sull'esercito, oltre alla _tribunicia potestas_, ovvero l'insieme dei poteri tipici dei tribuni.
 
 / Dal _princeps_ alla succesione: Con la morte di Lepido nel 12 a.C., Augusto acquisisce il titolo di Pontefice Massimo. Nel 2 a.C., gli viene attribuito il titolo di Padre della Patria. Già nel 29 a.C. era stata sottomessa la Mesia, mentre tra il 16 e il 15 a.C. la Rezia viene conquistata e trasformata in provincia. Tra il 12 e il 9 a.C., tocca alla Pannonia e al Norico entrare sotto controllo romano. Nell'8 a.C., il territorio italiano viene suddiviso in undici regioni e Roma in quattordici rioni. Viene avviata anche l'espansione verso la Germania fino al fiume Elba, ma l'avanzata viene arrestata nel 9 d.C. dopo una rivolta delle tribù germaniche; i confini vengono quindi fissati lungo il Reno. \ Dal 5 d.C., Augusto affianca al suo governo il generale Tiberio, attribuendogli la _tribunicia potestas_ e l'_imperium proconsulare maius_. Augusto muore infine nel 14 d.C.
+
+]

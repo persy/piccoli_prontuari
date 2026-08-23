@@ -33,7 +33,7 @@ In questo contesto di tensioni crescenti, i deputati girondini, esponenti modera
 
 == La Repubblica, la Convenzione e il Terrore
 
-#boxfl(bottom)[== *🧩* La Rivoluzione in Italia <senza_numero>
+#boxfl(bottom)[== 🐺 La Rivoluzione in Italia <senza_numero>
 Le idee democratiche illuminate penetrarono progressivamente negli ambienti intellettuali piemontesi e napoletani durante la Rivoluzione francese. Nel 1793 diversi Stati italiani, tra cui lo Stato Pontificio e il Regno di Napoli, aderirono alla Prima Coalizione antifrancese; tuttavia, il Granducato di Toscana fu il primo a siglare un accordo di pace con la Francia regicida.  
 
 Tra il 1796 e il 1799, durante la Prima Campagna d'Italia condotta dal generale Bonaparte, il Regno di Sardegna e l'Austria vennero piegati militarmente. Questa serie di vittorie consentì alla Francia di negoziare favorevoli trattati di pace con i duchi padani e lo Stato Pontificio (come il Trattato di Tolentino del 19 febbraio 1797). 
@@ -72,8 +72,7 @@ Sul piano interno, il Direttorio fu caratterizzato da una profonda instabilità 
 
 Tuttavia, il collasso di queste repubbliche, causato dall'avanzata della Seconda Coalizione antifrancese (1798) e dal fallimento pressoché totale della spedizione in Egitto contro l'Inghilterra (1798-99), ebbe ripercussioni significative sulla scena interna francese. Il colpo di Stato del 18 brumaio (9 novembre 1799) segnò la fine del Direttorio e affidò la Repubblica alle mani di Napoleone Bonaparte tramite l'istituzione del Consolato.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1789-92: Con la convocazione degli Stati Generali, preceduta dalla redazione dei _cahiers de doléance_, il Terzo Stato, frustrato dalla mancata concessione del voto per testa, si dichiara Assemblea Nazionale. A questa si uniscono, seppur con molta esitazione, il clero e la nobiltà. La reazione della Corte scatena una rivolta a Parigi culminata nella presa della Bastiglia. L'Assemblea Costituente introduce riforme radicali: abolizione del regime feudale, nazionalizzazione dei beni ecclesiastici e costituzione civile del clero. Questi provvedimenti incontrano l'opposizione di Luigi XVI, che tenta la fuga. Catturato a Varennes, il re è costretto a ratificare la nuova Costituzione, trasformando la Francia in una monarchia costituzionale. Nel frattempo, i girondini, per superare l'impasse politico, dichiarano guerra all'Austria.
@@ -82,3 +81,5 @@ Tuttavia, il collasso di queste repubbliche, causato dall'avanzata della Seconda
 
 / 1795-99: Con l'instaurazione del Direttorio, sostenuto dai borghesi e dalle correnti moderate, vengono repressi sia i tentativi di restaurazione monarchica sia le spinte estremiste. Per consolidare il potere, il governo si avvale dell'aiuto dei generali repubblicani che esportano la rivoluzione in Europa. Tra questi emerge Napoleone Bonaparte, protagonista della conquista dell'Italia. Tuttavia, rientrando dal fallimento della spedizione d'Egitto, Napoleone sfrutta il discredito del Direttorio, indebolito da scandali e sconfitte, per rovesciare il governo con il colpo di Stato del 18 brumaio.
 
+
+]

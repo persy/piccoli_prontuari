@@ -31,7 +31,7 @@ Nel frattempo, l'Olanda consolidò il proprio dominio in Indonesia tra il 1850 e
 
 == L'età dell'imperialismo
 
-#boxfl(bottom)[== *🧩* L'organizzazione dell'Impero Britannico <senza_numero>
+#boxfl(bottom)[== 🐺 L'organizzazione dell'Impero Britannico <senza_numero>
 
 L'Impero Britannico è stato il più vasto impero coloniale della storia contemporanea. Alla vigilia della Prima Guerra Mondiale dominava circa il 23,85% della superficie terrestre e governava una popolazione di 502 milioni di abitanti, quasi un quarto di quella mondiale. Nel 1815, l'impero era organizzato in tre categorie di colonie: le più antiche con popolazione bianca, quelle a maggioranza indigena e l'India. 
 
@@ -51,8 +51,7 @@ La Germania di Bismarck cercò invece di assumere un ruolo centrale nella sparti
 
 L'Italia partecipò anch'essa all'espansione coloniale con la conquista di Eritrea (1890), Somalia (1905) e Libia (1911). Anche gli Stati Uniti si inserirono in questa corsa imperialistica: tra il 1898 e il 1899 occuparono le Hawaii e parte delle Samoa. Inoltre, combatterono contro la Spagna per il controllo di Cuba, turbata da movimenti indipendentisti. La Guerra ispano-americana si concluse con la Pace di Parigi (dicembre 1898), che trasformò Cuba in un protettorato statunitense e portò alla cessione agli americani delle Filippine e di Porto Rico.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1815-1870: Dal 1815 la Compagnia delle Indie iniziò a espandersi in India, dove stabilì propri amministratori. Con il tempo, fu progressivamente privata del potere fino al suo scioglimento nel 1858, a seguito della rivolta dei Sepoy. \ Negli anni Trenta l'Inghilterra iniziò la sua penetrazione in Cina. La Guerra dell'Oppio (1839-1842) si concluse con la Pace di Nanchino (1842): Hong Kong fu ceduta agli inglesi e Shanghai fu aperta al commercio internazionale. \ In Canada furono concessi un governo e un parlamento autonomi, rispettivamente nel 1840 e nel 1867. \ In Australia, nel 1842, venne introdotta un'assemblea rappresentativa, mentre in Sudafrica gli inglesi si confrontarono con i "boeri" di origine olandese. \ La Francia, dal 1827 al 1830, condusse una guerra contro la Turchia per ottenere l'Algeria. Tra il 1862 e il 1867 occupò territori in Cambogia e Cocincina. \ In Messico, dal 1863 al 1867, si combatté una guerra tra le truppe francesi e i sostenitori di Benito Juárez, appoggiati dagli Stati Uniti.
@@ -60,3 +59,5 @@ L'Italia partecipò anch'essa all'espansione coloniale con la conquista di Eritr
 / 1870-1914: Dal 1870 motivazioni economiche alimentarono una vigorosa campagna a favore del nuovo colonialismo. Si ampliò così il numero di Stati coinvolti nell'espansione territoriale extraeuropea. Nel 1869 fu inaugurato il Canale di Suez in Egitto. \ Nel 1883 l'Inghilterra ne assunse il controllo. In Sudan, una rivoluzione anti-inglese guidata dal mahdi Mohammed Ahmed scoppiò negli anni successivi. Nel 1898 le truppe britanniche, sotto il comando di Lord Kitchener, sconfissero la rivolta e occuparono Khartoum. Dopo la crisi di Fashoda, l'Inghilterra annesse sia l'Egitto che il Sudan. \ Tra il 1899 e il 1902 si combatté la Guerra Anglo-Boera per consolidare la penetrazione britannica nell'Africa australe. La guerra si concluse con la Pace di Pretoria. Tra il 1880 e il 1914, la Francia annesse quasi tutti i territori del proprio impero in Africa e Asia. \ La Germania partecipò alla Conferenza di Berlino (1884-85), durante la quale il Congo fu assegnato al Belgio sotto Leopoldo II. Tra il 1884 e il 1889 il Reich creò il proprio impero coloniale. \ L'Italia proclamò la colonia di Eritrea nel 1890 e quella di Libia nel 1911. Anche gli Stati Uniti intrapresero politiche imperialistiche, imponendo un protettorato su Cuba e annettendo le Hawaii, le Filippine e Portorico.
 
 
+
+]

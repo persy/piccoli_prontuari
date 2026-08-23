@@ -61,7 +61,7 @@ Con l'evolversi della situazione internazionale, l'Unione Sovietica fu il primo 
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* II maoismo <senza_numero>
+== 🐺 II maoismo <senza_numero>
 
 L'esperienza comunista cinese si discostò in modo significativo da quella sovietica, la quale era focalizzata in particolare sul consolidamento del settore industriale.  
 
@@ -73,10 +73,10 @@ Mao Tsetung fu un deciso promotore della "rivoluzione permanente", una posizione
 
 Fuori dalla Cina, il maoismo esercitò un'influenza considerevole con i suoi principi egualitari e antiburocratici. Questa ideologia ispirò molti movimenti extraparlamentari e la cosiddetta nuova sinistra negli anni Sessanta e Settanta, oltre che diverse esperienze guerrigliere nei paesi del Terzo Mondo, come quella del gruppo Sendero Luminoso.  
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1921-1928: Dopo la fondazione del Partito Comunista Cinese (PCC) nel 1921, questo venne accettato nel 1924 come un'organizzazione autonoma all'interno del Kuomintang (KMT), il partito nazionalista guidato da Sun Yat-sen, noto per la sua posizione antigiapponese. Tuttavia, alla morte di Sun nel 1925, le divergenze ideologiche tra il KMT e il PCC, profondamente radicate, portarono alla loro separazione. \ Nel 1926, il nuovo leader nazionalista Chang Kai-shek manifestò apertamente il suo favore verso posizioni più conservatrici. Tra marzo e aprile del 1927, una rivoluzione proletaria a Shanghai fu brutalmente repressa. Eventi simili si verificarono poco dopo a Canton, dove circa 8.000 persone persero la vita.
 
 / 1928-1949: Mentre il Giappone aumentava la sua pressione sulla Cina per consolidare il proprio dominio (come dimostrato dalla creazione del Regno fantoccio di Manciukuò nel 1932 e dalla sottomissione di Chang Kai-shek alle richieste di Tokyo nel 1936), all'interno del PCC emerse la figura di Mao Tse-tung (1893-1976). Mao era determinato a guidare la mobilitazione delle masse popolari, concentrandosi principalmente sulle aree rurali. Insieme al leader militare Chu Te, riuscì a sfuggire alla persecuzione dei nazionalisti e fondò nella regione di Kiang-shi un governo di ispirazione sovietica. \ Nell'aprile del 1932 Mao dichiarò guerra al Giappone. Per contrastare l'avanzata comunista, Chang Kai-shek lanciò cinque campagne di annientamento che costrinsero i comunisti alla cosiddetta "Lunga Marcia" (ottobre 1934 - ottobre 1935), percorrendo circa 10.000 chilometri fino a raggiungere la base rossa dello Shensi. Qui, nella città di Yenan, fu stabilita quella che diventò la capitale della Cina sotto il controllo di Mao. Intanto, il Giappone proseguiva con le sue offensive militari e, nel 1940, controllava ormai gran parte della Cina. A partire dal 1939, a Nanchino, istituì un governo fantoccio per consolidare il suo potere. \ Dopo la Seconda Guerra Mondiale, Chang Kai-shek lanciò una nuova campagna di distruzione mirata contro i comunisti, che si trasformò in una guerra civile disastrosa per i nazionalisti. Infine, il 1º ottobre 1949, a Pechino, Mao proclama ufficialmente la nascita della Repubblica Popolare Cinese.
+]

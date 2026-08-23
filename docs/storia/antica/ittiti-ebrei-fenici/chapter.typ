@@ -35,7 +35,7 @@ Le divisioni interne tra i vari gruppi religiosi, come Farisei, Sadducei ed Esse
 
 Nel 70 d.C., Tito ordinò la distruzione del Tempio di Gerusalemme; una successiva rivolta nel 135 d.C. condusse alla totale distruzione della città.
 
-#boxfl(bottom)[== *🧩* La diaspora <senza_numero>
+#boxfl(bottom)[== 🐺 La diaspora <senza_numero>
 
 
 Il divieto imposto dai Romani agli ebrei di risiedere in Palestina provocò la dispersione della comunità in diverse aree del mondo, evento noto come diaspora. Molti si rifugiarono a Babilonia, dove intorno al 500 d.C. venne completata la stesura del Talmud babilonese, una raccolta delle norme religiose e giuridiche rabbiniche. Altri emigrarono in Persia, Armenia, Caucaso, Asia Minore, Balcani e Nordafrica, fino ad arrivare in Spagna.
@@ -52,7 +52,7 @@ Dio si è rivelato a Mosè come "Colui che è", instaurando con l'umanità un ra
 
 Le origini della Bibbia ebraica risalgono alle tradizioni elohista e yahvista (così chiamate per l'uso delle denominazioni Elohim e YHWH per indicare Dio nel Pentateuco), databili tra il 1000 e il 750 a.C. Successivamente vennero aggiunte altre tradizioni, come quella deuteronomista, oltre ai Libri profetici e ai Testi sapienziali o Agiografi (VIII-III secolo a.C.). Per i cristiani, il corpus del Nuovo Testamento fu redatto tra il 51-52 e l'inizio del II sec. d.C.
 
-#boxfl(top)[== *🧩* La Torah <senza_numero>
+#boxfl(top)[== 🐺 La Torah <senza_numero>
 
 La Torah, che in ebraico significa "Legge" o "Insegnamento", rappresenta la rivelazione divina consegnata a Mosè sul Monte Sinai. Essa corrisponde al Pentateuco, ovvero ai primi cinque libri della Bibbia: Genesi, Esodo, Levitico, Numeri e Deuteronomio.
 
@@ -68,8 +68,7 @@ L'invasione dei "Popoli del mare" intorno al 1200 a.C., che sconvolse il Mediter
 
 Tuttavia, la crescita della potenza assira interruppe lo sviluppo della civiltà fenicia. Sidone venne distrutta nel 675 a.C., mentre Tiro fu costretta a sottomettersi a Babilonia circa un secolo dopo. In seguito, sotto il dominio persiano, la Fenicia fu incorporata come provincia imperiale. Quando Alessandro Magno conquistò la regione, Tiro tentò di resistere ma cedette dopo un assedio prolungato nel 332 a.C.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Periodo 2000-1000 a.C.: Nel II millennio a.C., gli Ittiti si stabiliscono nell'Anatolia centrale e, sotto il governo di Hattusili I (circa 1650 a.C.), unificano i regni locali. Contemporaneamente, gli Ebrei abbandonano la Mesopotamia per trasferirsi prima in Siria e successivamente in Palestina. Nella seconda metà del millennio, i Fenici intraprendono attività marittime, consolidando il loro ruolo commerciale. Nel XVIII secolo a.C., gli Ebrei giungono in Egitto, da cui vengono espulsi nel XVI secolo. Mosè li guida verso la terra promessa, identificata con la Palestina.  Gli Ittiti raggiungono il loro apogeo sotto Suppiluliuma I (circa 1370-1342 a.C.), ma, verso il 1200 a.C., l'arrivo dei "Popoli del Mare" causa profonde turbolenze nel Mediterraneo. Questo fenomeno stimola l'economia fenicia, portando alla diffusione dell'alfabeto e alla fondazione di colonie. \ Parallelamente, l'Impero ittita vede il suo declino con Suppiluliuma II (circa 1220-1182 a.C.), mentre Cilicia e Siria si frammentano in stati minori che preservano la cultura neoittita fino alla loro definitiva sottomissione da parte degli Assiri tra l'XI e l'VIII secolo a.C.
@@ -78,3 +77,5 @@ Tuttavia, la crescita della potenza assira interruppe lo sviluppo della civiltà
 
 
 
+
+]

@@ -17,7 +17,7 @@ Nel 313, i due Augusti si incontrarono a Milano e promulgarono un Editto che ric
 
 Nel 332 Costantino sconfisse i Goti e consolidò ulteriormente i confini orientali dell'Impero. Tuttavia, morì nel 337 mentre si preparava per una campagna militare contro i Persiani. Durante il suo regno, adottò una politica progressivamente più favorevole nei confronti del Cristianesimo, promuovendo attivamente la diffusione della religione tra i sudditi orientali e concedendo ai cristiani ruoli significativi all'interno dell'esercito e dell'amministrazione statale.
 
-#boxfl(top)[== *🧩* Il Cristianesimo delle origini <senza_numero>
+#boxfl(top)[== 🐺 Il Cristianesimo delle origini <senza_numero>
 
 Il Cristianesimo si inserisce nel panorama delle religioni che trovano in Abramo il proprio progenitore. La sua peculiarità risiede però nel fatto che il nucleo della rivelazione non si basa su una Legge o un Libro, bensì sul Cristo stesso, il Verbo incarnato.  
 
@@ -51,8 +51,7 @@ Quando Attila tornò in Italia l'anno successivo, devastando il Veneto, fu invia
 
 Successivamente si susseguirono vari imperatori sotto l'influenza del barbaro Ricimero. Fu in questo contesto che il patrizio Oreste proclamò imperatore il proprio figlio Romolo Augustolo. Tuttavia, dopo pochi mesi Romolo Augustolo fu deposto da Odoacre, comandante dell'esercito barbarico al servizio dell'Impero. Accettando l'investitura da Zenone, imperatore d'Oriente, Odoacre governò l'Italia: questo decreto segnava la fine dell'Impero romano d'Occidente.  
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 
@@ -64,3 +63,5 @@ Successivamente si susseguirono vari imperatori sotto l'influenza del barbaro Ri
 
 
 
+
+]

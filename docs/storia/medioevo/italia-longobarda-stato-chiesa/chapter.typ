@@ -39,7 +39,7 @@ Le iniziative politiche di Gregorio I, l'amministrazione del patrimonio ecclesia
 
 == Da Rotari a Desiderio
 
-#boxfl(top)[== *🧩* L'Editto di Rotari <senza_numero>
+#boxfl(top)[== 🐺 L'Editto di Rotari <senza_numero>
 
 L'Editto di Rotari rappresenta una pietra miliare del diritto longobardo. Redatto in latino e composto da 388 articoli, esso si basa sulla tradizione longobarda, su altre legislazioni barbariche come la Lex Visigothorum e sul diritto romano giustinianeo e pregiustinianeo. Nonostante il progresso rispetto all'epoca di Alboino, permanevano alcune credenze superstiziose e usi barbarici.
 
@@ -69,7 +69,7 @@ A metà del 774 Desiderio perse la vita, mentre Adelchi scelse di fuggire a Bisa
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* San Benedetto e la regola benedettina <senza_numero>
+== 🐺 San Benedetto e la regola benedettina <senza_numero>
 
 San Benedetto è noto grazie ai "Dialoghi" di Gregorio I. Dopo aver fondato alcune piccole comunità a Subiaco, nel 529 diede vita a un monastero a Montecassino. Qui redasse la Regola benedettina, ispirandosi alle Sacre Scritture, alla tradizione monastica e alla pratica ascetica. Nella sua introduzione descrive il valore spirituale della vocazione e della vita monastica.
 
@@ -77,8 +77,7 @@ I monaci, sotto la guida dell'abate, coltivano virtù cristiane essenziali come 
 
 La carità occupa un ruolo centrale, vivificando sia la vita personale che quella comunitaria. Dopo la distruzione del monastero (577) per mano del duca longobardo Zotone, gli insegnamenti di Benedetto furono diffusi dai suoi monaci rifugiatisi a Roma. Nell'VIII secolo essi tornarono a Montecassino, ricostruendo l'abbazia e dal 817 la Regola benedettina si estese a tutti i monasteri carolingi.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Invasione longobarda e nascita del Regno d'Italia: Nel 568 i Longobardi, guidati da Alboino, penetrano nella pianura Padana. Milano viene occupata nel 569, mentre nel 572 cade Pavia, che diventa uno dei centri principali del dominio longobardo. Dopo l'assassinio di Alboino per mano della moglie Rosmunda, il potere passa a Clefi (572-574). A seguito di un decennio di instabilità politica, nel 584 sale al trono Autari (584-590), che avvia una gestione centralizzata attraverso il demanio regio. Il suo successore, Agilulfo (590-615), sposa Teodolinda e si converte al Cattolicesimo, iniziando così un'epoca di maggiore dialogo con la Chiesa. Nel frattempo, Papa Gregorio I (590-604) viene eletto e si distingue per la sua azione diplomatica: nel 593 negozia una tregua con Agilulfo, e nel 597 invia il monaco Agostino in Britannia con l'obiettivo di diffondere il Cristianesimo.
@@ -87,3 +86,5 @@ La carità occupa un ruolo centrale, vivificando sia la vita personale che quell
 
 / Da Astolfo a Desiderio: Nel 751 Astolfo occupa Ravenna, attirando l'attenzione del Papa Stefano II. La Chiesa si allea con i Franchi e richiede l'intervento di Pipino il Breve. Quest'ultimo scende in Italia e affronta Astolfo, sconfiggendolo nel 756. Successivamente Desiderio cerca di consolidare i rapporti con i Franchi attraverso matrimoni dinastici: le sue figlie Gerberga ed Ermengarda vengono date in spose rispettivamente a Carlomanno e Carlo (il futuro Carlo Magno). Tuttavia, nel 771 Carlo ripudia Ermengarda e diventa unico sovrano dei Franchi. \ Papa Adriano I sollecita nuovamente l'intervento franco contro Desiderio, che si rifugia a Pavia ma viene sconfitto nel 774. Carlo assume il titolo di re dei Longobardi, segnando la fine del regno longobardo e l'inizio di una nuova era per l'Italia.
 
+
+]

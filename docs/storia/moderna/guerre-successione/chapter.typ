@@ -39,7 +39,7 @@ La Dieta elesse Stanislao Leszczynski re di Polonia, ma questa decisione portò 
 
 Il conflitto si concluse con la Pace di Vienna del novembre 1738. L'accordo riconobbe Augusto III di Sassonia come re di Polonia e assegnò il granducato di Toscana a Francesco Stefano di Lorena, marito di Maria Teresa d'Austria, in seguito all'estinzione della dinastia dei Medici. I ducati di Lorena e Bar furono concessi a Stanislao Leszczynski come titolo vitalizio, a condizione che rinunciasse a ogni pretesa sul trono polacco; alla sua morte i territori sarebbero passati alla Francia. Don Carlos di Borbone ottenne l'investitura sul Regno di Napoli; Carlo Emanuele III di Sardegna ricevette Novara, Tortona e i feudi imperiali nelle Langhe. L'Austria mantenne Mantova e acquisì il territorio farnesiano di Parma, Piacenza e Guastalla. Infine, la Francia si impegnò a riconoscere la _Prammatica Sanzione_ emanata da Carlo VI.
 
-#boxfl(bottom)[== *🧩* La _Prammatica Sanzione_ <senza_numero>
+#boxfl(bottom)[== 🐺 La _Prammatica Sanzione_ <senza_numero>
 
 La _Prammatica Sanzione_ è un documento imperiale emesso per stabilire disposizioni straordinarie oppure per conferire privilegi o deroghe rispetto alle leggi vigenti senza ricorrere al consenso delle assemblee rappresentative dello Stato.  
 Pur risalendo alle prime formulazioni dell'imperatore Giustiniano, tale istituto fu in seguito utilizzato da Carlo VII di Francia e da Carlo V. Tuttavia, il caso più noto è quello relativo alla _Prammatica Sanzione_ promulgata da Carlo VI nel 1713.  
@@ -61,8 +61,7 @@ La Guerra di successione austriaca si concluse nell'ottobre del 1748 con il Trat
 
 Nonostante la fine del conflitto, le tensioni internazionali tra Francia e Inghilterra e tra Austria e Prussia perdurarono e riemersero con la Guerra dei Sette Anni (1756-1763). In tale contesto, l'Austria, alleata con Francia e Russia, tentò invano di recuperare la Slesia dalla Prussia, che godeva dell'appoggio britannico.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Successione spagnola: 
@@ -85,3 +84,5 @@ Nonostante la fine del conflitto, le tensioni internazionali tra Francia e Inghi
   - 1744: Nella Seconda Guerra per la Slesia, l'Austria subisce una sconfitta.  
   - 1745: Alla morte di Carlo VII, Francesco Stefano viene nominato imperatore, prendendo il titolo di Francesco I.  
   - 1748: La Pace di Aquisgrana stabilisce Maria Teresa come sovrana legittima dell'Austria.  
+
+]

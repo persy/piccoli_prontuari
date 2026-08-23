@@ -21,7 +21,7 @@ Al XX Congresso del Partito Comunista dell'Unione Sovietica (PCUS) nel marzo 195
 
 Una volta consolidato il proprio controllo, Krušcëv avviò ambiziosi tentativi di risollevare l'economia sovietica e perseguire una competitività con gli Stati Uniti soprattutto nel settore scientifico. Il Quinto Piano Quinquennale (1951-1955) fu emblematico di questa visione. Tuttavia, esso generò gravi squilibri interni che, combinati alle crescenti tensioni con la Cina, alla crisi cubana e al montare del dissenso verso il regime, contribuirono alla destituzione di Krušcëv il 15 ottobre 1964. 
 
-#boxfl(top)[== *🧩* Castro e il comunismo a Cuba <senza_numero>
+#boxfl(top)[== 🐺 Castro e il comunismo a Cuba <senza_numero>
 
 Fidel Castro fu il principale artefice della transizione al comunismo nell'isola di Cuba. Opponendosi al regime autoritario di Fulgencio Batista, nel 1953 guidò l'assalto alla caserma Moncada a Santiago de Cuba, sperando di ottenere armi per rovesciare il dittatore. Il piano fallì e Castro fu incarcerato. Dopo essere stato liberato grazie a un'amnistia nel 1955, si trasferì prima negli Stati Uniti e poi in Messico. Qui organizzò una spedizione armata: il 2 dicembre 1956 sbarcò a Cuba con un piccolo gruppo di combattenti. Dopo intensi scontri militari, Castro e pochi superstiti, tra cui suo fratello Raúl e il medico argentino Ernesto "Che" Guevara, si rifugiarono nella Sierra Maestra. Da lì Castro mobilitò il popolo promettendo una seria riforma agraria e guidò la guerriglia contro Batista.
 
@@ -59,8 +59,7 @@ Mao Zedong fondò il suo regime sulla centralità dell'agricoltura. A tal fine, 
 
 Nonostante il caos, Mao riuscì a riconquistare la maggioranza nel Partito Comunista Cinese nel 1969. Gli effetti negativi della sua politica lo costrinsero però a fare marcia indietro. Alla sua morte, avvenuta nel 1976, il potere passò a Deng Xiaoping, che abbandonò la linea maoista condannando apertamente i danni arrecati dalla Rivoluzione culturale.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / URSS (1945-1964): La ricostruzione dell'Unione Sovietica nel periodo postbellico fu caratterizzata da ingenti sacrifici imposti alla popolazione e da un sistematico sfruttamento delle risorse economiche dei paesi satelliti. Il governo di Stalin fu segnato da purghe e repressioni che consolidarono il suo controllo. Alla morte di Stalin, avvenuta il 5 marzo 1953, la direzione politica del paese passò a una leadership collettiva, dalla quale emerse rapidamente Nikita Kruscëv (1894-1971). Egli inaugurò il processo di destalinizzazione, un momento cruciale per la storia sovietica. \ Durante il XX Congresso del Partito Comunista dell'Unione Sovietica (PCUS) nel marzo 1956, Kruscëv riconobbe la possibilità di coesistenza tra sistemi capitalisti e comunisti, pronunciandosi contro le politiche repressive di Stalin. Sul fronte economico, il V Piano Quinquennale (1951-1955) portò significativi progressi, ma al contempo accentuò gli squilibri interni e alimentò tensioni geopolitiche, in particolare con la Cina e Cuba. Tali instabilità portarono alla destituzione di Kruscëv il 15 ottobre 1964, segnando la fine della sua leadership.
@@ -76,3 +75,4 @@ Nonostante il caos, Mao riuscì a riconquistare la maggioranza nel Partito Comun
 / Cina: Sotto la guida di Mao Zedong, la Cina orientò il proprio regime verso una politica agricola basata sulle cooperative contadine e le comuni popolari. Tuttavia, il "grande balzo in avanti" si rivelò un fallimento, rafforzando l'opposizione interna al governo centrale. Per reagire, Mao lanciò la Rivoluzione Culturale per riaffermare il proprio potere all'interno del Partito Comunista Cinese (PCC), riconquistando una posizione dominante nel 1969. Dopo la morte di Mao nel 1976, Deng Xiaoping intraprese una revisione critica della sua opera, condannando apertamente le politiche della Rivoluzione Culturale e avviando un nuovo corso per lo sviluppo del paese.
 
 / URSS (1965-1987): Il potere nell'Unione Sovietica assume una forma di direzione collegiale, con Leonid Breznev (1906-1982) al vertice. Durante questo periodo avviene una sorta di riabilitazione di Stalin, mentre l'economia sovietica si avvicina al collasso a causa della corsa agli armamenti e dell'adozione di una politica ferocemente antiamericana. Dopo la morte di Breznev, il 11 marzo 1985 Michail Gorbačëv, segretario del PCUS, introduce la perestroika, un processo di ristrutturazione economica, politica e sociale che segna la fine della "guerra fredda".
+]

@@ -9,7 +9,7 @@ Dalla guerra emerse vincitore il partito imperiale. Fu proprio sotto la guida de
 
 == Dalla fine dello shogunato all'era di Meiji Tenno
 
-#boxfl(bottom)[== *🧩* I _samurai_ <senza_numero>
+#boxfl(bottom)[== 🐺 I _samurai_ <senza_numero>
 
 I _samurai_, il cui nome deriva dal termine giapponese "samurau" che significa essere al servizio di qualcuno, furono i guerrieri del Giappone feudale. 
 
@@ -67,8 +67,7 @@ L'espansionismo giapponese sul continente asiatico creò preoccupazioni tra le g
 
 Questo gesto fu vissuto come un grave affronto che inasprì ulteriormente la politica militare del paese. La nuova potenza era ormai pronta ad assumere un ruolo decisivo nello scenario internazionale.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1603-1853: Il Giappone, sotto il dominio degli _shogun_ Tokugawa a partire dal 1603, rimase isolato da ogni influenza esterna fino al 1853. In quell'anno, una flotta americana forzò l'apertura dei porti giapponesi alle navi occidentali, segnando la fine dell'isolamento.
@@ -81,3 +80,5 @@ Questo gesto fu vissuto come un grave affronto che inasprì ulteriormente la pol
 
 
 
+
+]

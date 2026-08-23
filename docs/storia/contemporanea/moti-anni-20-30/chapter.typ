@@ -29,7 +29,7 @@ Nel frattempo, il congresso di Verona (ottobre-dicembre 1822) pianificò la repr
 
 A livello internazionale, in Russia nel dicembre 1825 si verificarono i moti decabristi, avviati dalle società segrete, ma rapidamente repressi dal nuovo zar Nicola I (1825-1855). Diverso fu il caso della Grecia, unico paese a concludere vittoriosamente la propria insurrezione contro l'Impero Ottomano. La rivolta fu guidata dalla setta Eteria, sotto il comando di Alexandros Ypsilanti, generale di origini greche al servizio dello zar Alessandro I. Grazie al favore della popolazione e dell'interesse delle potenze europee, desiderose di indebolire la Turchia, la Grecia ottenne la libertà. Dopo anni di lotta, Russia, Inghilterra e Francia liberarono il paese nella battaglia navale di Navarino (1827) e con la Pace di Adrianopoli (1829).
 
-#boxfl(top)[== *🧩* Le società segrete <senza_numero> 
+#boxfl(top)[== 🐺 Le società segrete <senza_numero> 
 
 Le società segrete erano organizzazioni clandestine, rigidamente strutturate e dotate di una forte gerarchia interna, che operavano per promuovere insurrezioni di stampo liberale e democratico.
 
@@ -59,8 +59,7 @@ Nel Ducato di Modena e nello Stato Pontificio si verificarono sollevazioni analo
 
 Contrariamente agli altri paesi europei, l'Inghilterra fu uno degli Stati nazionali immuni ai moti rivoluzionari. Durante la Restaurazione il governo britannico rimase sotto il controllo dei conservatori (tories), la cui base di potere risiedeva principalmente nell'aristocrazia terriera. Nonostante i cambiamenti economici indotti dalla Rivoluzione Industriale, tale classe sociale mantenne una posizione predominante. Nel 1820 salì al trono Giorgio IV, durante il cui regno si consolidò progressivamente un equilibrio tra aristocrazia e borghesia, permettendo al paese di intraprendere un percorso riformista. Dopo il suicidio di Castlereagh nel 1822, emersero sulla scena politica George Canning, un tory moderato, e Charles Grey, leader dei liberali (whigs). Durante il ministero di quest'ultimo venne approvata la riforma elettorale del 1832, che ampliò il numero degli elettori da 500.000 a 800.000, conferendo anche alla piccola borghesia un ruolo diretto nella vita politica inglese.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1820-1823: Il 1° gennaio 1820, in Spagna, il colonnello comunero Rafael Riego guida una rivolta dell'esercito, dando inizio a una guerra civile. Il 1° luglio dello stesso anno, la Carboneria promuove un'insurrezione nel Regno delle Due Sicilie, richiedendo l'applicazione della Costituzione del 1812. I congressi di Troppeau (1820) e Lubiana (1821) preparano il terreno per l'intervento della Santa Alleanza. \ Il 23 aprile 1821 le truppe austriache fanno ingresso a Napoli, mentre il 9 e 10 aprile dello stesso anno si verificano moti in Piemonte guidati da Santorre di Santarosa, con il coinvolgimento del principe Carlo Alberto di Savoia. Il 13 marzo, re Vittorio Emanuele I abdica a favore di Carlo Felice che regnerà dal 1821 al 1831. \ Tra ottobre e dicembre del 1822 si tiene il Congresso di Verona, e tra aprile e ottobre del 1823 i repubblicani spagnoli vengono sconfitti nella battaglia della fortezza Trocadero. Intanto, tra il 1811 e il 1828 le Colonie dell'America Latina ottengono la loro indipendenza.
@@ -69,3 +68,5 @@ Contrariamente agli altri paesi europei, l'Inghilterra fu uno degli Stati nazion
 
 / 1830-1831: Il 25 luglio 1830, il re Carlo X emette quattro ordinanze volte a limitare la libertà di stampa e a favorire l'aristocrazia, provocando una rivoluzione a Parigi dal 27 al 29 luglio. Carlo X fugge e al suo posto Luigi Filippo d'Orléans sale al trono sotto controllo parlamentare. \ Il 25 agosto dello stesso anno, nel Regno dei Paesi Bassi, i belgi ottengono l'indipendenza. Si registrano rivolte anche in Polonia e nell'Italia centrale, sotto la guida di Misley e Menotti. Infine, nel 1832 in Inghilterra, il governo vara una limitata riforma elettorale per evitare tensioni con la borghesia.
 
+
+]

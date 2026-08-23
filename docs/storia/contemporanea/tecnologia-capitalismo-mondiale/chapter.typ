@@ -25,7 +25,7 @@ Nel corso del secolo, medicina e biologia hanno raggiunto traguardi straordinari
 
 Il risultato di tali conquiste ha permesso un significativo aumento dell'aspettativa di vita, superando la soglia dei 70 anni per gran parte della popolazione. Tuttavia, questo miglioramento riguarda principalmente i Paesi più sviluppati.
 
-#boxfl(top)[== *🧩* Le malattie del XX secolo <senza_numero>
+#boxfl(top)[== 🐺 Le malattie del XX secolo <senza_numero>
 
 Le trasformazioni socioeconomiche dei Paesi industrializzati nel XX secolo hanno profondamente modificato il panorama delle malattie. Molte patologie, come il colera e la difterite, sono praticamente scomparse o hanno ridotto drasticamente i loro effetti. Se alla fine del XIX secolo le principali cause di morte in Italia erano legate a malattie gastroenteriche (oltre 300 decessi all'anno ogni 100.000 abitanti), bronchite (250), polmonite (230) e tubercolosi (200), cento anni dopo prevalgono invece patologie cardiocircolatorie (oltre 400) e tumori (circa 240).
 
@@ -63,9 +63,10 @@ Dopo il collasso dei regimi comunisti, il capitalismo si è ormai imposto a live
 
 Parallelamente a queste dinamiche, si registra una massiccia emigrazione dal Sud del mondo, i cui flussi – difficili da quantificare con precisione – si dirigono principalmente verso l'Europa occidentale e gli Stati Uniti. In particolare, nei Paesi europei arrivano immigrati provenienti dal Maghreb, dall'Albania e dall'Africa subsahariana, mentre negli Stati Uniti prevalgono gli arrivi dal Messico.  
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1940-1996: Nel corso del XX secolo, la scienza e la tecnica hanno compiuto progressi straordinari. Tra i momenti più significativi, spicca la conquista dello spazio. Negli anni '50, Stati Uniti e Unione Sovietica si sono sfidati in una competizione serrata. Il 4 ottobre 1957, lo Sputnik, primo satellite artificiale sovietico, venne lanciato con successo. Il 12 settembre 1959, il Lunik II, anch'esso sovietico, fu il primo dispositivo costruito dall'uomo a raggiungere la superficie lunare. Il 12 aprile 1961, Jurij Gagarin diventò il primo uomo a viaggiare nello spazio, mentre il 21 luglio 1969 gli astronauti americani Neil Armstrong ed Edwin Aldrin compirono lo storico sbarco sulla Luna. \ La medicina e la biologia hanno registrato enormi progressi, merito di molti grandi scienziati che hanno contribuito a debellare numerose malattie. Questi successi hanno permesso di innalzare l'aspettativa di vita oltre i 70 anni. Tuttavia, non sono mancate le minacce derivanti dagli armamenti. Durante la guerra fredda, Stati Uniti e Unione Sovietica hanno intensificato i loro arsenali nucleari, creando un inquietante "equilibrio del terrore" a livello globale. \ Anche l'inquinamento e i temi ecologici hanno guadagnato attenzione crescente. La produzione di energia nucleare, attraverso le centrali elettronucleari, ha generato benefici ma anche rischi gravissimi nel caso di insufficienti misure di sicurezza. Il disastro di Cernobyl, avvenuto il 26 aprile 1986 in Ucraina, ha evidenziato drammaticamente la necessità di proteggere l'uomo e l'ambiente da conseguenze irreparabili. Da allora, si è imposto il problema della salvaguardia dell'ambiente contro l'inquinamento. \ Parallelamente all'industrializzazione crescente nei Paesi del Sud-Est asiatico, le nazioni più avanzate stanno affrontando una nuova fase di sviluppo: la postindustrializzazione. Questa epoca è caratterizzata dall'automazione degli impianti produttivi, che riduce al minimo la necessità dell'intervento umano. Nel frattempo, il capitalismo continua a consolidarsi come sistema economico mondiale integrato.
 
+
+]

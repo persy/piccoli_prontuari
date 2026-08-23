@@ -11,7 +11,7 @@ Numerosi fattori contribuirono alla longevità della civiltà bizantina, tra cui
 
 == Da Teodosio II a Giustino
 
-#boxfl(bottom)[== *🧩* Il _Corpus luris Civilis_ <senza_numero>
+#boxfl(bottom)[== 🐺 Il _Corpus luris Civilis_ <senza_numero>
 
 La redazione del _Corpus Iuris Civilis_ rispondeva all'esigenza di mettere ordine nella vasta quantità di materiale giuridico accumulatosi nei secoli, che ormai era diventato difficile da consultare. Giustiniano ordinò di raccogliere tutte le costituzioni e i pareri giuridici ancora rilevanti, eliminando quelli considerati superati o inutili.
 
@@ -89,8 +89,7 @@ I territori dell'ex Impero bizantino furono spartiti tra Venezia (che ottenne Bi
 
 L'Impero ritrovato, sotto i Paleologi, sopravvisse per altri due secoli ma dovette fronteggiare minacce crescenti. A Occidente la pressione serba si intensificò; a Oriente invece si profilava l'inarrestabile avanzata ottomana con la presa di Nicea nel 1330 e il passaggio dei Turchi in Europa nel 1357. Ridotto alla sola area della capitale, l'Impero bizantino capitolò nel 1453 con la conquista di Costantinopoli da parte del sultano Maometto II.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Da Teodosio II a Giustino: L'intervento autoritario degli imperatori (Teodosio e poi Zenone) nelle questioni religiose, porta a una separazione tra le Chiese d'Oriente e d'Occidente che si rappacificano nel 519 sotto Giustino.
@@ -99,3 +98,5 @@ L'Impero ritrovato, sotto i Paleologi, sopravvisse per altri due secoli ma dovet
 
 / L'impero dopo Giustiniano: Dopo Giustiniano, l'Impero è indebolito da alcune invasioni. Sotto la dinastia Isaurica ha inizio la lotta iconoclasta contro il culto delle immagini sacre che termina nell'843. Nel 1054, con la reciproca scomunica ha inizio lo scisma tra Chiesa d'Oriente e Chiesa d'Occidente. \ Nel 1097 Bisanzio partecipa alla prima crociata e conquista Nicea. Con la vittoria dei Latini e la deposizione dell'imperatore Isacco II nasce l'Impero Latino d'Oriente (1204-1261). L'Impero è ricostituito, con progressive conquiste, dai Paleologhi (1261). Infine cade sotto la pressione di Ottomani (1330 e 1357) e Arabi (1453).
 
+
+]

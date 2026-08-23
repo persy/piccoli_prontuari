@@ -71,14 +71,13 @@ La vittoria fu completa per Israele, e i rapporti di forza nella regione subiron
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* La "sporca guerra" <senza_numero>
+== 🐺 La "sporca guerra" <senza_numero>
 
 Passando alla questione algerina, per convincere la Francia a concedere l'indipendenza al paese nordafricano fu necessario affrontare una delle più gravi umiliazioni politiche della sua storia. Gli interessi economici in gioco erano tali che Parigi non era disposta a rinunciare facilmente alla colonia. Tuttavia, nella popolazione algerina iniziarono a diffondersi movimenti di opposizione verso la madrepatria: già nel 1943 Ferhat Abbas aveva pubblicato un manifesto contro il dominio francese, seguito nel 1945 dalle insurrezioni di Costantina e della Piccola Kabilia. 
 
 Successivamente fu Mohammed Ben Bella, ex sottufficiale in esilio, a guidare la ribellione. Nel 1954 fondò il Fronte di Liberazione Nazionale (FLN) dando avvio a un conflitto che sarebbe durato sette anni (1955-1962) e che si caratterizzò per l'uso di metodi brutali da parte di entrambi i fronti. La guerra suscitò l'opposizione di numerosi pensatori progressisti francesi come Sartre, ma i loro sforzi furono vani. Solo con l'avvento di De Gaulle al governo fu possibile aprire trattative di pace: queste portarono al referendum sull'indipendenza algerina del 1° luglio 1962. Nel frattempo, però, in Algeria i coloni e l'esercito francese avevano instaurato un clima di terrore arrivando persino a tentare un colpo di Stato nel 1961.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vietnam: La sconfitta delle forze francesi a Dien-Bien-Phu il 7 maggio 1954, inflitta dalle milizie locali, segnò un momento cruciale nella storia del conflitto. Tale disfatta portò alla firma degli accordi di Ginevra il 21 luglio 1954, che stabilirono la divisione del Vietnam in due zone: il Nord sotto l'influenza comunista e il Sud orientato verso le potenze occidentali. Gli accordi prevedevano elezioni per la riunificazione del paese nell'anno successivo, progetto tuttavia mai realizzato. Temendo un'espansione dell'influenza comunista, gli Stati Uniti insediarono nel Sud un governo sotto la guida di Ngô Đình Diệm nell'aprile del 1955, spesso definito come un regime fantoccio. Questo periodo fu caratterizzato da una crescente instabilità che evolse rapidamente da una fase di guerriglia a un vero e proprio conflitto armato. Nel frattempo, l'8 settembre 1954 venne istituita la SEATO (Organizzazione del Trattato dell'Asia del Sud-Est), con l'obiettivo di contrastare l'influenza dell'Unione Sovietica nella regione. \ Nello stesso periodo, tra febbraio e ottobre 1955, venne stipulato in Asia il Patto di Baghdad, volto a consolidare una rete di alleanze in funzione anti-sovietica.
@@ -86,3 +85,5 @@ Successivamente fu Mohammed Ben Bella, ex sottufficiale in esilio, a guidare la 
 / Egitto: Gli interessi economici di Francia e Gran Bretagna subirono una grave minaccia negli anni '50 a seguito del colpo di stato del 22-23 luglio 1952, che portò alla destituzione del re Farouk. L'azione fu orchestrata da Mohammed Naguib e Gamal Abdel Nasser, figura determinante per la politica egiziana tra il 1918 e il 1970. Tra gli avvenimenti chiave della sua leadership si colloca la costruzione della Diga di Assuan, che ebbe rilevanti implicazioni politiche ed economiche. Inoltre, tra ottobre e dicembre 1956, l'Egitto fu teatro di una controversa aggressione congiunta da parte di Regno Unito, Francia e Israele, risolta solo grazie all'intervento delle superpotenze. Una decade più tardi, nel giugno 1967, si verificò la guerra dei Sei Giorni, che oppose nuovamente Israele e i paesi arabi.
 
 
+
+]

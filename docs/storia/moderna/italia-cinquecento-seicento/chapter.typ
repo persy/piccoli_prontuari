@@ -71,8 +71,7 @@ Tra gli altri piccoli Stati italiani dell'epoca, molti cercavano di preservare i
 
 Nel 1631, il Ducato di Urbino venne assorbito dallo Stato della Chiesa alla morte di Francesco Maria della Rovere. Anche il Ducato di Parma e Castro fu teatro di conflitti con il Papato per il controllo del territorio di Castro. Infine, la Repubblica di Lucca si trovò sotto la pressione delle mire espansionistiche dei Medici.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Ducato di Savoia: Nel 1561, Emanuele Filiberto espulse i Francesi da Torino, avviando un processo di piemontesizzazione del Ducato mediante l'adozione della lingua italiana. Contestualmente, intraprese le guerre per il controllo del Monferrato, conflitti che proseguirono sotto Carlo Emanuele II. Quest'ultimo portò avanti significative iniziative urbanistiche e tentativi di espansione territoriale, mirati in particolare alla conquista di Genova.
@@ -87,3 +86,5 @@ Nel 1631, il Ducato di Urbino venne assorbito dallo Stato della Chiesa alla mort
 
 / Domini spagnoli: Nei domini spagnoli italiani, quali Milano, Napoli e Sicilia, si registrò un grave periodo di crisi caratterizzato da malgoverno, corruzione amministrativa e una ripresa del sistema feudale. La stagnazione economica acuì il malcontento sociale, sfociando in episodi di ribellione significativi come la rivolta napoletana capeggiata da Masaniello nel 1647 e quella verificatasi a Messina nel 1674.
 
+
+]

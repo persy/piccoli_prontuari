@@ -69,7 +69,7 @@ L'intensificarsi della Guerra Fredda culminò nel conflitto coreano del 1950. Qu
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* La guerra di Corea <senza_numero>
+== 🐺 La guerra di Corea <senza_numero>
 
 La Corea fu un teatro centrale della Guerra Fredda. Come risultato degli accordi post-bellici tra le grandi potenze, il paese fu suddiviso in due zone d'influenza lungo il 38° parallelo: il nord fu affidato alla sfera sovietica, con Kim Il Sung alla guida del governo comunista; il sud rientrò sotto l'influenza occidentale con Syngman Rhee a capo del governo nazionalista. Le tensioni tra le due aree si rivelarono subito dirompenti, in quanto entrambe le parti rigettavano l'idea di una divisione territoriale permanente.
 
@@ -79,8 +79,7 @@ Nel gennaio 1951, le forze nordcoreane tornarono a minacciare Seul. In tale cont
 
 Il 10 luglio 1951, mentre i combattimenti si affievolivano nel territorio circostante il 38° parallelo, ebbe luogo la Conferenza di Pace di Keasong, che si concluse con il ripristino dello status quo prima della guerra.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1945-1951: Nel periodo successivo alla Seconda Guerra Mondiale, l'Europa si trova immersa in un clima di crescente tensione tra il blocco occidentale a guida statunitense, caratterizzato da un'economia capitalistica, e il blocco orientale, sotto l'egida sovietica e basato sull'ideologia comunista. \ Con l'approvazione dello statuto il 26 giugno 1945, nasce l'Organizzazione delle Nazioni Unite (ONU), che tuttavia si dimostra subito inefficace nel mitigare le tensioni internazionali. Gli Stati Uniti, unica potenza globale con un'economia prospera, lanciano un significativo piano di aiuti economici, noto come Piano Marshall, nel giugno del 1947. \ Questo intervento favorisce una rapida ripresa dell'Occidente, che istituisce l'Organizzazione Europea per la Cooperazione Economica (OECE) nel 1948 per coordinare gli sforzi di ricostruzione. Al contempo, l'Unione Sovietica, gravemente provata dal conflitto, intraprende un processo di ricostruzione secondo il modello staliniano e intensifica la trasformazione politica ed economica dei suoi paesi satelliti tra il 1945 e il 1948. \ In Cecoslovacchia tale processo incontra ostacoli significativi, culminando nel colpo di Stato del febbraio 1948. In Jugoslavia, invece, dove Tito è salito al potere, la penetrazione sovietica non riesce ad affermarsi con forza. \ La Germania subisce una divisione formale: a ovest nasce la Repubblica Federale di Germania (RFT) nel maggio 1949, sotto la supervisione anglo-franco-americana; a est si costituisce la Repubblica Democratica Tedesca (RDT) nell'ottobre dello stesso anno, con un governo pro-comunista. Anche Berlino viene divisa in settori occupati dalle stesse potenze. \ Ha così inizio la "guerra fredda", caratterizzata da una contrapposizione ideologica e geopolitica tra i paesi delle due sfere d'influenza. Nel blocco occidentale si istituiscono organismi e alleanze volte a contrastare l'espansionismo sovietico, tra cui l'Unione Europea Occidentale (UEO) il 17 marzo 1948, la NATO il 4 aprile 1949 e il Consiglio d'Europa nel maggio dello stesso anno. \ A queste iniziative Mosca risponde promuovendo il COMECON (Consiglio per la Mutua Assistenza Economica) il 25 gennaio 1949 e il Patto di Varsavia il 14 maggio 1955, consolidando l'alleanza tra i paesi sotto il proprio controllo. L'antagonismo tra i blocchi occidentale e orientale si approfondisce sempre di più. \ Nel frattempo, il mondo è minacciato dal rischio di un nuovo conflitto globale a causa della Guerra di Corea (1950-1951). Sebbene il pericolo venga scongiurato, le tensioni restano altissime.  
@@ -92,3 +91,5 @@ Il 10 luglio 1951, mentre i combattimenti si affievolivano nel territorio circos
 
 
 
+
+]

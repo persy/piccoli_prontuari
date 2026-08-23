@@ -45,7 +45,7 @@ La visione laica esposta in quest'opera rappresentò un pilastro per il progress
 
 == Il pensiero fisiocratico
 
-#boxfl(top)[== *🧩* Il dispotismo illuminato <senza_numero>
+#boxfl(top)[== 🐺 Il dispotismo illuminato <senza_numero>
 
 Il dispotismo illuminato emerse dall'unione di due processi storici distinti: l'assolutismo monarchico e il pensiero illuminista. Da una parte si aveva un rafforzamento progressivo del potere centrale che sottraeva autorità ai tradizionali gruppi dirigenti, tra cui la nobiltà e il patriziato; dall'altra, si sviluppava una nuova cultura basata su valori come libertà, tolleranza, ragione, istruzione ed uguaglianza.
 
@@ -63,9 +63,10 @@ In Italia, il fermento culturale si riaccese grazie alla formazione di due centr
 
 Gli illuministi lombardi affrontavano temi economici, legislativi e educativi con competenze che li portarono a occupare incarichi amministrativi sotto il governo asburgico. Contemporaneamente, a Napoli, Antonio Genovesi, Ferdinando Galiani e Gaetano Filangieri proseguivano la tradizione di rinnovamento intellettuale avviata dagli studi di Giambattista Vico, benché quest'ultimo fosse estraneo all'Illuminismo. Filangieri, giurista di rilievo, si distinse per le sue teorie sulla necessità di una codificazione delle leggi e per la proposta di una riforma delle procedure penali in linea con i principi illuministici.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / XVIII sec.: In Francia prende piede il movimento culturale dell'Illuminismo, che esalta la fiducia nella ragione umana come mezzo privilegiato per raggiungere la conoscenza della verità. La religione viene relegata a strumento di potere e privata del suo tradizionale ruolo centrale. \ Le radici dell'Illuminismo affondano nell'Umanesimo e nel Libertinismo del Seicento. Questo pensiero si espande anche tra la borghesia, favorendo la nascita di una moderna opinione pubblica. Sul piano economico, l'Illuminismo ispira la dottrina fisiocratica, che identifica il lavoro agricolo come fondamentale fonte di ricchezza. \ In ambito politico, l'interazione con l'assolutismo regio porta alla formulazione dell'assolutismo illuminato. \ Le idee illuministe vengono divulgate soprattutto tramite l'_Encyclopédie_, un'opera monumentale composta da 17 volumi pubblicati tra il 1751 e il 1772 da Denis Diderot e Jean Baptiste d'Alembert. Tra gli autori più rappresentativi figurano Rousseau, Voltaire e Montesquieu. In Italia, il pensiero illuminista si afferma a Milano grazie al circolo culturale de _Il Caffè_, animato da Pietro Verri e Cesare Beccaria, e a Napoli, tra gli intellettuali come Gaetano Filangieri, Ferdinando Galiani e Antonio Genovesi.
 
+
+]

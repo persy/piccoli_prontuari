@@ -35,7 +35,7 @@ Allo stesso tempo, alcune sette minori come gli Anabattisti, gli anti-trinitari 
 
 === La diffusione delle nuove dottrine
 
-#boxfl(bottom)[== *🧩* L'anglicanesimo <senza_numero>
+#boxfl(bottom)[== 🐺 L'anglicanesimo <senza_numero>
 
 La nascita della Chiesa anglicana si deve al re Enrico VIII, che con l'Atto di Supremazia del 1534 si pose alla guida della Chiesa d'Inghilterra sostituendosi al papa. La ragione principale fu il rifiuto di Clemente VII di concedergli l'annullamento del matrimonio con Caterina d'Aragona. Dopo essere stato scomunicato, Enrico VIII sottrasse l'Inghilterra al controllo papale mantenendo comunque la struttura dogmatica cattolica, con tutti i sacramenti riconosciuti e la nomina diretta dei vescovi, senza assimilare i principi del protestantesimo.
 
@@ -57,8 +57,7 @@ L'azione pastorale parrocchiale venne affiancata da quella degli ordini religios
 
 Negli stessi anni, papa Paolo III riorganizzò nel 1542 il tribunale romano dell'Inquisizione sul modello spagnolo, gettando le basi per un sistema repressivo che sarebbe stato ulteriormente rafforzato con la pubblicazione dell'Indice dei libri proibiti nel 1559, volto a controllare la diffusione della stampa. Contemporaneamente, nelle diocesi grandi figure come Carlo Borromeo a Milano furono protagoniste di significative iniziative pastorali e riformatrici.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Riforma protestante: Martin Lutero, monaco agostiniano tedesco, elaborò una dottrina che si basava sulla giustificazione per fede, ridimensionando il ruolo della Chiesa e dei sacramenti. Le sue idee furono espresse nelle celebri 95 Tesi di Wittenberg nel 1517. La Chiesa reagì scomunicandolo con la bolla papale _Exsurge Domine_ (1520), che condannava il pensiero luterano riguardo alle indulgenze. Tuttavia, molti principi tedeschi aderirono alla sua causa. Carlo V convocò una Dieta a Worms per affrontare il dissenso religioso, ma non ottenne risultati concreti. Nel frattempo, le tensioni sociali crebbero: la piccola nobiltà e i contadini si sollevarono, spesso ispirati dalla nuova dottrina. Paradossalmente, Lutero appoggiò la repressione di questi movimenti da parte dei principi. \ Ulrich Zwingli, a Zurigo, propose un modello di Chiesa basato sulla comunione dei credenti, caratterizzato dall'unione tra potere politico e religioso. L'opposizione dei cantoni cattolici portò al conflitto armato: durante la battaglia di Kappel nel 1531, Zwingli perse la vita. \ A Ginevra, Giovanni Calvino introdusse il concetto di predestinazione, secondo il quale la ricchezza materiale rappresentava un segno tangibile della benevolenza divina. \ In Inghilterra nacque l'Anglicanesimo, voluto da Enrico VIII per fondare una Chiesa nazionale. Inizialmente questa non si discostava dai dogmi cattolici, salvo la separazione dal papato.
@@ -67,3 +66,5 @@ Negli stessi anni, papa Paolo III riorganizzò nel 1542 il tribunale romano dell
 
 
 
+
+]

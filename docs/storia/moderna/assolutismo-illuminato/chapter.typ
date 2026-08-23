@@ -49,7 +49,7 @@ In politica interna, Caterina II abbracciò i principi illuministi. Si impegnò 
 
 Nonostante queste riforme illuministiche, permanevano gravi squilibri sociali. Lo sviluppo manifatturiero e industriale del paese si basava sullo sfruttamento indiscriminato delle masse servili. Questo clima di ingiustizia sociale portò alla rivolta contadina guidata dal cosacco Pugačëv, soffocata nel sangue e conclusa con la sua esecuzione nel 1757.
 
-#boxfl(top)[== *🧩* La seconda Guerra del Nord (1700-21) <senza_numero>
+#boxfl(top)[== 🐺 La seconda Guerra del Nord (1700-21) <senza_numero>
 
 Danimarca, Polonia, Sassonia e Russia si coalizzarono contro l'espansionismo svedese sotto Carlo XII, sostenuto da Inghilterra e Olanda. Una prima vittoria svedese a Narva nel novembre 1700 costrinse temporaneamente i russi a ritirarsi. Successivamente, Carlo XII si scontrò con Augusto II, costringendolo ad abdicare al trono di Polonia in favore di Stanislao Leszczyński.
 
@@ -57,8 +57,7 @@ L'invasione della Russia da parte degli svedesi si concluse però con la sconfit
 
 Da quel momento la Russia sostituì definitivamente la Svezia come potenza dominante sul Baltico.]
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Austria: Maria Teresa riorganizza l'amministrazione statale, abolisce i privilegi feudali e la pena di morte. In ambito ecclesiastico promuove decreti volti a ridurre gli abusi del clero regolare, portati poi all'estremo dalla politica religiosa del figlio Giuseppe II. Sostiene inoltre l'educazione e la beneficenza, con la fondazione di scuole e istituti dedicati. Giuseppe II (1780-1790) introduce ulteriori riforme, concedendo libertà di culto agli ebrei e ai non cattolici e abolendo la servitù della gleba.
@@ -69,3 +68,5 @@ Da quel momento la Russia sostituì definitivamente la Svezia come potenza domin
 
 / Seconda Guerra del Nord: Nel 1700, Danimarca, Sassonia, Polonia e Russia uniscono le forze per contrastare le ambizioni espansionistiche di Carlo XII di Svezia, sostenuto dall'Inghilterra e dai Paesi Bassi. Dopo una serie iniziale di vittorie, gli svedesi subiscono una grave sconfitta durante l'assedio di Frederikshall nel 1718, dove Carlo XII trova la morte. La Pace di Stoccolma (1720) segna il trionfo della Russia sul Baltico.
 
+
+]

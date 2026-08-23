@@ -15,7 +15,7 @@ La "Grande depressione", tra il 1873 e il 1896, interessò principalmente i paes
 
 In risposta alla situazione, molti governi abbandonarono le politiche liberoscambiste in favore del protezionismo doganale, mentre si registrava un forte aumento dell'emigrazione verso gli Stati Uniti.
 
-#boxfl(bottom)[== *🧩* La crisi della ragione <senza_numero>
+#boxfl(bottom)[== 🐺 La crisi della ragione <senza_numero>
 
 Negli ultimi due decenni del XIX secolo si osservò un progressivo allineamento tra gli interessi delle classi dirigenti e quelli dei grandi gruppi capitalistici. Questo processo relegò in secondo piano il ruolo dell'opinione pubblica e segnò il declino degli ideali liberali e democratici che avevano caratterizzato l'epoca precedente. Anche la filosofia attraversò un periodo di crisi: la fiducia nella ragione, pilastro del positivismo, iniziò a cedere il passo all'intuizione e all'irrazionalità. Particolarmente influente fu il pensiero di Friedrich Wilhelm Nietzsche (1844-1900), critico della morale e del conformismo borghese. Nietzsche attribuiva grande valore all'intuizione e alla volontà di potenza, elaborando il concetto di superuomo, un individuo libero e creativo, capace di superare i limiti imposti dalla vita borghese.
 
@@ -59,11 +59,12 @@ Fu in questo contesto che emerse il revisionismo, guidato dal tedesco Eduard Ber
 
 Sotto il pontificato di Leone XIII (1878-1903), successore dell'intransigente Pio IX, la Chiesa cercò di riconquistare una posizione di influenza nella società moderna. Il 15 maggio 1891 il Papa pubblicò l'enciclica _Rerum Novarum_, in cui criticava capitalismo, liberalismo e socialismo, promuovendo invece una riorganizzazione della società fondata sulla piccola proprietà. Fra i cattolici si aprì una divisione tra conservatori e "democratici cristiani". Questi ultimi combinarono religione e politica, favorendo un impegno cristiano nel sociale.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1873-1896: Un lungo periodo di crisi colpisce le economie avanzate a causa di un processo di assestamento legato all'industrializzazione (Grande depressione, 1873-1896). Durante questi anni avviene una profonda ristrutturazione dell'industria attraverso l'introduzione di nuove tecnologie. \ Nasce l'industria elettrica, segnata da importanti innovazioni: nel 1876 Alexander Bell perfeziona il telefono, già concepito da Meucci, mentre negli anni Ottanta si sviluppa il motore a scoppio. \ Nel 1887 Alfred Nobel inventa la dinamite e nel 1895 Guglielmo Marconi compie significativi progressi verso la radio. In risposta alla recessione economica, molti Stati adottano politiche di protezionismo doganale.
 
 / 1896-1914: Dal 1896 si registra una nuova fase di crescita industriale, che interessa anche nazioni precedentemente estranee al processo di industrializzazione. Si assiste a uno sviluppo rilevante nelle industrie del ferro, dell'acciaio e del carbone. L'economia si concentra sempre più attorno a grandi organizzazioni: nascono i cartelli, che uniscono fabbriche impegnate nella stessa produzione, e i trusts, strutture verticali che gestiscono ogni fase della produzione, dalla materia prima al prodotto finito. La popolazione mondiale continua a crescere, raggiungendo nel 1914 un miliardo e 650 milioni di abitanti. \ In questo periodo si verificano importanti cambiamenti sociali. Si accentua il conflitto tra borghesia e proletariato, dando origine a nuove correnti politiche e sindacali. Sorge il revisionismo marxista con Bernstein e il sindacalismo rivoluzionario con Sorel. Il 15 maggio 1891 papa Leone XIII promulga l'enciclica _Rerum Novarum_, che condanna gli eccessi del capitalismo, del liberismo e del socialismo, offrendo una visione alternativa sui temi sociali ed economici.
 
+
+]

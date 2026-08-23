@@ -11,7 +11,7 @@ Concluso il Congresso, i regnanti assoluti sottoscrissero la Santa Alleanza e la
 
 == La situazione europea nel 1815
 
-#boxfl(bottom)[== *🧩* La cultura della Restaurazione <senza_numero>
+#boxfl(bottom)[== 🐺 La cultura della Restaurazione <senza_numero>
 
 Nel primo Ottocento si sviluppò in Europa una nuova corrente culturale, spesso in forte contrasto con i principi razionalisti del secolo precedente. Questa corrente influenzò ambiti quali la poesia, le arti figurative, il pensiero filosofico e quello politico, e viene generalmente identificata con il termine romanticismo.
 
@@ -65,7 +65,7 @@ Nel Regno di Napoli fu restaurato Ferdinando IV di Borbone, che assunse il titol
 
 Infine, Vittorio Emanuele I di Savoia (1802-1821), re del Regno di Sardegna recentemente reintegrato nei suoi storici domini, riuscì ad annettere la Repubblica di Genova completando così la sua espansione territoriale.
 
-#boxfl(bottom)[== *🧩* La Santa Alleanza <senza_numero>
+#boxfl(bottom)[== 🐺 La Santa Alleanza <senza_numero>
 
 Il 26 settembre 1815, su iniziativa dello zar Alessandro I Romanov, Russia, Austria e Prussia stipularono un trattato che rispondeva alle nuove esigenze cooperative delle principali potenze europee. Lo zar stesso redasse personalmente il testo, impregnandolo di un forte simbolismo mistico e denominandolo Santa Alleanza.
 
@@ -81,10 +81,10 @@ Il Congresso di Vienna segna l'avvio dell'età della Restaurazione, un periodo c
 
 I monarchi dell'epoca avvertirono la necessità di mantenere la nuova configurazione europea attraverso un sistema di alleanze. Il 26 settembre 1815, Austria, Prussia e Russia formalizzarono il trattato noto come Santa Alleanza, cui aderirono successivamente quasi tutti gli Stati europei, ad eccezione della Gran Bretagna e dello Stato Pontificio. Successivamente, il 20 novembre dello stesso anno, Gran Bretagna, Austria, Prussia e Russia sottoscrissero la Quadruplice Alleanza, impegnandosi reciprocamente a garantire la stabilità degli accordi raggiunti.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Congresso di Vienna: La Francia vide la restaurazione al trono di Luigi XVIII di Borbone (1814-1824) e grazie all'intervento di Talleyrand mantenne i confini territoriali e il rango di potenza europea. \ La Prussia ottenne ingenti ampliamenti territoriali. La Russia, con lo zar Alessandro I, acquisì il controllo della Polonia e il titolo di granduca di Finlandia. \ Il Regno Unito consolidò il proprio dominio sui mari. In Spagna venne restaurato Ferdinando VII di Borbone, mentre il Portogallo entrò sotto la protezione britannica. \ Dall'unione di Olanda, Belgio e Lussemburgo nacque il Regno dei Paesi Bassi, assegnato a Guglielmo I d'Orange. \ La Svezia ottenne la Norvegia. In Italia, l'influenza austriaca divenne dominante: il Lombardo-Veneto, il Trentino e parte dell'Istria furono direttamente annessi all'Austria. \ Maria Luisa d'Asburgo ricevette il Ducato di Parma e Piacenza, Ferdinando III d'Asburgo-Lorena il Granducato di Toscana e Francesco IV d'Asburgo-Este ottenne Modena e Reggio. Ferdinando IV di Borbone fu restaurato sul trono del Regno delle Due Sicilie, mentre papa Pio VII mantenne il controllo dello Stato della Chiesa. \ Vittorio Emanuele I di Savoia (1802-1821) guidò il Regno di Sardegna, ampliato con i territori della Repubblica di Genova. Fu firmata la Santa Alleanza il 26 settembre 1815 e la Quadruplice Alleanza il 20 novembre dello stesso anno.
 
 / La Restaurazione: Nonostante il Congresso di Vienna cercasse di ristabilire le monarchie assolute in Europa, ricreare il clima del Settecento si rivelò impossibile a causa degli effetti profondi della Rivoluzione Francese e del periodo napoleonico. Emersero correnti di pensiero contrarie ai principi rivoluzionari e si diffondeva intanto il movimento letterario del romanticismo, simbolo della nuova sensibilità culturale dell'epoca.
+]

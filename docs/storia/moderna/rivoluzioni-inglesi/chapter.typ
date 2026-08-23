@@ -27,7 +27,7 @@ Durante la fase iniziale della guerra, le forze fedeli al re ottennero successi 
 
 Cromwell, ormai in posizione dominante, procedette con la purga del Parlamento eliminando i membri monarchici. Sotto la sua influenza, un tribunale rivoluzionario decretò la condanna a morte di Carlo I, che fu giustiziato mediante decapitazione il 30 gennaio 1649. In seguito alla morte del re, venne proclamata la Repubblica (_Commonwealth_), che perdurò fino alla restaurazione monarchica del 1660.
 
-#boxfl(bottom)[== *🧩* _Whigs_ e _tories_ <senza_numero>
+#boxfl(bottom)[== 🐺 _Whigs_ e _tories_ <senza_numero>
 
 Durante il regno della dinastia Stuart, all'interno del Parlamento inglese emersero due fazioni che possono essere considerate i primi partiti politici nel senso moderno: i _whigs_ e i _tories_.
 
@@ -65,8 +65,7 @@ In Irlanda, i cattolici formarono un esercito in supporto a Giacomo II, ma furon
 
 La successione a Guglielmo III, che non lasciò eredi diretti, venne definita dall'Atto di disposizione del 1701. Il trono fu assegnato ad Anna, sorella di Mary Stuart, inaugurando così il dominio della casata degli Hannover.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / 1603-1625: Giacomo I Stuart unificò le corone d'Inghilterra e Scozia, consolidando il potere monarchico. Sostenitore dell'assolutismo, ricorse alla distribuzione di titoli nobiliari per garantirsi la fedeltà politica e il controllo del governo.
@@ -82,3 +81,4 @@ Nel 1640 esplose la rivolta in Scozia contro la supremazia della Chiesa anglican
 / 1685-1688: Giacomo II, di religione cattolica, incontrò la diffidenza del popolo. La nascita di un erede alimentò timori di una possibile restaurazione cattolica, portando alla ribellione e alla Gloriosa Rivoluzione.
 
 / 1689: Guglielmo III d'Orange fu proclamato sovrano insieme alla moglie Maria Stuart. Il Parlamento approvò il _Bill of Rights_, stabilendo nuovi limiti al potere monarchico e garantendo diritti fondamentali.
+]

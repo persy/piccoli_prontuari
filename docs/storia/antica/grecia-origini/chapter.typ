@@ -20,7 +20,7 @@ Le principali fonti della prosperità minoica furono la metallurgia, l'oreficeri
 Il periodo compreso tra il 1600 e il 1400 a.C. segnò l'apogeo della civiltà minoica sotto il regno leggendario di Minosse, il quale portò all'unificazione dell'isola. Minosse si distinse per aver liberato l'Egeo dai pirati, imponendo onerosi tributi alle comunità rivierasche soggette alle loro incursioni. Tuttavia, una serie di catastrofi naturali indebolì a lungo andare l'isola, che nel 1400 a.C. circa fu devastata e successivamente conquistata dagli Achei. Questo evento segnò l'integrazione della civiltà minoica nell'orbita della Grecia micenea, pur influenzando profondamente quest'ultima.
 Con l'avvento delle invasioni doriche nel XII secolo a.C., Creta perse definitivamente la sua centralità politica e culturale, decretando il termine della sua potenza storica.
 
-#boxfl(top)[== *🧩* La leggenda del Minotauro <senza_numero>
+#boxfl(top)[== 🐺 La leggenda del Minotauro <senza_numero>
 
 La leggenda del Minotauro sembra evocare il ricordo dei tributi imposti dai Cretesi durante il loro dominio marittimo. Secondo il racconto, gli Ateniesi erano costretti a inviare ogni anno, per nove anni consecutivi, sette giovani uomini e sette giovani donne a Cnosso come offerta al Minotauro, il temibile mostro rinchiuso nel Labirinto del palazzo reale da Minosse.
 
@@ -38,7 +38,7 @@ Gli Achei giunsero nella Grecia continentale intorno al II millennio a.C., riusc
 
 Inoltre, gli Achei si spinsero verso ovest, stabilendosi a Siracusa, nelle isole Eolie e a Ischia, nonché nelle vicinanze di Taranto. Tra gli eventi più celebri della civiltà micenea si annovera la Guerra di Troia, un conflitto ricordato per il suo impatto epico. Troia, situata strategicamente sulle acque dei Dardanelli che conducevano al Mar Nero, esercitava un controllo significativo sulle rotte del commercio marittimo. La guerra, guidata dal re Agamennone, fu lunga e impegnativa: dopo un assedio durato dieci anni, intorno al 1200 a.C., essa venne distrutta dagli Achei. Tuttavia, il conflitto ebbe conseguenze gravi per gli invasori, che uscirono profondamente indeboliti e incapaci di resistere all'avanzata dei Dori nel 1150 a.C., evento che decretò il declino della civiltà micenea.
 
-#boxfl(bottom)[== *🧩* Troia e i poemi omerici <senza_numero>
+#boxfl(bottom)[== 🐺 Troia e i poemi omerici <senza_numero>
 
 Troia è al centro della narrazione nell'Iliade di Omero. Il sito della città fu identificato nel 1870 dall'archeologo tedesco Heinrich Schliemann. Gli scavi portarono alla luce nove strati sovrapposti di abitati, con il più antico risalente al II millennio a.C., mentre l'ultimo fu costruito dal generale macedone Lisimaco tra il IV e il III secolo a.C.
 
@@ -62,8 +62,7 @@ Il loro sistema politico, caratterizzato da istituzioni conservatrici e militari
 
 I sovrani, in determinate circostanze, riunivano i principali capi delle famiglie aristocratiche (gli áristoi, i "migliori") per decidere su questioni di pericolo o guerra. Nonostante l'apparente isolamento culturale, questo periodo vide alcune innovazioni significative, come la lavorazione del ferro, la costruzione di templi dedicati agli dei e l'introduzione dell'alfabeto fenicio.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Invasione di popoli nella Grecia: Nel II millennio a.C., gli Eoli si stabiliscono nelle regioni della Tessaglia e della Beozia. Sono seguiti dagli Ioni, che si insediano in Attica e sulla vicina isola di Eubea, mentre gli Achei occupano prevalentemente la zona orientale del Peloponneso.  
@@ -79,3 +78,5 @@ I sovrani, in determinate circostanze, riunivano i principali capi delle famigli
 
 
 
+
+]

@@ -31,7 +31,7 @@ Temistocle convinse gli ateniesi a evacuare la città e rifugiarsi sull'isola di
 
 Serse fu costretto a ritirarsi ma non rinunciò all'idea di una nuova invasione l'anno seguente. Nel 479 a.C., l'esercito persiano rimasto in Tessaglia subì una disfatta nella battaglia di Platea per mano del generale spartano Pausania. Parallelamente, la flotta greca inflisse una dura sconfitta ai Persiani presso capo Micale, liberando le isole dell'Egeo dalla loro occupazione.
 
-#boxfl(bottom)[== *🧩* La disfatta di Salamina nella tragedia di Eschilo <senza_numero>
+#boxfl(bottom)[== 🐺 La disfatta di Salamina nella tragedia di Eschilo <senza_numero>
 
 I Persiani di Eschilo rappresenta l'unica tragedia giunta fino a noi che affronta temi apertamente politici. L'azione si svolge a Susa durante le guerre tra Greci e Persiani. Un coro di anziani persiani celebra la grandeur dell'Impero, ma manifesta anche un profondo senso di angoscia per la mancanza di notizie dal fronte. Atossa, madre di Serse, compare sulla scena e racconta i suoi inquietanti presagi; poco dopo, giunge un messaggero per annunciare la sconfitta di Salamina.
 
@@ -53,8 +53,7 @@ Nel 460 a.C., Pericle salì al potere. Egli riprese le ostilità contro la Persi
 
 Le conseguenze di questa sconfitta furono determinanti per l'Impero persiano. Dopo la lunga lotta contro la Grecia, l'Impero soffrì una crescente crisi del potere centrale e un indebolimento economico. La sua sopravvivenza durò fino all'avvento di Alessandro Magno e dell'esercito macedone, che ne determinò la perdita dell'indipendenza politica e avviò un processo di integrazione culturale con il mondo greco.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Preamboli: Nel 499 a.C. il re persiano Dario avviò un tentativo di sottomettere l'isola di Nasso, senza tuttavia riuscirci. Questo fallimento provocò lo scoppio di una rivolta in diverse città ioniche, guidata da Aristagora, tiranno di Mileto. La rivolta venne sedata nel 492 a.C., momento in cui Dario decise di organizzare una spedizione punitiva contro Atene ed Eretria, colpevoli di aver sostenuto i ribelli. Tale spedizione, tuttavia, non raggiunse gli obiettivi prefissati e si concluse con un insuccesso.
@@ -66,3 +65,5 @@ Le conseguenze di questa sconfitta furono determinanti per l'Impero persiano. Do
 / Conclusione del conflitto: Nel 477 a.C., Atene aderì alla Lega Delio-Attica con l'obiettivo di rafforzare il fronte anti-persiano. Sotto la guida di Cimone, che subentrò a Temistocle, venne liberata la Tracia meridionale dal dominio persiano nel 470 a.C. Successivamente, con l'ascesa al governo di Pericle nel 460 a.C., le ostilità ripresero con maggiore intensità. Nel 449 a.C., Pericle ottenne una significativa vittoria presso Salamina Cipria e si aprì un dialogo negoziale condotto da Callia, culminando nella stipula della Pace di Callia nello stesso anno.  
 
 
+
+]

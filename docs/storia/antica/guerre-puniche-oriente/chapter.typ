@@ -43,7 +43,7 @@ Nel frattempo, a Roma cresceva il sentimento anticarataginese, alimentato da fig
 
 Nel 133 a.C., Scipione Emiliano pose fine alla rivolta di Numanzia in Spagna dopo anni di guerriglia, aprendo così la strada alla romanizzazione del territorio. Contestualmente, Roma si assicurò il controllo della Gallia meridionale, estendendo il proprio dominio dalle Alpi ai Pirenei e trasformandola nella provincia della Gallia Narbonense. Questi successi dimostrarono ancora una volta la potenza e la stabilità dell'impero romano.
 
-#boxfl(top)[== *🧩* _Carthago delenda est_ <senza_numero>
+#boxfl(top)[== 🐺 _Carthago delenda est_ <senza_numero>
 
 Le relazioni tra Roma e Cartagine si trasformarono nel tempo da collaborazioni e alleanze in una rivalità senza tregua. Dopo le ripetute vittorie contro le popolazioni italiche e contro Pirro, Roma iniziò a guardare con ostilità al predominio cartaginese sulla Sicilia e sul Mediterraneo. La competizione si fece spietata, alimentando un odio profondo tra le due civiltà.
 
@@ -51,8 +51,7 @@ Questo odio venne rappresentato simbolicamente dal giuramento fatto da Amilcare 
 
 La ferocia dimostrata verso Cartagine rappresentò un'eccezione nel pensiero politico di Catone. Solitamente consigliava prudenza e moderazione nei confronti dei popoli sottomessi. Tuttavia, la rivalità con Cartagine si dimostrò più forte di ogni principio umanitario, tradendo quell'idea di "humanitas" che egli stesso riteneva essenziale per la grandezza dell'uomo. Al contrario, l'assenza di tale virtù finiva per corrompere i costumi e il carattere.]
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Prima Guerra punica: Nel 264 a.C., i Mamertini di Messina chiesero l'intervento romano per difendersi dai Cartaginesi, dando avvio alla prima guerra tra Roma e Cartagine. Nel 260 a.C. la flotta romana riportò una schiacciante vittoria a Milazzo, mentre nel 256 a.C. fallì l'audace spedizione di Attilio Regolo in Africa. La svolta decisiva arrivò nel 241 a.C., quando Roma trionfò alle Egadi, trasformando la Sicilia nella prima provincia romana. Conclusa la pace, nel 238 a.C. i Romani sottrassero ai Cartaginesi anche la Sardegna e la Corsica.
@@ -60,3 +59,4 @@ La ferocia dimostrata verso Cartagine rappresentò un'eccezione nel pensiero pol
 / Seconda Guerra punica: Tra il 230 e il 228 a.C., Roma piegò l'Illiria, ampliando la sua influenza nei Balcani. Nel 225 a.C. respinse una minacciosa incursione dei Galli, li sconfisse e conquistò Mediolanum. Parallelamente, tra il 237 e il 219 a.C., Cartagine espanse il proprio dominio in Spagna. \ L'attacco di Annibale contro Sagunto, alleata di Roma, scatenò una nuova guerra nel 218 a.C. Annibale attraversò terraferma fino all'Italia e colse grandi successi militari, tra cui le vittorie al Ticino (218), al Trasimeno (217) e la devastante battaglia di Canne (216). Quinto Fabio Massimo intraprese una strategia di logoramento, ma fu sostituito dai consoli Lucio Emilio Paolo e Terenzio Varrone, che subirono una pesante sconfitta a Canne. Nel 211 a.C., Roma conquistò Siracusa, rendendola tributaria. \ Una guerra contro Filippo V di Macedonia portò al protettorato romano su parte del territorio macedone e alcune città ioniche nel 205 a.C. \ L'avanzata di Asdrubale, fratello di Annibale, fu fermata con la sua sconfitta al Metauro nel 207 a.C. Nel 206 Publio Cornelio Scipione ottenne una vittoria cruciale a Ilipa e invase l'Africa, costringendo Annibale ad abbandonare l'Italia. La battaglia finale si svolse a Zama nel 202 a.C., dove Scipione sconfisse Cartagine e ne sancì la resa definitiva.
 
 / Terza Guerra punica: Nel 200 a.C., Roma intraprese una nuova guerra contro Filippo V, che fu sconfitto nel 197 a.C. a Cinocefale, segnando la fine della seconda guerra macedonica. Nel 191 a.C., Roma vinse contro Antioco III di Siria, consolidando la propria presenza orientale. Tra il 171 e il 168 a.C., i Romani affrontarono Perseo, figlio di Filippo V, nella terza guerra macedonica, smembrando la Macedonia in quattro repubbliche autonome. \ Il conflitto con Cartagine riemerse nel 149 a.C., culminando nel 146 con la completa distruzione della città da parte di Scipione Emiliano durante la terza guerra punica. Nello stesso anno, Roma domò le rivolte guidate da Andrisco in Macedonia e dalla Lega achea in Grecia. Nel 133 a.C. ebbe inizio la sistematica conquista della Spagna.
+]

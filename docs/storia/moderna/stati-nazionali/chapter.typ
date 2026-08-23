@@ -31,7 +31,7 @@ Tra gli altri organi rappresentativi vi erano gli Stati Generali, convocati spor
 
 == L'Europa orientale e settentrionale
 
-#boxfl(bottom)[== *🧩* La situazione italiana <senza_numero>
+#boxfl(bottom)[== 🐺 La situazione italiana <senza_numero>
 
 In Italia, nel Cinquecento, la frammentazione politica e la debolezza militare della penisola avevano reso il territorio vulnerabile ai vicini Stati nazionali. In Nord Italia, pur formalmente sotto il controllo dell'Impero, si trovavano principati ampiamente autonomi e ricche repubbliche oligarchiche con forte tradizione marinara come Venezia e Genova. 
 
@@ -55,8 +55,7 @@ Passando al Sacro Romano Impero, si trattava di una struttura sovranazionale mol
 
 Gli Asburgo, grazie ai loro vasti territori e a una strategia dinastica accorta, ampliarono il loro controllo, come accadde nel 1526 con l'annessione del Regno di Boemia. Nonostante ciò, l'autorità imperiale era limitata dalla Dieta dell'Impero o Reichstag, composta dagli elettori, dai principi e dai rappresentanti delle città. Nemmeno Massimiliano I (1493-1519) riuscì a creare un organo centrale statale, pur avendo suddiviso l'Impero in circoscrizioni amministrative con il supporto della Dieta.
 
-#pagebreak()
-#set page(fill: accent.sto.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 
@@ -70,3 +69,5 @@ Gli Asburgo, grazie ai loro vasti territori e a una strategia dinastica accorta,
 
 / Gli altri Stati: Nel Nord Europa, l'Unione di Kalmar aveva unito Svezia, Norvegia e Danimarca dal 1397, ma tale alleanza si era dissolta con l'indipendenza della Svezia nel 1523. In Ungheria, sotto il regno di Mattia Corvino, il paese raggiunse il suo massimo splendore politico e culturale; tuttavia, dopo la sua morte nel 1499, la nobiltà optò per eleggere un sovrano politicamente più debole per conservare maggiori prerogative. Per quanto riguarda l'Italia, i territori settentrionali rimasero formalmente sotto la giurisdizione imperiale, mentre il centro era sotto controllo dello Stato pontificio e il Sud di quello della Spagna.
 
+
+]
