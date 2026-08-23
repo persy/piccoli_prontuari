@@ -48,8 +48,7 @@ Le api, per esempio, vivono in società composte da una regina (l'unica femmina 
 Anche le formiche seguono una struttura sociale simile, con tre caste principali: la regina (fertile e dotata di ali), le operaie (femmine sterili e prive di ali) e i maschi (anch'essi alati). Le termiti, invece, aggiungono una quarta casta alle proprie società: quella dei soldati, caratterizzati dalla presenza di enormi mandibole, utili per la difesa della colonia.
 
 In contrapposizione alla rigida organizzazione degli insetti sociali, le società dei mammiferi si distinguono per la loro dinamicità e adattabilità. In queste comunità, l'organizzazione gerarchica è meno rigida e può cambiare nel tempo. La gerarchia di dominanza, pur essendo importante, non è permanente e può essere riconsiderata in circostanze come la morte del leader o il suo indebolimento legato alla vecchiaia o malattie. Sebbene i compiti siano distribuiti tra i membri del gruppo, ciascun individuo conserva un significativo grado di autonomia. In questi sistemi sociali, la gerarchia di dominanza riveste un ruolo essenziale soprattutto per definire le priorità nell'accoppiamento.
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Comunicazione: Capacità di un animale di condividere con un altro individuo un'informazione che modifica il comportamento di quest'ultimo. Può avvenire attraverso segnali chimici, visivi, uditivi o tattili.  
@@ -62,4 +61,5 @@ In contrapposizione alla rigida organizzazione degli insetti sociali, le societ�
 
 / Gerarchia di dominanza: Struttura organizzativa interna ad un gruppo che stabilisce l'ordine di precedenza tra i membri. Questa gerarchia minimizza i conflitti per l'accoppiamento e per l'accesso alle risorse alimentari.  
 
-/ Territorialità: Comportamento tramite il quale un animale difende il proprio spazio da intrusioni da parte di altri individui.  
+/ Territorialità: Comportamento tramite il quale un animale difende il proprio spazio da intrusioni da parte di altri individui. 
+] 

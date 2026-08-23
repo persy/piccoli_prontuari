@@ -413,7 +413,7 @@ La classificazione dei Cordati si basa sulla localizzazione della notocorda. Gli
 )  
 )
 
-#boxfl(bottom)[== *🧩* Altri _phyla_ di animali <senza_numero>
+#boxbr[== 🐺 Altri _phyla_ di animali <senza_numero>
 
 Gli Gnatostomulidi (_phylum_ Gnathostomulida) sono animali di piccole dimensioni (0,5-3 mm), con corpo cilindrico e vermiforme rivestito di ciglia. La loro bocca è situata sulla parte ventrale. Questi organismi ermafroditi vivono principalmente nei fondali sabbiosi e fangosi.
 
@@ -426,8 +426,8 @@ I Pentastomidi (_phylum_ Pentastomida) sono esclusivamente parassiti di vertebra
 I Tardigradi (_phylum_ Tardigrada) sono microrganismi dotati di quattro paia di arti terminanti con unghie. Presentano una bocca munita di stiletti retrattili utili per perforare. La loro capacità di sopravvivere in condizioni estreme (criptobiosi) è particolarmente sviluppata: resistono per anni in mancanza totale d'acqua, di ossigeno, a temperature estreme (da -272 a 150 °C), ad alti livelli di radiazioni ionizzanti (6000 Gy) e al vuoto dello spazio.
 
 Gli Onicofori (_phylum_ Onychophora) hanno un corpo segmentato simile a quello degli Anellidi ma rivestito da una cuticola sottile. La testa è ben distinta e dotata di due antenne. Sul ventre sono presenti numerose appendici locomotorie provviste di unghie (da cui il termine greco "ónicos"). I sessi sono separati e vi è un marcato dimorfismo sessuale.]
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+
+#lastpage()[
 == Glossario <senza_numero>
 
 / Cefalizzazione: Processo che concentra gli organi di senso, il cervello e la bocca all'estremità anteriore del corpo.  
@@ -449,3 +449,4 @@ Gli Onicofori (_phylum_ Onychophora) hanno un corpo segmentato simile a quello d
 / Pseudoceloma: Cavità corporea simile al celoma, ma con origini embrionali differenti.  
 
 / Vertebrati: Animali dotati di scheletro interno.
+]

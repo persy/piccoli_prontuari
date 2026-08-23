@@ -58,7 +58,7 @@ Le molecole di acqua presentano una distribuzione parziale delle cariche: l'atom
 == I composti organici e inorganici
 
 Una delle principali classificazioni dei composti chimici li suddivide in composti organici e composti inorganici. I composti organici comprendono quasi tutti i composti contenenti carbonio, inclusi quelli che formano le molecole essenziali degli organismi viventi. I composti inorganici, invece, racchiudono tutte le sostanze che non includono il carbonio nelle loro molecole, ad eccezione di alcuni casi come il diossido di carbonio (o anidride carbonica) e pochi altri composti del carbonio, fra i quali i carbonati e i carburi. Numerosi composti inorganici svolgono un ruolo indispensabile per la vita, con l'acqua che occupa una posizione di rilievo, poiché la maggior parte delle reazioni fondamentali per gli esseri viventi avviene in soluzione acquosa.
-#boxfl(bottom)[== *🧩* L'importanza del carbonio <senza_numero>
+#boxfl(bottom)[== 🐺 L'importanza del carbonio <senza_numero>
 
 Il carbonio, indicato con il simbolo C, è un elemento non metallico appartenente al gruppo VI A della tavola periodica. In natura, si trova allo stato elementare in due forme cristalline distinte: la grafite e il diamante. Nella crosta terrestre, è presente in minima quantità all'interno di composti come i carbonati, il petrolio, il carbone e il gas naturale. Nell'atmosfera, invece, si manifesta principalmente sotto forma di monossido (CO) e diossido di carbonio, conosciuto anche come anidride carbonica (CO#sub[2]). Tuttavia, la maggior parte del carbonio è parte integrante delle strutture fondamentali degli organismi viventi.
 
@@ -388,8 +388,7 @@ Se carente, provoca pellagra, disturbi digestivi],
 )  
 )
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Acidi: Sostanze chimiche che, quando disciolte in acqua, rilasciano ioni idrogeno H⁺.  
@@ -426,4 +425,4 @@ Se carente, provoca pellagra, disturbi digestivi],
 
 / Vitamine:  Composti organici caratterizzati da una struttura chimica eterogenea, indispensabili in piccole quantità per il corretto svolgimento di funzioni fisiologiche fondamentali. Si trovano principalmente in alimenti di origine vegetale.  
 
-
+]

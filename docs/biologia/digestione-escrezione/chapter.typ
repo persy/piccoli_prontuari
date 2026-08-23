@@ -65,7 +65,7 @@ La superficie interna dell'intestino tenue è caratterizzata da pieghe ricoperte
 
 L'intestino crasso, invece, è composto da tre porzioni principali: cieco, colon (ascendente, trasverso e discendente) e retto. Dal cieco si estende l'appendice, un piccolo diverticolo privo di funzione digestiva. Il colon riceve i residui della digestione, prevalentemente acqua e sostanze non digerite. Qui l'acqua viene assorbita, mentre i materiali di rifiuto vengono trasformati in feci semisolide e trasportati al retto per l'espulsione attraverso l'ano.
 
-#boxfl(bottom)[== *🧩* La digestione della cellulosa <senza_numero>
+#boxfl(bottom)[== 🐺 La digestione della cellulosa <senza_numero>
 
 La cellulosa, principale componente delle cellule vegetali, viene degradata dall'enzima cellulasi. Tuttavia, i mammiferi erbivori come ruminanti, cavalli e conigli non sono in grado di produrlo direttamente. In alternativa, essi ospitano batteri simbiotici nello stomaco o nell'intestino responsabili della digestione della cellulosa.
 
@@ -118,8 +118,7 @@ Nel dotto collettore, dove confluiscono diversi tubuli distali, il filtrato si c
 
 I dotti collettori trasportano l'urina verso la pelvi renale, da cui attraversa gli ureteri peristaltici fino alla vescica, un organo muscolare cavo dove viene accumulata. La sua espulsione avviene tramite contrazione della muscolatura della vescica e rilassamento dello sfintere uretrale, una struttura anulare posta al di sotto della vescica. Infine, l'urina percorre l'uretra, un canale lungo circa 4 cm nelle donne e 20 cm negli uomini.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Apparato digerente: Complesso di organi e strutture responsabili dell'assunzione, della digestione e dell'assimilazione delle sostanze nutritive, oltre che dell'eliminazione delle scorie solide. Nell'uomo è composto da bocca, faringe, esofago, stomaco e intestino, insieme a organi accessori come ghiandole salivari, fegato, cistifellea e pancreas.  
@@ -143,3 +142,4 @@ I dotti collettori trasportano l'urina verso la pelvi renale, da cui attraversa 
 / Rifiuti azotati: Sostanze derivanti dal metabolismo delle proteine, come ammoniaca, urea e acido urico. Essendo tossici, vengono eliminati dall'organismo grazie all'azione dell'apparato escretore.  
 
 / Urina: Liquido concentrato prodotto dai reni, che raccoglie i rifiuti azotati nei mammiferi. Si accumula nella vescica e viene espulso attraverso l'uretra.  
+]

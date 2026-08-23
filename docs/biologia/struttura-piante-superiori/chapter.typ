@@ -85,7 +85,7 @@ Questi tessuti lavorano insieme per formare le diverse strutture, apparati e sis
 )  
 )
 
-#boxfl(bottom)[== *🧩* La dendrocronologia <senza_numero>
+#boxfl(bottom)[== 🐺 La dendrocronologia <senza_numero>
 
 La dendrocronologia offre un contributo significativo alla datazione assoluta mediante lo studio e la quantificazione degli anelli annuali di accrescimento degli alberi. Attraverso questa disciplina è possibile ricostruire le fluttuazioni climatiche del passato e stabilire cronologie precise.
 
@@ -173,8 +173,7 @@ Nel contesto della morfologia delle angiosperme, il fiore si sviluppa attorno a 
 
 I fiori possono essere classificati in base alla loro composizione: si definiscono ermafroditi quando contengono sia stami sia pistilli nello stesso fiore, oppure unisessuali quando sono distinti tra maschili e femminili. Nelle specie dioiche, i fiori maschili e femminili crescono su piante diverse, mentre nelle specie monoiche essi sono presenti sulla medesima pianta. I fiori possono manifestarsi in forma isolata o aggregata in strutture chiamate infiorescenze.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Accrescimento primario: Crescita in lunghezza del fusto e della radice dovuta alla divisione delle cellule del meristema apicale.  
@@ -201,3 +200,4 @@ I fiori possono essere classificati in base alla loro composizione: si definisco
 
 / Sughero: Tessuto tegumentale secondario originato dal fellogeno, presente nella corteccia del fusto e della radice.
 
+]

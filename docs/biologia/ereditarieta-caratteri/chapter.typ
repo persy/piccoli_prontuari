@@ -52,7 +52,7 @@ Successivamente, incrociando tra loro gli individui della F1, Mendel ottenne la 
 
 Mendel estese il suo studio anche agli incroci diibridi, esaminando contemporaneamente due caratteri. Anche in questo caso, i risultati furono coerenti con le osservazioni precedenti: nella F1 emergevano esclusivamente le varianti dominanti di entrambi i tratti, mentre nella F2 la distribuzione fenotipica seguì proporzioni specifiche. Mendel ottenne: 1/16 di individui con entrambe le varianti recessive, 9/16 con entrambe le varianti dominanti, 3/16 con una variante dominante accompagnata da una recessiva e altri 3/16 con la variante opposta dominante e recessiva.
 
-#boxfl(bottom)[== *🧩* Mendel, il fondatore della genetica <senza_numero>
+#boxfl(bottom)[== 🐺 Mendel, il fondatore della genetica <senza_numero>
 // Da rimuovere e sostituire con un altro approfondimento
 Gregor Mendel (1822-1884) era un monaco del monastero di Brno (nell'attuale Repubblica Ceca), con una vasta cultura matematica acquisita all'università di Vienna. Per dieci anni, dal 1854 al 1864, egli coltivò e studiò i meccanismi dell'eredità di circa 28.000 piante di Pisum sativum, dalle quali era stato attratto per la presenza di alcuni caratteri che si presentavano in due forme alternative (il colore del seme, giallo o verde; il bacello, liscio o rugoso; i fiori, ascellari o apicali ecc.).
 Mendel non fu il primo a compiere studi di questo tipo, ma ebbe alcune intuizioni che gli permisero di introdurre degli elementi di novità: la scelta di un numero elevatissimo di individui per seguire gli esperimenti nel corso di numerose generazioni; l'analisi di un solo carattere per volta; l'interpretazione statistica dei risultati; l'uso di simboli per esprimere in modo chiaro e schematico gli incroci.
@@ -133,8 +133,7 @@ Durante la formazione delle cellule riproduttive (uova e spermatozoi), i cromoso
 
 Il sesso del nascituro viene pertanto stabilito al momento della fecondazione ed è determinato dal tipo di spermatozoo coinvolto. A differenza di quanto si pensava in passato, non è la madre, ma il padre a influire sul sesso del bambino.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Allele: Le diverse forme alternative di un gene, generalmente due o più.  
@@ -158,4 +157,4 @@ Il sesso del nascituro viene pertanto stabilito al momento della fecondazione ed
 / Genotipo: La totalità dei geni presenti in un organismo.  
 
 / Omozigote: Individuo con due alleli identici, siano essi entrambi dominanti o recessivi, per un determinato carattere. 
-
+]

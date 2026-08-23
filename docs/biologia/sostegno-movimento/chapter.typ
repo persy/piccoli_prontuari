@@ -84,8 +84,7 @@ Nel sarcomero si distinguono specifiche zone: le fasce chiare, indicate con la l
 La contrazione muscolare avviene a seguito dello scorrimento dei filamenti di actina tra quelli di miosina all'interno dei sarcomeri. Le teste della miosina formano legami temporanei chiamati ponti trasversali con l'actina. Utilizzando ATP (adenosintrifosfato), una molecola ricca di energia, queste teste si flettono, provocando il movimento dei filamenti di actina verso il centro del sarcomero. Questo processo determina l'avvicinamento delle strie Z e l'accorciamento del sarcomero, accompagnato dalla scomparsa della banda H. Successivamente, i ponti trasversali si staccano e si ricreano in un'altra posizione lungo i filamenti di actina.
 
 Lo stimolo alla contrazione arriva alle fibre muscolari attraverso le terminazioni nervose dei nervi motori, i quali si ramificano per innervare singolarmente ogni fibra muscolare. Queste interazioni danno origine a una struttura chiamata giunzione neuromuscolare o placca motrice.
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Articolazione: Giunzione tra due o più ossa adiacenti.  
@@ -103,3 +102,4 @@ Lo stimolo alla contrazione arriva alle fibre muscolari attraverso le terminazio
 / Scheletro appendicolare: Comprende le ossa degli arti, il cingolo scapolare e il cingolo pelvico.  
 
 / Scheletro assiale: Costituisce l'asse corporeo ed è formato dalle ossa della testa, della colonna vertebrale e della gabbia toracica.  
+]

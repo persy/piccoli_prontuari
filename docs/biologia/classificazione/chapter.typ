@@ -102,8 +102,7 @@ La riproduzione dei virus avviene esclusivamente all'interno di una cellula ospi
 Nei DNA virus, il doppio filamento di DNA che viene introdotto nella cellula può essere immediatamente replicato. L'intero processo culmina con la distruzione o lisi della cellula e la formazione di nuovi virus (ciclo litico). In altri casi, il DNA virale si integra nel materiale genetico dell'ospite e resta dormiente per un periodo, contribuendo passivamente alla crescita e divisione cellulare (ciclo lisogenico). Solo successivamente viene avviato un ciclo litico che porta alla distruzione della cellula.
 
 Negli RNA virus è necessario che il materiale genetico venga prima trascritto in una molecola di DNA tramite un enzima chiamato trascrittasi inversa, prima di potersi integrare nella cellula ospite. Un esempio emblematico di RNA virus è il retrovirus HIV, responsabile dell'insorgenza dell'AIDS (sindrome da immunodeficienza acquisita).
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario  <senza_numero>
 
 / Aplodiplonti: Organismi il cui ciclo vitale presenta un'alternanza di generazioni aploidi e diploidi, come avviene in molte piante.
@@ -136,3 +135,4 @@ Negli RNA virus è necessario che il materiale genetico venga prima trascritto i
 
 / Virus: Particelle subcellulari in grado di replicarsi esclusivamente all'interno di una cellula ospite precedentemente infettata.
 
+]

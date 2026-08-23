@@ -17,7 +17,7 @@ Negli organismi unicellulari la singola cellula svolge autonomamente tutte le fu
 
 Le cellule più piccole sono quelle dei batteri (1 µm), mentre le più grandi comprendono le cellule uovo di molti animali (100 µm nell'uomo) e le fibre di alcune piante. Le loro dimensioni ridotte garantiscono un rapporto ottimale con l'ambiente circostante, permettendo loro di assorbire nutrienti e eliminare sostanze di scarto con maggiore efficienza.
 
-#boxfl(bottom)[== *🧩* La teoria cellulare <senza_numero>
+#boxfl(bottom)[== 🐺 La teoria cellulare <senza_numero>
 
 La scoperta delle cellule risale al XVII secolo, quando i primi microscopi erano ancora rudimentali. Tuttavia, ci vollero circa duecento anni per comprendere appieno la loro presenza universale in tutti gli esseri viventi. Il merito della prima osservazione di una cellula va allo scienziato inglese Robert Hooke (1635-1703), che nel 1665 identificò numerose piccole cavità vuote in una sottile sezione di sughero. Pur non intuendo il loro ruolo nell'organizzazione degli esseri viventi, Hooke diede a queste strutture il nome di "cellula". 
 
@@ -168,8 +168,7 @@ Per garantire un efficace funzionamento dell'organismo pluricellulare, è fondam
 
 Ogni apparato e sistema ha il compito di svolgere una funzione ben definita; tuttavia, l'insieme del loro lavoro è perfettamente integrato per mantenere l'organismo in equilibrio. Questo permette di stabilizzare le condizioni interne necessarie alla vita delle cellule e al loro corretto funzionamento, garantendo così la sopravvivenza dell'organismo nel suo complesso.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Apparato e sistema: Gruppo di organi che cooperano per svolgere una funzione comune.  
@@ -190,4 +189,5 @@ Ogni apparato e sistema ha il compito di svolgere una funzione ben definita; tut
 
 / Organo: Gruppo di tessuti specializzati che collaborano per eseguire una determinata funzione.  
 
-/ Tessuto: Aggregato di cellule simili che operano per svolgere lo stesso tipo di funzione.  
+/ Tessuto: Aggregato di cellule simili che operano per svolgere lo stesso tipo di funzione. 
+] 

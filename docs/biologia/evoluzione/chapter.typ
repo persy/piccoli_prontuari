@@ -120,7 +120,7 @@ Il processo responsabile della formazione di nuove specie viene definito speciaz
 - Radiazione adattativa: questo meccanismo si verifica quando diverse popolazioni di una stessa specie colonizzano nicchie ecologiche diverse. Nel processo di adattamento a tali ambienti, possono evolversi in nuove specie in tempi relativamente brevi. Un esempio classico è rappresentato dalla colonizzazione di nuovi habitat oppure dall'emergere di adattamenti innovativi, come il sangue caldo nei mammiferi.
 - Poliploidia: la poliploidia si riferisce alla presenza di un numero multiplo di cromosomi in alcuni individui, rispetto al numero diploide normale osservato nella maggior parte delle specie animali e vegetali. È un fenomeno comune nelle piante e spesso si manifesta quando un'ovocellula fecondata duplica i cromosomi ma non si divide in due cellule figlie. Sebbene gli individui poliploidi siano generalmente più vigorosi rispetto ai genitori, risultano sterili. Ciò accade perché la fecondazione tra un gamete poliploide, con numero doppio di cromosomi, e un gamete "normale" aploide, con numero singolo di cromosomi, genera una progenie con un set dispari di cromosomi. Questi ultimi non riescono ad appaiarsi correttamente, compromettendo la meiosi e la produzione dei gameti. Tuttavia, gli individui poliploidi possono riprodursi asessualmente, accelerando la formazione di una nuova specie.
 
-#boxfl(bottom)[== *🧩* Meccanismi particolari di selezione <senza_numero>
+#boxfl(bottom)[== Meccanismi particolari di selezione <senza_numero>
 
 Alcuni meccanismi meritano un'attenzione particolare per il modo in cui influenzano le interazioni tra organismi. La competizione tra individui della stessa specie per ottenere risorse limitate è uno dei processi più diretti e comuni legati alla selezione naturale. La coevoluzione è invece un processo in cui due specie esercitano una pressione reciproca, influenzando il rispettivo sviluppo evolutivo. 
 
@@ -160,8 +160,7 @@ La macroevoluzione invece analizza i mutamenti su scala temporale molto lunga, c
 
 Inoltre, a livello molecolare, oggi si studia l'evoluzione delle proteine e del DNA, che rappresentano le molecole più complesse e fondamentali per gli organismi viventi. Queste ricerche permettono di indagare le affinità genetiche tra le varie specie e ricostruire con sempre maggiore precisione la storia della vita sulla Terra.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Analogia: Organismi di specie diverse con funzioni simili e morfologia esterna somigliante, ma provenienti da origini distinte.  
@@ -182,4 +181,5 @@ Inoltre, a livello molecolare, oggi si studia l'evoluzione delle proteine e del 
 
 / Selezione naturale: Insieme dei meccanismi che favoriscono la sopravvivenza e la riproduzione di individui meglio adattati all'interno di una popolazione.  
 
-/ Speciazione: Processo attraverso cui si origina una nuova specie a partire da una forma preesistente.  
+/ Speciazione: Processo attraverso cui si origina una nuova specie a partire da una forma preesistente.
+]  

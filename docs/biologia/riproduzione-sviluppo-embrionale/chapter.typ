@@ -87,7 +87,7 @@ L'utero è un organo cavo dove si annida l'ovulo fecondato. La parete uterina è
 
 L'utero si divide in tre aree: il fondo, da cui partono le tube, una parte intermedia ristretta e la cervice uterina, che si affaccia sull'estremità superiore della vagina. Quest'ultima è un canale muscolo-membranoso progettato per accogliere il pene e ricevere lo sperma durante la riproduzione. La vulva costituisce la parte più esterna dell'apparato riproduttore femminile ed è composta da due pieghe cutanee verticali chiamate grandi labbra, dentro le quali si trovano le piccole labbra, che circondano l'orifizio vaginale. Anteriormente a queste si trova il clitoride, un piccolo organo erettile con caratteristiche analoghe al pene maschile.
 
-#boxfl(bottom)[== *🧩* Ciclo mestruale e ovulazione <senza_numero>
+#boxfl(bottom)[== 🐺 Ciclo mestruale e ovulazione <senza_numero>
 
 Il ciclo mestruale è un meccanismo fisiologico delle donne in età fertile. È regolato da cambiamenti periodici nell'endometrio sotto l'influenza di vari ormoni prodotti dall'ipotalamo, dall'ipofisi e dalle ovaie. Generalmente ha una durata di circa 28 giorni ed è suddiviso in tre fasi principali: la fase proliferativa (dal 5º al 14º giorno), la fase premestruale o secretoria (dal 15º al 28º giorno) e la fase mestruale (dal 28º al 5º giorno). 
 
@@ -175,8 +175,7 @@ La placenta costituisce l'interfaccia tra la madre e il feto per lo scambio di o
 
 Oltre alla funzione nutritiva, la placenta protegge l'embrione grazie alla trasmissione degli anticorpi materni che conferiscono immunità passiva al feto fino a qualche mese dopo la nascita. Inoltre, secerne ormoni indispensabili per il mantenimento della gravidanza e il normale svolgimento del parto.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Annessi embrionari: Membrane prodotte dall'embrione che ne garantiscono nutrizione e protezione; includono corion, amnios, allantoide e sacco vitellino.  
@@ -198,3 +197,4 @@ Oltre alla funzione nutritiva, la placenta protegge l'embrione grazie alla trasm
 / Sviluppo: Serie di processi mediante i quali lo zigote si evolve in un individuo autonomo; comprende segmentazione, gastrulazione e organogenesi.  
 
 / Testicoli: Organi maschili dell'apparato riproduttore dove avviene la spermatogenesi.  
+]

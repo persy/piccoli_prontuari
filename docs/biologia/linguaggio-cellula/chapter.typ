@@ -24,7 +24,7 @@ La struttura della molecola del DNA è stata chiarita nel 1953 grazie agli studi
 
 Secondo la regola dell'appaiamento delle basi, l'accoppiamento avviene esclusivamente tra basi di categorie diverse: l'adenina (base purinica) si lega alla timina (base pirimidinica) e la guanina (purinica) alla citosina (pirimidinica). Questo garantisce una lunghezza uniforme dei "gradini" e il parallelismo tra le "ringhiere". Sebbene la sequenza alternata di zucchero e gruppo fosfato sia identica in tutti gli organismi viventi, la disposizione specifica delle coppie di basi azotate (A-T e C-G) varia ed è unica per ogni specie, rappresentando la sua firma genetica.
 
-#boxfl(bottom)[== *🧩* I geni discontinui degli eucarioti <senza_numero>
+#boxfl(bottom)[== 🐺 I geni discontinui degli eucarioti <senza_numero>
 
 Negli anni '70 del XX secolo si è scoperto che gli organismi eucarioti possiedono una quantità di DNA molto maggiore rispetto a quella strettamente necessaria per la sintesi delle proteine. I loro geni, infatti, si caratterizzano per la presenza di sequenze di nucleotidi codificanti proteine, chiamate esoni, intervallate da sequenze non codificanti, note come introni. Durante la trascrizione di un gene strutturato in questo modo, viene prodotto inizialmente un lungo filamento di mRNA, o trascritto primario, che include sia gli esoni che gli introni. In seguito, avviene un processo chiamato _splicing_, in cui gli introni vengono eliminati e le estremità degli esoni vengono unite tra loro. Solo al termine di questa fase, il mRNA maturo esce dal nucleo per essere tradotto. Questo sistema sembra rappresentare una strategia per migliorare l'efficienza e la versatilità nella produzione di proteine.]
 
@@ -123,8 +123,7 @@ Nelle cellule eucariote, invece, la doppia elica di DNA è associata a proteine 
 
 La replicazione deve essere estremamente precisa affinché le cellule figlie funzionino correttamente. A questo scopo, la DNA-polimerasi svolge un ruolo cruciale nel correggere o prevenire errori nel riconoscimento e nell'appaiamento delle basi. Tuttavia, nonostante l'efficienza del meccanismo di controllo, possono verificarsi mutazioni con una frequenza minima (circa un errore ogni 100 milioni di nucleotidi appaiati correttamente). Queste mutazioni alterano la sequenza delle basi azotate e, di conseguenza, l'informazione genetica. Pur rappresentando un potenziale problema, le mutazioni sono anche alla base della variabilità genetica e quindi dell'evoluzione biologica.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Anticodone:  L'anticodone è una sequenza composta da tre basi azotate sul t-RNA che, durante il processo di sintesi proteica, si lega al codone complementare presente sull'm-RNA.
@@ -140,3 +139,4 @@ La replicazione deve essere estremamente precisa affinché le cellule figlie fun
 / Trascrizione:  La trascrizione è la sintesi dell'm-RNA effettuata utilizzando il DNA come stampo.
 
 / Tripletta, o codone: La tripletta, detta anche codone, è una sequenza di tre nucleotidi sull'm-RNA che codifica per uno specifico amminoacido.
+]

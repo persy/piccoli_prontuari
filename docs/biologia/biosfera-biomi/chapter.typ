@@ -15,7 +15,7 @@ La biosfera mantiene un equilibrio stazionario grazie alla sua capacità di auto
 
 Gli ecosistemi terrestri presentano una straordinaria varietà, ma al tempo stesso condividono elementi comuni. Tali somiglianze derivano dall'influenza di specifici fattori fisico-climatici ambientali, tra cui la disponibilità di nutrienti, energia, acqua e la temperatura media. L'effetto di questi fattori determina la suddivisione degli ecosistemi in grandi raggruppamenti omogenei, conosciuti come biomi, che costituiscono il primo livello organizzativo della biosfera.
 
-#boxfl(bottom)[== *🧩* La fitogeografia e la zoogeografia <senza_numero>
+#boxfl(bottom)[== 🐺 La fitogeografia e la zoogeografia <senza_numero>
 
 La fitogeografia, nota anche come geografia botanica, geobotanica o biogeografia vegetale, indaga sulla distribuzione delle piante sul pianeta. Tale distribuzione dipende fortemente dalle caratteristiche climatiche, con le aree climatiche che generalmente corrispondono alle zone di diffusione della vegetazione predominante. Sulla base di questa analisi, la Terra viene distinta in sei principali regioni fitogeografiche:
 - La regione oloartica comprende l'intero continente europeo, l'Asia centrosettentrionale, la Groenlandia e parte del Nord America. Al suo interno si trovano biomi quali la tundra, le foreste di conifere e le foreste di latifoglie; nelle aree meridionali è presente una fascia subtropicale caratterizzata dalla macchia mediterranea tipica delle zone costiere.
@@ -263,8 +263,7 @@ La biosfera possiede la capacità di mantenere un equilibrio globale; tuttavia, 
 
 La preservazione della natura non si affida esclusivamente alla responsabilità individuale, ma coinvolge anche organizzazioni internazionali e istituzioni dedicate alla conservazione del territorio, come le riserve naturali.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Benton o benthos: Comunità di organismi animali e vegetali che abitano il fondo marino o acquatico, suddivise in fitobenton (alghe e batteri) e zoobenton (animali).  
@@ -297,4 +296,5 @@ La preservazione della natura non si affida esclusivamente alla responsabilità 
 
 / Vegetazione: Combinazione delle specie vegetali predominanti in un territorio specifico che ne definiscono le caratteristiche principali, come la vegetazione alpina o mediterranea.  
 
-/ Zoogeografia: Settore della zoologia dedicato allo studio della distribuzione geografica degli animali in relazione alla loro evoluzione e ai cambiamenti geologici terrestri.  
+/ Zoogeografia: Settore della zoologia dedicato allo studio della distribuzione geografica degli animali in relazione alla loro evoluzione e ai cambiamenti geologici terrestri. 
+] 

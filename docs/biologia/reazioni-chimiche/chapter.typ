@@ -11,7 +11,7 @@ Le funzioni vitali degli organismi si basano su una complessa rete di reazioni c
 
 Le reazioni chimiche sono scritte sotto forma di equazioni in cui, a sinistra del segno di uguaglianza o di una freccia, si trovano i reagenti e a destra i prodotti. Una reazione viene definita di sintesi quando da due o più elementi o composti reagenti si ottiene un unico prodotto; si parla invece di decomposizione nel caso in cui un composto venga suddiviso nei suoi elementi costituenti o in composti più semplici. La velocità di ogni reazione dipende da vari fattori, tra cui la concentrazione dei reagenti e la temperatura, ed è influenzabile dalla presenza di specifiche sostanze chiamate catalizzatori.
 
-#boxfl(bottom)[== *🧩* Catalisi e catalizzatori <senza_numero>
+#boxfl(bottom)[== 🐺 Catalisi e catalizzatori <senza_numero>
 
 La catalisi è un processo chimico-fisico in cui delle sostanze, chiamate catalizzatori, potenziano la velocità di una reazione anche in quantità molto ridotte, senza però essere consumate durante il processo. Il catalizzatore agisce riducendo l'energia di attivazione, ovvero la soglia energetica che i reagenti devono superare per convertirsi in prodotti. Esistono inoltre catalizzatori negativi, detti anche inibitori, che al contrario rallentano la velocità della reazione. 
 
@@ -121,8 +121,7 @@ Il trasferimento energetico dall'ATP alle molecole destinate a partecipare a rea
 
 Tali reazioni includono processi anabolici, come la sintesi di biomolecole, e attività di lavoro cellulare, tra cui il trasporto di sostanze attraverso la membrana plasmatica. Oltre all'ATP, altre molecole fungono da vettori energetici mobilitando elettroni altamente energetici generati da reazioni esoergoniche. Tra queste, il coenzima NAD (nicotinammide-adenin-dinucleotide) e il flavin-adenin-dinucleotide (FAD) svolgono il ruolo di trasportatori di elettroni e energia, cedendoli successivamente ad altre molecole nei processi metabolici di respirazione cellulare e fotosintesi.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / ATP: Adenosina trifosfato, nucleotide composto da una molecola con tre legami fosfato ad alta energia; è fondamentale come accumulatore e trasportatore di energia nelle cellule.  
@@ -146,3 +145,4 @@ Tali reazioni includono processi anabolici, come la sintesi di biomolecole, e at
 / Secondo principio della termodinamica: In un sistema isolato, la conversione di energia da una forma all'altra comporta sempre una dissipazione parziale sotto forma di calore, riducendo l'energia disponibile per il lavoro.  
 
 / Termodinamica: Branca della fisica che studia gli scambi di calore e, più in generale, la trasformazione delle varie forme di energia in un sistema.
+]

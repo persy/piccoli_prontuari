@@ -137,8 +137,7 @@ Inoltre, le mutazioni cromosomiche possono influenzare il numero complessivo dei
 Le mutazioni costituiscono la fonte principale della variabilità genetica. Nel corso di milioni di anni di evoluzione, la selezione naturale ha sfruttato queste variazioni per favorire lo sviluppo di organismi sempre più adattati al loro ambiente. Tuttavia, ogni nuova mutazione può perturbare questo delicato equilibrio, risultando spesso dannosa piuttosto che vantaggiosa. Questo processo ha permesso a ogni specie di perfezionare progressivamente un proprio programma genetico altamente specializzato.
 
 Va comunque sottolineato che un cambiamento nell'ambiente può destabilizzare una popolazione. In tali circostanze, una mutazione apparentemente casuale potrebbe rivelarsi vantaggiosa, migliorando l'adattamento della specie al nuovo contesto e finendo per essere integrata nel suo genoma.
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / DNA ricombinante: Molecola di DNA ottenuta inserendo un frammento di DNA di una specie all'interno del DNA di un'altra specie.  
@@ -147,4 +146,5 @@ Va comunque sottolineato che un cambiamento nell'ambiente può destabilizzare un
 
 / Mutazione: Alterazione genetica che può riguardare sia un singolo gene (mutazione genica) sia la struttura di un cromosoma (mutazione cromosomica).  
 
-/ Genoma: L'insieme di geni contenuti in un singolo corredo cromosomico di un organismo.  
+/ Genoma: L'insieme di geni contenuti in un singolo corredo cromosomico di un organismo.
+]  

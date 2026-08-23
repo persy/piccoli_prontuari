@@ -92,8 +92,7 @@ I protisti saprofiti includono organismi simili ai funghi, che assorbono sostanz
 Gli acrasiomiceti hanno una struttura cellulare; sono cellule ameboidi che si spostano mediante pseudopodi. In condizioni sfavorevoli, tendono a formare aggregati cellulari densi in cui alcune cellule si specializzano per compiti definiti.
 
 I mixomiceti, invece, si distinguono per l'assenza di una struttura cellulare individuale: formano una massa di citoplasma contenente miliardi di nuclei non separati da membrane cellulari. Tale massa può espandersi su superfici molto ampie, generando uno strato sottile. Di colore giallo-arancione, si trovano spesso sulle foglie e sui tronchi marcescenti e si riproducono per mezzo di spore.
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Alghe: Protisti autotrofi che vivono principalmente in ambienti acquatici.
@@ -109,3 +108,4 @@ I mixomiceti, invece, si distinguono per l'assenza di una struttura cellulare in
 / Protisti: Eucarioti primitivi unicellulari o multicellulari caratterizzati da modalità nutrizionali diversificate: autotrofi, eterotrofi, parassiti o saprofiti.
 
 / Protozoi: Protisti eterotrofi simili agli animali.
+]

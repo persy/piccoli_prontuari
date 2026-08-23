@@ -115,7 +115,7 @@ L'acetil-CoA successivamente entra nel ciclo di Krebs, noto anche come ciclo del
     [Energia], [Assorbita], [Liberata]
 )  
 )
-#boxfl(bottom)[== *🧩* Il ciclo di Krebs <senza_numero>
+#boxfl(bottom)[== 🐺 Il ciclo di Krebs <senza_numero>
 
 Il ciclo di Krebs è costituito da una sequenza di reazioni chimiche con cui si elaborano i sottoprodotti della glicolisi, ovvero la demolizione delle sostanze nutritive (zuccheri, grassi e proteine) fino alla formazione di acqua (H#sub[2]O) e anidride carbonica (CO#sub[2]). Questo processo consente di liberare l'energia chimica contenuta nei legami molecolari sotto forma di ATP. I sottoprodotti della glicolisi vengono trasformati in acido piruvico e successivamente introdotti nel ciclo di Krebs sotto forma di acetil-coenzima A (acetil-CoA), una molecola derivante dall'associazione tra un gruppo acetilico (composto da due atomi di carbonio) e il coenzima A presente all'interno dei mitocondri. Nella prima fase del ciclo, l'acetil-CoA reagisce con l'ossalacetato generando acido citrico, un composto a sei atomi di carbonio. Successivamente, questo viene ossidato attraverso diverse reazioni che producono intermedi chimici fino alla riformazione dell'ossalacetato, completando così il ciclo.
 
@@ -137,8 +137,7 @@ In tal senso, è possibile considerare la respirazione cellulare come complement
 La fermentazione è un processo biochimico che avviene in condizioni anaerobiche, durante il quale l'acido piruvico viene convertito in alcol etilico (etanolo) e anidride carbonica, nel caso della fermentazione alcolica, oppure in acido lattico, come avviene nella fermentazione lattica. In entrambi i meccanismi, vengono utilizzati gli atomi di idrogeno e gli elettroni trasportati dal NADH, che si rigenera tornando allo stato di NAD#super[+], rendendosi così nuovamente disponibile per il processo di glicolisi.
 
 La fermentazione rappresenta il metodo che alcuni microrganismi, come funghi e batteri, utilizzano per ottenere energia dalle sostanze organiche, principalmente zuccheri, ma anche proteine, acidi e alcoli. Tuttavia, il rendimento energetico di questo processo è notevolmente inferiore rispetto a quello della respirazione cellulare. Anche nei tessuti animali può verificarsi fermentazione; per esempio, la fermentazione lattica si presenta nei muscoli quando, a seguito di un'intensa o prolungata attività fisica, l'apporto di ossigeno risulta insufficiente per supportare la respirazione cellulare.
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Autotrofi: Gli autotrofi sono organismi capaci di sintetizzare sostanze nutritive organiche a partire da composti inorganici semplici tramite il processo di fotosintesi. Appartengono a questa categoria le piante, le alghe e alcuni tipi di batteri.
@@ -162,3 +161,4 @@ La fermentazione rappresenta il metodo che alcuni microrganismi, come funghi e b
 / Respirazione cellulare: Il processo di respirazione cellulare coinvolge un insieme di reazioni chimiche che si verificano nei mitocondri, attraverso le quali l'energia chimica contenuta nei composti organici viene liberata e convertita in forme energetiche utilizzabili.
 
 / Trasporto attivo: Il trasporto attivo consiste nel movimento di molecole attraverso la membrana plasmatica contro il gradiente di concentrazione, mediato da specifiche proteine trasportatrici e accompagnato da consumo energetico.
+]

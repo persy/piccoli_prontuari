@@ -163,8 +163,8 @@ Durante una respirazione calma e spontanea, il centro espiratorio resta inattivo
 In prossimità del midollo allungato si trovano recettori chimici specializzati che reagiscono a stimoli specifici. Ad esempio, un aumento della concentrazione di anidride carbonica nel sangue attiva questi recettori, che inviano impulsi nervosi al centro inspiratorio, accelerando la frequenza respiratoria per favorire l'eliminazione del diossido di carbonio in eccesso tramite l'espirazione. Una risposta simile si verifica quando i livelli di ossigeno nel sangue scendono sotto un valore critico.
 
 Altri fattori che possono influenzare l'incremento del ritmo respiratorio includono l'aumento della temperatura corporea causato da attività fisica intensa, emozioni forti o segnali provenienti dai recettori situati nei muscoli e nelle articolazioni durante l'esercizio fisico.
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+
+#lastpage[
 == Glossario <senza_numero>
 
 / Apparato circolatorio: Sistema di trasporto formato da sangue, vasi conduttori, una pompa e alcune valvole.  
@@ -197,3 +197,4 @@ Altri fattori che possono influenzare l'incremento del ritmo respiratorio includ
 
 / Vene: Vasi sanguigni che riportano il sangue dalla periferia al cuore; presentano valvole interne a nido di rondine che impediscono il reflusso del sangue.  
 
+]

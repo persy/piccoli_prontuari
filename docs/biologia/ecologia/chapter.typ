@@ -33,7 +33,7 @@ Inoltre, alcuni organismi reagiscono di fronte a specifici fattori ecologici con
 
 Il fattore limitante è definito come quel elemento chimico-fisico o biotico che, se presente in quantità superiore o inferiore a una certa soglia, rende impossibile la sopravvivenza di una specie in un determinato ambiente.
 
-#boxfl(bottom)[== *🧩* La legge dei fattori limitanti  <senza_numero>
+#boxfl(bottom)[== 🐺 La legge dei fattori limitanti  <senza_numero>
 
 La legge dei fattori limitanti discende dalla legge del minimo, formulata dal chimico tedesco Justus von Liebig (1803-1873), secondo la quale "la crescita delle piante dipende dall'elemento presente in quantità inferiore rispetto al fabbisogno, al di sotto del quale le sintesi non possono aver luogo". Le piante impiegano numerosi elementi chimici per i propri processi metabolici, ma solo alcuni sono essenziali, sebbene in quantità molto variabili (macroelementi e microelementi). La legge del minimo afferma che la crescita viene inibita se anche solo uno di questi microelementi non raggiunge la soglia minima necessaria.
 
@@ -198,8 +198,7 @@ Le successioni ecologiche evolvono gradualmente verso una condizione di stabilit
 
 Le comunità climax sono profondamente influenzate dal clima e dalla geologia della regione. I biomi, come foreste, deserti o praterie, rappresentano esempi di comunità climax distribuite su vaste aree geografiche, accomunate da condizioni ambientali simili e da una caratteristica flora predominante.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario  <senza_numero>
 
 / Ambiente: L'insieme delle condizioni chimico-fisiche (fattori abiotici) e biologiche (fattori biotici) a cui è sottoposto un organismo vivente.  
@@ -247,12 +246,23 @@ Le comunità climax sono profondamente influenzate dal clima e dalla geologia de
 / Popolazione: Gruppo di individui appartenenti alla stessa specie distribuiti in un determinato territorio.  
 
 / Potenziale biotico: Capacità di una popolazione di raggiungere il massimo incremento, derivante dalla capacità di ogni individuo di generare una numerosa discendenza. 
-/ Predazione: Atto di cattura e uccisione per scopi alimentari da parte di animali predatori nei confronti di altri animali, le prede, appartenenti a specie differenti. 
-/ Resistenza ambientale: Insieme dei fattori che ostacolano la crescita di una popolazione, provocando una diminuzione della natalità o un aumento della mortalità. 
+
+/ Predazione: Atto di cattura e uccisione per scopi alimentari da parte di animali predatori nei confronti di altri animali, le prede, appartenenti a specie differenti.
+
+/ Resistenza ambientale: Insieme dei fattori che ostacolano la crescita di una popolazione, provocando una diminuzione della natalità o un aumento della mortalità.
+
 / Reti alimentari: Interconnessione di numerose catene alimentari all'interno di un ecosistema. 
+
 / Simbiosi: Relazione tra due organismi di specie diverse che interagiscono reciprocamente, traendo vantaggio entrambi o solo uno dei due. 
+
 / Successione ecologica: Evoluzione graduale di un ecosistema nel tempo, causata dal susseguirsi di diverse comunità in una determinata area in risposta ai cambiamenti dell'ambiente fisico. 
+
 / Successione primaria: Processo ecologico che si verifica in aree mai abitate prima, come le isole vulcaniche. 
+
 / Successione secondaria: Processo ecologico che avviene in aree precedentemente occupate e successivamente distrutte, ad esempio in seguito a incendi. 
+
 / Tasso di mortalità: Proporzione tra il numero di individui deceduti e il totale della popolazione in un determinato periodo di tempo. 
-/ Tasso di natalità: Proporzione tra il numero di nuovi nati e il totale della popolazione in un determinato periodo di tempo.  
+
+/ Tasso di natalità: Proporzione tra il numero di nuovi nati e il totale della popolazione in un determinato periodo di tempo. 
+ 
+]

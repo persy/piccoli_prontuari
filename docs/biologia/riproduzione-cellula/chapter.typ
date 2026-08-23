@@ -37,7 +37,7 @@ Infine, nella telofase i cromatidi subiscono un processo di despiralizzazione ch
 
 La citodieresi rappresenta il processo mediante il quale il citoplasma delle due cellule figlie viene separato, completando la divisione cellulare. Questo fenomeno si manifesta secondo modalità distinte nelle cellule animali e vegetali. Nelle cellule animali, nella regione equatoriale si forma una strozzatura progressivamente più profonda, che culmina nella separazione completa delle cellule figlie. Al contrario, nelle cellule vegetali, la divisione avviene attraverso la formazione di una nuova parete cellulare derivante dalla placca cellulare, che si sviluppa al centro del fuso mitotico.
 
-#boxfl(bottom)[== *🧩* La divisione cellulare nei procarioti <senza_numero>
+#boxfl(bottom)[== 🐺 La divisione cellulare nei procarioti <senza_numero>
 
 La divisione cellulare nei procarioti presenta differenze significative rispetto a quella degli eucarioti, data l'assenza della membrana nucleare e la presenza di un singolo cromosoma di forma circolare. Quest'ultimo, fissato a un punto specifico della membrana plasmatica, si duplica; successivamente le due copie si ancorano a punti vicini della membrana.
 
@@ -67,8 +67,7 @@ Le mutazioni consistono in errori durante la duplicazione del DNA, che comportan
 Il crossing-over può verificarsi in qualunque punto del cromosoma e addirittura in più punti simultaneamente sullo stesso cromosoma. Questo meccanismo produce cromosomi con configurazioni diverse rispetto a quelli parentali. 
 La segregazione e l'assortimento indipendente contribuiscono ulteriormente alla diversità: il numero di combinazioni possibili nei gameti è pari a 2n, dove "n" rappresenta il numero di coppie di cromosomi. Ad esempio, nell'uomo, che possiede 23 coppie di cromosomi omologhi, i gameti distinti generabili sono 2#super[23], ossia 8.388.608. La fecondazione, che avviene con la fusione dei gameti di due individui distinti, offre un numero teorico quasi incalcolabile di zigoti possibili (8.388.608 × 8.388.608 = oltre 70.369 miliardi).
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Assortimento indipendente: Distribuzione dei cromosomi omologhi di una coppia nei due nuclei figli senza che questa sia influenzata dai cromosomi di un'altra coppia.  
@@ -91,4 +90,5 @@ La segregazione e l'assortimento indipendente contribuiscono ulteriormente alla 
 
 / Mitosi: Processo tramite cui le coppie di cromosomi omologhi vengono separate e distribuite nei nuclei delle due cellule figlie diploidi.  
 
-/ Segregazione: Movimento dei cromosomi omologhi di una coppia verso poli opposti della cellula, durante la meiosi, contribuendo alla variabilità genetica.  
+/ Segregazione: Movimento dei cromosomi omologhi di una coppia verso poli opposti della cellula, durante la meiosi, contribuendo alla variabilità genetica. 
+] 

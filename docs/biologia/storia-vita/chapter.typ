@@ -78,7 +78,7 @@ Un cambiamento nelle caratteristiche chimiche del mare si verificò circa 590 mi
 
 Circa 500 milioni di anni fa apparvero gli ostracodermi, i primi animali dotati di un endoscheletro, ovvero una struttura interna di sostegno. Gli ostracodermi erano privi di mascelle e arti ed erano rivestiti da una corazza ossea che lasciava libera solo la coda. Da queste forme primitive si svilupparono successivamente i pesci.
 
-#boxfl(bottom)[== *🧩* L'evoluzione prebiotica riprodotta in laboratorio <senza_numero>
+#boxfl(bottom)[== 🐺 L'evoluzione prebiotica riprodotta in laboratorio <senza_numero>
 
 Negli anni \'20 del Novecento, il biochimico russo Aleksandr Oparin (1894-1980) e il biologo inglese John Burdon Sanderson Haldane (1892-1964) elaborarono un'ipotesi secondo cui, in un'atmosfera riducente, comuni reazioni chimiche sarebbero in grado di generare molecole organiche partendo da molecole inorganiche. 
 
@@ -162,8 +162,7 @@ Intorno a 90.000 anni fa apparve l'uomo moderno, _Homo sapiens sapiens_, che pro
 )  
 )
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Brodo primordiale: Soluzione costituita da molecole organiche generate dall'evoluzione prebiotica, accumulatesi in ambienti acquatici poco profondi e caldi. Tali molecole, successivamente, avrebbero dato origine a strutture sferiche denominate microsfere. Il brodo primordiale è considerato il luogo in cui ebbero origine le prime forme di vita.
@@ -176,3 +175,4 @@ Intorno a 90.000 anni fa apparve l'uomo moderno, _Homo sapiens sapiens_, che pro
 
 / Ominidi: Primati caratterizzati da postura eretta e locomozione bipede.
 
+]

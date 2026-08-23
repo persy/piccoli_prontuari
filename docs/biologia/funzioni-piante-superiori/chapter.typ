@@ -262,7 +262,7 @@ La senescenza segna l'inizio del decadimento della pianta. Questo fenomeno inclu
 
 Il caratteristico cambiamento di colore nelle foglie autunnali deriva dalla riduzione della produzione di clorofilla verde, che normalmente maschera gli altri pigmenti rosso e giallo. Inoltre, nelle piante perenni anche le gemme entrano in uno stato di dormienza sviluppando involucri protettivi che le trasformano in gemme invernali.
 
-#boxfl(top)[== *🧩* Esempi di movimenti della pianta <senza_numero>
+#boxfl(top)[== 🐺 Esempi di movimenti della pianta <senza_numero>
 
 Approfondendo il comportamento delle piante, è possibile osservare movimenti ben definiti che dimostrano la loro capacità di reagire agli stimoli esterni. Le radici, ad esempio, si orientano verso il basso seguendo un geotropismo positivo stimolato dalla forza di gravità, favorendo un ancoraggio profondo. Allo stesso tempo tendono verso le fonti d'acqua mediante idrotropismo e si allontanano dalla luce con un fototropismo negativo. Al contrario, il fusto si sviluppa in direzione opposta alla gravità con un geotropismo negativo, mentre si piega verso la luce grazie a un fototropismo positivo. Durante la crescita, l'apice del fusto descrive movimenti spiraliformi nello spazio, noti come nutazione.
 
@@ -276,8 +276,7 @@ La vita delle piante è caratterizzata da numerose e complesse funzioni che le p
 
 Nelle piante si distinguono cinque principali classi di composti con proprietà ormonali, prodotte in specifiche parti della pianta durante i vari stadi del suo ciclo vitale. Le auxine, le gibberelline e le citochinine sono responsabili della crescita e dello sviluppo, mentre l'acido abscissico e l'etilene intervengono nei processi legati alla senescenza e al riposo.
 
-#pagebreak()
-#set page(fill: accent.bio.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Disseminazione: Allontanamento dei semi dalla pianta madre per favorire la propagazione della specie.  
@@ -313,3 +312,4 @@ Nelle piante si distinguono cinque principali classi di composti con proprietà 
 / Tropismo: Crescita orientata in risposta a uno stimolo: luce (fototropismo), gravità (geotropismo), umidità (idrotropismo), sostanze chimiche (chemiotropismo) o contatto (tigmotropismo).  
 
 / Turgore: Stato di tensione interna della cellula, determinato dalla presenza d'acqua e regolato da processi osmotici.  
+]
