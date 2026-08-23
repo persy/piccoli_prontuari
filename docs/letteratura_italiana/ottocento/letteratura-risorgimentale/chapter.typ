@@ -37,7 +37,7 @@ Va evidenziato come Carlo Cattaneo, portavoce di una politica antisabauda e anti
 
 Il suo pensiero si caratterizzò per un pragmatismo radicale, privo di compromessi e aperto a tutte le scienze non per una curiosità generica, ma per la profonda convinzione che studio e ricerca scientifica e morale costituiscano un unico aspetto della crescita umana. Sul tema della lingua, si oppose alle soluzioni romantiche e manzoniane, preferendo una lingua chiara e semplice, quella che egli stesso adottava nei suoi scritti. Memorabile è il saggio _Sul principio istorico delle lingue europee_ (1841).
 
-#boxfl(bottom)[== *🧩* La crisi del romanzo storico <senza_numero>
+#boxfl(bottom)[== 🐺 La crisi del romanzo storico <senza_numero>
 
 Negli anni Cinquanta dell'Ottocento, il modello del romanzo storico entra in una fase di declino. L'opera di Giuseppe Rovani, _Cento anni_, pubblicata a puntate sulla Gazzetta di Milano tra il 1857 e il 1864, rappresenta un tentativo innovativo di concepire il romanzo come un sistema complesso, in grado di coniugare cronaca, ricostruzione storica, narrazione e riflessione. Questo approccio ambizioso tuttavia non sembra arrestare la trasformazione del panorama letterario dell'epoca.
 
@@ -163,8 +163,7 @@ La concezione estetica di De Sanctis, pur influenzata in parte da Hegel, si dist
 
 L'artista non crea dal nulla, ma rielabora un "argomento" dato che a sua volta prevede una "situazione", la quale determina l'ossatura dell'opera e, indirettamente, il suo stile. Al contempo, l'artista non è isolato né estraneo alla società, ma riflette nel proprio animo le condizioni e gli eventi della nazione a cui appartiene, oltre che la sua tradizione artistica. Questi elementi esterni servono a stimolare la fantasia dell'artista, spingendolo a "rappresentare", senza tuttavia instaurare una connessione meccanica di causa-effetto tra realtà esterna e creazione artistica.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Scuola democratica:  Per gli esponenti della scuola democratica, scrivere significa combattere, educando il popolo a una nuova coscienza nazionale basata su libertà e repubblica. Tra le figure principali troviamo Giuseppe Mazzini (1805-1872), patriota e pensatore, fondatore della Giovine Italia e autore di saggi come _Scritti letterari di un italiano vivente_ (1847) e _Dei doveri dell'uomo_ (1861). A lui si affiancano i romanzieri Giovanni Ruffini (1807-1881) e Francesco Domenico Guerrazzi (1804-1873).  
@@ -184,3 +183,5 @@ L'artista non crea dal nulla, ma rielabora un "argomento" dato che a sua volta p
 / Ippolito Nievo: Patriota garibaldino (1831-1861), morì durante la spedizione dei Mille. Il suo romanzo _Le Confessioni di un italiano_, scritto tra il 1857 e il 1858 e pubblicato postumo nel 1867, rappresenta il ritratto di una generazione delusa che prende definitivamente congedo dalle illusioni risorgimentali.
 
 / Francesco De Sanctis: Intellettuale napoletano (1817-1883), con la sua _Storia della letteratura italiana_ (1870-71) tracciò un ampio scenario storico-etico dal quale emerse il corpus letterario italiano. La sua opera incarna un nuovo realismo, libero da certi sentimentalismi romantici, avvicinando l'artista alla realtà sociale.
+
+]

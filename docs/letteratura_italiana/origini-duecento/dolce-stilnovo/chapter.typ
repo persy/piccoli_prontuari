@@ -43,8 +43,7 @@ Tra le personalità minori dello stilnovismo fiorentino si distinguono Lapo Gian
 
 Un ruolo di maggior rilievo merita Cino da Pistoia, pseudonimo di Guittoncino dei Sighibuldi (circa 1270-1336 o 1337). Dopo aver compiuto studi in diritto presso le università di Bologna e Orléans, esercitò l'insegnamento giuridico nelle sedi universitarie di Siena, Perugia, Napoli e, presumibilmente, Firenze. Fu costretto all'esilio tra il 1303 e il 1306 per il suo schieramento politico guelfo di parte nera. Tra le sue opere latine di carattere giuridico, si distingue la _Lectura super codicem_ (1314). Tuttavia, la sua produzione in volgare è dominata da un canzoniere contenente più di 160 poesie. Stimato da figure centrali come Dante e Petrarca, che esaltarono la "dolcezza" musicale ed evocativa della sua poetica, Cino occupa una posizione liminale rispetto alla tradizione dello stilnovo. La critica ha evidenziato nei suoi testi la presenza di elementi provenienti dalla scuola siciliana e siculo-toscana, accanto a motivi fortemente personali. Cino elaborò gli stimoli dello stilnovo fiorentino sviluppando una poetica incentrata sul tema del ricordo, che oppone l'amarezza del presente alla dolcezza del passato. Per tale rielaborazione tematica e per la spiccata musicalità dei suoi versi, Cino è spesso considerato un ponte ideale tra lo stilnovo e l'esperienza poetica successiva incarnata da Petrarca.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Dolce stilnovo:  Questo movimento rappresenta l'espressione letteraria più omogenea della fine del XIII secolo. Nato a Bologna e poi diffusosi a Firenze, il dolce stilnovo si distingue per la profondità dei contenuti e il rigore stilistico. Tra i temi principali troviamo l'identità tra amore e "cor gentile" e il potere salvifico della "bella donna". Esso ha influenzato profondamente la poesia successiva, divenendo un modello imprescindibile. Tra i protagonisti di spicco, oltre Dante, si ricordano Guinizelli, Cavalcanti e Cino da Pistoia.
@@ -54,3 +53,5 @@ Un ruolo di maggior rilievo merita Cino da Pistoia, pseudonimo di Guittoncino de
 / Guido Cavalcanti:  Guadagnando notorietà come uno dei maggiori esponenti dello stilnovo, Guido Cavalcanti (Firenze, circa 1259-1300) è autore di un raffinato canzoniere composto da sonetti, ballate e canzoni. Con linguaggio lirico drammatico, egli esplora l'amore come passione irrazionale, spesso esprimendolo con malinconico distacco.
 
 / Cino da Pistoia:  Guittoncino dei Sighibuldi (circa 1270-1336 o 1337), noto come Cino da Pistoia, è autore di un canzoniere lodato da Dante e Petrarca per la dolcezza musicale ed evocativa dei suoi versi. Considerato una figura di transizione tra lo stilnovo e la poesia petrarchesca, egli rielabora i temi stilnovistici con una poetica centrata sul ricordo nostalgico del passato contrapposto alla durezza del presente.
+
+]

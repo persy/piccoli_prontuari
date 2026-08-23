@@ -37,8 +37,7 @@ Un'osservazione condivisa da generazioni di lettori è che il _Decameron_ rappre
 
 Il realismo dell'opera si manifesta soprattutto nella scelta di narrare vicende collocate nel presente, ambientate in luoghi ben identificabili e popolate anche da personaggi che appartengono ai ceti sociali più bassi, non necessariamente con intenti umoristici. Boccaccio elabora così una poetica che abbandona l'erudizione ostentata e il gusto per la mitologia, rinuncia alle allegorie complesse e si fa promotore dei diritti del piacere sessuale. L'autore esalta inoltre le risorse pragmatiche dell'individuo e valorizza l'azione umana per se stessa. Se è vero che sul _Decameron_ gravano ancora significative influenze medievali, è altrettanto evidente come esso rappresenti un anticipatore vivido e travolgente della grande stagione del pensiero e della letteratura rinascimentale.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Giovanni Boccaccio nacque nel 1313 a Firenze, figlio illegittimo di un facoltoso mercante. La sua formazione si svolse prevalentemente a Napoli, città in cui ebbe modo di frequentare gli ambienti aristocratici e la corte di Roberto d'Angiò, dove produsse le sue prime opere letterarie. Nel 1340-41 fece ritorno a Firenze, dove si dedicò a importanti incarichi pubblici e diplomatici, nonché alla stesura delle opere della sua piena maturità letteraria. Morì nel 1375 a Certaldo.  
@@ -48,3 +47,5 @@ Il realismo dell'opera si manifesta soprattutto nella scelta di narrare vicende 
 / Periodo fiorentino: Tra le opere prodotte dopo il ritorno a Firenze si annoverano _Amorosa visione_ (1342-43), poema allegorico composto da cinquanta canti in terzine, strutturato secondo modelli danteschi e arricchito da reminiscenze ovidiane. L'_Elegia di madonna Fiammetta_ (1343-44), invece, narra in forma soggettiva la travagliata vicenda amorosa vissuta dalla protagonista. Il _Ninfale fiesolano_ (1344-46?) è un poema in ottave che racconta i tragici amori tra il pastore Africo e la ninfa Mensola, per approdare alla celebrazione delle origini leggendarie di Fiesole e Firenze; si tratta dell'opera più compiuta prima della composizione del _Decameron_.  
 
 / Il _Decameron_: Considerato il capolavoro boccacciano, il _Decameron_ consiste in una raccolta di cento novelle racchiuse all'interno di una "cornice" narrativa, scritta tra il 1349 e il 1353. La caratteristica distintiva dell'opera risiede nel suo realismo, volto a rappresentare una comunità umana autentica, dotata però di una nobile dignità. Il _Decameron_ si configura così come una straordinaria rappresentazione della commedia umana.  
+
+]

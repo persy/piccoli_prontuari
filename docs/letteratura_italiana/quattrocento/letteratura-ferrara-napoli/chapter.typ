@@ -57,8 +57,7 @@ Il capolavoro di Sannazaro è senza dubbio l'_Arcadia_ (1501), opera che mescola
 
 La nostalgia per un'irrimediabile età dell'oro costituisce il fulcro tematico dell'opera, tradotto in una prosa lirica inedita, dalla trama delicata e quasi impalpabile, animata da un ritmo musicale e impreziosita da riferimenti colti ed eleganti. La fortuna del romanzo fu straordinaria: in Italia conobbe numerosissime edizioni e suscitò altrettanti commenti eruditi. In Spagna, Portogallo, Francia e persino in Inghilterra esercitò un'influenza ampia e duratura.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La diffusione dell'Umanesimo: I centri di diffusione dell'Umanesimo si concentrarono in diverse città italiane che divennero fulcri di innovazione culturale e artistica: Milano, con figure come Bramante e Leonardo da Vinci; Venezia, rappresentata da Ermolao Barbaro e dal contributo della stampa di Aldo Manuzio; Ferrara, con Matteo Maria Boiardo; Roma; Napoli, dove spiccano Giovanni Pontano, ai vertici della poesia lirica del Quattrocento, e Masuccio Salernitano, autore del _Novellino_, la più significativa raccolta di novelle del secolo. A Napoli si distingue anche Jacopo Sannazaro.
@@ -66,3 +65,5 @@ La nostalgia per un'irrimediabile età dell'oro costituisce il fulcro tematico d
 / Boiardo: Matteo Maria Boiardo, nel suo poema cavalleresco _Orlando innamorato_, esprime l'ideale umanistico dell'energia amorosa, capace di elevare l'uomo. Attraverso una sapiente fusione tra esperienza epica e lirica, Boiardo interpreta il superamento dell'astrazione idealistica tipica della letteratura amorosa, a favore della complessità contemporanea del poema polifonico. Sebbene il _Canzoniere_ sia modellato su Petrarca, la commistione di influenze diverse rompe l'equilibrio petrarchesco, arricchendo il testo con elementi poetici originali ed eterogenei.
 
 / Sannazaro: Jacopo Sannazaro, nell'opera _Arcadia_, unisce prosa e versi dando vita al prototipo del romanzo pastorale, destinato al successo europeo duraturo. Il tema centrale ruota attorno alla nostalgia di un'inaccessibile età dell'oro, rappresentata con uno stile lirico-musicale impreziosito da numerosi riferimenti dottrinali. Importante è anche la sua produzione in latino: le _Elegiae_, di tono malinconico; le _Eclogae piscatoriae_, dove i temi pastorali sono trasposti tra i pescatori napoletani; e il _De partu Virginis_, rappresentazione della natività di Cristo attraverso schemi narrativi ispirati alla mitologia classica.
+
+]

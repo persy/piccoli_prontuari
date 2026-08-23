@@ -6,7 +6,7 @@
 #intro[Nella letteratura italiana, a partire dagli anni '20 e '30 del XVI secolo, si consolida un'idea di classicismo caratterizzata da una raffinata armonia linguistico-espressiva. Questo approccio non si limita a suggerire una mera imitazione generica della letteratura classica, ma cerca di definire un modello originale e consapevole. Pietro Bembo affronta il problema della lingua letteraria e ne stabilisce un canone; a lui si deve l'idea tuttora valida di "classico", inteso come un testo capace di mantenere il proprio valore attraverso le epoche. Baldesar Castiglione, dal canto suo, codifica le norme comportamentali dell'uomo ideale di corte. Verso la metà del XVI secolo, il dibattito su queste tematiche si irrigidisce, inserendosi in una precettistica più rigorosa, correlata al clima della Controriforma.]
 
 == Pietro Bembo
-#boxfl(bottom)[== *🧩* La letteratura in latino <senza_numero>
+#boxfl(bottom)[== 🐺 La letteratura in latino <senza_numero>
 
 La grande stagione dell'umanesimo latino del Quattrocento trovò il suo massimo rilievo nell'opera di Erasmo da Rotterdam (1466-1536). In Italia, tuttavia, la letteratura in lingua latina iniziò a declinare già dagli anni Venti del Cinquecento. Tra le opere principali di questo periodo spicca, accanto al _De partu Virginis_ (1527) di Iacopo Sannazaro (vedi a p. 85), il poema _Syphilis sive de morbo gallico_ (1530) dello scienziato veronese Girolamo Fracastoro (1483-1533). Fra i suoi scritti va ricordato anche il dialogo _Naugerius, sive de poetica_ (1555, postumo), in cui Fracastoro delinea la poesia come "forma pura" e sottolinea che la peculiarità del linguaggio poetico risiede nello stile. \ A partire dagli anni Trenta del Cinquecento, il latino perse progressivamente la sua centralità, rimanendo confinato a usi specialistici o alla redazione di documenti ufficiali. Tra le opere in latino che meritano ancora attenzione, si distinguono le _Historiarum sui temporis_ di Paolo Giovio (1483-1552), originario di Como. Questa imponente opera storiografica, articolata in 45 libri, racconta gli eventi italiani dal 1494 al 1547 ed è stata pubblicata tra il 1550 e il 1552.]
 Pietro Bembo (1470-1547) fu una figura chiave del Rinascimento italiano, ideatore del petrarchismo e autore di un contributo fondamentale alla codificazione della lingua letteraria italiana.
@@ -65,8 +65,7 @@ Annibal Caro (1507-1566), originario di Civitanova Marche, si formò a Firenze e
 
 Negli ultimi anni si ritirò nella sua villa di Frascati, dove lavorò alla sistemazione delle sue _Rime_ (pubblicate postume nel 1569) e alla raccolta delle _Lettere famigliari_ (1575-77), un'importante testimonianza storica scritta in un volgare armonioso ed equilibrato. La sua opera più celebre resta però la traduzione dell'Eneide di Virgilio (1563-66) in endecasillabi sciolti, una versione che non si limita a tradurre ma "riscrive" l'originale con straordinaria abilità retorica. Al suo interno l'ideale classico viene reinterpretato, considerando la nuova sensibilità morale ed estetica del Rinascimento.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Classicismo: A partire dagli anni Venti e Trenta del Cinquecento si afferma un'idea di raffinatezza e armonia linguistico-espressiva, volta a superare la generica imitazione della letteratura classica.
@@ -76,3 +75,5 @@ Negli ultimi anni si ritirò nella sua villa di Frascati, dove lavorò alla sist
 / Baldesar Castiglione: Baldesar Castiglione (1478-1529), originario di Mantova, fu cortigiano presso i Gonzaga e successivamente al servizio dei Montefeltro a Urbino. Diventato ecclesiastico, operò come nunzio apostolico a Madrid presso Carlo V. Con il trattato _Il libro del Cortegiano_, strutturato in quattro libri e in forma dialogica, delinea durante altrettante serate il ritratto psicologico, fisico e comportamentale del perfetto cortigiano. Lo stile dell'opera riflette gli ideali rinascimentali di equilibrio, classicità e sobrietà.
 
 / Classicismo freddo e rigoroso: Nella metà del Cinquecento comincia a prevalere un classicismo più esteriore e prescritto. Tra i protagonisti emergono Ludovico Castelvetro (1505-1571), noto per il suo commento volgarizzato alla _Poetica_ di Aristotele (1570), e Annibal Caro (1507-1566), celebre per la traduzione libera in volgare dell'_Eneide_ di Virgilio (1563-66).
+
+]

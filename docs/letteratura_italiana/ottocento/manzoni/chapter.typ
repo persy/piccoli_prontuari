@@ -95,8 +95,7 @@ Nel Manzoni storiografo si intrecciano rigorosamente l'approccio razionalista, l
 
 Lo stesso spirito sociale e nazionale permea anche la riflessione manzoniana sulla lingua, testimoniata da opere e lettere fondamentali come la missiva a G. Carena del 1846 o la relazione per il ministro Broglio sull'Unità della lingua italiana. Qui si inseriscono anche i documenti del 1868, tra cui la Lettera intorno al libro _De vulgari eloquio_ di Dante Alighieri e la Lettera intorno al Vocabolario. Le linee guida del pensiero linguistico di Manzoni risiedono nella valorizzazione dell'"uso" come criterio essenziale per selezionare parole e costruzioni, nonché nella proposta di un idioma comune comprensibile da tutt'Italia. Questa visione rappresentava un equilibrio tra l'uso dialettale e il toscano letterario, servendosi dell'esempio maturato nei Promessi sposi.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Dopo gli studi presso un collegio a Milano, Alessandro Manzoni si trasferisce a Parigi nel 1805, dove frequenta ambienti intellettuali di rilievo. Nel 1810 si converte al cattolicesimo e sposa Enrichetta Blondel, con cui avrà dieci figli. Tornato a Milano, si avvicina ai romantici opponendosi ai classicisti. Trascorre gran parte della vita tra Milano e Brusuglio, dedicandosi agli studi. Rimasto vedovo nel 1840, contrae un secondo matrimonio con Teresa Stampa. Nel 1861 diventa senatore del Regno d'Italia e sostiene Roma capitale, nonostante il dissenso papale.
@@ -109,3 +108,4 @@ Lo stesso spirito sociale e nazionale permea anche la riflessione manzoniana sul
 
 / Poetica: La letteratura deve ricercare il "vero" e il "reale", con l'obiettivo di educare tutte le classi sociali. Per Manzoni, il cattolicesimo rappresenta uno strumento per proporre in chiave romantica una visione nazionale e morale della letteratura. La lingua, frutto della mediazione tra dialetto e toscano letterario, è l'elemento centrale per una comunicazione efficace su scala nazionale.
 
+]

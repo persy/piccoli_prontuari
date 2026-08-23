@@ -35,8 +35,7 @@ Lalla Romano (1906-2001), piemontese, esordì con la raccolta poetica _Fiore_ (1
 
 Anna Maria Ortese (1914-1998), romana, è una figura complessa della letteratura italiana, capace di fondere il realismo con sfumature fantastiche. Nella fase iniziale coltivò un intenso realismo magico, come testimonia _Angelici furori_ (1937). Nel dopoguerra accettò una prosa vicina al neorealismo, che sfiorava talvolta la dimensione del saggio, soprattutto nei racconti-inchiesta. Tra le sue opere più significative figurano _L'infanta sepolta_ (1950), _Il mare non bagna Napoli_ (1953), _Silenzio a Milano_ (1958), _L'iguana_ (1965), _Poveri e semplici_ (1967), _Il cardillo addolorato_ (1992) e _Alonso e i visionari_ (1996).
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Morante: La narrativa di Elsa Morante (1912-1985), caratterizzata da un timbro realistico, si distingue per un delicato e luminoso "bisogno di meraviglioso", che richiama atmosfere antiche e mitiche. Tra le sue opere principali vanno ricordati _Menzogna e sortilegio_ (1948), _L'isola di Arturo_ (1957) e _La storia_ (1974).
@@ -44,3 +43,4 @@ Anna Maria Ortese (1914-1998), romana, è una figura complessa della letteratura
 / Narratrici dall'accento autobiografico: \ Fausta Cialente (1898-1995): _Cortile a Cleopatra_ (1953).  \ Anna Banti (1895-1985): _Artemisia_ (1947).  \ Natalia Ginzburg (1916-1991): _Lessico famigliare_ (1963). \ Lalla Romano (1906): _La penombra che abbiamo attraversato_ (1964) e _Le parole tra noi leggere_ (1969).
 
 / Ortese: La narrativa di Anna Maria Ortese (1914-1998) unisce realismo e fantastico, come emerge nelle opere _Il mare non bagna Napoli_ (1953), _L'iguana_ (1965) e _Il cardillo innamorato_ (1992).
+]

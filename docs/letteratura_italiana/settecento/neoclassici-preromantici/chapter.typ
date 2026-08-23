@@ -37,8 +37,7 @@ Alessandro Verri rappresenta un altro esempio di questa mediazione intellettuale
 
 Aurelio Bertola De' Giorgi (1753-1798), pur mantenendo un gusto luminosamente neoclassico, si dedicò a temi "notturni". Fra le sue opere figurano _Viaggio nel Reno e ne' suoi contorni_ (1795) e _Le Notti Clementine_ (1775). Anche Alfonso Varano (1705-1788) riprese toni biblici e danteschi nelle sue _Visioni morali e sacre_ (1749-66), contribuendo con discrezione alla varietà formale che caratterizza la poesia italiana della fine del Settecento.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Neoclassicismo: Il teorico centrale del Neoclassicismo è Johann Joachim Winckelmann, i cui principi si basano su una bellezza pura, armonica e razionale, spesso intrisa di nostalgia, che aspira a una "nobile semplicità e quieta grandezza". In Italia, il Neoclassicismo si consolida come modello di stile ufficiale, con Vincenzo Monti come figura rappresentativa principale.
@@ -46,3 +45,5 @@ Aurelio Bertola De' Giorgi (1753-1798), pur mantenendo un gusto luminosamente ne
 / Preromanticismo europeo: I tratti distintivi del Preromanticismo comprendono: il fascino per le "visioni" dell'aldilà (Friedrich Gottlieb Klopstock); la popolarità della poesia "notturna" e sepolcrale (Edward Young e Thomas Gray); l'esplosione dei romanzi "gotici" popolati da fantasmi e leggende antiche (Horace Walpole); e l'interesse per un gusto "primitivo", incentrato sulle leggende nascoste dei celti e dei germani (_Canti di Ossian_ di James Macpherson).
 
 / Preromanticismo italiano: Anche il Preromanticismo italiano manifesta un interesse per il "notturno" e le "visioni", spesso declinato secondo misure neoclassiche. Da segnalare le traduzioni dei _Canti di Ossian_ di Melchiorre Cesarotti e il fascino per le "rovine" e il misterioso presente nelle opere di Alessandro Verri, Aurelio Bertola De' Giorgi e Alfonso Varano.
+
+]

@@ -73,8 +73,7 @@ Ci rimangono diversi suoi scritti dottrinari, tra cui il _Compendium logicum_ (1
 
 Il suo capolavoro sono però le _Prediche_, raccolte postume, dove, con un linguaggio drammatico intrecciato di riferimenti biblici, denuncia le corruzioni mondane della Chiesa ed esprime la speranza di un cristianesimo restituito allo spirito evangelico originario. La sua figura esercitò un fascino profondo su molti uomini di cultura, tra cui Pico della Mirandola, Guicciardini, Michelangelo e numerosi umanisti.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Burchiello: I sonetti caudati presenti nelle _Rime_ sono caratterizzati da uno sperimentalismo comico e giocoso che accosta parole e immagini prive di connessioni logiche.
@@ -86,3 +85,5 @@ Il suo capolavoro sono però le _Prediche_, raccolte postume, dove, con un lingu
 / Luigi Pulci: Il poema eroicomico _Morgante_, considerato il suo capolavoro, rappresenta una parodia degli ideali umanistici che vedono l'uomo come artefice del proprio destino in un universo armonico.
 
 / Girolamo Savonarola: Attraverso le sue prediche e la sua azione politica, Savonarola denunciò la corruzione della Chiesa e auspicò un ritorno al cristianesimo nella sua originaria semplicità evangelica.
+
+]

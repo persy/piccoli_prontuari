@@ -6,7 +6,7 @@
 #intro[L'eredità didattica derivante dalla cultura predicatoria e dalla filosofia scolastica rappresenta la base di una vasta produzione letteraria didattico-allegorica. Pur senza offrire veri e propri capolavori, questa tradizione risulta cruciale per comprendere l'ottica di opere straordinarie come la _Commedia_ di Dante. I cronachisti dell'epoca ci permettono di individuare una ricerca di concretezza, unitamente a un gusto municipale e popolare, elementi che ritroviamo anche nelle forme migliori della prosa trecentesca. Romanzi come i _Reali di Francia_ e il _Guerrin Meschino_ di Andrea da Barberino hanno conosciuto una diffusione popolare eccezionale fino al XIX secolo. In questo contesto emerge il capolavoro di Marco Polo: il _Milione_, considerato una delle vette della letteratura medievale e uno dei più straordinari resoconti di viaggio mai scritti.]
 
 == I poemi allegorici
-#boxfl(bottom)[== *🧩* Tradizione classica <senza_numero>
+#boxfl(bottom)[== 🐺 Tradizione classica <senza_numero>
 
 La letteratura latina rimane vivace e profondamente radicata durante questo periodo. Non si può tuttavia parlare di un vero e proprio preumanesimo, sebbene agli autori italiani che scrivono in latino debba essere riconosciuto un notevole interesse per la cultura classica, senza che tale interesse implichi una rottura o una crisi nei confronti della consolidata tradizione scolastico-medievale. È opportuno osservare che il processo di conformazione ai modelli della latinità risale già al Duecento. \ Tra le figure rappresentative di questa stagione letteraria spiccano Zanobi da Strada, Giovanni del Virgilio, i membri del cenacolo "veronese" (tra cui Guglielmo da Pastrengo), nonché il colto Ferreto de' Ferreti. Tuttavia, il ruolo più preminente nella lirica latina dell'epoca è rivestito dal padovano Albertino Mussato (1261-1329). Nelle sue opere, Mussato si fece portavoce della difesa della libertà comunale nel contesto dei poteri universali della Chiesa e del Papato. Con l'opera _Evidentia tragediarum Senecae_, egli si dedicò alla promozione del modello di tragedia classica, a cui offrì un significativo contributo con la sua _Ecerinis_. \ In questo clima di riscoperta e valorizzazione degli ideali classici rientrano anche i numerosi volgarizzamenti della letteratura latina, tra cui meritano menzione le traduzioni delle opere ovidiane realizzate da Andrea Lancia.]
 Emblema dell'influenza della _Divina Commedia_ e dell'ideale scolastico di un sapere universale sono i numerosi poemi allegorici del Trecento che offrono ampie panoramiche del mondo sotto forma simbolica. Tra le opere più antiche si annovera l'_Intelligenza_, un poemetto allegorico-didattico riscoperto nel 1846. Composto tra la fine del Duecento e l'inizio del Trecento da un anonimo fiorentino, il testo conta 309 stanze in nona rima ispirate ai modelli provenzali e stilnovisti. Racconta l'incontro simbolico del poeta con una donna bellissima, l'Intelligenza, che risiede in un palazzo favoloso rappresentante il corpo umano.
@@ -39,8 +39,7 @@ I romanzi del periodo attingono solitamente ai grandi cicli classici (Tebe, Troi
 
 Andrea da Barberino (circa 1370-1431) fu un autore prolifico di romanzi e reinterpretò con uno stile vicino al gusto borghese tanto le severe vicende del mondo carolingio quanto le avventurose storie del ciclo bretone. I suoi capolavori, Reali di Francia e Guerrin Meschino, ebbero una straordinaria diffusione fino a tutto l'Ottocento, diventando una parte dell'immaginario popolare.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Letteratura didattico-allegorica: Tra i testi pionieristici vi è _L'Intelligenza_. Francesco da Barberino lasciò opere quali _Documenti d'Amore_ e _Reggimento e costumi di donna_, pubblicate intorno al 1314. Cecco d'Ascoli fu autore del poema allegorico _Acerba_, mentre Fazio degli Uberti è celebre per il _Dittamondo_, una narrazione cosmografica in versi.  
@@ -50,3 +49,5 @@ Andrea da Barberino (circa 1370-1431) fu un autore prolifico di romanzi e reinte
 / Marco Polo e il _Milione_: Mercante veneziano, Marco Polo si recò nel 1271 in Cina accompagnato dal padre e dallo zio, stabilendo solide relazioni con il Gran Khan Qubilai. Tornato a Venezia nel 1292, scrisse il _Milione_ in lingua francese, un resoconto straordinario del suo soggiorno presso la corte cinese. Quest'opera rappresenta una sintesi illuminante del mondo medievale ed è annoverata fra i testi più emblematici della letteratura italiana.  
 
 / Romanzi: Nel contesto delle tradizioni carolingia e bretone, Andrea da Barberino scrisse noti romanzi quali i _Reali di Francia_ e il _Guerrin Meschino_, che riscossero una notevole popolarità fino all'Ottocento.
+
+]

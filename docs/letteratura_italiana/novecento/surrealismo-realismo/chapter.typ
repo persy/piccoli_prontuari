@@ -73,8 +73,7 @@ Lo stile di Bernari si distingue per l'impiego di monologhi interiori. La città
 
 Nelle opere successive, tra cui _Era l'anno del sole quieto_ (1964), _Un foro nel parabrezza_ (1971), _Tanto la rivoluzione non scoppierà_ (1976) e _Il giorno degli assassini_ (1980), Bernari supera la dimensione regionale per aprirsi a una narrazione più esistenziale ed espressionistica.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Surrealismo: Il surrealismo italiano degli anni Trenta, piuttosto che appropriarsi delle tematiche poetiche e politiche proprie del movimento francese, si sviluppa attraverso un immaginario fantastico, talvolta influenzato dalle esperienze del futurismo.
@@ -97,3 +96,4 @@ In Cesare Zavattini (1902-1989), celebre anche come sceneggiatore del neorealism
 / Silone: L'opera di Ignazio Silone, pseudonimo di Secondo Tranquilli, abruzzese (1900-1978), si concentra sulle vite dei contadini della Marsica, i "cafoni", impegnati in una disperata lotta contro la terra sterile e l'oppressione delle classi privilegiate. Tra le sue opere principali si annoverano _Fontamara_ (1933), _Pane e vino_ (1937), accanto ad altre di impronta etico-esistenziale come _Il segreto di Luca_ (1956) e _L'avventura di un povero cristiano_ (1968).
 
 / Bernari: Carlo Bernari, pseudonimo del napoletano Carlo Bernard (1909-1992), con il romanzo _Tre operai_ (1934), anticipa gli sviluppi del neorealismo letterario. La rappresentazione delle classi sociali subalterne di Napoli si accompagna a una prospettiva ideologica di sinistra. La sua scrittura si distingue per limpidezza ed armonicità. Con abilità riesce a fondere lingua e dialetto _In Speranzella_ (1949) e _Vesuvio e pane_ (1952).
+]

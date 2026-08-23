@@ -87,8 +87,7 @@ Pier Antonio Quarantotti Gambini (1910-1965), istriano e amico intimo di Umberto
 
 La trilogia autobiografica _Gli anni ciechi_ (_Le trincee_, 1942; _Amor militare_, 1955; _Il cavallo Tripoli_, 1956) è ambientata in territorio istriano e rivela un'intensa esplorazione delle esperienze adolescenziali dell'autore, marcate da inquietudini e dalla dolorosa transizione verso l'età adulta. Fra le sue opere più significative si annovera il romanzo _L'onda dell'incrociatore_ (1947), caratterizzato da una trama psicologicamente complessa dominata da un irrisolto conflitto edipico, il tutto ambientato nel porto di Trieste.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Pea: Enrico Pea (1881-1958) è stato un autore di grande versatilità, noto per le sue poesie, tragedie, romanzi e racconti, spesso caratterizzati da una forte componente autobiografica e un legame con il territorio versiliano. Tra le sue opere spiccano _Fole_ (1910), _Moscardino_ (1922) e _Il volto santo_ (1924). 
@@ -104,3 +103,4 @@ La trilogia autobiografica _Gli anni ciechi_ (_Le trincee_, 1942; _Amor militare
 / _Solaria_: La rivista fiorentina _Solaria_, attiva dal 1926 al 1936, si fece portatrice di un'apertura verso la scena letteraria europea, abbandonando i vincoli programmatici e nazionalistici, favorendo così una visione cosmopolita della cultura.
 
 / I solariani: Tra i rappresentanti di questa corrente vi sono Giovanni Comisso con le sue opere _Gente di mare_ (1929) e _Giorni di guerra_ (1930), Alessandro Bonsanti, autore della tetralogia _La buca di San Colombano_ (1964-1972), Arturo Loria con _La scuola di ballo_ (1932) e Pier Antonio Quarantotti Gambini che conquistò fama con il romanzo _L'onda dell'incrociatore_ (1947).
+]

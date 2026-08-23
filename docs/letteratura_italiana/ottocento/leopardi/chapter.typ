@@ -6,7 +6,7 @@
 #intro[Giacomo Leopardi emerge come il massimo interprete poetico dell'Ottocento e uno dei fondatori della poesia italiana moderna. La sua unicità, spiccata anche nel panorama culturale internazionale, risiede nella capacità di innovare profondamente pur rifiutando il romanticismo e puntando a una continuità con la tradizione classica. Il tutto si colloca all'interno di una visione caratterizzata dal drammatico pessimismo cosmico. Il suo classicismo, tuttavia, non ha nulla della sterile rigidità di molti neoclassici italiani. La grandezza di Leopardi si può riassumere in una formula essenziale: concepire la poesia come uno strumento elevato per indagare l'esistenza e perseguire la verità.]
 
 == I primi anni
-#boxfl(bottom)[== *🧩* Canzone leopardiana <senza_numero> 
+#boxfl(bottom)[== 🐺 Canzone leopardiana <senza_numero> 
 
 La canzone leopardiana si caratterizza per l'adozione di un "nuovo metro", definito come "canzone libera". Questo schema si distacca dalle rigide strutture della canzone petrarchesca, permettendo una varietà nella composizione delle strofe, con una libera alternanza di endecasillabi e settenari e una distribuzione delle rime estremamente flessibile. 
 
@@ -107,8 +107,7 @@ Leopardi non fu pienamente apprezzato dai suoi contemporanei, a eccezione di poc
 
 Parallelamente, emerse l'importanza del pensiero laico e progressista di Leopardi. In tempi più recenti, si è posto l'accento su Leopardi filosofo: sul suo nichilismo, collocandolo in relazione con le correnti irrazionalistiche e del pensiero "negativo" dell'Occidente, da Schopenhauer a Nietzsche fino a Benjamin, i quali hanno dedicato riflessioni significative al poeta di Recanati.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita:  Poeta e filologo autodidatta e precoce, Giacomo Leopardi trascorse gran parte della sua esistenza nella sua città natale, Recanati, tormentato da gravi problemi di salute. Nonostante ciò, fece brevi soggiorni a Roma, Milano, Firenze, Pisa e Bologna, per poi stabilirsi definitivamente a Napoli, dove trovò la morte.  
@@ -119,4 +118,6 @@ Parallelamente, emerse l'importanza del pensiero laico e progressista di Leopard
 
 / Opere poetiche:  Ne _I Canti_, pubblicati in edizioni successive nel 1831 e 1835, e infine postumi nel 1845, Leopardi riunisce diversi nuclei poetici. Tra questi si annoverano le prime nove canzoni (es. _Ad Angelo Mai_, _Le nozze della sorella Paolina_, _A un vincitore nel pallone_, _Bruto minore_, _Ultimo canto di Saffo_, 1818-1822) e i piccoli idilli (tra cui spiccano _L'infinito_ e _Alla luna_, 1819-1821). Seguono i grandi idilli (es. _Il risorgimento_, _A Silvia_, _Il passero solitario_, 1828-1829), nonché il cosiddetto "ciclo di Aspasia" (_Il pensiero dominante_, _A se stesso_, _Aspasia_, 1832-1835). Infine, troviamo _Il tramonto della luna_ e il coro de _La Ginestra_.  
 
-/ Poetica:  La poesia leopardiana mette al centro il dolore umano, offrendo come unica risposta il riconoscimento sincero della verità personale. La letteratura diventa così esperienza di memoria struggente, critica verso l'ottimismo e aperta alla ricerca di una consolazione filosofica.  
+/ Poetica:  La poesia leopardiana mette al centro il dolore umano, offrendo come unica risposta il riconoscimento sincero della verità personale. La letteratura diventa così esperienza di memoria struggente, critica verso l'ottimismo e aperta alla ricerca di una consolazione filosofica. 
+
+]

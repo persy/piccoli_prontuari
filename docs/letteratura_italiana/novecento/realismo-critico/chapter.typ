@@ -147,8 +147,7 @@ Nella raccolta in lingua italiana _L'usignolo della chiesa cattolica_ (1958), Pa
 
 _La religione del mio tempo_ (1961) ricorre alla satira e all'epigramma; _Poesia in forma di rosa_ (1964) si sviluppa attraverso argomentazioni e monologhi in un'ottica di rifiuto e contestazione, ormai eccessivamente dichiarata. In _Trasumanar e organizzar_ (1971), Pasolini alterna la riscrittura delle poesie giovanili in dialetto con toni di poeta civile e indignato, anticipando l'ultima e drammatica fase della sua produzione artistica.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Realismo critico: Il realismo critico è una corrente narrativa che non si limita a rappresentare la realtà, ma si propone di esplorarne in profondità le forme e le dinamiche. 
@@ -182,9 +181,4 @@ _La religione del mio tempo_ (1961) ricorre alla satira e all'epigramma; _Poesia
 / Pasolini: Particolarmente rilevante è la figura di Pier Paolo Pasolini (1922-1975), che concepisce la letteratura come strumento per interpretare la realtà al di fuori di schemi intellettualistici astratti, mettendo al centro un forte senso di responsabilità civile e morale basato sull’indignazione. Egli ha sostenuto il valore della complessità plurilinguistica tipica della tradizione letteraria italiana, in opposizione alle tendenze della neoavanguardia, pur mantenendo una profonda attitudine innovatrice e ribelle. \ Tra i suoi romanzi principali si segnalano _Ragazzi di vita_ (1955) e _Una vita violenta_ (1959). In ambito poetico, fondamentali sono _La meglio gioventù_ (opera pubblicata in due momenti: 1954 e 1975) e _Le ceneri di Gramsci_ (1957).
 
 
-
-
-
-
-
-
+]

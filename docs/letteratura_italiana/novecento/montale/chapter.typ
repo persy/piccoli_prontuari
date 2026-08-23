@@ -37,11 +37,12 @@ _La bufera_ scruta con un senso di angoscia e amarezza l'immobilità trasformata
 
 La poesia dell'ultimo periodo di Montale si apre con _Satura_, dove prevale un tono colloquiale, quasi familiare, e il verso lascia spazio alla prosa dei nostri tempi. Il poeta osserva il mondo con lo sguardo dell'esperienza acquisita e si esprime attraverso l'ironia, talvolta pungente, il paradosso e il tagliente epigramma. Quel poco di elegia che sopravvive si indirizza alla memoria personale, al dialogo intimo con la moglie scomparsa. Nel _Quaderno di quattro anni_ (1977), il tono quotidiano delle annotazioni poetiche riflette uno svagato disincanto: siamo ormai vicini al nulla. Non a caso, durante il discorso per il conferimento del Premio Nobel, Montale si interrogava: "È ancora possibile la poesia? In un mondo sempre più orientato verso il progresso, il poeta (e, più in generale, l'artista) emerge come ultimo difensore della civiltà".
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Poetica: Eugenio Montale (1896-1981), genovese considerato il più grande poeta italiano del Novecento, fu insignito del premio Nobel per la letteratura nel 1975. La sua poesia rifiuta sia le astrazioni ideologiche, sia qualsiasi forma di ottimismo superficiale. Attraverso un rigoroso cammino espressivo, Montale ha saputo rivelare il valore profondo dell'autenticità umana, capace di resistere agli eventi pur evitando ogni enfasi o frivolezza vanitosa.  
 
 / Opere principali:  Tra le raccolte più significative figurano _Ossi di seppia_ (1925), _Le occasioni_ (1939), _La bufera e altro_ (1956), _Satura_ (1971) e _Quaderno di quattro anni_ (1977).  
 
+
+]

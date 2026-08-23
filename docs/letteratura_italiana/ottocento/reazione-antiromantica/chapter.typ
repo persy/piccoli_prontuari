@@ -77,7 +77,7 @@ Carducci emerge come figura emblematica della poesia italiana, ricoprendo il ruo
 
 Alle esperienze personali più dolorose e al confronto con il tema della morte si ricollegano altre opere delle medesime raccolte, che si rivelano tra i risultati poetici migliori dell'autore. _Pianto antico_ e _Funere mersit acerbo_ ne costituiscono gli esempi più compiuti, connotandosi per l'assenza dell'eroicità che aveva caratterizzato precedenti lavori e mostrando una nuova inquietudine esistenziale. Il poeta, segnato dalla perdita, dal dolore e dal senso di delusione, affronta queste emozioni con misura e controllo, il che si traduce anche in una diversa evocazione della natura, ora oscura e permeata da segni di mortificazione e finitudine. A tal proposito, merita attenzione l'ultima raccolta carducciana, _Rime e ritmi_ (1899), significativa nella sua dimensione meditativa.
 
-#boxfl(top)[== *🧩* I "poeti carducciani" <senza_numero>
+#boxfl(top)[== 🐺 I "poeti carducciani" <senza_numero>
 
 Con il suo vasto laboratorio letterario, Carducci fornì un modello diversificato che influenzò non solo Pascoli e D'Annunzio, ma anche numerosi altri scrittori, ognuno con un proprio approccio stilistico. Alcuni si orientarono verso un realismo moderato, altri verso un classicismo eroico, mentre altri ancora adottarono una forma di classicismo equilibrato e composto.
 
@@ -95,8 +95,7 @@ Il secondo gruppo è composto dagli scritti polemici, nei quali emergono toni en
 
 Carducci si configura come personalità poetica di straordinario rilievo per l'impegno patriottico e nazionale che gli valsero il titolo di "vate d'Italia". La sua produzione poetica non manca tuttavia di momenti di profonda commozione intima ed esiti significativi sul piano critico-storiografico. Dopo l'entusiastica accoglienza da parte dei suoi contemporanei e il giudizio favorevole espresso da Benedetto Croce, il quale riconobbe nella sua opera una straordinaria espressione di "integra umanità", la critica successiva ha spesso sottolineato l'apparente mancanza di originalità della sua opera e la sua distanza dal panorama europeo. Le analisi critiche più recenti, tuttavia, hanno messo in luce la compresenza di due poli tematici – il senso profondo della vita e quello della morte – che conferiscono alla poesia carducciana una tensione intrinseca autentica e intensamente vissuta.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Scapigliatura: La Scapigliatura, nata e sviluppatasi a Milano negli anni '70-'80 dell'Ottocento, non fu tanto un movimento organizzato quanto un orientamento anticonformista volto a provocare e contestare la tradizione retorico-umanistica, giudicata ormai superata e sentimentale. Ciò avvenne attraverso un furioso sperimentalismo formale. \ Fra i principali troviamo Cletto Arrighi (1830-1906), Ugo Iginio Tarchetti (1839-1869), il musicista e scrittore Arrigo Boito (1842-1918) ed Emilio Praga (1839-1875), poeta (_Fiabe e leggende_, 1867) e narratore (_Memorie del presbiterio_, 1877).
@@ -104,3 +103,4 @@ Carducci si configura come personalità poetica di straordinario rilievo per l'i
 / Dossi: Carlo Dossi (1849-1910) è il più rappresentativo esponente della Scapigliatura. Attraverso un uso ironico e paradossale, è autore di ritratti negativi come _L'Altrieri-nero su bianco_ (1868) e _Vita di Alberto Pisani scritta da C.D._ (1870).
 
 / Carducci: Giosuè Carducci (1835-1907), attivamente coinvolto nell'insegnamento universitario e nella vita politica, fu celebrato come poeta ufficiale del Regno d'Italia. Riuscì a rivitalizzare le istanze del classicismo italiano, intrecciandole con le nuove esigenze realistiche europee. Tra le sue opere giovanili spiccano _Juvenilia_ (1850-60), _Levia gravia_ (1861-71) e _Giambi ed epodi_ (edizione definitiva nel 1882). Le opere della maturità includono le _Odi barbare_ (1877), le _Rime nuove_ (1887) e _Rime e ritmi_ (899). Importante anche i suoi esperimenti in campo metrico-linguistico.
+]

@@ -39,10 +39,11 @@ Ferdinando Galiani (1728-1787), abate abruzzese, ottenne grande successo con il 
 
 Altre figure significative includono Gaetano Filangieri (1753-1788), autore de _La scienza della legislazione_ (dal 1780), celebre per l'approccio razionale alla legislazione, e Francesco Mario Pagano (1748-1799), che nei suoi _Saggi politici_ (1783-85) analizzò con passione le origini storiche dell'oppressione ispirandosi a Vico.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Caratteri generali: L'Illuminismo italiano trova nel pensiero francese il suo principale punto di riferimento, pur distinguendosi per un approccio cauto e mai radicale.  
 
 / Illuministi: Francesco Algarotti si distingue per il ruolo di efficace divulgatore scientifico, con opere come _Newtonianismo per le dame_. Giuseppe Baretti, animato da una vis polemica travolgente (espressa nella sua rivista _Frusta letteraria_), vede nella letteratura uno strumento di comunicazione incisiva, volto a combattere pedanteria e convenzioni. Antonio Genovesi e Ferdinando Galiani sono tra i maggiori esponenti del pensiero economico del Settecento, sostenendo un liberismo pratico e concreto.
+
+]

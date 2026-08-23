@@ -43,8 +43,7 @@ Aretino sfruttò al meglio le potenzialità del linguaggio volgare parlato, gioc
 
 Considerato un autore scandaloso fino a tutto l'Ottocento, Aretino è stato rivalutato nel XX secolo per la vivacità stilistica delle sue opere e per la rappresentazione efficace e realistica della società cinquecentesca. Tuttavia, la sua tematica dissacratoria e la sua operazione volutamente "antiletteraria" emergono alla fine come limite sul piano artistico e culturale.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Anticlassicismo: L'anticlassicismo si caratterizza per l'adozione del plurilinguismo e della lingua maccheronica, che si fonda sulla contaminazione reciproca tra termini latini e volgari. Questa sperimentazione oppone la propria visione al classicismo tradizionale.  
@@ -52,3 +51,5 @@ Considerato un autore scandaloso fino a tutto l'Ottocento, Aretino è stato riva
 / Teofilo Folengo: Monaco benedettino originario di Mantova, Teofilo Folengo (1491-1544) è celebre per il poema epico maccheronico _Baldus_. Quest'opera si distingue per la continua ricerca di situazioni paradossali che stimolano la forza espressionistica della lingua impiegata. Il testo si basa su una tensione tra due elementi contrastanti: da un lato la rigidità metrico-grammaticale del latino e dall'altro l'espressività carnevalesca dettata dal dialetto.  
 
 / Pietro Aretino: Figura di spicco della cultura rinascimentale, Pietro Aretino (1492-1556) fu amico di numerosi artisti e intellettuali, nonché consigliere di principi e re. Nelle sue opere, in particolare nei _Ragionamenti_ scritti negli anni '30 del Cinquecento, Aretino sfruttò le possibilità espressive offerte dal linguaggio volgare parlato. Attraverso l'uso di registri diversi – epico, ricattatorio, comico, osceno, devoto – perfezionò una lingua capace di esprimere appieno la sua visione dissacrante e il suo scetticismo morale.
+
+]

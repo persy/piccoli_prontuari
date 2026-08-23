@@ -89,8 +89,7 @@ Di formazione laica, il milanese Clemente Rebora (1885-1957) attraversò una pro
 
 Nel corso degli anni successivi, diede alle stampe opere come _Canti anonimi di C. R._ (1922) e intraprese studi sulle letterature orientali e sugli autori russi, cimentandosi in traduzioni di grande rilievo: la favola buddhista _Gianardana_ (1923), _Il cappotto_ di Gogol (1922), _La felicità domestica_ di Tolstoj (1930). Nel 1928 si avvicinò alla fede cattolica, prendendo i voti l'anno successivo e diventando sacerdote nel 1936. In quell'occasione decise di distruggere tutti i suoi scritti precedenti e scegliere l'isolamento, pur senza abbandonare la poesia. Tra le sue ultime raccolte, di ispirazione religiosa, spiccano _Via Crucis_ (1955) e _Canti dell'infermità_ (1956).  
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Saba: La poesia di Umberto Saba (1883-1957) si nutre di tradizione italiana e mitteleuropea, offrendo uno sguardo aperto sulla complessità e contraddittorietà della vita. Tuttavia, questa semplicità nel confronto con il mondo porta inevitabilmente a scontrarsi con il dolore nascosto dietro ogni manifestazione della realtà, anche quella più gioiosa.  \ Opera principale: _Canzoniere_ (1945; 1961, edizione postuma definitiva).
@@ -103,3 +102,5 @@ Nel corso degli anni successivi, diede alle stampe opere come _Canti anonimi di 
 
 / Sbarbaro: La "rinuncia" e la povertà esistenziale costituiscono il cuore della produzione poetica di Camillo Sbarbaro (1888-1967), caratterizzata da una semplicità essenziale e accurata. \ Opere principali: _Resine_ (1911); _Pianissimo_ (1914). Prose liriche: _Trucioli_ (1920); _Fuochi fatui_ (1956); _Scampoli_ (1960).
 
+
+]

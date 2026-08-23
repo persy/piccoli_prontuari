@@ -39,7 +39,7 @@ Famosa è la concezione della fortuna elaborata da Machiavelli, intesa come l'in
 
 Ne "Il Principe", egli pone le basi di una nuova concezione della politica, individuando in essa il campo in cui la virtù individuale può trovare realizzazione. Questa virtù si configura come la capacità di affrontare gli eventi razionalmente, mirando a creare un sistema di convivenza tra gli uomini in cui l'interesse individuale si integri e venga riconosciuto nell'interesse collettivo.
 
-#boxfl(bottom)[== *🧩* La trattistica storica <senza_numero>
+#boxfl(bottom)[== 🐺 La trattistica storica <senza_numero>
 
 La trattatistica storica si confronta con una visione della politica che si distanzia dalla tradizionale idea di vita civica, per concentrarsi invece sulle regole dello Stato e sulle tecniche legate alla sua conservazione. In questo periodo emerge una diffusa attenzione per le opere di Machiavelli e Tacito, tanto da sviluppare un vero e proprio fenomeno culturale definito "tacitismo", incentrato sulle riflessioni riguardanti l’assolutismo.
 
@@ -94,11 +94,11 @@ Lo studio del passato stimola dunque una riflessione orientata al futuro: second
 
 La _Storia d'Italia_, unica opera concepita da Guicciardini per la pubblicazione, è scritta in una lingua di grande eleganza formale, influenzata anche dal confronto con le _Prose della volgar lingua_ di Pietro Bembo.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Niccolò Machiavelli: Nato a Firenze nel 1469, Niccolò Machiavelli (1469-1527) fu un importante uomo politico e diplomatico del Rinascimento. Tra le sue opere principali figurano _Il Principe_ (1513-14), i _Discorsi sopra la prima deca di Tito Livio_ (1515-17), i dialoghi _De re militari_ (1521), la _Vita di Castruccio Castracani_ (1520) e la commedia _La Mandragola_ (1518). Il nucleo del pensiero machiavelliano è la definizione dell'utile per lo Stato, inteso come utilità comune del principe e dei sudditi. La politica, secondo Machiavelli, deve basarsi sulla "verità effettuale della cosa" e non sull'immaginazione. La creazione e conservazione dello Stato rappresentano il fulcro della sua riflessione, fondata su una visione razionale e autonoma della politica, capace di affrontare le sfide della fortuna tramite fini e mezzi coerenti.
 
 / Francesco Guicciardini: Francesco Guicciardini (1483-1540) fu una figura politica di spicco durante il periodo delle guerre tra Spagna e Francia. Tra i suoi lavori più significativi si annoverano i _Ricordi_, centrati sulla riflessione politica: per Guicciardini, il buon politico deve possedere "il buon occhio del saggio", che gli consente di esercitare la "discrezione" nel comprendere le complessità della realtà, perseguendo il proprio "particulare", ovvero il proprio onore e dignità in un periodo privo di aspirazioni collettive. Nella sua _Storia d'Italia_ (1492-1534), egli analizza le vicende storiche italiane arrivando alla convinzione che le difficoltà dei singoli stati italiani derivino dalla crisi dell'intero sistema politico. La sua riflessione storica anticipa la necessità di un'identità nazionale italiana, immaginata come un organismo unitario di tipo federale.
 
+]

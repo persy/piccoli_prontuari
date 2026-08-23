@@ -6,7 +6,7 @@
 #intro[La Rivoluzione Francese segna per gli italiani un momento cruciale, introducendo le nuove idee giacobine e alimentando un intenso e spesso drammatico dibattito politico. Questo fermento trova il suo massimo espressione nell'opera di Vincenzo Cuoco. Il periodo napoleonico, invece, si distingue per il consolidarsi del gusto neoclassico, cui Vincenzo Monti dà voce come figura di spicco.]
 
 == L'Italia rivoluzionaria
-#boxfl(bottom)[== *🧩* Purismo <senza_numero> 
+#boxfl(bottom)[== 🐺 Purismo <senza_numero> 
 
 Alcuni scrittori, come Basilio Puoti (1782-1847) con _L'arte di scrivere in prosa per precetti e per teoriche_ (1845) e Antonio Cesari (1760-1828) con la _Dissertazione sopra lo stato presente della lingua italiana_ (1810), oltre alla riedizione del _Vocabolario degli Accademici della Crusca_ (1806-1811), sostenevano il ritorno alla purezza del toscano trecentesco, focalizzandosi soprattutto sugli autori "minori". Sebbene queste idee possano oggi sembrare limitate, riflettono in realtà l'esigenza di affermare un'identità nazionale italiana, all'epoca ancora in costruzione.  \ Vincenzo Monti si oppose a questa prospettiva "purista", ritenendo che non fosse necessario guardare indietro al Trecento, ma piuttosto sarebbe stato più opportuno utilizzare una lingua moderna e condivisa. Una lingua che fosse il risultato dell'incontro tra le diverse realtà regionali italiane e gli influssi delle lingue straniere, mantenendo comunque un'impostazione classicistica e letteraria.]
 Nonostante il fermento culturale e sociale, la realtà italiana muta concretamente solo con l'ingresso dell'esercito francese. Sotto la guida di Napoleone, nel 1796, la Francia invade l'Italia settentrionale, favorendo la nascita di diverse repubbliche locali. Sono anni caratterizzati da enormi speranze, ma anche da cocenti delusioni. La Repubblica Cisalpina prende vita dopo la liberazione della Lombardia dagli Austriaci, ma con il Trattato di Campoformio del 1797 Napoleone cede Venezia agli stessi Austriaci. Anche la Repubblica Partenopea, sostenuta con entusiasmo da intellettuali e letterati, si conclude tragicamente con le condanne capitali inflitte dai Borboni nel 1799.
@@ -57,8 +57,7 @@ L'aspetto più evidente della personalità di Monti è la sua notevole inclinazi
 
 Tuttavia, bisogna riconoscere che il poeta romagnolo sviluppò a suo modo una forma di coerenza personale, fondata sul ruolo che aveva scelto per sé fin dagli inizi: quello del poeta di corte, fedele alla tradizione letteraria del Cinquecento e soprattutto del Seicento. Va attribuito a Monti un importante merito: quello di aver dato vita a un "classicismo borghese italiano", capace di rappresentare una cultura finalmente nazionale, definita in contrapposizione allo stile neoclassico internazionale.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Anni della rivoluzione: Durante gli anni della rivoluzione numerosi giornali italiani, come _Il Monitore italiano_ e _Il Monitore napoletano_, hanno contribuito a diffondere una cultura orientata alla partecipazione agli eventi pubblici.  
@@ -66,3 +65,5 @@ Tuttavia, bisogna riconoscere che il poeta romagnolo sviluppò a suo modo una fo
 / Critica antigiacobina: Vincenzo Cuoco emerge come uno dei principali critici del giacobinismo. Nel suo _Saggio storico sulla rivoluzione napoletana del 1799_ denuncia l'astrazione ideologica del giacobinismo e l'assenza di una concreta prospettiva politica per l'Italia.  
 
 / Monti: Nella Roma neoclassica, sotto l'influenza papalina, Monti compone opere come _Ode al signor di Montgolfier_ (1784) e _Bassvilliana_ (1793). \ Dopo aver aderito al servizio di Napoleone, Monti scrive _Il pericolo_ (1798) e _Per la liberazione d'Italia_ (1801). Nel 1810 pubblica una traduzione celebre dell'_Iliade_.  \ Con l'avvento della Restaurazione, Monti passa al servizio degli austriaci e scrive opere come _Pel giorno onomastico della mia donna Teresa Pikler_ (1826). \ Vincenzo Monti viene considerato il più grande poeta neoclassico italiano. Nonostante la sua incoerenza politica, il suo contributo è significativo: ha plasmato un "classicismo borghese italiano", segnando una cultura finalmente nazionale, distinta dal neoclassicismo internazionale.
+
+]

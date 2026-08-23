@@ -51,8 +51,7 @@ La produzione poetica di Iacopone, costituita da 93 laude attribuite con certezz
 
 L'approccio didattico di Iacopone si traduce nella drammatizzazione stilistica delle laude: questo esperimento porta alla creazione dei "contrasti", composizioni in cui differenti voci si alternano strofa dopo strofa. Molto spesso è la voce divina a cercare di scuotere l'anima dell'uomo dal torpore spirituale e dal legame con i beni materiali. A tale condizione terrena egli contrappone con fervore il mistero dell'incarnazione e della passione di Cristo, percepiti come ribaltamento radicale dei valori fondanti della società umana. Proprio su tali temi Iacopone ha scritto alcuni tra i suoi versi più celebri e intensi, tra cui il _Pianto della Madonna_, che narra i diversi momenti della Passione.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Guittone d'Arezzo:  Considerato il maestro indiscusso della poesia toscana (circa 1230-1294), fu autore di _Rime_, di un _Trattato d'Amore_, di lettere e di ballate-laude a carattere morale e religioso. Nella sua opera poetica introdusse tematiche politiche, mentre nella poesia amorosa si ispirò ai modelli della Scuola Siciliana, privilegiando l'approfondimento intellettuale dell'amore rispetto alla sua rappresentazione attraverso immagini suggestive.
@@ -69,7 +68,7 @@ L'approccio didattico di Iacopone si traduce nella drammatizzazione stilistica d
 
  / Iacopone da Todi:  Figura centrale della poesia religiosa medievale, Iacopone da Todi (tra il 1230 e il 1236 - 1306) fu un ricco cittadino che abbracciò nel 1278 la vita francescana come frate laico. Dotato di alti ideali spirituali, si oppose con vigore a papa Bonifacio VIII, venendo scomunicato e imprigionato. La sua produzione comprende 93 laude profondamente drammatiche ed espressive, in cui coesistono elementi concreti e tensione spirituale. La sua opera rappresenta quasi un'autobiografia dell'anima.
 
-
+]
 
 
 

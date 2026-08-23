@@ -21,7 +21,7 @@ Tra i suoi scritti di argomento politico spiccano due Orazioni in prosa volgare 
 
 Il Galateo, pubblicato postumo nel 1558 e considerato il capolavoro di Della Casa, è un trattato che illustra le buone maniere e il comportamento adeguato nella vita sociale. Il titolo dell'opera, diventato ormai sinonimo di etichetta e cortesia, deriva dal nome latinizzato del suo committente, il vescovo di Sessa Galeazzo (Galatheus) Florimonte. Nel testo, un anziano di umili origini ma dotato di grande saggezza offre insegnamenti ad un giovane sulle norme da seguire a tavola, negli incontri conviviali, nell'abbigliamento e nelle conversazioni. Con grande raffinatezza stilistica, il Galateo codifica un ideale di comportamento in linea con il principio umanistico della misura e della cortesia, ispirandosi al classico equilibrio del giusto mezzo.
 
-#boxbr[== *🧩* Il petrarchismo <senza_numero>
+#boxbr[== 🐺 Il petrarchismo <senza_numero>
 
 Il fenomeno del petrarchismo rappresenta un movimento di imitazione letteraria che prende a modello i contenuti, la lingua e le forme espressive della produzione poetica di Francesco Petrarca. Già durante il XIV e il XV secolo, Petrarca si configurò come un riferimento fondamentale per il suo contributo alla definizione di una lingua italiana omogenea e caratterizzata da una purezza quasi classica. Parallelamente alla riflessione teorica sull'uso della lingua, si sviluppò, soprattutto nei centri urbani dell'Italia settentrionale, una forma di petrarchismo di matrice cortigiana, caratterizzata da una particolare attenzione alla cura formale, al lessico e alle situazioni tipiche del _Canzoniere_. Da questa tradizione prese origine una vasta produzione poetica, culminata nel _Canzoniere_ di Matteo Maria Boiardo.
 
@@ -55,7 +55,7 @@ Nato a Firenze, Firenzuola entrò nell'ordine monastico dei Vallombrosani, dove 
 
 Tra le sue produzioni teatrali si annoverano due commedie: _La Trinunzia_ e _I lucidi_, quest'ultima pubblicata postuma nel 1549. Firenzuola scrisse anche _La prima veste dei discorsi degli animali_ (circa 1540), un adattamento libero delle favole indiane del _Pañcatantra_, reinterpretate attraverso traduzioni latine e spagnole. In questa opera la sua vena narrativa raggiunge una limpidezza e una felicità espressiva superiore rispetto ai _Ragionamenti_, concretizzandosi in una serie di favole e apologhi raccontati con leggerezza in una lingua semplice ma attentamente strutturata. Firenzuola compose inoltre il _Celso_, dialogo sulle bellezze delle donne (1548), consolidando ulteriormente il suo prestigio letterario.
 
-#boxfl(bottom)[== *🧩* La biografia e l'autobiografia <senza_numero>
+#boxfl(bottom)[== 🐺 La biografia e l'autobiografia <senza_numero>
 
 Nel contesto del Rinascimento, i generi della biografia e dell'autobiografia acquisirono caratteri marcati da intenti celebrativi ed encomiastici. In questo periodo, la riflessione critica su tali forme iniziò a delinearsi con opere come _Le Vite_ di Giorgio Vasari e i _Ricordi_ di Francesco Guicciardini. È importante osservare come una parte del biografismo cinquecentesco fosse strettamente intrecciata con le tensioni religiose e politiche dell'epoca.  
 
@@ -73,8 +73,7 @@ Seguendo la struttura del _Decameron_, le novelle sono narrate nell'arco di tre 
 
 Giambattista Gelli (1498-1563), altro importante letterato fiorentino e autodidatta, fu influenzato dal fermento culturale della corte medicea sotto Cosimo I. Tra il 1541 e il 1563 tenne lezioni pubbliche sull'opera dantesca, poi raccolte sotto il titolo _Letture sopra la 'Commedia' di Dante_. Oltre alla produzione critica, compose due commedie, _La sporta_ (1543) e _Lo errore_ (1553), entrambe ispirate ai modelli machiavelliani, caratterizzate da riflessioni morali e da un gusto popolare vivace. Altre opere significative includono _I ragionamenti di Giusto bottaio_ (1548) e _La Circe_ (1549), oltre a un trattato linguistico intitolato _Ragionamento sopra le difficoltà di mettere in regole la nostra lingua_ (1551). In quest'ultimo lavoro criticò le idee di Bembo sostenendo la superiorità del fiorentino parlato rispetto a quello letterario e alla lingua cortigiana che ne derivava.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Manierismo: A partire dal 1530, si sviluppa un movimento culturale di matrice artistica che trova espressione anche in ambito letterario. Questa tendenza si distingue per il virtuosismo formale, l'accentuazione di tonalità elegiache, effetti decorativi e descrizioni paesaggistiche, nonché per una marcata riflessione sul tema del dolore. Tra i fenomeni più rappresentativi di questa corrente si colloca il petrarchismo, che funge da emblema stilistico e tematico.
@@ -86,3 +85,5 @@ Giambattista Gelli (1498-1563), altro importante letterato fiorentino e autodida
 / Agnolo Firenzuola: Sotto lo pseudonimo di Agnolo Firenzuola si cela Michelangiolo Giovannini (1493-1543), monaco vallombrosano originario di Firenze. Tra il 1523 e il 1525 compose i _Ragionamenti_, raccolta di novelle a carattere erotico e comico. Quest'opera si distingue per l'uso di una lingua vicina al parlato colloquiale, accompagnata tuttavia da passaggi in cui la riflessione sull'amore si eleva a livelli profondamente letterari, con uno stile dotto e ricercato.
 
 / Lasca: Anton Francesco Grazzini, noto con lo pseudonimo "Il Lasca" (1503-1588), fu un autore fiorentino conosciuto soprattutto per le sue novelle riunite nelle _Cene_ (pubblicate postume nel 1743, 1756 e 1815). I racconti spaziano tra diversi argomenti – burle, storie comiche e tragiche, avventure amorose – riproponendo in chiave originale il tema della beffa boccaccesca, arricchito da elementi di sensualità ed estro caricaturale.
+
+]

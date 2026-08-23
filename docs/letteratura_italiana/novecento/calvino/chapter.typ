@@ -33,10 +33,10 @@ Il divertito pessimismo di Calvino raggiunge qui il suo culmine: queste narrazio
 
 Con _Palomar_ (1983), raccolta di prose autobiografiche, Calvino volge il suo sguardo verso gli aspetti minimi ma essenziali del mondo. Tra le opere pubblicate postume si trovano _Sotto il sole giaguaro_ (1986), una trilogia sui sensi dell'odorato, del gusto e della vista; la raccolta _Sulla fiaba_ (1988); e _Perché leggere i classici_ (1991), che riflette sul valore intramontabile della letteratura.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Tematiche: Italo Calvino (1923-1985) rappresenta un modello di grande mediazione culturale tra la tradizione e la modernità. Nei suoi scritti confluiscono temi quali l'infanzia, la prospettiva comica e fiabesca, e una narrazione vivace ed esuberante, elementi caratteristici della novellistica italiana, arricchiti dall'influenza delle migliori teorie culturali internazionali.
 
 / Opere: Nella fase neorealista troviamo il romanzo breve Il sentiero dei nidi di ragno (1947), prima vera prova narrativa significativa di Calvino. Al periodo comico-fiabesco appartengono i romanzi brevi _Il visconte dimezzato_ (1952), _Il barone rampante_ (1957) e _Il cavaliere inesistente_ (1959). Tra realtà e fiaba si collocano i testi della cosiddetta "trilogia industriale": _La formica argentina_ (1952), _La speculazione edilizia_ (1957) e _La nuvola di smog_ (1958). A seguire, _La giornata di uno scrutatore_ (1963) segna un impegno più diretto nell'analisi della società e del ruolo dell'intellettuale. Dalle _Cosmicomiche_ (1965) a _Palomar_ (1983), Calvino adotta una tecnica narrativa in cui il racconto diventa oggetto stesso della narrazione, coinvolgendo il lettore in un gioco raffinato e complesso simile alle scatole cinesi.
+]

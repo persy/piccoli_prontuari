@@ -59,7 +59,7 @@ La _Gerusalemme liberata_, poema che incarna l'"aspra tragedia" dell'esistenza u
 
 La sua opera influenzò profondamente anche molti autori europei del Seicento: Milton, Shakespeare, Cervantes, Lope de Vega e Calderón de la Barca. Nel Settecento il peso della sua poetica fu evidente nel melodramma, mentre nel periodo preromantico e romantico Tasso fu celebrato come l'archetipo del genio sofferente, tormentato dalle costrizioni e dalle ipocrisie imposte dalla vita quotidiana, sino a sfiorare la follia.
 
-#boxfl(top)[== *🧩* Giordano Bruno <senza_numero>
+#boxfl(top)[== 🐺 Giordano Bruno <senza_numero>
 
 Giordano Bruno (1548-1600), nato a Nola, fu una figura di spicco del pensiero rinascimentale. Entrato in convento da giovane, abbandonò l'abito e intraprese un percorso segnato da viaggi, scritti e riflessioni filosofiche. Nel 1579 si trasferì a Ginevra, dove si rese conto che il calvinismo non era meno intransigente del cattolicesimo, spingendolo a fuggire in Francia. Qui pubblicò nel 1582 la commedia _Il Candelaio_, inserendosi nel genere comico del Cinquecento.  
 
@@ -69,10 +69,11 @@ Bruno fu anche poeta: scrisse tre poemi latini ispirati al modello di Lucrezio (
 
 Filosofo aperto e libero da pregiudizi, Giordano Bruno rappresentò un ponte verso la modernità scientifica e filosofica. La sua scrittura, vigorosa e ricca di immagini, anticipò lo stile barocco e consolidò il suo valore come pensatore innovativo e anticipatore.]
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Nato a Sorrento (1544-1595), visse un'esistenza segnata da drammatiche esperienze personali e da frequenti spostamenti tra numerose corti italiane. Il poeta fu tormentato da disturbi psichici, angosce derivanti dalla rigida vita cortigiana e dalle tensioni legate alla sua ricerca creativa.
 
 / Opere principali: Tra le sue opere maggiori si annoverano _Aminta_ (1573), una favola pastorale che rappresenta un mondo idilliaco simile a un paradiso terrestre non contaminato dal peccato né dalla consapevolezza del medesimo. Qui, l'essere umano raggiunge la perfezione seguendo il proprio istinto naturale. \ Di altrettanto rilievo è la _Gerusalemme liberata_ (1581), poema epico in ottave articolato in venti canti. L'opera unisce il principio educativo della poesia con la narrazione di un episodio storico -- la prima Crociata -- esaltando al contempo il "meraviglioso cristiano". L'intento tassiano risiede nel sorprendere il lettore e predisporlo ad accogliere verità di ordine morale e spirituale.
+
+]

@@ -6,7 +6,7 @@
 #intro[Nella letteratura barocca emerge una corrente "classicista" che si distingue dall'egemonia del marinismo. Autori come Tassoni, Chiabrera e Testi si riconnettono agli insegnamenti di Torquato Tasso e alla tradizione rinascimentale, contrapponendo al concettismo ricco di metafore di Marino un sorprendente sperimentalismo sia nei metri poetici sia nella lingua. Inoltre, nel Seicento, la narrativa si sviluppa in una direzione più moderna: fiabe e novelle trovano la loro espressione più alta nella raccolta in dialetto napoletano di Basile.]
 
 == Alessandro Tassoni
-#boxfl(bottom)[== *🧩* Romanzo in prosa <senza_numero>
+#boxfl(bottom)[== 🐺 Romanzo in prosa <senza_numero>
 Il romanzo in prosa in Italia conobbe una significativa fioritura durante il Seicento, caratterizzandosi per la varietà delle prospettive narrative. Tale periodo vide l'affermarsi di diverse tipologie di romanzo, tra cui quello d'avventura, spesso intriso di romanticismo e ambientato in contesti idilliaci; il romanzo morale o devozionale, orientato a precetti etici e religiosi; e infine opere ispirate direttamente ad avvenimenti contemporanei. \ I principali centri di produzione letteraria di questo genere furono Venezia e Genova. A Venezia, in particolare, si distinse la pubblicazione di romanzi caratterizzati da toni libertini, come dimostrano i lavori di Girolamo Brusoni (1610-1686), autore di opere quali _La gondola a tre remi_ (1657), _Il carrozzino alla moda_ (1658) e _La peota smarrita_ (1662). \ In ambito genovese compaiono esempi di narrativa più strettamente legati all'estetica barocca. In tal senso, un notevole contributo è rappresentato dall'opera di Giovanni Ambrogio Marini (1594-1662), autore de _Il Calloandro fedele_ (1653), un complesso intreccio narrativo ricco di sottili giochi di ambiguità ed equivoci. \ Sempre a Genova, Anton Giulio Brignole Sale composè uno fra i più celebri romanzi di carattere edificante del periodo: _Maria Maddalena peccatrice e convertita_ (1636), testo che ben esemplifica il registro moraleggiante tipico di alcune produzioni letterarie seicentesche.]
 Alessandro Tassoni, nato a Modena nel 1565 e morto nel 1635, tra il 1599 e il 1603 visse a Roma al servizio del cardinale Ascanio Colonna, che accompagnò anche in Spagna nel 1600. Partecipò attivamente alla vita letteraria dell'epoca, aderendo all'Accademia della Crusca e a quella degli Umoristi. Successivamente entrò al servizio di Carlo Emanuele I di Savoia, sostenendo la sua politica antispagnola.
 
@@ -59,7 +59,7 @@ Dal 1652 si mise al servizio di Aurelia Spinola, vedova del principe di Monaco, 
 Questa raccolta, suddivisa in sette volumi o "latrati", rappresenta uno degli esempi più singolari della prosa barocca italiana. Frugoni sperimentò un'ampia gamma di temi, stili e lingue: dal dotto al gergale, dal francese allo spagnolo, includendo neologismi e dialetti. Con queste scelte stilistiche creò un vero e proprio _pastiche_, concepito per racchiudere ogni argomento e modalità espressiva. Tuttavia, il virtuosismo linguistico spesso sovrastò i contenuti stessi, dando luogo a una certa monotonia nella lettura.
 
 == La fiaba napoletana di Basile
-#boxfl(bottom)[== *🧩* Teatro e musica <senza_numero> 
+#boxfl(bottom)[== 🐺 Teatro e musica <senza_numero> 
 Il concetto centrale della cultura barocca è lo "spettacolo". Il mondo stesso è concepito come un grande teatro, in cui la teatralità della scena implica un continuo intreccio tra realtà e finzione. Tuttavia, la letteratura drammatica italiana risulta meno ricca rispetto alla vasta produzione europea del periodo. Un punto di riferimento fondamentale per il barocco italiano è _Il pastor fido_, opera del ferrarese Giovan Battista Guarini (1538-1612), pubblicata nella sua prima edizione nel 1590. Quest'opera, definita "tragicommedia", anticipa alcune caratteristiche del barocco, come la meraviglia e la fusione dei generi, sebbene in Guarini permanga un forte desiderio di equilibrio armonico per evitare eccessi espressivi.  \ Decisivo per l'evoluzione musicale e teatrale è il contributo della Camerata de' Bardi di Firenze, un gruppo di letterati e musicisti sostenuti da Giovanni de' Bardi. Tra loro, il musicista Vincenzo Galilei (1520-1591) propone un'evoluzione del canto vocale, favorendo il "recitar cantando", ossia un canto declamato capace di rievocare lo spirito della tragedia greca. Da queste sperimentazioni prende forma il melodramma, con i suoi primi grandi autori. Ottavio Rinuccini (1564-1612) cura il libretto dell'Euridice (1600), mentre Alessandro Striggio (1573-1630) scrive _L'Orfeo_ sulle musiche di Claudio Monteverdi. Gian Francesco Busenello (1598-1659), infine, rappresenta una figura chiave con _L'incoronazione di Poppea_ (1642), sempre accompagnato dalle composizioni di Monteverdi.]
 Il napoletano Giovan Battista Basile (1575-1632) è l'autore del magnifico _Lo cunto de li cunti_. Dal 1600 al 1604 fu al servizio della Repubblica di Venezia, dove ebbe l'opportunità di entrare in contatto con l'ambiente letterario e di essere introdotto all'Accademia degli Stravaganti.
 
@@ -79,8 +79,7 @@ La sua notorietà letteraria resta indissolubilmente legata a quel capolavoro de
 
 Scritte in una lingua semplice ma incisiva, capace di rappresentare con immediatezza gli aspetti concreti della condizione umana, le avventure di Bertoldo e delle sue "continuazioni" rimangono tra i grandi capolavori della narrativa popolare di tutti i tempi.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Tassoni: _La secchia rapita_ (1627), la sua opera maggiore, è un raffinato "poema eroicomico" che alterna sapientemente serio e faceto. Quest'opera emerge dalla crisi del poema cavalleresco umanista, in cui elementi seri e comici si compenetrano, e si inserisce in un contesto influenzato dalla Gerusalemme liberata di Tasso, dove invece prevale una serietà tragica e religiosa.  
@@ -90,3 +89,5 @@ Scritte in una lingua semplice ma incisiva, capace di rappresentare con immediat
 / Frugoni: L'opera postuma _Il cane di Diogene_ (1689) rappresenta un autentico _pastiche_ letterario, raccolta che tenta di racchiudere ogni tema e forma espressiva.  
 
 / Letteratura dialettale e popolare: _Lo cunto de li cunti_ (1634-36) di Giambattista Basile è una vivace raccolta di fiabe napoletane che si distingue per la sofisticata modernità linguistica e narrativa. Meno rilevanti sono i lavori di Giulio Cesare Croce, noto principalmente per le _Sottilissime astuzie di Bertoldo_.
+
+]

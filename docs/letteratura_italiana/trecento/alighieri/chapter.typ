@@ -53,7 +53,7 @@ L'opera narra il viaggio di sette giorni che Dante intraprende nei regni ultrate
 
 Non vi è dubbio che Dante abbia tratto ispirazione dalla Sacra Scrittura, dai testi della latinità classica e dalla letteratura cristiana. Spicca particolarmente, nel suo immaginario, il rapimento di San Paolo al terzo cielo descritto nella Seconda Lettera ai Corinzi (12) e la discesa agli Inferi di Enea narrata nel VI libro dell'Eneide di Virgilio. La Commedia si configura quindi come un'Eneide della modernità, un'epopea dello spirito cristiano.
 
-#boxfl(top)[== *🧩* Il successo della _Divina Commedia_ <senza_numero>
+#boxfl(top)[== 🐺 Il successo della _Divina Commedia_ <senza_numero>
 
 La fortuna della Divina Commedia non ha seguito un percorso uniformemente lineare nel corso dei secoli. Sebbene ampiamente diffusa e commentata sin dal Trecento, a partire dal figlio di Dante, Jacopo, l'opera fu accolta con sospetto nei circoli più radicali dell'umanesimo fiorentino. Poco apprezzata nei secoli XVII e XVIII, trovò un suo interprete privilegiato in Giambattista Vico, che ne facilitò l'accoglienza nell'Europa romantica. Qui Dante venne consacrato, come osserva E. Pasquini, a figura mitologica del genio creativo e naturale, accanto a Omero e Shakespeare.
 
@@ -79,8 +79,7 @@ La struttura del Paradiso segue la medesima regola del 9+1 valida per l'Inferno 
 
 Gli ultimi due cieli prima dell'Empireo servono al pellegrino per completare la propria preparazione alla visione divina, assistendo al trionfo di Cristo e della Vergine Maria e sostenendo un esame sulla fede, la speranza e la carità. Infine, il pellegrino raggiunge il cielo Empireo, che rappresenta il vero Paradiso ed è la dimora di Dio e dei beati. Qui Dante osserva una "candida rosa", un'immensa disposizione di anime su troni ordinati a forma di anfiteatro. Tra loro ritrova Beatrice, che simbolicamente cede il ruolo di guida a san Bernardo di Chiaravalle. La preghiera di Bernardo ottiene l'intercessione della Vergine Maria, grazie alla quale il poeta può avvicinarsi al mistero ineffabile della divina essenza.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Dante Alighieri nacque a Firenze nel 1265, proveniente da una famiglia della piccola nobiltà guelfa. Nel 1285 contrasse matrimonio con Gemma Donati. La morte di Beatrice, avvenuta nel 1290, figura amata da Dante e sublimata in un ideale di amore spirituale, provocò nel poeta una profonda crisi religiosa. A seguito della divisione interna ai Guelfi in fazioni dei Bianchi e dei Neri, Dante si schierò con i Bianchi, sostenitori di una politica d'indipendenza dal potere papale. Tuttavia, nel 1301 i Neri assunsero il controllo politico ed emisero contro di lui una condanna a morte in contumacia. Questa situazione lo costrinse a vivere in esilio fino alla sua morte, avvenuta a Ravenna nel 1321.
@@ -90,3 +89,5 @@ Gli ultimi due cieli prima dell'Empireo servono al pellegrino per completare la 
 / _De vulgari eloquentia_: Il _De vulgari eloquentia_ (1304-05) è un trattato di natura teorico-linguistica che analizza il potenziale del volgare rispetto al latino. Dante propone l'idea di un volgare superiore, che dovrebbe essere "illustre", "cardinale", "aulico" e "curiale", ovvero dotato di splendore, capace di attrarre gli altri volgari, regolato da norme precise e caratterizzato da altissima dignità e eleganza.
 
 / La _Divina Commedia_: Capolavoro assoluto della letteratura occidentale, la _Divina Commedia_ è composta da tre cantiche: _Inferno_ (34 canti), _Purgatorio_ (33 canti) e _Paradiso_ (33 canti), per un totale di 100 canti scritti tra il 1306-07 e l'anno della morte del poeta. L'opera descrive un percorso di conversione spirituale, che si articola dalla consapevolezza del peccato alla redenzione ultima dell'anima umana. Realizzata in terzine di versi endecasillabi, il poema è riconosciuto come il più grande affresco della cultura occidentale e rappresenta con straordinaria intensità la riflessione sulla sofferenza umana, al fine di definire una nuova dignità dell'uomo attraverso il confronto con il dolore e la ricerca del trascendente.
+
+]

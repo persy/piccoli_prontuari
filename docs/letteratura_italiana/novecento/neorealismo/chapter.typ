@@ -59,7 +59,7 @@ Questo itinerario esistenziale assume i connotati di un imperativo morale inevit
 
 Il linguaggio utilizzato nel romanzo si caratterizza per l'impiego di termini quotidiani e di una sintassi modellata sui ritmi del dialetto locale e sul registro orale, tradendo così una duplice tensione: da un lato, la fatica di passare da una realtà vissuta intensamente ma con ingenuità; dall'altro, il bisogno crescente di raggiungere una consapevolezza più approfondita della condizione umana.
 
-#boxfl(bottom)[== *🧩* Il teatro di Eduardo De Filippo <senza_numero>
+#boxfl(bottom)[== 🐺 Il teatro di Eduardo De Filippo <senza_numero>
 
 Il teatro di Eduardo De Filippo rappresenta uno dei massimi esempi di contributo allo sviluppo del teatro dialettale italiano del Novecento. Nato a Napoli nel 1900, De Filippo è riconosciuto a livello internazionale come una delle figure più significative della drammaturgia italiana. Cresciuto in ambienti teatrali fin dall'infanzia e lui stesso attore, iniziò negli anni Trenta a scrivere commedie dal tono prevalentemente farsesco. Tra queste spicca il celebre _Natale in casa Cupiello_ del 1931, che unisce profondità psicologica e tradizione comica.
 
@@ -107,8 +107,7 @@ Cassola si concentra sulle realtà più essenziali, sugli oggetti ordinari e sul
 
 Con lo svilupparsi di una percezione sempre più negativa nei confronti della contemporaneità, vissuta da Cassola come "nemica", la sua scrittura prende una direzione più intimistica, oscillando tra un intento consolatorio e uno evasivo. È il caso di opere come _Un cuore arido_ (1961), _Il cacciatore_ (1964) e _Ferrovia locale_ (1968). Nelle produzioni successive si distinguono titoli come _Paura e tristezza_ (1970), _Monte Mario_ (1973), _Fogli di diario_ (1974), l'antologia autobiografica _L'uomo e il cane_ (1977) e lavori che riflettono un approccio ispirato dall'antimilitarismo.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Neorealismo: le premesse fondamentali del movimento neorealista, sviluppatosi tra gli anni Quaranta e Cinquanta del Novecento, si basano su un realismo più autentico, sull'influenza del "mito dell'America" e su una nuova esigenza di impegno politico. Le principali tematiche trattate includono la guerra, la Resistenza, la condizione operaia e quella degli emarginati.
@@ -130,3 +129,4 @@ Con lo svilupparsi di una percezione sempre più negativa nei confronti della co
 / Tobino: Mario Tobino (1910-1991), medico toscano, ha affrontato tematiche legate alla solitudine e all'alienazione provocata dalla malattia mentale. La sua opera più conosciuta è _Le libere donne di Magliano_ (1953).
 
 / Cassola: Carlo Cassola (1917-1987), romano, rivolge la sua attenzione alle realtà più semplici della Maremma, trattando anche temi impegnati relativi alla Resistenza e al dopoguerra. Tra i suoi lavori principali si trovano _Il taglio del bosco_ (1954), _Fausto e Anna_ (1952) e _La ragazza di Bube_ (1960).
+]

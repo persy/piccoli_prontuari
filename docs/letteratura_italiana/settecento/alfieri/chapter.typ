@@ -37,10 +37,11 @@ _Saul_ (1782) affronta invece una vicenda biblica. Saul è un valoroso guerriero
 
 Mirra, scritta nel 1784 e pubblicata nel 1789, si ispira a un episodio tratto dalle Metamorfosi di Ovidio: la protagonista prova un amore incestuoso per il padre Cinico, re di Cipro. Nel tentativo di soffocare questa passione proibita, accetta di sposare Pereo; tuttavia, durante la cerimonia nuziale maledice il proprio matrimonio. Pereo si toglie la vita, Mirra confessa il suo segreto al padre e infine si suicida.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Opere: Nel 1777 Alfieri scrive il trattato _Della tirannide_; tra il 1777 e il 1779 si dedica alla stesura di _Del principe e delle lettere_, delle _Rime_ e della sua _Vita_. Nel 1783 pubblica a Siena i primi due volumi delle tragedie, che verranno poi ripubblicati in sei volumi a Parigi tra il 1787 e il 1789.  
 
 / Poetica: La scelta della tragedia nasce dal rifiuto delle limitazioni imposte all'individuo, soprattutto dalla società assolutistica dell'ancien régime. Il classicismo di Alfieri non si inserisce nel gusto neoclassico: esso non abbraccia una visione estetica o formale, bensì si configura come una ricerca spasmodica di un modello morale rigoroso, assoluto e, per certi versi, "impossibile".  
+
+]

@@ -6,7 +6,7 @@
 #intro[La produzione poetica del Trecento mostra segni di stasi, stretta tra l'esaurimento creativo dello stilnovismo e l'imponente influenza di Petrarca, del quale però non si coglie ancora appieno la radicale innovazione. In questo contesto, la lirica raggiunge risultati minori rispetto ad altri generi, come la novellistica, che si dimostra più feconda e vivace. I _Trecentonovelle_ di Franco Sacchetti, modellate sul paradigma boccacciano, rappresentano una testimonianza significativa di questa tradizione narrativa, destinata a durare nel tempo.]
 
 == La lirica
-#boxfl(bottom)[== *🧩* La letteratura franco-italiana <senza_numero>
+#boxfl(bottom)[== 🐺 La letteratura franco-italiana <senza_numero>
 
 La letteratura franco-italiana, talvolta definita anche francoveneta, rappresenta un corpus di opere, per lo più di carattere cavalleresco, composte tra il XIII e l'inizio del XIV secolo nella regione della bassa valle del Po. Questi testi furono scritti in una lingua che gli autori consideravano francese, ma che in realtà costituisce un'interessante commistione fra elementi linguistici italiani e francesi. Un tratto distintivo di questa produzione letteraria risiede nella sintesi tra due grandi tradizioni culturali della Francia medievale: quella epico-carolingia e quella amorosa di origine bretone. \ Tra le opere più significative di questo filone si annovera un ciclo di poemi carolingi, che comprende, ad esempio, narrazioni su Buona d'Antona, su Berta, madre di Carlomagno, sulla giovinezza di Carlomagno stesso e sugli amori tra Milone e Berta, sorella dell'imperatore. È probabile che tali componimenti siano stati creati da un unico autore. Altro esempio rilevante è l'_Entrée de Spagne_, un poema composto da un autore padovano e successivamente portato a compimento nel XIV secolo da Niccolò da Verona con la stesura della _Prise de Pampelune_.]
 Con il superamento delle forme stilnoviste, già preannunciato dalle scelte tematiche e stilistiche della _Commedia_ dantesca, la poesia del Trecento fatica a sviluppare nuovi orizzonti espressivi. L'esperienza del Petrarca, nonostante la sua qualità innovativa nell'uso del volgare, rimane spesso incompresa dagli epigoni del periodo. Un esempio emblematico di questa limitazione è rappresentato da Sennuccio del Bene (1275-1349), la cui produzione non riesce a interpretare pienamente le novità introdotte dai fondatori dello stilnovismo. 
@@ -27,10 +27,11 @@ La prima opera poetica di Sacchetti, _La battaglia delle belle donne di Firenze 
 
 L'intento etico diviene esplicito nel capolavoro di Sacchetti, _Il Trecentonovelle_, una raccolta iniziata intorno al 1392 e completata nel 1396-97, di cui sono pervenute 223 novelle. Benché ispirata al _Decameron_ di Boccaccio, questa non presenta una struttura cornice e adotta piuttosto un tono colloquiale e familiare. Tale scelta narrativa conferisce all'opera un carattere di libero vagabondare della memoria. Il linguaggio impiegato dall'autore si distingue per la semplicità spontanea: rifiuta i preziosismi letterari a favore di un registro quotidiano, elevando la parlata comune a dignità artistica. Ogni novella rappresenta un'affascinante istantanea della vita borghese e popolare dell'epoca, in cui i personaggi vengono descritti con vivace realismo comico. Il fine ultimo dell'opera è didattico ed esemplare: ciascun racconto culmina in una riflessione morale finalizzata a suggerire insegnamenti pratici e ammonimenti etici.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Lirica:  La poesia lirica del periodo si concentra essenzialmente sull'imitazione dello stilnovo. Tra gli autori principali troviamo Sennuccio del Bene, lucido continuatore di quella tradizione; Matteo Frescobaldi, che adotta uno stilnovismo semplice, sebbene a tratti prevedibile; e Antonio Beccari, il quale combina elementi danteschi con motivi provenienti dalla tradizione giullaresca. Nei rimatori realisti, il disordine ribelle del realismo duecentesco evolve in una visione più ordinata e borghese della vita, accompagnata da una certa inclinazione moralistica, come nel caso di Antonio Pucci.
 
 / Novellistica:  Giovanni Sercambi, autore del _Novelliero_, si distingue per la vivacità dell'espressione e l'uso di una lingua colorita e colloquiale. Franco Sacchetti invece, con il _Trecentonovelle_, mostra un equilibrio narrativo e una capacità descrittiva piena di dinamismo, affiancata da un "buon senso" moralistico e borghese, in netto contrasto con gli approcci più liberi di Boccaccio.
+
+]

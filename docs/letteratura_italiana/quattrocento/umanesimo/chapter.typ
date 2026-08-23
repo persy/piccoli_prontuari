@@ -11,7 +11,7 @@ L'umanesimo trae origine dall'espressione _studia humanitatis_ (gli studi legati
 
 Un contributo fondamentale alla crescita degli studi umanistici venne da Francesco Petrarca, non solo attraverso le sue opere latine – tra cui spiccano il _De viris illustribus_ e l'_Africa_ – ma anche mediante la sua attività di scopritore di testi antichi perduti (tra cui l'orazione _Pro Archia_ e le lettere di Cicerone) e il suo lavoro filologico. Grazie al prestigio culturale acquisito, Petrarca ebbe un ruolo cruciale nell'affermazione della nuova cultura. A rafforzarne la diffusione fu anche Giovanni Boccaccio, che introdusse a Firenze lo studio del greco e contribuì alla formazione di giovani intellettuali toscani.
 
-#boxfl(bottom)[== *🧩* Lo sviluppo degli studi greci <senza_numero>
+#boxfl(bottom)[== 🐺 Lo sviluppo degli studi greci <senza_numero>
 
 Lo sviluppo degli studi greci nel Quattrocento conosce una significativa rinascita culturale. La cultura greca, infatti, rappresenta in questo periodo un'apertura verso un platonismo inquieto, in netto contrasto con la teologia medievale. Un ruolo fondamentale viene svolto da Coluccio Salutati, che favorisce l'arrivo a Firenze di maestri greci: tra questi, il bizantino Manuele Crisolora, giunto nel 1396 allo Studio fiorentino per insegnare la lingua greca. Durante questa fase, grande impulso viene dato alla traduzione di testi classici, tra cui Platone e Plutarco, ma anche Omero e i tragici. L'influenza di Crisolora si estende anche alla Lombardia, lasciando un'impronta culturale duratura. 
 
@@ -91,8 +91,7 @@ Nella metà del XV secolo, l'Umanesimo rinascimentale raggiunse una delle sue ma
 
 Una figura di grande rilievo fu Giovanni Pico della Mirandola (1463-1494), impegnato nella costante ricerca di una sintesi tra tutte le filosofie e religioni, in particolare la cabbalà, corrente mistica dell'ebraismo, e la rivelazione cristiana. Autore dell'illustre orazione _De dignitate hominis_ (_La dignità dell'uomo_, 1486), ha dato vita a un'opera che rappresenta una preziosa sintesi del pensiero umanistico. Questo testo esprime con straordinaria efficacia la fiducia nei valori e nella grandezza dell'uomo, al quale Dio ha donato la capacità di essere artefice del proprio destino, rendendolo superiore persino agli angeli.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Umanesimo: Attraverso la valorizzazione della tradizione greco-latina, l'Umanesimo riconsidera il ruolo centrale dell'uomo, interpretato come artefice del proprio destino, impegnato nella costruzione di modelli sociali innovativi. Questo approccio si oppone alla visione tradizionale ed esclusivamente ultraterrena del mondo.\ Figura di spicco dell'Umanesimo, Coluccio Salutati fu cancelliere di Firenze per oltre trent'anni e un tenace assertore dell'alto valore civile della cultura classica.
@@ -100,3 +99,5 @@ Una figura di grande rilievo fu Giovanni Pico della Mirandola (1463-1494), impeg
 / Umanisti: Nelle _Vite di Dante e Petrarca_ (1436), Leonardo Bruni riconosce il valore della lingua volgare e la validità del suo utilizzo in ambiti letterari. \ Con le _Facezie_,  Poggio Bracciolini esalta i principi della nuova civiltà umanistica, ponendo al centro delle sue narrazioni l'abilità, la cultura e l'impegno dell'uomo civile come esempio morale. \ Considerato il modello ideale dell'insegnante umanista, Vittorino da Feltre dedicò la propria attività alla formazione intellettuale e morale. \ Leon Battista Alberti invoca l'uomo come fulcro dell'universo, chiamato a forgiare se stesso attraverso l'esperienza diretta, l'ingegno personale e la rielaborazione del sapere. \ Lorenzo Valla, celebre per aver dimostrato la falsità della _Donazione di Costantino_, e Enea Silvio Piccolomini, il futuro Pio II, mecenate illuminato, emersero come figure emblematiche dell'Umanesimo, grazie al loro gusto letterario e al rigore della ricerca filologica.
 
 / Neoplatonismo fiorentino: Marsilio Ficino integrò il pensiero platonico e neoplatonico nella tradizione cristiana, reinterpretandone i principi alla luce delle dottrine spirituali. \ Pico della Mirandola celebrò la dignità dell'uomo, concepito come opera divina e artefice consapevole del proprio destino, superiore persino agli angeli.
+
+]

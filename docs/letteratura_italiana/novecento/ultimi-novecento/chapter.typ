@@ -17,7 +17,7 @@ Nelle opere successive, caratterizzate da una complessità linguistica ancora pi
 
 In _Fosfeni_, Zanzotto continua a esplorare i recessi della psiche e dei linguaggi, alla ricerca di una parola assoluta, unica via di salvezza contro la dissoluzione della comunicazione indotta dalla società dei mass media.
 
-#boxfl(top)[== *🧩* Il concetto di postmoderno <senza_numero>
+#boxfl(top)[== 🐺 Il concetto di postmoderno <senza_numero>
 
 Il termine postmoderno ha assunto significati parzialmente diversi a seconda dell'ambito in cui è stato utilizzato. Negli ultimi vent'anni, tuttavia, ha descritto espressioni culturali che manifestano una consapevolezza della perdita dei punti di riferimento ideali su cui si era basato il concetto di modernità. 
 
@@ -41,7 +41,7 @@ Vivian Lamarque (1946) ha sviluppato una poetica degli opposti, caratterizzata d
 
 La poesia di Patrizia Valduga (1953), rigorosamente incastonata nell'uso del linguaggio tradizionale, in particolare nella quartina petrarchesca, rielabora e attualizza temi quali l'eros, lo smarrimento dell'anima, il dolore e la sofferenza. Tra le sue opere principali si trovano _Medicamenta_ (1982), _Donna di dolori_ (1991), _Requiem_ (1994) e _Cento quartine e altre storie d'amore_ (1997).
 
-#boxfl(top)[== *🧩* Il teatro giullaresco di Dario Fo <senza_numero>
+#boxfl(top)[== 🐺 Il teatro giullaresco di Dario Fo <senza_numero>
 
 Dario Fo (1926-2016), originario di Leggiuno, nei pressi di Varese, rappresenta una delle figure più significative del panorama teatrale italiano del Novecento. Egli esordì come attore impegnato in spettacoli satirici di varietà, tra cui si ricordano _Il dito nell'occhio_ (1953) e _Sani da legare_ (1954). Nel periodo compreso tra il 1956 e il 1967, insieme alla moglie Franca Rame, mise in scena una serie di farse caratterizzate da un ritmo vivace e da trame fortemente inverosimili. Questi lavori, come _Isabella tre caravelle e un cacciaballe_ (1963) e _La signora è da buttare_ (1967), si proponevano di denunciare con ironia i paradossi sociali e politici dell'Italia contemporanea.
 
@@ -85,8 +85,7 @@ Susanna Tamaro (1957), dopo aver esordito con _La testa tra le nuvole_ (1989) e 
 
 Andrea Camilleri (1927-2019), noto sceneggiatore e regista televisivo, ha raggiunto una solida notorietà tardiva attraverso romanzi e racconti intrisi dell'atmosfera siciliana: _Un filo di fumo_ (1980), _La concessione del telefono_ (1998) e _Il re di Girgenti_ (2001). La consacrazione definitiva è arrivata con la celebre serie poliziesca incentrata sul commissario Montalbano. In queste opere Camilleri ha saputo fondere magistralmente l'italiano con il dialetto siciliano, dando vita a una lingua apparentemente fittizia: tra i romanzi più noti della serie si annoverano La forma dell'acqua (1994), _Il cane di terracotta_ (1996) e _L'odore della notte_ (2001).
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Zanzotto: Andrea Zanzotto (1921-2011) rappresenta una delle voci poetiche più influenti della seconda metà del Novecento. La sua produzione poetica si configura come un tentativo di celare le nevrosi personali e collettive attraverso una lingua fluida e ricca di suggestioni (_Dietro il paesaggio_, 1951; _IX Ecloghe_, 1962; _Fosfeni_, 1983).
@@ -97,4 +96,5 @@ Andrea Camilleri (1927-2019), noto sceneggiatore e regista televisivo, ha raggiu
 
 / Malerba: Luigi Malerba (1927-2008) sfrutta abilmente l'umorismo e l'assurdo per smascherare le ossessioni del mondo moderno: la narrativa diviene un mezzo per sovvertire ciò che appare immutabile, anche quando è dichiaratamente fittizia (_Il serpente_, 1966; _Il pianeta azzurro_, 1986).  
 
-/ Pontiggia: Giuseppe Pontiggia (1934-2003) incarna una raffinata ricerca espressiva. Nei suoi romanzi, il realismo si intreccia con uno stile ricco e immaginativo, dando vita a narrazioni che seducono per la profondità e l'inventiva (_La morte in banca_, 1959; _Il giocatore invisibile_, 1978; _La grande sera_, 1989).  
+/ Pontiggia: Giuseppe Pontiggia (1934-2003) incarna una raffinata ricerca espressiva. Nei suoi romanzi, il realismo si intreccia con uno stile ricco e immaginativo, dando vita a narrazioni che seducono per la profondità e l'inventiva (_La morte in banca_, 1959; _Il giocatore invisibile_, 1978; _La grande sera_, 1989). 
+] 

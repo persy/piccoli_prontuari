@@ -113,8 +113,7 @@ Da Ponte, narratore che visse una vita travagliata e morì a New York in fuga da
 
 In ogni nota e verso si avverte il fremito di una catastrofe imminente ma, al tempo stesso, la bellezza di un vuoto rinnovato. L'armonia tra testo e musica raggiunge vette mai toccate: una modernità straordinaria che lascia ancora oggi un senso di stupore, emozionando un pubblico distante due secoli dall'epoca in cui queste opere presero vita.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / L'Arcadia: La reazione al barocco si manifesta nella sfera poetica attraverso l'Arcadia, fondata nel 1690. Questo movimento promuove una nuova semplicità razionalistica, caratterizzata da un linguaggio chiaro e lineare. Per Gian Vincenzo Gravina, la poesia assume un ruolo di forte comunicatività sociale, riflettendo un intento educativo e collettivo.
@@ -125,3 +124,4 @@ In ogni nota e verso si avverte il fremito di una catastrofe imminente ma, al te
 
 / Librettistica e Da Ponte: Lorenzo Da Ponte emerge come maestro del librettismo in opere quali _Le nozze di Figaro_, _Il dissoluto punito ossia il Don Giovanni_ e _Così fan tutte ossia la scuola degli amanti_. I suoi libretti sono congegni creativi impeccabili, capaci di demolire audacemente, quasi con un eccesso di luminosità, quei valori culturali e politici che il melodramma aveva preservato per decenni.
 
+]

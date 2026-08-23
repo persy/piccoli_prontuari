@@ -39,8 +39,7 @@ Questa impostazione narrativa influenza anche lo stile caratteristico di Svevo, 
 
 L'opera di Svevo si colloca all'interno della grande stagione narrativa europea, accanto a autori come Joyce, Proust, Kafka, Thomas Mann e Musil. Tutti questi scrittori condividono l'esplorazione della crisi della ragione rispetto agli oscuri e incontrollabili abissi dell'animo umano. Sotto la sottile ironia e autoironia dei suoi personaggi, Svevo cela la tragica incapacità, o "inettitudine", di vivere il presente come una realtà concreta e pienamente consapevole.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Aron Ettore Schmitz, noto come Italo Svevo (1861-1928), era triestino di origine ebraico-tedesca. Dopo studi tecnico-commerciali, lavorò inizialmente in banca, per poi dirigere l'azienda del suocero. Parallelamente si dedicò alla scrittura, ottenendo un riconoscimento principalmente internazionale.  
@@ -48,3 +47,5 @@ L'opera di Svevo si colloca all'interno della grande stagione narrativa europea,
 / Opere principali: _Una vita_ (1892), storia di un uomo "inetto"; _Senilità_ (1898), il dramma amoroso di un uomo innamorato di una donna più giovane; _La coscienza di Zeno_ (1923), romanzo autobiografico che esplora una nevrosi e la sua terapia psicoanalitica.  
 
 / Giudizio critico: Svevo incarna il cuore della letteratura novecentesca, analizzando con lucidità e ironia la coscienza moderna. Per lui, raccontare significa indagare l'assurdità e l'inquietudine delle leggi che regolano il mondo, cogliendo il vuoto e l'insignificanza sottesi alla vita. Al pari dei grandi autori del periodo, Svevo ha saputo descrivere la crisi della cultura europea e la travolgente tragicità delle cose quotidiane.
+
+]

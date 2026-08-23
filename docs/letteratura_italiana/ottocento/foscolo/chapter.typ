@@ -73,8 +73,7 @@ La figura di Foscolo raggiunse grande rilievo durante il Risorgimento italiano, 
 
 Nel Novecento la critica ha approfondito lo studio della produzione foscoliana, arrivando a delineare un'interpretazione più ricca e articolata. Questo percorso ha permesso di mettere in relazione Foscolo con alcuni fra i maggiori poeti europei caratterizzati da tendenze ellenizzanti e romantiche, come Hölderlin in Germania o Shelley e Keats nell'ambiente letterario inglese.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Nato sull'isola greca di Zante nel 1778, Foscolo completa gli studi a Venezia a partire dal 1793. Nel 1797 si arruola nell'esercito napoleonico, ma viene profondamente deluso da Napoleone quando quest'ultimo cede Venezia all'Austria, tradendo i principi di nazionalità. Foscolo si trasferisce a Milano e successivamente a Firenze, dove entra in contatto con importanti letterati dell'epoca, come Parini e Monti. Questi sono anni di intense passioni e fervida attività creativa. Con la caduta di Napoleone e la Restaurazione austriaca, Foscolo sceglie l'esilio in Inghilterra nel 1816. Qui vive tra difficoltà economiche fino alla morte nel 1827 nei pressi di Londra.  
@@ -86,3 +85,5 @@ Nel Novecento la critica ha approfondito lo studio della produzione foscoliana, 
 / _Le Grazie_: Poema incompiuto suddiviso in tre inni, celebra un'ideale mitico di bellezza nella Grecia classica. Si tratta di uno dei capolavori più significativi di Foscolo.  
 
 / Giudizio critico: Foscolo è un autore che incarna sia il senso di crisi sia quello di una profonda rinascita, fondendo il grande insegnamento musicale e ideale del neoclassicismo con una passione drammatica intrisa di spirito romantico e europeo.
+
+]

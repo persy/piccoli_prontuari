@@ -37,11 +37,12 @@ La trama resta aperta, e in questo modo emerge chiaramente dalle pagine del roma
 
 Anche il clima politico dell'epoca, ossia il fascismo degli anni '20, contribuisce a plasmare una realtà segnata da ipocrisia e dalla corruzione dei valori etici legati al senso del dovere e allo Stato.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Poetica: Carlo Emilio Gadda (1893-1973) rappresenta un esempio straordinario di letteratura capace di esplorare le sofferenze, i paradossi e le distorsioni della civiltà moderna. Con uno sperimentalismo stilistico che mescola lingua nazionale, dialetto, gergo tecnico e costruzioni letterarie, la sua scrittura crea un mosaico linguistico tanto concreto quanto capace di divenire poetico o surreale.  
 
 / Opere maggiori: _La cognizione del dolore_ (1939-41, poi pubblicato nel 1963) offre un ritratto crudo e grottesco della realtà, usando una lingua deformata per disorientare il lettore e rompere le abitudini rassicuranti. _Quer pasticciaccio brutto de via Merulana_ (1957) dipinge una società dove le azioni, sia individuali che collettive, appaiono prive di motivazioni autentiche, dominate da pregiudizi, convenzioni e calcoli meschini.  
 
+
+]

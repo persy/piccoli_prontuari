@@ -43,8 +43,7 @@ La lingua poetica impiegata da Petrarca si distingue per essere purificata dalla
 
 L'altra opera poetica in volgare composta da Petrarca sono i _Trionfi_, scritti tra il 1348 e il 1374. Si tratta di un'opera ambiziosa dal carattere allegorico-didattico, articolata in sei sezioni: il Trionfo dell'Amore, della Pudicizia, della Morte, della Fama, del Tempo e dell'Eternità. In essa Petrarca si ispira al modello sommo della _Commedia_ dantesca per inserire il mito amoroso personale, centrato sulla figura di Laura, nel contesto più ampio della storia umana e in quadri morali e metastorici immutabili. Attraverso i _Trionfi_, il poeta drammatizza i grandi temi della sua interiorità, primo fra tutti il conflitto tra la frammentarietà dell'esistenza mondana e l'eterna perfezione dell'assoluto. Questa tensione viene rappresentata con un gusto figurativo e compositivo che resta per molti aspetti legato alla tradizione medievale. Tuttavia, sul piano poetico, l'esito complessivo dell'opera risulta meno efficace rispetto ad altre creazioni petrarchesche.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Francesco Petrarca nasce ad Arezzo nel 1304, figlio di un notaio fiorentino in esilio, come Dante. La famiglia si trasferisce in Provenza, ad Avignone, allora sede papale. Dopo aver studiato diritto, intraprende la carriera ecclesiastica e alterna periodi di isolamento a Valchiusa, nei pressi di Avignone, a viaggi e attività diplomatiche. Diventa l'intellettuale più celebre del suo tempo, ricevendo nel 1341 la corona di poeta laureato a Roma, sul Campidoglio. Nel 1342-43 attraversa una profonda crisi morale e religiosa a seguito della morte di Laura, sua amata, e della monacazione del fratello. Dal 1351 si stabilisce a Milano presso i Visconti e successivamente a Venezia. Francesco Petrarca muore nel 1374 nella sua residenza di Arquà (oggi Arquà Petrarca), sui Colli Euganei, vicino a Padova.
@@ -58,3 +57,5 @@ L'altra opera poetica in volgare composta da Petrarca sono i _Trionfi_, scritti 
 / Il _Canzoniere_: Il _Canzoniere_ raccoglie nella sua versione definitiva 317 sonetti, 29 canzoni, 9 sestine, 7 ballate e 4 madrigali. Quest'opera rappresenta un dialogo intimo del poeta con la propria anima e racchiude la sua tensione verso il dolce errore della coscienza. Il _Canzoniere_ diventa il modello fondativo della lirica d'amore italiana.
 
 / I _Trionfi_: I _Trionfi_ sono un'opera allegorico-didattica scritta in terzine e articolata in sei parti: il Trionfo dell'Amore, della Pudicizia, della Morte, della Fama, del Tempo e dell'Eternità.
+
+]

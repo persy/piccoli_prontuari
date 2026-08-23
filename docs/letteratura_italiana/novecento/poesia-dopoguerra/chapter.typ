@@ -39,7 +39,7 @@ La raccolta d'esordio _Frontiera_ (1941), influenzata dall'ermetismo, mostra la 
 
 In _Diario d'Algeria_ (1947) prevalgono i temi legati alla guerra e alla prigionia, esperienze vissute direttamente da Sereni nei campi di internamento in Algeria e Marocco. Con la terza raccolta, _Gli strumenti umani_ (1965), il poeta affronta il disorientamento generato dalla società post-bellica, capitalista e consumistica, simbolo di un male di vivere che lo rende ora alienato, ora furioso. In questo contesto degradante, solo l'amore e l'amicizia rappresentano rifugi temporanei. La parola si fa più dura e il ritmo più irregolare, come si nota specialmente nella raccolta _Un posto di vacanza_ (1965), inclusa successivamente in _Stella variabile_ (1981). In quest'ultima fase Sereni interroga persino il ruolo della poesia stessa, adottando uno stile sempre più vicino alla prosa, coerentemente con la sua riflessione intensa.
 
-#boxfl(top)[== *🧩* La "linea lombarda"  <senza_numero>
+#boxfl(top)[== 🐺 La "linea lombarda"  <senza_numero>
 
 Luciano Anceschi utilizzò questa espressione in un'antologia del 1952 per delineare una corrente poetica composta da autori nati tra il 1920 e il 1922. Questi poeti, influenzati dalla lezione di Vittorio Sereni, condividono un interesse per il rapporto tra poesia e realtà, caratterizzato da attenzione agli oggetti, concretezza, oggettività, senso critico, un'intensa tensione morale e l'uso dell'ironia.  
 
@@ -60,8 +60,7 @@ La metafora del viaggio assume l'aspetto di un "viaggio finale" ne _Il congedo d
 
 Nelle ultime opere, _Il franco cacciatore_ (1982), _Il conte di Kevenhuller_ (1986) e _Res amissa_ (1991), il poeta si trasforma in un simbolico cacciatore a caccia di Dio, dell'infanzia e del passato in una ricerca incessante e disperata, dove "l'inseguito diventa inseguitore", il cacciatore diventa preda, senza alcuna speranza né per sé né per gli altri.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Betocchi: Carlo Betocchi (1899-1985) è noto per un realismo poetico che, pur celebrando le cose concrete, si slancia costantemente verso l'assoluto. Le sue raccolte più significative includono _Realtà vince il sogno_ (1932) e _L'estate di san Martino_ (1961).
@@ -76,3 +75,5 @@ Nelle ultime opere, _Il franco cacciatore_ (1982), _Il conte di Kevenhuller_ (19
 
 / Caproni: La poesia di Giorgio Caproni (1912-1991) si caratterizza per uno scetticismo profondo e senza soluzione, espresso con nitidezza e accenti dolorosi. Tra le sue opere principali figurano _Il passaggio di Enea_ (1956), _Il seme del piangere_ (1959) e _Il franco cacciatore_ (1982).
 
+
+]

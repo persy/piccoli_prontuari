@@ -6,7 +6,7 @@
 #intro[Un maggior orientamento verso l'intervento concreto sulla realtà politica e sociale portò gli illuministi lombardi a impegnarsi attivamente nell'amministrazione pubblica. Essi sostennero con convinzione il riformismo illuminato promosso dagli Asburgo, che però rallentò il proprio slancio a partire dagli anni Settanta. In questo stesso periodo si affermarono i modelli neoclassici, con Giuseppe Parini come massimo interprete. Parini incarnò l'equilibrio tra ragione e grazia, bellezza e dignità morale.]
 
 == I fratelli Verri
-#boxfl(bottom)[== *🧩* Casanova, l'ultimo libertino <senza_numero> 
+#boxfl(bottom)[== 🐺 Casanova, l'ultimo libertino <senza_numero> 
 
 Durante il Seicento, il libertinismo si era affermato come un fenomeno di laicismo estremo e di ribellione alle convenzioni sociali. Tuttavia, con l'Illuminismo, si radicalizza ulteriormente, assumendo tratti di un cinismo spietato e di una celebrazione volontaristica del controllo di sé sugli altri, spesso mascherata da un'esteriorità erotica. In questa prospettiva, l'opera del marchese Donatien-Alphonse-François de Sade (1740-1814) rappresenta un esempio paradigmatico. \ In Italia, il libertinismo appare meno originale: trae ispirazione dal modello cinquecentesco di Pietro Aretino e si manifesta principalmente attraverso figure di avventurieri. Tra questi emerge Giacomo Casanova (1725-1798) che, con la stesura dell'Histoire de ma vie (Storia della mia vita, 1790-98), offre l'esempio più rappresentativo del libertinismo italiano. Non si tratta di un'opera di ribellione ideologica, ma piuttosto di una sintesi tra una narrazione vivace e al tempo stesso glaciale, alimentata da curiosità, scherzi e racconti erotici ripetuti in modo ossessivo, quasi privi ormai di autentico desiderio, all'interno di una cornice morale fortemente influenzata da un nichilismo disincantato.]
 Il milanese Pietro Verri (1728-1797), insieme al fratello Alessandro, fu il fondatore dell'Accademia dei Pugni (1761), polo centrale dell'illuminismo lombardo. Da questa esperienza nacque nel 1764 la rivista _Il Caffè_, che rappresentò un punto nevralgico per le migliori riflessioni del riformismo illuminista italiano. Dopo la chiusura della rivista nel 1766, Verri intraprese un percorso nell'amministrazione pubblica austriaca, da cui venne però estromesso nel 1786 a causa di un irrimediabile conflitto con Giuseppe II.
@@ -51,10 +51,11 @@ Nel _Vespro_, l'autore riflette sui rapporti di falsa amicizia basati esclusivam
 
 L'ironia costante impiegata da Parini vivifica questa materia e crea un poema didascalico dai contenuti paradossali. Il precettore, fingendo di impartire insegnamenti utili al suo discepolo per perpetuare la propria vita frivola, demolisce spietatamente l'immagine che la classe nobiliare ha di sé stessa, mettendone in luce tutta la vanagloria e l'assurdità. La dilatazione dei tempi e dei gesti descritti contribuisce a evidenziare l'inconsistenza dei rituali e delle parole della nobiltà, provocando una potente reazione morale nel lettore.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / _Il Caffè_ e gli illuministi lombardi: Il motto "Cose e non parole" riflette l'approccio pratico e concreto del _Caffè_, simbolo degli illuministi lombardi che abbandonarono ogni residuo arcadico per promuovere una cultura impegnata nelle battaglie civili. Tra i principali protagonisti: Alessandro e Pietro Verri, autori delle _Osservazioni sulla tortura_ (1777), e Cesare Beccaria, noto per il trattato _Dei delitti e delle pene_ (1764).
 
 / Giuseppe Parini: Parini incarna il modello del poeta classicista, capace di armonizzare ragione e grazia, bellezza e dignità morale. La sua poetica si basa sull'equilibrio tra la compostezza classica e un profondo senso di responsabilità civile. Tra le opere principali figurano le _Odi_, raccolte in volume nel 1791, e alcune composizioni vicine al gusto neoclassico (_Il messaggio_, 1793; _A Nice_, 1793; _Alla Musa_, 1795). Il suo capolavoro è il poemetto storico _Il giorno_, composto da _Mattino_ (1763) e _Mezzogiorno_ (1765), mentre le ulteriori due sezioni, _Vespro_ e _Notte_, rimasero incompiute.
+
+]

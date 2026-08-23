@@ -21,10 +21,11 @@ Altrettanto importante è Iacopo Passavanti (1302-1357), cui si deve lo _Specchi
 
 Santa Caterina da Siena (1347-1380), terziaria domenicana e figura eminente della spiritualità cristiana del XIV secolo, si distinse per il suo straordinario impegno sociale e religioso. Pur inizialmente priva della capacità di scrivere, iniziò a dettare lettere di consolazione, incoraggiamento ed esortazione indirizzate a individui appartenenti a ogni ceto sociale, tra cui intellettuali, condottieri ed esponenti politici. Attraverso questa attività epistolare, Santa Caterina contribuì significativamente alla risoluzione di numerose controversie tra i Comuni e i partiti dell'epoca. Le sue 381 Lettere, composte tra il 1370 e il 1380 e rivolte a papi, re e persone comuni, si caratterizzano per un linguaggio al tempo stesso appassionato e diretto, arricchito da riferimenti biblici e da elementi propri del parlato locale. Di particolare valore letterario è anche il _Dialogo della divina Provvidenza_, dettato ai discepoli nel 1378, un'opera che si distingue per una maggiore raffinatezza stilistica.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Letteratura francescana:  La produzione letteraria francescana trova la sua massima espressione nei "Fioretti di San Francesco", scritti alla fine del Trecento. Questo testo rappresenta una perfetta sintesi della spiritualità tardo medievale, con un forte ancoraggio alla semplicità e al senso di devozione.
 
 / Letteratura domenicana:  Domenico Cavalca e Iacopo Passavanti emergono come i principali esponenti della predicazione di questo periodo, caratterizzata da una scrittura ricca e figurativa, ma al tempo stesso bilanciata sul piano linguistico. Santa Caterina da Siena, nelle sue Lettere, riesce a esprimere con chiarezza e intensità il desiderio di consolazione e la forza delle sue esortazioni spirituali.
+
+]

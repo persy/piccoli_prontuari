@@ -29,7 +29,7 @@ Molti poeti affiliati al movimento barocco, tra cui Rinaldi, Stigliani e lo stes
 
 Il significato dispregiativo del termine "barocco" fu messo in discussione alla fine del XIX secolo dallo storico dell'arte tedesco Heinrich Wölfflin, che attribuì a questo stile, in contrapposizione all'arte classicista, un valore positivo. Oggi il termine in genere possiede una valenza oggettiva e storica, indipendente da giudizi di valore universale. Quando non è utilizzato in senso figurato, dove conserva ancora un'accezione di esagerazione e artificiosità, tende a definire il gusto e lo stile di un'intera epoca.
 
-#boxfl(bottom)[== *🧩* Il barocco in Europa <senza_numero>
+#boxfl(bottom)[== 🐺 Il barocco in Europa <senza_numero>
 
 Il barocco in Europa trova la sua maggiore espressione nella Spagna, dove il XVII secolo, noto come il Secolo d'Oro, segna un periodo di grande fioritura culturale. In ambito teatrale spiccano le figure di Lope de Vega e Calderón de la Barca, mentre nella prosa il genere del romanzo picaresco, che trae origine con il _Lazarillo de Tormes_, raggiunge il suo apice nei capolavori di Francisco de Quevedo. Per quanto riguarda la poesia, emergono due distinte correnti estetiche: il "gongorismo", caratterizzato da raffinatezza e dottrina erudita, e il "concettismo", più orientato verso introspezione e sentimenti. Questi approcci restano in opposizione, accentuando una divergenza di stili che, invece, si armonizzavano nei componimenti di Luis de Góngora. L'opera poetica più rappresentativa del barocco spagnolo si ritrova nei versi di Juana Inés de la Cruz.
 
@@ -119,8 +119,7 @@ Il genovese Anton Giulio Brignole Sale (1605-1665), nella raccolta _Instabilità
 
 Il pugliese Giuseppe Battista (1610-1675) si distingue per una notevole esuberanza immaginativa, mentre i napoletani Federico Meninni (1636-1712) e soprattutto Giovanni Lubrano (1619-1693) incarnano pienamente il cosiddetto "secentismo del secentismo". Anche il siciliano Giuseppe Artale (1628-1679), nella sua _Enciclopedia poetica_ (1679), esemplifica i tratti più enfatici e quasi ossessionanti della lezione barocca.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Barocco: L'etimologia del termine "barocco" sembra derivare dalla combinazione del sostantivo "baroco", impiegato nella filosofia scolastica per designare un sillogismo paradossale, e del portoghese "barroco", che indica una perla irregolare e dall'aspetto inusuale.  \ L'epoca barocca si caratterizza per l'artificio, l'"acutezza", il preziosismo e il "concettismo". In questo contesto, il virtuosismo estetico diviene fonte di "meraviglia" e piacere, generando una continua simulazione tra arte e natura.  
@@ -128,3 +127,5 @@ Il pugliese Giuseppe Battista (1610-1675) si distingue per una notevole esuberan
 / Marino: Figura centrale di questa stagione culturale, Giovan Battista Marino è noto per La lira (1608-14), celebre raccolta lirica ricca di sonorità e invenzioni; La galeria (1619), una rassegna di opere d'arte contemporanea; e il suo capolavoro, l'Adone (1623), un vastissimo intreccio di immagini e metafore che si configura come una "fabbrica delle meraviglie". Il suo stile riflette un ellenismo reinterpretato in chiave personale e autenticamente italiana.  
 
 / Lirica concettista: Marino rappresenta il punto di riferimento fondamentale. Il concetto, inteso come fulminea illuminazione mentale capace di suscitare meraviglia, assume un ruolo centrale. Le parole, cariche di visionarietà e creatività, acquistano così profondità e verità. Tra gli autori più rilevanti figurano Stigliani, Achillini e Ciro di Pers.
+
+]

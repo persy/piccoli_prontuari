@@ -35,8 +35,7 @@ Il salernitano Alfonso Gatto (1909-1976) inaugurò nel 1938, insieme a Vasco Pra
 
 Leonardo Sinisgalli (1908-1981), originario della Lucania e di professione ingegnere elettrotecnico, fondò a Milano la rivista _Civiltà delle macchine_. Le sue prime prove poetiche, raccolte in _18 poesie_ (1936) e _Campi elisi_ (1939), furono promosse dall'amico Giuseppe Ungaretti e si inseriscono nell'orbita della poesia ermetica, esprimendo un senso ossessivo legato al ricordo dell'infanzia trascorsa nella sua terra natale. Con il passare del tempo, però, la produzione lirica di Sinisgalli assunse toni più realistici e razionali, come testimoniano raccolte quali _La vigna vecchia_ (1956), _L'età della luna_ (1962), _Paese lucano_ (1962), _Il passero e il lebbroso_ (1970) e _Mosche in bottiglia_ (1975). All'interno della sua produzione narrativa spicca il volume di racconti di ambientazione lucana intitolato _Belliboschi_ (1948).
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Ermetismo: L'ermetismo è una corrente letteraria degli anni '30 che abbandona la comunicazione diretta e semplice per esprimere la complessità del legame tra realtà e poesia attraverso un linguaggio analogico e profondo.  
@@ -46,3 +45,5 @@ Leonardo Sinisgalli (1908-1981), originario della Lucania e di professione ingeg
 / Gatto: La poesia di Alfonso Gatto (1908-1981) si contraddistingue per un linguaggio ermetico intriso di forza evocativa. Tra le sue raccolte più significative vi sono _Isola_ (1932) e _La forza degli occhi_ (1954).  
 
 / Sinisgalli: Leonardo Sinisgalli (1908-1981) integra l'esperienza ermetica con una poetica più razionale e radicata nei ricordi ossessivi della sua terra d'origine, la Lucania. Le sue raccolte principali includono _Campi elisi_ (1939) e _L'età della luna_ (1962).  
+
+]

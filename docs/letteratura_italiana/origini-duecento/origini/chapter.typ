@@ -12,7 +12,7 @@ Le origini del volgare italiano e il suo sviluppo furono influenzate dal manteni
 Il latino volgare si trasformò progressivamente nelle lingue neolatine, tra cui l'italiano. I primi documenti scritti in volgare italiano comprendono l'_Indovinello veronese_ (VIII-IX secolo), scoperto nel 1924 presso la biblioteca capitolare di Verona; i _Placiti campani_ (960-963), testimonianze giuridiche inserite in verbali notarili redatti in latino; l'_Iscrizione di San Clemente_ (XI secolo) e il _Ritmo di Travale_ (1158). 
 
 Le prime opere letterarie prodotte nel volgare italiano includono il _Ritmo laurenziano_, un testo giullaresco risalente al 1151-1157, il _Ritmo cassinese_ e il _Ritmo di Sant'Alessio_ verso la fine del XII secolo. Il _Cantico di Frate Sole_ (o _Cantico delle creature_) di san Francesco d'Assisi, composto intorno al 1225, sarà tuttavia l'opera più straordinaria tra queste produzioni iniziali.
-#boxfl(top)[== *🧩* La produzione letteraria in latino <senza_numero>
+#boxfl(top)[== 🐺 La produzione letteraria in latino <senza_numero>
 
 Con l'annessione del dominio longobardo da parte di Carlo Magno nel 774 e la rifondazione della presenza imperiale con la creazione del Sacro Romano Impero nell'800, il panorama della produzione letteraria nel territorio italiano si configurava prevalentemente in lingua latina. Tale produzione era caratterizzata da scritti di natura teologica o storico-cronachistica, come la _Historia Langobardorum_ di Paolo Diacono, redatta intorno al 787, e, successivamente, il _Liber de gestibus Othonis_ di Liutprando di Cremona, cronista vissuto tra il 920 e il 972. I principali centri sia di elaborazione che di conservazione di questa cultura letteraria erano i monasteri, luoghi fondamentali per lo sviluppo intellettuale del tempo.
 
@@ -57,8 +57,7 @@ Altri autori legati alla scuola siciliana includono Rinaldo d'Aquino, Giacomino 
 
 Tra i nomi associati alla scuola siciliana figura tradizionalmente anche Cielo d'Alcamo (probabilmente una forma toscanizzata del diminutivo siciliano "Celi", derivante da Michele). Egli è l'autore del celebre contrasto Rosa fresca aulentissima, un dialogo tra una donna inizialmente ritrosa e il suo innamorato. Quest'opera combina riferimenti stilistici alla tradizione provenzale – come la pastorella e il contrasto – con elementi della cultura popolare e dialettale, alternando immagini e termini delle tradizioni auliche e cortesi a quelli della tradizione vernacolare.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Origini:  La letteratura italiana ha tardato a svilupparsi, principalmente a causa della persistenza del latino come lingua erudita. Durante questo periodo, la produzione culturale era generalmente legata a tematiche teologiche, storiche-cronachistiche o epico-storiche, in contesti altamente formali e aristocratici.
@@ -73,3 +72,4 @@ Tra i nomi associati alla scuola siciliana figura tradizionalmente anche Cielo d
 
 / Temi:  Questa fase della letteratura italiana si concentra principalmente sull'amore cortese e trovadorico, accompagnato dalla contemplazione della bellezza femminile. Attraverso un linguaggio elegante e raffinato, si costruisce una ricercata immagine idealizzata della donna.
 
+]

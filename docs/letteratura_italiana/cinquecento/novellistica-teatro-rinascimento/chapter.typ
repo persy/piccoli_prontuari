@@ -73,8 +73,7 @@ Nel dialogo _Il castellano_ (1529), affrontò il problema linguistico promuovend
 
 Le sue opere teatrali furono l'applicazione più evidente di tali principi: la commedia _I simillimi_ (1548), ispirata ad Aristofane e Plauto, e soprattutto la _Sofonisba_ (1524), considerata la prima tragedia "regolare" in lingua italiana, scritta in endecasillabi sciolti e modellata sui canoni della tragedia greca. Compose anche la raccolta di _Rime volgari_ (1529), notevole per le sperimentazioni metriche, e l'epopea _L'Italia liberata dai Goti_ (1547-1548).
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Novelle: Si osserva il proseguimento dell'influenza del Boccaccio. Il principale rappresentante di questo genere è Matteo Bandello (1485-1561), autore di novelle che non sono organizzate secondo una struttura narrativa generale né seguono un preciso ordine tematico. Le sue opere spaziano tra una vasta gamma di registri e temi, includendo il tragico, il grottesco, il comico, il farsesco, l'osceno e il patetico. Prevale tuttavia una certa inclinazione verso il genere erotico e le storie di "amori sfortunati".  
@@ -82,3 +81,5 @@ Le sue opere teatrali furono l'applicazione più evidente di tali principi: la c
 / Commedia: Questo genere riprende motivi classici e popolari già presenti nel Decameron. Tra gli autori principali figurano Bernardo Dovizi da Bibbiena (1470-1520), con la sua opera _Calandria_ (1513), e Angelo Beolco, detto Ruzante (1496-1542). Nei testi di Ruzante, come _Betìa_ (1524-25), _Bilora_ (1529) e _Moscheta_ (1529), la rappresentazione del mondo contadino avviene senza filtri estetici o idealizzazioni letterarie, evitando patetismi e stereotipi caricaturali. Predomina una rappresentazione grottesca e dolorosa della realtà, che porta lo spettatore a percepire con maggiore intensità la tragicità degli eventi narrati. Il linguaggio impiegato, basato sui dialetti padovano e bergamasco, è intriso di comicità e contribuisce al carattere innovativo delle opere.  
 
 / Tragedia classicistica: Questo genere segue i principi stabiliti nella _Poetica_ di Aristotele, in particolare le unità di tempo, luogo e azione. Gian Giorgio Trissino (1478-1550), autore della prima tragedia "regolare", _Sofonisba_ (1524), impresse al teatro una svolta strutturale rispettando tali norme. Trissino si distinse inoltre per il contributo alla discussione linguistica, promuovendo un idioma comune in contrapposizione all'egemonia fiorentina, come dimostrato nel suo trattato _Il castellano_ (1529).  
+
+]

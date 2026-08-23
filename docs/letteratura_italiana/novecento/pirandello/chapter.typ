@@ -53,8 +53,7 @@ Un esempio emblematico di questa concezione è il dramma _Sei personaggi in cerc
 
 Con la sua vasta produzione teatrale e narrativa, Luigi Pirandello rappresenta una delle voci più eminenti della cultura italiana del Novecento e, indubbiamente, uno degli autori italiani più conosciuti a livello internazionale. Portavoce della crisi esistenziale dell'uomo moderno, tanto nel rapporto con la propria identità quanto nella relazione con gli altri, egli ha offerto un contributo determinante all'evoluzione del romanzo novecentesco, scardinando i modelli tradizionali del verismo. Ugualmente rilevante è il ruolo che Pirandello ha rivestito nel rinnovamento del teatro tradizionale, come testimonia la sua perdurante fortuna in ambito mondiale.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Luigi Pirandello (1867-1936), originario di Agrigento, si laurea in Germania e si trasferisce a Roma, dove dal 1897 insegna alla facoltà di Magistero. Dopo un dissesto economico e i problemi mentali della moglie, si dedica intensamente alla scrittura. Nel 1924 aderisce al fascismo e nel 1925 fonda il Teatro d'Arte, dando vita a una compagnia propria. È nominato Accademico d'Italia nel 1929 e insignito del premio Nobel per la letteratura nel 1934.
@@ -64,3 +63,4 @@ Con la sua vasta produzione teatrale e narrativa, Luigi Pirandello rappresenta u
 / Teatro: Tra le sue opere teatrali più celebri si annoverano _Pensaci Giacomino_ (1916), _Liolà_ (1916), _Così è (se vi pare)_ (1917), _Il berretto a sonagli_ (1917), _Il piacere dell'onestà_ (1917), _Il gioco delle parti_ (1918), _Sei personaggi in cerca d'autore_ (1921) e _Questa sera si recita a soggetto_ (1930).
 
 / Giudizio critico: Pirandello rivoluziona profondamente la letteratura, particolarmente il teatro. Partendo dal naturalismo, giunge a una tecnica narrativa che alterna frammentazione e ironia, introducendo una visione policentrica e relativistica, lontana dai canoni monolitici e ottocenteschi. Il suo intento è svelare la duplicità comica e tragica dell'esistenza, descrivendo il contrasto tra apparenza e realtà. In quest'opera di decostruzione, il romanticismo dell'uomo cede il passo a una coscienza moderna e paradossale, che incarna perfettamente l'essenza dell'uomo del Novecento.
+]

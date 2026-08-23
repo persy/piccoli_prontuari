@@ -33,8 +33,9 @@ Alla trama principale si intrecciano continuamente racconti secondari proposti d
 
 Sul piano critico, l'_Orlando furioso_ è lodato per la profonda ironia con cui Ariosto riesce a conciliare armoniosamente le contraddizioni umane, offrendo una superiore contemplazione della natura stessa dell'uomo. Amato dai contemporanei, il poema ha raccolto ampi consensi nei secoli successivi. Benedetto Croce ha evidenziato come Ariosto sia riuscito a rappresentare con serenità i contrasti del mondo, mentre Italo Calvino ha descritto l'opera come uno straordinario gioco combinatorio di percorsi e destini intrecciati che riflettono l'incessante movimento della vita umana.
 
-#pagebreak()
-#set page(fill: accent.ita.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Ludovico Ariosto: Ludovico Ariosto (1474-1533), nato a Reggio Emilia, si trasferì a Ferrara per proseguire gli studi. Prestò servizio come funzionario politico e diplomatico presso la corte degli Estensi, organizzando anche spettacoli teatrali. \ Tra le sue opere minori spiccano quattro commedie: _La Cassaria_ (1508) e _I Suppositi_ (1509), entrambe ispirate al modello novellistico di Boccaccio, si distinguono per l'attenzione alle dinamiche umane e sociali; _Il Negromante_ (1520) risulta più complessa nella struttura; _La Lena_ (1528) è considerata la più riuscita. Le _Satire_ (1517-1524), scritte in terzine e ispirate alle epistole di Orazio, sono tra le vette dell'arte poetica di Ariosto. \ La sua opera maggiore, _Orlando furioso_, è un poema epico-cavalleresco strutturato in 46 canti in ottava rima. Il testo si articola su tre piani: l'azione epica, centrata sulla guerra tra cristiani e saraceni; l'azione sentimentale, focalizzata sulla tormentata ricerca di Angelica da parte di Orlando; e l'azione celebrativa, che esplora la travagliata relazione amorosa tra Ruggiero e Bradamante. \ Ariosto adotta una lingua equilibrata e uniforme, vicina al fiorentino letterario, evitando marcati influssi regionalistici. La sua grandezza risiede nella capacità di armonizzare le contraddizioni umane con ironia e distacco.
+
+]
