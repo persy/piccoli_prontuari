@@ -44,8 +44,7 @@ Nato a Samo tra il VI e il V secolo a.C., Melisso fu l'ultimo esponente e sistem
 Melisso corregge la visione parmenidea della finitudine dell'essere, che implicava inconsapevolmente l'esistenza del non-essere o del vuoto come limite, affermandone invece l'infinitudine e l'assoluta unicità. In virtù della proclamata unità e infinità, nega la divisibilità dell'essere e la sua corporeità, poiché essere corpo significherebbe avere parti e confini. Non intende però sostenere la spiritualità dell'essere, ma piuttosto ricavare le implicazioni necessarie dalle premesse teoriche assunte.
 
 Come Zenone, Melisso elimina la via dell'opinione plausibile individuata da Parmenide sulla base dei sensi e riduce la conoscenza alla strada dell'assoluta verità. Egli si sforza di delineare una concezione positiva dell'essere, laddove Parmenide si era concentrato principalmente su ciò che l'essere non può essere.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Senofane: Senofane sviluppa una critica razionalistica nei confronti dell'antropomorfismo attribuito agli dèi, proponendo una visione nella quale Dio viene identificato con il cosmo e caratterizzato da elementi quali l'unità, la superiorità rispetto agli altri dèi, l'onniscienza e l'onnipotenza. Parallelamente, egli presenta una dottrina fisica che individua nella Terra il principio fondante, definito come arché. Inoltre, Senofane formula principi etici che esaltano la centralità della dimensione interiore e intellettuale dell'uomo.
@@ -68,3 +67,4 @@ Come Zenone, Melisso elimina la via dell'opinione plausibile individuata da Parm
 
 / Melisso: Melisso approfondisce la riflessione sull'eterna natura dell'essere, esprimendo tale caratteristica attraverso la formula della durata infinita: "sempre era e sempre sarà".
 
+]

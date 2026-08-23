@@ -34,8 +34,7 @@ Il panorama riflesso nelle arti figurative, nella letteratura e negli ideali edu
 La letteratura, invece, fatica a raggiungere un risultato altrettanto maturo, poiché ostacolata dal divario tra il predominio culturale della lingua latina, considerata il riferimento per i modelli letterari, e l'affermazione del volgare come lingua principale dell'espressione artistica. 
 
 La pratica del mecenatismo svolge un ruolo cruciale nella circolazione degli intellettuali e degli artisti all'interno delle diverse città della penisola italiana. Il mecenate non si limita ad essere un benevolo protettore della cultura, ma assume anche la funzione di pianificatore strategico degli investimenti nel campo delle lettere, delle arti e dell'architettura urbana, contribuendo a materializzare i valori dell'umanesimo.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Il rapporto tra Medioevo e Rinascimento: L'epoca umanistica e rinascimentale, a lungo concepita come una rottura netta rispetto al Medioevo, viene oggi interpretata come una fase di transizione verso l'età moderna.
@@ -54,9 +53,4 @@ La pratica del mecenatismo svolge un ruolo cruciale nella circolazione degli int
 
 / Il mecenatismo: Il fenomeno del mecenatismo favorisce la mobilità di intellettuali e artisti, rendendo possibile la diffusione dei loro lavori e idee attraverso le corti e altri contesti culturali.
 
-
-
-
-
-
-
+]

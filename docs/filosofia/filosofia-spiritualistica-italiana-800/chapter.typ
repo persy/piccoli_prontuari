@@ -55,8 +55,7 @@ Il sacerdote e uomo di Stato piemontese Vincenzo Gioberti (nato a Torino nel 180
 Con _Rinnovamento d'Italia_ (1851), la sua posizione evolve verso un orientamento più laico e liberale. Qui, Gioberti trasferisce il ruolo guida nel processo di indipendenza e unificazione nazionale dal Papa al Regno di Sardegna, considerato lo Stato più moderno, efficiente e organizzato rispetto al resto della Penisola, in particolare allo Stato della Chiesa.
 
 In ambito filosofico, le sue principali opere includono _Teorica del sovrannaturale_ (1838), _Introduzione allo studio della filosofia_ (1840) e _Degli errori filosofici di A. Rosmini_ (1841-43). In questi scritti, Gioberti definisce un rigoroso ontologismo, volto a fondare una filosofia oggettiva, distante dal soggettivismo e dallo psicologismo che egli riteneva caratterizzare negativamente la filosofia moderna. Per Gioberti, i fondamenti della filosofia risiedono in un'intuizione originaria di Dio, definito l'"Ente reale" che "crea l'esistente", una formulazione metafisica che trova il suo riflesso etico nell'idea che "l'esistente ritorna all'Ente".
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Galluppi e la filosofia dell'esperienza: Galluppi sviluppa una filosofia dell'esperienza come pilastro dell'oggettività del sapere. L'esperienza interna, ovvero la coscienza, testimonia verità immediatamente evidenti, come l'esistenza del sé e della realtà esterna. Inoltre, dimostra l'esistenza di Dio basandosi sulle idee oggettive di sostanza e causa.
@@ -81,5 +80,5 @@ In ambito filosofico, le sue principali opere includono _Teorica del sovrannatur
 
 / L'ontologismo: Nell'ambito della filosofia, Gioberti articola un rigoroso ontologismo allo scopo di fondare una filosofia oggettiva. I principi fondamentali del pensiero sono radicati in un'intuizione originaria di Dio.
 
-
+]
 

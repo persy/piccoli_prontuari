@@ -82,8 +82,7 @@ Il sacerdote Roberto Ardigò (Casteldidone, Cremona, 1828 - Mantova, 1920) nel 1
 Rielabora l'evoluzionismo di Spencer, distinguendosene per il fatto che rifiuta la nozione di un incondizionato inconoscibile, che interpreta invece come una forma di conoscenza ancora indefinita. Nel suo testo Psicologia come scienza positiva (1870) sottolinea l'importanza del fatto concreto, sottraendolo al determinismo con la dottrina del "caso", secondo cui sia gli eventi naturali che le azioni umane sono imprevedibili e indeterminati.
 
 Nella sua opera La morale dei positivisti (1885), in polemica con lo spiritualismo e il razionalismo, promuove l'ideale sociale come miglior garanzia per la morale. Infine, ne La scienza dell'educazione (1893) interpreta l'educazione come principio fondamentale dello sviluppo dell'individuo.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / L'orientamento positivista e la centralità della scienza: Il positivismo si fonda sull'imperativo di attenersi ai dati empirici e sull'elevazione della scienza a unica forma di conoscenza capace di analizzare, quantificare e dominare la realtà. Secondo tale visione, l'universo è governato da leggi precise che conferiscono coerenza e regolarità al mondo, le quali sono oggetto di studio delle discipline scientifiche. Qualsiasi forma di sapere che si basi su spiegazioni non verificabili attraverso metodi scientifici, come la metafisica e la religione, viene considerata priva di valore e sottoposta a un'analisi critica di carattere razionale.
@@ -102,3 +101,4 @@ Nella sua opera La morale dei positivisti (1885), in polemica con lo spiritualis
 
 / Roberto Ardigò: Riprendendo alcuni concetti di Spencer, Ardigò si distacca dall'idea dell'incondizionato inconoscibile, avanzando una prospettiva epistemica basata sul riconoscimento del valore intrinseco dei fatti reali. Inoltre, promuove un ideale sociale che considera la garanzia più solida per il raggiungimento di obiettivi morali e civili condivisi.
 
+]

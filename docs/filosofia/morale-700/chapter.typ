@@ -52,8 +52,7 @@ Il principio di utilità, noto successivamente come "principio della massima fel
 L'opera postuma _Deontologia o scienza della moralità_ (1834) si occupa di sviluppare un'etica di tipo deontologico distinta dal diritto, concentrandosi sulle sfere della vita privata. L'obiettivo finale di questa disciplina rimane analogo a quello della scienza della legislazione: favorire comportamenti capaci di generare la massima felicità collettiva.
 
 La differenza sta nel metodo. Se la legislazione agisce sugli interessi privati attraverso la minaccia delle punizioni giuridiche, la deontologia cerca di stimolare motivazioni fondate sull'interesse personale senza necessità di coercizione.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Shaftesbury: Shaftesbury afferma l'autonomia della morale rispetto alla religione, individuando il fondamento dell'etica nell'esistenza di un senso o gusto morale innato. Secondo la sua prospettiva, la virtù non è derivabile dalla rivelazione divina, poiché l'essere umano è naturalmente incline al comportamento virtuoso. In opposizione al pessimismo antropologico di Hobbes, Shaftesbury sostiene che gli individui possiedono una predisposizione naturale a convivere in società.
@@ -72,5 +71,5 @@ La differenza sta nel metodo. Se la legislazione agisce sugli interessi privati 
 
   / L'utilitarismo: Alla base dell'utilitarismo si trova il principio di utilità, secondo il quale la morale può essere interpretata come un processo razionale di calcolo tra piacere e dolore.
 
-
+]
 

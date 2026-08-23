@@ -98,8 +98,7 @@ Herbert Marcuse è un altro importante pensatore della Scuola di Francoforte. Na
 In seguito, con _Eros e civiltà_ (1955), Marcuse si avvicina alla psicoanalisi per comprendere le cause della "repressione" nell'uomo moderno. Alla dialettica tra "principio del piacere" e "principio di realtà" identificata da Freud, aggiunge il "principio della prestazione", peculiare alla società capitalistica, che esige dall'individuo il massimo impegno nell'attività lavorativa. Secondo Marcuse, una nuova società e una cultura non repressiva potrebbero emergere solo attraverso un recupero della dimensione sensitivo-corporea ed estetica dell'essere umano. 
 
 La critica radicale alla società contemporanea viene ulteriormente approfondita nel saggio _L'uomo a una dimensione_ (1964), dove descrive la civiltà industriale avanzata come una forma di autoritarismo mascherato. In questa realtà tutto sembra possibile e a tutti sembra garantita libertà assoluta, ma essa risulta svuotata di un reale contenuto, dando origine a quella che definisce "tolleranza repressiva".
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Il revisionismo: Bernstein si oppone alla previsione marxiana del crollo del sistema capitalistico, proponendo una strategia di riforma sociale non rivoluzionaria, nota come revisionismo.
@@ -136,3 +135,4 @@ La critica radicale alla società contemporanea viene ulteriormente approfondita
 
 / _L'uomo a una dimensione_: Nel suo scritto _L'uomo a una dimensione_, Marcuse analizza le peculiarità della civiltà industriale avanzata, identificandone il carattere distintivo in una forma di autoritarismo mascherato da libertà apparente. In tale sistema sociale, agli individui sembra essere garantita la possibilità di scegliere e di esprimersi pienamente, ma in realtà questa libertà è svuotata di significato autentico, ridotta a un semplice meccanismo di integrazione e controllo. Marcuse definisce questa condizione come "tolleranza repressiva", concettualizzando la privazione della capacità critica e della consapevolezza individuale sotto l'apparenza di pluralismo e apertura.
 
+]

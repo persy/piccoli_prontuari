@@ -84,8 +84,7 @@ In una fase successiva lo scetticismo prende forma all'interno dell'Accademia pl
 Arcesilao critica il principio della rappresentazione catalettica elaborato dagli stoici, ritenendo che non sia possibile affermare o negare nulla in modo definitivo riguardo alle cose. Egli propone anche una dottrina del "ragionevole", che si basa su un istinto naturale capace di orientare l'uomo nell'azione pratica.
 
 Carneade, dal canto suo, attacca le certezze dogmatiche degli stoici ammettendo però la possibilità di una rappresentazione persuasiva come criterio di probabilità o verosimiglianza. Questo strumento può fungere da guida per l'agire senza cadere nel dogmatismo proprio del saggio stoico.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Le filosofie ellenistiche: Con il declino della _pólis_ e l'ascesa dell'impero di Alessandro Magno, l'uomo greco perde la sua identificazione come cittadino per diventare un individuo alla ricerca di una felicità interiore. Le filosofie ellenistiche emergono con l'intento di fornire risposte pratiche a questa nuova esigenza.
@@ -118,4 +117,4 @@ Carneade, dal canto suo, attacca le certezze dogmatiche degli stoici ammettendo 
 
 / Scetticismo accademico: In una seconda fase, lo scetticismo si evolve nella tradizione dell'Accademia platonica con Arcesilao di Pitane e Carneade. Questa corrente si oppone principalmente allo stoicismo, giudicato dogmatico nelle sue posizioni filosofiche.
 
-
+]

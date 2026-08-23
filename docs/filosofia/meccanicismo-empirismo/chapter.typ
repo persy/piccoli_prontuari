@@ -94,8 +94,7 @@ Per quanto riguarda l'etica, le passioni e le azioni volitive non derivano da un
 Attraverso tale approccio, Hume riesce a correggere l'accentuazione eccessiva del tema dell'egoismo proposta da Hobbes, riportando al centro il valore della "simpatia". Questo sentimento naturale favorisce la condivisione delle passioni altrui e supera gli interessi egoistici basati sul sentimento individuale attraverso un "generoso interesse per il bene comune dell'umanità".
 
 Lo stesso metodo empirico ispira l'atteggiamento di Hume nei confronti della religione. In questo campo propone di ricercare nella natura umana il fondamento psicologico delle credenze religiose, che non possono essere giustificate razionalmente sebbene siano stati fatti tentativi in ambito teologico. Alla base del fenomeno religioso sembra esserci piuttosto il sentimento di paura dinanzi all'ignoto della natura e del mondo.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Hobbes: Hobbes considera il corpo materiale ed esteso come l'oggetto della "filosofia prima", interpretando l'idea come l'effetto finale di una serie di azioni meccaniche, generate dal movimento dei corpi.
@@ -134,5 +133,5 @@ Lo stesso metodo empirico ispira l'atteggiamento di Hume nei confronti della rel
 
 / Il fondamento del fenomeno religioso: Il sentimento di paura di fronte alla natura sconosciuta rappresenta il fondamento psicologico del fenomeno religioso. Nonostante gli sforzi della teologia razionale, esso non può essere ricondotto alle evidenze della ragione.
 
-
+]
 

@@ -54,8 +54,7 @@ Giovanni Pico della Mirandola (Mirandola, 1463 - Firenze, 1494) si trasferisce a
 Nella raccolta intitolata _Conclusioni filosofiche, cabalistiche e teologiche_ (1486), presenta un insieme ampio e articolato di tesi teoriche e storiche che derivano dal confronto con diversi filoni di pensiero. Tra queste si annoverano influenze dalla filosofia antica, dalla cabbalà ebraica, descritta come corrente mistica fondata anche su tecniche simboliche di interpretazione delle parole bibliche, dal Corano e dagli Oracoli caldaici, che rimandano alla sapienza babilonese e si avvicinano alle dottrine contenute nel _Corpo ermetico_. Concepite come base per un dibattito ecumenico tra eruditi da tenersi a Roma, le _Conclusioni_ furono tuttavia sottoposte a condanna nel 1487 sotto il pontificato di Innocenzo VIII. 
 
 Nella sua celebre orazione _De dignitate hominis_ (La dignità dell'uomo), Pico celebra il valore intrinseco della libertà umana, ponendo l'uomo al centro della realtà creata da Dio. In questo ruolo centrale, l'essere umano manifesta la capacità di autodeterminarsi, di contemplare l'universo e persino di influenzarlo mediante la pratica della magia. In tal modo, l'individuo si dimostra superiore perfino agli angeli, poiché questi ultimi rimangono vincolati ai livelli della gerarchia cosmica degli esseri.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / L'aristotelismo: L'aristotelismo rappresenta la corrente filosofica preminente durante il Rinascimento, con particolare rilievo per le interpretazioni alessandrine e averroiste. Queste tendenze si concentrano principalmente su questioni di natura logico-gnoseologica e fisica.
@@ -73,3 +72,5 @@ Nella sua celebre orazione _De dignitate hominis_ (La dignità dell'uomo), Pico 
 / Ficino e l'anima come "_copula mundi_": Marsilio Ficino sviluppa il concetto di una gerarchia universale di perfezioni, dove l'anima occupa un ruolo centrale e rappresenta il simbolo stesso del valore dell'uomo. Considerata come copula mundi, il legame che interconnette l'intera realtà, l'anima diventa microcosmo che riflette l'universale. Ficino pone il platonismo alla base di una teologia razionale compatibile con le verità cristiane.
 
 / Pico della Mirandola: Giovanni Pico della Mirandola propone un progetto di riconciliazione fra cristianesimo, ebraismo e islamismo nelle Conclusioni filosofiche, cabalistiche e teologiche. Nella celebre orazione _De dignitate hominis_ esalta la libertà dell'uomo: collocato da Dio al centro dell'universo, egli possiede il potere di decidere autonomamente il proprio destino, dimostrando con ciò una superiorità persino rispetto agli angeli.
+
+]

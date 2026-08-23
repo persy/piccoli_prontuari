@@ -67,8 +67,7 @@ Il realismo moderato, invece, elaborato da Boezio e sostenuto anche da Tommaso d
 Il nominalismo estremo, generalmente attribuito a Roscellino di Compiègne (1050-1120), rifiuta ogni forma di esistenza dell'universale, sia nelle cose sia nella mente umana. Gli universali non sono altro che un "flatus vocis", una semplice emissione vocale priva di alcuna corrispondenza nella realtà. Al contrario, il nominalismo moderato, meglio noto come "concettualismo", attribuisce agli universali un'esistenza limitata alla sfera mentale. Non trovano corrispettivi nelle cose, ma funzionano solo come strumenti del pensiero umano.
 
 Per Abelardo, gli universali si configurano come segni mentali o "sermones" (discorsi, parole), ovvero termini dotati di significato. In questa prospettiva, l'universale non è altro che un nome che designa un'immagine mentale confusa, estratta dal pensiero grazie alla comparazione fra una pluralità di individui con natura simile. Gugliemo di Ockham spinge ulteriormente questa interpretazione, identificando l'universale con l'atto stesso con cui la nostra mente coglie la realtà.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Severino Boezio: Severino Boezio, nel suo _De consolatione philosophiae_, si dedica non solo a tradurre e commentare i testi logici di Aristotele e Porfirio, ma anche a garantire la continuità tra il pensiero antico e quello medievale. Nelle sue riflessioni logiche, affronta in modo articolato la questione degli universali, sostenendo una posizione di realismo moderato.
@@ -92,6 +91,6 @@ Per Abelardo, gli universali si configurano come segni mentali o "sermones" (dis
 
 / La disputa sugli universali: La questione degli universali, ovvero la natura dei concetti generali, costituisce uno dei temi più centrali del pensiero medievale. Essa interroga il rapporto tra pensiero, linguaggio e realtà. I filosofi medievali si confrontano principalmente su due grandi quesiti: gli universali esistono unicamente come idee nella mente o hanno anche una realtà oggettiva? E in quest'ultimo caso, esistono separatamente dalle cose oppure immanenti ad esse?
 
-
+]
 
 

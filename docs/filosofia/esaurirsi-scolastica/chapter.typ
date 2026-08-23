@@ -84,8 +84,7 @@ Principale pensatore politico del suo tempo (1275 - circa 1343), Marsilio da Pad
 Convinto che la pace – quale scopo essenziale dello Stato – fosse minacciata in quel periodo storico dalle pretese teocratiche del papa, Marsilio sostiene che la pace e la partecipazione nello Stato siano strettamente connesse, così come nell'organismo vivente benessere e armonia delle funzioni sono inseparabili. 
 
 Essendo tutti membri di una comunità terrena, anche i sacerdoti devono essere subordinati allo Stato, del quale la comunità dei fedeli forma parte integrante. Secondo Marsilio, il potere supremo di istituire i governanti e di approvare le leggi appartiene al popolo, che delega tale autorità a rappresentanti incaricati di garantire un ordine stabile e pacifico. La Chiesa, pur essendo sottoposta alle regole dello Stato per questioni di convivenza civile, resta subordinata unicamente a Dio per il compito di guida morale.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / I maestri di Oxford: Gli studiosi di Oxford adottano un approccio scientifico-empirista, difendendo la completa indipendenza della fede dalla ragione.
@@ -122,5 +121,5 @@ Essendo tutti membri di una comunità terrena, anche i sacerdoti devono essere s
 
 / La posizione della Chiesa: La Chiesa, pur rispettando le leggi dello Stato per le norme di convivenza civile, resta autonoma in materia morale, riconoscendo esclusivamente l'autorità divina.  
 
-
+]
 

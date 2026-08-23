@@ -55,8 +55,7 @@ I principi fisici elaborati da Eraclito definiscono anche i fondamenti della sua
 La verità, secondo Eraclito, non può essere raggiunta tramite l'esperienza sensoriale né attraverso un'indagine diretta della natura, come praticavano i filosofi della scuola di Mileto. Essa richiede piuttosto uno "sguardo" intellettuale: una riflessione razionale che incarna il _lógos_ come pensiero e discorso. Questo _lógos_ è eterno e validamente universale, indipendentemente dal soggetto conoscente.
 
 Dalla concezione eraclitea dell'_arché_-fuoco si sviluppano anche riflessioni di ambito psicologico. Per Eraclito l'anima è di natura ignea e intrinsecamente dotata di _lógos_, ovvero ragione. Da questi presupposti psicologici emerge quindi un'etica centrata sull'idea che l'agire umano debba essere regolato dal _lógos_ e dal _nómos_ (legge), i quali rappresentano la guida razionale verso la giusta misura e costituiscono l'unico criterio valido per orientare il comportamento.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Il problema cosmologico: La filosofia nasce come un'indagine razionale sul mondo naturale. Nei presocratici, infatti, il pensiero è dominato dal problema cosmologico, ovvero dalla ricerca di un'unità che vada oltre l'apparente molteplicità dei fenomeni, individuandone il fondamento e l'origine.
@@ -73,3 +72,4 @@ Dalla concezione eraclitea dell'_arché_-fuoco si sviluppano anche riflessioni d
 
 / Eraclito: Eraclito riprende la riflessione dei suoi predecessori ampliandola con una visione dinamica della natura, sintetizzata nella celebre espressione "tutto scorre" (_pánta rêi_). La sua filosofia attribuisce al continuo cambiamento della natura un ordine regolato dalla legge dei contrari: ogni realtà si trasforma nel suo opposto e, a un livello superiore, questi opposti trovano un'armonia. Per Eraclito l'arché dell'universo è il fuoco, simbolo del dinamismo incessante e della trasformazione perpetua. Inoltre, il fuoco è associato al _lógos_, una forma di intelligenza universale che governa il cosmo e di cui anche l'anima umana prende parte.
 
+]

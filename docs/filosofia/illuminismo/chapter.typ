@@ -60,8 +60,7 @@ Rousseau non auspica un ritorno allo stato di natura, considerato come uno stadi
 Nell'Emilio, Rousseau esplora compiutamente l'espressione dell'essere umano attraverso l'unità dialettica tra volontà e ragione, declinata nella vita morale che si fonda su una religione naturale e razionale. Tale religione non scaturisce da rivelazioni divine ma rappresenta l'espressione della ragione e della coscienza umana. Infatti, soltanto attraverso la conoscenza del bene si è in grado di amarlo; tuttavia, l'amore per l'ordine, ossia la coscienza morale, è un'infallibile guida per la ragione e l'intelletto e trova il suo fondamento ultimo in Dio.
 
 Nel _Contratto sociale_, Rousseau propone invece la creazione dello Stato inteso come corpo morale e collettivo costituito da tutti i cittadini. In tale configurazione, ogni membro esercita la propria libertà attraverso la volontà generale, che rappresenta la sintesi delle volontà individuali orientata al perseguimento del bene comune.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / L'Illuminismo e il primato della ragione: L'Illuminismo si caratterizza per un'applicazione sistematica della ragione rivolta all'analisi della realtà terrena e quotidiana, con particolare attenzione verso il perseguimento della felicità e dell'utilità come obiettivi fondamentali.
@@ -91,3 +90,5 @@ Nel _Contratto sociale_, Rousseau propone invece la creazione dello Stato inteso
 / L'opera educativa nell'_Emilio_: In _Emilio_, Rousseau descrive lo sviluppo umano come sintesi dialettica tra coscienza morale e ragione. Egli sottolinea l'importanza di una religione naturale fondata su principi razionali per guidare l'individuo nella vita morale.
 
 / La proposta politica ne _Il contratto sociale_: In _Il contratto sociale_, Rousseau teorizza la fondazione dello Stato come entità collettiva e morale. In questa concezione, ogni cittadino esercita la propria libertà attraverso la volontà generale, orientata al bene comune.
+
+]

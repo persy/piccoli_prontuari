@@ -38,8 +38,7 @@ Questa "storia ideale eterna" rappresenta il modello verso cui la storia concret
 La sequenza di queste tre età delinea il ciclo dell'incivilimento umano. Tuttavia, questo risultato elevato appare del tutto sproporzionato rispetto alla modestia degli obiettivi e dei mezzi umani. Vico interpreta l'incivilimento come frutto di una "eterogenesi dei fini", ossia della convergenza tra due menti, quella umana e quella divina (rappresentata dalla Provvidenza), le cui intenzioni divergenti conducono comunque a un risultato comune.
 
 La piena razionalità della terza età storica può indurre l'uomo a ribellarsi alla Provvidenza, arrestando così il progresso del processo di incivilimento e causando una regressione nella "barbarie della ragione". In questo modo il corso della storia può assumere una natura ciclica: quando una civiltà sprofonda nuovamente nella barbarie, le forme mentali delle tre età storiche riemergono seguendo la medesima sequenza. La dottrina dei "ricorsi storici" dimostra che le conquiste della civiltà non sono mai definitive.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La critica al metodo cartesiano: Vico critica il metodo cartesiano e le sue caratteristiche fondamentali, quali ragione, critica e dimostrazione. A queste oppone l'uso dell'ingegno, dell'arte retorica e dell'invenzione, elementi distintivi del sapere storico.
@@ -56,6 +55,6 @@ La piena razionalità della terza età storica può indurre l'uomo a ribellarsi 
 
 / La dottrina dei ricorsi storici: Il processo di incivilimento presenta una natura ciclica: quando una civiltà ricade nella barbarie, le forme mentali delle tre età storiche si ripropongono in sequenza secondo la loro scansione temporale, come esplicitato dalla dottrina dei ricorsi storici.
 
-
+]
 
 

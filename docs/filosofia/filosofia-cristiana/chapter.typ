@@ -51,8 +51,7 @@ Nel corso dei secoli IV e V, i Padri della Chiesa e i primi concili ecumenici si
 Fra i protagonisti di questa chiarificazione della fede cristiana emergono i Padri della Cappadocia, in particolare Gregorio di Nissa (335-394) e Gregorio di Nazianzo (330-390). Gregorio di Nissa adatta le categorie concettuali platoniche per trattare tematiche legate alla fede, riconoscendo allo Spirito Santo una natura divina, identica alla sostanza del Padre, da cui esso procede attraverso la mediazione del Figlio. Quest'ultimo è presentato come portatore di una chiara distinzione tra natura umana e divina, pur mantenendo l'unità personale.
 
 Gregorio di Nazianzo adotta un approccio focalizzato sulle relazioni interne alla Trinità per dimostrare l'unità sostanziale delle tre persone. Gli appellativi "Padre" e "Figlio" sono interpretati come espressione di un rapporto preciso tra due ipostasi della medesima sostanza, benché tale rapporto rimanga inconoscibile per l'intelletto umano.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Cristianesimo e filosofia: La religione cristiana ha influenzato profondamente la filosofia tardoellenista, introducendo nuovi paradigmi come il monoteismo, la creazione ex nihilo, la centralità dell'essere umano, l'imperscrutabilità della grazia divina e il ruolo cruciale della volontà umana.  
@@ -70,4 +69,4 @@ Gregorio di Nazianzo adotta un approccio focalizzato sulle relazioni interne all
 
 / I padri della Cappadocia: Un ruolo rilevante in questa chiarificazione dottrinale è svolto dai padri della Cappadocia. Gregorio di Nissa sostiene l'unità della persona di Cristo, riconoscendo sia la natura umana che quella divina. Gregorio di Nazianzo, invece, approfondisce le relazioni tra le persone della Trinità per dimostrare la loro unità sostanziale.
 
-
+]

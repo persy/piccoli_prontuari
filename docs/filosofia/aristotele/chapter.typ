@@ -98,8 +98,7 @@ La scuola aristotelica nella sua fase originaria è composta dai discepoli diret
 Nel I secolo a.C., Andronico di Rodi riconsolida la scuola aristotelica pubblicando per la prima volta i trattati scolastici del maestro e favorendo così l'emergere dei primi commentari. Tra i commentatori di Aristotele spicca Alessandro di Afrodisia (II-III secolo d.C.), unanimemente riconosciuto come uno dei più influenti studiosi del corpus aristotelico.
 
 Gran parte delle dottrine aristoteliche sono state riprese dai neoplatonici, tra cui Plotino, Giamblico, Proclo e Porfirio. Il loro intento principale consisteva nel conciliare il pensiero di Aristotele con quello di Platone. In particolare, Porfirio si distingue per la redazione della celebre _Isagoge_ ("introduzione") e per un influente commento alle _Categorie_ di Aristotele, formulando per la prima volta il problema degli universali. Quest'ultimo diventerà un tema centrale nei dibattiti filosofici della scolastica medievale cristiana.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Aristotele e la logica: Aristotele è riconosciuto come il fondatore della logica, considerata lo studio scientifico del pensiero espresso attraverso il linguaggio (_lógos_). Essa analizza i termini, le proposizioni e le argomentazioni, insieme alle leggi che ne regolano l'uso.
@@ -152,3 +151,4 @@ Gran parte delle dottrine aristoteliche sono state riprese dai neoplatonici, tra
 
 / La poesia: La poesia è definita come mimesi, cioè imitazione della vita. Essa si articola in differenti generi artistici, tra i quali la tragedia occupa una posizione di supremazia.
 
+]

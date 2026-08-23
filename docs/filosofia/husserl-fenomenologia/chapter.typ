@@ -91,8 +91,7 @@ In merito alla realtà, Hartmann sostiene in _Possibilità e realtà_ (1938) che
 La stessa impostazione emerge nell'ambito morale. Essendo la realtà necessaria per il solo fatto di manifestarsi in una forma determinata, l'idea di libertà di scelta viene esclusa. Il mondo dei valori è concepito da Hartmann come un insieme di entità ontologiche ideali e indipendenti dal soggetto, che diventa consapevole di esse attraverso un sentimento immediato. 
 
 Nella sua _Etica_ (1926), il filosofo afferma la necessità di fondare l'etica sullo spirito oggettivo, inteso come diritto, moralità ed eticità operanti nella storia, secondo una prospettiva ispirata alla tradizione hegeliana.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Husserl: Husserl è il fondatore della fenomenologia, una disciplina che esplora il legame tra soggetto e realtà.
@@ -126,3 +125,5 @@ Nella sua _Etica_ (1926), il filosofo afferma la necessità di fondare l'etica s
   / L'ontologia critica: La proposta ontologica di Hartmann è definita come ontologia critica, poiché distingue rigorosamente tra tre sfere: quella del pensiero, quella dell'essere reale e quella dell'essere ideale. Il compito di tale ontologia consiste nel giustificare l'oggettività degli enti esterni alla coscienza, enfatizzando che la realtà si fonda sulla sua capacità *effettuale* di determinare l'esistenza concreta. In quest'ottica, la determinazione e la necessità della realtà rendono impossibile la libertà come arbitrio assoluto.
 
   / Il mondo dei valori: Nella prospettiva di Hartmann, il mondo dei valori è inteso come un ordine autonomo di entità ontologiche indipendenti dal soggetto conoscente. L'individuo acquisisce consapevolezza dei valori attraverso un sentimento immediato, che non dipende dalla costruzione razionale ma da una capacità intuitiva di cogliere l'essenza assiologica della realtà.
+
+]

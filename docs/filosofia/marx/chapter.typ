@@ -64,8 +64,7 @@ Friedrich Engels (nato a Barmen nel 1820 e morto a Londra nel 1895) fu dal 1844 
 Dopo la morte di Marx, Engels si occupò della revisione e pubblicazione dei volumi secondi e terzi del _Capitale_ (rispettivamente nel 1885 e 1894), qualificandosi come principale riferimento dell'"ortodossia" marxista. Questa linea era fondata su una concezione materialistica della storia e sul "socialismo scientifico". Engels interpretò le leggi dialettiche non come semplici categorie speculative, ma come una rappresentazione concreta delle leggi che regolano l'evoluzione naturale, formulando l'approccio noto come materialismo dialettico.
 
 La sua attività teorica fu particolarmente rilevante durante il periodo in cui il capitalismo, contrariamente alla previsione del suo imminente crollo, continuava a rafforzare le proprie capacità produttive. Tra le sue opere principali spicca _Anti-Dühring_ (1878), un testo nel quale difende il ruolo cruciale della dialettica come strumento per comprendere la contraddizione indispensabile per la "estinzione dello Stato" e l'approdo al "governo degli uomini". 
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La critica a Hegel: Marx si propone di svelare l'errore logico commesso da Hegel, che cerca di spiegare la realtà singolare partendo da un principio assoluto.
@@ -89,3 +88,5 @@ La sua attività teorica fu particolarmente rilevante durante il periodo in cui 
 / Il crollo del capitalismo: Attraverso l'analisi scientifica della merce, del plusvalore e dei prezzi, Marx prevede il crollo del capitalismo sotto il peso delle crisi economiche e sociali che esso stesso genera.
 
 / Engels e il materialismo dialettico: Engels assume il ruolo di custode dell'ortodossia marxista nel movimento operaio. Il suo materialismo dialettico interpreta la dialettica non solo come una categoria del pensiero, ma come legge effettiva dell'evoluzione naturale.
+
+]

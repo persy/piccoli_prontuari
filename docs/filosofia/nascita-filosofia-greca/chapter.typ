@@ -57,8 +57,7 @@ Tuttavia, il mito possiede alcune caratteristiche distintive rispetto al discors
 + presenta i suoi interrogativi in modo diretto e sotto forma di narrazione, a differenza della filosofia, che si sviluppa come forma di sapere riflessivo operante per astrazione;  
 + si costituisce come un insieme di conoscenze fisse e consolidate, senza la possibilità di libere rielaborazioni che, invece, caratterizzano la tradizione filosofica;  
 + manca dei momenti di analisi critica e verifica, essenziali nella filosofia, che si impegna costantemente a esaminare e perfezionare la comprensione della verità e delle proprie certezze.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / L'amore per la sapienza: La filosofia, in quanto particolare forma di amore per la conoscenza e la saggezza, prende vita nella Grecia classica tra il VII e il VI secolo a.C., distinguendosi nettamente dalle tradizioni orientali anteriori o contemporanee.
@@ -81,3 +80,4 @@ Tuttavia, il mito possiede alcune caratteristiche distintive rispetto al discors
 
 / Filosofia e mito: Il mito rappresenta un elemento centrale della cultura greca prefilosofica e condivide con il linguaggio filosofico l'obiettivo di conoscere e interpretare il mondo. Tuttavia, i due approcci divergono nei metodi: il mito si affida a narrazioni immediate e immaginative, mentre la filosofia adotta un linguaggio astratto e razionale per giungere alla comprensione della realtà.
 
+]

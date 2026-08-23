@@ -47,8 +47,7 @@ Mosè Maimonide (1135–1204), figura di spicco nella filosofia e medicina ebrai
 Profondamente convinto della compatibilità tra ragione e fede, Maimonide considera la filosofia uno strumento essenziale per interpretare la rivelazione biblica e talvolta per confermarla attraverso argomentazioni razionali. Egli predilige la filosofia aristotelica, mediata dalla riflessione araba, specialmente quella di Avicenna, e da quella ebraica, arricchendola con elementi neoplatonici. Maimonide dimostra l'unicità di Dio fondandola sulla concezione del primo motore: un principio puramente attuale, privo di potenzialità e perciò necessario.
 
 Secondo il filosofo, se il mondo fosse coeterno a Dio, come sostenuto da Aristotele, Dio risulterebbe vincolato alla necessità dell'esistenza del mondo stesso; ciò contrasterebbe con il concetto della creazione che avviene in un punto determinato del tempo. Da Dio emanano le intelligenze che regolano il movimento dell'universo e l'intelletto agente, il quale attiva l'intelligenza umana potenziale. Il profeta, colui che riceve pienamente l'influsso divino, si distingue per la contemplazione dell'amore divino e svolge il ruolo di guida spirituale per gli altri uomini.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Ruolo della filosofia araba ed ebraica: La filosofia araba, mediata dai pensatori ebrei, ha avuto un profondo impatto sulla filosofia cristiana medievale, favorendo la diffusione del pensiero aristotelico in Europa.  
@@ -69,10 +68,5 @@ Secondo il filosofo, se il mondo fosse coeterno a Dio, come sostenuto da Aristot
 
 / L'intelletto agente: Attraverso argomentazioni razionali, Mosè Maimonide dimostra l'unicità di Dio, fonte delle intelligenze che regolano il movimento cosmico e generano l'intelletto agente, il quale rende attiva la nostra capacità intellettiva.  
 
-
-
-
-
-
-
+]
 

@@ -58,8 +58,7 @@ La seconda generazione dei sofisti politici riprende le questioni etico-politich
 Con l'eristica – arte finalizzata a vincere le dispute indipendentemente dalla verità delle tesi sostenute – si assiste a una completa degenerazione della sofistica, che perde ogni profondità filosofica riducendosi a pura abilità dialettica. Lo scopo dell'eristica diventa esclusivamente quello di suscitare ammirazione presso un pubblico attratto dalle contese retoriche. Uno degli strumenti principali di questa pratica è il dilemma, che costringe l'interlocutore in una posizione di scacco matto qualunque sia la sua risposta.  
 
 Le ultime fasi della sofistica, segnate dall'autonomia radicale attribuita al _lógos_ e dalla critica ai valori tradizionali e alle credenze consolidate, evidenziano i limiti di questa corrente: la sua incapacità di proporre nuovi modelli di convivenza sociale e nuovi sistemi di valori.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Filosofia dell'uomo e non della natura: I sofisti spostano il focus della filosofia dall'indagine del cosmo allo studio dell'uomo, dando vita a un nuovo approccio centrato sull'antropologia filosofica.
@@ -86,4 +85,4 @@ Le ultime fasi della sofistica, segnate dall'autonomia radicale attribuita al _l
 
 / L'eristica: Nella fase finale della sofistica emerge l'eristica, ridotta a pura abilità dialettica e confutatoria. In questa forma degradata, la filosofia perde il suo spessore concettuale per concentrarsi sull'efficacia persuasiva, indipendentemente dalla veridicità delle argomentazioni.
 
-
+]

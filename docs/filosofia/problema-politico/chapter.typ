@@ -66,8 +66,8 @@ Un'altra posizione critica nei confronti del giusnaturalismo è il positivismo g
 === L'analisi della metodologia giuridica o "del linguaggio giuridico"
 
 Originata nel contesto anglosassone (con autori quali Austin, Ross, Hart), questa forma di indagine si è sviluppata anche in Italia grazie ad alcune correnti di neopositivismo giuridico (Bobbio, Scarpelli). Il suo obiettivo principale è chiarire il linguaggio e i metodi propri della scienza giuridica, migliorando la precisione linguistica del legislatore e organizzando le norme in un sistema coerente e rigoroso.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+
+#lastpage[
 == In sintesi <senza_numero>
 
 / La politica: Il termine "politica" ha tradizionalmente designato quel particolare tipo di potere esercitato su individui liberi e pari, fondato sul loro consenso e finalizzato al perseguimento del bene sia per i governanti sia per i governati.
@@ -92,3 +92,4 @@ Originata nel contesto anglosassone (con autori quali Austin, Ross, Hart), quest
   + La ricerca dei principi primi e degli obiettivi ultimi del diritto; 
   + L'analisi delle forme concrete in cui il diritto si manifesta; 
   + Lo studio della metodologia giuridica, con particolare attenzione al linguaggio giuridico.
+]

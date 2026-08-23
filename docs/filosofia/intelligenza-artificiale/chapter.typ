@@ -66,8 +66,7 @@ Accanto a Minsky, si distingue anche il contributo del filosofo statunitense Hil
 Tuttavia, una prospettiva critica è stata offerta dal filosofo del linguaggio John R. Searle (Denver, 1932), che ha contestato l'assimilazione tra intelligenza artificiale e intelligenza umana basandosi sulle profonde differenze tra i loro principi operativi. In _Menti, cervelli e programmi_ (1980), Searle ha sostenuto che, sebbene le macchine siano capaci di elaborare, calcolare e organizzare simboli per formalizzare il linguaggio naturale, ciò non implica una reale comprensione del loro significato. La capacità di interpretare linguaggi richiede infatti, oltre alla correttezza formale e grammaticale, un riferimento preciso e semantico agli oggetti o concetti di cui si tratta.
 
 Pertanto, secondo Searle, anche nel caso in cui una macchina manifestasse abilità sofisticate e prestazioni apparentemente intelligenti, non sarebbe legittimo definirla realmente intelligente.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Origini dell'IA: L'intelligenza artificiale (IA) rappresenta l'insieme di studi e tecniche, principalmente legati all'informatica, finalizzati alla creazione di sistemi capaci di elaborare informazioni e risolvere problemi che tradizionalmente appartengono al dominio dell'intelligenza umana. Le prime tracce dell'IA risalgono all'epoca della cibernetica, nella metà del XX secolo, con studi matematici dedicati alle somiglianze tra macchine e organismi viventi.
@@ -78,3 +77,4 @@ Pertanto, secondo Searle, anche nel caso in cui una macchina manifestasse abilit
 
 / I filosofi di fronte all'IA: Tra i principali sostenitori dell'IA emergono figure significative come Marvin L. Minsky, che nella sua opera _La società della mente_ (1986) ha elaborato una teoria connessionista della mente, e Hilary Putnam, secondo cui in _Menti e macchine_ (1960) gli stati mentali possono essere realizzati su substrati fisici diversi, sia organici che inorganici. D'altro canto, John R. Searle si distingue per le sue critiche verso l'equiparazione tra intelligenza artificiale e umana, sostenendo che le abilità e prestazioni delle macchine non sono sufficienti per definirle realmente intelligenti.
 
+]

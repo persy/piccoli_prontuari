@@ -26,8 +26,7 @@ Anassagora, altro pilastro del pensiero presocratico, nacque a Clazomene (Ionia)
 La teoria anassagorea sostiene che ogni cosa racchiude tutte le qualità intrinseche, sintetizzando tale idea con la celebre formula "tutto è in tutto". Il divenire, così spiegato, non comporta la creazione o l'annichilimento di qualità nuove o antiche; piuttosto, esso rappresenta uno sviluppo delle qualità già presenti nei singoli enti. Il movimento e l'ordine delle omeomerie sono attribuiti al _Nôus_, un principio divino dotato di natura razionale e separato dal cosmo. Questo intelletto puro e sottile, essendo privo di intervento diretto nel mondo fisico, avrebbe il solo compito di imprimere un movimento rotatorio al cosmo. Dal moto generato deriverebbe meccanicamente il processo di formazione dell'universo.
 
 Anassagora sviluppa inoltre una teoria della conoscenza che, pur condividendo con Empedocle l'idea del processo fisico-naturale, si fonda sul principio della differenza piuttosto che della somiglianza. In questa prospettiva, la conoscenza emergerebbe dall'interazione tra qualità opposte (o semi) dei corpi che vengono in contatto attraverso gli organi sensoriali.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La pluralità dei principi: Il problema centrale della speculazione condotta dai fisici pluralisti consiste nel mantenere saldo il principio parmenideo dell'essere, cercando allo stesso tempo di salvaguardare la molteplicità dei fenomeni. Per farlo, essi postulano l'esistenza di molteplici principi che, pur conservando intrinsecamente le caratteristiche attribuite all'essere da Parmenide, si combinano e si mescolano dando origine alla varietà del mondo.
@@ -44,5 +43,5 @@ Anassagora sviluppa inoltre una teoria della conoscenza che, pur condividendo co
 
 / Il _Nôus_: A guidare i processi di aggregazione e disgregazione delle omeomerie è un'intelligenza divina trascendente rispetto al cosmo, denominata Nôus (intelletto). Questo principio ordinatore supera la mera casualità e costituisce la forza causale primaria. Anche Anassagora formula una teoria della conoscenza, intesa come un processo fisico-naturale, benché guidato dal principio differenziale secondo cui ciò che è diverso si conosce attraverso la relazione con ciò che lo distingue.
 
-
+]
 

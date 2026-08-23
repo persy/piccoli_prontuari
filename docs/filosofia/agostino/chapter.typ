@@ -48,8 +48,7 @@ Le dottrine di Agostino danno origine a una corrente di pensiero teologico, filo
 Nel XIII secolo, l'agostinismo affronta la sfida rappresentata dall'ascesa della filosofia aristotelica in Occidente. Tra i principali temi del pensiero agostiniano troviamo l'ansia e l'amore per la verità; la conciliazione tra fede e ragione; il primato della teologia sulla filosofia; la dottrina dell'illuminazione divina; il ruolo centrale della volontà umana; una visione profonda della storia; e la necessità della grazia per raggiungere la salvezza.
 
 Sul piano politico, l'agostinismo promuove un modello teocratico che postula la subordinazione del potere temporale a quello spirituale. Lo Stato è visto come assoggettato alla Chiesa perché la sovranità deriva direttamente da Dio e viene conferita esclusivamente da Lui.  
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La conversione: Agostino, dopo un periodo giovanile segnato dall'irrequietezza e dalla ricerca della verità, arriva alla sua conversione al cristianesimo, grazie anche all'influenza di Sant'Ambrogio, abbandonando definitivamente il manicheismo.
@@ -72,5 +71,5 @@ Sul piano politico, l'agostinismo promuove un modello teocratico che postula la 
 
 / L'agostinismo: Le dottrine di Agostino danno vita a una corrente di pensiero teologico, filosofico e politico nota come agostinismo, che influenzerà profondamente il medioevo e la cultura successiva.
 
-
+]
 

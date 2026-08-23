@@ -46,8 +46,7 @@ Il concilio di Trento (1545-1563) rappresenta il momento culminante di questa vo
 La vita ecclesiastica viene ristrutturata con provvedimenti significativi. Tra questi spiccano la promulgazione del Catechismo romano (1566), l'istituzione dei seminari (1563) per la formazione dei sacerdoti e l'unificazione delle pratiche liturgiche mediante il Breviario e il Messale romano. La custodia della dottrina viene affidata a un magistero centrale considerato infallibile, insieme a una rigida disciplina, limitando la libera ricerca della verità. Questa impostazione è evidente nella creazione della Congregazione dell'Inquisizione (o Sant'Ufficio) e nell'Indice dei Libri proibiti.
 
 Dal punto di vista teologico si registra uno sviluppo significativo nella teologia controversistica, che parte dalla convinzione che l'interpretazione della Bibbia debba essere guidata dalla tradizione dei papi, dei Padri della Chiesa e dei concili, con l'obiettivo di confutare il pensiero protestante. Si assiste inoltre a una nuova vitalità della scolastica, grazie al "tomismo moderno" promosso dalla scuola domenicana, oltre che alla riflessione casistica sulla morale portata avanti dai gesuiti.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La riforma cattolica: La riforma cattolica designa il processo di rinnovamento avviato dalla Chiesa cattolica volto a eliminare gli abusi, promuovendo una fedeltà alle origini evangeliche e una rinnovata purezza spirituale.
@@ -66,3 +65,4 @@ Dal punto di vista teologico si registra uno sviluppo significativo nella teolog
 
 / La teologia: Dal punto di vista teologico, si assiste a un significativo sviluppo della teologia controversistica, orientata a confutare le dottrine protestanti e a definire le norme di ortodossia della fede cattolica. Parallelamente, si registra una ripresa dell'approccio scolastico nella riflessione teologica.
 
+]

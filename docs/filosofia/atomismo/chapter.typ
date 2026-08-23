@@ -16,8 +16,7 @@ Contrastando il monismo della scuola eleatica, che descrive la realtà attravers
 Le differenze qualitative osservabili nelle cose materiali derivano dalla combinazione di queste proprietà quantitative. Inoltre, tale mancanza di qualità avvicina gli atomi alla concezione parmenidea dell'essere, caratterizzato dall'omogeneità e dall'indifferenziazione. In origine, gli atomi sono animati da un movimento vorticoso intrinseco, privo di una causa esterna o superiore. Questo movimento genera l'aggregazione e la disgregazione degli atomi, che dà origine alla nascita e alla morte degli enti, negando qualsiasi finalità intrinseca o esterna alla natura e introducendo un radicale meccanicismo.
 
 Democrito sviluppa anche una concezione dell'anima composta da atomi che funge da principio vitale superiore rispetto al corpo. La sua gnoseologia valorizza la conoscenza intellegibile rispetto a quella sensibile, interpretando la percezione in termini meccanicistici: effluvi atomici interagiscono con i sensi e gli atomi simili riconoscono analoghi presenti nell'individuo. Sul piano etico, propone una visione che privilegia i piaceri dell'anima rispetto a quelli corporei e promuove la ricerca della serenità interiore attraverso il controllo delle passioni e l'esercizio della temperanza. Politicamente, Democrito abbraccia ideali democratici e cosmopoliti.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / L'atomismo come risposta all'aporia eleatica: L'atomismo rappresenta un tentativo di risolvere l'aporia sollevata dagli Eleati: attraverso l'identificazione di infiniti principi privi di differenze qualitative, ma distinti su base quantitativa, offre una visione della realtà orientata a una spiegazione meccanicistica e quantitativa. 
@@ -35,3 +34,5 @@ Democrito sviluppa anche una concezione dell'anima composta da atomi che funge d
 / La dottrina dell'anima: Democrito sviluppa una concezione atomistica dell'anima, vista come principio vitale che ha un ruolo predominante rispetto al corpo. 
 
 / Gnoseologia ed etica: Democrito propone una teoria della conoscenza basata sulla superiorità della conoscenza intelligibile rispetto a quella sensibile, interpretata secondo i principi meccanicistici. Inoltre, elabora un'etica che valorizza i piaceri dell'anima, considerati superiori rispetto a quelli corporei. 
+
+]

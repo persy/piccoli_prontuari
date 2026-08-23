@@ -48,8 +48,7 @@ La scuola cirenaica, fondata da Aristippo (Cirene, V-IV secolo a.C.), prende una
 La scuola megarica, creata da Euclide (V-IV secolo a.C.), tenta una sintesi tra l'ontologia eleatica e l'etica socratica. Euclide identifica il sommo Bene con l'Uno eleatico, negando ogni forma di divenire e molteplicità. In ambito morale, questa filosofia sostiene che il male non esiste come realtà autonoma, ma rappresenta semplicemente ignoranza del Bene. Il sapiente megarico vive libero da preoccupazioni materiali e dedica tutte le sue energie alla ricerca dell'assoluto Bene-Uno.
 
 Infine, la scuola di Elide, fondata da Fedone, un discepolo meno originale ma comunque importante della cerchia socratica, radicalizza l'intellettualismo del maestro. Fedone insiste sull'onnipotenza dell'intelletto e sulla conoscenza in ambito morale.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La questione socratica: La questione socratica riguarda il problema di ricostruire il pensiero di Socrate, che scelse consapevolmente di non lasciare nulla per iscritto. Le uniche testimonianze sul suo pensiero provengono dalle opere di Aristofane, Platone, Senofonte, Aristotele e dai cosiddetti socratici minori.
@@ -68,3 +67,4 @@ Infine, la scuola di Elide, fondata da Fedone, un discepolo meno originale ma co
 
 / Le scuole socratiche minori: La scuola cinica, fondata da Antistene, estremizza l'invito socratico alla libertà, interpretandola come liberazione dell'anima dalle influenze della realtà esterna, dai desideri e dai piaceri. La scuola cirenaica, guidata da Aristippo, rivisita le idee di Socrate in chiave edonista: il piacere, anziché essere accettato senza riserve morali, viene elevato a fine supremo dell'etica. La scuola megarica di Euclide tenta un'originale sintesi tra la filosofia eleatica e la morale socratica. La scuola di Elide, fondata da Fedone, accentua l'intellettualismo di Socrate, sottolineando l'assoluta centralità dell'intelletto e della conoscenza nell'ambito morale. 
 
+]

@@ -48,8 +48,7 @@ L'approfondimento del rapporto tra estetica come scienza del sentire ed estetica
 Un approccio radicalmente diverso ma ugualmente significativo è quello elaborato da Martin Heidegger. Nella sua concezione, l'estetica prende forma attraverso l'interpretazione dell'arte come "messa in opera della verità," ossia come manifestazione del senso del rapporto tra l'uomo e il mondo.
 
 Infine, nella filosofia contemporanea, la crisi della nozione classica di verità porta a considerare le opere d'arte come un luogo privilegiato per riflettere sul senso del mondo e sull'esistenza umana. Spesso questa funzione si pone in alternativa alle certezze tradizionali offerte dalla scienza.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Filosofia e arte: Dall'antichità l'esperienza artistica è stata oggetto di riflessione filosofica, ma solo nel Settecento nasce l'estetica come disciplina filosofica indipendente, con l'obiettivo di studiare il bello e l'arte.
@@ -86,3 +85,4 @@ Infine, nella filosofia contemporanea, la crisi della nozione classica di verit�
 
 / Estetica e senso del mondo: La filosofia contemporanea tende a considerare le opere d'arte come uno spazio privilegiato per riflettere sul senso del mondo e sulla condizione dell'esistenza umana.
 
+]

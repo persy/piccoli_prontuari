@@ -44,8 +44,7 @@ Tuttavia, l'uomo non riconoscerebbe la propria condizione miserevole se non perc
 Una visione autentica dell'uomo e dell'universo, vale a dire una vera religione, deve tener conto di questa duplicità e spiegarla attraverso il concetto di caduta, fornendo al contempo un messaggio positivo che mostri una via d'uscita. Solo il cristianesimo riesce a fornire tali spiegazioni, la cui autenticità è supportata da miracoli, profezie e dall'autorità delle Scritture. Questi elementi fungono da prove storiche che parlano più al cuore che alla mente.
 
 Per chi rimane incerto nonostante le molte argomentazioni proposte, Pascal formula la celebre scommessa: se non si è convinti né dell'esistenza né dell'assenza di Dio, è razionale scegliere di vivere come se il Dio cristiano esistesse. Scommettere sulla sua esistenza implica aderire alla promessa divina di una vita infinita e beata per chiunque abbracci la fede cristiana.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Il libertinismo: Nel Seicento, l'importanza attribuita all'individuo e alla sua autonomia favorisce la diffusione di una visione laica, disinteressata ai dogmi religiosi. In questo contesto si riaffermano il piacere, la corporeità e la libertà di pensiero, ideali che trovano espressione nel movimento del libertinismo, particolarmente diffuso in Francia.
@@ -68,5 +67,5 @@ Per chi rimane incerto nonostante le molte argomentazioni proposte, Pascal formu
 
 / La scommessa per Dio: Pascal propone la celebre "scommessa" per il Dio cristiano ai dubbiosi che, nonostante le molte ragioni apologetiche esposte, non riescano ancora a convincersi completamente.
 
-
+]
 

@@ -62,8 +62,7 @@ Attraverso un'analisi storica della scienza, Feyerabend ha cercato di dimostrare
 La sua critica delle metodologie prese in esame non sfocia nella formulazione di un nuovo modello metodologico, ma in una posizione fortemente contrometodologica: l'anarchismo metodologico (contenuto nell'opera _Contro il metodo_, 1975). Secondo questa concezione, non esiste alcun metodo universale né un sistema di regole prestabilito che governi la creazione e lo sviluppo dell'impresa scientifica.
 
 Questo non implica che la scienza operi senza regole, bensì che essa adotti di volta in volta quelle più adatte ai suoi obiettivi, senza seguire un approccio generale e rigido. Respingendo l'idea che razionalità e metodo siano necessariamente legati, Feyerabend mette in dubbio la possibilità di tracciare una distinzione netta tra scienza e non-scienza, di affermare la superiorità della scienza come forma di conoscenza grazie al suo metodo specifico, e di giustificare la posizione privilegiata che la scienza occupa nella cultura e nella società contemporanea (espressa nell'opera _La scienza in una società libera_, 1978).
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Popper e il falsificazionismo:  Per Popper, la conoscenza umana è intrinsecamente incerta, poiché non esistono verità evidenti su cui possa solidamente poggiarsi.
@@ -82,4 +81,4 @@ Questo non implica che la scienza operi senza regole, bensì che essa adotti di 
 
 / Feyerabend e l'anarchismo metodologico:  Feyerabend contesta le metodologie epistemologiche tradizionali e adotta una posizione anarchica. A suo avviso, non esiste un metodo universale che regoli lo sviluppo della scienza; essa si costruisce seguendo regole ritenute temporaneamente utili. Di conseguenza, è impossibile distinguere nettamente tra scienza e non-scienza o affermare che la scienza rappresenti la forma più alta di conoscenza.
 
-
+]

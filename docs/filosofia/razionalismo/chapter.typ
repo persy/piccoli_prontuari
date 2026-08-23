@@ -72,8 +72,7 @@ Dio realizza il migliore dei mondi possibili, selezionando la combinazione di po
 Tra razionalismo ed empirismo, Leibniz cerca una via mediana. Egli supera l'innatismo tradizionale elaborato da Cartesio (basato sull'esistenza di idee sempre universalmente attive nell'uomo) proponendo un innatismo "virtuale". In questa visione, l'intelletto possiede originariamente verità universali e necessarie che però devono essere attivate attraverso l'esercizio della ragione e con lo stimolo dell'esperienza.
 
 Leibniz distingue tra le verità di ragione e le verità di fatto. Le prime dipendono esclusivamente dal principio di non contraddizione e sono valide in tutti i mondi possibili, indipendentemente dall'esperienza. Le seconde, invece, sono contingenti e richiedono accertamento empirico per essere comprese.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Occasionalismo: La dottrina dell'occasionalismo nasce dall'esigenza di chiarire il rapporto tra anima e corpo, due sostanze concepite da Cartesio come radicalmente eterogenee.
@@ -108,3 +107,4 @@ Leibniz distingue tra le verità di ragione e le verità di fatto. Le prime dipe
 
 / Le verità di ragione e le verità di fatto: Leibniz opera una distinzione tra le verità di ragione, basate esclusivamente sul principio di non contraddizione e indipendenti dall'esperienza concreta, e le verità di fatto, contingenti e determinabili mediante la verifica empirica.
 
+]

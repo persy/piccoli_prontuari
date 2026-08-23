@@ -84,8 +84,7 @@ Da questa comune base teorica, seppur declinata nei diversi orientamenti delle d
 Un capitolo a sé stante all'interno del neokantismo è rappresentato dalla cosiddetta "Kant-filologia", sviluppatasi attraverso edizioni approfondite e rigorose delle opere di Kant, culminate con la prestigiosa edizione curata dall'Accademia di Berlino. Esiste inoltre un neokantismo regionale che ha preso piede in diversi paesi: in Francia (C. Renouvier), in Inghilterra (B. Bosanquet, F.H. Bradley, T.H. Green, J. Caird) e in Italia (C. Cantoni, F. Masci, G. Barzellotti e F. Tocco). Alcuni storici hanno proposto di circoscrivere l'uso del termine "neokantismo" al periodo che si conclude intorno al 1920, considerato il termine di un'epoca culturale.
 
 Nonostante ciò, l'attività dei neokantiani più giovani si è protratta oltre questa delimitazione temporale rigida. Inoltre, autorevoli pensatori quali W. Cramer, H. Wagner, R. Zocher, H. Holz e H. Holzhey hanno contribuito a estendere e rinnovare il dibattito neokantiano anche dopo la seconda guerra mondiale e ancora oggi si assiste a una riscoperta dei temi neokantisti, una autentica "rinascita", della "filosofia trascendentale".
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Dilthey e la fondazione della conoscenza storica: Wilhelm Dilthey si propone di fornire una base filosofica alla comprensione della conoscenza storica, sostenendo che il mondo della storia prende vita quando viene rielaborato e ricostruito dal soggetto storico attraverso l'affinità essenziale con l'"esperienza vissuta" (_Erlebnis_).  
@@ -109,3 +108,5 @@ Nonostante ciò, l'attività dei neokantiani più giovani si è protratta oltre 
 / Valori e civiltà: Ogni civiltà è caratterizzata da un sistema unico di valori che le conferisce identità esclusiva. Tuttavia, tali valori sono assoluti solo all'interno della civiltà specifica che li produce e assumono una dimensione relativa quando valutati nel contesto complessivo della storia universale.  
 
 / Il declino dell'Occidente: Spengler descrive l'Occidente come l'ultima grande civiltà storica ormai giunta alla fase del declino. Questa decadenza è caratterizzata dalla preminenza della società civilizzata (_Zivilisation_), esemplificata dalla crisi morale e religiosa, dall'ascesa della democrazia e del socialismo, e dall'identificazione tra denaro e potere politico nei sistemi democratici. Questi fattori porteranno infine alla dittatura politica e alla barbarie, dalla quale emergerà una nuova civiltà futura.  
+
+]

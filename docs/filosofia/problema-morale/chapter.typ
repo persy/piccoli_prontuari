@@ -38,8 +38,8 @@ L'etica dell'ambiente, promossa da pensatori come Fritjof Capra, John Passmore e
 Non mancano contributi di natura più teorica e "fondativa". L'etica della comunicazione è stata sviluppata da Karl-Otto Apel e Jürgen Habermas sulla base dell'idea di una "comunità illimitata della comunicazione". L'etica del desiderio di Emmanuel Lévinas pone al centro il concetto di attenzione verso l'altro, identificando in questa apertura la moralità dell'agire umano. L'etica comunitaria di Alasdair MacIntyre si focalizza sull'ideale di comunità come elemento cardine.
 
 In generale, si percepisce sempre più chiaramente il tentativo di considerare l'etica come uno spazio filosofico ideale per favorire un accordo tra gli individui. Questo obiettivo appare urgente soprattutto alla luce della difficoltà delle teorie metafisiche nel fornire una visione condivisa sul significato dell'essere nella sua totalità.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+
+#lastpage[
 == In sintesi <senza_numero>
 
 / Etica e morale: Il tema della condotta umana, dei valori e delle motivazioni che la guidano ha sempre occupato un posto centrale nella riflessione filosofica, dando origine a una disciplina specifica: l'etica, o filosofia morale. Quest'ultima si distingue dalla morale, che rappresenta invece l'insieme dei principi e delle norme condivise da una comunità sociale in una determinata epoca storica.
@@ -54,4 +54,4 @@ In generale, si percepisce sempre più chiaramente il tentativo di considerare l
 
 / Il dibattito contemporaneo: Nel panorama contemporaneo, il confronto avviene principalmente tra le cosiddette etiche "speciali", applicate a problemi concreti e settoriali, e gli approcci più "fondativi", mirati a stabilire principi generali. In entrambe le prospettive si rileva spesso il tentativo di considerare l'etica come il terreno privilegiato per realizzare un confronto fecondo e un accordo tra gli individui, un obiettivo che altre teorie filosofiche sul senso globale dell'essere sembrano ormai incapaci di perseguire.
 
-
+]

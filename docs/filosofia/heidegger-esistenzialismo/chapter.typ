@@ -128,8 +128,7 @@ Il legame tra l'individuo e il proprio corpo rappresenta la "situazione fondamen
 Nel _Mistero dell'essere_ (1951), Marcel descrive l'essere non come un problema da risolvere teoricamente, ma come un "mistero" che sfugge alla definizione concettuale. Non è qualcosa che si può controllare o possedere, ma che ci trascende e richiede di essere accolto attraverso l'ascolto. 
 
 Questo ascolto non implica passività; al contrario, è un atto attivo che si traduce in comportamenti concreti di unione, come la fiducia e l'amore, opposti alle dinamiche di separazione e rottura. L'atteggiamento contrario è rappresentato dalla tendenza all'"avere", ovvero al desiderio di possesso, che può riguardare le cose, gli altri e persino la propria vita. Tale conflitto tra "essere" e "avere" rende drammatica l'esistenza umana e richiede una scelta, analizzata da Marcel in _Essere o avere_ (1935).
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Heidegger: In _Essere e tempo_, Heidegger si propone di affrontare il problema ontologico interrogando le modalità fondamentali dell'esserci, ovvero il modo di essere proprio dell'uomo. L'ontologia diventa, perciò, un'analitica dell'esistenza.
@@ -185,3 +184,5 @@ Questo ascolto non implica passività; al contrario, è un atto attivo che si tr
     / L'esistenza: Il coinvolgimento tra sé e il proprio corpo rappresenta la condizione primaria dell'uomo, ovvero l'esistenza o "incarnazione", da cui nasce il quesito sul significato dell'essere.
 
     / Il mistero dell'essere: L'essere non va considerato un problema da risolvere, bensì un mistero da riconoscere come qualcosa che ci trascende e al quale dobbiamo rivolgere ascolto.
+
+]

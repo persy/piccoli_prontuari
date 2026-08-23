@@ -27,8 +27,7 @@ Pur avendo sempre affrontato le questioni generali della ricerca scientifica, è
 L'epistemologia ha ricevuto nel tempo interpretazioni diverse. Con il Circolo di Vienna, Rudolf Carnap identificò l'epistemologia con la "logica applicata", ossia lo studio della sintassi logica delle teorie scientifiche e dei rapporti formali tra i loro enunciati. In questa fase la fisica dominava il panorama delle discipline oggetto d'indagine.
 
 A partire dagli anni Sessanta, l'attenzione si spostò verso la semantica scientifica, focalizzandosi sul significato dei termini utilizzati nelle teorie. Gli sviluppi più recenti hanno orientato il dibattito verso la pragmatica, ovvero l'analisi degli utilizzi pratici degli enunciati teorici e delle loro implicazioni operative.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La definizione di scienza: Il termine "scienza", benché nel linguaggio contemporaneo sia spesso sinonimo di scienza sperimentale, può essere interpretato in senso più ampio come un insieme di conoscenze che assicurano la propria validità. In questa accezione, la filosofia ha da sempre rivendicato il titolo di "scienza".
@@ -51,3 +50,4 @@ A partire dagli anni Sessanta, l'attenzione si spostò verso la semantica scient
 
 / La struttura della spiegazione scientifica: Secondo gli empiristi logici (verificazionisti) e Popper (falsificazionista), la spiegazione scientifica prevede il ricondurre enunciati particolari sotto enunciati generali attraverso una catena deduttiva, nella quale un enunciato di base è deducibile da una legge generale. Tuttavia, questo modello viene messo in discussione da nuove prospettive come l'olismo di Feyerabend, il modello a rete di Hesse e il nocciolo metafisico degli asserti non direttamente falsificabili proposti da Lakatos.
 
+]

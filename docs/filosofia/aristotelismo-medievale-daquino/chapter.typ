@@ -66,8 +66,7 @@ L'averroismo emerge con forza a partire dalla seconda metà del XIII secolo, gra
 Gli averroisti sostengono tesi filosofiche incompatibili con la dottrina rivelata, come l'unicità dell'intelletto per tutta l'umanità, che implica il rifiuto dell'immortalità dell'anima individuale; l'eternità del mondo; e l'autosufficienza della filosofia nel garantire la felicità terrena dell'uomo.
 
 Queste posizioni portano all'accusa di promuovere la teoria della "doppia verità", secondo cui le verità della fede e quelle della ragione sarebbero indipendenti fra loro e potrebbero persino giungere a conclusioni contraddittorie.  
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Alberto Magno: Alberto Magno integra il pensiero aristotelico nella tradizione cristiana, sottolineando l'autonomia delle scienze profane e dell'indagine sperimentale rispetto alla teologia. Propone una distinzione tra filosofia e teologia, assumendo nel dibattito sugli universali una posizione di realismo moderato. Considera inoltre l'anima personale e immortale come parte integrante dell'intelletto attivo.  
@@ -90,9 +89,4 @@ Queste posizioni portano all'accusa di promuovere la teoria della "doppia verit�
 
 / La teoria della "doppia verità": Gli averroisti affermano la validità filosofica di tesi che si trovano in contrasto con la dottrina rivelata, venendo così accusati di sostenere la teoria della "doppia verità".
 
-
-
-
-
-
-
+]

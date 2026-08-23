@@ -79,8 +79,7 @@ L'attività del giudizio, tema centrale della _Critica del giudizio_ (1790), ha 
 Il giudizio determinante si manifesta nella conoscenza scientifica e nell'ambito morale attraverso una norma universale preesistente, che consente all'intelletto e alla volontà di "determinare" il particolare. Tale operazione implica la sussunzione di un dato empirico sotto le categorie dell'intelletto o la legge morale; ad esempio: la trasformazione dell'acqua in ghiaccio è attribuita al freddo o una data azione può essere qualificata come giusta. 
 
 Al contrario, il giudizio riflettente risponde all'esigenza di identificare un principio unitario che dia coerenza al molteplice empirico. Questo principio viene formulato dalla facoltà di giudizio attraverso un processo di riflessione su se stessa e sulla propria aspirazione all'unità. Il giudizio riflettente si suddivide in due ambiti: estetico e teleologico. Il primo riguarda la bellezza, mentre il secondo si occupa della finalità o degli scopi della natura. Sebbene entrambi si fondino sull'idea di finalità, intesa come armonia e reciproca concordanza tra le parti, essi non sono di natura conoscitiva.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Il periodo precritico: Nel periodo precritico, Kant si concentra sulle scienze, la filosofia naturale e sulla necessità di conferire maggiore rigore alla filosofia.
@@ -106,3 +105,5 @@ Al contrario, il giudizio riflettente risponde all'esigenza di identificare un p
 / La legge morale: La legge morale, espressa nel principio del "dovere per il dovere", è universale e ha come scopo ultimo il rispetto della dignità umana. Tale legge presuppone tre postulati fondamentali: la libertà, l'immortalità dell'anima e l'esistenza di Dio.
 
 / La Critica del giudizio: Nella _Critica del giudizio_ (1790) Kant analizza l'attività del giudizio, che deve individuare un riflesso del regno dei fini nel mondo sensibile. Questo avviene tramite il giudizio determinante (di tipo gnoseologico e morale) e il giudizio riflettente (di tipo estetico e finalistico).
+
+]

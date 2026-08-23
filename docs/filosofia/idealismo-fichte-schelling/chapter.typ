@@ -60,8 +60,7 @@ L'identità che funge da fondamento comune si manifesta allora nell'annullamento
 === Gli esiti mistici
 
 Con le _Conferenze di Erlangen_ del 1820-21, la filosofia di Schelling si consolida definitivamente come l'atto di rammentare un "soggetto assoluto" dimenticato e immemorabile, riconducibile a un'"Oltredivinità" che richiama esplicitamente la tradizione mistica neoplatonica. Questa filosofia si configura altresì come un esercizio intellettuale intriso di razionalità "estatica". La ragione si arresta, colpita dalla meraviglia, dinanzi al dato puro del reale – al semplice fatto che esso le si presenti – pur essendo capace di coglierne le articolazioni in un modo che risulta però irriducibile a una deduzione pura a priori.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Fichte: La filosofia di Fichte si basa sul principio della libertà come fondamento unico di un sistema filosofico unitario. 
@@ -84,4 +83,4 @@ Con le _Conferenze di Erlangen_ del 1820-21, la filosofia di Schelling si consol
 
   / L'ultima fase: Nella fase finale del suo pensiero, la filosofia di Schelling diventa una rammemorazione di un "soggetto assoluto" primordiale e si configura come una forma di esercizio razionale ed estatico. 
 
-
+]

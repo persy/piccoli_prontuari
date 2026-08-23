@@ -85,8 +85,7 @@ L'Accademia, fondata da Platone e proseguita dai suoi discepoli, come Speusippo 
 Nel periodo compreso tra la metà del I secolo a.C. e l'inizio del III secolo d.C., il medioplatonismo fiorisce grazie all'influenza della cultura giudaico-alessandrina. Pensatori come Albino, Attico, Plutarco di Cheronea, Numenio di Apamea, Massimo di Tiro e Celso accentuano l'aspetto religioso dell'antica Accademia: l'Uno viene identificato con Dio, le Idee con i "pensieri di Dio" e il Demiurgo diventa Dio che plasma una materia preesistente.
 
 Tra i secoli III e IV d.C., il neoplatonismo riprende il pensiero platonico, elaborandolo in una visione gerarchica del reale. Questa corrente integra elementi della logica aristotelica, considerata strumentale per una solida base nella teologia fondata sul platonismo.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Scrittura e oralità: Platone non ha affidato interamente i suoi insegnamenti filosofici alla scrittura, cercando un equilibrio tra la cultura scritta e quella orale. Sebbene possa trasmettere molti concetti tramite la scrittura, Platone riteneva che i più preziosi fossero riservati ai discepoli scelti con cura.
@@ -119,4 +118,4 @@ Tra i secoli III e IV d.C., il neoplatonismo riprende il pensiero platonico, ela
 
 / Il neoplatonismo: Nei secoli II-IV d.C., dal pensiero platonico nascono le scuole neoplatoniche, che sistematizzano i principi del platonismo in una visione gerarchica della realtà.
 
-
+]

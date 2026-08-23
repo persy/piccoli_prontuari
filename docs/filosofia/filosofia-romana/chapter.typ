@@ -38,8 +38,7 @@ A Roma si diffonde anche il neoscetticismo, che con Enesidemo (I sec. a.C.) e Ag
 Il neoscetticismo si distingue per l'apertura costante della ricerca, sottraendosi a qualsiasi affermazione definitiva. Neanche il dogmatismo negativo, che rifiuta la possibilità di conoscere, viene accettato, in ossequio all'intenzione originaria dello scetticismo: indagare senza preconcetti. 
 
 Il modello della "vita senza dogmi" conduce alla pace interiore e alla sospensione dall'agitazione dell'esistenza, incarnando fin dalle origini l'ideale del saggio.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Marco Tullio Cicerone: Marco Tullio Cicerone si distingue come il principale veicolo della cultura greca a Roma. Il suo interesse filosofico si concentra prevalentemente sull'etica, adottando un approccio eclettico che riformula i principi della morale stoica in una versione più temperata.
@@ -56,3 +55,4 @@ Il modello della "vita senza dogmi" conduce alla pace interiore e alla sospensio
 
 / Il neoscetticismo: Il neoscetticismo di Enesidemo, Agrippa e Sesto Empirico risulta anch'esso assai influente. Questa corrente sostiene costantemente l'apertura alla ricerca, promovendo un ideale di vita libero da dogmi.
 
+]

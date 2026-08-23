@@ -60,8 +60,7 @@ Con La sintassi logica del linguaggio, pubblicato nel 1934, Carnap modificò il 
 Abbandonando la verificabilità come unico criterio di significatività degli enunciati, Carnap propone un approccio più flessibile: la confermabilità. Questo concetto implica una verifica empirica parziale che giustifica razionalmente la credenza nella verità di una proposizione.
 
 Negli anni successivi, con opere come _Introduzione alla semantica_ (1942) e _Significato e necessità_ (1947), Carnap amplia ulteriormente il proprio orizzonte teorico. Sostiene che il linguaggio non può essere concepito esclusivamente a livello formale, come nella sintassi. Deve infatti essere visto come un sistema di atti e comportamenti finalizzati alla comunicazione, dove il significato emerge in relazione all'intenzione espressiva dei soggetti, introducendo così la dimensione semantica.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Wittgenstein: Wittgenstein rifiuta l'interpretazione neopositivista del suo _Tractatus logico-philosophicus_, che viene letto come una riduzione della filosofia alla logica.  
@@ -89,3 +88,4 @@ Negli anni successivi, con opere come _Introduzione alla semantica_ (1942) e _Si
   / La confermabilità: Abbandona inoltre la verificabilità come unico criterio di significanza degli enunciati, sostituendola con un criterio più flessibile: la confermabilità.  
 
   / Dalla sintassi alla semantica: Nelle opere successive Carnap liberalizza ulteriormente le sue posizioni e afferma che il linguaggio è un sistema di atti e comportamenti il cui significato si determina in relazione alle intenzioni espresse dai soggetti (semantica).  
+]

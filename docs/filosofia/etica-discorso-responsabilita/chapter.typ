@@ -45,8 +45,7 @@ Nel corso della sua carriera accademica, Jonas ha approfondito lo studio dello g
 L'idea centrale delle sue opere risiede nella convinzione che il rapporto alienato tra uomo e natura rappresenti una delle cause principali della crisi civiltà occidentale. L'avvento della tecnologia moderna ha esacerbato tale conflitto a tal punto da minacciare una doppia catastrofe: l'alterazione irreversibile della condizione umana tramite interventi come l'ingegneria genetica e la distruzione dell'equilibrio ecologico globale. Di qui la necessità di elaborare un nuovo paradigma etico basato sull'assunzione di responsabilità che richiama l'archetipo relazionale padre-figlio. Il bambino, simbolo primario della vulnerabilità naturale, diventa fulcro di una responsabilità morale che si estende tanto alle generazioni future – la cui possibilità di vivere un'esistenza pienamente umana è messa in pericolo dalle potenzialità nichiliste della tecnologia – quanto al mondo non-umano, incapace di proteggersi dagli effetti devastanti dell'attività antropica. 
 
 Contro le derive dell'irrazionalismo e del nichilismo morale contemporaneo, Jonas propone il suo "principio responsabilità" come aggiornamento dell'imperativo categorico kantiano: "Agisci in modo che le conseguenze della tua azione siano compatibili con la permanenza di un'autentica vita umana sulla terra". Allo stesso tempo, questo segna il punto teorico più elevato ottenuto dall'attuale etica ambientalistica.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Apel:  Apel individua le condizioni universali e necessarie del processo comunicativo, tra cui la comprensibilità grammaticale del discorso, la sincerità delle intenzioni del parlante, la verità delle sue affermazioni e la conformità alle norme condivise dalla comunità linguistica. Questi principi logici assumono una connotazione etica, poiché presuppongono il riconoscimento dell'uguaglianza tra gli interlocutori.
@@ -63,4 +62,4 @@ Contro le derive dell'irrazionalismo e del nichilismo morale contemporaneo, Jona
 
   / Il principio responsabilità:  Evidenziando l'inadeguatezza delle etiche tradizionali nell'affrontare le sfide poste dalla crisi ecologica e dalla manipolazione del patrimonio genetico umano, Jonas propone un'"etica della responsabilità". Questo approccio mira a intrecciare indissolubilmente la salvaguardia della natura e quella dell'essere umano all'interno di una visione etica globale.
 
-
+]

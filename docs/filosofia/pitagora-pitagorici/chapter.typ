@@ -36,8 +36,7 @@ La speculazione pitagorica, per alcuni aspetti, è più evoluta e sofisticata ri
 Sul piano religioso e antropologico, i pitagorici sviluppano una visione derivata in gran parte dall'orfismo con cui condividono la concezione dualista dell'essere umano, la credenza nella metempsicosi (reincarnazione dell'anima) e l'idea della salvezza individuale raggiungibile attraverso rituali di purificazione.
 
 Tuttavia, rispetto agli orfici, i pitagorici si distaccano significativamente per quanto riguarda i mezzi di purificazione. Mentre gli orfici prediligono una pratica basata sulla passiva osservanza di riti e precetti, i pitagorici identificano la via della purificazione nella scienza matematica. Quest'ultima ha infatti la capacità di astrarre l'uomo dal particolare e dal sensibile, elevandolo alla dimensione dell'eterno e del divino.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La scuola pitagorica: La scuola pitagorica, con la sua natura politica e religiosa, rappresenta un esempio emblematico della ricerca filosofica greca, associata a un forte senso di comunità e disciplina.
@@ -58,6 +57,6 @@ Tuttavia, rispetto agli orfici, i pitagorici si distaccano significativamente pe
 
 / La matematica come via di purificazione: I pitagorici si distanziarono dalle pratiche orfiche proponendo la matematica come mezzo di purificazione. Essa permetteva infatti all'individuo di trascendere il particolare e il sensibile, per elevarsi verso l'eterno e il divino.
 
-
+]
 
 

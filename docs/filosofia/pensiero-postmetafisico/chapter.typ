@@ -66,8 +66,7 @@ Il filosofo della Sorbona Gilles Deleuze (Parigi 1925 - 1995) sviluppa lo strutt
 Deleuze si ispira a Nietzsche e Spinoza per superare la dialettica e l'analogia, strumenti essenziali dell'unificazione del molteplice. Al contrario, egli opta per un'affermazione della differenza priva di totalizzazioni o gerarchie. Le sue analisi antropologiche mettono al centro il desiderio, inteso come flusso energetico nomade e non riducibile ad alcuna norma o figura prescrittiva.
 
 Tra le sue opere principali si ricordano: _Differenza e ripetizione_ (1968), _Logica del senso_ (1969) e _L'Anti-Edipo_ (1972).
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Lévinas e l'etica del volto: Emmanuel Lévinas contrappone al predominio della totalità ontologica, che ha caratterizzato la filosofia occidentale, l'idea di una rottura della totalità su basi etiche. Questo avviene grazie all'appello etico proveniente dall'alterità radicale del "volto" dell'altro.
@@ -95,3 +94,5 @@ Tra le sue opere principali si ricordano: _Differenza e ripetizione_ (1968), _Lo
   / La critica alla figura tradizionale della ragione: Critica la concezione tradizionale della ragione fondata sull'identità, promuovendo invece il valore della differenza senza possibilità di totalizzazione o gerarchia. 
 
   / L'antropologia: Le sue analisi antropologiche ruotano attorno al desiderio concepito come un flusso energetico nomade. 
+
+]

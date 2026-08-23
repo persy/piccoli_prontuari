@@ -109,8 +109,7 @@ Per questa ragione, Austin sposta la sua attenzione sul singolo atto linguistico
 + _Locutorio_: si riferisce al significato e al riferimento dell'enunciato (ad esempio: "la porta è aperta"); 
 + _Illocutorio_: riguarda l'azione che l'atto linguistico realizza (ad esempio: una richiesta o avvertimento: "la porta è aperta
 + Perlocutorio: indica l'atto linguistico con cui un risultato (qualcuno chiude la porta).
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Russell: Ne _I principi della matematica_, Russell si propone di ricavare l'intera matematica pura a partire da un numero minimo di concetti logici di base.
@@ -142,3 +141,5 @@ Austin, nel suo lavoro _Quando dire è fare_, distingue nel linguaggio ordinario
   / Tra i precursori: Frege: Frege fu una figura di riferimento e un interlocutore determinante per filosofi come Bertrand Russell, Giuseppe Peano, Edmund Husserl e Ludwig Wittgenstein. Il suo progetto filosofico era volto a una fondazione rigorosa e definitiva della matematica, sottolineandone la dimensione linguistica. Tra i suoi principali contributi spiccano l'affermazione dell'irriducibilità della logica alla psicologia, l'idea che una parola abbia significato soltanto all'interno del contesto di una proposizione, la definizione del pensiero come senso di un enunciato e, soprattutto, la fondamentale distinzione tra senso (Sinn) e significato inteso come riferimento (_Bedeutung_).  
 
   / La filosofia del linguaggio ordinario: Tenendo conto dei "giochi linguistici" approfonditi da Wittgenstein, si considera il linguaggio come una struttura estremamente complessa, in cui gli elementi descrittivi e logico-formali rappresentano solo una parte, e nemmeno la più rilevante. Gli studiosi del linguaggio ordinario ritengono che quest'ultimo sia spesso usato non per descrivere, ma secondo regole e convenzioni mirate a conferire significato preciso ai termini. L'analisi filosofica, pertanto, dovrebbe concentrarsi su queste regole d'uso.  
+
+]

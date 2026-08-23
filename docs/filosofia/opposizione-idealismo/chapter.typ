@@ -66,8 +66,7 @@ Nelle molteplici forme in cui si esprime il suo esistere, l'essere umano si trov
 Nel successivo stadio etico tale contraddizione viene superata attraverso la scelta consapevole di aderire a valori universali. Se Don Giovanni dovesse convertirsi, ad esempio, sceglierebbe la via della fedeltà e del matrimonio. Tuttavia, è solo con il passaggio allo stadio religioso che l'uomo raggiunge il vero culmine del suo rapporto con l'universale. In questa fase emerge l'infinito nella sua veste più paradossale, arrivando a richiedere la sospensione della razionalità ordinaria. Un esempio paradigmatico è rappresentato dalla figura di Abramo, chiamato a sacrificare suo figlio Isacco come gesto di obbedienza estrema a Dio.
 
 Alla fine, la scelta deve affrontare e superare il paradosso racchiuso nella relazione tra finito e infinito. È necessario affidarsi al "ricordo dell'eterno" e compiere il cosiddetto salto della fede, con il quale si oltrepassano i limiti imposti dalla riflessione razionale. Questo salto rappresenta un abbandono al mistero che costituisce l'essenza dell'umano. Nel contesto specifico del cristianesimo e della rivelazione divina, tale atto appare come un gesto che sembra entrare in conflitto con le prerogative stesse della ragione umana.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Schopenhauer: Schopenhauer riprende la distinzione kantiana tra fenomeno, inteso come rappresentazione, e noumeno, identificato con la volontà. 
@@ -90,5 +89,5 @@ Alla fine, la scelta deve affrontare e superare il paradosso racchiuso nella rel
 
   / I tre stadi dell'esistenza: L'esistenza umana si articola in tre stadi: estetico, etico e religioso. In ciascun stadio l'individuo è chiamato a compiere una scelta. Lo stadio estetico rappresenta la condizione di chi sceglie di non scegliere, rimanendo intrappolato nella pura possibilità. L'etico emerge nel momento in cui l'individuo supera questa contraddizione mediante decisioni basate su valori universali. Infine, nello stadio religioso, l'uomo affronta il paradosso tra finito e infinito attraverso il "ricordo dell'eterno", realizzando un salto oltre i limiti imposti dalla riflessione razionale: il salto della fede. 
 
-
+]
 

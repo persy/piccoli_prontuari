@@ -51,8 +51,7 @@ Nel Settecento e Ottocento si verificarono la critica illuminista, materialista 
 La svolta decisiva di questa fase teologica fu il recupero della centralità della rivelazione di Dio in Gesù Cristo, interpretata in modo magistrale dal teologo protestante Karl Barth e riaffermata nell'ambito cattolico dal Concilio Vaticano II. 
 
 Nel Novecento, mentre il fenomeno religioso veniva contestato filosoficamente attraverso le letture critiche di Marx, Nietzsche e Freud volte a smascherarne la presunta natura mistificante, si assistette anche a una riabilitazione del suo ruolo essenziale nella costruzione sociale da parte di studiosi come Émile Durkheim, Marcel Mauss, René Girard e dalla scuola di Francoforte.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Definizione di religione: La religione può essere definita come un insieme di credenze e pratiche cultuali volte a esprimere il rapporto dell'essere umano con il divino. In questo ambito, si possono distinguere due atteggiamenti principali:  
@@ -84,4 +83,4 @@ Nel Novecento, mentre il fenomeno religioso veniva contestato filosoficamente at
 
 / Teologia e filosofia nel secolo XX: Nel Novecento, oltre alla contestazione filosofica della religione da parte di pensatori come Karl Marx, Friedrich Nietzsche e Sigmund Freud, si assiste alla sua rivalutazione per il ruolo fondamentale che ricopre nella costruzione sociale. Studiosi come Émile Durkheim, Marcel Mauss, René Girard e la Scuola di Francoforte mettono in luce questa dimensione costruttiva del fenomeno religioso.  
 
-
+]

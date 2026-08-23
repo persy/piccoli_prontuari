@@ -61,8 +61,7 @@ I princìpi fondamentali delle dottrine neoplatoniche sono i seguenti:
 + l'integrazione della morale nella mistica, intesa come assimilazione a Dio attraverso l'estasi;
 + la giustificazione razionale del politeismo come componente teologica della filosofia (con particolare attenzione a Proclo e Giamblico);
 + l'inserimento della fede teurgica, una pratica esoterica volta a evocare gli dèi mediante simboli o riti medianici, come parte essenziale e culminante della sapienza filosofica.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La rifondazione della metafisica: Plotino rappresenta un punto di svolta nella storia del pensiero filosofico, operando una rifondazione radicale della metafisica che sviluppa fino alle estreme conseguenze le "dottrine non scritte" di Platone.
@@ -82,3 +81,4 @@ I princìpi fondamentali delle dottrine neoplatoniche sono i seguenti:
 / La materia: Nella scala degli esseri, il cosmo fisico rappresenta il gradino finale: la materia è la manifestazione estrema e attenuata della forza creatrice.  
 
 / L'uomo: L'essenza dell'essere umano risiede nella sua anima, da cui scaturiscono tutte le attività e il cui destino ultimo consiste nel ricongiungimento con l'Uno-Bene.  
+]

@@ -78,8 +78,7 @@ L'individuazione avviene tramite la creazione di simboli, che non rimandano a si
 Il simbolo non rappresenta un significato statico, bensì un'azione che mantiene in tensione gli opposti, dando forma alla vita psichica. Secondo Jung, la produzione simbolica individuale e collettiva supera i confini dei significati codificati e rappresenta l'essenza della biografia personale e della storia condivisa.  
 
 Jung amplia così il concetto di psiche rispetto alla visione naturalistica proposta da Freud, dove questa era identificata con le pulsioni biologiche dell'uomo come organismo. Jung integra invece la psiche con la dimensione storica, considerando la storia come il contesto in cui la psiche si modifica in relazione alle trasformazioni epocali.  
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Freud e la psicoanalisi:  Freud giunge alla formulazione del concetto di inconscio studiando le nevrosi, individuandone la causa in rappresentazioni mentali vissute come inaccettabili e che il soggetto respinge, creando un conflitto interno che le spinge nell'inconscio.  
@@ -106,4 +105,4 @@ Jung amplia così il concetto di psiche rispetto alla visione naturalistica prop
 
 / Il simbolo:  Per Jung, il simbolo riveste una funzione centrale nel processo di individuazione. Esso unisce gli opposti della vita psichica e richiama significati che sfuggono a una descrizione razionale. La produzione simbolica genera un surplus di senso che va oltre la realtà esistente, rivelando la capacità trasformativa sia dell'individuo sia della storia collettiva.  
 
-
+]

@@ -66,8 +66,7 @@ Nella sua _Metaphysica_, Campanella approfondisce i fondamentali elementi del sa
 Il perseguimento dell'imitazione divina diviene quindi il dovere primario dell'uomo, chiamato a interpretare i segni della gloria di Dio attraverso due "libri": la Bibbia e il libro della natura. Nella sua _Theologia_, Campanella attribuisce al cristianesimo una superiorità rispetto alle altre religioni positive, sostenendo che Cristo ha la capacità unica di rinnovare l'innato spirito religioso dell'uomo e ricondurlo all'obbedienza dei comandamenti divini.
 
 In merito alla natura, Campanella identifica il sapere con l'essere, così come esso appare nell'immediatezza dell'esperienza sensibile. Anche le più piccole manifestazioni naturali rivelano al filosofo l'essere perfetto di Dio. Nell'opera _La Città del Sole_, infine, egli delinea un'utopia politico-religiosa fondata su una razionale organizzazione della vita sociale. La ragione, intesa come "sole metafisico", viene descritta quale sintesi armoniosa di sapienza, potenza e amore.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La concezione della natura nel Rinascimento: Durante il Cinquecento, la natura viene interpretata come principio vitale e dinamico che permea tutte le cose esistenti, configurandosi come un'entità vivente, organicamente e inevitabilmente ordinata. L'indagine sulla natura si avvale di pratiche magiche, astrologiche e alchemiche, con l'obiettivo di esplorarne e dominarne la struttura profonda di connessione tra i fenomeni.
@@ -84,3 +83,4 @@ In merito alla natura, Campanella identifica il sapere con l'essere, così come 
 
 / Campanella: Tommaso Campanella attribuisce all'essere umano il compito di imitare Dio leggendo i segni divini contenuti nei due grandi libri: la Bibbia e la natura. Per Campanella, la conoscenza coincide con l'essere così come esso si manifesta nell'immediatezza dell'esperienza sensibile, che rivela al filosofo la perfezione dell'essere divino. Nella sua opera La Città del Sole propone una visione utopica politico-religiosa fondata sull'organizzazione razionale della vita sociale.
 
+]

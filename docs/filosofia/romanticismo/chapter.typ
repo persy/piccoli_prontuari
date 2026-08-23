@@ -34,8 +34,7 @@ Il romanticismo di Heidelberg assume caratteristiche peculiari, orientandosi ver
 A Heidelberg queste istanze sono ulteriormente sviluppate con visioni mistiche e speculative, soprattutto grazie al contributo di Görres, che elabora intuizioni analogiche ispirate alla sapienza magica e alchemica precedente l'affermarsi delle scienze moderne. Il romanticismo di Monaco, invece, si distingue per la sua fusione tra romanticismo e cattolicesimo. Emblematico è il caso di Friedrich Schlegel, che con la sua conversione al cattolicesimo nel 1808 introduce tali concezioni anche nel contesto viennese.
 
 Significativo è il contributo di Schelling a Monaco, dove nel biennio 1836-37 egli tiene le celebri Lezioni monacensi. In queste lezioni critica duramente il razionalismo di Hegel, il quale sin dagli esordi aveva espresso una severa opposizione al romanticismo. A Monaco Schelling intensifica il suo orientamento teosofico e irrazionalistico, accompagnando tali riflessioni con una revisione politica conservatrice e restauratrice. Questo segna un distacco dalle posizioni iniziali più vicine al radicalismo rivoluzionario ispirato alla tradizione francese.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Le caratteristiche del romanticismo: Il romanticismo presenta sei aspetti fondamentali: il privilegio del sentimento e dell'intuizione, la valorizzazione della soggettività, una visione tragica della vita, una concezione energetico-organicistica della natura, una rivalutazione dell'arte e della religione, e un'attenzione speciale alla storia.
@@ -47,3 +46,5 @@ Significativo è il contributo di Schelling a Monaco, dove nel biennio 1836-37 e
 / La scuola di Heidelberg: I letterati di Heidelberg guardano al passato, rivalutando il Medioevo e la tradizione popolare. Mito e poesia sono interpretati come espressioni di una verità metafisica. 
 
 / La scuola di Monaco: Il romanticismo di Monaco cerca una conciliazione tra i suoi valori e il cattolicesimo. 
+
+]

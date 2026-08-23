@@ -51,8 +51,7 @@ Nel primo stadio della sua riflessione, influenzato dall'approccio epistemologic
 In particolare, Foucault esplora le modalità attraverso cui follia e malattia sono state storicamente concettualizzate e rese oggetto di un sapere scientifico, come dimostrato nei suoi testi principali: _Storia della follia nell'età classica_ (1961) e _Nascita della clinica_ (1963). Queste riflessioni lo conducono a sostenere che le scienze strutturaliste, quali psicoanalisi, linguistica ed etnologia, implicano la dissoluzione del concetto di uomo sia come soggetto sia come oggetto del sapere. Infatti, tali discipline si focalizzano su sistemi strutturali autonomi, separati dalla centralità dell'uomo (_Le parole e le cose: un'archeologia delle scienze umane_, 1966). 
 
 Negli sviluppi successivi del suo pensiero, Foucault approfondisce il tema del potere, analizzando in che modo esso si intrecci indissolubilmente al sapere, come illustrato in _Microfisica del potere_ (1977). La fase finale della sua ricerca è dedicata al tema della sessualità, affrontata con l'intento di individuare una nuova concezione di soggettività, una sfida che si mostra complessa alla luce delle sue precedenti formulazioni teoriche (_Storia della sessualità: La cura di sé_, 1984).
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Lévi-Strauss: Lévi-Strauss basa la sua ricerca antropologica sul concetto di struttura, intesa come "sistema di relazioni latenti nell'oggetto". 
@@ -77,7 +76,7 @@ Negli sviluppi successivi del suo pensiero, Foucault approfondisce il tema del p
 
   / La sessualità: Si dedica poi al tema della sessualità, nel tentativo di individuare una nuova idea di soggettività. 
 
-
+]
 
 
 

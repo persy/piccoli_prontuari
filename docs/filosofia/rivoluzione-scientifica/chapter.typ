@@ -46,8 +46,7 @@ Questa teoria portò a concepire il mondo come una sorta di macchina regolata da
 Il metodo adottato nei _Principia_ si distingue notevolmente dall'empirismo sperimentale che caratterizzava le sue ricerche in ambito ottico. La teoria astronomica di Newton segue un'impostazione assiomatica, ispirata al modello geometrico di Euclide: i suoi principi non derivano direttamente dall'osservazione, bensì trovano la loro validazione nelle conseguenze dedotte, che sono coerenti con l'esperienza empirica.
 
 Profondamente coinvolto nelle questioni religiose, Newton dedicò parte significativa delle sue energie agli studi biblici. Egli era fermamente convinto della compatibilità tra la propria visione scientifica e la religione, sostenendo che le sue teorie offrivano nuovi argomenti a favore dell'esistenza di Dio. Secondo Newton, il Creatore aveva costruito l'universo seguendo principi semplici e intelligibili, che le sue scoperte scientifiche avevano permesso di svelare e rendere accessibili all'umanità. 
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La nascita della scienza moderna: La scienza moderna si afferma nel XVII secolo caratterizzandosi come un sapere oggettivo, verificabile, e soggetto a controllo pubblico. Tale sviluppo segna una svolta rispetto agli approcci precedenti, ponendo le basi per il metodo scientifico occidentale.
@@ -64,6 +63,4 @@ Profondamente coinvolto nelle questioni religiose, Newton dedicò parte signific
 
 / Newton e la religione: Anche Newton ritiene che tra scienza e religione non vi sia alcun conflitto; egli percepisce il suo lavoro scientifico come perfettamente consistente con la fede.
 
-
-
-
+]

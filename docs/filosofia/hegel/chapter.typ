@@ -88,8 +88,7 @@ La sinistra hegeliana, denominata anche "giovani hegeliani," ha avuto invece un 
 Di particolare rilievo è la critica religiosa formulata da Ludwig Feuerbach (1804-1872), che già nel 1830, quando Hegel era ancora in vita, pubblicò anonimamente _Pensieri sulla morte e l'immortalità_. In quest'opera afferma l'incompatibilità dell'immortalità individuale con il pensiero hegeliano, attribuendogli un carattere chiaramente panteistico: secondo Feuerbach, ciò che è immortale non è l'individuo, bensì l'umanità storica in continua evoluzione. Nella sua opera principale, _L'essenza del cristianesimo_ (1841), interpreta la coscienza religiosa come una forma di alienazione. L'essenza divina sarebbe infatti una proiezione della natura umana: l'alienazione è quindi il processo attraverso il quale la ricchezza attribuita a Dio rappresenta il corrispondente impoverimento dell'uomo. Il compito della critica diventa allora quello di restituire all'uomo ciò che ha perso, recuperando il suo essere alienato in Dio.
 
 In linea generale, i difensori e i critici della religione tradizionale tendono ad adottare rispettivamente posizioni politiche conservatrici o innovatrici.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La "Fenomenologia dello spirito": La Fenomenologia dello spirito di Hegel si propone di delineare il percorso dalle forme più semplici dello spirito, rappresentate dalla "coscienza immediata", fino alla prospettiva del "sapere assoluto", al fine di approdare al "concetto della scienza".
@@ -110,3 +109,4 @@ In linea generale, i difensori e i critici della religione tradizionale tendono 
 
 / La destra e la sinistra hegeliane: Dopo la scomparsa di Hegel, i suoi seguaci si divisero in due correnti principali: destra e sinistra hegeliana. Queste interpretano in maniera distinta il rapporto tra la filosofia hegeliana e il cristianesimo, generando anche implicazioni politiche divergenti.
 
+]

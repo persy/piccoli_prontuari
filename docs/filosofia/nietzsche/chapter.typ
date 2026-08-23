@@ -78,8 +78,7 @@ Dalle ceneri del nichilismo radicale traspare l'intento costruttivo di Nietzsche
 In _Al di là del bene e del male_ (1886) e nella _Genealogia della morale_ (1887), Nietzsche approfondisce ulteriormente la sua critica ai valori tradizionali della cultura europea. Nella _Genealogia della morale_, in particolare, egli stigmatizza la morale platonico-cristiana, fondata su compassione, umiltà, rassegnazione e uguaglianza che livella verso il basso. Questa viene definita morale degli schiavi, che rinuncia alla vita e nutre risentimento verso le virtù aristocratiche come magnanimità, coraggio, eccedenza e generosità.
 
 Molti scritti successivi di Nietzsche, raccolti arbitrariamente dalla sorella Elisabeth con intenti condizionati dalle sue simpatie razziste e autoritarie sotto il titolo _Volontà di potenza_ (1901), hanno purtroppo contribuito a distorcere il pensiero originale del filosofo.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La nascita della tragedia: In _La nascita della tragedia dallo spirito della musica_, Nietzsche critica il carattere unilaterale e riduttivo della cultura tedesca del suo tempo, definita "teoretica", in quanto tende a subordinare l'arte al concetto, trascurando la connessione tra l'impulso apollineo e quello dionisiaco.
@@ -103,3 +102,5 @@ Molti scritti successivi di Nietzsche, raccolti arbitrariamente dalla sorella El
 / Il superuomo: Il riscatto dell'esistenza richiede l'abbandono dell'idea tradizionale di uomo, per permettere la costruzione del "superuomo", figura capace di plasmare autonomamente un'esistenza piena di vita e significato.
 
 / Genealogia della morale: Ne _La genealogia della morale_, Nietzsche critica la morale platonico-cristiana come "morale degli schiavi", caratterizzata dal risentimento contro le virtù nobili e generose degli aristocratici, ritenendo questo sistema livellato verso i più deboli e rinunciatari.
+
+]

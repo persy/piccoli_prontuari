@@ -35,8 +35,7 @@ Questa idea viene approfondita in _L'evoluzione creatrice_ (1907), dove delinea 
 / Slancio vitale: Lo slancio vitale si manifesta come un impulso formativo ed evolutivo che anima ogni aspetto e ogni forma della realtà. Esso introduce il massimo grado possibile di indeterminazione e libertà all'interno dei fenomeni. Questo principio, intrinsecamente creativo, pur essendo unico e indivisibile, si sviluppa seguendo una traiettoria discontinua e divergente, attraverso processi di scissione e differenziazione.
 
 / Tempo cronologico: Il tempo cronologico è invece associato alla scienza e all'ambito pratico della vita quotidiana. Si distingue per il suo carattere quantitativo, unitario, reversibile, omogeneo e lineare. Privo di qualità intrinseche, questo tipo di tempo viene "spazializzato" e suddiviso in segmenti eguali. È uno strumento essenziale tanto per la scienza, che lo utilizza al fine di misurare e prevedere, quanto per l'individuo comune, il quale se ne serve per organizzare i propri stati di coscienza in una sequenza ordinata.]
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Blondel: Blondel critica il positivismo, attribuendo all'azione il ruolo centrale nella realtà e nella riflessione filosofica. 
@@ -55,5 +54,5 @@ Questa idea viene approfondita in _L'evoluzione creatrice_ (1907), dove delinea 
 
   / Il misticismo: In _Le due fonti della morale e della religione_, Bergson individua nel misticismo, in particolare quello cristiano, una forma di ripresa dello slancio vitale da parte dell'essere umano, chiamato ad attuare il fine ultimo dell'universo.
 
-
+]
 

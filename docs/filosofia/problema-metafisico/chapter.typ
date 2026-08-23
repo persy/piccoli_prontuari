@@ -56,8 +56,8 @@ L'ideale sarebbe un linguaggio capace di unire il rigore delle scienze esatte al
 Un'altra serie di critiche alla metafisica è emersa dall'ambito del neopositivismo, con formulazioni particolarmente nette da parte di R. Carnap. Questi propone un "superamento della metafisica attraverso l'analisi logica del linguaggio": partendo dal presupposto che solo gli enunciati empiricamente verificabili possiedano significato, i termini tradizionali della metafisica (come "assoluto", "Dio", "eterno") vengono privati di valore semantico e dichiarati effettivamente privi di consistenza, essendo intrinsecamente non verificabili nell'ambito dell'esperienza.
 
 Con il tramonto del neopositivismo, i suoi eredi all'interno della filosofia analitica, influenzati dal "secondo" Wittgenstein, hanno scelto di attribuire alla metafisica un valore non conoscitivo, interpretandola al massimo come espressione di una visione del mondo non argomentabile, priva di fondamento razionale e dunque impossibile da considerare valida in senso strettamente filosofico.
-#pagebreak()
-#set page(fill: accent.fil.lighten(90%))
+
+#lastpage[
 == In sintesi <senza_numero>
 
 / L'origine del termine metafisica: Il termine "metafisica" venne introdotto da Andronico di Rodi nel I secolo d.C., per designare, nella sua edizione delle opere di Aristotele, gli scritti collocati dopo la _Fisica_. Questi testi riguardavano le realtà sovrasensibili. \ Con il tempo, il termine ha assunto un significato più esteso, diventando il nome della disciplina che si occupa di studiare l'essere in quanto tale, esaminandone le caratteristiche essenziali e i significati fondamentali.
@@ -80,4 +80,4 @@ Con il tramonto del neopositivismo, i suoi eredi all'interno della filosofia ana
 
 / Il dibattito contemporaneo: Nella filosofia contemporanea, il dibattito sulla metafisica è decisamente orientato verso questioni epistemologiche piuttosto che ontologiche. Oggi ci si pone non tanto il problema di cosa sia l'essere quanto di come esprimerlo.
 
-
+]
