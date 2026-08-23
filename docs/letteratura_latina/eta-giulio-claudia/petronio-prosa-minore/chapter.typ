@@ -23,7 +23,7 @@ Al _Satyricon_ si associano molteplici questioni interpretative. La sua datazion
 
 La teoria prevalente è che si tratti di un romanzo a tutti gli effetti, sebbene caratterizzato da una profonda originalità formale, e che sia concepito come una parodia del romanzo ellenistico greco. In questa prospettiva, il _Satyricon_ rovescerebbe gli elementi sentimentali propri delle opere greche attraverso una rappresentazione improntata a un crudo realismo.
 
-#boxbr[== *🧩* Riassunto del _Satyricon_ <senza_numero>
+#boxbr[== 🐺 Riassunto del _Satyricon_ <senza_numero>
 
 Encolpio, un giovane colto e dotato di un raffinato senso estetico e di un ironico distacco, racconta in prima persona le sue peripezie durante i vagabondaggi in diverse città dell'Italia meridionale. Sopravvive grazie a espedienti, furti e pranzi scroccati. Al suo fianco c'è Gitone, un adolescente di cui è innamorato. A completare il trio iniziale è Ascilto, anch'egli attratto da Gitone, il che scatena gelosie e litigi tra i protagonisti.
 
@@ -87,8 +87,7 @@ Lucio Giunio Moderato Columella (originario di Gades, l'attuale Cadice, I secolo
 
 Ulteriore contributo attribuito a Columella è il trattato _De arboribus_ (_Gli alberi_), probabilmente parte di una versione precedente del _De re rustica_.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Petronio Arbitro: (morto nel 66 d.C.) è una figura di cui non si hanno molte notizie certe. Secondo gli studiosi, potrebbe essere identificato con l'esteta raffinato, arbiter elegantiae, che operò alla corte di Nerone. Caduto in disgrazia, sarebbe morto suicida tagliandosi le vene. \ La sua opera principale, il _Satyricon_, è considerato il primo romanzo della letteratura latina ed giunto a noi in forma frammentaria con i libri XV e XVI. Scritto alternando prosa e poesia, narra le avventure di alcuni vagabondi cinici e senza scrupoli, offrendo un ritratto realistico e ironico della corrotta società sotto Nerone. Si distingue per la sua lingua innovativa e la varietà di registri espressivi.
@@ -111,3 +110,5 @@ Ulteriore contributo attribuito a Columella è il trattato _De arboribus_ (_Gli 
 
 / Columella: (sec. I d.C.), originario della Spagna, scrive _De re rustica_ in dodici libri, il più completo trattato sull'agricoltura giunto fino ai nostri giorni.
 
+
+]

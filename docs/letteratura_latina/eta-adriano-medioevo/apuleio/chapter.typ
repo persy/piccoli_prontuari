@@ -65,7 +65,7 @@ All'inizio del romanzo, Apuleio specifica che l'opera trae origine dalla tradizi
 
 Il romanzo presenta anche similitudini con un'opera più breve, _Lucio o l'asino_, attribuita al contemporaneo greco Luciano di Samosata. Tuttavia, molti critici considerano questo scritto apocrifo. Rimane ancora aperta la questione se Apuleio abbia tratto ispirazione dallo pseudo-Luciano per alcune parti del proprio testo o se entrambe le opere primarie derivino da un romanzo perduto dello scrittore greco Lucio da Patrasso, come ipotizza Fozio, patriarca di Costantinopoli nel IX secolo.
 
-#boxbr[== *🧩* Riassunto delle _Metamorfosi_ <senza_numero>
+#boxbr[== 🐺 Riassunto delle _Metamorfosi_ <senza_numero>
 
 La narrazione è affidata a Lucio, un giovane colto e spensierato che, durante un viaggio in Tessaglia, ascolta da due viandanti una macabra storia di streghe. Spinto da una crescente curiosità per i misteri delle arti magiche, giunge nella città di Ipota, dove Panfila, moglie del suo ospite, gode della fama di strega capace di trasformare i propri amanti in animali o pietre.
 
@@ -111,8 +111,7 @@ Apuleio godeva già presso i suoi contemporanei della fama di mago e conoscitore
 
 Con il ritrovamento del manoscritto da parte del Boccaccio, la fortuna di Apuleio aumentò considerevolmente: l'autore influenzò profondamente il romanzo picaresco spagnolo e contribuì a modellare fiabe e novelle in tutta Europa.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: (Madauraca ca 125 - Cartagine ca 180). Studioso di filosofia, retorica e  grammatica. È noto per una vita costellata di studi e viaggi. Durante la sua formazione approfondisce grammatica, retorica e filosofia. Spirito instancabile e abile oratore, è attratto dalle dottrine religiose e viene iniziato ai misteri di Dioniso. \ Si sposa a Cartagine con Pudentilla, una vedova matura e benestante; tuttavia, questa unione suscita forti critiche da parte dei parenti della donna che accusano Apuleio di manipolazione e pratiche magiche. Nel relativo processo si difende brillantemente confutando ogni accusa con arguzia.  Nella sua carriera professionale si dedica non solo all'attività di avvocato ma anche a quella di medico, bibliotecario e conferenziere.
@@ -135,3 +134,5 @@ Con il ritrovamento del manoscritto da parte del Boccaccio, la fortuna di Apulei
 
 
 
+
+]

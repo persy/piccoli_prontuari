@@ -19,7 +19,7 @@ Nel periodo arcaico, il termine latino "fabula" indicava ogni tipo di rappresent
 
 La popolarità del teatro poteva trasformarsi in uno strumento utile per rafforzare la carriera politica di chi ne curava l'organizzazione. Non era raro che alcuni magistrati decidessero di coprire personalmente i costi relativi ai _ludi scaenici_, organizzati durante le festività religiose (_feriae_). In tali circostanze, oltre agli spettacoli teatrali, si svolgevano anche competizioni sportive (_ludi circenses_) e altre forme di intrattenimento collettivo.
 
-#boxfl(bottom)[== *🧩* I generi teatrali <senza_numero>
+#boxfl(bottom)[== 🐺 I generi teatrali <senza_numero>
 
 La palliata (_fabula palliata_) era una forma di commedia ambientata in contesti greci, il cui nome deriva dal "pallium", il mantello greco tipicamente indossato dagli attori. Questa tipologia teatrale si ispirava apertamente ai lavori degli autori della commedia nuova, come Filemone, Difilo e, soprattutto, Menandro, dai quali traeva trame, ambientazioni e personaggi, pur concedendosi notevole libertà creativa e spesso ricorrendo alla pratica della contaminatio. Introdotta da Livio Andronico e Gneo Nevio, trovò i suoi principali interpreti in Cecilio Stazio, Plauto e Terenzio. 
 
@@ -81,8 +81,7 @@ La fabula cothurnata era invece la tragedia di ambientazione greca, basata sui m
 
 Infine, la fabula praetexta rappresentava la tragedia romana con tematiche patriottiche e nazionali. Questo genere celebrava eventi storici importanti o figure politiche eminenti. Il nome deriva dalla _toga praetexta_, ornata da una striscia di porpora, indossata dai magistrati romani. La prima rappresentazione documentata risale agli ultimi anni del III secolo a.C.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Teatro: La _fabula_, un termine generico che designa qualsiasi forma di testo teatrale, godeva di grande rinomanza a Roma. Le rappresentazioni si svolgevano nel contesto delle festività religiose, in occasione dei _ludi scaenici_. Il palcoscenico era costruito in legno ed era di natura temporanea, situato in una piazza o lungo una via.
@@ -90,3 +89,4 @@ Infine, la fabula praetexta rappresentava la tragedia romana con tematiche patri
 / Attori e autori: Gli attori, che indossavano maschere durante le loro performance, percepivano compensi elevati; tuttavia, la maggior parte di loro era costituita da schiavi o liberti. Anche gli autori teatrali non occupavano posizioni sociali prestigiose, poiché nessun cittadino romano aderiva alla loro corporazione.
 
 / Generi: Tra i principali generi teatrali si annoverano la _palliata_ e la _cothurnata_, rispettivamente la commedia e la tragedia di ambientazione greca. Inoltre, vi erano la _togata_ e la _praetexta_, opere di argomento romano. Grande popolarità acquisirono anche il mimo e il pantomimo, forme teatrali di natura decisamente più popolare.
+]

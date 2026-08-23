@@ -93,7 +93,7 @@ Le leggende all'interno delle _Metamorfosi_ sono organizzate secondo criteri geo
 
 Il tema centrale resta sempre l'amore, trasfigurato dai contesti mondani della Roma contemporanea verso i territori fantastici del mito.
 
-#boxfl(top)[== *🧩* Riassunto delle _Metamorfosi_ <senza_numero>
+#boxfl(top)[== 🐺 Riassunto delle _Metamorfosi_ <senza_numero>
 
 Il poema si apre con un'invocazione agli dèi, affinché favoriscano l'impresa narrativa, per poi raccontare la creazione del mondo a partire dal caos primordiale. Segue la formazione della terra, degli animali e degli uomini, il racconto delle quattro età del mondo, la trasformazione di Licaone in lupo come punizione divina, il diluvio universale e la rinascita dell'umanità grazie a Deucalione e Pirra.
 
@@ -141,8 +141,7 @@ Anche durante il Rinascimento – in Italia come nel resto d'Europa – la poesi
 
 La sua celebrità subì però un declino con l'avvento del romanticismo, movimento poco incline a riconoscere valore alla brillante leggerezza che contraddistingueva il poeta latino.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Publio Ovidio Nasone (Sulmona, 43 a.C. – Tomi, 17 d.C.), nato da una famiglia equestre benestante, completò i suoi studi a Roma e si dedicò al tradizionale viaggio formativo ad Atene. Dopo una breve carriera politica, decise di seguire la propria vocazione artistica, inserendosi nel circolo culturale di Messalla Corvino e diventando uno dei poeti più apprezzati nell'élite romana. Tuttavia, a causa di un possibile coinvolgimento nello scandalo legato alla nipote di Augusto, fu esiliato a Tomi, sul Mar Nero, dove trascorse il resto della sua vita.
@@ -150,3 +149,5 @@ La sua celebrità subì però un declino con l'avvento del romanticismo, movimen
 / Opere: La produzione letteraria di Ovidio fu straordinariamente vasta e ricca. Tra le opere minori si trovano "I rimedi d'amore", "I medicamenti del volto femminile" e quelle scritte durante l'esilio, come "Tristezze" e "Lettere dal Ponto". Gli _Amori_ consistono in tre libri di elegie che trattano l'amore come un gioco galante, da osservare con elegante distacco e un'ironia sottile. \ Le _Eroidi_ raccolgono ventuno epistole poetiche a tema erotico-mitologico, scritte da eroine del mito e della letteratura indirizzate ai loro mariti o amanti. \ L'_Arte di amare_, celebre e controversa, è un manuale di consigli raffinati rivolti agli uomini per conquistare le donne e viceversa. L'opera suscitò scandalo ma testimonia la sensibilità e l'umorismo di Ovidio. \ Il suo capolavoro, le _Metamorfosi_, è un poema mitologico composto da quindici libri in esametri. In esso sono narrate circa 250 trasformazioni legate al tema dell'amore, con una maestria artistica unica. \ I _Fasti_ sono una sorta di calendario poetico che illustra le diverse festività romane. Attraverso quest'opera, Ovidio spiega le origini, l'etimologia e i rituali delle celebrazioni, contribuendo al programma culturale promosso da Augusto.
 
 
+
+]

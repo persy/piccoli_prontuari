@@ -29,7 +29,7 @@ Il resto della sua produzione è andato perduto. Tra le opere non sopravvissute 
 
 Alcuni discepoli di Quintiliano pubblicarono due libri sull'arte retorica, _Ars rhetorica_, probabilmente basati su materiale didattico del maestro ma divulgati contro la sua volontà. Le declamazioni tramandate sotto il suo nome nei manoscritti sono in gran parte spurie: le 19 denominate "maggiori" risalgono al IV secolo, mentre le 145 "minori" costituiscono una selezione superstite di una raccolta originaria che ne contava ben 388, da collocarsi tra il I e il II secolo.  
 
-#boxfl(top)[== *🧩* Riassunto della _Institutio oratoria_ <senza_numero>
+#boxfl(top)[== 🐺 Riassunto della _Institutio oratoria_ <senza_numero>
 
 Libro I: affronta l'educazione iniziale del fanciullo, raccomandando un'istruzione familiare seguita da una scuola pubblica per l'insegnamento di base.  
 
@@ -62,8 +62,7 @@ Meno centrale nell'opera è il legame tra l'arte oratoria e le condizioni politi
 
 Di particolare interesse è anche l'excursus letterario presente nel libro X, dove Quintiliano suddivide autori greci e latini per genere e ne raccomanda la lettura per la formazione dell'oratore. Qui emerge chiaramente la sua preferenza per autori più recenti rispetto agli arcaici, il desiderio di sottolineare l'originalità tutta latina di certi generi – in particolare la satira – e la lucidità di alcuni suoi giudizi critici, spesso accostabili alla sensibilità moderna.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Marco Fabio Quintiliano: (Calagurris, Spagna, circa 35 - Roma, 96 d.C.) completò la sua formazione a Roma, dove si stabilì esercitando la professione di avvocato. Durante il regno di Vespasiano, fu il primo a ricoprire, per ben vent'anni, una cattedra pubblica di eloquenza. \ Le sue opere principali includono _Institutionis oratoriae libri XII_, un manuale completo e articolato destinato alla formazione degli oratori, giunto fino a noi nella sua integralità. Di contro, l'opera _De causis corruptae eloquentiae_ risulta perduta. \ Quintiliano, in aperto dissenso con le posizioni di Seneca, si ispira a Cicerone per delineare il profilo dell'oratore ideale. Secondo il retore, quest'ultimo deve incarnare valori quali l'onestà, una spiccata capacità organizzativa ed espositiva, e una vasta cultura. Risulta particolarmente significativo l'elenco degli scrittori latini e greci fornito dall'autore, corredato da sintetici ma pregnanti giudizi critici.
@@ -84,3 +83,5 @@ Di particolare interesse è anche l'excursus letterario presente nel libro X, do
 
 
 
+
+]

@@ -273,8 +273,7 @@ Claudio Rutilio Namaziano, pagano di origine gallica e figlio di un alto funzion
 
 Poeta raffinato, Rutilio racconta il suo viaggio nel poemetto _De reditu suo_ (_Il ritorno_), che tuttavia ci è giunto incompleto, fermandosi al verso 68 del secondo libro. L'opera si distingue per il profondo rispetto verso l'imponente maestà di Roma e per una pungente avversione nei confronti del cristianesimo, che l'autore riteneva responsabile della decadenza e desolazione dell'impero. Il momento più autentico e sentito del poema si trova nel commovente omaggio che il poeta rivolge a Roma al momento della partenza, descrivendola come regina del mondo, conquistatrice e unificatrice dei popoli.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Ammiano Marcellino: (Antiochia, ca 330 - Roma, ca 400) Di origine greca, la sua carriera militare, intrapresa con energia, subì una brusca interruzione dopo il fallimento della spedizione contro i Parti. Ritiratosi agli studi nell'anno 378, si stabilì a Roma e dedicò il resto della sua esistenza alla ricerca storica. \ Ammiano è considerato l'ultimo grande storico della letteratura latina. La sua opera principale è il _Rerum gestarum_, un'opera composta da 31 libri, dei quali ci sono pervenuti solo gli ultimi 18. Questi trattano eventi a lui contemporanei, allacciandosi metodologicamente alla tradizione di Tacito. Ammiano si distingue per la sua imparzialità come scrittore: da un lato ammira la grandezza dei romani, dall'altro non esita a denunciarne la decadenza. Tra le sue pagine si trovano anche descrizioni dettagliate di popoli e territori, oltre a notazioni tecniche e scientifiche.
@@ -309,3 +308,4 @@ Poeta raffinato, Rutilio racconta il suo viaggio nel poemetto _De reditu suo_ (_
 / Prisciano: Nato a Cesarea-Costantinopoli a cavallo tra V e VI secolo, è considerato l'ultimo grande grammatico latino. Compose l'opera _Institutio de arte grammatica_, ritenuta la più importante esposizione della grammatica latina e largamente utilizzata nel Medioevo.
 
 / Namaziano: Di origine gallica e seguace della religione pagana, fu nominato praefectus Urbis. Ci è giunto un poemetto dal titolo _De reditu suo_ (_Il ritorno_), in cui celebra la grandezza e la forza eterna di Roma.
+]

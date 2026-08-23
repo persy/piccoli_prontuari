@@ -72,7 +72,7 @@ Alcuni Epodi sono intrisi di tematiche politiche, mentre altri si concentrano su
 
 Le _Satire_ (_Saturae_), composte tra il 41 e il 30 a.C., rappresentano un momento della produzione letteraria di Orazio segnato da preoccupazioni economiche e dall'amarezza per la caduta degli ideali repubblicani dopo la battaglia di Filippi (42 a.C.). Si tratta di poesie satiriche scritte in esametri, suddivise in due libri: il primo, composto da dieci satire e dedicato a Mecenate, fu pubblicato circa tra il 35 e il 33 a.C.; il secondo, formato da otto componimenti, uscì nel 30 a.C. insieme agli _Epodi_.  
 
-#boxbr[== *🧩* Riassunto delle _Satire_ <senza_numero>
+#boxbr[== 🐺 Riassunto delle _Satire_ <senza_numero>
 
 === Libro primo <senza_numero>
 
@@ -187,7 +187,7 @@ Il primo libro, formato da 20 componimenti e dedicato a Mecenate, venne pubblica
 
 Tra le opere non incluse nelle raccolte citate figura il _Carmen saeculare_, composto su incarico di Augusto nel 17 a.C. per invocare e ringraziare le divinità in occasione della celebrazione dei ludi secolari. Questo carme fu concepito per essere eseguito da due cori di 27 giovani e ragazze, simbolo di una rinnovata armonia tra sacro e umano nella glorificazione dell'età augustea.
 
-#boxbr[== *🧩* Riassunto delle _Epistole_ <senza_numero>
+#boxbr[== 🐺 Riassunto delle _Epistole_ <senza_numero>
 
 === Primo libro <senza_numero>
 
@@ -297,8 +297,7 @@ XVI: Esortazione rivolta ai concittadini romani affinché abbandonino Roma e si 
 
 XVII: Ultima invettiva contro la strega Canidia, in cui Orazio finge di implorarla per ottenere il suo perdono.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Quinto Orazio Flacco (Venosa 65 a.C. - Roma 8 a.C.) studia a Roma, Napoli e Atene. Partecipa alla battaglia di Filippi come tribuno militare nell'esercito di Bruto. Successivamente, grazie a Virgilio, entra nel circolo di Mecenate, con il quale instaura un'amicizia profonda e duratura. Nel 17 a.C., su richiesta di Augusto, compone il _Carme secolare_. Trascorre il resto della sua vita tra Roma e la villa in Sabina.
@@ -312,3 +311,5 @@ XVII: Ultima invettiva contro la strega Canidia, in cui Orazio finge di implorar
 / _Epistole_: Una raccolta di 23 lettere in esametri indirizzate ad amici e conoscenti. Con uno stile discorsivo tratta vari argomenti, dai filosofi ai temi letterari, fino ad aspetti autobiografici. L'Epistola ai Pisoni sull'arte poetica è tra le più celebri.
 
 
+
+]

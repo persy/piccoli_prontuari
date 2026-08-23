@@ -17,7 +17,7 @@ Pur non avendo pubblicato alcuna opera durante la sua vita, fu Cesio Basso a cur
 
 Le Satire riflettono pienamente la dottrina stoica di Persio: in esse condanna i vizi umani quali superstizione, ipocrisia, avarizia, inerzia e schiavitù alle passioni. La sua scrittura è permeata dal senso del dovere e da un ideale intransigente di una vita irreprensibile basata su alte norme morali. Pur ispirandosi ad Orazio nella scelta dei temi trattati, Persio si distingue per il suo rigore inflessibile, lontano dall'indulgenza e dalla cordialità del maestro. Si rivela più moralista che poeta, giudicando la società da un punto di vista distante e privilegiato, con un pessimismo marcato.  
 
-#boxbr[== *🧩* Riassunto delle _Satire_ <senza_numero>
+#boxbr[== 🐺 Riassunto delle _Satire_ <senza_numero>
 
 Satira I: in forma di dialogo tra il poeta e un suo amico, si condanna il comportamento corrotto dei poetastri dell'epoca che, per ottenere applausi e ricchezze durante le declamazioni pubbliche, ricorrono a mezzi discutibili.
 
@@ -37,10 +37,11 @@ Un aspetto distintivo delle Satire è il loro sperimentalismo linguistico raffin
 
 Nonostante la sua scrittura sofisticata fosse rivolta a una cerchia ristretta, Persio godette di grande ammirazione già ai suoi tempi. Nel Medioevo fu particolarmente celebrato per l'integrità morale espressa nelle sue opere.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Persio: (Volterra, 34 – Roma, 62 d.C.) proveniva da una famiglia agiata appartenente all'ordine equestre. A Roma frequentò le scuole migliori di retorica e grammatica, conducendo poi una vita austera e riservata, dedicata agli studi e agli affetti familiari.
 
 / _Satire_: Arrivarono a noi come un corpus di sei componimenti per un totale di 669 esametri, preceduti da 14 versi coliambi. Fortemente influenzate dalla filosofia stoica, queste opere censurano con rigore i vizi umani attraverso uno stile moralistico e distaccato. \ La complessità del linguaggio e la ricercatezza verbale rendono talvolta il messaggio difficile da comprendere; tuttavia, si tratta di una poesia profondamente personale, pensata per un pubblico di pochi lettori raffinati.
+
+]

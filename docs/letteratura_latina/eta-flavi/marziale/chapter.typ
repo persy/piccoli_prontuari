@@ -45,8 +45,7 @@ In alcune occasioni emerge anche il lato lirico del poeta, capace di cogliere, c
 
 Sul piano metrico dominano i distici elegiaci, alternati a faleci e trimetri scazonti. Plinio il Giovane, suo amico e contemporaneo, lo ricorda in una lettera dopo la sua morte con queste parole: "ingegnoso, acuto e pungente; scriveva per lo più con arguzia e acrimonia, ma anche con candida schiettezza".
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: (Bilbilis 40 ca - 104 d.C.) giunge a Roma nel 64 d.C., dove conduce una vita modesta come cliente di ricche famiglie patrizie. Dopo 34 anni torna nella sua città natale.
@@ -54,3 +53,5 @@ Sul piano metrico dominano i distici elegiaci, alternati a faleci e trimetri sca
 / Epigrammi: Scrive 15 libri di epigrammi, di cui 12 rappresentano la sua opera principale. Si tratta per lo più di componimenti satirici ispirati all'osservazione della realtà quotidiana. \ I libri XIII e XIV, _Xenia_ e _Apophoreta_, sono invece opere su commissione. A parte va considerato il _Liber spectaculorum_, composto per celebrare l'inaugurazione del Colosseo. \ L'uomo comune è il vero protagonista dei versi di Marziale. Non critica mai personaggi influenti né eventi politici. Il suo stile, seppur vivace e pungente, si rifugia talvolta in forme prevedibili di rappresentazione. \ Non si può parlare di vera satira: non propone insegnamenti morali e il suo unico obiettivo rimane quello di intrattenere i lettori.
 
 
+
+]

@@ -27,8 +27,7 @@ L'improvvisazione degli attori cede il passo a testi completamente scritti che s
 
 L'atellana riuscì ad attirare un pubblico ampio e variegato nei teatri, composto sia da spettatori colti che da persone comuni, durante tutta l'epoca repubblicana e buona parte di quella imperiale. Tuttavia, il successo fu progressivamente ridimensionato dall'affermarsi sempre più dominante del mimo. Il bolognese Lucio Pomponio, attivo tra la fine del II secolo a.C., si dedicò anche alla togata e alla parodia mitologica. Sono noti circa 70 titoli delle sue atellane e frammenti equivalenti a 200 versi: opere che rappresentano scene di vita quotidiana con un linguaggio vivace e colorito, segnate da comicità immediata, doppi sensi e elementi osceni. Di Novio, vissuto nel I secolo a.C., restano 43 titoli e frammenti per circa 100 versi. Le sue produzioni si distinguono per trovate linguistiche divertenti come giochi di parole, allitterazioni e metafore bizzarre.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Palliata: La monotonia delle trame segna il declino della palliata, che entra in una fase di progressiva perdita di rilevanza. Tra gli autori minori spiccano Lucio Lanuvino, noto per una disputa con Terenzio riguardo alla contaminatio, e Turpilio, influenzato dalle concezioni teatrali di Menandro.
@@ -38,3 +37,5 @@ L'atellana riuscì ad attirare un pubblico ampio e variegato nei teatri, compost
 / Atellana: Durante l'età di Silla l'atellana viene riscoperta e riqualificata in chiave letteraria grazie agli interventi di Pomponio e Novio. L'improvvisazione lascia spazio a testi strutturati che guidano gli attori. Pur mantenendo un contenuto farsesco e osceno dal registro popolare, l'atellana in questa nuova veste guadagna maggiore riconoscimento artistico. Dei lavori di Pomponio sopravvivono 70 titoli e circa 200 versi; di Novio rimangono invece 43 titoli e circa 100 versi.
 
 
+
+]

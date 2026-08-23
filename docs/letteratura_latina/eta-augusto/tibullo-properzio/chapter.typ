@@ -37,7 +37,7 @@ Con certezza, i primi due libri sono attribuiti al poeta Tibullo. Il primo, noto
 
 Il secondo libro, _Nemesi_, è composto da sei elegie, tre delle quali dedicate a una figura femminile chiamata Nemesi. Questo nome, che in greco significa "vendetta", potrebbe simboleggiare una nuova passione maturata dal poeta dopo l'abbandono da parte di Delia, che avrebbe scelto un anziano ricco come compagno. Il terzo libro del corpus non è interamente attribuibile a Tibullo e contiene contributi di diversa natura e origine.
 
-#boxbr[== *🧩* Riassunto dei primi due libri del _Corpus Tibullianum_ <senza_numero>
+#boxbr[== 🐺 Riassunto dei primi due libri del _Corpus Tibullianum_ <senza_numero>
 
 === Libro primo <senza_numero>
 
@@ -177,8 +177,7 @@ Anche la costruzione del pensiero contribuisce a questa difficoltà: le idee non
 
 Il linguaggio utilizzato da Properzio non è meno impegnativo; ricco di allusioni e significati profondi, si caratterizza per l'uso limitato di parole quotidiane a favore di termini rari, preziosi e di grecismi, sia sul piano lessicale che su quello sintattico.  
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Elegia d'amore: Subisce una profonda trasformazione nella tradizione latina, rinnovandosi rispetto all'elegia greca: l'amore vi è rappresentato con immediatezza e autenticità, senza il filtro del mito.
@@ -192,3 +191,5 @@ Il linguaggio utilizzato da Properzio non è meno impegnativo; ricco di allusion
 
 
 
+
+]

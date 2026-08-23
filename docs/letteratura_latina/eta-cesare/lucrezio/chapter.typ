@@ -37,7 +37,7 @@ Secondo Lucrezio, la morte costituisce semplicemente il termine naturale che chi
 
 La vita deve essere abbandonata con serenità e gratitudine: proprio come un commensale sazio si alza da un banchetto, riconoscente per le gioie eventualmente provate o sollevato per essere finalmente libero dalle delusioni e dalle sofferenze subite.
 
-#boxbr[== *🧩* Riassunto del _De rerum natura_ <senza_numero> 
+#boxbr[== 🐺 Riassunto del _De rerum natura_ <senza_numero> 
 
 Il poema si apre con un ampio proemio, un solenne inno a Venere, rappresentata come forza generatrice della natura, dea dell'amore, del piacere e della fecondità, nonché simbolo di pace e di gioia infinita. Venere infonde ispirazione al poeta, che le rivolge una tradizionale invocazione divina per introdurre il suo lavoro. Questo approccio non è in contrasto con le convinzioni di Lucrezio: gli dèi potrebbero esistere, ma rimangono indifferenti alle vicende umane.
 
@@ -93,8 +93,7 @@ L'influenza di Lucrezio fu marcata sin dall'antichità. Orazio e Virgilio, speci
 
 Anche autori come Tacito testimoniarono la stima verso Lucrezio; nel _Dialogus_, egli indica che alcuni contemporanei lo preferivano persino a Virgilio per il suo spessore drammatico più pronunciato. Il poeta venne apprezzato anche da Seneca e Quintiliano. Da parte degli autori cristiani, tuttavia, le dottrine materialistiche lucreziane suscitarono polemiche, da Tertulliano a Lattanzio a Girolamo, che però ne rimasero affascinati.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: La vita di Lucrezio è avvolta da un velo di incertezza, e le informazioni sulla sua biografia sono estremamente limitate. Nato circa nel 98 a.C. e deceduto intorno al 55 a.C., trascorse gran parte della sua esistenza nell'isolamento dedicato agli studi e alla riflessione.
@@ -104,3 +103,5 @@ Anche autori come Tacito testimoniarono la stima verso Lucrezio; nel _Dialogus_,
 / Pensiero: Lucrezio si propone di liberare l'umanità dalle catene imposte dalla paura della morte, dalle superstizioni, dai pregiudizi e dagli errori che offuscano la comprensione del mondo. Attraverso la ragione e il sostegno della filosofia, l'uomo può aspirare a una vita serena e intrisa di consapevolezza.
 
 / Poetica: La grandezza poetica di Lucrezio risiede nella straordinaria forza evocativa delle sue immagini, attraverso le quali la natura emerge come protagonista di un dramma cosmico e maestoso. L'autore attribuisce nuovi significati alle parole del latino, introducendo neologismi e impiegando ripetutamente tecniche stilistiche quali allitterazioni, assonanze, forme arcaiche e costruzioni desuete. \ La sua conoscenza dei grandi autori dell'antichità è evidente: Omero, Eschilo, Euripide e Callimaco hanno influenzato profondamente la sua produzione letteraria.
+
+]

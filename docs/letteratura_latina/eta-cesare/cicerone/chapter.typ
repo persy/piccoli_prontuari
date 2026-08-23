@@ -73,7 +73,7 @@ Nel trattato _Orator_, egli dettaglia le tre qualità fondamentali dell'oratore:
 
 Commuovere gli animi degli ascoltatori rappresenta un obiettivo fondamentale dell'arringa conclusiva, denominata _peroratio_, che costituisce il culmine del discorso oratorio. Cicerone, nel suo contributo retorico, dichiara di non aver mai trascurato alcun stratagemma per rendere persuasiva la propria arringa.
 
-#boxbr[== *🧩* Riassunti delle orazioni di Cicerone <senza_numero>
+#boxbr[== 🐺 Riassunti delle orazioni di Cicerone <senza_numero>
 
 La carriera forense e politica di Marco Tullio Cicerone è scandita da una serie di orazioni emblematiche che riflettono la sua abilità retorica e il suo impegno negli ambiti del diritto privato, penale e pubblico. Queste opere non solo testimoniano il suo ruolo centrale nella vita politica e giuridica romana, ma anche la sua capacità di affrontare una grande varietà di tematiche con rigore e eloquenza.  
 
@@ -147,7 +147,7 @@ Non aderendo a un sistema filosofico specifico, Cicerone mise a confronto le var
 
 Si opponeva fermamente all'epicureismo, considerandolo pericoloso per la vita pubblica a causa del culto dell'otium e della negazione di una provvidenza storica. Nonostante questo, nutriva anche dubbi riguardo al rigorismo stoico, preferendo un approccio eclettico. Questa scelta derivava sia dalla finalità educativa delle sue opere sia da una naturale inclinazione personale.
 
-#boxbr[== *🧩* Riassunti delle opere filosofiche di Cicerone <senza_numero>
+#boxbr[== 🐺 Riassunti delle opere filosofiche di Cicerone <senza_numero>
 
 Le opere filosofiche di Cicerone rappresentano un corpus significativo per comprendere il pensiero del celebre oratore e filosofo romano. 
 
@@ -213,8 +213,7 @@ Oltre che oratore e politico, Cicerone si dedicò occasionalmente alla poesia e 
 
 Cicerone si cimentò anche nella traduzione poetica, realizzando una versione libera del poema astronomico _Fenomeni_ del greco Arato di Soli (circa 320-240 a.C.), testimoniando ancora una volta la sua versatilità intellettuale.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Cicerone nacque ad Arpino nel 106 a.C. e morì a Formia nel 43 a.C. Definito _homo novus_, frequentò le migliori scuole e si formò accanto ai più celebri oratori e filosofi del suo tempo. A soli 25 anni iniziò la carriera come avvocato. Il suo cursus honorum lo vide questore nel 75 a.C., poi edile, pretore e console nel 63 a.C., anno della celebre congiura di Catilina. Esiliato nel 58 a.C., tornò a Roma l'anno successivo, avvicinandosi ai triumviri. Nel 51 a.C. fu proconsole in Cilicia. Durante la guerra civile si schierò con Pompeo ma, dopo la morte di quest'ultimo, si riconciliò con Cesare. Fu infine assassinato dai sicari di Antonio.
@@ -228,3 +227,4 @@ Cicerone si cimentò anche nella traduzione poetica, realizzando una versione li
 / Epistolario: Le lettere di Cicerone, suddivise in quattro raccolte, presentano uno stile spontaneo e immediato, caratteristico del _sermo cotidianus_, ovvero il linguaggio quotidiano delle classi colte di Roma. Esse costituiscono una preziosa testimonianza sia per comprendere la personalità del grande oratore sia per approfondire la politica del suo tempo.
 
 / Poesie: Delle poesie ciceroniane rimangono soltanto alcuni frammenti e titoli.
+]

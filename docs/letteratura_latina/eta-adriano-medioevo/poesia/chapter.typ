@@ -31,8 +31,7 @@ Marco Aurelio Olimpio Nemesiano, poeta africano probabilmente nato a Cartagine, 
 
 A Nemesiano si attribuiscono anche quattro ecloghe ispirate alle Bucoliche di Virgilio, spesso confuse con quelle di Calpurnio Siculo nei manoscritti antichi. Pur essendo riconosciuto come un versificatore preciso e di buon gusto, la critica lo giudica limitato nella sua capacità poetica per mancanza di originalità e immaginazione, nonostante alcuni versi esteticamente ammirevoli.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / _Poëtae novelli_: Il gruppo dei cosiddetti _Poëtae novelli_ si colloca in continuità con i _neóteroi_ del I secolo a.C., distinguendosi per la delicatezza del loro stile poetico e per l'innovazione metrica e lessicale. Tra i maggiori esponenti si annoverano Anniano Falisco, Settimio Sereno, Alfio Avito, Mariano e persino l'imperatore Adriano.
@@ -42,3 +41,5 @@ A Nemesiano si attribuiscono anche quattro ecloghe ispirate alle Bucoliche di Vi
 / Nemesiano: Di Nemesiano rimangono dunque tracce significative: il frammento del _Cynegetica_ e le quattro ecloghe, che continuano a suscitare interesse per il loro valore artistico, seppur entro i limiti di un'espressione poetica meno innovativa rispetto ai grandi maestri del passato.
 
 
+
+]

@@ -17,7 +17,7 @@ Sempre attribuibile allo stesso periodo e altrettanto complessa da interpretare 
 
 Di più semplice comprensione è invece l'iscrizione sulla cosiddetta Cista Ficoroni, databile a un'epoca considerevolmente più recente. Questo testo, inciso su un cofanetto cilindrico in bronzo ritrovato a Preneste (l'odierna Palestrina), recita: "Dindia Malconia mi donò alla figlia; Novio Plauzio mi fece a Roma". Invece, critiche accese e dubbi persistono sull'autenticità dell'iscrizione riportata sulla Fibula Praenestina, considerata il primo documento in lingua latina giunto sino a noi. Rinvenuta anch'essa in una tomba di Preneste, si tratta di una fibbia in oro risalente al VI secolo a.C., sulla quale compaiono i nomi dell'orafo o del donatore e del destinatario: "Manio mi fece per Numerio". La scrittura segue uno schema da destra a sinistra ed è realizzata con caratteri greci, senza alcun intervallo tra le parole.  
 
-#boxfl(top)[== *🧩* Il verso saturnio <senza_numero>
+#boxfl(top)[== 🐺 Il verso saturnio <senza_numero>
 
 Il verso saturnio, unica forma metrica impiegata nella poesia latina arcaica, deve il proprio nome al dio Saturno, il quale, secondo la tradizione mitologica, si rifugiò nel Lazio dopo essere stato scacciato dal cielo; è altresì noto come _faunio_, in onore del dio Fauno, figura autoctona e considerata l'ipotetico inventore di questo metro. Il poeta Ennio testimonia che gli antichi compositori di canti utilizzavano i saturni e che tale verso era adoperato da vati e fauni, forse facendo riferimento al suo ruolo nei canti religiosi e rurali della tradizione primitiva. 
 
@@ -117,8 +117,7 @@ I personaggi principali dell'atellana erano quattro ruoli fissi: _Pappus_, l'anz
 
 Si ritiene che il metro utilizzato fosse il _versus quadratus_, formato da due unità metriche ciascuna di due piedi. L'atellana godette di grande popolarità e continuò a essere rappresentata come forma di _exodium_ persino quando Livio Andronico introdusse a Roma il teatro modellato su esempi greci. Nel I secolo a.C., questa forma teatrale acquisì un impianto letterario grazie a Pomponio e Novio, che abbandonarono l'improvvisazione in favore di testi completamente scritti.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Primi secoli (VIII-VII sec. a.C.): Nei primi secoli della sua storia, Roma non possiede ancora una produzione letteraria definita. La cultura è trasmessa oralmente e le opere sono anonime, senza testimonianze specifiche di carattere letterario.
@@ -131,3 +130,5 @@ Si ritiene che il metro utilizzato fosse il _versus quadratus_, formato da due u
 
 / Origini del teatro: Le prime forme di poesia teatrale includono i versi fescennini, scambi di battute licenziose tra contadini durante le feste. Inoltre, la satura, di origine etrusca, introduce una rappresentazione più complessa con elementi di canto, recitazione, danza e gestualità mimica. Tuttavia, la tradizione teatrale più significativa è rappresentata dall'atellana, una farsa di origine osca basata su canovacci e interpretata da maschere fisse come _Pappus, Maccus, Bucco e Dossennus_.
 
+
+]

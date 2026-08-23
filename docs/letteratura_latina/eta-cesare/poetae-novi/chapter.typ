@@ -49,8 +49,7 @@ Sono attribuiti a Varrone anche il poemetto didascalico geografico _Chorographia
 
 Tra gli esponenti minori dei _neóteroi_ si annoverano Ticida e Quinto Cornificio. Di loro è giunto pochissimo: Ticida celebrò poesie d'amore dedicate a una donna chiamata Metella, identificata con lo pseudonimo di Perilla; mentre Cornificio, poeta, uomo politico e oratore, scrisse liriche amorose e un epillio intitolato _Glaucus_ (_Glauco_), che narrava degli amori di Nettuno, re del mare, per Scilla.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / I _neóteroi_: Sotto l'influenza delle teorie estetiche dei poeti alessandrini, in particolare di Callimaco, i _neóteroi_ (chiamati anche _poetae novi_, poeti nuovi) rivoluzionarono in profondità la poesia latina. Abbandonarono l'epica tradizionale, i drammi teatrali e la visione di una poesia civilmente impegnata. \ Promossero invece una lirica breve nella forma, sofisticata nello stile e contraddistinta da un notevole erudizione. Tematicamente, prediligevano argomenti erotici, personali o mitologici. I generi preferiti erano l'epillio, l'elegia, il giambo e l'epigramma.
@@ -66,3 +65,5 @@ Tra gli esponenti minori dei _neóteroi_ si annoverano Ticida e Quinto Cornifici
 
 
 
+
+]

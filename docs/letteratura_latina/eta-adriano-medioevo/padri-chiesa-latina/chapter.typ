@@ -93,8 +93,7 @@ Altri lavori significativi includono _De Synodis_ (_I sinodi_), un'esposizione d
 
 Tra i contributi più rilevanti, vi sono tre inni religiosi che rappresentano il primo esempio noto di innografia cristiana occidentale. Nonostante la sua preparazione in retorica e l'influenza di autori come Quintiliano (ricordato da Girolamo), Ilario è spesso considerato uno scrittore non particolarmente originale e dal talento letterario limitato.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Sant'Ambrogio: Proveniente da una famiglia senatoria cristiana di Treviri, svolge i suoi studi a Roma e diventa governatore dell'Emilia e della Liguria con sede a Milano. Nel 374, viene eletto vescovo di Milano; mostra un forte carattere d'azione, conducendo con fermezza la lotta contro gli ariani. Parallelamente, si dedica alle attività pastorali e politiche, influenzando notevolmente gli imperatori della sua epoca. \ Tra le sue opere principali si trovano scritti esegetici, dogmatici e ascetico-morali. Di particolare rilievo sono l'_Hexaemeron_, opera esegetica originale; il _De officiis ministrorum_, di carattere morale; e altri testi dogmatici come il _De fide_ e il _De paenitentia_. L'Epistolario, composto da 91 lettere, rappresenta un'importante fonte storica, mentre i suoi quattro inni autentici sono ancora oggi parte integrante della liturgia cristiana.
@@ -104,3 +103,5 @@ Tra i contributi più rilevanti, vi sono tre inni religiosi che rappresentano il
 / Sant'Ilario: Nato da una famiglia pagana di Poitiers, si converte al cristianesimo e diventa vescovo della sua città natale nel 353. I suoi scritti più rilevanti rimangono il già citato _De Trinitate_, nonché opere come il _De Synodis_ e il _Contra Constantium imperatorem_. Lascia inoltre commentari biblici e tre inni religiosi che segnano l'inizio della tradizione innografica cristiana in Occidente.
 
 
+
+]

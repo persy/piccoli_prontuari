@@ -17,7 +17,7 @@ Giovenale iniziò a dedicarsi alla scrittura delle Satire in età avanzata, prob
 
 Il _corpus_ letterario di Giovenale si compone di 16 Satire per un totale di circa 3800 versi in esametri, raccolti in cinque libri di diversa estensione: le satire I-V, VI, VII-IX, X-XI e XIII-XVI. Dell'ultima satira ci restano solo i primi 60 versi. Non è noto il periodo esatto della loro pubblicazione; si ritiene tuttavia che Giovenale abbia iniziato a divulgarle solo dopo la morte di Domiziano nel 96 d.C., avendo continuato a comporle probabilmente durante gli ultimi trent'anni della sua vita.
 
-#boxbr[== *🧩* Riassunto delle _Satire_ <senza_numero>
+#boxbr[== 🐺 Riassunto delle _Satire_ <senza_numero>
 
 Satira I: Giovenale introduce il genere satirico dichiarando che esso rappresenta pienamente le sue ambizioni artistiche ed etiche. Afferma di essersi dedicato alla satira per indignazione verso il malcostume e la corruzione dilagante a Roma. Conclude specificando che sceglierà di rivolgere le proprie invettive solo contro personaggi ormai defunti lungo le strade Flaminia e Latina, onde evitare possibili ritorsioni dai contemporanei.
 
@@ -63,8 +63,7 @@ Giovenale si differenzia in modo netto dall'ironia indulgente e benevola di Oraz
 
 Lo stile delle _Satire_ è pungente e vivace, ricco di colori evocativi e toni drammatici; vi si trovano elementi arcaicizzanti, sfumature epiche e declamatorie. Non manca tuttavia un'alternanza con passaggi più colloquiali o vicini al linguaggio popolare, che spesso includono l'uso di termini inconsueti o di registro volgare.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Originario di Aquino (circa 55 - dopo il 127 d.C.), Giovenale si trasferisce a Roma in giovane età. Dopo tentativi infruttuosi nella carriera forense e nella declamazione, inizia a scrivere satire soprattutto in età matura, dopo la morte di Domiziano.
@@ -75,3 +74,5 @@ Lo stile delle _Satire_ è pungente e vivace, ricco di colori evocativi e toni d
 
 
 
+
+]

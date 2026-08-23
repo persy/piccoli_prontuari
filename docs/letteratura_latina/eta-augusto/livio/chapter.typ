@@ -63,8 +63,7 @@ Quintiliano, nell'_Institutio oratoria_ (X, 1, 32; 101), ha attentamente descrit
 
 All'imitazione dello stile sallustiano, Livio deve molte delle sue tecniche narrative: il ricorso ai proemi per esprimere riflessioni etiche; l'abilità nel delineare il profilo psicologico di numerosi uomini illustri; l'uso dei discorsi affidati ai personaggi, che sintetizzano momenti o situazioni specifiche e si adattano al carattere di chi li pronuncia, rendendoli più realistici; l'intensità drammatica di alcune descrizioni, come la discesa di Annibale dalle Alpi, la battaglia di Canne o la morte degli eroi.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Livio nacque nel 59 a.C. e visse fino al 17 d.C. Originario di Padova e appartenente all'aristocrazia provinciale romana, nutrì sentimenti moderatamente repubblicani, tanto che Augusto lo chiamava affettuosamente, ma con un pizzico di ironia, Pompeianus. Sebbene il rapporto con Augusto non fosse sempre facile, rimase comunque improntato alla sincerità e alla correttezza. Questo legame gli permise di dedicarsi con costanza, per circa 40 anni, alla redazione della sua monumentale opera storica. Tornò infine nella natia Padova in tarda età, e di lui non ci sono pervenuti ulteriori dettagli biografici.
@@ -76,3 +75,5 @@ All'imitazione dello stile sallustiano, Livio deve molte delle sue tecniche narr
 
 
 
+
+]

@@ -61,7 +61,7 @@ La prima parte della monografia è dedicata all'analisi delle cause morali, psic
 
 Un punto forte dell'opera sono i ritratti psicologici dei protagonisti: Sempronia, Cesare, Catone e, soprattutto, Catilina. Quest'ultimo domina la scena con una combinazione inquietante di malvagità, coraggio e intelligenza.
 
-#boxfl(top)[== *🧩* Riassunto della _Congiura di Catilina_ <senza_numero>
+#boxfl(top)[== 🐺 Riassunto della _Congiura di Catilina_ <senza_numero>
 
 Dopo un'introduzione generale, Sallustio delinea un profilo psicologico dettagliato di Catilina, collegando la sua figura alla corruzione morale dell'epoca. In tale contesto, offre una breve ricostruzione storica di Roma, segnando un confronto nostalgico con i tempi antichi caratterizzati da una maggiore integrità (capitoli 1-13).
 
@@ -115,8 +115,7 @@ La sua rigorosa adesione a un'etica severa si riflette in uno stile asciutto ed 
 
 I discorsi nelle opere sallustiane sono incisivi e vibranti. Nella _Congiura di Catilina_, in particolare, spiccano quelli di Cesare e Catone: il primo si oppone alla condanna immediata dei congiurati in nome della legalità; il secondo la sostiene in nome del rigore morale. L'autore eccelle anche nella rappresentazione psicologica dei protagonisti: tra i ritratti spicca quello notissimo di Catilina, vigorosamente tratteggiato con profondità e intensità descrittiva.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Gaio Sallustio Crispo (Amiternum 86 a.C. - Roma 35 a.C.) nacque in una famiglia plebea benestante e intraprese la carriera politica come homo novus, affiliandosi a Cesare. Dopo aver ricoperto incarichi come questore e tribuno della plebe, partecipò alla guerra civile comandando una legione e svolgendo missioni con risultati alterni. Nominato governatore dell'Africa Nova, al suo ritorno fu accusato di malversazione, decisione che lo spinse a ritirarsi dalla politica per dedicarsi alla storiografia.
@@ -134,3 +133,5 @@ I discorsi nelle opere sallustiane sono incisivi e vibranti. Nella _Congiura di 
 
 
 
+
+]

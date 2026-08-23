@@ -8,7 +8,7 @@
 Valerio Flacco, Silio Italico e Stazio si rifanno esplicitamente all'opera di Virgilio, pur non raggiungendo la stessa forza ispiratrice né la qualità stilistica dello stesso. Tra le altre espressioni poetiche dell'epoca, spiccano figure di minore rilievo che meritano comunque di essere ricordate, come Germanico, Calpurnio e, soprattutto, Fedro.]
 
 == Lucano
-#boxfl(bottom)[== *🧩* Il pantomimo <senza_numero>
+#boxfl(bottom)[== 🐺 Il pantomimo <senza_numero>
 
 Con l'avvento della prima età imperiale, il cambiamento dei gusti provoca il declino della commedia e l'emarginazione della tragedia nelle sale di lettura. \ Tra le forme teatrali sopravvissute si segnalano l'atellana e il mimo, entrambi adattati ai nuovi tempi. Tuttavia, è il pantomimo a emergere come il genere più popolare, capace di riempire i teatri e offrire fama e benessere agli attori. \ In questi spettacoli, un singolo interprete o talvolta due mimano l'azione scenica attraverso movimenti del corpo e gesti delle mani. Intanto, un altro attore o un piccolo coro esegue il testo della _fabula saltica_, accompagnato dalla musica. \ Anche poeti celebri come Lucano e Stazio si dedicano alla composizione delle _fabulae salticae_, attratti dai generosi compensi che questa attività garantisce.]
 Marco Anneo Lucano (Cordova 39 - Roma 65 d.C.), nipote di Seneca, fu condotto giovanissimo a Roma, dove studiò sotto la guida del filosofo stoico Anneo Cornuto e condivise l'educazione con Persio. Al ritorno dal tradizionale viaggio di studio ad Atene, Lucano strinse un rapporto molto stretto con Nerone, grazie al quale ottenne, anzitempo, la carica di questore e un posto nel collegio degli auguri. 
@@ -35,7 +35,7 @@ I personaggi del poema sono rappresentati in maniera disomogenea: alcuni emergon
 
 Il poema si apre con un elogio a Nerone, ma ben presto si trasforma in una denuncia del potere imperiale. Cesare viene rappresentato come l'incarnazione della corruzione politica e morale, mentre a Pompeo è attribuita una grandezza ormai puramente simbolica e ideale. Per Lucano, l'avvento dell'impero non rappresenta un progresso o un destino glorioso, ma solo un decadimento irreversibile. Tra i personaggi risalta la figura di Catone, che attraverso il suicidio trova l'unica forma di libertà possibile nell'inevitabile disfatta degli ideali della Repubblica. La posizione ideologica di Lucano lo pone in contrasto con Virgilio.
 
-#boxbr[== *🧩* Riassunto della _Farsaglia_ <senza_numero>
+#boxbr[== 🐺 Riassunto della _Farsaglia_ <senza_numero>
 
 Libro I: Dopo aver attraversato il Rubicone, Cesare avanza con successo verso Roma, che viene abbandonata da Pompeo e dai senatori fedeli alla causa repubblicana. Questo evento è accompagnato da presagi inquietanti, sacrifici agli dèi e profezie funeste.
 
@@ -101,8 +101,7 @@ I temi affrontati enfatizzano la rivendicazione dei diritti degli oppressi contr
 
 Le favole, brevi ed essenziali nello stile, si distinguono per la vivacità del linguaggio e la felicità nella scelta degli epiteti. Pur nella loro raffinatezza letteraria, mantengono un tono popolare e infantile.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Lucano: (Cordova, 39 - Roma, 65 d.C.): Giunto giovane a Roma, fu discepolo dello stoico Cornuto. Coinvolto nella congiura dei Pisoni, dovette suicidarsi per ordine di Nerone. \ La sua opera principale è la _Pharsalia_, poema epico sulla guerra tra Cesare e Pompeo interrotto al decimo libro. L'opera si distingue per lo stile anticlassico, l'assenza di mitologia tradizionale e di una concezione provvidenzialistica della storia, pur includendo elementi fantastici e interventi diretti dell'autore.
@@ -113,3 +112,5 @@ Le favole, brevi ed essenziali nello stile, si distinguono per la vivacità del 
 
 / Fedro: (circa 15 a.C. – circa 50 d.C.): Di origine tracia. Visse a Roma dall'epoca di Augusto fino al regno di Claudio. Fu il primo a introdurre la favola esopica nella letteratura latina come un genere autonomo, con protagonisti principalmente animali e piante dietro cui si celano rappresentazioni della condizione umana.
 
+
+]

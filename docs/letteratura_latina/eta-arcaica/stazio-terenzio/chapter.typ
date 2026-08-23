@@ -36,7 +36,7 @@ Seguendo la tradizione della _palliata_, Terenzio ha attinto i suoi soggetti dal
 
 Una questione rilevante è quella della _contaminatio_, pratica con cui Terenzio intrecciava liberamente brani, situazioni o elementi tratti da autori diversi o da opere dello stesso scrittore all'interno di un unico testo. Sebbene questa tecnica fosse probabilmente utilizzata anche da Plauto e altri autori comici romani, fu Terenzio il principale bersaglio delle critiche dei drammaturghi contemporanei.
 
-#boxfl(bottom)[== *🧩* Riassunti delle commedie di Terenzio <senza_numero>
+#boxfl(bottom)[== 🐺 Riassunti delle commedie di Terenzio <senza_numero>
 
 - _Andria_ (_La ragazza di Andro_): La giovane di Andro, Glicerio, è stata abbandonata da bambina e cresciuta da una cortigiana. Panfilo si innamora di lei, ma il loro amore sembra irrealizzabile poiché il padre di lui, Simone, ha organizzato il fidanzamento tra Panfilo e Filomena, la figlia di Cremete. Tuttavia, Filomena è innamorata di Carino, un amico di Panfilo. La trama si complica a causa degli goffi interventi dello schiavo Davo, ma alla fine si scopre che Glicerio è in realtà la figlia di Cremete, permettendo così un lieto fine.
 - _Hècyra_ (_La suocera_): Questa commedia sentimentale priva di elementi comici ruota attorno alla figura di Sostrata, una suocera ideale. Suo figlio Panfilo ha sposato Filumena. Durante un viaggio, Panfilo non trova più la moglie, che si è rifugiata a casa dei genitori a seguito dei presunti maltrattamenti della suocera. In realtà, Filumena sta per dare alla luce un bambino concepito prima del matrimonio a seguito di una violenza subita da uno sconosciuto che si scopre poi essere Panfilo stesso. Grazie al supporto di Sostrata e della cortigiana Bacchide la coppia si riappacifica.
@@ -55,10 +55,11 @@ Terenzio abbandona doppi sensi, espressioni volgari e battute grossolane: il suo
 
 I personaggi vengono tratteggiati seguendo le regole della verosimiglianza psicologica e analizzati con partecipazione emotiva, manifestando delicatezza, sensibilità morale e una caratteristica lealtà. Toleranza reciproca, approfondimento delle relazioni umane e comprensione sono tratti che emergono nei protagonisti delle opere di Terenzio, elementi che si ispirano al modello menandreo ma riflettono soprattutto l'umanitas tipica di quell'ambiente aristocratico ed ellenizzante che influenzò la sua formazione. Questo concetto di humanitas trova perfetta espressione nel celebre verso dell'_Heautontimorumenos_: "_Homo sum; humani nihil a me alienum puto_", ossia "Sono un uomo; nulla di ciò che è umano mi è estraneo". Un principio che colpì profondamente Sant'Agostino e che divenne simbolo dell'interiorità e dell'ethos del poeta.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Cecilio Stazio: Cecilio Stazio (circa 230-168 a.C.), probabilmente nato a Milano, fu portato a Roma come schiavo e successivamente liberato. Era amico del poeta Ennio.  \ Della sua produzione rimangono circa 300 versi e i titoli di 44 _palliate_, tra cui la più celebre è _Plocium_ (_La collana_). Si ispirò alle opere del greco Menandro. Le sue commedie ebbero grande successo, dominando la scena teatrale tra la morte di Plauto e l'esordio delle _palliate_ di Terenzio.  \ Cecilio adattò liberamente i modelli greci. Fu apprezzato da Orazio e Varrone, ma criticato da Cicerone. Il suo lavoro si rivolgeva a un pubblico colto, posizionandolo in una via intermedia tra Plauto e Terenzio.  
 
 / Terenzio: Le informazioni biografiche su Terenzio (circa 190-160 a.C.) sono limitate. Nato a Cartagine, fu portato a Roma come schiavo e liberato. Partecipò al circolo filoellenico degli Scipioni.  \ La sua intera opera è giunta fino a noi e include sei commedie: _Adelphoe_, _Andria_, _Eunuchus_, _Hecyra_, _Heautontimorumenos_ e _Phormio_. I soggetti sono tratti dalle opere di Menandro e Apollodoro di Caristo.  \ Il teatro di Terenzio, meno energico rispetto a quello di Plauto, si distingue per uno stile raffinato e colto. L'azione teatrale è statica, mentre i personaggi sono esplorati con realismo nella loro umanità. Al centro della sua poetica si trova il valore dell'_humanitas_, sviluppato nel circolo degli Scipioni. Il linguaggio di Terenzio è elegante e preciso, trasformando la commedia in una forma d'arte destinata a un pubblico d'élite.  
+
+]

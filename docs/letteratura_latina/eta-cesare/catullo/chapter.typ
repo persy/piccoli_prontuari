@@ -111,8 +111,7 @@ Le opere di Catullo riscossero fin da subito ampio successo, nonostante le riser
 
 L'eredità catulliana si è perpetuata nella cultura italiana attraverso Petrarca, gli umanisti e Foscolo. Quest'ultimo tradusse La Chioma di Berenice e si ispirò al carme 101 per comporre il sonetto _In morte del fratello Giovanni_.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Valerio Catullo nacque intorno al 84 a.C. a Verona e morì presumibilmente a Roma intorno al 54 a.C. Le informazioni sulla sua breve esistenza sono frammentarie: proveniente da una famiglia aristocratica, si stabilì a Roma, dove condusse una vita brillante, circondandosi di amici poeti e partecipando attivamente agli ambienti culturali dell'epoca. Tra i suoi legami affettivi spicca la relazione con Clodia, celebrata nelle sue poesie con il nome di Lesbia.
@@ -129,3 +128,5 @@ L'eredità catulliana si è perpetuata nella cultura italiana attraverso Petrarc
 
 
 
+
+]

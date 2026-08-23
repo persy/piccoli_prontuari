@@ -181,8 +181,7 @@ Compose l'opera intitolata _Oratorum et rhetorum sententiae divisiones colores_,
 
 Dell'opera originaria sopravvivono alcuni estratti dei libri perduti.  
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Politica culturale di Augusto: Augusto, autore del _Monumentum Ancyranum_, una celebre iscrizione che enumera le sue imprese di pace e di guerra, si avvalse di un gruppo di valenti collaboratori, cui affidò la promozione delle arti e delle lettere. Tale iniziativa mirava implicitamente a favorire l'avvicinamento degli intellettuali al nuovo regime. In questo contesto svolsero un ruolo decisivo i circoli letterari.  \ Tra i più influenti si annovera quello guidato da Mecenate (Arezzo, circa 70 a.C. – Roma, 8 a.C.), stretto collaboratore di Augusto, che accolse poeti illustri dell'età augustea come Virgilio, Orazio e Properzio. Non meno rilevante fu il circolo di Messalla Corvino (64 a.C. – 8 d.C.), frequentato da figure quali Tibullo, il giovane Ovidio, Ligdamo e la poetessa Sulpicia. Infine, il circolo animato da Asinio Pollione (Roma, 76 a.C. – 4 d.C.) si distinse per aver fondato la prima biblioteca pubblica di Roma e introdotto le _recitationes_, ovvero letture pubbliche di poesie.  \ Nel giro di pochi decenni, questa intensa attività culturale portò alla produzione di una serie irripetibile di capolavori, con la poesia al centro della scena. Il declino del teatro drammatico e dell'eloquenza segnò il passaggio a nuove modalità espressive come le _declamationes_ e le _recitationes_.  
@@ -203,3 +202,5 @@ Dell'opera originaria sopravvivono alcuni estratti dei libri perduti.
 
 
 
+
+]

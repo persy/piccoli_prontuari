@@ -37,8 +37,7 @@ Plinio il Vecchio non era uno scienziato nel senso moderno del termine, ma un er
 
 Nonostante ciò, la _Storia naturale_ è considerata imprescindibile per il valore delle informazioni raccolte e come preziosa testimonianza delle conoscenze scientifiche del mondo antico. Sul piano letterario, l'opera non spicca particolarmente; la sua vastità, infatti, rendeva impraticabile una ricercatezza stilistica, che d'altronde non apparteneva alla tradizione delle enciclopedie romane.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: (Como 23 - Stabia 79 d.C.), originario di una famiglia agiata, ricoprì importanti incarichi militari e amministrativi. Perse la vita durante l'eruzione del Vesuvio.  
@@ -46,3 +45,5 @@ Nonostante ciò, la _Storia naturale_ è considerata imprescindibile per il valo
 / _Naturalis historia_: Un'enciclopedia composta da 37 libri che analizzano argomenti quali cosmologia, geografia, etnografia, antropologia, zoologia, botanica, medicina e mineralogia. Sebbene Plinio fosse un erudito piuttosto che uno scienziato, l'abbondanza delle sue informazioni risente della mancanza di sistematicità.  
 
 
+
+]

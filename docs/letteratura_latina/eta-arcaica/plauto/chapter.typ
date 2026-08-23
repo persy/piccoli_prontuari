@@ -108,8 +108,7 @@ La lingua è il fulcro della sua arte. Il linguaggio plautino è un capolavoro d
 
 La sua lingua popolareggiata è ricca di battute argute, doppi sensi salaci e contrapposta a espressioni prese dai registri tragici o epici, con chiare finalità parodistiche. L'effetto grottesco è amplificato da iperboli, onomatopee e un uso ridondante delle parole, rendendo ancora più vivide le tonalità comiche.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Plauto, il più celebre commediografo dell'età arcaica, nacque a Sarsina, in Umbria, prima del 250 a.C., e morì a Roma nel 184 a.C. Disponiamo di poche informazioni sulla sua vita, ma è certo che fosse nato libero di origine umbra.  
@@ -119,3 +118,4 @@ La sua lingua popolareggiata è ricca di battute argute, doppi sensi salaci e co
 / Fonti e struttura delle commedie: Le opere di Plauto si ispirano alla "commedia nuova" ellenistica, ma l'autore riesce a creare qualcosa di originale e autonomo rispetto alle sue fonti. Plauto trasforma i nomi dei personaggi, modifica la struttura e include allusioni al mondo romano. Le sue commedie non sono suddivise in atti, non prevedono cori, lasciano ampio spazio a canto e musica, e presentano una narrazione spesso discontinua.  
 
 / Mondo poetico: La principale aspirazione di Plauto era divertire. L'intreccio delle sue opere viene spesso anticipato nei prologhi, e l'autore non si interessa né a caratterizzare psicologicamente i personaggi né a proporre riflessioni morali. La sua realtà teatrale è un mondo di farsa popolaresca caratterizzato da un'irresistibile comicità, cinismo e amoralità in cui persino le vicende più grottesche risultano credibili. La lingua utilizzata è ricca e versatile, con uno stile vicino al parlato quotidiano.  
+]

@@ -113,8 +113,7 @@ Quest'opera è interamente composta da versi tratti dalle opere di Virgilio, ass
 
 Nonostante l'originalità dell'idea, Proba fatica in molti punti a superare le difficoltà stilistiche imposte dal contenuto, e l'opera si rivela complessivamente mediocre.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Prudenzio: Nato a Calagurris nel 348, è il più grande poeta cristiano della letteratura latina. Dopo un periodo in cui esercita l'avvocatura e occupa importanti incarichi politici sotto l'imperatore Teodosio, dedica gli ultimi anni della sua vita, dal 400 al 405, alla composizione delle sue opere.  
@@ -141,3 +140,5 @@ La poesia di Prudenzio si distingue per l'erudizione, l'elaborazione artistica e
 
 
 
+
+]

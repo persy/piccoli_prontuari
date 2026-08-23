@@ -46,10 +46,10 @@ Dei circa 4000 versi saturni originari sono giunti a noi soltanto una sessantina
 
 L'importanza del _Bellum Poenicum_ risiede soprattutto nella sua capacità di trasformare gli eventi storici in mito, una tecnica che sarebbe divenuta caratteristica della letteratura latina nei secoli successivi, influenzando autori come Ennio e Virgilio.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Livio Andronico: Livio Andronico (III secolo a.C.), considerato il padre della letteratura latina, era di origine greca. Trasferito a Roma da Taranto come schiavo, fu liberato da Livio Salinatore. Sono pervenuti frammenti della sua traduzione latina dell'Odissea di Omero, composta in versi saturni e molto apprezzata dai romani. Quest'opera servì a lungo come libro di testo nelle scuole. Restano inoltre alcuni titoli e pochi versi delle sue palliate e cothurnatae.
 
 / Gneo Nevio: Originario della Campania, Gneo Nevio (circa 275-201 a.C.) fu il primo a introdurre la contaminatio. Di lui rimangono pochi frammenti delle sue opere drammatiche, ma è accreditato come precursore della tragedia di ambiente romano, ovvero la praetexta. Nel suo poema epico _Bellum Poenicum_ celebrò la prima guerra punica contro Cartagine, alla quale aveva partecipato personalmente.
+]

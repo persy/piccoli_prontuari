@@ -21,7 +21,7 @@ Instancabile studioso, Varrone si interessò alle discipline più svariate: lett
 
 Tra le opere giunte fino a noi si annoverano il _De re rustica_, unico testo pervenuto integro, un trattato sull'agricoltura che non rappresenta però uno dei suoi lavori più importanti; due libri completi e frammenti di altri quattro del _De lingua latina_, un trattato sulla morfologia e sintassi latina articolato in 25 volumi; circa 600 versi delle _Saturae Menippeae_ e pochi frammenti di altre opere.
 
-#boxfl(top)[== *🧩* Analogia e anomalia <senza_numero>
+#boxfl(top)[== 🐺 Analogia e anomalia <senza_numero>
 
 Nel corso del I secolo a.C., a Roma si sviluppò un acceso dibattito sulla questione linguistica, che contrapponeva gli analogisti, influenzati dalla scuola di Alessandria d’Egitto, agli anomalisti, esponenti della scuola di Pergamo, in Asia. La prospettiva degli analogisti attribuiva alla lingua una natura razionale piuttosto che naturale, sostenendo che il suo corretto utilizzo si dovesse basare su regole grammaticali precise e immutabili. Da questa visione derivava l’ideale di una lingua caratterizzata da purezza e regolarità, che rifuggisse dal ricorso ai neologismi. \ Al contrario, gli anomalisti consideravano la lingua un fenomeno spontaneo, plasmato dal suo uso vivo e soggetto a trasformazioni nel tempo in risposta all’evoluzione delle idee e delle generazioni. In tale contesto, venivano valorizzate sia la libertà espressiva individuale sia l’introduzione di termini nuovi. Questo dibattito rifletteva visioni divergenti non solo sul funzionamento della lingua stessa, ma anche sulla sua relazione con la cultura e il cambiamento sociale.]
 
@@ -99,8 +99,7 @@ Nel I secolo a.C., Roma fu teatro di un vivace dibattito linguistico tra due scu
 
 Gli anomalisti, invece, aderivano alla scuola di Pergamo in Asia e proponevano un approccio più spontaneo e dinamico alla lingua. Essi ritenevano che il linguaggio fosse principalmente condizionato dal suo uso vivo e quotidiano e che evolvesse con il passare delle generazioni e il mutare delle idee. Da tale prospettiva derivava una maggiore libertà espressiva personale e l'accettazione dei neologismi come parte integrante dell'evoluzione linguistica.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Terenzio Varrone: Nato a Rieti nel 116 a.C., morì nel 27 a.C. Proveniente da una famiglia di rango equestre, ricoprì ruoli importanti come quelli di questore, tribuno della plebe e pretore. Inizialmente sostenitore di Pompeo, dopo la battaglia di Farsalo ottenne da Cesare il perdono. Tuttavia, quando finì nelle liste di proscrizione di Antonio e Ottaviano, preferì ritirarsi dalla vita pubblica, dedicandosi interamente agli studi. \ Enciclopedista di straordinaria cultura, scrisse 74 opere che raccoglievano più di 600 libri. Di questa immensa produzione ci sono giunti solo il _De re rustica_, un prezioso trattato sull'agricoltura; sei libri, purtroppo incompleti e lacunosi, del _De lingua latina_; e circa 600 versi delle _Sature Menippeae_, che originariamente contavano 150 libri. Le altre opere erudite sono andate perdute.
@@ -115,3 +114,5 @@ Gli anomalisti, invece, aderivano alla scuola di Pergamo in Asia e proponevano u
 
 
 
+
+]

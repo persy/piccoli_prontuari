@@ -8,7 +8,7 @@
 La diffusione dell'ellenismo ha favorito una fusione integrale tra gli elementi di matrice latina e quelli di derivazione greca, determinando nuovi sviluppi nella poesia e una perfezione stilistica ineguagliabile nella prosa. La poesia si avventura verso nuove strade creative, mentre la prosa raggiunge un livello di armonia e equilibrio che ne definisce il culmine artistico.]
 
 == La lingua letteraria
-#boxfl(bottom)[== *🧩* Il latino parlato <senza_numero>
+#boxfl(bottom)[== 🐺 Il latino parlato <senza_numero>
 
 Il _sermo plebeius_ o _cotidianus_ rappresentava, nella Roma antica, la forma di latino utilizzata quotidianamente dal popolo, condividendo comunque la stessa struttura di quello letterario. Diverso era invece il _sermo rusticus_, il linguaggio delle aree rurali, caratterizzato da tratti fonetici e lessicali distintivi. Con l'espansione del dominio romano dalla Gallia alla Spagna e all'Africa mediterranea, le popolazioni soggiogate adottarono il latino, diffuso grazie all'opera di soldati, magistrati, mercanti e insegnato nei contesti scolastici. \ Tuttavia, il latino parlato nelle regioni periferiche dell'Impero subì l'influenza delle lingue locali preesistenti, dando origine a varianti che differivano tra loro e rispetto al latino di Roma. Con il declino del potere centrale e il conseguente sgretolamento del sistema scolastico causato dalle invasioni barbariche, venne meno l'unità linguistica, aprendo la strada alla nascita delle lingue romanze.  ]
 La lingua letteraria latina rappresenta il prodotto dell'elaborazione compiuta dagli scrittori sull'idioma parlato dalle classi istruite di Roma. Un ruolo decisivo è stato svolto dai grammatici greci, il cui influsso ha progressivamente modellato fonetica, morfologia e sintassi della lingua latina nel corso dei secoli.
@@ -65,8 +65,7 @@ Cesare lo mise in competizione diretta con Decimo Laberio durante i ludi trionfa
 
 Una raccolta di età imperiale ha trasmesso oltre 700 versi attribuibili al poeta con il titolo _Sententiae_. Questi componimenti, caratterizzati da impronte sentenziose e morali, sono scritti in metri giambici o trocaici. Tuttavia, la loro autenticità è ancora dubbia.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Lingua letteraria: La prosa letteraria latina raggiunse il proprio apice di raffinatezza nel I secolo a.C., quando si consolidarono norme linguistiche stabili che garantirono una certa uniformità in tutto l'Impero. Questa prosa divenne un modello imitativo per i secoli successivi. \ Va segnalata una maggiore libertà espressiva nella poesia, in cui permangono varianti morfologiche e sintattiche non presenti nella prosa.
@@ -76,3 +75,5 @@ Una raccolta di età imperiale ha trasmesso oltre 700 versi attribuibili al poet
 / Mimo: Nel campo delle arti sceniche emerse il mimo, a cui Decimo Laberio (106-43 a.C.) e Publilio Siro (I secolo a.C.) conferirono dignità letteraria. Tuttavia, nonostante tali contributi, il mimo conservò le sue caratteristiche essenziali di intrattenimento licenzioso e spesso scandito da linguaggio volgare. Nello stesso periodo, si osserva un progressivo declino della commedia e della tragedia come generi teatrali principali.
 
 
+
+]

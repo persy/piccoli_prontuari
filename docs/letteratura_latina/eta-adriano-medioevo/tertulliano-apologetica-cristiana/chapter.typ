@@ -212,8 +212,7 @@ Ottavio rimprovera Minucio per aver permesso al loro amico di abbandonarsi alla 
 
 Quando sembra che Minucio stia per intervenire come mediatore nella disputa, Cecilio riconosce di essere stato sconfitto, ma al contempo di aver vinto. Egli dichiara: "Come Ottavio mi ha sconfitto, così io ho trionfato sull'errore".
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Apologetica cristiana: Tra il II e il III secolo si sviluppa l'apologetica cristiana, volta a difendere i fedeli dalle persecuzioni e a ribattere alle accuse contro la religione cristiana.  
@@ -235,3 +234,4 @@ Quando sembra che Minucio stia per intervenire come mediatore nella disputa, Cec
 / Salviano: Salviano (Treviri, circa 400 - Marsiglia, circa 470) abbraccia la vita sacerdotale e si stabilisce a Marsiglia. La sua opera principale è _De gubernatione Dei_, un trattato apologetico e polemico che difende l'operato della Provvidenza, contestata da molti a causa delle calamità che affliggevano l'impero romano. Sono giunte fino a noi anche altre sue opere, tra cui _Ad ecclesiam_ e nove lettere.
 
 / Sulpicio Severo: Sulpicio Severo (circa 360 - Prémillac, circa 415) pratica la professione di avvocato fino alla morte improvvisa della moglie, evento che lo spinse a fondare un convento a Prémillac e a dedicarsi alla vita ascetica. Tra i suoi scritti si ricordano la _Chronica_, una sintesi di storia universale, e la _Vita sancti Martini_, una biografia di San Martino di Tours che conobbe grande fortuna nel Medioevo.
+]

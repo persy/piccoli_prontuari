@@ -45,7 +45,7 @@ Il quarto libro riveste una particolare rilevanza letteraria poiché approfondis
 
 La lunga esistenza di Marco Porcio Catone (234-149 a.C.), primo grande storico e oratore dell'età arcaica, copre il periodo in cui Roma si afferma come potenza dominante nel Mediterraneo, affrontando un'irrefrenabile trasformazione sociale, politica e culturale. In contrasto con la corrente modernizzante e filoellenica, incarnata soprattutto dal circolo degli Scipioni, Catone rappresenta in Senato una delle figure guida dell'ala agraria e conservatrice, schierandosi rigorosamente a favore del mos maiorum e dei tradizionali costumi morali.
 
-#boxfl(bottom)[== *🧩* Il circolo degli Scipioni <senza_numero>
+#boxfl(bottom)[== 🐺 Il circolo degli Scipioni <senza_numero>
 
 La conquista del Mediterraneo intensifica la diffusione della cultura greca tra le élite della società romana, rafforzando i legami culturali tra le due civiltà.
 
@@ -108,8 +108,7 @@ Il trattato _De agri cultura_, risalente al 160 a.C., è considerato il testo di
 
 Si presenta come un manuale pratico per il proprietario terriero, ricco di precetti e indicazioni utili alla gestione agricola. Con uno stile semplice e asciutto, spesso sentenzioso, l'opera offre consigli su diverse tematiche: dalla gestione della casa alle ricette di cucina, dai lavori agricoli stagionali ai sacrifici da compiere agli dèi, dalla produzione di olio e vino alle malattie di animali e piante.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Prosa: I primi sviluppi della prosa letteraria si registrano nel II secolo a.C., principalmente legati all'oratoria e alla storiografia. Gli autori di queste opere appartengono prevalentemente alle classi dirigenti.  
@@ -121,3 +120,4 @@ Si presenta come un manuale pratico per il proprietario terriero, ricco di prece
 / Monografia: Durante il periodo dei Gracchi emerge la forma monografica, illustrata da autori come Celio Antipatro e Sempronio Asellione. Quest'ultimo introduce un vero metodo storico, segnando un passo in avanti rispetto alla tradizione annalistica.  
 
 / Catone il Censore: Catone il Censore (Tusculum, 234 - Roma, 149) era un homo novus dalla umile origine contadina che scalò ogni gradino del cursus honorum: tribuno militare, questore, edile, pretore, console e censore. Simbolo della tendenza conservatrice e antiellenica, incarna l'intransigenza nel difendere la morale tradizionale romana contro ciò che considerava corruzione dei costumi. Il soprannome di Censore deriva dalla rigorosità con cui svolse tale carica.  \ Ci restano solo pochi frammenti delle _Origines_, la sua opera storica in sette libri scritta in latino. Qui, Catone descrive non solo la storia di Roma ma anche quella delle città italiche. Il suo stile conciso riporta gli eventi in modo essenziale ed evita di menzionare i nomi dei condottieri. \ Della sua attività politica sopravvivono circa ottanta titoli di orazioni e 250 frammenti che dimostrano la sua abilità retorica. Nulla è rimasto delle opere _Praecepta ad filium_, _Epistulae_ o _Carmen de moribus_. L'unico lavoro integralmente pervenuto è il _De agri cultura_, un manuale di agricoltura dall'orientamento pratico e poco significativo dal punto di vista letterario.  
+]

@@ -87,7 +87,7 @@ La grandezza delle _Confessiones_ si manifesta soprattutto nello stile elevato e
 
 Le _Confessiones_ sono primariamente un atto di fede: in esso anche la sincerità acquista valore solo se vista e offerta come dono a Dio, fonte luminosa e garanzia di ogni intenzione umana.
 
-#boxfl(bottom)[== *🧩* Riassunto delle _Confessioni_ <senza_numero>
+#boxfl(bottom)[== 🐺 Riassunto delle _Confessioni_ <senza_numero>
 
 Libro I: racconta i primi quindici anni di vita, segnati da un debole interesse per lo studio e dalle sue prime colpe.
 
@@ -155,14 +155,15 @@ Cassiodoro morì ultranovantenne nel 583. La sua produzione letteraria è divisa
 
 Nel periodo del ritiro monastico scrisse le _Institutiones divinarum et humanarum litterarum_ (_Istituzioni di letteratura sacra e profana_) in due libri, destinati ai confratelli come guida per interpretare le Scritture, seguire principi della vita monastica e studiare le sette arti liberali. Degna di nota è anche la _Historia ecclesiastica tripartita_, una rielaborazione delle storie ecclesiastiche greche più importanti.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Agostino: Nacque a Tagaste nel 354 e morì a Ippona nel 430. Studiò a Cartagine, dove iniziò ad insegnare retorica. In questo periodo si avvicinò alla filosofia e abbracciò l'eresia manichea. Nel 383 si trasferì a Roma e successivamente, nel 384, ottenne la cattedra di retorica a Milano. Qui entrò in contatto con il vescovo Ambrogio, da cui ricevette il battesimo nel 387. Tornato in Africa nel 388, fu ordinato sacerdote a Ippona e fondò l'ordine che porta il suo nome. Nel 395-396 fu proclamato vescovo di Ippona, dedicandosi per il resto della sua vita alla cura della diocesi, alla lotta contro le eresie e alle dispute dottrinali. \ Le sue opere filosofiche principali includono i _Dialoghi scritti a Cassiciaco_, come i _Soliloqui_, il _De Musica_ e il _De Magistro_. Tra le opere dogmatiche spicca il _De Trinitate_, mentre il _De civitate Dei_ rappresenta il suo capolavoro apologetico: un'ampia riflessione sulla storia universale interpretata secondo la visione cristiana. \ Dal punto di vista autobiografico, significative sono le _Confessiones_ e le Retractationes. Nelle _Confessiones_, Agostino rinnova il genere autobiografico raccontando il percorso della sua vita e approfondendo le tematiche relative all'uomo e al rapporto con Dio. \ Tra le opere polemiche si distinguono i suoi numerosi scritti contro le eresie manichee, donatiste, pelagiane, marcionite, priscillianiste e origeniste. Sono giunte fino a noi anche altre opere morali, pastorali ed esegetiche, oltre a circa 200 lettere del suo _Epistolario_ e ai _Sermones_. \ Dal punto di vista critico, Agostino è considerato l'ultimo grande autore classico, contraddistinto da una straordinaria capacità filosofica e da idee di notevole modernità, come dimostrano le sue riflessioni sul libero arbitrio e sul tempo. Le sue concezioni hanno influenzato profondamente il pensiero medievale, ispirato la Riforma protestante e gettato le basi per alcuni aspetti della filosofia moderna.
 
 / Boezio: Fu alto funzionario romano e consigliere del re Teodorico, ma fu accusato di tradimento e condannato a morte senza processo. Tra le sue opere spicca il _De consolatione philosophiae_, un dialogo in parte in prosa e in parte in versi tra Boezio e la Filosofia, che godette di grande fortuna durante il Medioevo.
 
-/ Cassiodoro: Nnato a Squillace intorno al 490, dopo una carriera come funzionario presso Teodorico e i suoi successori, si ritirò nel monastero di Vivario da lui fondato. Tra le sue opere principali si contano le _Chronica_, un riassunto di storia universale fino al 519; la Historia gothica, perduta; e le _Institutiones divinarum et humanarum litterarum_. Le sue 468 lettere raccolte nelle Variae divennero un modello di stile amministrativo nel Medioevo.
+/ Cassiodoro: Nato a Squillace intorno al 490, dopo una carriera come funzionario presso Teodorico e i suoi successori, si ritirò nel monastero di Vivario da lui fondato. Tra le sue opere principali si contano le _Chronica_, un riassunto di storia universale fino al 519; la Historia gothica, perduta; e le _Institutiones divinarum et humanarum litterarum_. Le sue 468 lettere raccolte nelle Variae divennero un modello di stile amministrativo nel Medioevo.
 
 
+
+]

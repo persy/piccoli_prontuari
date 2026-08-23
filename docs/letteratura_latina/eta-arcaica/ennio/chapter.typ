@@ -106,8 +106,7 @@ Della sua produzione teatrale sono noti i titoli di due sole _praetextae_: _Brut
 
 Lo stile di Accio si distingueva per l'uso di un linguaggio alto e ricercato, spesso erudito e arcaico, accompagnato da un tono sentenzioso e da una costruzione solenne e vigorosa. Le sue opere abbondano di raffinate figure retoriche come parallelismi e allitterazioni. Uomo poliedrico dagli interessi vasti, si dedicò anche all'epica con gli _Annales_ (Annali) scritti in esametri, alla critica letteraria con i _Didascalica_ e i _Pragmaticon libri_, e agli studi grammaticali e ortografici tanto da meritare l'attenzione di Varrone, che gli dedicò l'opera _De antiquitate litterarum_.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Nato a Rudiae nel 239 a.C., Ennio giunse a Roma nel 204, seguendo Catone il Censore, e si stabilì nella città fino alla sua morte nel 169 a.C. Entrò a far parte del circolo degli Scipioni e, nel 189, accompagnò Marco Fulvio Nobiliore nella campagna militare in Etolia. Nel 184 ottenne la cittadinanza romana.
@@ -121,3 +120,4 @@ Lo stile di Accio si distingueva per l'uso di un linguaggio alto e ricercato, sp
 / Pacuvio: Nato a Brindisi nel 220 a.C. e morto a Taranto nel 130 a.C., Pacuvio era il nipote di Ennio e autore di tragedie cothurnatae. Dei suoi lavori sono rimasti frammenti per un totale di circa 450 versi. Le sue tragedie continuarono ad essere rappresentate lungo tutto il periodo repubblicano.
 
 / Accio: Lucio Accio, nato a Pesaro nel 170 a.C. e morto a Roma verso l'85 a.C., è ritenuto il più celebre autore di tragedie della sua epoca. Della sua produzione sopravvivono 45 titoli di tragedie cothurnatae, 2 praetextae e circa 750 versi frammentari. Era noto per prediligere storie cupe con personaggi intensi e dal forte impatto emotivo, arricchendo le sue opere con innovazioni linguistiche. Pur non essendoci giunte altre opere della sua produzione letteraria, gli scritti come gli _Annales_, i _Didascalica_ e i _Pragmatica_ attestano la varietà dei suoi interessi culturali.
+]

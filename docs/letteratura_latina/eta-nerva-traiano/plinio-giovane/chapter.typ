@@ -37,8 +37,7 @@ Alcune lettere hanno carattere più pratico: inviti, raccomandazioni, condoglian
 
 Il decimo libro venne pubblicato postumo e raccoglie la corrispondenza tra Plinio e l'imperatore Traiano. In quegli anni Plinio ricopriva il ruolo di governatore della Bitinia. Questo carteggio include 79 lettere dell'autore e 50 risposte dell'imperatore su questioni di natura fiscale, politica e amministrativa sollevate dal funzionario diligente ma spesso indeciso. Le lettere trattano argomenti di importanza variabile: da temi marginali a questioni più rilevanti. Tra queste ultime si distingue la famosa lettera 96, in cui Plinio chiede istruzioni su come affrontare i processi contro i cristiani. La risposta di Traiano nella lettera 97 si rivela equilibrata: invita a non considerare denunce anonime e a sospendere i procedimenti giudiziari contro i cristiani qualora accettino di sacrificare agli dèi e all'imperatore.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Plinio (Como 61/62 – Bitinia ca. 113 d.C.), membro di una famiglia molto agiata, studiò a Roma dove intraprese una brillante carriera legale e politica che lo portò a diventare console nel 100 d.C. e successivamente governatore della Bitinia. \ Tra le sue opere principali si annoverano il _Panegirico a Traiano_, discorso dedicato all'imperatore in segno di gratitudine per la nomina a console, e le _Epistulae_.
@@ -46,3 +45,5 @@ Il decimo libro venne pubblicato postumo e raccoglie la corrispondenza tra Plini
 / _Epistulae_: Le _Epistulae_, composte da nove libri pubblicati da Plinio stesso e contenenti 247 lettere indirizzate ad amici e familiari, costituiscono un'importante testimonianza della vita personale dell'autore e della Roma imperiale. La lettera più celebre è quella dedicata a Tacito, dove è narrata l'eruzione del Vesuvio nel 79 d.C. e la morte di Plinio il Vecchio. \ Il decimo libro include invece il carteggio tra Plinio e Traiano; tra le lettere più significative vi è quella sul trattamento dei cristiani nei loro processi giudiziari.
 
 
+
+]

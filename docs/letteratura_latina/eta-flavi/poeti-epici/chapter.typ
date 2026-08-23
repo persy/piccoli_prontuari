@@ -67,8 +67,7 @@ Dell'_Achilleide_, poema incompiuto, ci sono pervenuti il primo libro e l'inizio
 
 Considerato, insieme a Silio Italico e Valerio Massimo, uno degli interpreti più rappresentativi della cultura letteraria dell'età flavia, Stazio ottenne ampio apprezzamento nel Medioevo. Dante stesso lo ricordò nella _Divina Commedia_, immaginando una sua conversione al cristianesimo, seppur segreta. Al contrario, le _Silvae_, sconosciute ai medievali, furono riscoperte dall'umanista Poggio Bracciolini nel 1417.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Valerio Flacco: (morto intorno al 90 d.C.), vissuto sotto i Flavi, compose il poema epico _Argonautica_, incentrato sull'avventura degli Argonauti alla ricerca del Vello d'Oro e sull'amore tra Medea e Giasone.
@@ -81,3 +80,5 @@ Considerato, insieme a Silio Italico e Valerio Massimo, uno degli interpreti pi�
 
 
 
+
+]

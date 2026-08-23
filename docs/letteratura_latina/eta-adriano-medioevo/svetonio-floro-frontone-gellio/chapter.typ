@@ -105,8 +105,7 @@ Gellio è noto principalmente per le _Noctes Atticae_ (_Le notti attiche_), un'o
 
 Gellio scelse di scrivere in uno stile semplice e privo di pretese letterarie, ma il tono dell'esposizione risulta piacevole e arricchito da dialoghi, incontri ed episodi spesso immaginari. Straordinariamente preziosi sono i frammenti di testi greci e latini che l'autore ha trasmesso attraverso numerose citazioni, salvando così opere che altrimenti sarebbero andate perdute.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Svetonio: (70/75 - 140/150). Dopo aver esercitato la professione forense, divenne responsabile delle biblioteche pubbliche e poi segretario dell'imperatore Adriano. Nel 122 fu rimosso dai suoi incarichi e si ritirò a vita privata, dedicandosi interamente agli studi. \ Tra le sue opere ricordiamo _De viris illustribus_, una raccolta di biografie di letterati suddivisa per generi, dalla quale ci sono giunti 25 profili dedicati a grammatici e retori. Completa è invece _De vita Caesarum_, che raccoglie dodici biografie degli imperatori da Giulio Cesare a Domiziano, seguendo uno schema narrativo costante. \ Non ci è rimasto nulla delle sue opere enciclopediche. Svetonio non può essere definito uno storico nel senso stretto del termine; era piuttosto un meticoloso raccoglitore di informazioni, le quali venivano presentate con obiettività ma senza seguire un ordine cronologico né proporre analisi psicologiche o giudizi personali. La sobrietà del linguaggio rende queste biografie preziose per la loro ricchezza informativa.
@@ -120,3 +119,5 @@ Gellio scelse di scrivere in uno stile semplice e privo di pretese letterarie, m
 
 
 
+
+]

@@ -100,7 +100,7 @@ A Seneca sono attribuite con certezza nove tragedie, sebbene l'autenticità dell
 
 Le opere trattano esclusivamente temi mitologici e mancano date precise di composizione. Pertanto, si considerano tramandate nell'ordine proposto dal codice etrusco-laurenziano.
 
-#boxfl(bottom)[== *🧩* Riassunto delle tragedie <senza_numero>
+#boxfl(bottom)[== 🐺 Riassunto delle tragedie <senza_numero>
 
 _Hercules furens_ (_La follia di Ercole_): Giunone provoca la follia di Ercole, che finisce per uccidere la moglie e i figli. Quando torna in sé, medita il suicidio, ma cambia idea e decide di recarsi ad Atene per cercare la purificazione.
 
@@ -148,8 +148,7 @@ La sua opera ottenne successo immediato. Quintiliano contribuì a divulgarne il 
 
 Le tragedie videro una maggiore diffusione nel XIV secolo. Dopo aver influenzato il teatro rinascimentale italiano, divennero modello per il teatro elisabettiano e per autori quali William Shakespeare. Successivamente furono riprese dal teatro classico francese di Racine, Corneille e Voltaire, così come dal teatro romantico tedesco e italiano, dove il lascito senecano trovò uno straordinario interprete in Vittorio Alfieri.
 
-#pagebreak()
-#set page(fill: accent.lat.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: Seneca visse dal 4 a.C. al 65 d.C. Studiò retorica e filosofia a Roma e intraprese una carriera politica diventando questore. Fu esiliato in Corsica dall'imperatore Claudio, ma tornò a Roma dove divenne precettore di Nerone, guidandone inizialmente le scelte politiche durante il primo periodo del suo principato. Nel 62 d.C., fu allontanato dalla corte e accusato di aver partecipato alla congiura dei Pisoni. Decise quindi di togliersi la vita.
@@ -164,3 +163,5 @@ Le tragedie videro una maggiore diffusione nel XIV secolo. Dopo aver influenzato
 
 
 
+
+]
