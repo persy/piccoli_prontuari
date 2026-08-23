@@ -60,7 +60,7 @@ Il processo di anatessi riveste un ruolo cruciale nello studio della genesi dei 
 )  
 )
 
-#boxbr[== *🧩* Gli effetti del metamorfismo sulle rocce <senza_numero>
+#boxbr[== 🐺 Gli effetti del metamorfismo sulle rocce <senza_numero>
 
 Il metamorfismo, a seconda delle sue intensità, può trasformare una roccia originaria in differenti tipi di rocce metamorfiche, che costituiscono una sequenza metamorfica.
 
@@ -95,8 +95,7 @@ Al contrario, le rocce dalla struttura granulare o saccaroide presentano cristal
 
 Un terzo tipo è la struttura occhiadina, che rappresenta una forma intermedia tra le due precedenti. Qui coesistono cristalli grandi ed equidimensionali con altri orientati e organizzati in strati paralleli. Un esempio rappresentativo è lo gneiss occhiadino.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Anatessi: Processo di fusione parziale che interessa una massa rocciosa preesistente.  
@@ -112,3 +111,4 @@ Un terzo tipo è la struttura occhiadina, che rappresenta una forma intermedia t
 / Scistosità: Caratteristica delle rocce metamorfiche che consente la loro suddivisione in lastre sottili lungo piani paralleli definiti piani di scistosità.  
 
 / Tessitura: Configurazione visibile, anche macroscopicamente, di una roccia, determinata dalla disposizione spaziale dei suoi costituenti mineralogici.  
+]

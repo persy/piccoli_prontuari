@@ -13,7 +13,7 @@ Gli oceani e i mari sono parte dell'idrosfera, che comprende l'acqua presente su
 
 L'oceanografia si occupa dello studio degli oceani e dei mari sotto aspetti morfologici, chimici, fisici e biologici. Analizza la conformazione dei fondali marini, la natura dei sedimenti che vi si accumulano, le proprietà chimico-fisiche dell'acqua e il loro movimento, così come le interazioni tra oceani e atmosfera. Le scoperte effettuate mediante le esplorazioni oceanografiche hanno arricchito significativamente la comprensione della struttura degli abissi marini, contribuendo anche alla formulazione della teoria della tettonica delle placche.
 
-#boxfl(bottom)[== *🧩* I sedimenti marini <senza_numero>
+#boxfl(bottom)[== 🐺 I sedimenti marini <senza_numero>
 
 Nell'ambito delle masse marine e oceaniche si assiste a un incessante processo di sedimentazione, costituito principalmente da resti di organismi viventi. In particolare, tali detriti comprendono gusci e scheletri di natura calcare o silicea, che tuttavia rischiano di essere completamente dissolti dall'azione chimica dell'acqua marina nelle fasce comprese tra i 3500 e i 5500 metri di profondità. Questi materiali organici si depositano sul fondo oceanico, dove si mescolano con detriti provenienti dalle scarpate continentali trasportati dai corsi d'acqua. Lungo le scarpate prevalgono sedimenti grossolani, come sabbie, mentre nelle aree più profonde si accumulano sedimenti più fini, come argille. In queste zone più remote trovano posto anche materiali di origine vulcanica e cosmica. Di particolare interesse sono i noduli di manganese, aggregati minerali di forma appiattita e dal diametro medio di circa 5 cm, distribuiti su ampie porzioni del fondale oceanico. Tali noduli contengono elevate concentrazioni di manganese e ferro, ma possono racchiudere anche altri metalli, come rame e nichel. Sebbene il loro recupero rimanga economicamente gravoso al momento, si ritiene che essi possano diventare una risorsa cruciale per l'approvvigionamento di minerali metallici nei prossimi decenni.
 
@@ -66,7 +66,7 @@ Il colore dell'acqua di mare, prevalentemente azzurro-blu con sfumature verso il
 
 La trasparenza delle acque, ovvero la capacità di lasciarsi attraversare dalla luce, è quasi completa nei primi 50 metri di profondità (zona fotica), ma diminuisce progressivamente fino ai 200 metri (zona afotica), oltre i quali tutte le radiazioni luminose vengono completamente assorbite.
 
-#boxfl(bottom)[== *🧩* La morfologia dei fondali oceanici <senza_numero> 
+#boxfl(bottom)[== 🐺 La morfologia dei fondali oceanici <senza_numero> 
 
 L'esplorazione dei fondali oceanici ha conosciuto un significativo sviluppo grazie alle numerose spedizioni scientifiche condotte negli anni Sessanta e Settanta, che hanno portato alla scoperta di "paesaggi" sottomarini straordinariamente diversificati e complessi, precedentemente ignoti, soprattutto nelle zone di maggior profondità.
 
@@ -123,8 +123,7 @@ Non esiste una classificazione rigida delle onde, ma in base alla loro genesi e 
 - Onde di tempesta: generate da uragani o cicloni. Dotate di alta energia e direzioni variabili a seconda dell'irregolarità del vento, queste onde possono causare danni significativi sia alle coste che alle imbarcazioni in mare aperto.  
 - Tsunami: onde estremamente potenti e atipiche, provocate da un maremoto che scuote il fondale marino trasferendo l'energia all'acqua sovrastante. Queste onde colpiscono la costa con violenza dovuta alla grande massa d'acqua coinvolta e alla rapidità del movimento. La loro imprevedibilità e straordinaria forza distruttiva rendono gli tsunami particolarmente temuti, soprattutto lungo litorali esposti al rischio sismico.   
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Circuito oceanico: Movimento ciclico delle masse d'acqua marine, il cui spostamento, determinato da una sequenza di correnti, forma percorsi chiusi e ricorrenti all'interno di uno stesso bacino oceanico.
@@ -148,3 +147,5 @@ Non esiste una classificazione rigida delle onde, ma in base alla loro genesi e 
 / Trasgressione: Fenomeno con cui il mare invade territori precedentemente emersi.
 
 
+
+]

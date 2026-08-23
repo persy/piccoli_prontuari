@@ -23,7 +23,7 @@ In seguito a tale fenomeno iniziale, la materia avrebbe iniziato a espandersi ne
 
 Con il passare del tempo e sotto l'azione delle forze gravitazionali, all'interno di questi agglomerati si sarebbero formati complessi stellari derivanti dal collasso gravitazionale delle nubi primordiali.
 
-#boxfl(bottom)[== *🧩* Il gruppo locale <senza_numero>
+#boxfl(bottom)[== 🐺 Il gruppo locale <senza_numero>
 
 All'interno di questa cornice cosmologica si distingue il Gruppo Locale, un insieme di circa venti galassie legate gravitazionalmente. Le tre più grandi sono quelle a spirale: la Via Lattea, la galassia di Andromeda e la galassia del Triangolo.
 
@@ -74,7 +74,7 @@ Gli ammassi globulari orbitano intorno al centro della Galassia, il quale eviden
 La cosmologia è la disciplina scientifica che studia l'origine e l'evoluzione dell'universo, includendo l'ipotesi di una possibile pluralità di universi. Questi interrogativi hanno affascinato l'umanità fin dalle prime civiltà, dando origine nel corso dei secoli a risposte diverse, basate sulle conoscenze disponibili in ogni epoca.
 
 === Origine dell'universo
-#boxfl(top)[== *🧩* Effetto Doppler <senza_numero>
+#boxfl(top)[== 🐺 Effetto Doppler <senza_numero>
 
 Il fenomeno noto come effetto Doppler, applicabile a tutti i tipi di onde, fu originariamente teorizzato dal fisico tedesco Christian Doppler (1803-1853) nell'ambito delle onde sonore. Esso rappresenta una variazione percepita della frequenza di un'onda, determinata dal movimento relativo tra la sorgente dell'onda e l'osservatore.
 
@@ -117,8 +117,7 @@ Diversi problemi ancora irrisolti ostacolano la comprensione definitiva: il tass
 
 Quest'ultima si riferisce al mistero della quantità di materia visibile nella Via Lattea, apparentemente insufficiente a spiegare il legame gravitazionale tra i suoi corpi celesti.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Radiazione: Energia emessa da una sorgente che si propaga sotto forma di onde o particelle, attraversando l'aria o il vuoto. Il termine è generalmente associato alla radiazione elettromagnetica (come onde radio, infrarossi, luce visibile, raggi X).
@@ -137,3 +136,5 @@ Quest'ultima si riferisce al mistero della quantità di materia visibile nella V
 
 
 
+
+]

@@ -137,7 +137,7 @@ Il clima subpolare, conosciuto anche come clima seminivale o della tundra, è ca
 
 Il clima polare, noto anche come clima nivale, domina le calotte glaciali della Groenlandia e dell'Antartide. Qui le temperature non superano mai gli 0 °C in qualsiasi periodo dell'anno, e il suolo rimane costantemente coperto da neve e ghiaccio. Le precipitazioni sono molto scarse ma si accumulano completamente, impedendo la presenza di vegetazione.
 
-#boxfl(bottom)[== *🧩* Il clima in Italia <senza_numero>
+#boxfl(bottom)[== 🐺 Il clima in Italia <senza_numero>
 
 L'Italia si trova nella fascia dei climi mesotermici, ma la sua varietà climatica è influenzata dall'estensione latitudinale, dalla complessa conformazione orografica e dalla presenza del mare su tre lati. Questi fattori determinano una notevole diversità locale, suddivisibile in tre gruppi principali: climi montani, clima continentale e climi mediterranei, ulteriormente articolati in sottotipi.
 
@@ -157,8 +157,7 @@ Fortemente condizionati dal mare, si dividono in quattro sottotipi principali:
 - Clima del basso Adriatico: caldo e secco in estate poiché le masse d'aria umida atlantica perdono la loro umidità attraversando il versante tirrenico.
 - Clima delle isole: caratterizzato da estati lunghe, calde e aride e inverni brevi e umidi con precipitazioni concentrate tra l'inverno e la primavera. La scarsità d'acqua rappresenta una sfida nelle zone costiere. Nelle aree interne ed elevate delle isole il clima assume invece caratteristiche più continentali. Infine, sui rilievi più alti come l'Etna, prevalgono aspetti propri dei climi montani.]
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Clima: Complesso di condizioni meteorologiche che, in media, definiscono le caratteristiche di una regione nel corso di un anno. Tali condizioni sono determinate sulla base di rilevazioni protratte per un periodo esteso, generalmente di almeno 30 anni.
@@ -172,3 +171,4 @@ Fortemente condizionati dal mare, si dividono in quattro sottotipi principali:
 / Meteorologia: Scienza che si occupa dello studio dell'atmosfera e dei fenomeni che vi si svolgono.
 
 / Tempo: Insieme delle condizioni meteorologiche che caratterizzano una determinata regione in un preciso momento.
+]

@@ -192,7 +192,7 @@ Le acque delle falde e delle sorgenti sono generalmente di alta qualità e, per 
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* Approfondimenti <senza_numero>
+== 🐺 Approfondimenti <senza_numero>
 
 === La forma dell'alveo <senza_numero>
 
@@ -224,8 +224,7 @@ Durante il disgelo, la banchisa può frammentarsi in blocchi più piccoli che po
 
 Nelle aree circumpolari vicine ai continenti, le lingue glaciali dei ghiacciai terrestri possono raggiungere il mare, frantumandosi e formando iceberg. Questi blocchi di ghiaccio galleggiante sono caratterizzati da uno spessore importante, maggiore rispetto a quello della banchisa.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Ablazione: Processo mediante il quale la superficie dei ghiacciai si riduce, principalmente a causa dell'aumento delle temperature, che determina la fusione del ghiaccio.  
@@ -260,3 +259,5 @@ Nelle aree circumpolari vicine ai continenti, le lingue glaciali dei ghiacciai t
 
 
 
+
+]

@@ -85,7 +85,7 @@ $ 0h ≤ \AR ≤ 24h $
 
 Le coordinate definite da questo sistema sono quelle riportate nei cataloghi stellari, negli atlanti celesti e negli annuari, poiché non dipendono dal luogo o dall'ora di osservazione. Tuttavia, anche questo sistema risente del passare del tempo a causa del moto proprio delle stelle e del graduale spostamento dell'origine delle coordinate (punto γ), causato dal moto di precessione dell'asse terrestre.
 
-#boxfl(top)[== *🧩* Sistemi di coordinate eclittiche e di coordinate galattiche <senza_numero>
+#boxfl(top)[== 🐺 Sistemi di coordinate eclittiche e di coordinate galattiche <senza_numero>
 
 Il sistema di coordinate eclittiche prende come riferimento l'eclittica, ovvero il circolo massimo sul cui piano si muovono la maggior parte dei corpi celesti del sistema solare. Le sue coordinate sono la latitudine e la longitudine eclittica.
 
@@ -146,7 +146,7 @@ Entrambe le misurazioni sono considerate tempi locali poiché il loro valore dip
 A differenza del tempo locale, si definisce il tempo universale (TU) come il tempo locale del meridiano di riferimento fondamentale, ovvero quello che passa per l'osservatorio di Greenwich.
 
 === Calendari
-#boxfl(bottom)[== *🧩* Il calendario Gregoriano <senza_numero>
+#boxfl(bottom)[== 🐺 Il calendario Gregoriano <senza_numero>
 
 Questo sistema temporale, oggi utilizzato nella maggior parte dei paesi industrializzati, è un calendario solare che conserva tuttavia tracce di antichi modelli lunari nella suddivisione dei mesi e altri dettagli. Le sue origini dirette risalgono al primitivo calendario romano, che fu riformato da Giulio Cesare nel 46 a.C., dando vita al calendario giuliano. La versione giuliana prevedeva anni divisi in 12 mesi e della durata di 365 giorni per tre anni consecutivi, seguiti da un quarto anno di 366 giorni. Il giorno aggiuntivo era collocato dopo il 25 febbraio, corrispondente allora al sesto giorno prima delle calende di marzo (l'inizio del mese). Tale giorno supplementare veniva denominato _bis-sextus_ perché ripeteva il sesto giorno, da cui deriva il termine "anno bisestile".
 
@@ -158,8 +158,7 @@ I calendari sono sistemi ideati per organizzare in modo sistematico e coerente l
 
 Esistono dunque tre tipologie principali di calendari: quelli solari, come il calendario gregoriano, che si basano sul moto apparente del sole tra le costellazioni; quelli lunari, che regolano il tempo secondo il ciclo delle fasi lunari; e quelli lunisolari, che cercano di combinare con precisione entrambe le periodicità. La qualità di un calendario dipende dalla sua capacità di sincronizzarsi accuratamente con i multipli dei periodi astronomici di riferimento. Per migliorare tale precisione si aggiunge periodicamente un giorno o una frazione di tempo all'anno o al mese. Le modalità per apportare queste modifiche diventano sempre più complesse con l'aumentare del livello di accuratezza richiesto.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Eclittica: È il cerchio massimo risultante dall'intersezione del piano dell'orbita terrestre con la sfera celeste. Coincide con la traiettoria apparente che il Sole percorre sulla sfera celeste nel corso dell'anno.
@@ -173,3 +172,5 @@ Esistono dunque tre tipologie principali di calendari: quelli solari, come il ca
 / Rotazione apparente: Movimento apparente degli astri causato dalla rotazione della Terra.
 
 / Sfera celeste: Sfera immaginaria di dimensioni tali da includere tutti gli astri, con l'osservatore terrestre al suo centro. Sulla sua superficie vengono idealmente collocati i corpi celesti.
+
+]

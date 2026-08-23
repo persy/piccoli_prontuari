@@ -93,7 +93,7 @@ Il vento svolge un'importante azione modellante sulla superficie terrestre, sopr
 
 L'intensità dell'erosione eolica dipende dall'energia trasmessa dal vento per attrito alle superfici rocciose. Tale energia è strettamente correlata alla velocità del vento: maggiore è la velocità, più intensa sarà la capacità erosiva.
 
-#boxfl(bottom)[== *🧩* Il loess <senza_numero>
+#boxfl(bottom)[== 🐺 Il loess <senza_numero>
 
 Il loess è un deposito eolico formato da sabbia fine e limo di origine glaciale, proveniente dai materiali morenici erosi, trasportati e depositati dai ghiacciai. Questi depositi, privi di copertura vegetale, subiscono l'azione dei venti che trascinano via le particelle fini del sedimento e le rilasciano là dove perdono energia. Ad esempio, quando il vento incontra un ostacolo, il materiale si accumula ai piedi di quest'ultimo formando masse compatte di colore giallo-grigio con spessori che possono raggiungere decine di metri.
 
@@ -205,7 +205,7 @@ Mentre gli agenti geomorfologici tradizionalmente studiati operano su una superf
 
 Nel complesso, l'equilibrio tra i due fenomeni tende a rettificare progressivamente la linea costiera, che nel tempo subisce continui cambiamenti. Le coste presentano una grande varietà di forme.
 
-#boxfl(bottom)[== *🧩* La classificazione delle coste <senza_numero>
+#boxfl(bottom)[== 🐺 La classificazione delle coste <senza_numero>
 
 La classificazione delle coste può essere effettuata sulla base della loro morfologia oppure della loro origine.
 
@@ -230,8 +230,7 @@ Le forme di deposito si compongono di materiali fini e sciolti (come ciottoli, g
 
 In alcuni casi, i detriti vengono depositati in mare a una certa distanza dalla costa, dove le onde che avanzano verso terra incontrano le onde di ritorno (risacca) e si annullano reciprocamente. Da questa dinamica può formarsi un cordone litoraneo sommerso che, col tempo, può emergere e dare vita a un lido: una sorta di isola allungata e parallela alla costa. Quando i lidi si collegano alla terraferma, possono isolare tratti di mare creando lagune, specchi d'acqua in cui la comunicazione con il mare aperto è limitata.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Anfiteatro morenico: Insieme di formazioni moreniche frontali depositate da un ghiacciaio al termine della sua estensione in pianura.  
@@ -256,3 +255,5 @@ In alcuni casi, i detriti vengono depositati in mare a una certa distanza dalla 
 
 / Rias: Insenatura costiera profonda risultante dalla sommersione di valli fluviali pregresse a seguito dell'innalzamento del livello marino.  
 
+
+]

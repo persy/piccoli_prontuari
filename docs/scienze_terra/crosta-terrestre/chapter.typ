@@ -18,7 +18,7 @@ In alcuni casi, gli elementi o i composti sono formati da unità strutturali aut
 
 Non sempre però i legami chimici tra gli atomi portano alla formazione di molecole. In molte sostanze solide si riscontra la presenza di aggregati cristallini ionici, dove i legami chimici (di tipo ionico) coinvolgono un numero indefinito di ioni disposti secondo una struttura ordinata, ripetuta regolarmente nello spazio e denominata reticolo cristallino. In questi casi non si possono individuare molecole vere e proprie poiché i legami ionici si estendono all'intero reticolo cristallino. Sostanze di questo tipo, note anche come composti ionici, caratterizzano i minerali che costituiscono le rocce della crosta terrestre.
 
-#boxbr[== *🧩* Atomi, isotopi, ioni e legami ionici <senza_numero>
+#boxbr[== 🐺 Atomi, isotopi, ioni e legami ionici <senza_numero>
 
 Gli atomi sono formati da tre tipi principali di particelle subatomiche: protoni, con carica positiva unitaria; neutroni, privi di carica elettrica e dotati di una massa leggermente superiore a quella dei protoni; e elettroni, con carica negativa unitaria e massa estremamente ridotta (circa 1/1840 della massa del protone).
 
@@ -135,7 +135,7 @@ I minerali vengono classificati in otto gruppi principali sulla base della loro 
 - Solfati: Nei solfati lo ione solfato (SO#sub[4]#super[2-]) si combina con vari cationi. Un esempio famoso è il gesso (CaSO#sub[4]·2H#sub[2]O), formato attraverso la precipitazione chimica causata dall'evaporazione dell'acqua in bacini marini chiusi o laghi salati.
 - Fosfati: Questi minerali contengono lo ione fosfato (PO#sub[4]#super[3-]) unito a diversi cationi. I fosfati sono ampiamente utilizzati nella produzione di fertilizzanti; il minerale più rappresentativo è l'apatite (Ca#sub[5]\(PO#sub[4]\)#sub[3]\(F,Cl,OH\)).
 
-#boxfl(bottom)[== *🧩* La tavola periodica degli elementi <senza_numero>
+#boxfl(bottom)[== 🐺 La tavola periodica degli elementi <senza_numero>
 
 Il chimico russo Dmitrij Mendeleev fu il primo, nel 1869, a organizzare gli elementi chimici noti in quella che oggi chiamiamo tavola di Mendeleev, disponendoli in ordine crescente di peso atomico. Inoltre, Mendeleev fu capace di prevedere l'esistenza di elementi ancora sconosciuti.
 
@@ -202,8 +202,7 @@ Sia le rocce ignee sia quelle sedimentarie possono trasformarsi in rocce metamor
 
 Spesso, il ciclo litogenetico si manifesta solo in parte o dà luogo a una trasformazione interna tra rocce dello stesso tipo. Ad esempio, la fusione di rocce ignee genera magma che, solidificando, diventa ancora rocce ignee; analogamente, i detriti prodotti dall'erosione di rocce sedimentarie possono formare una nuova roccia dello stesso genere. Una roccia metamorfica, infine, può subire ulteriormente il metamorfismo, originando un'altra roccia metamorfica.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Atomo: La più piccola unità fondamentale degli elementi chimici che mantiene intatte le proprietà chimico-fisiche. È composto da particelle elementari: protoni, neutroni ed elettroni.  
@@ -221,3 +220,5 @@ Spesso, il ciclo litogenetico si manifesta solo in parte o dà luogo a una trasf
 / Minerale: Sostanza solida inorganica di origine naturale, con composizione chimica definita e struttura cristallina ben precisa.  
 
 / Reticolo cristallino: Configurazione spaziale ordinata dei componenti di un cristallo, ottenuta dalla ripetizione della stessa unità fondamentale, chiamata cella elementare.  
+
+]

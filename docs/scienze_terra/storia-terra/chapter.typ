@@ -25,7 +25,7 @@ In condizioni normali, dopo la morte gli organismi tendono a decomporsi a opera 
 
 Il processo di fossilizzazione può portare alla conservazione diretta di alcune parti dell'organismo, alla preservazione indiretta delle sue tracce oppure alla conservazione completa dell'intera struttura dell'organismo.
 
-#boxfl(bottom)[== *🧩* L'origine della vita sulla Terra <senza_numero>
+#boxfl(bottom)[== 🐺 L'origine della vita sulla Terra <senza_numero>
 
 Secondo le teorie oggi più riconosciute, la vita ebbe origine da semplici composti chimici inorganici, che gradualmente si aggregarono formando strutture sempre più complesse. Le prime tracce fossili di organismi viventi risalgono a circa 3,4 miliardi di anni fa, ma si ipotizza che la comparsa della vita sulla Terra sia avvenuta circa 3,6 miliardi di anni fa. In quel periodo, le condizioni del pianeta erano molto diverse rispetto a quelle attuali: la Terra era ancora in fase di consolidamento e raffreddamento, con temperature superficiali elevate e un'atmosfera priva di ossigeno.
 
@@ -65,7 +65,7 @@ In Siberia sono stati rinvenuti alcuni mammut con carni ancora intatte e dotati 
 
 La mummificazione naturale si verifica quando i tessuti e le parti molli degli organismi si disseccano, proteggendosi dalla decomposizione. Questo processo avviene comunemente in ambienti asciutti e chiusi o in condizioni climatiche semiaride. Grazie a questa conservazione sono giunti fino a noi resti mummificati di uomini preistorici.
 
-#boxbr[== *🧩* Altri metodi di datazione assoluta <senza_numero>
+#boxbr[== 🐺 Altri metodi di datazione assoluta <senza_numero>
 
 Per determinare l'età dei depositi lacustri e di antiche piante si può ricorrere rispettivamente al metodo delle varve e alla dendrocronologia, anche se entrambi consentono di risalire soltanto a qualche migliaio di anni fa.
 
@@ -195,7 +195,7 @@ Rimanendo nell'ambito degli organismi animali, merita menzione la comparsa dei n
 
 Durante questa era, il clima subì una trasformazione graduale, passando da tropicale a temperato, con episodi di condizioni temperato-fredde avvertibili verso la sua conclusione.
 
-#boxbr[== *🧩* L'estinzione dei grandi rettili <senza_numero>
+#boxbr[== 🐺 L'estinzione dei grandi rettili <senza_numero>
 
 L'era mesozoica, conosciuta anche come "l'era dei grandi rettili", si distingue per la presenza predominante di questi animali in tutti i continenti per circa 150 milioni di anni, durante i quali dominarono incontrastati il regno animale. La loro estinzione risale a circa 65 milioni di anni fa, alla fine del Cretaceo, e le cause che portarono a questa scomparsa rimangono ancora avvolte nel mistero.
 
@@ -262,8 +262,7 @@ Le fluttuazioni climatiche e i cambiamenti ambientali associati hanno influenzat
 )  
 )
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Datazione radiometrica: Tecnica di datazione assoluta che permette di determinare l'età di una roccia attraverso l'analisi degli isotopi radioattivi in essa presenti.  
@@ -283,3 +282,5 @@ Le fluttuazioni climatiche e i cambiamenti ambientali associati hanno influenzat
 / Varva: Strato sedimentario formato annualmente in ambienti lacustri periglaciali. Si compone di una alternanza tra uno strato chiaro di sabbia e uno scuro di argilla.  
 
 
+
+]

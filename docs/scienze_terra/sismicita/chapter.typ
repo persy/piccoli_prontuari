@@ -51,7 +51,7 @@ Le onde superficiali si formano nell'epicentro quando le onde longitudinali e tr
 
 Le onde superficiali sono caratterizzate dalla capacità di percorrere lunghe distanze prima di dissiparsi; tuttavia, possiedono velocità inferiori rispetto alle onde P e S. In particolare, le onde L viaggiano a circa 3 km/s, leggermente più rapide delle onde R, che si propagano a circa 2,7 km/s.
 
-#boxfl(bottom)[== *🧩* I maremoti, o tsunami <senza_numero>
+#boxfl(bottom)[== 🐺 I maremoti, o tsunami <senza_numero>
 
 I maremoti, o tsunami, rappresentano fenomeni marini eccezionali costituiti da onde di grande dimensione e potenza. Il termine "tsunami" deriva dal giapponese e significa "onda del porto", indicando il manifestarsi improvviso sul mare di onde molto alte e di ampia estensione che si propagano a elevatissime velocità e si abbattono violentemente sulle coste.
 
@@ -149,8 +149,7 @@ Un altro 20% circa dei terremoti è concentrato lungo le catene montuose di form
 
 Infine, una moderata attività sismica si osserva anche lungo le dorsali oceaniche e nella regione della fossa tettonica dell'Africa orientale. Questo tipo di sismicità è strettamente legato ai movimenti divergenti tra le placche e si distingue per la prevalenza di ipocentri superficiali.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Asismica: Area quasi priva di attività sismica.  
@@ -167,3 +166,5 @@ Infine, una moderata attività sismica si osserva anche lungo le dorsali oceanic
 
 / Tsunami: Serie di onde anomale di enormi dimensioni causate da un movimento improvviso di una massa d'acqua, spesso innescato da un terremoto sottomarino, ma anche da eruzioni vulcaniche sottomarine o frane. 
 
+
+]

@@ -15,7 +15,7 @@ Durante la fase di solidificazione, il magma subisce un processo di cristallizza
 
 Poiché i magmi tendono a risalire verso la superficie attraverso le fratture presenti nella crosta terrestre, le rocce ignee mostrano una grande varietà di forme di giacitura. Spesso queste rocce hanno configurazioni irregolari e discordanti rispetto alle masse rocciose circostanti, dette rocce incassanti. Inoltre, le rocce ignee mantengono una connessione con il sottosuolo attraverso una radice: questa corrisponde al canale di ascensione del magma, che solitamente rimane parzialmente riempito dal materiale eruttivo. Tale canale rappresenta il legame tra la massa eruttiva superficiale e il serbatoio magmatico profondo, da cui originano i materiali delle rocce.
 
-#boxfl(top)[== *🧩* Serie di Bowen <senza_numero>
+#boxfl(top)[== 🐺 Serie di Bowen <senza_numero>
 
 Durante il raffreddamento graduale di un magma, la solidificazione avviene secondo un preciso schema di cristallizzazione minerale definito dalla serie di Bowen. Questo modello tecnico prende il nome dal petrografo canadese Norman Levi Bowen (1887-1956), il quale, alla fine degli anni Venti del Novecento, analizzò sperimentalmente in laboratorio la cristallizzazione di magmi sintetici. Il fenomeno, noto come cristallizzazione frazionata, descrive la sequenza ordinata con cui i minerali cristallizzano all'interno di un magma.
 
@@ -73,8 +73,7 @@ La famiglia dei gabbri è caratterizzata da rocce di colore scuro, formate princ
 
 Infine, le rocce ultrabasiche comprendono olivine e pirosseni come minerali principali. In questa categoria rientrano le peridotiti (rocce intrusive) e le picriti (rocce effusive), che presentano una distribuzione limitata sui continenti ma risultano più comuni sui fondali oceanici.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Acido: In petrografia, il termine "acido" si riferisce alla percentuale di silice presente nelle rocce ignee. Una roccia viene definita acida quando il suo contenuto di silice supera il 66%.  
@@ -94,3 +93,5 @@ Infine, le rocce ultrabasiche comprendono olivine e pirosseni come minerali prin
 / Olocristallina: Struttura tipica delle rocce ignee intrusive caratterizzata da cristalli ben visibili a occhio nudo.  
 
 / Plutone: Grande massa rocciosa formata dall'intrusione e successivo raffreddamento di un magma in profondità.  
+
+]

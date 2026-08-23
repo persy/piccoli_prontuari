@@ -170,7 +170,7 @@ Nell'emisfero boreale, le stagioni astronomiche si articolano come segue:
 
 Le stagioni astronomiche non corrispondono pienamente a quelle meteorologiche, ossia al reale andamento delle condizioni climatiche. Tale discrepanza è attribuibile al fatto che atmosfera, idrosfera e litosfera assorbono e rilasciano calore con un certo intervallo temporale, ritardando l'impatto percepibile delle variazioni dell'inclinazione dei raggi solari. Inoltre, l'inclinazione dei raggi altera l'altezza degli archi descritti dal Sole nel cielo durante il suo moto apparente tra alba e tramonto. Basandosi su queste differenze stagionali nell'inclinazione dei raggi solari, è possibile identificare diverse zone astronomiche della superficie terrestre, ciascuna caratterizzata da specifici pattern climatici.
 
-#boxfl(bottom)[== *🧩* Le zone astronomiche <senza_numero>
+#boxfl(bottom)[== 🐺 Le zone astronomiche <senza_numero>
 
 A causa della diversa inclinazione dei raggi solari nel corso dell'anno, la superficie terrestre viene suddivisa in diverse zone astronomiche, ognuna con condizioni di riscaldamento caratteristiche.
 
@@ -206,8 +206,7 @@ La variazione dell'eccentricità dell'orbita terrestre causa modifiche alla form
 
 L'inclinazione dell'asse terrestre rispetto alla verticale del piano orbitale cambia molto lentamente, seguendo un ciclo di 40.000 anni. Attualmente, l'asse terrestre è inclinato di 23°27' rispetto alla verticale del piano dell'eclittica. Tuttavia, questo angolo può oscillare tra un massimo di 24°36' e un minimo di 21°58'. Poiché l'inclinazione dell'asse determina le stagioni, queste variazioni influenzano le differenze climatiche tra le stagioni nel corso dei millenni.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Anno: Periodo necessario alla Terra per completare un'orbita intorno al Sole. A seconda del riferimento usato, può essere un anno sidereo (basato su una stella fissa) o tropico (detto anche solare). Per effetto della precessione degli equinozi, l'anno tropico dura 365 giorni, 5 ore e 46 minuti ed è più corto di circa 20 minuti rispetto al sidereo. Dall'anno tropico deriva l'anno civile di 365 giorni, con l'aggiunta di un giorno ogni quattro anni per formare l'anno bisestile.
@@ -233,3 +232,4 @@ L'inclinazione dell'asse terrestre rispetto alla verticale del piano orbitale ca
 / Longitudine: Distanza angolare di un punto rispetto al meridiano di riferimento, calcolata sull'arco di parallelo passante per il punto stesso.
 
 / Rosa dei venti: Rappresentazione grafica delle direzioni dei venti, corrispondenti ai quattro punti cardinali e alle direzioni intermedie.
+]

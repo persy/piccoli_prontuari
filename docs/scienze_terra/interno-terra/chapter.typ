@@ -17,7 +17,7 @@ Per descriverne la struttura interna, è necessario raccogliere dati sulla compo
 
 Le informazioni sulle parti più profonde della Terra derivano invece da metodi di indagine indiretta. Tra questi rientra l'analisi dei sismogrammi, che rappresentano i tracciati delle onde sismiche generate dagli eventi tellurici, oltre allo studio di alcune proprietà fisiche del pianeta, quali il campo gravitazionale, il flusso di calore proveniente dal suo interno e il campo magnetico terrestre. Per determinare la composizione chimica delle zone più profonde si ricorre anch'essa a metodi indiretti. È stato ipotizzato infatti che la composizione chimica della Terra sia strettamente legata alla sua origine. Più precisamente, lo studio delle meteoriti cadute sul pianeta ha fornito informazioni utili: tali meteoriti sono composte da una lega di ferro e nichel e sono considerate residui del materiale primordiale che costituiva il sistema solare durante la sua formazione.
 
-#boxfl(top)[== *🧩* L'origine della Terra <senza_numero>
+#boxfl(top)[== 🐺 L'origine della Terra <senza_numero>
 
 Si ritiene che la Terra, analogamente agli altri pianeti del sistema solare, abbia preso forma da un sottile disco costituito da minuscole particelle solide immerse in un'ampia nube gassosa che circondava il Sole durante la sua formazione circa 4,6 miliardi di anni fa. Tale nube avrebbe avuto origine da una precedente esplosione stellare, probabilmente una supernova. Nelle regioni più vicine al Sole, dove si sarebbe in seguito formato il nostro pianeta, si trovavano corpuscoli composti da materiali metallici e composti chimici quali silicati e acqua sotto forma di ghiaccio. La graduale aggregazione di queste particelle portò alla formazione di corpi maggiori noti come planetesimi, aventi dimensioni medie dell'ordine di alcuni chilometri. Questi corpi continuarono ad accrescere la loro massa inglobando frammenti minori incontrati lungo il loro percorso. In seguito, i planetesimi iniziarono a scontrarsi tra loro: talvolta frammentandosi, altre volte aggregandosi per formare corpi ancora più grandi. Dopo un lungo processo evolutivo, gli scontri e le aggregazioni hanno dato vita ai pianeti veri e propri, fra cui la Terra.
 
@@ -37,7 +37,7 @@ Attraverso l'analisi dei sismogrammi relativi a numerosi terremoti, inclusi quel
 
 Partendo da tali evidenze, unitamente ai risultati derivanti da ulteriori metodi di indagine geofisica, gli studiosi hanno elaborato un modello strutturale dell'interno del pianeta basato su involucri concentrici.
 
-#boxfl(top)[== *🧩* Le discontinuità sismiche <senza_numero>
+#boxfl(top)[== 🐺 Le discontinuità sismiche <senza_numero>
 
 Lo studio delle onde sismiche rappresenta uno strumento di indagine indiretta fondamentale per l'analisi della struttura interna del nostro pianeta. Attraverso questo approccio, è stato possibile ottenere significative informazioni sulle caratteristiche fisiche e chimiche del sottosuolo terrestre.
 
@@ -97,7 +97,7 @@ Al di sotto della litosfera si trova l'astenosfera (dal greco asthenés, debole)
 
 Al di sotto della litosfera si trova l'astenosfera (dal greco asthenés, debole), uno strato caratterizzato da rocce con un comportamento quasi plastico: queste si deformano sotto tensione senza rompersi. L'astenosfera comprende parte del mantello superiore ed è da qui che si originano i magmi che alimentano i vulcani. Questa zona coincide con uno strato in cui la velocità delle onde sismiche diminuisce notevolmente rispetto al mantello sovrastante. L'astenosfera si estende fino a circa 200-300 km di profondità, dove ha inizio la mesosfera (o astenosfera intermedia), in cui le rocce tornano allo stato solido e rimangono tali per tutto il mantello fino alla discontinuità di Gutenberg.
 
-#boxfl(top)[== *🧩* L'isostasia <senza_numero>
+#boxfl(top)[== 🐺 L'isostasia <senza_numero>
 
 Le porzioni in cui è suddivisa la litosfera fluttuano sull'astenosfera plastica seguendo le dinamiche descritte dal principio dell'isostasia (dal greco ''ísos'', uguale, e ''stásis'', stato). Secondo questo principio, la crosta terrestre tende a raggiungere uno stato di equilibrio attraverso movimenti verticali e orizzontali delle masse superficiali e profonde.
 
@@ -156,8 +156,7 @@ Questo processo può verificarsi sia in caso di solidificazione del magma in pro
 
 Gli studi condotti hanno permesso di osservare che l'inversione dei poli magnetici si verifica con una cadenza approssimativa di 500.000-600.000 anni; tuttavia, le cause e i meccanismi precisi di tale fenomeno rimangono ancora poco chiari. Alcuni ricercatori ipotizzano che tali inversioni possano avere un ruolo significativo nella sopravvivenza di interi gruppi di organismi. Durante i periodi di inversione, infatti, lo scudo magnetico terrestre, normalmente attivo nel proteggere il pianeta dalle radiazioni solari nocive, risulta meno efficace, aumentando così l'intensità degli effetti dannosi di queste radiazioni sugli ecosistemi. Questa vulnerabilità ha indotto molti scienziati a stabilire correlazioni tra le estinzioni di ampie famiglie faunistiche, come i dinosauri o le ammoniti, e i periodi di inversione del campo magnetico terrestre.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Astenosfera: Strato situato al di sotto della litosfera, nella parte superiore del mantello terrestre, posto a una profondità compresa tra 60 e circa 200-300 km e caratterizzato da un comportamento plastico con possibilità di movimenti orizzontali di materia.  
@@ -175,3 +174,4 @@ Gli studi condotti hanno permesso di osservare che l'inversione dei poli magneti
 / Moho: Superficie che evidenzia la discontinuità tra la crosta terrestre e il sottostante mantello.  
 
 / Paleomagnetismo: Indagine sui cambiamenti del campo magnetico terrestre nel corso delle ere geologiche, registrati principalmente nelle rocce ignee e correlati al fenomeno dell'inversione magnetica.  
+]

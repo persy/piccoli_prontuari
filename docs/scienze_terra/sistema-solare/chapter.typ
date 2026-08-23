@@ -123,7 +123,7 @@ Attualmente sono noti nove pianeti: Mercurio, Venere, Terra, Marte, Giove, Satur
 )
 ]
 
-#boxbr[== *🧩* Leggi che governano i moti dei pianeti <senza_numero>
+#boxbr[== 🐺 Leggi che governano i moti dei pianeti <senza_numero>
 
 Approfondendo le leggi che regolano i moti planetari, è utile ricordare che nell'antichità il cosmo veniva concepito come un insieme di sfere concentriche con la Terra situata al centro. Su ciascuna di queste sfere era posto un corpo celeste ("astro"), e il tutto era racchiuso da una sfera opaca perforata da piccoli fori attraverso cui filtrava la luce divina dell'empireo. Una visione introdotta dal matematico, astronomo e geografo greco Claudio Tolomeo nel I secolo d.C., che descriveva la Terra immobile al centro dell'universo. Secondo il sistema tolemaico, attorno al pianeta orbitavano la Luna, Mercurio, Venere, il Sole, Marte, Giove, Saturno e infine la sfera delle stelle fisse.
 
@@ -335,8 +335,7 @@ Le meteore, invece, sono frammenti rocciosi di diverse dimensioni che appartengo
 
 I meteoriti costituiscono frammenti extraterrestri più massicci, caratterizzati da dimensioni significative e densità elevata. Pur subendo combustione e parziale disintegrazione durante l'attraversamento dell'atmosfera terrestre, essi riescono a raggiungere la superficie del nostro pianeta, talvolta generando crateri considerevoli. A seconda della loro composizione chimica, i meteoriti vengono classificati in: metallici (ferro e nichel), litoidi (a base di silicati), carbonacei (ad alto contenuto di carbonio) e altre tipologie.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Afelio: Punto più lontano dal Sole occupato da un pianeta o un corpo celeste lungo la propria orbita ellittica.
@@ -358,3 +357,4 @@ I meteoriti costituiscono frammenti extraterrestri più massicci, caratterizzati
 / Moto convettivo: Trasferimento di calore e materia all'interno di un fluido (liquido o gas) dovuto al movimento libero delle particelle che lo compongono.
 
 / Perielio: Punto più vicino al Sole raggiunto da un pianeta o corpo celeste lungo la sua orbita ellittica.
+]

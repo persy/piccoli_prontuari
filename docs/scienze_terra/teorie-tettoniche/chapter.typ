@@ -62,7 +62,7 @@ Sono state identificate sette placche principali di grande estensione – pacifi
 
 Alcune placche consistono esclusivamente di litosfera oceanica, come la placca pacifica; altre comprendono sia litosfera continentale sia oceanica, come la placca africana; infine, vi sono placche composte prevalentemente da litosfera continentale, come la placca eurasiatica.
 
-#boxfl(top)[== *🧩* L'orogenesi <senza_numero>
+#boxfl(top)[== 🐺 L'orogenesi <senza_numero>
 
 Il termine orogenesi indica "origine delle montagne". Le teorie orogenetiche sono quelle che si occupano di studiare e spiegare questo processo di formazione delle catene montuose.
 
@@ -126,7 +126,7 @@ Molti scienziati ipotizzano che il movimento delle placche sia dovuto ai moti co
 
 I moti convettivi del mantello spiegano buona parte dei fenomeni osservabili sulla superficie terrestre. Tuttavia, grazie alla tomografia sismica, una tecnica recente di analisi degli strati interni della Terra, si è scoperto che non tutte le dorsali oceaniche coincidono con correnti ascendenti del magma. Pertanto è stata avanzata un'alternativa teorica che attribuisce il movimento delle placche alla differente velocità di rotazione degli involucri che compongono la Terra.
 
-#boxfl(top)[== *🧩* Una recente teoria sul movimento delle placche <senza_numero>
+#boxfl(top)[== 🐺 Una recente teoria sul movimento delle placche <senza_numero>
 
 Un'ipotesi recente paragona la Terra a una trottola che ruota lentamente ma sta subendo un graduale rallentamento. Questo rallentamento deriva dalle oscillazioni dell'asse terrestre e dalle maree.
 
@@ -136,8 +136,7 @@ Inoltre, si nota che l'attrito tra il mantello e la litosfera varia a seconda de
 
 A supporto di questa teoria, si osserva che le subduzioni avvengono prevalentemente verso est, seguendo la rotazione del mantello. I piani di subduzione inclinati confermano questa dinamica: quando una subduzione si verifica verso est, il piano di inclinazione ha angoli compresi tra 15° e 40°, mentre nelle subduzioni verso ovest l'angolo può raggiungere i 90°, poiché il moto verso est del mantello ostacola il processo.]
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Arco magmatico: Catena vulcanica situata sulla terraferma o sott'acqua, orientata parallelamente a una fossa oceanica e formata dal magma ascendente prodotto dalla fusione della litosfera oceanica subdotta.  
@@ -155,3 +154,4 @@ A supporto di questa teoria, si osserva che le subduzioni avvengono prevalenteme
 / Subduzione: Processo mediante il quale una placca litosferica oceanica sprofonda al di sotto di una placca adiacente.  
 
 / Tettonica: Disciplina della geologia che analizza le deformazioni e i movimenti della crosta terrestre.  
+]

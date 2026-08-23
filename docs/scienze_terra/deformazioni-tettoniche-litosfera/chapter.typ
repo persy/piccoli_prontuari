@@ -63,8 +63,7 @@ Le strutture tettoniche su scala locale includono le cosiddette pieghe-faglie, g
 
 Tra le strutture su scala regionale, invece, troviamo le falde di ricoprimento, che consistono in pieghe rovesciate che interessano aree molto ampie (diverse centinaia di chilometri). Queste strutture si formano attraverso il sovrascorrimento delle rocce che compongono il tetto di una faglia inversa particolarmente estesa sopra le masse rocciose sottostanti, che costituiscono il letto della faglia. La presenza di tali strutture è evidenziata dalla sovrapposizione degli strati: lo strato superiore, formato dalle rocce sovrascorse, è detto alloctono (dal greco _állos_, diverso, e _chthón_, terra), mentre quello inferiore, composto dalle rocce rimaste nella loro posizione originaria, è definito autoctono (dal greco _autós_, se stesso, e _chthón_, terra). Tra i ricoprimenti troviamo le falde di compressione, così chiamate perché si generano in seguito a forze compressive che agiscono su scala regionale. Questo tipo di struttura tettonica è tipico delle grandi catene montuose, come la catena himalaiana e quella alpina. In queste catene si distinguono una radice, ovvero la parte più arretrata del ricoprimento, e un fronte, che corrisponde alla porzione avanzata. L'erosione dello strato alloctono può provocare la formazione di una finestra tettonica, un'incisione attraverso cui viene esposto lo strato autoctono sottostante. Inoltre, se l'erosione isola una parte della falda dal resto, si formano strutture denominate _klippen_ (scoglio, in tedesco).
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Anticlinale: Piega con la concavità rivolta verso il basso, al cui nucleo si trovano gli strati rocciosi più antichi che hanno subìto il processo di piegamento.  
@@ -90,3 +89,5 @@ Tra le strutture su scala regionale, invece, troviamo le falde di ricoprimento, 
 
 
 
+
+]

@@ -13,7 +13,7 @@ Non tutti i minerali presenti nella crosta terrestre vengono sfruttati dall'uomo
 
 Le miniere comprendono l'insieme delle strutture destinate all'estrazione e alla separazione dei minerali dai giacimenti, siano essi situati nel sottosuolo o in superficie.
 
-#boxfl(bottom)[== *🧩* Le miniere <senza_numero> 
+#boxfl(bottom)[== 🐺 Le miniere <senza_numero> 
 
 Prima di avviare una miniera, si procede con una fase di prospezione, un'esplorazione indiretta del sottosuolo effettuata utilizzando metodi sismici, gravimetrici, elettrici o magnetici. Questa tecnica consente di individuare i giacimenti mediante rilevazioni condotte sulla superficie o nel sottosuolo, attraverso pozzi e gallerie.
 
@@ -43,7 +43,7 @@ In funzione delle diverse fasi di consolidazione e differenziazione del magma, i
 
 === Giacimenti sedimentari
 
-#boxfl(bottom)[== *🧩* Il petrolio <senza_numero> 
+#boxfl(bottom)[== 🐺 Il petrolio <senza_numero> 
 
 Il petrolio è una miscela multifasica di idrocarburi naturali, comprendente componenti solidi, liquidi e gassosi, e contenente piccole quantità di composti organici ossigenati, solforati e azotati. Tale risorsa assume un ruolo di primaria importanza come combustibile di origine fossile, risultando attualmente la fonte energetica più utilizzata dall'uomo. Il suo impiego non si limita alla produzione di carburanti per il trasporto e combustibili per uso energetico, ma include anche l'estrazione di derivati indispensabili per la produzione di materie plastiche e numerosi altri prodotti industriali.
 
@@ -84,8 +84,7 @@ Le quantità di queste risorse disponibili nei giacimenti, che risultano sfrutta
 
 Anche considerando che le riserve totali stimate risultano superiori a quelle oggi sfruttabili, è comunque indispensabile adottare un approccio più razionale nell'uso delle risorse mineralogiche. Ciò implica sia una riduzione dei consumi sia un maggiore impegno nel recupero e nel riciclo dei materiali metallici già utilizzati.
 
-#pagebreak()
-#set page(fill: accent.ter.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Diagenesi: Processi chimico-fisici che avvengono all'interno di un sedimento tra i suoi minerali o con le soluzioni circolanti, dal momento della deposizione fino alla formazione della roccia sedimentaria.  
@@ -97,3 +96,5 @@ Anche considerando che le riserve totali stimate risultano superiori a quelle og
 / Guano: Fertilizzante naturale costituito da accumuli e decomposizione degli escrementi di uccelli marini.  
 
 / Prospezione: Indagini indirette sul sottosuolo condotte mediante studi sul terreno per individuare, ad esempio, giacimenti minerari.  
+
+]
