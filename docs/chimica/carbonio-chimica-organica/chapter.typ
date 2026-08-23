@@ -3,11 +3,9 @@
 #import "../compounds.typ" : * // Variabili
 #import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 
-= Il carbonio e la chimica organica
-
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
 #set math.equation(numbering: (..n) => {
-  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
+  text(font: sans-fonts, size: 11pt, numbering("1", ..n))
   })
 
 =  Il carbonio e la chimica organica
@@ -1486,8 +1484,8 @@ $#v(20pt)
   $ //Da rifare #TODO
 
 - Reazioni di trasposizione: attraverso la formazione di intermedi chimici, un atomo migra da un punto all'altro della molecola modificandone la struttura.  
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+
+#lastpage[
 == Glossario <senza_numero>
 
 / Composti saturi: Molecole prive di legami multipli. 
@@ -1503,3 +1501,5 @@ $#v(20pt)
 / Gruppo funzionale: Insieme di atomi che conferisce caratteristiche chimiche specifiche a una molecola. 
 
 / Reagenti nucleofili ed elettrofili: Sostanze donatrici e accettrici di elettroni, rispettivamente.
+
+]

@@ -49,7 +49,7 @@ Le forme D e L dello stesso monosaccaride sono enantiomeri. In soluzione acquosa
 
 Tra i monosaccaridi più rilevanti troviamo il ribosio e il desossiribosio (entrambi aldopentosi), che costituiscono gli acidi nucleici. Il glucosio, un aldoesoso, rappresenta la principale fonte energetica per tutti gli organismi viventi. Il fruttosio è largamente presente nella natura, specialmente nella frutta. Altri monosaccaridi comuni, come il galattosio, si trovano spesso combinati in disaccaridi.
 
-#boxfl(bottom)[== *🧩* Il glucosio <senza_numero>
+#boxfl(bottom)[== 🐺 Il glucosio <senza_numero>
 
 Il glucosio, noto anche come destrosio per la sua capacità di deviare il piano della luce polarizzata verso destra, è essenziale nei processi di fermentazione e respirazione cellulare, dove viene utilizzato per produrre molecole altamente energetiche, come l'ATP (adenosintrifosfato), che rappresentano una riserva energetica per l'organismo.
 
@@ -94,7 +94,7 @@ La cellulosa è composta da catene lineari di β-glucosio e rappresenta il compo
 
 Il glicogeno, invece, è composto da catene ramificate di α-glucosio e rappresenta il polisaccaride di riserva degli animali. È particolarmente concentrato nel fegato e nei muscoli, dove funge da riserva energetica.
 
-#boxfl(bottom)[== *🧩* Gli enzimi <senza_numero>
+#boxfl(bottom)[== 🐺 Gli enzimi <senza_numero>
 
 Gli enzimi sono proteine che funzionano come catalizzatori biologici, accelerando le reazioni biochimiche che avvengono all'interno delle cellule, sia quelle di sintesi che di demolizione. Grazie a questi catalizzatori, la velocità delle reazioni aumenta fino a un milione di volte. Ogni enzima è altamente specifico per una determinata reazione o per gruppi di reazioni affini.
 
@@ -154,10 +154,11 @@ Le proteine sono macromolecole con massa molecolare elevata, derivanti dall'unio
 
 Si definisce proteina quando la massa molecolare relativa supera le 10.000 unità. Al di sotto di tale valore, si parla invece di polipeptidi. La reazione inversa alla formazione delle proteine è detta idrolisi: in essa si verifica la scissione delle proteine negli amminoacidi costituenti, processo che avviene ad esempio durante la digestione.
 
-$ #h(14em)
+$ 
   mark(#amminoacido1, tag: #<1>)
   +
   mark(#amminoacido2, tag: #<2>)
+  --> \ \ \
   -->
   mark(#legame_peptidico, tag: #<3>)
   +
@@ -166,8 +167,7 @@ $ #h(14em)
   #annot(<1>)[#align(center)[amminoacido]]
   #annot(<2>)[#align(center)[amminoacido]]
   #annot(<3>)[#align(center)[legame peptidico]]
-  #annot(<4>)[#align(center)[acqua]]
-  
+  #annot(<4>)[#align(center)[acqua]]  
 $
 #v(1em)
 === Struttura delle proteine
@@ -290,8 +290,7 @@ Le vitamine sono composti organici dalla struttura eterogenea, essenziali per mo
 
 Le vitamine spesso agiscono come coenzimi, supportando l'attività degli enzimi. Si suddividono in due gruppi principali in base alla solubilità: le vitamine idrosolubili, che comprendono il gruppo B, la vitamina C e la vitamina H; e le vitamine liposolubili, che includono la vitamina A, D, E e K.
 
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Glucidi o zuccheri: Composti chimici costituiti da carbonio, idrogeno e ossigeno, suddivisi in monosaccaridi, disaccaridi e polisaccaridi. Conosciuti anche come carboidrati, rappresentano una fonte primaria di energia per gli organismi viventi e contribuiscono alla formazione delle strutture nelle piante.
@@ -303,3 +302,4 @@ Le vitamine spesso agiscono come coenzimi, supportando l'attività degli enzimi.
 / Enzimi: Molecole di natura proteica che funzionano da catalizzatori nelle reazioni biochimiche, accelerando i processi mediante la riduzione dell'energia di attivazione.
 
 / Acidi nucleici: Composti chimici complessi formati da nucleotidi, includono il DNA (acido desossiribonucleico) e l'RNA (acido ribonucleico). Questi sono responsabili della conservazione dell'informazione genetica e della regolazione della sintesi proteica.
+]

@@ -13,7 +13,7 @@ La legge di periodicità, fulcro della tavola periodica, fornisce il criterio di
 
 Il termine "periodica" descrive proprio la capacità dell'intera tavola di evidenziare analogie ricorrenti tra le proprietà chimiche degli elementi, intervallate da variazioni graduali ma costanti. Questo schema regolare fu determinato per la prima volta dal chimico russo Dmitrij Mendeleev, che ordinò gli elementi in base alla crescente massa atomica. Tuttavia, il fisico inglese Henry Moseley scoprì più tardi che la periodicità degli elementi era in realtà correlata al numero atomico e non alla massa, ponendo le basi della moderna tavola periodica.
 
-#boxfl(bottom)[== *🧩* Mendeleev e la tavola periodica <senza_numero>
+#boxfl(bottom)[== 🐺 Mendeleev e la tavola periodica <senza_numero>
 
 Il sistema periodico fu concepito nella seconda metà del XIX secolo, quando, nel corso di vari decenni, si andarono accumulando osservazioni che evidenziavano somiglianze nel comportamento di diversi elementi. Queste somiglianze suggerirono la possibilità di raggruppare gli elementi in insiemi organizzati.
 
@@ -51,7 +51,7 @@ Dopo il calcio ($Z$ = 20), con lo scandio (Sc, $Z$ = 21) inizia la serie dei sot
 
 I periodi 6 e 7 includono due serie particolari ciascuno, formate da 14 elementi di transizione: i lantanidi e gli attinidi. Questi gruppi si distinguono per il riempimento dei sottolivelli $f$ del terzultimo livello energetico, lasciando invariati il penultimo e l'ultimo livello. Tale configurazione elettronica porta a somiglianze molto marcate tra i membri di ciascuna serie.  
 
-#boxfl(bottom)[== *🧩* Configurazione elettronica dei primi venti elementi <senza_numero>
+#boxfl(bottom)[== 🐺 Configurazione elettronica dei primi venti elementi <senza_numero>
 
 Il sistema periodico fu concepito nella seconda metà del XIX secolo, quando, nel corso di vari decenni, si andarono accumulando osservazioni che evidenziavano somiglianze nel comportamento di diversi elementi. Queste somiglianze suggerirono la possibilità di raggruppare gli elementi in insiemi organizzati.
 
@@ -112,8 +112,7 @@ La quantità di energia associata all'acquisto di una mole di elettroni da parte
 
 // Tavola elettronegatività e altre proprietà periodiche
 
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Tavola periodica di Mendeleev: Sistema di classificazione che organizzava gli elementi in ordine crescente di peso atomico.  
@@ -139,3 +138,4 @@ La quantità di energia associata all'acquisto di una mole di elettroni da parte
 / Affinità elettronica: Diminuisce lungo il gruppo e aumenta nel periodo.  
 
 / Elettronegatività: Diminuisce lungo il gruppo e aumenta nel periodo.
+]

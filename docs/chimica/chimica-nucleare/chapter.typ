@@ -63,7 +63,7 @@ La radioattività artificiale , invece, fu scoperta nel 1919 dal fisico neozelan
 
 I radioisotopi artificiali trovano applicazione in numerosi ambiti. Tuttavia, il progresso più rilevante derivato dallo studio della radioattività è stato la possibilità di sfruttare l'immensa energia contenuta nei nuclei atomici. 
 
-#boxfl(top)[== *🧩* L'acceleretore di particelle <senza_numero> 
+#boxfl(top)[== 🐺 L'acceleretore di particelle <senza_numero> 
 
 Gli acceleratori di particelle sono strumenti utilizzati per indagare le proprietà della materia. Essi accelerano particelle elettricamente cariche, come protoni ed elettroni, oltre a ioni, mediante l'uso di campi elettromagnetici e le fanno collidere tra loro o con bersagli specifici per studiare le interazioni risultanti. Le energie prodotte da queste collisioni possono anche dare origine a nuove particelle, dalla durata estremamente breve e non osservabili in condizioni normali.
 
@@ -139,7 +139,7 @@ La reazione a catena non controllata è alla base della tecnologia impiegata nel
 
 In questo scenario tutti i neutroni generati vengono sfruttati per alimentare ulteriori eventi di fissione, incrementando progressivamente il numero delle reazioni (reazione a catena divergente). Viceversa, qualora una parte dei neutroni venga assorbita da altre sostanze e solo una frazione possa innescare nuove fissioni, il sistema prende il nome di fissione controllata. Questo approccio costituisce la base operativa dei reattori nucleari a fissione, progettati per produrre energia in modo regolato e sicuro.
 
-#boxfl(bottom)[== *🧩* I reattori nucleari <senza_numero> 
+#boxfl(bottom)[== 🐺 I reattori nucleari <senza_numero> 
 
 Il primo reattore nucleare a fissione fu costruito nel 1942 a Chicago ad opera di Enrico Fermi e dei suoi collaboratori, venendo denominato "pila atomica". Il principio operativo di tale dispositivo è sostanzialmente analogo a quello dei reattori attualmente in utilizzo. Durante quel periodo storico dominato dalla seconda guerra mondiale, lo sviluppo della tecnologia legata alla fissione nucleare fu immediatamente correlato alle sue potenziali applicazioni di natura militare.
 
@@ -339,22 +339,19 @@ Contrariamente ai leptoni, gli adroni non sono particelle fondamentali, poiché 
   [Ξ#super[--]],   [d s s],   [-1], [#overline[Ξ]#super[+]] )  
 )
 
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+#lastpage[
 == Glossario <senza_numero> 
 
 / Radioattività: Fenomeno in cui nuclei instabili emettono spontaneamente radiazioni (raggi α, β o γ) trasformandosi in nuclei più stabili.  
+
 / Tempo di dimezzamento: Periodo necessario affinché si disintegri la metà dei nuclei di un elemento radioattivo.  
+
 / Radioattività artificiale o indotta: Processo che prevede la disintegrazione di nuclei stabili attraverso il bombardamento con particelle, generando radioisotopi artificiali.  
+
 / Difetto di massa: Differenza tra la massa sperimentale di un nucleo e la somma delle masse dei nucleoni considerati singolarmente.  
+
 / Fissione nucleare: Fenomeno in cui un nucleo, bombardato con neutroni, si divide in due (o tre) nuclei più leggeri, liberando energia e neutroni che possono causare ulteriori fissioni.  
+
 / Fusione nucleare: Reazione in cui due nuclei atomici leggeri si uniscono formando un nucleo più pesante, accompagnata da un rilascio di energia.
 
-
-
-
-
-
-
-
-
+]

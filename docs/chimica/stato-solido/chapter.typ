@@ -154,9 +154,9 @@ L'ipotesi formulata da Auguste Bravais ha ricevuto una conferma sperimentale att
 
 I raggi X possiedono una lunghezza d'onda comparabile alle dimensioni atomiche e alle distanze interatomiche presenti nei cristalli, che corrispondono a circa 10−8 cm. Di conseguenza, quando incontrano un cristallo, è possibile registrare su una lastra fotografica spettri di diffrazione caratteristici. Questi spettri prendono la forma di fotogrammi composti da una serie di macchie puntiformi la cui disposizione regolare e simmetrica riflette l'organizzazione atomica del cristallo stesso.  
 
-Nell'esperimento condotto da von Laue, i raggi X generati dal tubo e successivamente diffratti da una sottile lamina cristallina producono un'immagine caratteristica che viene fissata sulla lastra fotografica.  
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+Nell'esperimento condotto da von Laue, i raggi X generati dal tubo e successivamente diffratti da una sottile lamina cristallina producono un'immagine caratteristica che viene fissata sulla lastra fotografica. 
+
+#lastpage[
 == Glossario <senza_numero>
 
 / Solidi cristallini: Solidi le cui particelle sono disposte nel spazio secondo regole geometriche precise e regolari.
@@ -174,3 +174,4 @@ Nell'esperimento condotto da von Laue, i raggi X generati dal tubo e successivam
 / Sistemi cristallini: Classificazioni delle forme cristalline basate sulle relazioni tra i parametri cristallografici comuni.  
 
 / Gruppi: Raccolte di forme cristalline accomunate dalle stesse proporzioni tra le lunghezze degli spigoli. Questi gruppi vengono ulteriormente suddivisi in sistemi.  
+]

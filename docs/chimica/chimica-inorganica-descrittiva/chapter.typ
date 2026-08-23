@@ -390,9 +390,9 @@ Il sottogruppo VIII B è composto da nove elementi che mostrano significative so
   )  
 )
 
-#pagebreak()
-#set page(fill: black.lighten(90%))
-== *🧩* Gli elementi chimici e i loro utilizzi <senza_numero>
+== Gli elementi chimici e i loro utilizzi
+
+Di sequito vengono riportati, in maniera molto sintetica, i principali elementi chimici e i loro utilizzi in ambito scientifico e tecnologico.
 
 / Litio: È ampiamente utilizzato nelle batterie al litio e trova applicazioni rilevanti nel settore nucleare. La sua capacità di assorbire neutroni è tra le più basse, rendendolo ideale per i reattori nucleari.
 
@@ -441,7 +441,7 @@ Il sottogruppo VIII B è composto da nove elementi che mostrano significative so
 / Stronzio:
   - Stato naturale: lo stronzio si rinviene nella celestina (solfato di stronzio) e nella stronzianite (carbonato di stronzio).  
   - Usi: lo stronzio è impiegato in alcune leghe metalliche, come assorbitore di gas nei tubi a vuoto e nella fabbricazione di fuochi artificiali.
-#v(2em)
+
 / Bario:
   - Stato naturale: il bario è presente principalmente nella baritina (solfato di bario) e nella witerite (carbonato di bario).  
   - Composti: l'ossido di bario (BaO) viene utilizzato come additivo per lubrificanti. Il solfato di bario (BaSO#sub[4]) è impiegato come pigmento bianco nell'industria della carta e delle vernici, oltre che come mezzo di contrasto per esami radiologici del tubo digerente. Il nitrato di bario [Ba(NO#sub[3])#sub[2]] trova applicazione in pirotecnica, conferendo alla fiamma una colorazione verde.
@@ -462,11 +462,9 @@ Il sottogruppo VIII B è composto da nove elementi che mostrano significative so
   - Stato naturale del Carbonio: il carbonio si trova in diverse forme allotropiche cristalline, come grafite e diamante. È inoltre presente nel petrolio, nei carboni fossili (antracite, litantrace, lignite, torba), nel gas naturale e nei carbonati delle rocce calcaree. Si riscontra anche nell'atmosfera sotto forma di anidride carbonica (CO#sub[2]) e monossido di carbonio (CO).
   - Usi: il carbonio è impiegato sotto forma di carboni artificiali, tra cui coke metallurgico, ottenuto dalla distillazione a secco del litantrace e utilizzato in metallurgia; carbone vegetale o di legna, prodotto mediante distillazione secca del legno, impiegato come combustibile; carbone animale, preparato per distillazione secca delle ossa animali, usato come decolorante.
   - Composti inorganici: uno dei più importanti composti è il monossido di carbonio (CO), un gas incolore e inodore estremamente tossico. Esso si forma quando il carbonio brucia in difetto d'aria o facendo passare anidride carbonica su carbone rovente. Questo gas è rischioso poiché può legarsi stabilmente con l'emoglobina, ostacolando il trasporto dell'ossigeno nel sangue.
-
     $ 
       "CO"_2 + C arrows.rl 2 "CO"
     $
-
     Nell'industria, il gas d'acqua (miscela di monossido di carbonio e idrogeno, CO + H#sub[2]) si ottiene tramite la riduzione del vapore d'acqua con carbone rovente.
     Il diossido di carbonio o anidride carbonica (CO#sub[2]) è un gas incolore e inodore, non tossico e più pesante dell'aria. Solidifica a -79 °C formando il ghiaccio secco ed è solubile in acqua, dove reagisce formando acido carbonico (H#sub[2]CO#sub[3]), i cui sali sono i carbonati (contenenti lo ione CO#sub[3]#super[2-]) e i bicarbonati (con lo ione HCO#sub[3]#super[--]).
 
@@ -482,7 +480,7 @@ Il sottogruppo VIII B è composto da nove elementi che mostrano significative so
   - Stato naturale: in natura si trova principalmente nella cassiterite (biossido di stagno, SnO2). 
   - Produzione: la produzione avviene per riduzione della cassiterite con carbone nei forni a riverbero. 
   - Usi: viene impiegato per rivestire lamiere d'acciaio e nella produzione di leghe come bronzo e peltro.
-#v(2em)
+
 / Piombo: 
   - Stato naturale: in natura è presente nei minerali galena (solfuro di piombo), cerussite (carbonato di piombo) e anglesite (solfato di piombo). 
   - Produzione: la produzione prevede l'arrostimento della galena (PbS), seguito dalla riduzione dell'ossido di piombo (PbO) ottenuto. 
@@ -505,7 +503,6 @@ Il sottogruppo VIII B è composto da nove elementi che mostrano significative so
 / Fosforo:
   - Stato naturale: si trova in natura principalmente sotto forma di apatite, un fosfato di calcio che contiene anche fluoro, e fosforite, anch'essa composta da fosfato di calcio. Questo elemento è essenziale per gli organismi viventi, in quanto è presente negli acidi nucleici (DNA e RNA), nei composti organici con legami fosforici ad alta energia come l'ATP, e nelle ossa, sotto forma di fosfato di calcio. Il fosforo elementare esiste in due forme allotropiche: il fosforo bianco (P4), caratterizzato da elevata reattività e tossicità, e il fosforo rosso, un solido covalente meno reattivo e meno tossico. 
   - Produzione: industrialmente, il fosforo è prodotto mediante un processo elettrotermico alla temperatura di 1400 °C utilizzando una miscela di fosfato di calcio, silice e carbone. 
-
   $ 
     2 "Ca"_3("PO"_4)_2 + 10 C + 6 "SiO"_2 -> P_4 + 10 "CO" + 6 "CaSiO"_3
   $
@@ -600,7 +597,7 @@ Il sottogruppo VIII B è composto da nove elementi che mostrano significative so
     - Cloruro rameoso (CuCl): in soluzione, assorbe il monossido di carbonio (CO), motivo per cui viene utilizzato nella depurazione di miscele gassose contenenti tale composto.  
     - Solfato rameico (CuSO#sub[4]): in miscela con latte di calce (poltiglia bordolese), viene sfruttato come fungicida contro la peronospora della vite.  
     - Acetato rameico (Cu(CH#sub[3]COO)): Contribuisce alla formazione del verderame.  
-#v(2em)
+
 / Zinco: 
   - Stato naturale: lo zinco si trova principalmente sotto forma di blenda (solfuro di zinco) e smithsonite (carbonato di zinco).  
   - Produzione: l'estrazione dello zinco avviene mediante riduzione dell'ossido di zinco (ZnO) con carbone.  

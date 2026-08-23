@@ -314,8 +314,8 @@ Il calore (Q), invece, è energia trasferita in conseguenza di un dislivello ter
 Sia il calore che il lavoro sono modalità di trasferimento dell'energia, dunque forme di energia "in transito". Il loro valore dipende dal percorso seguito dal sistema nel passare dallo stato 1 allo stato 2 e pertanto non possono essere considerati funzioni di stato.
 
 La somma algebrica Q + L (con la convenzione che il calore e il lavoro scambiati positivamente con il sistema vengano considerati come guadagnati dal sistema, mentre quelli scambiati negativamente come ceduti) è tuttavia indipendente dal percorso seguito. Tale somma rappresenta la variazione dell'energia interna del sistema, espressa come: ΔU = U#sub[2] − U#sub[1] (dove U#sub[2] è l'energia interna dello stato finale e U1 quella dello stato iniziale).
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+
+#lastpage[
 == Glossario
 
 / Energia interna (U): Somma totale delle energie possedute dalle particelle di un sistema.  
@@ -342,3 +342,4 @@ La somma algebrica Q + L (con la convenzione che il calore e il lavoro scambiati
 
 / Costante d'equilibrio: Relazione tra energia libera e costante d'equilibrio data da: ΔG° = RT ln K.  
 
+]

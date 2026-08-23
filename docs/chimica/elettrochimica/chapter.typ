@@ -27,7 +27,7 @@ $
 
 Questa decomposizione è ottenuta tramite elettrolisi, grazie all'impiego di soluzioni adeguate. In entrambe le configurazioni, sia nella pila sia nella cella elettrolitica, viene favorito il passaggio di corrente elettrica attraverso un elettrolita presente in soluzione o allo stato fuso.
 
-#boxfl(bottom)[== *🧩* Elettrolisi dell'acqua <senza_numero>
+#boxfl(bottom)[== 🐺 Elettrolisi dell'acqua <senza_numero>
 
 L'elettrolisi dell'acqua pura non è direttamente fattibile poiché la scarsa dissociazione di molecole rende impossibile il passaggio di corrente. Per ovviare a questo limite, si aggiungono piccole quantità di acido solforico (H#sub[2]SO#sub[4]) per renderla conduttrice. Il processo elettrolitico viene realizzato mediante un apparecchio chiamato voltametro. Nella soluzione in esame si trovano le specie H#sub[3]O⁺, OH⁻, H#sub[2]O e SO#sub[4]²⁻. Tuttavia, in questo caso l'ordine di scarica degli ioni non viene rispettato a causa delle basse concentrazioni ioniche presenti. Di conseguenza, agli elettrodi avvengono specifiche reazioni chimiche che possono essere descritte attraverso formule. Gli ioni migrano dando luogo al fenomeno di neutralizzazione.]
 
@@ -92,7 +92,7 @@ L'equilibrio è determinato dalla somma delle semireazioni di ossidazione e ridu
 
 Le soluzioni contenute nelle due semipile sono generalmente collegate con un ponte salino o separate da un setto poroso permeabile agli ioni, dispositivi che svolgono la medesima funzione. Il loro scopo principale è chiudere il circuito garantendo l'elettroneutralità del sistema. In dettaglio, gli ioni negativi che si diffondono dal ponte salino verso il comparto anodico bilanciano le cariche positive degli ioni Zn#super[2+] disciolti nella soluzione. Allo stesso modo, gli ioni positivi che migrano verso il comparto catodico compensano l'eccesso di cariche negative generato dalla deposizione degli ioni Cu#super[2+] al catodo.
 
-#boxfl(bottom)[== *🧩* Applicazioni dell'elettrolisi <senza_numero>
+#boxfl(bottom)[== 🐺 Applicazioni dell'elettrolisi <senza_numero>
 
 I processi elettrolitici trovano ampio utilizzo in diversi ambiti. Nella galvanostegia, consentono di rivestire oggetti, principalmente metallici, con uno strato protettivo o decorativo di metalli come nichel, cromo, argento, oro e altri. Nella galvanoplastica, invece, vengono impiegati per modellare oggetti dalla forma desiderata. 
 
@@ -291,8 +291,7 @@ $
   "eq." e = (m_("eq"))/F
 $
 
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Elettrodo o semielemento: Sistema composto da una semicoppia redox con una forma ossidata e una forma ridotta.  
@@ -311,3 +310,4 @@ $
 
 / Elettrolisi: Processo elettrochimico mediante il quale si realizzano reazioni redox non spontanee fornendo energia elettrica al sistema.  
 
+]

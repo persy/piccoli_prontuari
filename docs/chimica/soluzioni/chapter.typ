@@ -239,8 +239,8 @@ Gli aerosol comprendono particelle solide disperse in un gas, come nel caso dei 
 Le emulsioni, invece, sono dispersioni di un liquido all'interno di un secondo liquido con cui è immiscibile. Ad esempio, il latte rappresenta un'emulsione olio in acqua, dove la fase dispersa è composta da sostanze grasse.
 
 Le particelle colloidali presentano alcune caratteristiche distintive: non precipitano rapidamente nel mezzo in cui sono disperse, non possono essere filtrate e non è possibile separarle allo stato cristallino ma solamente allo stato amorfo. Un fenomeno particolare associato alle dispersioni colloidali è l'effetto Tyndall: quando un fascio di luce attraversa una soluzione colloidale, la luce viene diffusa in maniera caratteristica e diventa visibile lateralmente.
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+
+#lastpage[
 == Glossario
 
 / Soluzioni: Miscele omogenee composte da una sola fase, suddivise in gassose, liquide e solide.  
@@ -259,9 +259,4 @@ Le particelle colloidali presentano alcune caratteristiche distintive: non preci
 
 / Soluzioni colloidali: Miscele in cui le particelle hanno dimensioni intermedie tra quelle delle soluzioni vere e delle sospensioni.  
 
-
-
-
-
-
-
+]

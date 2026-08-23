@@ -1115,8 +1115,8 @@ I polimeri con una disposizione regolare dei gruppi sostituenti lungo la catena 
 Approfondendo sul metanolo e sull'etanolo, il metanolo (CH3OH) è il più semplice tra gli alcoli. Si produce tramite distillazione secca del legno e risulta estremamente tossico per il sistema nervoso. Tra le sue applicazioni principali rientrano l'uso come solvente, combustibile e nella sintesi della formaldeide.
 
 L'etanolo (C2H5OH), noto anche come alcol etilico, è l'alcol comunemente usato. Si ottiene dalla fermentazione degli zuccheri o tramite idratazione dell'etene. Commercialmente, viene spesso denaturato, rendendolo imbevibile mediante l'aggiunta di metanolo. È un liquido incolore, volatile e infiammabile, con un odore caratteristico. Trova impiego nella preparazione di bevande alcoliche, profumi, farmaci e come solvente.
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+
+#lastpage[
 == Glossario <senza_numero>
 
 / Idrocarburi: Composti organici costituiti da carbonio e idrogeno, suddivisi in alifatici e aromatici.
@@ -1143,4 +1143,5 @@ L'etanolo (C2H5OH), noto anche come alcol etilico, è l'alcol comunemente usato.
 
 / Ammine: Derivati dell'ammoniaca in cui uno o più atomi di idrogeno sono sostituiti da radicali alchilici o arilici.
   
-/ Amminoacidi: Composti contenenti sia il gruppo amminico che il gruppo carbossile.  
+/ Amminoacidi: Composti contenenti sia il gruppo amminico che il gruppo carbossile.
+]  

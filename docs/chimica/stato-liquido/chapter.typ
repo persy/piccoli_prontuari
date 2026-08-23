@@ -157,8 +157,8 @@ Un esempio emblematico è rappresentato dall'acqua: pur avendo una massa molecol
     [100], [760,0], [1693], [1360],
 )  
 )
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+
+#lastpage[
 == Glossario <senza_numero>
 
 / Proprietà generali dei liquidi: I liquidi possiedono un volume proprio e assumono la forma del recipiente che li contiene. Sono incomprimibili e la diffusione al loro interno avviene lentamente. 
@@ -178,3 +178,4 @@ Un esempio emblematico è rappresentato dall'acqua: pur avendo una massa molecol
 / Equilibrio dinamico: Stato in cui la velocità di due trasformazioni opposte raggiunge un bilanciamento.  
 
 / Ebollizione: Trasformazione dell'intera massa di un liquido in vapore, che avviene a una temperatura specifica per ogni sostanza e per ciascun valore della pressione.
+]

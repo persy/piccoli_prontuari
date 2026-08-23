@@ -764,9 +764,10 @@ La titolazione è una tecnica analitica volumetrica utilizzata per determinare l
 Per effettuare una titolazione, si riempie una buretta graduata con la soluzione standard. In un recipiente si pone un volume noto della soluzione da analizzare insieme a qualche goccia di un indicatore appropriato. A questo punto, la soluzione standard viene aggiunta lentamente, goccia dopo goccia, finché l'indicatore cambia colore.
 
 Il punto in cui l'indicatore vira consente di individuare il punto di equivalenza della reazione chimica specifica, cioè il momento in cui alla soluzione da titolare è stato aggiunto un quantitativo stechiometrico del titolante. Nelle titolazioni acido-base, si verifica una reazione di neutralizzazione tra l'acido presente e la base aggiunta o viceversa.
-#pagebreak()
+
+#lastpage[
 == Glossario <senza_numero>
-#set page(fill: accent.chi.lighten(90%))
+
 / Acidi e basi secondo Arrhenius: In soluzione acquosa, gli acidi rilasciano ioni H+, mentre le basi producono ioni OH#super[--]. 
 
 / Acidi e basi secondo Brønsted-Lowry: Gli acidi sono specie in grado di donare ioni H#super[+], mentre le basi sono specie capaci di accettare ioni H#super[+].  
@@ -786,7 +787,7 @@ pH. Misura del grado di acidità di una soluzione espressa tramite il valore pH 
 
 / Prodotto di solubilità: K#sub[ps] : Costante di equilibrio che descrive un sistema saturo in presenza del proprio corpo di fondo.
 
-
+]
 
 
 

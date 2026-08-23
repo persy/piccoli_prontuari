@@ -28,7 +28,7 @@ Oggi, la chimica si avvale prevalentemente di due sistemi di nomenclatura:
 
 La nomenclatura razionale opera una netta suddivisione dei composti chimici in due macro-categorie: i composti binari, formati da due elementi, e i composti ternari, costituiti da tre elementi.  
 
-#boxfl(bottom)[== *🧩* Dalla nomenclatura tradizionale alla nomenclatura razionale o IUPAC <senza_numero>
+#boxfl(bottom)[== 🐺 Dalla nomenclatura tradizionale alla nomenclatura razionale o IUPAC <senza_numero>
 
 Fin dall'inizio del XIX secolo, i chimici si sono trovati di fronte alla necessità di definire criteri per attribuire un nome ai composti chimici identificati. Questo processo ha portato alla definizione progressiva di norme che, sebbene non sistematiche, erano ampiamente adottate, con alcune varianti nei diversi paesi, e che hanno dominato fino alla metà del XX secolo (nomenclatura tradizionale).
 
@@ -353,8 +353,7 @@ Per quanto riguarda i sali acidi nella nomenclatura tradizionale, si usano le es
 )  
 )
 
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Nomenclatura IUPAC: Sistematizzazione dei composti inorganici basata sul numero di elementi che li costituiscono, suddividendoli in categorie quali binari, ternari e così via.  
@@ -369,3 +368,4 @@ Per quanto riguarda i sali acidi nella nomenclatura tradizionale, si usano le es
 
 / Sali: Composti derivati dagli acidi attraverso la sostituzione degli ioni H#super[+] con ioni metallici.  
 
+]

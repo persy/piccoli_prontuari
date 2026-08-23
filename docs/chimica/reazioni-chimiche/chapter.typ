@@ -144,7 +144,7 @@ Da una prospettiva che considera tale aspetto, le reazioni chimiche possono esse
 
 Questi due processi, ossidazione e riduzione, avvengono simultaneamente e pertanto tali reazioni vengono definite reazioni di ossidoriduzione, o redox. Tra le diverse tipologie di reazioni chimiche, le reazioni di doppio scambio ionico e quelle di neutralizzazione non rientrano nella categoria delle reazioni redox. Al contrario, altre classi come le reazioni di sintesi, decomposizione e spostamento tendono prevalentemente a caratterizzarsi come ossidoriduzioni. 
 
-#boxfl(bottom)[== *🧩* Il significato e l'importanza delle redox <senza_numero>
+#boxfl(bottom)[== 🐺 Il significato e l'importanza delle redox <senza_numero>
 
 In passato, "ossidazione" indicava una reazione in cui una sostanza si combinava con l'ossigeno. Analogamente, "riduzione" si riferiva a una trasformazione chimica durante la quale un composto "ossidato" perdeva ossigeno.
 
@@ -477,8 +477,7 @@ $
 100.09 "g" : 2 dot 36.46 "g" = x "g": 2 "g" \ x "g" = 2.75"g" dot 100/70 = 3.93 "g di CaCO"_3 "al 70% di purezza"
 $
 
-#pagebreak()
-#set page(fill: accent.chi.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Reazione chimica: Trasformazione di una o più sostanze originarie in altre sostanze con composizioni differenti.  
@@ -507,4 +506,5 @@ $
 
 / Massa equivalente: Massa espressa in grammi associata a un equivalente di sostanza secondo le reazioni chimiche considerate. 
 
-/ Calcoli stechiometrici: Determinazione quantitativa dei rapporti tra reagenti e prodotti, misurati sia in termini di massa (grammi) sia in termini molari (numero di moli).  
+/ Calcoli stechiometrici: Determinazione quantitativa dei rapporti tra reagenti e prodotti, misurati sia in termini di massa (grammi) sia in termini molari (numero di moli). 
+] 
