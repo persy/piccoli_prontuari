@@ -33,8 +33,7 @@ Si tratta di un mondo privo di eroi e privo di avventure epiche, dove le relazio
 L'approccio della Austen verso il mondo che rappresenta si avvale della commedia sociale e della satira per mettere in evidenza ambizioni, convenzioni, aspirazioni e inquietudini delle famiglie borghesi decadute. Tuttavia, la narrazione della scrittrice si discosta sia dall'impostazione moralistica di Samuel Richardson sia dall'epica umoristica di Henry Fielding, mantenendo un equilibrio sottile e raffinato.
 
 Sebbene Jane Austen raramente interrompa la narrazione per esprimere commenti diretti su eventi o sulla psicologia dei personaggi, riesce a far emergere giudizi e riflessioni attraverso il dialogo tra gli stessi protagonisti, che si rivelano progressivamente al lettore. Proprio nella costruzione di dialoghi densi di sfumature, sottigliezze e ironia risiede uno dei tratti distintivi del suo stile: sotto una parvenza di leggerezza tematica e tonale, si cela una profondità significativa e un'efficace espressione del reale.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La vita: Jane Austen (1775-1817), figlia di un pastore anglicano, visse un'esistenza priva di grandi eventi, trascorsa principalmente nell'intimità della famiglia fino alla sua prematura morte per tisi.
@@ -43,9 +42,4 @@ Sebbene Jane Austen raramente interrompa la narrazione per esprimere commenti di
 
 / I temi: I romanzi di Jane Austen offrono una descrizione accurata della vita provinciale inglese, scandita da codici sociali improntati al decoro, al buon senso e alle buone maniere.
 
-
-
-
-
-
-
+]

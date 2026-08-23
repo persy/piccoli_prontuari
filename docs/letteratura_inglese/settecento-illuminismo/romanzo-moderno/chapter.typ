@@ -178,8 +178,7 @@ Il successo del romanzo gotico incoraggiò molte imitazioni, soprattutto tra scr
 Radcliffe influenzò profondamente gli autori della generazione successiva, come Matthew Gregory Lewis (1775-1818), noto per il suo romanzo _The Monk_ (_Il frate_, 1796), in cui risuonano anche influenze romantiche provenienti dalla tradizione tedesca, intrise di un terrore sfrenato e sensazionale. Un altro nome importante fu Charles Robert Maturin (1782-1824), autore di _Melmoth the Wanderer_ (_Melmoth il viandante_, 1820). Quest'opera reinterpreta il tema faustiano del patto col diavolo per una prolungata esistenza in chiave gotica, arricchendo il genere con una profonda analisi psicologica del male e un sorprendente potere di suggestione.
 
 All'interno del panorama gotico spicca anche Mary Wollstonecraft Shelley (1797-1851), seconda moglie del poeta romantico Percy B. Shelley, autrice dell'iconico _Frankenstein, or the Modern Prometheus_ (_Frankenstein, o il moderno Prometeo_, 1817). Il romanzo racconta la storia di uno scienziato che, attraverso processi elettrochimici e con parti prelevate da cadaveri, riesce a creare un essere umano, il quale però finisce per ribellarsi al suo creatore. Questa straordinaria opera gode di un successo ininterrotto fino ai giorni nostri e ha ispirato numerose adattamenti cinematografici.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Romanzo: Il romanzo è la forma letteraria che meglio rispecchia i profondi cambiamenti del contesto sociale. Genere tipicamente borghese, si rivolge agli ideali e ai gusti della classe media, adottando un'espressione realistica e distanziandosi dai temi e dai modelli della tradizione letteraria passata.
@@ -194,4 +193,4 @@ All'interno del panorama gotico spicca anche Mary Wollstonecraft Shelley (1797-1
 
 / Romanzo di costume e gotico: Nel tardo Settecento emersero nuovi sottogeneri del romanzo: il "romanzo di costume" con autori come Henry Mackenzie e Fanny Burney; il "romanzo gotico", introdotto da Horace Walpole con _Il castello di Otranto_ (1765) e sviluppato ulteriormente da Ann Radcliffe, Matthew Gregory Lewis e Mary Shelley con il celebre _Frankenstein_ (1817); il "romanzo orientaleggiante", rappresentato da _Vathek_ (1786) di William Beckford.
 
-
+]

@@ -186,8 +186,7 @@ Elizabeth Cleghorn Gaskell (1810-1865), biografa e amica di Charlotte Brontë, f
 === Lewis Carroll
 
 Lewis Carroll, pseudonimo di Charles Lutwidge Dodgson (1832-1898), conquistò fama mondiale con opere per l'infanzia. Lettore di matematica a Oxford e appassionato di rompicapi, giochi linguistici e nonsense, iniziò pubblicando versi su riviste per bambini prima di realizzare i suoi capolavori _Alice nel paese delle meraviglie_ (_Alice's adventures in Wonderland_, 1865) e _Attraverso lo specchio_ (_Through the looking-glass_, 1871), che illustrò personalmente. Gli innovativi esperimenti linguistici e la satira velata espressa tramite personaggi surreali rendono _Alice_ un'opera unica nella letteratura.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Romanzo vittoriano: Durante l'epoca vittoriana, il romanzo trova un terreno fertile per il suo sviluppo, in una società dominata dalla borghesia. Questo periodo vede la diffusione del romanzo grazie alla pubblicazione a puntate sulle riviste, al crescente livello di alfabetizzazione e alla proliferazione delle biblioteche. I lettori prediligono storie realistiche, capaci di offrire sia un'analisi della quotidianità sia un'evasione da essa.
@@ -206,3 +205,5 @@ Lewis Carroll, pseudonimo di Charles Lutwidge Dodgson (1832-1898), conquistò fa
 / George Eliot: Pseudonimo di Mary Ann Evans (1819-1880), Eliot è l'ultima grande figura del romanzo vittoriano. Influenzata dal positivismo e dal razionalismo, i suoi romanzi affrontano temi legati alla morale e alla vita di provincia inglese. Tra i più importanti ricordiamo _Adam Bede_ (1859), _Il mulino sulla Floss_ (1860) e _Middlemarch_ (1872), considerato il suo capolavoro.
 
 / I romanzieri minori: Da ricordare anche Wilkie Collins (1824-1889), inventore del romanzo poliziesco, e Lewis Carroll (1832-1898), il rinomato autore di _Alice nel paese delle Meraviglie_.
+
+]

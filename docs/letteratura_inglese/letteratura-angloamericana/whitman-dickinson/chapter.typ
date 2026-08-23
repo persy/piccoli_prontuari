@@ -80,8 +80,7 @@ Edwin Arlington Robinson (1869-1935), erede della poetessa puritana Anne Bradstr
 Robinson si contrapponeva apertamente al materialismo, tornando a tematizzare ciò che nella narrativa naturalistica era definito determinismo sociale e biologico, tradotto nella sua opera poetica in una visione destinata al "fato". Pur mostrando affinità con il pensiero di Ralph Waldo Emerson, che sosteneva "Ogni qualvolta sono debole parlerò del Fato", Robinson sviluppa una prospettiva più cupa e disillusa; trasforma l'idea di self-reliance emersoniana in una filosofia della disperazione, permeata da uno stoicismo malinconico.
 
 La sua prima raccolta poetica, _The torrent and the night before_ (_Il torrente e la notte prima_), risale al 1896 ed è seguita da opere fondamentali quali _Children of the night_ (_Figli della notte_, 1897), _Captain Craig_ (_Il capitano Craig_, 1902) e _The man against the sky_ (_L'uomo contro il cielo_, 1916). Quest'ultima raggiunge il culmine nell'esplorazione delle dinamiche tragiche dell'esistenza umana. La maestria di Robinson nella struttura metrica e ritmica gli consente di anticipare temi e stili che caratterizzeranno successivamente la poesia di Robert Frost.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Whitman: Nato nel 1819 a Long Island da una famiglia con radici anglo-olandesi, Walt Whitman intraprese diverse attività prima di consacrarsi alla poesia: carpentiere, apprendista tipografo, insegnante e giornalista itinerante. Tra il 1851 e il 1854 lavora come falegname apprendista e successivamente come infermiere durante la Guerra Civile Americana. Dal 1873 si ritira definitivamente a Camden, dove trascorre gli ultimi anni della sua vita fino alla morte. \ La raccolta _Foglie d'erba_ (_Leaves of Grass_) pubblicata nel 1855, costituisce un'opera monumentale che include circa 500 componimenti. Essa si configura non solo come una sorta di autobiografia spirituale, ma anche come un celebrazione lirica della vita umana nelle sue esperienze emotive, sensoriali e sessuali. Il poeta diventa espressione dell'Io universale, definito come "corpo-anima", rovesciando la concezione puritana che poneva Dio al centro dell'esistenza. \ Whitman, cantore della democrazia e dell'uomo comune, riuscirà ad ottenere pieno riconoscimento nella sua patria solamente diverse generazioni dopo, influenzando profondamente la letteratura americana del Novecento.
@@ -90,5 +89,4 @@ La sua prima raccolta poetica, _The torrent and the night before_ (_Il torrente 
 
 / Poesia fra Ottocento e Novecento: Nel passaggio tra Ottocento e Novecento, si affermano i cosiddetti "poeti del caminetto" (fireside poets), i quali si discostano dalla radicalità di autori come Whitman, Dickinson o Melville, preferendo un genere poetico rassicurante e in sintonia con il sentire comune. Tra questi, si ricordano H.W. Longfellow (1807-1892), O.W. Holmes (1809-1894) e J.R. Lowell (1819-1891). Edwin Arlington Robinson (1869-1935), invece, pur riprendendo influenze vittoriane ed emersoniane, con la drammaticità e non liricità dei suoi versi, precorre taluni tratti essenziali della poesia del Novecento. \ Tra le sue opere principali si segnalano _Il torrente e la notte prima_ (1896), _Figli della notte_ (1897), _Captain Craig_ (1902) e _L'uomo contro il cielo_ (1916).
 
-
-
+]

@@ -66,8 +66,7 @@ In seguito fu pubblicato anche il monumentale _Journal_ (_Diario_), inizialmente
 Sebbene Thoreau fosse vicino al pensiero di Emerson, si discostò da lui cercando di tradurre il trascendentalismo in azioni concrete. Rinunciò alla speculazione puramente teorica e astratta, preferendo un approccio ancorato alla pratica e ai problemi reali della contemporaneità.
 
 Anche il suo stile letterario riflette questa inclinazione: abbandonò le astrazioni intellettuali di Emerson, adottando una scrittura più concreta, ricca di poesia, immagini e metafore. Tale profondità espressiva gli valse il titolo di poeta del trascendentalismo.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Trascendentalismo: Il Trascendentalismo rappresenta un movimento filosofico e letterario di fondamentale importanza per l'emancipazione della cultura americana rispetto a quella europea. Tale corrente emerge negli Stati Uniti tra il 1830 e il 1850, sotto l'impulso principale di Ralph Waldo Emerson e Henry David Thoreau. Il movimento formula il principio della _self-reliance_ (fiducia in se stessi), che si traduce nel concetto di _self-culture_ (autonomia culturale) su scala nazionale, ponendo le basi per una nuova identità culturale e intellettuale americana.
@@ -76,11 +75,4 @@ Anche il suo stile letterario riflette questa inclinazione: abbandonò le astraz
 
 / Thoreau: Henry David Thoreau (1817-1862), che si distingue come l'esponente letterario più talentuoso del trascendentalismo, nacque a Concord, Massachusetts. Le sue opere sono profondamente radicate nella sua esperienza personale e riflettono un saldo impegno ideologico. Thoreau promuoveva l'autonomia individuale, invitando ciascuno a seguire le proprie inclinazioni autentiche e a liberarsi dai condizionamenti dei falsi bisogni sociali. \ Nel suo pamphlet _Civil Disobedience_ (1849), espone con chiarezza i principi della non violenza, mentre con _Walden; or, Life in the Woods_ (1854) dà vita a un'opera sospesa tra diario e saggio, che si è presto affermata come un classico della letteratura americana. \ A differenza di Emerson, Thoreau cercò di applicare concretamente i principi del trascendentalismo, affrontando contestualmente le problematiche del suo tempo. La sua scrittura si distingue per la concretezza e l'intensità poetica, arricchita da immagini vivide e da un uso ispessito delle metafore.
 
-
-
-
-
-
-
-
-
+]

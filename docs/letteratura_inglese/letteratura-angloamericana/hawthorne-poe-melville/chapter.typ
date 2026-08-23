@@ -177,8 +177,7 @@ Ampia diffusione ebbe _The Yemassee_ (1835), un romanzo di guerriglia con protag
 
 Seguendo il modello di James Fenimore Cooper, a cui Simms non fu estraneo, si ispirò anche il giornalista e politico John Pendleton Kennedy (1795-1870), protettore di Poe, autore del romanzo di frontiera _Horse-Shoe Robinson_ (1835) e di una raccolta di bozzetti che descrivono la vita nelle piantagioni della Virginia.
 
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Hawthorne: Nathaniel Hawthorne (1804-1864), nato a Salem da un'antica famiglia puritana, perde il padre all'età di quattro anni. Vive in isolamento, dedicandosi alla scrittura e alla pubblicazione di articoli. Nel 1841 trascorre alcuni mesi nella comunità trascendentalista di Brook Farm e, l'anno seguente, sposa Sophia Peabody, anch'essa trascendentalista. Muore a Plymouth. \ Fra le opere principali, le raccolte di racconti _Racconti narrati due volte_ (1837) e _Muschi di un vecchio presbiterio_, i romanzi _Fanshawe_ (1828), _La lettera scarlatta_ (1850), considerato il suo capolavoro, _La casa dei sette abbaini_ (1851) e _Il fauno di marmo_ (1860), oltre ai _Taccuini_ postumi pubblicati tra il 1868 e il 1871.  \ La realtà storico-politica del New England, una profonda introspezione morale, la riflessione sulla lotta tra bene e male, il tema del peccato e la necessità di espiazione.
@@ -187,4 +186,4 @@ Seguendo il modello di James Fenimore Cooper, a cui Simms non fu estraneo, si is
 
 / Melville: Herman Melville (1819-1891) nasce a New York da una famiglia di mercanti agiata ma caduta in difficoltà economiche dopo la morte del padre nel 1832. Per cercare lavoro, si imbarca su una baleniera nel 1841. Dopo aver disertato in mare aperto, vive per un periodo nelle isole Marchesi ed elabora nei suoi scritti le esperienze vissute. Tornato negli Stati Uniti, pubblica sette romanzi in altrettanti anni. \ Tuttavia, il suo celebre capolavoro _Moby Dick_ (1851), opera carica di simbolismo sulla caccia alla mitica balena bianca da parte del capitano Achab e del suo equipaggio, non viene compreso dal pubblico contemporaneo. La successiva disillusione lo porta a ritirarsi dalla scena letteraria, vivendo nel dimenticatoio fino alla morte. \ I romanzi _Typee_ (1846), _Omoo_ (1847) e _Mardi_ (1849) traggono ispirazione dall'affascinante scenario dei mari del Sud. Con _Moby Dick_ (1851), il suo capolavoro, Herman Melville narra la drammatica caccia alla sfuggente balena bianca da parte del capitano Achab e del suo equipaggio. L'opera non si limita a raccontare un'avventura marinaresca, ma offre uno straordinario affresco simbolico che indaga i comportamenti umani di fronte al bene e al male, con il mare come spazio enigmatico e incontaminato di ricerca della verità. \ Tra le altre opere figurano il romanzo autobiografico _Pierre, o le ambiguità_ (1852), la raccolta _I racconti della veranda_ (1856) — al cui interno spicca _Benito Cereno_ — e l'ultimo romanzo _Billy Budd, gabbiere di parrocchetto_ (pubblicato postumo nel 1924).
 
-
+]

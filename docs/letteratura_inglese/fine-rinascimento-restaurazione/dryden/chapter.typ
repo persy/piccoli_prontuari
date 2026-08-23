@@ -54,8 +54,7 @@ La sua intera carriera poetica fu caratterizzata da una produzione critica signi
 Nel loro complesso, i saggi di Dryden costituiscono un corpus critico emblematico della prospettiva neoclassica sulla poesia. I principi critici enunciati da Dryden si allineano con quelli del neoclassicismo europeo: la poesia è concepita come imitazione della natura, il suo ruolo consiste nel dilettare e istruire, e i suoi ideali formali includono ordine, armonia e correttezza.
 
 La rilevanza di Dryden nella storia della critica inglese risiede non tanto nella formulazione di queste idee generali quanto nella sua straordinaria capacità di analizzare e apprezzare il valore di autori e letterature diverse. È grazie a lui che venne riconosciuta e valorizzata la grandezza di scrittori come Chaucer, Spenser, Shakespeare e Milton.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La vita: John Dryden (1631-1700) nacque ad Aldwinkle All Saints, nel Northamptonshire, e ricevette un'educazione di ispirazione puritana dai genitori. \ Nel 1685, con l'ascesa al trono del cattolico Giacomo II, Dryden si convertì al cattolicesimo, mantenendo questa fede anche dopo il rovesciamento del re a seguito della Rivoluzione che portò sul trono Guglielmo III d'Orange, sostenitore del protestantesimo. \ Rifiutandosi di collaborare con il nuovo sovrano, Dryden si ritirò dalla vita pubblica per dedicarsi esclusivamente alla letteratura. Morì a Londra nel 1700.  
@@ -64,11 +63,4 @@ La rilevanza di Dryden nella storia della critica inglese risiede non tanto nell
 
 / La critica: Il ruolo centrale di Dryden nella critica letteraria è testimoniato dalla celebre definizione di "padre della critica inglese" attribuitagli dal dottor Johnson. \ La sua opera critica più significativa è il _Saggio sulla poesia drammatica_ (1668), in cui viene proposta una visione neoclassica dell'arte poetica e teatrale. \ Un contributo straordinario del poeta fu infine quello di riconoscere e promuovere il valore culturale e artistico di autori fondamentali quali Chaucer, Shakespeare e Milton.
 
-
-
-
-
-
-
-
-
+]

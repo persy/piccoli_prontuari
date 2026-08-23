@@ -100,8 +100,7 @@ Kipling è stato spesso etichettato come un sostenitore dell'imperialismo britan
 Kipling attribuiva grande importanza al ruolo del gruppo nella realizzazione dell'individuo. Solo attraverso un'integrazione sincera e leale nella comunità, l'essere umano è in grado di esprimere pienamente le proprie capacità e contribuire a un'armonia sociale più ampia.
 
 Come narratore, Kipling si distinse per uno stile vivido e conciso, capace di rendere scene e personaggi estremamente realistici e memorabili. Anche la sua produzione poetica rivela una maestria considerevole. Opere come _Barrack-room ballads_ (_Ballate della caserma_, 1892) e _The seven seas_ (_I sette mari_, 1896) furono molto popolari fino agli anni Venti, per poi essere rivalutate grazie all'intervento critico di T.S. Eliot. La poesia di Kipling è caratterizzata da un uso magistrale della forma ballata, da un ritmo energico e da una sincerità espressiva che riflette orgoglio per l'identità britannica, visione civilizzatrice ed ethos stoico. Questo ultimo aspetto trova piena espressione in componimenti celebri come _If_ (_Se_), manifesto dell'etica personale promossa dall'autore.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Hardy: Thomas Hardy (1840-1928), nato a Upper Blockhampton vicino a Dorchester, trascorse i primi anni della sua carriera dedicandosi con scarso successo alla poesia, per poi affermarsi come uno dei romanzieri più influenti della sua epoca. \ Tra le sue opere principali figurano _Via dalla pazza folla_ (1874), _Ritorno al paese_ (1878), _Il sindaco di Casterbridge_ (1886), _Tess dei D'Urbervilles_ (1891) e _Giuda l'oscuro_ (1896). \ Dopo il 1896 Hardy tornò alla poesia, pubblicando collezioni come _Poesie del Wessex_ (1898) e _Gli zimbelli del tempo_ (1909), sperimentando varie forme poetiche. \ I suoi romanzi sono permeati da un cupo fatalismo e da un determinismo che riduce al minimo la libertà e la responsabilità umana, con la natura che spesso si intreccia ai drammi vissuti dai personaggi. Hardy morì a Max Gate, nei pressi di Dorchester.
@@ -114,9 +113,4 @@ Come narratore, Kipling si distinse per uno stile vivido e conciso, capace di re
 
 / Kipling: Rudyard Kipling (1865-1936), nato a Bombay e formatosi in Inghilterra, fece della sua esperienza di viaggiatore e giornalista una fonte inesauribile di ispirazione letteraria. Tra i suoi capolavori spiccano _Il libro della giungla_ (1894) e _Il secondo libro della giungla_ (1895), opere che trattano del rapporto tra l'uomo "naturale" e quello corrotto dalla civiltà. Il romanzo _Kim_ (1901) esplora il mondo indiano ed è considerato una delle sue opere più mature, mentre _Capitani coraggiosi_ (1897) emerge come il suo contributo più celebre alla letteratura per ragazzi. \ In tutta la sua produzione letteraria, Kipling enfatizza l'importanza dei principi morali e il rispetto di regole condivise per la sopravvivenza dell'individualità. Nel 1907 ricevette il Premio Nobel per la Letteratura.
 
-
-
-
-
-
-
+]

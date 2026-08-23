@@ -98,8 +98,7 @@ Ottenne una vasta popolarità con _1914 and other poems_ (_1914 e altre poesie_,
 Sebbene non incluso tra gli autori dell'antologia _Georgian poetry_, Wilfred Owen (1893-1918) produsse componimenti che si inseriscono nel contesto della poesia di guerra del periodo. Le sue opere, pubblicate postume nel 1920 e successivamente in una raccolta ampliata nel 1931 (_The Poems of Wilfred Owen_), mostrano uno straordinario equilibrio tra tecnica e intensità emotiva.
 
 Fortemente influenzato da Keats e dalla tradizione romantica, Owen riversò nelle sue poesie le esperienze traumatiche della guerra. Tali componimenti rivelano una modernità sorprendente, che si manifesta nell'immediatezza e sobrietà delle immagini, nelle innovazioni metriche e nell'uso originale delle assonanze. La loro forza risiede non tanto nella descrizione dell'orrore bellico, quanto nella capacità di comunicare pietà e turbamento di fronte alla condizione umana di fronte al conflitto.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Yeats: William Butler Yeats (1865-1939), nato a Sandymount, Dublino, da una famiglia protestante, dedicò inizialmente il suo interesse alle arti figurative, per poi avvicinarsi alle religioni orientali e all'esoterismo. Nel 1886 avviò la sua carriera letteraria, interessandosi anche alle questioni politiche e culturali del suo Paese. Nel 1899 fondò l'Irish National Theatre, punto nevralgico della rinascita culturale irlandese. \ Le prime opere di Yeats trassero ispirazione dal folclore e dalle fiabe irlandesi (_I vagabondaggi di Oisin_, 1889), oltre che da tematiche mistiche e magiche (_La rosa_, 1893; _Il vento fra le canne_, 1899). Il suo coinvolgimento nel movimento teatrale culminò con la fondazione dell'_Irish Dramatic Movement_, in collaborazione con lady Gregory. \ Opere come _Nei sette boschi_ (1904), _L'elmo verde e altre poesie_ (1910) e _Responsabilità_ (1914) testimoniano una graduale evoluzione verso un linguaggio più realistico e immediato. Durante la maturità, negli anni tra il 1919 e il 1939, Yeats si confrontò con temi universali come il rapporto tra l'arte e la vita, raggiungendo una maestria stilistica straordinaria in opere quali _Luna piena di marzo_ (1935), _Ultime poesie_ (1936-1939) e _Una visione_ (1925). \ La sua poesia venne influenzata dalla pittura simbolista dei preraffaelliti, dal ricco patrimonio mitologico irlandese e dall'interesse per l'esoterismo. I suoi versi riflettono un'accettazione profonda della vita, bilanciata da una lotta contro il decadimento fisico e la vecchiaia. Lo stile poetico di Yeats si trasformò progressivamente da un registro ornato e letterario a un linguaggio diretto e colloquiale, caratterizzato da immagini nitide e intense, nonché dalla varietà metrica.
@@ -110,16 +109,4 @@ Fortemente influenzato da Keats e dalla tradizione romantica, Owen riversò nell
 
 / Poesia georgiana: Il movimento della poesia georgiana, così denominato in riferimento al regno di Giorgio V, include fra i suoi principali rappresentanti Walter De La Mare, John Masefield e Wilfred Owen. \ Walter De La Mare (1873-1956) esplorò un universo poetico intriso di sogno e mistero, evidente in raccolte come _Il giardino sommerso e altre poesie_ (1917) e _Il rinchiuso e altre poesie_ (1928). \ John Masefield (1878-1965) si configura come poeta realista sia per i temi affrontati che per il linguaggio adottato. La sua produzione include una serie di lunghi poemi narrativi, tra cui _L'eterna misericordia_ (1911) e _Reynard la volpe_ (1919). \ Wilfred Owen (1893-1918), invece, compose poesie pubblicate postume nel 1920, profondamente segnate dall'esperienza traumatica della guerra, che si riflette in una cruda e intensa rappresentazione della realtà bellica.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+]

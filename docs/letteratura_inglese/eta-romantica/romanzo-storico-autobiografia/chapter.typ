@@ -80,8 +80,7 @@ Thomas De Quincey (1785-1859) rappresenta, probabilmente, uno degli saggisti pi�
 La sua vastissima cultura e i suoi molteplici interessi emergono chiaramente attraverso la ricca produzione di articoli e saggi. La sua opera più famosa, _Confessions of an English opium eater_ (_Confessioni di un mangiatore d'oppio inglese_, 1821), è un'autobiografia che narra gli anni della sua giovinezza e i sogni indotti dall'uso dell'oppio. Quest'opera, permeata da un raffinato edonismo e da una tonalità decadente, ebbe un'influenza significativa su autori come Edgar Allan Poe e Charles Baudelaire.
 
 Successivamente, con _Suspiria de profundis_ (1845), De Quincey presentò un testo che rivela un autore sorprendentemente moderno, capace di profonde riflessioni introspettive e consapevole della complessità dei diversi livelli della psiche umana.  
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Romanzo storico: Emerge come una forma narrativa innovativa, che intreccia la ricostruzione storica con elementi di invenzione. Questo genere riflette il forte legame tra il comportamento umano e le condizioni storiche del contesto vissuto. Lo scozzese Walter Scott (1771-1832) ne è considerato il pioniere. Autore prolifico, scrisse ventisette romanzi, insieme a racconti e opere storiche, biografiche e critiche. Tra i suoi lavori più significativi si annoverano quelli ambientati in Scozia, come _Waverley_ (1814), _Guy Mannering_ (1815), _Rob Roy_ (1817) e _La sposa di Lammermoor_ (1819). Tuttavia, il suo romanzo più popolare è _Ivanhoe_ (1820), ambientato nel Medioevo.
@@ -90,4 +89,4 @@ Successivamente, con _Suspiria de profundis_ (1845), De Quincey presentò un tes
 
 / Saggio autobiografico: Charles Lamb (1775-1834) può essere considerato il fondatore del genere. Egli si oppose alle ideologie razionalistiche e utopistiche dell'epoca, mostrando al contrario una profonda partecipazione alle esperienze umane. Nei suoi _Saggi di Elia_ (1823) e _Ultimi saggi di Elia_ (1833), Lamb definì il carattere del saggio romantico: più intimo e personale rispetto ai modelli dei secoli precedenti. \ William Hazlitt (1778-1830), altro grande saggista romantico, si contraddistingue per l'acuta consapevolezza delle questioni politiche del suo tempo. I suoi saggi coprono una vasta gamma di tematiche, dal ruolo sociale alle questioni estetiche (_Conversazioni intorno al tavolo_ 1821-1825; _Lo spirito dei tempi_ 1825), con un particolare interesse per il teatro inglese. \ Thomas De Quincey è certamente uno degli autori romantici più peculiari. Le sue opere principali, _Confessioni di un oppiomane inglese_ (1821) e _Suspiria de profundis_ (1845), lo consacrano come un vero innovatore nella tradizione del saggio romantico grazie alla profondità delle sue analisi introspettive e alla sensibilità verso la complessità dell'animo umano.
 
-
+]

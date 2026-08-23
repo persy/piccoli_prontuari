@@ -58,16 +58,11 @@ Nonostante l'originalità stilistica e tematica, queste opere non si fondono org
 Nel teatro di Shaw, caratterizzato da una straordinaria vitalità nelle sue espressioni migliori, il personaggio non assume quasi mai il ruolo di entità autonoma. Al contrario, le figure rappresentate fungono principalmente da portavoce delle idee dell'autore o da simboli di istituzioni e convenzioni criticate nelle sue opere.
 
 In determinate circostanze, l'umorismo, che si richiama alle opere di Oscar Wilde, lascia spazio a una profonda vibrazione dell'animo umano. Ciò risulta evidente nella tragicommedia _Saint Joan_ (_Santa Giovanna_, 1923), una delle opere più mature e celebrate dell'arte teatrale di Shaw.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Teatro: Tra il Settecento e l'Ottocento, il teatro inglese non produsse opere di rilievo letterario, limitandosi a farse e melodrammi. Prima di autori come Oscar Wilde e George Bernard Shaw, solo Henry Arthur Jones (1851-1929) e Arthur Wing Pinero (1855-1934) si distinsero per la sottigliezza intellettuale e l'attualità dei temi trattati. L'influenza del drammaturgo norvegese Henrik Ibsen fu altresì determinante nel rinnovamento della drammaturgia inglese.
 
 / Shaw: George Bernard Shaw nacque a Dublino nel 1856. Malgrado la sua formazione scolastica discontinua, egli acquisì una vasta cultura leggendo Shakespeare, Shelley e altri autori. Stabilitosi a Londra, intraprese un percorso letterario che iniziò con la scrittura di romanzi per poi concentrarsi sul teatro. Profondamente influenzato dal pensiero socialista, Shaw permeò le sue opere di un'impronta ideologica e sociale. Nel 1925 fu insignito del Premio Nobel per la letteratura. \ Tra il 1879 e il 1883 Shaw scrisse cinque romanzi e diversi saggi socio-politici, caratterizzati da uno stile vivace e da un gusto per il paradosso. Concepisce il teatro come un mezzo per veicolare idee – definendolo "un tempio per l'Elevazione dell'Uomo" – piuttosto che come una mera rappresentazione della realtà naturale. Tale visione si traduce nella scelta della satira e del paradosso come strumenti privilegiati per denunciare i difetti della società. \ Questi principi ispirano le sue prime commedie, tra cui _La professione della signora Warren_ (1894), _Armi e uomini_ (1894), _Candida_ (1895), _Non si sa mai_ (1897), _L'uomo del destino_ (1897) e _Cesare e Cleopatra_ (1899). \ Con l'evolversi della sua produzione, le commedie si distaccano sempre più dalle forme tradizionali, per diventare veicolo di dibattiti ideologici: _Uomo e superuomo_ (1903), _Il dilemma del dottore_ (1906), _Pigmalione_ (1912), _Casa Cuorinfranto_ (1920) e _Torniamo a Matusalemme_ (1922) testimoniano questa evoluzione concettuale e stilistica verso una riflessione sull'esistenza umana in continua trasformazione.
 
-
-
-
-
-
+]

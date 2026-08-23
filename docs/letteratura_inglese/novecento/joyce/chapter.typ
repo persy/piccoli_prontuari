@@ -64,8 +64,7 @@ Mentre _Ulisse_ esplora principalmente la vita cosciente, _Finnegans wake_ si ad
 L'intera produzione letteraria di James Joyce rappresenta un tentativo di raccontare la verità, senza artifici, su se stesso, sulla sua vita e sul contesto che lo circonda. Questa ricerca di una verosimiglianza assoluta e il bisogno, sia etico che estetico, di accogliere e analizzare ogni aspetto della vita umana, elemento centrale nella letteratura del Novecento, si concretizzano in Joyce con una forza dirompente. In particolare, con _Ulisse_, tale approccio assume un'importanza rivoluzionaria, capace di influenzare profondamente la letteratura mondiale e di segnare un importante spartiacque. 
 
 Grazie a strumenti innovativi come il monologo interiore e il flusso di coscienza, Joyce permette al lettore di immergersi completamente nella narrazione, rendendolo in grado di esplorare i pensieri e l'inconscio dei personaggi.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Vita: James Augustine Aloysius Joyce (1882-1941) nasce a Dublino e riceve un'educazione classica presso le scuole gesuitiche. Dopo essersi formato in Irlanda, soggiorna in diverse città europee tra cui Parigi, Zurigo, Pola e Trieste, dove lavora come insegnante. \ La sua vocazione letteraria si manifesta tra il 1900 e il 1904, periodo in cui compone le _Epifanie_, una raccolta di brevi poesie liriche. Nel 1914 inizia la stesura dell'_Ulisse_, pubblicato a Parigi nel 1922 ma censurato in Inghilterra e negli Stati Uniti a causa dei contenuti considerati blasfemi e osceni. Dopo circa vent'anni a Parigi, nel corso della seconda guerra mondiale Joyce si trasferisce a Zurigo, dove morirà.
@@ -76,7 +75,4 @@ Grazie a strumenti innovativi come il monologo interiore e il flusso di coscienz
 
 / Flusso di coscienza: Ogni episodio o dettaglio diventa profondamente significativo nella narrazione joyciana. Qualsiasi frazione temporale può riflettere e rappresentare la totalità della vita individuale, intrecciando presente, passato e futuro in un'unica esperienza. \ In Joyce, il flusso apparentemente disordinato delle immagini esprime così il movimento delle coscienze e il monologo interiore degli individui, rispettando l'aspirazione alla verosimiglianza totale per descrivere la complessità della vita.
 
-
-
-
-
+]

@@ -38,36 +38,11 @@ Nel 1535 Miles Coverdale (1488-1568), ispirato dagli stessi ideali di William Ty
 Nel 1549, durante il breve regno di Edoardo VI, fu pubblicato sotto la supervisione dell'arcivescovo Thomas Cranmer (1489-1556) il _Book of Common Prayer_ (Libro della preghiera comune), destinato a diventare il testo ufficiale delle preghiere della Chiesa anglicana, consolidandosi definitivamente durante il regno di Elisabetta I.
 
 Qualche anno più tardi, nel 1553, con gli _Articles of Faith_ (_Articoli di Fede_), vennero stabilite le basi dottrinali della nuova Chiesa inglese, assumendo una posizione più affine alle idee protestanti.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Umanesimo: Si sviluppano gli studi classici e prendono forma nuovi ideali letterari e concezioni culturali. Tra i principali esponenti si annoverano Thomas More (1478-1535), autore di _Utopia_ (1516), opera in cui immagina una repubblica ideale in contrasto con l'Europa e in particolare l'Inghilterra del tempo, John Colet (circa 1466-1519), Roger Ascham (1515-1568) e Thomas Hoby (1530-1566). 
 
 / Riformatori: William Tyndale (1494-1536) traduce il _Nuovo Testamento_, mentre Miles Coverdale (1488-1568) si occupa dell'_Antico Testamento_. Queste traduzioni saranno alla base della Versione autorizzata della _Bibbia_ del 1611, che diventerà il modello linguistico dell'inglese moderno.  Thomas Cranmer (1489-1556) dirige la pubblicazione del _Book of Common Prayer_ (1549), destinato a diventare il principale testo liturgico della Chiesa anglicana.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+]

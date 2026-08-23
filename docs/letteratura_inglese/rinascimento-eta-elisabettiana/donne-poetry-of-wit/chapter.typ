@@ -48,8 +48,7 @@ Mentre nell'eufuismo il _wit_ si limitava a una raffinata decorazione formale, i
 === La fama di Donne
 
 La poesia metafisica di Donne trovò inizialmente una certa risonanza soprattutto in ambito religioso, ispirando anche i cosiddetti "poeti metafisici" del tardo Seicento. Tuttavia, la sua vera consacrazione giunse solo nel Novecento. Fu Thomas Stearns Eliot, nel saggio del 1921 _The Metaphysical Poets_ (_I poeti metafisici_), a riconoscere l'importanza di Donne come precursore della poesia moderna, sottolineando la sua capacità di fondere esperienze eterogenee in un'unica visione poetica. Donne divenne così un punto di riferimento fondamentale per comprendere la modernità.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La vita: John Donne nacque a Londra nel 1572 da una famiglia cattolica. Dopo aver completato gli studi, viaggiò in Italia, Francia e Spagna. Il matrimonio segreto con Anne More gli costò la prigionia e lo condannò ad anni difficili, finché nel 1615 fu ordinato sacerdote anglicano, dopo essersi progressivamente allontanato dal cattolicesimo fin dal 1595. Dal 1621 fu decano della cattedrale di San Paolo a Londra e si dedicò all'attività di predicatore fino alla morte nel 1631.
@@ -58,26 +57,4 @@ La poesia metafisica di Donne trovò inizialmente una certa risonanza soprattutt
 
 / "_Poetry of wit_": La poesia di Donne è essenzialmente una poesia di idee; queste si confrontano e si scontrano come fossero personaggi di un dramma interiore. Definita _poetry of wit_ o "poesia dell'ingegno", lo stile di Donne si fonda su contrasti continui: associa immagini antitetiche, mette in opposizione pensieri divergenti e alterna termini opposti. Tuttavia, quest'arte non è mai un mero esercizio retorico o decorativo, come nell'eufuismo, bensì costituisce il nucleo profondo del pensiero poetico che riflette i conflitti dell'animo umano. Il linguaggio scelto non è mai elevato o artificiosamente solenne; al contrario, si caratterizza per una cruda vitalità che richiama la forza espressiva della conversazione quotidiana.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+]

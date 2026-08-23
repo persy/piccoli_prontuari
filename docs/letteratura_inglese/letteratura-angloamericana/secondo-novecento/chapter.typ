@@ -361,8 +361,7 @@ Lawrence Ferlinghetti (1919-2021), nato nei pressi di New York, completò gli st
 Il primo volume pubblicato fu _Pictures of the gone world_ (_Immagini del mondo trascorso_, 1955), seguito da opere come _A Coney Island of the mind_ (_Coney Island della mente_, 1958), _The secret meaning of things_ (_Il significato segreto delle cose_, 1968) e _Landscapes of living and dying_ (_Paesaggi di vita e di morte_, 1979). La poetica di Ferlinghetti attingeva al surrealismo francese ed era permeata da una critica politica e pacifista rivolta alla civiltà industrializzata.
 
 Anche dopo il declino del movimento beat, Ferlinghetti continuò a distinguersi negli anni Ottanta con opere poetiche e teatrali sperimentali, consolidando il suo ruolo centrale nella scena culturale americana.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Anni Quaranta: La narrativa degli anni Quaranta è caratterizzata da una forte attenzione alla rappresentazione della guerra e della vita militare. Tra i principali autori del periodo si annoverano Irwin Shaw (1913-1984), con _I giovani leoni_ (1948); James Jones (1921-1977), autore di _Da qui all'eternità_ (1951); e Norman Mailer (1923), famoso per _Il nudo e il morto_ (1948). \ 
@@ -395,4 +394,4 @@ Anche dopo il declino del movimento beat, Ferlinghetti continuò a distinguersi 
 
 / Poeti della "_Beat Generation_": I poeti della "Beat Generation" ricercano una poesia volta a uscire dall'isolamento dei luoghi tradizionali per diventare "poesia di strada", impregnata di provocazione attraverso valori come l'individualismo anarchico e pacifista, la libertà sessuale e l'uso di alcol e droghe come strumenti liberatori. \ Allen Ginsberg (1926-1997), con il suo poema manifesto _Urlo_ (1955), scritto con un ritmo scandito sul parlato, integra una forte carica visionaria con la quotidianità. Affascinato dal pensiero buddhista, si batte contro l'imperialismo materialista americano. Le sue opere principali includono _Kaddish_ (1960), _Lo specchio vuoto_ (1961), _La caduta dell'America_ (1972) e _Respiri mentali_ (1978).  \ Lawrence Ferlinghetti è autore di raccolte come _Immagini del mondo trascorso_ (1955), _Il significato segreto delle cose_ (1968) e _Paesaggi di vita e di morte_ (1979). Altri nomi rilevanti sono _Gregory Corso_ (1930), _Gary Snyder_ (1930) e _Michael McClure_ (1932).
 
-
+]

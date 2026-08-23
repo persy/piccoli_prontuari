@@ -82,8 +82,7 @@ _Samson Agonistes_ è una tragedia che Milton descrive come "la più impegnativa
 == Il giudizio critico e la fortuna
 
 La comune tensione ideale, religiosa e politica ha spesso portato a un accostamento tra Milton e Dante. Tuttavia, la consacrazione di Milton tra i grandi della letteratura inglese non è stata immediata: trascurato nel Settecento, venne rivalutato nell'Ottocento, periodo in cui Byron e i romantici inglesi, affascinati dall'aspetto demoniaco, reinterpretarono il Satana di Milton come simbolo della ribellione umana. Da quel momento, la sua fama non è mai stata seriamente messa in discussione, salvo rare eccezioni, come la celebre critica di T.S. Eliot che definì Milton un poeta delle "sonorità verbali", caratterizzato da uno stile enfatico e rimbombante.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La vita: John Milton (1608-1674), nato a Londra, ereditò dai genitori un profondo senso religioso e una passione per le belle arti e la letteratura. Convinto puritano, si schierò dalla parte del Parlamento durante la rivoluzione inglese (1641-47) e, dopo l'esecuzione del re Carlo I, divenne segretario del governo Cromwell. Nonostante un progressivo indebolimento della vista, che lo portò alla cecità nel 1652, continuò a lavorare instancabilmente. Alla morte di Cromwell nel 1658, Milton fu perseguitato e imprigionato, con i suoi scritti polemici condannati al rogo. Una volta liberato, si dedicò interamente alla poesia, componendo i suoi più grandi capolavori prima di morire a Londra.
@@ -96,15 +95,4 @@ La comune tensione ideale, religiosa e politica ha spesso portato a un accostame
 
 / Lo stile: Lo stile di Milton si distingue per un linguaggio elevato e musicale; il _blank verse_ che utilizza diventa una sorta di verso libero, teso verso l'infinito e il trascendente.
 
-
-
-
-
-
-
-
-
-
-
-
-
+]

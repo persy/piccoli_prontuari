@@ -73,11 +73,8 @@ yankee in king Arthur's court_ (_Uno yankee alla corte di re Artù_, 1889), sono
 
 Nel corso degli anni, l'opera di Twain subì un'evoluzione significativa. L'impatto delle sue vicende personali e la sua crescente delusione nei confronti dell'America industrializzata lo portarono a sviluppare una visione più cupa dell'umanità e della storia. Questa trasformazione si rispecchia nei suoi scritti finali, tra cui _Wilson Pudd’n head_ (_Wilson lo zuccone_, 1894), _The man who corrupted Hadleyburg_ (_L'uomo che corruppe Hadleyburg_, 1900) e _The misterious stranger_ (_Lo straniero misterioso_, 1916, postumo), opere intrise di amarezza e caratterizzate da un tono filosofico.
 
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 / Mark Twain: Mark Twain, pseudonimo di Samuel Langhorne Clemens (1835-1910), rappresenta una figura cardine della letteratura americana. Dopo aver iniziato la sua carriera come pilota sul Mississippi e pubblicato il suo primo racconto nel 1852, il suo successo crebbe rapidamente a partire dal 1865. I suoi racconti umoristici e i romanzi, con personaggi autentici e sagaci, gli valsero il titolo di scrittore più amato d'America. \ Opere come _Vita primitiva_ (1872) e _Vita sul Mississippi_ (1883) combinano comicità e osservazioni profonde, mentre i suoi famosi romanzi e racconti finali mostrano una sempre più profonda riflessione sull'uomo e sulla società. Morì a Redding, Connecticut, nel 1910, lasciando un'eredità letteraria indelebile.
 
-
-
-
+]

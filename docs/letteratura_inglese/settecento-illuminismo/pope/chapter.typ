@@ -42,8 +42,7 @@ Con le _Satires_ (_Satire_, 1734-38), liberi adattamenti delle satire ed epistol
 Alexander Pope godette di grande fama durante la sua vita e per tutto il Settecento, complice l'approvazione della sua poesia intellettuale, satirica e morale. Tuttavia, con l'avvento del romanticismo, la sua reputazione declinò rapidamente a causa della reazione contro questo tipo di letteratura.
 
 Solo nel XX secolo Pope fu rivalutato: riconosciuto come un artista straordinario per la sua abilità nel mettere in poesia temi complessi spesso più adatti alla prosa, lascia un vivido affresco satirico della società e dei costumi della sua epoca.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La vita: Alexander Pope (1688-1744) nacque a Londra da una famiglia cattolica. Scelse la letteratura come unica professione e fonte di sostentamento. Morì a Twickenham. 
@@ -52,13 +51,4 @@ Solo nel XX secolo Pope fu rivalutato: riconosciuto come un artista straordinari
 
 / La fortuna: Artista dagli eccezionali talenti poetici, capace di tradurre in versi eleganti concetti elaborati, ha lasciato un'acuta rappresentazione satirica del suo tempo. Dopo un lungo periodo di oblio durante l'era del romanticismo, è stato riscoperto e apprezzato nel corso del Novecento.
 
-
-
-
-
-
-
-
-
-
-
+]

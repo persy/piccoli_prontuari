@@ -54,8 +54,7 @@ Il filosofo inglese Thomas Hobbes (1588-1679), nella sua opera più celebre _The
 Come prosatore, Hobbes privilegiava la sostanza rispetto alla forma: il suo stile, rigoroso e asciutto, si dimostra estremamente efficace nel veicolare i suoi contenuti. Partendo da un'analisi approfondita della natura umana, sviluppò una teoria dello Stato concepito come uno strumento per prevenire i conflitti tra gli uomini. Secondo Hobbes, infatti, l'istinto naturale delle persone le porta inevitabilmente a competere per ottenere un potere sempre maggiore.
 
 Mentre Francis Bacon aveva introdotto una metodologia scientifica di tipo induttivo, opponendosi alla filosofia scolastica e ai sistemi di pensiero aprioristici, Hobbes cercò di colmare il vuoto lasciato dalla frantumazione del pensiero medievale. Per questo motivo, insieme a Machiavelli, può essere considerato uno dei fondatori della moderna scienza politica.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La poesia: La poesia di quest'epoca si divide principalmente in due scuole: quella dei "poeti metafisici" e quella dei "poeti cavalieri".
@@ -66,16 +65,4 @@ Mentre Francis Bacon aveva introdotto una metodologia scientifica di tipo indutt
 
 / La prosa: La prosa riflette il rapporto spesso conflittuale tra scienza e religione. Pochi autori si distinguono in questo ambito: tra loro spiccano Thomas Browne (1605-1682), medico e umanista autore di _La religione di un medico_ (1642), il filosofo Thomas Hobbes con il suo saggio _Il Leviatano_ (1651), e Izaack Walton (1593-1683), considerato il primo autentico biografo della letteratura inglese.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+]

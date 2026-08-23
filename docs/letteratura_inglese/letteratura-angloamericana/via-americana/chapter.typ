@@ -86,8 +86,7 @@ Negli ultimi anni della sua produzione letteraria si manifestano un crescente pe
 Sebbene l'opera di Cooper non sempre si distingua per la cura stilistica ed evidenzi occasionalmente trame arbitrarie e un umorismo artificioso, essa si contraddistingue per una straordinaria forza inventiva. Non solo ha gettato le basi del romanzo americano moderno, ma ha contribuito a costruire un immaginario unico e autentico del continente nordamericano.
 
 Dopo la sua morte nel 1851, Cooper fu largamente trascurato dalla critica, ma a partire dagli anni venti del XX secolo il suo lavoro ha progressivamente guadagnato riconoscimento. Oggi è considerato uno dei primi grandi osservatori e narratori delle dinamiche socio-culturali degli americani.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / "Rinascimento americano": Nei primi decenni dell'Ottocento, la produzione letteraria americana si distaccò progressivamente dalle convenzioni ereditate dalla tradizione europea e acquisì una propria consapevolezza linguistica e storica. In questo contesto si delinearono due grandi tendenze: da un lato, il gruppo dei cosiddetti "bramini", che sottolineava una continuità con l'eredità culturale anglo-europea promuovendo un ruolo di sintesi per la cultura americana; dall'altro, una corrente che mirava a promuovere forme più "originali", caratterizzate da linguaggi e contenuti innovativi capaci di riflettere le nuove esperienze del Nuovo Mondo. \ Un esempio significativo di questa doppia tensione si trova nella poesia di William Cullen Bryant, il quale riuscì a combinare entrambe le posizioni. 
@@ -96,6 +95,4 @@ Dopo la sua morte nel 1851, Cooper fu largamente trascurato dalla critica, ma a 
 
 / Cooper: James Fenimore Cooper (1789-1851) si affermò con romanzi storici legati alla rivoluzione americana e alla vita di frontiera, tra cui spicca _L'ultimo dei mohicani_ (1826). Sebbene la sua prosa presentasse limiti stilistici e narrativi, il suo contributo rimane fondamentale nell'apertura del romanzo ad argomenti propriamente americani.
 
-
-
-
+]

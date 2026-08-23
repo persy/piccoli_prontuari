@@ -247,8 +247,7 @@ Tra i romanzi successivi al conflitto mondiale si distinguono _The moon is down_
 
 A coronamento di una carriera letteraria straordinaria e profondamente influente, John Steinbeck venne insignito del Premio Nobel per la Letteratura nel 1963.
 
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Americani a Parigi: Gertrude Stein (1874-1946), grande amica di Matisse e Picasso, trasformò la sua casa di Parigi in un punto d'incontro imprescindibile per gli artisti americani. Nelle sue _Conferenze in America_ del 1935, Stein approfondisce le teorie sull'arte della scrittura, proponendo un approccio innovativo che richiama il "flusso di coscienza". \ Sherwood Anderson (1876-1941), arrivato a Parigi dopo diverse esperienze, lasciò un segno profondo nella narrativa con la raccolta _Winesburg, Ohio_ (1919). In quest'opera esplora temi tormentati come la solitudine, l'abbandono e l'alienazione, rivoluzionando la struttura narrativa: il racconto si basa sull'alternanza tra crisi ed epifanie, rompendo con il canovaccio tradizionale. \ Francis Scott Fitzgerald (1896-1940), originario del Minnesota, si impose come simbolo della "età del jazz", un'epoca di emozioni e avventure. Attraverso la sua analisi psicologica, indagò il mondo dell'alta borghesia e dell'aristocrazia, rappresentando personaggi che inseguono ostinatamente il loro sogno di successo. Tra le sue opere più celebri: _Di qua dal Paradiso_ (1920), _Il grande Gatsby_ (1925) e _Tenera è la notte_ (1934). 
@@ -261,3 +260,4 @@ A coronamento di una carriera letteraria straordinaria e profondamente influente
 
 / Steinbeck: John Steinbeck (1902-1968) si distingue tra gli autori più rappresentativi del periodo. Nato a Salinas, in California, ricorre spesso nei suoi romanzi all'ambientazione rurale della sua terra natale, ponendo al centro delle proprie narrazioni le difficoltà sociali ed economiche legate alla Grande Depressione. Tra i suoi romanzi più celebri figurano _Uomini e topi_ (1937), _Pian della Tortilla_ (1935), _Furore_ (1939), _La luna è tramontata_ (1942) e _La valle dell'Eden_ (1954). La sua scrittura riflette l'influenza delle tecniche cinematografiche ed è caratterizzata dall'essere puramente descrittiva. Nel 1963 gli viene assegnato il premio Nobel.
 
+]

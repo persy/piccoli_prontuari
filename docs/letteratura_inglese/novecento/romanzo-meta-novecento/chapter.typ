@@ -141,8 +141,7 @@ Angela Carter (1940-1992), pseudonimo di Angela Olive Starker, nacque nel Sussex
 Edna O'Brien (1932), scrittrice irlandese di grande sensibilità, si distingue per la sua capacità di rappresentare l'universo femminile. Nelle sue opere emerge il tema della frattura tra interessi maschili e femminili. Partendo da un iniziale ottimismo ingenuo per arrivare attraverso rancori e tensioni a una malinconia nostalgica ma pacata. 
 
 Tra i romanzi più celebri si trovano _The country girls_ (_Ragazze di campagna_, 1960), _August is a wicked month_ (_Agosto è un pessimo mese_, 1965), _A pagan place_ (_Un luogo pagano_, 1970), _A fanatic heart: selected stories_ (_Un cuore fanatico: storie scelte_, 1984) e _House of splendid isolation_ (_Uno splendido isolamento_, 1994).
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Golding: William Golding (1911-1993) inizialmente si dedica al teatro, per poi scrivere il celebre romanzo _Il signore delle mosche_ (1954), una rappresentazione trasparente degli effetti del secondo conflitto mondiale. Nel testo esplora i meccanismi psicologici che portano al male nelle coscienze individuali. Riceve il Nobel per la letteratura nel 1983.  
@@ -158,3 +157,5 @@ Tra i romanzi più celebri si trovano _The country girls_ (_Ragazze di campagna_
 / Filone angloindiano: Emergono personalità di spicco come Salman Rushdie (1947), autore di opere importanti quali _I figli della mezzanotte_ (1981), _Vergogna_ (1983) e _I versetti satanici_ (1989), quest'ultimo condannato dalle autorità religiose islamiche. Anche Vidiadhar Surajprasad Naipaul (1932-2018), tra i maggiori scrittori contemporanei in lingua inglese, si distingue con romanzi come _Una via nel mondo_ (1994).  
 
 / Scrittrici: Doris Lessing (1919-2013) affronta temi legati all'ambiente africano, alla critica dei pregiudizi borghesi e al ruolo delle donne nella società, con opere quali _I figli della violenza_ (1952-69), _Storie africane_ (1964) e _La brava terrorista_ (1985). Iris Murdoch (1919-1999) esplora il comportamento umano nei rapporti interpersonali, approfondendo concetti come la libertà e la responsabilità in lavori quali _La campana_ (1958), _Una testa tagliata_ (1961) e _Il cavaliere verde_ (1993). Infine, Edna O'Brien (1932) offre una prospettiva unica sulla consapevolezza femminile attraverso opere come _Ragazze di campagna_ (1960) e _Uno splendido isolamento_ (1994).
+
+]

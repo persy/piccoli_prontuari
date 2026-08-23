@@ -132,8 +132,7 @@ Nel 1998, anno in cui morì, Hughes pubblicò _Birthday Letters_, un'opera intim
 La sua produzione comprende numerose raccolte che reinterpretano le tradizioni irlandesi alla luce della grande poesia europea, con particolare attenzione all'opera dantesca. Opere come _Death of a Naturalist_ (_Morte di un naturalista_, 1966) e _Door in the dark_ (_Porta nel buio_, 1969) evocano paesaggi familiari legati alla sua infanzia, abitati da contadini, artigiani e pescatori. Altre raccolte, tra cui _Wintering out_ (_Svernando fuori_, 1972), _North_ (_Nord_, 1975) e _Field work_ (_Lavoro nei campi_, 1979), riflettono sulla lunga storia di occupazione dell'Irlanda, dedicando particolare attenzione al suo complesso patrimonio culturale. La produzione successiva, con titoli come _Station Island_ (1984), _The haw lantern_ (_La lanterna del biancospino_, 1987) e _Seeing things_ (_Veder cose_, 1991) esplorano ulteriormente la lingua irlandese.
 
 Tra i saggi che meritano una menzione, _Preoccupations_ (_Preoccupazioni_, 1980) e _The government of the tongue_ (_Il governo della lingua_, 1988). Vinse il premio Nobel nel 1995.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Anni Venti: Negli anni Venti, la poesia subisce l'influenza di T.S. Eliot, e il poeta assume il ruolo di esploratore della realtà. Tra i principali esponenti si distinguono Robert Graves (1895-1985), Edwin Muir (1887-1959) e Hugh MacDiarmid (1892-1978).
@@ -145,3 +144,5 @@ Tra i saggi che meritano una menzione, _Preoccupations_ (_Preoccupazioni_, 1980)
 / Anni Cinquanta: Gli anni Cinquanta vedono la nascita del Movimento, che favorisce un ritorno alla chiarezza, all'ordine e al buon senso, opponendosi alla precedente poesia emotiva e oscura. Questa tendenza trova espressione nell'antologia _Nuove linee_ (1956). \ Tra i maggiori esponenti si annovera Philip Larkin (1922-1985), i cui versi esplorano il realismo della vita quotidiana in una società industriale. Le sue principali raccolte includono _I meno delusi_ (1955), _Le nozze di Pentecoste_ (1964) e _Alte finestre_ (1974).\ Parallelamente, Thomas William Gunn (1929) si distingue per l'influsso dei poeti metafisici come John Donne. Nei suoi testi affronta temi quali solitudine e ricerca dell'identità, celebrando il movimento e l'inquietudine come mezzi per superare le convenzioni del sistema. Tra le sue raccolte si ricordano _Il senso del movimento_ (1957), _I miei tristi capitani_ (1961) e _La porta della morte_ (1989).
 
 / Ultimi decenni: Negli ultimi decenni del Novecento prende corpo un nuovo movimento noto come Gruppo, sorto in contrasto con il Movimento precedente e concepito come laboratorio poetico. Le figure centrali di questa nuova fase sono Ted Hughes (1930) e Seamus Heaney (1939), rappresentanti di una poetica rinnovata e personale. 
+
+]

@@ -112,8 +112,7 @@ Il romanzo americano emerse in ritardo rispetto alla consolidata tradizione narr
 Nel periodo successivo si assistette alla pubblicazione di opere satiriche e picaresche, fino all'affermarsi di Charles Brockden Brown, considerato il primo scrittore professionista americano. Con lui iniziò anche una più ampia apertura del pubblico alla letteratura. I suoi romanzi evidenziano marcate influenze inglesi, in particolare del romanzo gotico, ma al contempo dimostrano una volontà di reinterpretare tali modelli attraverso prospettive simboliche. Questo approccio anticipa alcune atmosfere che caratterizzeranno poi i lavori di Nathaniel Hawthorne ed Edgar Allan Poe.
 
 Tra le sue principali opere possiamo annoverare _Alcuin_ (1798), un dialogo sui diritti delle donne; il racconto macabro _Wieland, or the Transformation_ (1798); così come i romanzi sentimentali _Arthur Mervyn_ (1799), _Ormond_ (1799), _Edgar Huntly_ (1799), _Clara Howard_ (1801) e _Jane Talbot_ (1801).
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Verso l'Illuminismo: Nei primi anni del 1700, il puritanesimo si fonde con le nuove teorie empirico-razionalistiche. La ragione non è più considerata semplicemente un mezzo, ma diventa essa stessa fonte di verità, rafforzando il legame concettuale con Dio.
@@ -134,13 +133,4 @@ Tra le sue principali opere possiamo annoverare _Alcuin_ (1798), un dialogo sui 
 
 / Narrativa: Charles Brockden Brown (1771-1810) viene considerato il primo scrittore professionista americano. Nei suoi romanzi offre una visione della sua epoca in cui la letteratura assume prevalentemente una funzione didattica. Tra le sue opere più note figurano Arthur Mervyn (1799), Ormond (1799) e Clara Howard (1801).
 
-
-
-
-
-
-
-
-
-
-
+]

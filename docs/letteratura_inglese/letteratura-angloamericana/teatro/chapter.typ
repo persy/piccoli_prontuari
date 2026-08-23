@@ -63,8 +63,7 @@ Il clima politico della "caccia alle streghe" negli Stati Uniti degli anni Cinqu
 
 Il teatro di Miller si distingue per la forte consapevolezza etica e un atteggiamento critico nei confronti della società statunitense, dei suoi ideali e delle sue contraddizioni. Il suo lavoro ha riscosso notevole successo sia in patria che a livello internazionale.
 
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / O'Neill: Eugene O'Neill (1888-1953), nato a New York in una famiglia teatrale, ricevette il Premio Nobel nel 1936. Rappresentò le ansie della società americana nelle sue opere più celebri: _Al di là dell'orizzonte_ (1920), _Desiderio sotto gli olmi_ (1924), _Strano interludio_ (1928), _Il lutto si addice a Elettra_ (1931) e _Lunga giornata di viaggio verso la notte_ (1956), quest'ultima pubblicata postuma su richiesta dell'autore.
@@ -74,5 +73,4 @@ Il teatro di Miller si distingue per la forte consapevolezza etica e un atteggia
 / Tennessee Williams: Tennessee Williams, pseudonimo di Thomas Lanier (1911-1983), conquistò il pubblico con _Lo zoo di vetro_ (1944) e proseguì con capolavori come _Un tram chiamato desiderio_ (1947), _Estate e fumo_ (1948), _La rosa tatuata_ (1951) e _La gatta sul tetto che scotta_ (1955). I suoi testi si concentrano su temi di decadenza morale, violenza sociale e isolamento.
 
 / Miller: Arthur Miller combinò la sua vena polemica con un'attenzione etica verso le ingiustizie sociali. Fra le sue opere principali si ricordano _Morte di un commesso viaggiatore_ (1949), _Il crogiolo_ (1953), _Uno sguardo dal ponte_ (1955-57) e _Vetri rotti_ (1994), affrontando temi come il fallimento dei sogni americani e le fragilità umane.
-
-
+]

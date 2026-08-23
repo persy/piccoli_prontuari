@@ -72,8 +72,7 @@ William Congreve (1670-1729), nato e cresciuto in Irlanda, amico di Jonathan Swi
 La sua prima commedia, _The Old Bachelor_ (_Il vecchio scapolo_, 1693), gli garantì un'immediata notorietà, che crebbe con _The Double Dealer_ (_Il falso amico_, 1694) e soprattutto con _Love for Love_ (_Amore per amore_, 1695). Tuttavia, il suo vero capolavoro è _The Way of the World_ (_Così va il mondo_, 1700), dove raggiunge l'apice nella perfezione linguistica: i dialoghi sono un continuo scorrere di osservazioni argute e battute brillanti, ricche di spirito e finezza. I personaggi hanno acquisito una fama duratura, come Millamant, l'eroina della commedia, che incarna alla perfezione la donna del suo tempo, sofisticata, intelligente e consapevole del suo potenziale seduttivo. Questa figura si distingue per la complessità del carattere e per una sensibilità più moderna e raffinata rispetto ai modelli tradizionali.
 
 La commedia mantiene sempre un equilibrio tra toni divertenti e malinconici: attraverso i dialoghi emerge una consapevolezza pungente delle contraddizioni, delle ironie della vita e della complessità dei rapporti umani.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Letteratura della Restaurazione: Riflette una reazione marcata contro il puritanesimo e i suoi rigidi valori morali e religiosi. Si abbandona l'ideale puritano del "santo" a favore di quello del "libertino", un aristocratico libero nei costumi, cinico ed elegante. Anche lo spirito scientifico della Royal Society influenza le opere letterarie dell'epoca.
@@ -86,15 +85,4 @@ La commedia mantiene sempre un equilibrio tra toni divertenti e malinconici: att
 
 / Teatro: Si caratterizza come un'espressione d'élite che predilige generi quali la tragedia eroica, sentimentale e storica, oltre alla commedia di costume. \ La tragedia eroica mostra influenze della tradizione francese di Racine e Corneille, con l'aggiunta di temi esotici e avventurosi accompagnati da un grandioso impianto spettacolare. Tra gli autori più rilevanti spiccano Thomas Otway (1652-1685), Nathaniel Lee (1649-1692) e Thomas Southerne (1660-1746). \ Nella commedia di costume viene messa in ridicolo la morale borghese, con un forte accento sui dialoghi ben costruiti più che sulla trama vera e propria. Tra i maggiori interpreti si annoverano sir George Etherege (1634-1692), William Wycherley (1640-1716) e George Farquhar (1678-1706). \ Tra questi autori, William Congreve emerge come il maestro indiscusso della commedia nella Restaurazione. Con _Così va il mondo_ raggiunge la massima espressione artistica grazie alla sua perfetta padronanza del linguaggio e alla capacità di descrivere i caratteri con nuova sensibilità e profondità psicologica.
 
-
-
-
-
-
-
-
-
-
-
-
-
+]

@@ -93,8 +93,7 @@ L'ampia diffusione della commedia sentimentale suscitò una reazione critica da 
 Nel 1772 Goldsmith scrisse _Essay on the Theatre; or a Comparison between Laughing and Sentimental Comedy_ (_Saggio sul teatro; ovvero un confronto tra commedia divertente e commedia sentimentale_), dove criticava la commedia sentimentale definendola un'infelice mescolanza tra tragedia e commedia. Egli sosteneva che il pubblico avesse bisogno di riscoprire l'arte della risata.
 
 La sua commedia _She Stoops to Conquer_ (_Ella si umilia per vincere_, 1773), insieme a quelle di Sheridan, rappresentò il trionfo della commedia divertente su quella sentimentale.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Prosa saggistica: Gran parte della produzione letteraria in prosa della seconda metà del Settecento è attribuibile a filosofi, storici e politici. Spiccano biografie, saggi e diari, ma è soprattutto il giornalismo a prendere piede, grazie alla nascita di tre importanti periodici: _The Tatler_, _The Spectator_ e _The Guardian_, che offrono uno spaccato fondamentale della società dell'epoca.  
@@ -105,13 +104,4 @@ La sua commedia _She Stoops to Conquer_ (_Ella si umilia per vincere_, 1773), in
 
 / Teatro borghese: Si riscontra una crescente attenzione verso i gusti della classe media. All'eroismo della tragedia tradizionale si sostituisce una rappresentazione neoclassica ispirata ai modelli francesi (tra gli autori: Joseph Addison, Nicholas Rowe e George Lillo). La commedia brillante della Restaurazione cede il passo alle commedie sentimentali, considerate però di minor valore artistico (esempi significativi sono Richard Steele e Richard Cumberland). Come contrapposizione, autori come Oliver Goldsmith (1730-1774) e Richard Brinsley Sheridan (1751-1816) propongono una commedia più vivace e divertente.  
 
-
-
-
-
-
-
-
-
-
-
+]

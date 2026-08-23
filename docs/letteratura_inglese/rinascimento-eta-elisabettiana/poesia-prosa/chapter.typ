@@ -122,8 +122,7 @@ Parallelamente al sofisticato eufuismo si sviluppava uno stile più semplice e r
 Il filosofo Francis Bacon (1561-1626), grande ammiratore di Seneca, adottò uno stile prosaico essenziale ma vivace, utilizzando frasi brevi accompagnate da improvvisi cambi di ritmo nei suoi sermoni, trattati e traduzioni. La sua intenzione dichiarata era quella di effettuare una "diligentissima dissezione e anatomia del mondo".
 
 Un'altra figura interessante fu Robert Burton (1577-1640), autore dell'opera _The Anatomy of Melancholy_ (_L'anatomia della malinconia_, 1621). Questo testo complesso si colloca a metà strada tra medicina e psicologia. Lontano dalle tradizioni medievali ma anche distante dal metodo scientifico moderno, il lavoro combina religione e scienza attraverso una prosa che alterna stili pedanti a tonalità colloquiali. Il termine "anatomia" acquisì grande popolarità in quel periodo, diventando metafora dell'analisi sistematica di questioni contemporanee; in aggiunta lo stesso Bacon dichiarava che era fra i suoi intenti fare "una diligentissima dissezione e anatomia del mondo".  
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Poesia: Si registra un'importante fioritura poetica, caratterizzata da raffinate variazioni su temi tradizionali, con un notevole risalto all'espressione dei sentimenti. Tuttavia, lo stile non raggiunge la classicità rinascimentale italiana, rimanendo legato all'allegorismo medievale o a modalità già in parte manieristiche. \ I poeti Thomas Wyatt (1503-1542) e Henry Howard, conte di Surrey (1517-1547), introducono rispettivamente il sonetto di derivazione petrarchesca (ispirato agli imitatori di Petrarca) e l'uso del _blank verse_ (il decasillabo sciolto, ovvero non rimato).
@@ -138,21 +137,4 @@ Un'altra figura interessante fu Robert Burton (1577-1640), autore dell'opera _Th
 
 / La prosa: Durante il periodo si sviluppano numerosi generi letterari, tra cui opere polemiche, testi religiosi, sermoni, storie e biografie. Si assiste a una crescente valorizzazione dell'autorità del mondo classico e al tentativo di elevare la lingua volgare al suo stesso livello.  \ Tra gli autori più rappresentativi spiccano John Lyly (1554-1606), noto per i romanzi _Eufue, l'anatomia dello spirito_ (1578) ed _Eufue e la sua Inghilterra_ (1580), opere che danno origine alla moda dell'eufuismo: uno stile complesso caratterizzato da costruzioni frasali simmetriche, allitterazioni, rime o assonanze ispirate al modello ciceroniano. Un altro autore di rilievo è Thomas Nashe (1567-1601), celebre per il romanzo picaresco _Il viaggiatore sfortunato_ (1594) e per una serie di brillanti scritti satirici.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+]

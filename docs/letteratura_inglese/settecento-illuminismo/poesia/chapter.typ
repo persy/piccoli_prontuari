@@ -8,7 +8,7 @@
 Con il passare del tempo, l'età della ragione lascia spazio a una crescente attenzione verso l'espressione dei sentimenti e al malcontento nei confronti della razionale ma fredda religiosità dei teisti. È in questi anni che emerge il metodismo, movimento fondato dai fratelli John e Charles Wesley e segnato da una forte carica mistica. Questo contesto di cambiamento inizia a incrinare l'equilibrio classicista dell'età augustea, favorendo l'emergere di sfumature più complesse e tematiche che troveranno piena espressione nel romanticismo.]
 
 == La poesia "augustea"
-#boxfl(bottom)[== *🧩* Il classicismo <senza_numero>
+#boxfl(bottom)[== 🐺 Il classicismo <senza_numero>
 
 Il periodo successivo alla Restaurazione è generalmente noto come età dell'Illuminismo o età della Ragione. Tale denominazione si riferisce a un insieme di fenomeni culturali che investirono molteplici aspetti della realtà, dal filosofico al religioso e al politico. Questa epoca si contraddistingue per la profonda fiducia nella ragione umana, considerata uno strumento capace di dissipare le "tenebre" del passato e orientare l'umanità verso un futuro di progresso e felicità. All'interno di questo contesto culturale, l'ambito strettamente letterario viene spesso identificato con il termine classicismo. \ L'età del classicismo si estende dal 1702 al 1770 e, al suo interno, si distinguono due fasi principali. La prima, nota come "età augustea", si protrae fino al 1745 e rappresenta il periodo in cui la nuova letteratura raggiunse la sua piena maturità e perfezione. La seconda fase, invece, evidenzia i primi segnali di preromanticismo, introducendo alcune innovazioni rispetto alla tradizione. \ Nel corso del XVIII secolo, il centro della vita culturale non fu più legato esclusivamente alla corte. Gli intellettuali iniziarono a trovare sostegno presso uomini di Stato e politici, mentre la crescita del pubblico dei lettori permise loro di ottenere maggiori ricavi e un rinnovato rilievo sociale. Grazie a questo nuovo contesto, gli scrittori riuscirono a inserire nelle loro opere le aspirazioni e i bisogni della società del tempo. Tuttavia, almeno inizialmente, la loro produzione letteraria mantenne un'impronta aristocratica, caratterizzata dall'intelligenza e dall'ingegno, e fu guidata da principi didattici, morali o satirici. Lo stile classico, basato su ragione, ordine, equilibrio, eleganza e raffinatezza espressiva, rimase un elemento distintivo di quest'epoca.]
 Tra i poeti dell'età augustea non spiccano figure di primo piano. Le loro opere si distinguono però per raffinatezza, naturalezza stilistica e un forte richiamo ai modelli classici, soprattutto nei generi pastorale e satirico. Alcuni autori, come John Dyer, John Philips e Matthew Green, mostrano un certo interesse nel combinare un linguaggio carico di perifrasi poetiche con temi quotidiani e familiari, ottenendo spesso effetti ironici o semicomici.
@@ -60,8 +60,7 @@ Le sue odi pindariche, come _The Progress of Poesy_ (1754) e i componimenti a sf
 Nell'Elegia, Gray parte dalla contemplazione del paesaggio per sviluppare riflessioni sulle comunità rurali, trasformando il contesto in un'argomentazione contro le classi aristocratiche improduttive, caratteristica della polemica borghese dell'epoca. Tuttavia, il poeta conclude su una nota più intima, esprimendo il dolore per il destino oscuro di un poeta sensibile e sfortunato, ritratto che molti critici interpretano come un'immagine idealizzata dello stesso autore.
 
 Tra i temi centrali del poema emergono il riconoscimento della dignità morale della vita contadina, l'accettazione della volontà divina e una riflessione postuma sull'uguaglianza umana come destino ultimo comune a tutti gli uomini.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Poesia di epoca "augustea": Si caratterizza per l'eleganza formale, l'ispirazione ai modelli pastorali e satirici classici, oltre che per un classicismo che associa al fascino della natura una dimensione di meditazione morale sulla condizione umana. Tra i suoi principali rappresentanti si annoverano Matthew Prior (1664-1721) e John Gay (1685-1732).
@@ -70,14 +69,4 @@ Tra i temi centrali del poema emergono il riconoscimento della dignità morale d
 
 / Fra classicismo e romanticismo: Tra i poeti che incarnano questa transizione si ricordano Edward Young (1683-1765), Robert Blair (1699-1746), i fratelli Warton, William Collins (1721-1759) e soprattutto Thomas Gray (1716-1771). Con la sua famosa _Elegia scritta in un cimitero di campagna_, Gray non solo ha segnato una pietra miliare del preromanticismo, ma ha anche avviato la popolarità della poesia sepolcrale, influenzando profondamente la letteratura successiva.
 
-
-
-
-
-
-
-
-
-
-
-
+]

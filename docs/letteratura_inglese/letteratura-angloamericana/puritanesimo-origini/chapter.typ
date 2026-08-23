@@ -17,7 +17,7 @@ Le relazioni di Smith rivestivano un ruolo determinante poiché delineavano i pr
 
 Nelle pagine di Smith, l'America emergeva come una società aperta. Una realtà sociale nella quale anche coloro che non appartenevano a classi elevate potevano aspirare a una vita prospera e soddisfacente.
 
-#boxfl(bottom)[== *🧩* Il puritanesimo <senza_numero>
+#boxbr[== 🐺 Il puritanesimo <senza_numero>
 
 Ispirato al rigorismo calvinista nato in Inghilterra tra il XVI e il XVII secolo all'interno dell'anglicanesimo, il puritanesimo si fondava sull'autorità della Bibbia e sulla fede nel miracolo della conversione, operata dalla grazia divina. Questa, secondo un disegno imperscrutabile, rigenerava l'uomo, salvandolo dal peccato. Il movimento puritano non era completamente omogeneo, al suo interno si formarono tre correnti principali: il presbiterianesimo, che vedeva la Chiesa ancora guidata da un'élite ma capace di coinvolgere l'intera società, il congregazionalismo separatista e il congregazionalismo non separatista. 
 
@@ -73,8 +73,7 @@ Un altro filone analogo riguarda le narrazioni sulla schiavitù degli afroameric
 
 Altre figure degne di nota sono Phillis Wheatley (1753-1784), prima poetessa afroamericana a pubblicare un volume di poesie, e Sarah Kemble Knight, insegnante nota per un resoconto di viaggio ricco di impressioni vivaci e osservazioni brillanti che si distinguevano dai consueti toni moralistici della prosa dell'epoca.
 
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Smith: John Smith (1580-1631) rappresenta un punto cardine nella letteratura angloamericana, essendo autore del primo libro in lingua inglese scritto sul suolo americano. Le sue opere, tra cui le relazioni sulla Virginia (1609) e sul New England (1616), assumono una rilevanza particolare poiché delineano i caratteri essenziali della letteratura coloniale dell'epoca. In questi testi, l'America viene ritratta come una società aperta, capace di offrire opportunità di vita prospera e soddisfacente anche a chi non appartiene alle élite sociali.
@@ -85,3 +84,4 @@ Altre figure degne di nota sono Phillis Wheatley (1753-1784), prima poetessa afr
 
 / Autobiografie: Nel corso del XVII e XVIII secolo si sviluppa una tradizione letteraria dedicata a biografie e autobiografie, modellate su esempi classici e biblici. Questi testi si ispirano spesso a esperienze di viaggio, pellegrinaggi spirituali, conversioni religiose o resoconti legati alla prigionia. Tra gli autori principali in questo contesto figurano Samuel Sewall (1652-1730) e Mary Rowlandson (1635-1729). \ Infine, un significativo filone narrativo è costituito dai racconti autobiografici degli schiavi afroamericani. Uno dei rappresentanti più rilevanti è Olaudah Equiano (circa 1745-1800), le cui memorie offrono un resoconto indispensabile delle esperienze di oppressione e resistenza vissute dagli individui ridotti in schiavitù.
 
+]

@@ -132,8 +132,7 @@ Ben Jonson eccelse anche nella poesia. Si distaccò dalla poetica ornata e enfat
 La sua ispirazione derivava principalmente dai grandi autori classici come Catullo, Orazio e Marziale, di cui cercò di riprodurre chiarezza espressiva, eleganza e concisione, rimanendo però fedele al ritmo e alla struttura peculiare della lingua inglese.
 
 Questo equilibrio tra tradizione classica e sensibilità personale conferisce alla sua poesia un tono unico, intimo e autenticamente originale.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Il teatro elisabettiano: Si caratterizza per la diffusione di due tipologie principali di spettacoli: uno di ispirazione classica, destinato a un pubblico d'élite, e un altro di stampo più popolare, favorito anche dalla costruzione dei primi teatri.  
@@ -146,16 +145,4 @@ Questo equilibrio tra tradizione classica e sensibilità personale conferisce al
 
 / Ben Jonson: Tra i contemporanei di Shakespeare, Ben Jonson (1572-1637) si afferma come drammaturgo di spicco. Originario di Londra e dotato di una solida formazione classica, Jonson si distingue per il suo acuto senso di osservazione della realtà e per un umorismo penetrante. Secondo Jonson, la commedia deve mettere in luce e ridicolizzare le debolezze umane. \ La sua attività si estende anche alla poesia, dove prende ispirazione dai classici, cercando di emularne chiarezza, sintesi ed eleganza stilistica. Questo ritorno ai modelli classici appare come una reazione alla poesia di Spenser. \ Tra le opere teatrali principali di Jonson si annoverano le commedie _Ognuno nel suo umore_ (1598), _Ognuno fuori del suo umore_ (1599), le commedie satiriche _Volpone, o la volpe_ (1606), _L'alchimista_ (1610) e _La fiera di San Bartolomeo_ (1614). Si aggiungono le tragedie romane _Sejanus_ (1603) e _Catilina_ (1611), oltre a numerosi _masques_, tra cui il celebre _Masque of Queens_.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+]

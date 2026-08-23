@@ -72,8 +72,7 @@ Un ruolo iniziale fondamentale nello sviluppo della prosa fu svolto dal re del W
 Alfredo riconosceva che la cultura cristiana trovava le sue origini nelle tradizioni ebraica, greca e latina. Per tale motivo, avviò un programma sistematico di traduzioni, tra cui spiccano versioni in lingua volgare del _De consolatione philosophiae_ di Boezio e della Cura pastoralis di Gregorio Magno. È probabile che durante il suo regno abbia anche avuto inizio la _Anglo-Saxon Chronicle_, un'opera cronachistica che fornisce una narrazione degli eventi occorsi in Inghilterra anno per anno dall'alba dell'era cristiana fino alla metà del XII secolo.
 
 Un contributo rilevante alla prosa anglosassone venne anche dall'ecclesiastico Aelfric (circa 955-1020), il quale fu tra i primi a realizzare una versione della Bibbia in inglese oltre a numerose omelie, lettere pastorali e agiografie. Questi testi si proponevano di istruirne i predicatori fornendo loro strumenti pratici e semplificando il loro lavoro tramite traduzioni in lingua volgare.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Alfabeto: L'evoluzione della lingua inglese ebbe inizio con le tribù germaniche che introdussero nelle isole britanniche l'alfabeto runico, noto come Futhark. Questa scrittura, composta da segni lineari adatti all'incisione su materiali rigidi, possedeva una forte valenza sacrale e misteriosa. Sebbene l'arrivo del cristianesimo portò l'alfabeto latino, quest'ultimo faticò inizialmente a adattarsi alla fonetica locale, convivendo a lungo con le antiche rune.
@@ -84,22 +83,4 @@ Un contributo rilevante alla prosa anglosassone venne anche dall'ecclesiastico A
 
 / Primi documenti: I primi documenti letterari sono rappresentati da circa trentamila versi conservati in quattro manoscritti principali: Cotton Vitellius A. XV, il Codice Junius, l'Exeter Book e il Vercelli Book. Tra queste opere, il poema epico _Beowulf_ si distingue per il suo valore letterario. Nel panorama della poesia religiosa anonima emergono testi significativi quali _Il sogno della croce_, _Il navigatore_ e _L'errante_. Tra gli autori noti figurano Caedmon (VII secolo) e Cynewulf (IX secolo). \ Per quanto riguarda la prosa letteraria, essa consiste principalmente in traduzioni e parafrasi di testi latini. Un importante precursore della prosa inglese è il re Alfredo il Grande (849-899), a cui si deve un'opera di promozione linguistica e culturale nella lingua volgare. Risale a questo periodo anche la traduzione in inglese della _Bibbia_ ad opera di Aelfric (circa 955-1020).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+]

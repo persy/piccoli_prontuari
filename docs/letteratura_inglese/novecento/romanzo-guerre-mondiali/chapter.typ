@@ -263,8 +263,7 @@ Green si distinse per l'assenza di interesse verso la narrativa tradizionale a s
 Una lettura superficiale dei romanzi di questo autore potrebbe portarci a considerarli semplicemente delle commedie argute o delle tragicommedie, ma la loro densità simbolica e l'ambiguità allusiva li rivelano come opere straordinariamente ricche di atmosfere poetiche e profonde suggestioni. 
 
 Le sue ultime opere, _Nothing_ (Nulla, 1950) e _Doting_ (Infatuazione, 1952), offrono un ritratto della vita nell'alta società londinese del secondo dopoguerra, adottando una modalità narrativa fortemente dialogica che dona loro una tonalità più leggera e disimpegnata.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Il nuovo romanzo: Nella seconda decade del XX secolo si assiste a un'importante fase di trasformazione letteraria: una nuova generazione di scrittori sfida le convenzioni del romanzo tradizionale. La psicologia freudiana ha esercitato un'influenza determinante, spingendo i romanzieri a superare la razionalità apparente della coscienza per esplorare i meccanismi profondi e irrazionali dell'inconscio. In questo contesto emerge l'impegno a rappresentare la mente come un continuo flusso di pensieri e percezioni, una concezione che si esprime attraverso la tecnica dello _stream of consciousness_ (flusso di coscienza), utilizzata spesso mediante lo strumento del monologo interiore.
@@ -295,3 +294,4 @@ Le sue ultime opere, _Nothing_ (Nulla, 1950) e _Doting_ (Infatuazione, 1952), of
 
 / Green: Henry Green (1905-1973), formatosi a Eton, scrisse romanzi quali _Esistenza_ (1929), _Al party_ (1939), _E vissero felici_ (1945) e _Infatuazione_ (1952). Le sue opere, spesso percepite come sottili commedie o tragicommedie, si distinguono per la polivalenza simbolica, l'allusività e l'ambiguità narrativa, che conferiscono loro una suggestiva carica poetica.
 
+]

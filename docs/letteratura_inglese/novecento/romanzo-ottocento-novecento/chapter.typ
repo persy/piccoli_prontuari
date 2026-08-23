@@ -136,8 +136,7 @@ Dopo _Passaggio in India_, la capacità narrativa di Forster sembrò esaurirsi: 
 Per esplicita volontà dell'autore, il romanzo _Maurice_, completato nel 1914, fu pubblicato postumo nel 1971. Il tema centrale, che racconta una storia di omosessualità in un college maschile, rifletteva chiaramente eventi personali.
 
 Alcuni dei suoi romanzi hanno avuto con grande successo adattamenti cinematografici diretti dal regista inglese David Lean e dallo statunitense James Ivory.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Romanzo fra XIX e XX sec.: Il romanzo tra Ottocento e Novecento è segnato dalla crisi del positivismo e dall'introduzione di nuovi valori provenienti dalla psicologia, filosofia e antropologia. Questi cambiamenti conducono la narrativa inglese verso forme più intime e individuali, dove l'analisi interiore prevale sulla costruzione narrativa ampia.
@@ -150,4 +149,4 @@ Alcuni dei suoi romanzi hanno avuto con grande successo adattamenti cinematograf
 
 / Forster: Edward Morgan Forster (1879-1970), nato a Londra da famiglia borghese, frequentò l'ambiente intellettuale liberale e anticonformista dell'epoca. Nei suoi romanzi descrive ambienti tipicamente borghesi, affiancando però un rifiuto delle convenzioni vittoriane a una celebrata simpatia per l'istintività e la passionalità italiane. Al centro della sua narrativa sta la difficoltà nelle relazioni umane, tema che emerge particolarmente nei suoi principali lavori: _Camera con vista_ (1908), _Casa Howard_ (1910), _Passaggio in India_ (1924, considerato il suo capolavoro) e _Maurice_ (pubblicato postumo nel 1971).
 
-
+]

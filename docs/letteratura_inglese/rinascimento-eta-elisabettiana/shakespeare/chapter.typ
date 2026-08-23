@@ -122,7 +122,7 @@ La complessità della natura umana viene ritratta in un contesto magico e intens
 Nei romances shakespeariani è evidente il percorso narrativo che porta dalla sofferenza alla rigenerazione, un cammino che attraversa inevitabilmente il peccato, la caduta e la distruzione. È nelle nuove generazioni che risiedono gli elementi di rinnovamento e speranza. A questa fase appartengono anche due delle ultime opere dell'autore: _Enrico VIII_ e _I due nobili parenti_, entrambe datate 1612-1613.
 
 == Le altre opere
-#boxfl(bottom)[== *🧩* Il sonetto <senza_numero> 
+#boxfl(bottom)[== 🐺 Il sonetto <senza_numero> 
 
 Composizione poetica formata da quattordici versi organizzati secondo un preciso schema di rime. I versi sono strutturati attraverso un sistema di pause e collegamenti che conferiscono armonia al testo. \ Nei sonetti italiani, detti anche petrarcheschi, la struttura tradizionale prevede due quartine con rime alternate (ABBA, ABBA) e due terzine, il cui schema di rime può variare, ad esempio CDC, CDC oppure CDC, DCD. Questo schema suddivide il sonetto in due parti: un’ottava e una sestina. \ Diversamente, il sonetto shakespeariano presenta tre quartine seguite da un distico finale, con le rime disposte in questa sequenza: ABAB, CDCD, EFEF, GG.]
 Passando alle opere non teatrali, tra queste troviamo i due poemi narrativi _Venere e Adone_ (1593) e _Lucrezia violata_ (1594), un enigmatico poema simbolico intitolato _La fenice e la tartaruga_ (1601), e soprattutto la celebre raccolta di _Sonetti_, composta da 154 liriche considerate tra le migliori mai scritte in lingua inglese.
@@ -144,8 +144,7 @@ Il Settecento fu il periodo fondamentale per il riconoscimento della sua grandez
 I romantici furono decisivi nel rivalutarlo. Nelle sue più grandi tragedie essi riscontrarono il modello del "genio inconsapevole", capace di cantare passioni intense e universali, in linea con i loro ideali artistici.
 
 Nel Novecento, Shakespeare venne consacrato senza riserve come uno dei massimi autori della letteratura universale. Gli studi filologici permisero inoltre di apprezzare non solo il valore poetico delle sue opere, ma soprattutto la loro insuperata capacità di essere rappresentate. Proprio perché create per il palcoscenico, le opere shakespeariane rivelano una vitalità inesauribile sia nelle rappresentazioni teatrali che nelle trasposizioni cinematografiche.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La vita: William Shakespeare (1564-1616) nacque a Stratford-upon-Avon. Dopo aver frequentato le scuole locali, nel 1582 sposò Ann Hathaway, con cui ebbe tre figli. Degli anni immediatamente successivi si conosce poco, ma nel 1592 risulta stabilito a Londra, dove lavorava come autore teatrale. In seguito al crescente successo ottenuto come drammaturgo, Shakespeare si ritirò dall'attività teatrale intorno al 1613, tornando a vivere a Stratford fino alla morte avvenuta tre anni più tardi.
@@ -154,3 +153,4 @@ Nel Novecento, Shakespeare venne consacrato senza riserve come uno dei massimi a
 
 / Opere non teatrali: Tra le opere non teatrali troviamo i poemi narrativi _Venere e Adone_ (1593) e _Lucrezia violata_ (1594), oltre al poema simbolico _La fenice e la tartaruga_ (1601). \ Infine, la raccolta dei 154 sonetti, pubblicata nel 1609, è indiscutibilmente l'opera di maggior rilevanza nella letteratura inglese.
 
+]

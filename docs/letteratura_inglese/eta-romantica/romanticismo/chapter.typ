@@ -12,7 +12,7 @@ Già tra la fine del Settecento e l'inizio dell'Ottocento, William Blake anticip
 Egli fu, inoltre, il primo a riconoscere all'immaginazione una funzione conoscitiva centrale, quale mezzo per accedere a una realtà ulteriore rispetto al mondo dei fenomeni percepibili dai sensi.] 
 
 == I caratteri generali del romanticismo
-#boxfl(bottom)[== *🧩* Il "romantico" <senza_numero> 
+#boxfl(bottom)[== 🐺 Il "romantico" <senza_numero> 
 
 Il termine "romantico" ha origine dall'antico francese _romanz_, successivamente evoluto in _roman_, che indicava testi composti in lingua romanza anziché in latino. Queste opere trattavano principalmente le avventure di cavalieri intenti ad affrontare nemici, naturali o soprannaturali, per conquistare l'amore di una dama. Anche in Inghilterra vennero creati _romances_, sviluppati in veri e propri cicli narrativi, come le storie di Re Artù, Galvano e il cavaliere verde, Lancillotto e altre simili. \ Il termine _romantic_ fece la sua prima comparsa nella lingua inglese nel diario di John Evelyn (1620-1702) nel 1654. Riapparve successivamente in un'affermazione di Samuel Pepys, suo contemporaneo, dove compariva come opposto all'aggettivo _true_ (vero), per descrivere qualcosa di stravagante e quasi fantastico. \ Nonostante ciò, il termine _romantic_ non si trovava nelle iniziali opere romantiche. Solo nel 1814, Walter Scott lo utilizzò per richiamarsi agli elementi avventurosi e misteriosi della vita. Tre anni più tardi, nel 1817, Coleridge ne fece uso nella _Biographia Literaria_ per spiegare la divisione dei compiti tra lui e Wordsworth nella stesura delle _Lyrical Ballads_. In questo contesto, il termine indicava qualcosa di insolito e straordinario, in contrapposizione alla quotidianità. \ In ogni caso, nessuno dei poeti dei primi anni dell’Ottocento si sarebbe mai definito "romantico". Fu solo dopo il 1880 che questa parola assunse il significato moderno di popolare e sentimentale, in contrapposizione a quello di antico o "classico", venendo così associata ai poeti della prima metà del secolo.]
 Già nel Settecento, la letteratura aveva mostrato segni che anticipavano il romanticismo: il risveglio della sensibilità, inizialmente confinato al teatro per poi espandersi al romanzo e infine alla poesia, fu un fenomeno che scardinò l'estetica neoclassica fino ad allora predominante. L'emergere di un approccio soggettivo, favorito da forme narrative come il romanzo epistolare, spingeva il lettore a immedesimarsi nei protagonisti delle storie raccontate. Si osservava inoltre un crescente interesse verso il gotico, particolarmente evidente nei romanzi di fine secolo. Questi elementi contribuirono a modificare sensibilità, valori e atteggiamenti del pubblico.  
@@ -76,22 +76,11 @@ Il linguaggio di Blake si distingue per uno stile piuttosto uniforme e conciso. 
 Benché William Blake non ricorra mai nei suoi scritti a un vocabolario dichiaratamente simbolico, la sua produzione letteraria incoraggia inevitabilmente un'interpretazione in chiave simbolica. Infatti, il poeta elaborava il proprio pensiero e percepiva la realtà attraverso i simboli, traendo dal mondo naturale uno straordinario repertorio di verità simboliche. Questa prospettiva si traduce in una predilezione per un linguaggio concreto, ma al contempo intriso di significati molteplici e stratificati.  
 
 L'apprezzamento nei confronti della poesia di Blake si è manifestato pienamente soltanto con il movimento preraffaellita, ma la sua influenza si è estesa ben oltre, segnando profondamente molti autori del ventesimo secolo. Fra questi, in ambito anglofono, si possono annoverare W.B. Yeats, Dylan Thomas e James Joyce; negli Stati Uniti Allen Ginsberg; mentre in Europa autori come André Gide in Francia e Giuseppe Ungaretti in Italia hanno raccolto l'eredità culturale e poetica del grande visionario inglese. 
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Romanticismo: Rappresenta un movimento letterario caratterizzato da un rinnovato risveglio della sensibilità artistica e dell'immaginazione creativa, privilegiando un approccio soggettivo all'esperienza umana. Esso manifesta una spiccata inclinazione verso il gusto per il gotico sia nella letteratura sia nell'architettura, e attribuisce alla poesia il ruolo di veicolo privilegiato per esprimere l'emozione individuale del poeta, incaricandola di svelare la realtà più intima delle cose. \ L'arte non si limita a imitare la realtà, ma la reinventa, poiché l'immaginazione, considerata potere creativo originale, detiene la capacità di conferire un nuovo ordine al mondo. In questo contesto, il poeta assume una funzione quasi profetica: è individuo sognatore, spesso solitario e incline all'esotico, al sublime e al soprannaturale; si distacca da un mondo percepito come estraneo per fondare il proprio discorso sull'esperienza personale.  
 
 / William Blake: William Blake (1757-1827) nacque a Londra e frequentò una scuola di disegno prima di iscriversi alla Royal Academy of Arts. La sua formazione come illustratore e incisore si intrecciò fin dall'inizio con il suo percorso poetico. Risentì profondamente dell'influenza delle opere di Swedenborg e Böhme, oltre che della lettura intensiva della Bibbia.  \ Le sue opere principali includono _Schizzi poetici_ (1783), _Canti dell'innocenza_ (1789) e _Canti dell'esperienza_ (1794). Questi testi affrontano temi dialettici quali innocenza ed esperienza, bene e male, felicità e dolore, trattandoli come elementi essenziali per la pienezza dell'esistenza umana. I _Libri profetici_, pubblicati tra il 1793 e il 1804, rappresentano invece una produzione più complessa, nella quale confluiscono motivi gnostici e neoplatonici. In questa opera Blake elabora una propria cosmogonia basata sui quattro principi fondamentali dell'intelletto, dell'emozione, della sensazione e dell'immaginazione. \  La poetica di Blake può essere riassunta nell'attenzione all'istinto e alla libertà, caratterizzata da un'esuberanza formale che rispecchia spesso un contenuto egualmente intenso ed eccedente.
 
-
-
-
-
-
-
-
-
-
-
-
+]

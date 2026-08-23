@@ -58,8 +58,7 @@ Nell'epilogo del libro, lo stesso Gulliver manifesta un profondo disgusto verso 
 _I viaggi di Gulliver _rappresenta forse l'opera che, più di ogni altra nella tradizione letteraria occidentale, esprime una radicale negazione della civiltà occidentale e, in senso ancora più ampio, dell'intera umanità. Il disgusto che Gulliver prova per la natura degradata degli uomini rispecchia il disprezzo che Swift stesso nutriva per i suoi contemporanei, con particolare riferimento agli inglesi del suo tempo.
 
 L'opera è stata talvolta interpretata come un'espressione di nichilismo; tuttavia, essa si distingue per l'abile equilibrio con cui combina allegoria e critica feroce. Valori, istituzioni, religioni, scienze e cultura vengono messi sotto esame attraverso un intreccio di fantasia e disperazione, sostenuto da uno stile letterario classicamente raffinato. Il genio di Swift emerge proprio da questa intrinseca complessità ed equilibrio, elevando il romanzo al rango di capolavoro della letteratura mondiale. La sua universalità ha permesso inoltre la creazione di adattamenti che l'hanno reso un classico anche per il pubblico infantile.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / La vita: Jonathan Swift (1667-1745) nacque a Dublino da genitori inglesi. Tra il 1700 e il 1714 viaggiò frequentemente tra l'Irlanda e Londra, lavorando come segretario per Sir William Temple e cercando senza successo di affermarsi sia negli ambienti ecclesiastici sia in quelli politici. Nella fase finale della sua vita, fu afflitto da una grave forma di labirintite e cadde infine nella demenza.
@@ -68,3 +67,4 @@ L'opera è stata talvolta interpretata come un'espressione di nichilismo; tuttav
 
 / _I viaggi di Gulliver_: Pubblicato anonimamente nel 1726, _I viaggi di Gulliver_ rappresenta l'apice della satira contro l'essere umano e la civiltà. Il tema centrale dell'opera è il percorso educativo del protagonista attraverso esperienze straordinarie. L'alternanza delle proporzioni fisiche e delle prospettive induce una rilettura critica della realtà umana e delle sue contraddizioni, offrendo al lettore una visione del mondo radicalmente nuova.
 
+]

@@ -56,8 +56,7 @@ Agli ultimi anni della vita di Oscar Wilde risalgono le sue opere più celebri e
 _Il ritratto di Dorian Gray_, romanzo cardine nella produzione letteraria di Wilde, narra la storia di un giovane che, tramite un'inspiegabile magia, riesce a mantenere immutato il proprio aspetto avvenente nonostante si abbandoni a ogni tipo di vizio e immoralità. Al contrario, il suo ritratto subisce i segni del tempo e della corruzione morale, divenendo poco a poco una rappresentazione del suo vero essere. Spinto da un profondo senso di colpa, Dorian finirà per pugnalare il ritratto, provocando però la propria morte istantanea. In seguito, il quadro recupererà la bellezza originaria, mentre il corpo senza vita di Dorian assumerà le fattezze orribili e degradate che l'immagine ritraeva.
 
 Quest'opera rappresentava per Wilde una critica alla morale comune e alla concezione vittoriana dell'arte come veicolo educativo. Tuttavia, all'epoca della pubblicazione fu tacciata di immoralità e accusata di esercitare un'influenza negativa sui giovani. Nonostante ciò, ebbe un successo straordinario, anche perché molti vollero identificare Wilde stesso con il personaggio di Dorian. Il romanzo è espressione dell'anticonformismo dell'autore e della sua adesione ai principi dell'estetismo, che informarono la sua intera esistenza. Fu accolto come un manifesto del decadentismo inglese, avendo esaltato i fondamenti teorici di tale corrente: la celebrazione della bellezza suprema, il rifiuto dei limiti morali convenzionali, la teorizzazione della "spiritualizzazione dei sensi" come risposta alla dicotomia tra sensi e spirito e l'inversione del principio tradizionale secondo cui l'arte imita la vita con quello secondo cui è piuttosto la vita a imitare l'arte.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Movimento estetico: L'estetismo, movimento diffusosi negli ultimi decenni dell'Ottocento, non si limitava a essere un'espressione letteraria, ma rappresentava un tentativo più ampio di emanciparsi dai vincoli morali e dai pregiudizi dell'età vittoriana. Al suo centro si ponevano il culto assoluto della bellezza e la concezione dell'arte fine a sé stessa.
@@ -66,21 +65,4 @@ Quest'opera rappresentava per Wilde una critica alla morale comune e alla concez
 
 / Wilde: Oscar Wilde (1854-1900), nato a Dublino e formatosi a Oxford, fu profondamente influenzato dall'estetismo pateriano. A Londra si distinse per il suo spirito brillante, il raffinato eccentricismo e l'acume nelle conversazioni. Tuttavia, la sua fulminante carriera sociale e letteraria fu tragicamente interrotta nel 1895 dalla condanna a due anni di lavori forzati per omosessualità. Dopo la detenzione, le sue condizioni di salute e di vita furono irrimediabilmente compromesse. Si ritirò a Parigi, dove visse gli ultimi anni in solitudine fino alla sua morte. \ Le opere principali di Oscar Wilde riflettono la profondità del suo approccio letterario e il suo anticonformismo. Tra le prime pubblicazioni figura la raccolta di poesie Poems del 1881. Nel periodo compreso tra il 1888 e il 1891, Wilde diede alle stampe opere come _Il principe felice e altre novelle_, _Il delitto di Lord Arthur Savile e altri racconti_, _Una casa di melograni_, e il dramma _Salomé_. \ Rilevanti sono anche i saggi _Intenzioni_ e _L'anima dell'uomo sotto il socialismo_, oltre al celebre romanzo _Il ritratto di Dorian Gray_ (1891), considerato uno dei manifesti del decadentismo inglese, in cui si riflette la sensibilità estetica e l'anima controcorrente dell'autore. \ Nel genere teatrale, Wilde brillò con commedie tuttora apprezzate, come _Il ventaglio di Lady Windermere_ (1892), _Un marito ideale_ (1895) e _L'importanza di chiamarsi Ernesto_ (1895). La sua produzione poetica culmina con _La ballata del carcere di Reading_ (1898), mentre la drammatica epistola confessione, _De profundis_, pubblicata postuma nel 1961, offre una toccante introspezione sulla sua vicenda personale.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+]

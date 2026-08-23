@@ -112,8 +112,7 @@ Robert Southey (1774-1843), cognato di Samuel Taylor Coleridge, fu parte del cel
 La sua produzione poetica, sebbene apprezzata dai contemporanei, è oggi quasi interamente caduta nell'oblio. I suoi quattro poemi epici principali, _Thalaba the Destroyer_ (_Thalaba il distruttore_, 1801), _Madoc_ (1805), _The Curse of Kehama_ (_La maledizione di Kehama_, 1810) e _Roderick, the Last of the Goths_ (_Roderick, l'ultimo dei goti_, 1814), furono rapidamente dimenticati nonostante abbiano riscosso successo al loro tempo. Similmente, le sue poesie brevi e moraleggianti, che gli valsero il titolo di Poeta Laureato nel 1813, non sono riuscite a conservare una presenza significativa nella tradizione letteraria.
 
 Ciò nonostante, egli è ancora oggi ricordato per la biografia _Life of Nelson_ (_Vita di Nelson_, 1813), che, nonostante alcune inesattezze storiche, rimane un classico della biografia inglese. È inoltre degna di nota la sua raccolta di prose e racconti intitolata _The Doctor_ (_Il dottore_, 1843-47), che testimonia un'interessante vena narrativa.
-#pagebreak()
-#set page(fill: accent.eng.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Wordsworth: William Wordsworth (1770-1850) nacque a Cockermouth, nel Cumberland. La sua infanzia trascorse immersa nella natura del Lake District, ambiente che influenzò profondamente la sua sensibilità poetica. Nel 1798, dalla collaborazione con Coleridge, nacquero le _Ballate liriche_, opera considerata il manifesto del romanticismo inglese. Dopo un soggiorno in Germania insieme a Coleridge, Wordsworth si stabilì definitivamente in Cumberland, dove visse fino alla morte nel 1850. \ Tra le sue opere principali si annoverano _Passeggiata serale_ (1793) e _Schizzi descrittivi_ (1793); la celebre raccolta _Ballate liriche_ (1798), composta con Coleridge; il lungo poema autobiografico in blank verse _Il preludio_ (composto tra il 1798 e il 1805); i due volumi di liriche intitolati _Poems_ (1807); i sonetti della raccolta _Il fiume Duddon_ (1820) e le poesie della serie _Ricordi di un viaggio sul continente_ (1821). \ L'attività poetica di Wordsworth si fondava sull'idea che la poesia fosse l'espressione diretta di uno stato d'animo: il fluire delle emozioni riflessive e introspettive trasformate attraverso il ricordo. Egli concepiva il poeta come un uomo ordinario ma dotato di una sensibilità straordinaria e di una profonda comprensione della natura umana. Un elemento centrale nella sua opera è la rappresentazione della natura nei suoi molteplici aspetti vitali e spirituali, quasi elevata a simbolo di una realtà divina. \ Il linguaggio poetico di Wordsworth è caratterizzato dalla semplicità e dalla quotidianità; la sua arte si discosta infatti dalla cosiddetta poetic diction neoclassica per adottare una lingua più vicina alla vita comune.
@@ -122,4 +121,4 @@ Ciò nonostante, egli è ancora oggi ricordato per la biografia _Life of Nelson_
 
 / Southey: Robert Southey (1774-1843), cognato di Coleridge e membro minore del circolo dei poeti del Lake District (Lake Poets), contribuì a poemi epici rapidamente dimenticati e a una pregevole biografia di Nelson.
 
-
+]
