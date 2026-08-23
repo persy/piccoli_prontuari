@@ -119,8 +119,7 @@ In seguito, Martini si dedicò a opere celebrative che rispecchiavano il gusto r
 
 Nei suoi ultimi anni, segnati da una profonda crisi personale e artistica, alcune delle sue creazioni sembrano animate da un impulso interiore che sfiora l'astrazione. Tra queste si annoverano opere come _Scomposizione di toro_, _Cavallo allo steccato_ e _La fanciulla che nuota sott'acqua_.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Futurismo: Nacque ufficialmente nel 1909 con la pubblicazione del _Manifesto del futurismo_ a cura di Filippo Tommaso Marinetti. Nel 1910 seguì il _Manifesto dei pittori futuristi_ e, poco dopo, il _Manifesto tecnico della pittura futurista_, firmato da artisti come Boccioni, Carrà, Balla, Severini e Russolo, parte del gruppo milanese. Essi proponevano un superamento della prospettiva tradizionale tramite la moltiplicazione dei punti di vista per rappresentare il dinamismo e l'interazione con lo spazio. \ Un secondo nucleo di artisti futuristi nacque a Roma attorno a Marinetti nel periodo successivo alla prima guerra mondiale. Tra gli architetti del movimento spiccò Antonio Sant'Elia (1888-1916), figura di grande rilievo.
@@ -153,3 +152,5 @@ Nei suoi ultimi anni, segnati da una profonda crisi personale e artistica, alcun
 
 
 
+
+]

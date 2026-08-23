@@ -137,8 +137,7 @@ Nell'Italia centrale emerse la figura di Gentile da Fabriano (1370 circa - 1428)
 
 Il dipinto è caratterizzato da una straordinaria attenzione ai dettagli tanto nelle figure quanto nei paesaggi, mostrando con minuzia perfetta anche i più piccoli particolari dei tessuti, un aspetto in linea con il mestiere del committente, mercante di stoffe.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Giotto: Pittore e architetto formatosi nella bottega di Cimabue, è considerato il padre dell'arte figurativa moderna e un precursore del Rinascimento. Partecipò a importanti cicli decorativi come gli affreschi della navata della Basilica Superiore di San Francesco ad Assisi e i mosaici del Battistero di Firenze. Tra le sue opere figurano il Crocifisso di Santa Maria Novella a Firenze e il ciclo di affreschi nella Cappella degli Scrovegni a Padova. Come architetto, progettò sia l'edificio della Cappella degli Scrovegni che il campanile di Santa Maria del Fiore a Firenze. Con gli affreschi dell'Arena di Padova inaugurò una svolta epocale nella pittura italiana. La sua bottega divenne una scuola di grande influenza e ricevette commissioni in città come Roma, Firenze, Napoli e Milano.
@@ -165,3 +164,5 @@ Il dipinto è caratterizzato da una straordinaria attenzione ai dettagli tanto n
 
 
 
+
+]

@@ -99,8 +99,7 @@ Gran parte degli artefatti in metallo nobile è andata perduta, ma ciò che rima
 
 Un esempio eccezionale dell'oreficeria carolingia è l'altare rivestito d'oro e argento opera di Vuolvinio (databile intorno all'835), custodito nella Basilica di Sant'Ambrogio a Milano. Qui si può ammirare il talento dell'artista, il quale suddivide le superfici dell'altare in eleganti quadrati nei quali, con uno stile dinamico e complesso, narra le vicende di Cristo, degli Evangelisti, degli Apostoli e del santo titolare.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Arte paleocristiana: Fino al II secolo d.C. non si sviluppa un'arte con una consolidata identità cristiana.
@@ -120,3 +119,5 @@ Un esempio eccezionale dell'oreficeria carolingia è l'altare rivestito d'oro e 
 
 
 
+
+]

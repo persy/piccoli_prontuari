@@ -241,8 +241,7 @@ Giuseppe Arcimboldi (Milano, 1527-1593) si formò a Milano, lavorando alla proge
 
 Nel corso della carriera divenne pittore presso le corti imperiali di Praga e Vienna sotto Massimiliano II e successivamente Rodolfo II. La sua fama è legata alle peculiari rappresentazioni allegoriche, realizzate con composizioni di fiori, frutti, animali e altri oggetti. Queste opere, caratterizzate da un forte intellettualismo, lo posizionano tra i protagonisti di un manierismo particolarmente fantasioso e dissacrante. Esempi notevoli del suo estro si trovano in _Estate_ e _Inverno_ (1563, Vienna, Kunsthistorisches Museum), nell'_Allegoria della primavera_ (Madrid, Accademia di San Fernando) e ne _L'Ortolano_ (Cremona, Pinacoteca).  
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Manierismo: Questo movimento stilistico diffuso in Italia e in Europa tra il 1520 circa e la fine del Cinquecento si distingue per un antinaturalismo che si discosta dall'equilibrio classico e dalla razionalità rinascimentale. \ La critica seicentesca attribuì al termine manierismo un'accezione negativa, collegandolo a concetti di artificiosità e virtuosismo tecnico privo di autentica ispirazione. \ Firenze e Roma furono i principali centri d'elaborazione di questo stile, che in Italia come in Europa si affermò soprattutto presso le corti. Si trattava di un'arte colta e aristocratica, giocata su preziose iconografie e allegorie complesse. L'ultima grande espressione manierista si trova nelle opere spagnole di El Greco.  
@@ -267,3 +266,5 @@ Nel corso della carriera divenne pittore presso le corti imperiali di Praga e Vi
 
 
 
+
+]

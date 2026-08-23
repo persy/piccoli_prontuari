@@ -249,8 +249,7 @@ Nel 1885 Munch fece il suo primo viaggio a Parigi, dove tornò nel 1889. Durante
 
 I temi ricorrenti della sua opera furono l'amore, la morte e successivamente la vita. Tra le sue creazioni più emblematiche figurano _Sera, via Karl Johan a Oslo_ (1892, Bergen, collezione Rasmus-Meyer), _L'urlo_ (1893, Oslo, Nasjonal Galleriet), _Madonna_, _Angoscia_ (Oslo, Museo Munch), il _Fregio della vita_ (1899-1900).
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Impressionismo: Si sviluppa in Francia nella seconda metà dell'Ottocento, grazie al programma antiaccademico di Édouard Manet, considerato il principale rappresentante delle nuove tendenze artistiche. Il termine "impressionismo" identifica un movimento che unisce artisti dalle personalità diverse, accomunati dal desiderio di rompere con l'accademismo. Questi pittori preferiscono lavorare all'aperto, utilizzando rapide pennellate di colore che eliminano il disegno rigoroso e il chiaroscuro tradizionale. \ Tra gli esponenti principali troviamo Manet, Monet e Renoir, insieme ad altri importanti impressionisti come Alfred Sisley (1839-1899), Camille Pissarro (1830-1903) e Edgar Degas (1834-1917).
@@ -280,3 +279,5 @@ I temi ricorrenti della sua opera furono l'amore, la morte e successivamente la 
 
 / Munch: Edvard Munch (1863-1944), pittore norvegese, interpreta il simbolismo con una drammaticità profonda, anticipando gli elementi tipici dell'espressionismo tedesco. I temi centrali delle sue opere sono amore, morte e vita. Il suo quadro più celebre è _L'urlo_. 
 
+
+]

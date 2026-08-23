@@ -173,8 +173,7 @@ La sua ricerca di una pittura "pura", fondata su movimento e luce, lo portò dal
 
 L'orfismo influenzò anche altri artisti legati alla ricerca astratta, tra cui i membri del Blaue Reiter, in particolare Paul Klee. Marcel Duchamp, superando il cubismo, approdò a composizioni in cui la dinamica del colore prevale sulla forma.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Espressionismo: Viene considerato il primo movimento d'avanguardia e si sviluppò principalmente in Francia, Germania e Austria nei primi decenni del Novecento. Questo movimento recuperò tendenze spiritualistiche e primitivistiche dell'Ottocento, contrapponendosi all'impressionismo, che si limitava a un'esperienza puramente visiva della realtà. \ L'espressionismo mirava a una dimensione spirituale che superasse le barriere razionali, semplificando le forme e puntando su un cromatismo esasperato come fulcro artistico.
@@ -210,3 +209,5 @@ Tra il 1913 e il 1914 sviluppa esperienze legate al cubismo sintetico (come _Fog
 
 / Delaunay: Robert Delaunay (1885-1941), mediante la frammentazione prismatica del colore e l'astrazione delle forme, approda a uno stile che egli stesso definisce "cubismo orfico". In opere come _Finestre simultanee_ (1911) o _Disco simultaneo_ (1913), i volumi si dissolvono in sequenze ritmiche cromatiche, generando un vortice geometrico e dinamico che si avvicina alla pittura pura.
 
+
+]

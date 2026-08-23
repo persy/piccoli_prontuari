@@ -111,8 +111,7 @@ Edoardo Persico, critico e architetto napoletano trasferitosi a Milano, fu una f
 
 Di diversa prospettiva fu l'opera di Marcello Piacentini, massimo rappresentante dell'architettura ufficiale durante il ventennio fascista. Tra le sue realizzazioni più significative si trovano il maestoso Palazzo di Giustizia di Milano (1933-40), la trasformazione urbana del centro di Brescia (1933), il Palazzo dell'EUR a Roma (1942) e gli interventi su piazza della Vittoria a Genova (1941-42).
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Bauhaus e razionalismo: Il movimento Bauhaus e il razionalismo, che si è sviluppato fino al 1933 per poi diffondersi a livello internazionale, si proponevano di unificare le arti visive attraverso l'architettura, eliminando la distinzione tra artista e artigiano. Trasferitosi a Dessau nel 1925, il Bauhaus passò sotto la direzione di Hannes Meyer nel 1928, mentre nel 1931 cessò la sua attività in Germania. Successivamente, nel contesto statunitense, venne creato un nuovo Bauhaus a Chicago, oggi noto come Institute of Design, grazie al contributo di personalità come Mies Van der Rohe, Walter Gropius, László Moholy-Nagy, Josef Albers e Lyonel Feininger.
@@ -141,3 +140,5 @@ Di diversa prospettiva fu l'opera di Marcello Piacentini, massimo rappresentante
 
 
 
+
+]

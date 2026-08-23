@@ -205,8 +205,7 @@ Su incarico della sua città natale, realizzò il dipinto _Il volto di Luigi XII
 
 Si distinse anche per straordinari ritratti, tra cui _Madame Gonse_ (1845-52, Montauban, Musée Ingres) e _La baronessa di Rothschild_ (collezione privata, Parigi). Realizzò inoltre composizioni storico-esotiche di grande pregio, come l'_Apoteosi di Napoleone I_ per la prefettura di Parigi, oltre a opere come _La sorgente_ e _Il bagno turco_ (1859-63), entrambe oggi conservate al Louvre.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Rococò: Nato in Francia intorno al 1730, si diffuse rapidamente in tutta Europa. Si configurava inizialmente come uno stile architettonico decorativo volto alla creazione di atmosfere "leggere". Era l'espressione artistica di un'aristocrazia cosmopolita che, nel suo declino, cercava di costruire un mondo ideale di serena e artificiosa eleganza. In Francia il movimento raggiunse il suo apice con lo stile rocaille, rappresentato da artisti di spicco come J.-A. Watteau, J.-H. Fragonard, F.-A. Vassé e G.-M. Opperndort. \ In questo periodo emerge anche la figura dell'artista itinerante. \ In Veneto, e a Venezia in particolare, lo sviluppo autonomo della pittura lasciò intravedere il gusto rococò nella selezione di temi come il capriccio, la veduta fantastica e le scene quotidiane. Tra i massimi esponenti dell'epoca figurano Sebastiano Ricci (1659-1734), Francesco Guardi (1712-93) e Pietro Longhi (1720-85).
@@ -239,3 +238,5 @@ Si distinse anche per straordinari ritratti, tra cui _Madame Gonse_ (1845-52, Mo
 
 
 
+
+]

@@ -131,8 +131,7 @@ Malgrado la ricchezza documentaria sulla vita dell'artista, solo due opere sono 
 
 Tra le opere attribuite all'artista figurano anche la _Madonna di Crevole_ (1283-84 circa), conservata presso il Museo dell'Opera del Duomo di Siena, e la minuscola _Madonna dei Francescani_ (circa 1300), custodita nella Pinacoteca Nazionale di Siena. Questi dipinti confermano l'importanza del linguaggio pittorico di Duccio nella definizione dello stile senese del Trecento.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Origini e sviluppo del gotico: Il gotico nasce nel XII secolo in Francia, dove l'architettura, principale espressione di questo stile, combina elementi romanici e orientali, generando un risultato originale. Il progresso nell'architettura riguarda edifici sacri, civili e l'intera organizzazione urbana. \ Le cattedrali gotiche, caratterizzate dall'uso dell'arco a tutto sesto e dell'arco rampante come contrafforte esterno, sono spesso a pianta basilicale con tre o cinque navate e zone absidali disposte in forma radiale. Parallelamente, la città chiusa dalle mura medievali evolve in centri urbani borghesi dominati da edifici civili come il palazzo municipale (il broletto), mentre la costruzione di castelli signorili diventa sempre più diffusa. \ La scultura decorativa assume un ruolo preminente soprattutto nelle cattedrali, affrontando non solo temi biblici dell'Antico e Nuovo Testamento, ma anche soggetti legati al lavoro umano e alle scienze. La pittura, invece, fino al XIII secolo rimane meno rilevante, con gli affreschi che cedono il posto alle vetrate colorate. Dal XIV secolo si assiste a un rinnovato interesse per l'affresco, complice anche una crescente diffusione della pittura profana. Altri ambiti artistici di spicco sono la miniatura, la lavorazione dei metalli, l'oreficeria e la produzione di avori e arazzi.
@@ -149,3 +148,5 @@ Tra le opere attribuite all'artista figurano anche la _Madonna di Crevole_ (1283
 
 
 
+
+]

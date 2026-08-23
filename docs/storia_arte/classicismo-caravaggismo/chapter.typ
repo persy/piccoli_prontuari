@@ -145,8 +145,7 @@ Arrivato a Roma nel 1625, Poussin entrò in contatto con il gusto barocco dell'e
 
 Tra il 1630 e il 1640, Poussin abbandonò definitivamente il barocco, approdando a uno stile contraddistinto da chiarezza razionale e precisione archeologica. I suoi paesaggi della fase matura rappresentano capolavori assoluti: _Paesaggio con Polifemo_ (San Pietroburgo, Ermitage), _Le Quattro Stagioni_ (1660-64) e _Paesaggio con Orfeo ed Euridice_ (Parigi, Louvre).
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / I Carracci: furono una celebre famiglia di pittori bolognesi, fondatori nel 1590 dell'Accademia degli Incamminati. Questa scuola intendeva riprendere la grande tradizione rinascimentale, enfatizzando l'importanza del disegno per superare il manierismo e inaugurare un nuovo classicismo. \ Ludovico (1555-1619) si contraddistinse come uno dei principali promotori della cultura controriformista, utilizzando la pittura per coinvolgere emotivamente lo spettatore nella scena sacra. \ Agostino (1557-1602) fu il teorico del gruppo, apportando un fondamentale contributo intellettuale alla loro impresa artistica. \ Annibale (1560-1609) fu il più importante pittore bolognese del tempo e con Agostino realizzò la decorazione della Galleria Farnese a Roma, con la particolare tecnica della quadratura e delle architetture dipinte per creare l'illusione di uno spazio tangibile. Annibale si interessò anche a soggetti quotidiani e alla definizione del "paesaggio ideale".
@@ -173,3 +172,5 @@ Tra il 1630 e il 1640, Poussin abbandonò definitivamente il barocco, approdando
 
 
 
+
+]

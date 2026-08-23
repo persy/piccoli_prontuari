@@ -87,8 +87,7 @@ La scultura del III secolo è particolarmente rappresentata dai ritratti, che ri
 
 Anche nella pittura si riscontrano occasionali elementi classicheggianti, persino nell'arte cristiana nascente. Tra le ultime imponenti opere architettoniche meritano attenzione le Terme di Caracalla (211-217), adornate da grandi mosaici raffiguranti gladiatori; le Terme di Diocleziano (284-305) a Roma; il palazzo imperiale di Spalato e i monumenti imperiali di Treviri. Questi esempi testimoniano una fase finale ma ancora vibrante della grandezza dell'arte e dell'architettura romana.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Estensione e apporti: L'arte romana abbraccia sia le manifestazioni artistiche della città di Roma sia quelle dei territori che con il tempo caddero sotto il dominio romano. Essa è il frutto di un continuo scambio di influenze artistiche tra il centro e la periferia, arricchito dagli apporti provenienti dall'Etruria, dalla Magna Grecia, dalla Grecia classica e dal mondo ellenistico. In epoca imperiale, vi si aggiungono le influenze delle varie popolazioni esterne, soprattutto orientali, con cui Roma entra progressivamente in contatto. La caratteristica distintiva dell'arte romana, in particolare durante l'età imperiale, è l'orientamento verso una visione razionale e pratica, strettamente funzionale alle esigenze politiche, militari ed economiche. È un'arte che mira soprattutto a celebrare e trasmettere l'idea di "romanità".
@@ -102,3 +101,5 @@ Anche nella pittura si riscontrano occasionali elementi classicheggianti, persin
 
 
 
+
+]

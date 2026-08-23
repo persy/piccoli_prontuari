@@ -89,8 +89,7 @@ Tra il 1900 e il 1903 Klimt dipinse per l'Università di Vienna il ciclo di alle
 
 Klimt definì una versione austriaca unica dell'Art Nouveau, con il progetto di "opera d'arte totale". Tra i suoi ritratti più celebri si ricorda quello di _Fritza Riedler_ del 1906 (Vienna, Österreichische Galerie). Nella cosiddetta fase "dell'oro", l'artista creò capolavori come _Le tre età_ (1908; Roma, Galleria Nazionale d'Arte Moderna), _Salomè_ (1909; Venezia, Museo d'Arte Moderna-Ca' Pesaro) e _La Vergine_ (1913; Praga, Narodni Galerie).
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 /Neogotico: Nel corso dell'Ottocento si assiste a una serie di revival che ripropongono elementi architettonici di origine greca e gotica. I momenti più significativi del neogotico si registrano intorno alla metà del secolo in Inghilterra, con Pugin e Barry, autori del Palazzo del Parlamento a Londra, e in Francia, grazie al lavoro dell'architetto, teorico e restauratore Eugène Viollet-le-Duc. In Germania, il neogotico viene spesso utilizzato per recuperare uno stile considerato nazionale, mentre in Italia, data la profonda presenza della tradizione classica e rinascimentale, la diffusione di questo stile è meno rilevante.
@@ -111,3 +110,5 @@ Klimt definì una versione austriaca unica dell'Art Nouveau, con il progetto di 
 
 
 
+
+]

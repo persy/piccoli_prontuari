@@ -131,8 +131,7 @@ La sua produzione scultorea ruotò attorno a temi ricorrenti quali maternità, f
 
 Durante la Seconda Guerra Mondiale, su incarico del War Artist Committee, realizzò una serie di disegni sulla devastazione provocata dai bombardamenti di Londra, poi raccolti nello _Shelter Sketchbook_. Nel dopoguerra Moore tornò a rappresentare la figura umana con una potente intensità espressiva: un esempio significativo è la coppia _Il re e la regina_ (1952-53), situata nel Middleheim Park di Anversa. Per quanto riguarda la sua attività grafica, merita menzione la raccolta di incisioni intitolata _Elephant Skull_.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Dadaismo: È stato movimento artistico-letterario nato in Svizzera e negli Stati Uniti attorno al 1916. Proponeva, attraverso uno stile dissacrante e ironico, la rottura dei tradizionali valori culturali, celebrando primitivismo, spontaneità creativa e non conformità dell'artista al mondo circostante. \ Zurigo, presso il Cabaret Voltaire, si riunirono filosofi, scrittori e artisti sotto il nome di dada, un termine scelto per evocare il non-senso. Il movimento rimase compatto fino al 1917 e annoverò esponenti di rilievo come Hans Arp, pittore e scultore francese noto per le "configurazioni", i _papiers déchirés_ e le "concrezioni", oltre che per le sue opere monumentali realizzate per l'università di Caracas e per l'UNESCO di Parigi.
@@ -153,3 +152,5 @@ Durante la Seconda Guerra Mondiale, su incarico del War Artist Committee, realiz
 
 / Magritte: Il belga René Magritte aderì al movimento surrealista nel 1925 a Bruxelles; tra i suoi capolavori figurano _Le faux miroir_ (1929), _La jeunesse illustrée_ (1937) e _Il regno delle luci_ (1953-54).
 
+
+]

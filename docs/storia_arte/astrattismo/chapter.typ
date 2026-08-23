@@ -107,8 +107,7 @@ Il sincronismo nacque a Parigi tra il 1913 e il 1914 grazie al pittore statunite
 
 Il vorticismo, invece, si sviluppò principalmente in Inghilterra grazie all'artista e scrittore Percy Wyndham Lewis (1884-1957) e al poeta Ezra Pound, quest'ultimo redattore del manifesto vorticista Blast nel 1914. Il movimento si fondava su un nuovo dinamismo pittorico ispirato alla poetica del vortice: un punto di massima energia espressiva concepito come un ritmo immobile. Tuttavia, l'esperienza vorticista giunse al termine subito dopo la fine della Prima Guerra Mondiale.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Astrattismo: Rappresenta un movimento artistico che propone l'esclusione totale di ogni rappresentazione riconoscibile del mondo oggettivo, puntando su un'arte non figurativa. Questo approccio nasce nei primi anni del Novecento.
@@ -141,3 +140,5 @@ Il vorticismo, invece, si sviluppò principalmente in Inghilterra grazie all'art
 
 
 
+
+]

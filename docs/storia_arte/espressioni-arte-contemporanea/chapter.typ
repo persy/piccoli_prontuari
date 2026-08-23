@@ -169,8 +169,7 @@ Richiamandosi all'eclettismo storico del XIX secolo, periodo in cui il revival d
 
 Tra le opere architettoniche più significative del postmoderno si ricordano: l'edificio per uffici pubblici a Portland (1978-1982) progettato da Michael Graves; il complesso residenziale di Marne-la-Vallée (1979-1982) disegnato da Ricardo Bofill; la Piazza d'Italia a New Orleans (1975-1978) realizzata da Charles Moore; e il grattacielo AT&T a New York (1980-1984), opera di Philip Cortelyou Johnson (1906-2005).
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Arte informale: Rappresenta un orientamento generale di una parte significativa dell'arte contemporanea, caratterizzato dalla convergenza di diverse correnti, movimenti e personalità, accomunate esclusivamente dall'abbandono di schemi strutturali dotati di significato prestabilito. \ Si sviluppa in Europa e negli Stati Uniti a partire dagli anni Sessanta, realizzando un'identificazione profonda tra l'artista e l'opera attraverso il gesto stesso del dipingere. Gli elementi centrali di questa corrente sono la materia, il segno e il gesto. In Francia, tale movimento assume una declinazione materica (ad esempio con Jean Fautrier e Jean Dubuffet) e segnica (Georges Mathieu), mentre negli Stati Uniti si articola in una versione gestuale di matrice espressionistica e surreale, rappresentata da artisti come Jackson Pollock, Mark Tobey, Willem de Kooning, e altri quali Mark Rothko, Adolph Gottlieb e Clyfford Still.
@@ -191,3 +190,5 @@ Tra le opere architettoniche più significative del postmoderno si ricordano: l'
 
 / Postmoderno in architettura: In architettura il postmoderno emerge come reazione al funzionalismo e al razionalismo, promuovendo un nuovo interesse per la dimensione estetica anche attraverso una contaminazione stilistica tra epoche diverse.
 
+
+]

@@ -407,8 +407,7 @@ Di particolare rilievo è l'opera visionaria ed eterodossa di Hieronymus Bosch (
 
 Nel XV secolo l'influenza della pittura fiamminga si diffuse in tutta Europa, toccando la Francia meridionale, la Spagna e il Portogallo — dove Van Eyck compì un viaggio nel 1428 — oltre ai paesi tedeschi e all'Italia. Ricordiamo i viaggi di Roger van der Weyden a Ferrara nel 1450 e di Giusto di Gand a Urbino tra il 1473 e il 1475. In Italia l'arte fiamminga ebbe un significativo impatto anche attraverso l'importazione di capolavori come il celebre _Trittico Portinari_ (ca 1476) di Hugo van der Goes (1435-1482), che lasciò il segno nella città di Firenze e oltre.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Rivoluzione fiorentina: Fenomeno di portata europea ma con profonde radici fiorentine, il Rinascimento si distingue per la ripresa ideale delle forme dell'arte classica e per la trasformazione del concetto stesso di attività artistica. Quest'ultima non si limita più a un semplice aspetto pratico, ma diventa uno strumento di conoscenza e di analisi della realtà. Tra i principali protagonisti di questa nuova visione figurano Brunelleschi, Donatello e Masaccio.  
@@ -431,3 +430,5 @@ Nel XV secolo l'influenza della pittura fiamminga si diffuse in tutta Europa, to
 
 / Sandro Botticelli: Sandro Botticelli (1445 - 1510), inizialmente interprete della raffinata cultura umanistica medicea, ricerca una perfezione formale unita all'armonia compositiva che, insieme alla trasparenza del colore, dona alle sue opere una qualità trasfigurante. In una fase successiva della sua carriera, approda a una pittura profondamente mistica e intensamente drammatica.
 
+
+]

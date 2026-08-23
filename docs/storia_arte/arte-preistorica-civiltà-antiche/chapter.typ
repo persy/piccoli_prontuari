@@ -169,8 +169,7 @@ Alcuni tentativi di fusione artistica tra queste due tradizioni sono evidenti ne
 
 A questo periodo risalgono gli eccezionali templi di Edfu e Dendera, testimonianze di una sintesi sorprendente fra diverse tradizioni artistiche e culturali.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Arte preistorica: L'arte preistorica riflette la quotidianità ed è strettamente legata all'esperienza pratica. Nel periodo paleolitico assume una funzione magico-religiosa, mentre nel neolitico e nell'età del bronzo si evolve verso una rappresentazione simbolica del mondo reale.
@@ -179,3 +178,5 @@ A questo periodo risalgono gli eccezionali templi di Edfu e Dendera, testimonian
 
 / Arte egizia: Si sviluppa per circa tre millenni, raggiunge l'apice nel periodo dell'Antico Regno (tra il III e il II millennio a.C.). La piramide rappresenta il simbolo più emblematico di questa fase, concepita come tomba monumentale per i faraoni. Durante il Nuovo Regno, con la XVIII dinastia, emergono opere maestose come i templi di Karnak, Luxor e Abu Simbel, le necropoli nella Valle dei Re e delle Regine e le imponenti sculture celebrative.
 
+
+]

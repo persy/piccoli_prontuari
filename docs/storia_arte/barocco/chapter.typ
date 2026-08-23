@@ -315,8 +315,7 @@ Di grande introspezione emotiva sono poi i numerosi autoritratti, un corpus unic
 
 Rembrandt eccelse nell'uso della pittura a olio, dell'incisione e del disegno, segnando un punto di svolta fondamentale nella loro evoluzione. La sua ricerca artistica orientata alla verità umana essenziale lo portò a discostarsi rapidamente dalle convenzioni ufficiali dell'arte del suo tempo. Questa scelta gli procurò isolamento e difficoltà economiche. Tuttavia, la sua opera venne pienamente valorizzata e apprezzata solo a partire dall'età romantica.
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Barocco: Il Barocco nasce all'inizio del Seicento nella Roma papale e si diffonde rapidamente in Europa e in America Latina. Questo stile artistico, strettamente legato all'epoca dell'assolutismo della Chiesa della Controriforma, aveva come scopo principale quello di persuadere, emozionare e meravigliare il fedele, in linea con il programma celebrativo della Chiesa cattolica. \ L'architettura barocca si distingue per l'uso scenografico della prospettiva che crea un dialogo continuo con lo spazio urbano o il paesaggio. Scultura e pittura si fondono per integrare arte, spazio e spettatore. La luce gioca un ruolo centrale e irrompe nelle strutture delle chiese per metterne in risalto le forme. \ Roma diventa il centro propulsore dello stile Barocco, definendo un nuovo piano urbanistico con assi prospettici che conducono ai monumenti principali.
@@ -343,3 +342,5 @@ Rembrandt eccelse nell'uso della pittura a olio, dell'incisione e del disegno, s
 
 
 
+
+]

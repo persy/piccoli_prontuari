@@ -69,8 +69,7 @@ Dal 1874 visse a Parigi, dove si avvicinò al movimento impressionista, stringen
 
 Nella sua produzione non mancarono tentativi di avvicinarsi alla pittura divisionista, come nell'opera _Signora al balcone_ (circa 1880; Milano, collezione privata).
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Divisionismo: Il divisionismo, conosciuto in Francia come pointillisme (puntinismo), si diffonde anche in Italia grazie a diversi artisti che lo utilizzano come tecnica espressiva. Viene impiegato per affrontare tematiche che spaziano dal simbolismo all'allegorico-storico, fino a questioni politico-sociali.
@@ -89,3 +88,5 @@ Nella sua produzione non mancarono tentativi di avvicinarsi alla pittura divisio
 
 / Zandomeneghi: Federico Zandomeneghi (1841-1917), veneziano, inizialmente segue l'approccio macchiaiolo, ma giunto a Parigi abbraccia lo stile impressionista con influenze divisioniste. Le sue opere si concentrano su scene ispirate alla vita quotidiana parigina.
 
+
+]

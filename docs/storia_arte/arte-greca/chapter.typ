@@ -167,8 +167,7 @@ A partire dalla metà del II secolo a.C. si osserva una tendenza artistica che r
 
 Tra i principali rappresentanti del movimento neoatticista si annoverano l'artista Pasitele, attivo nella prima metà del I secolo a.C., e Stéfano, operativo nella seconda metà dello stesso secolo.  
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Arte cretese-micenea: Il periodo d'oro della civiltà cretese si colloca nell'età dei Secondi Palazzi, come il Palazzo di Cnosso. Successivamente al 1400 a.C., il centro del potere si sposta nella Grecia continentale, dove fioriscono i centri micenei. Tra i monumenti maggiormente significativi troviamo i palazzi, ma soprattutto le imponenti tombe reali a thólos.  
@@ -182,3 +181,5 @@ Tra i principali rappresentanti del movimento neoatticista si annoverano l'artis
 
 
 
+
+]

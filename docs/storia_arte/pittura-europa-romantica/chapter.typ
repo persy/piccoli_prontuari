@@ -189,8 +189,7 @@ Parallelamente, Daniele Ranzoni (Intra, 1843 – 1889) si distinse per una pittu
 
 Nella scultura spicca il lavoro di Medardo Rosso (Torino 1858 - Milano 1938), che fonde l'influenza della pittura impressionista con temi di ispirazione naturalista, come testimoniano opere emblematiche quali _La portinaia_ (1883) e _Il bookmaker_ (1894).
 
-#pagebreak()
-#set page(fill: accent.art.lighten(90%))
+#lastpage[
 == In sintesi <senza_numero>
 
 / Romanticismo: Il periodo romantico si colloca fra il primo decennio dell'Ottocento e l'ascesa del realismo nella metà del secolo. Gli artisti del romanticismo rifiutavano i rigidi canoni del neoclassicismo per abbracciare un'arte più libera e personale, incentrata sull'espressione individuale e sull'emotività. Vi era anche un'apertura verso elementi fantastici e onirici. \ La politica e il senso civico rivestivano inoltre un ruolo centrale nell'immaginario romantico, rendendo l'arte un potente strumento per narrare la contemporaneità.
@@ -218,3 +217,5 @@ Nella scultura spicca il lavoro di Medardo Rosso (Torino 1858 - Milano 1938), ch
 
 
 
+
+]
