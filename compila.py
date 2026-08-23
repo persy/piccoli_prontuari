@@ -5,17 +5,19 @@ Script interattivo per compilare i manuali Typst.
 Uso: python3 compila.py
 
 Cerca le "materie" (una sotto-cartella per materia dentro template/,
-contenente un main.typ), fa scegliere la materia, elenca i capitoli
-letti dalla chapterlist del suo main.typ e fa scegliere se compilare
-tutto il manuale, un solo capitolo o una lista di capitoli (anche non
-consecutivi, es. "2,3,5,9,10"). Copertina e retro vengono sempre
-inclusi, perché main.typ li include a prescindere dal filtro sui
-capitoli.
+contenente un main.typ), fa scegliere la materia con un menu a frecce,
+elenca i capitoli letti dalla chapterlist del suo main.typ e fa scegliere
+quali includere con un menu a checkbox (tutti preselezionati: basta
+togliere quelli che non servono), infine fa scegliere il tema colore.
+Copertina e retro vengono sempre inclusi, perché main.typ li include a
+prescindere dal filtro sui capitoli.
 
 Per compilare serve il motore Typst, in uno di questi due modi:
   - il pacchetto Python "typst" (pip install typst), oppure
   - l'eseguibile "typst" nel PATH (https://typst.app)
 Lo script usa il primo che trova, nell'ordine sopra.
+
+Per i menu interattivi serve anche "InquirerPy" (pip install InquirerPy).
 """
 
 import re
@@ -28,6 +30,15 @@ try:
     import typst as typst_py
 except ImportError:
     typst_py = None
+
+try:
+    from InquirerPy import inquirer
+    from InquirerPy.base.control import Choice
+except ImportError:
+    sys.exit(
+        "Manca 'InquirerPy', usato per i menu interattivi.\n"
+        "Installalo con: pip install InquirerPy"
+    )
 
 ROOT = Path(__file__).resolve().parent
 MATERIE_DIR = ROOT / "template"
@@ -49,6 +60,9 @@ CHAPTERLIST_RE = re.compile(
     r"#let\s+chapterlist\s*=\s*\((.*?)\)", re.S
 )
 PATH_RE = re.compile(r'"([^"]+\.typ)"')
+
+# Deve restare sincronizzata con le chiavi di "themes" in template/_global/config.typ
+TEMI = ["storico", "gruvbox", "nord", "catppuccin-latte"]
 
 
 def trova_materie():
@@ -80,55 +94,36 @@ def nome_leggibile(path_capitolo: str) -> str:
     return cartella.replace("-", " ").replace("_", " ").title()
 
 
-def chiedi(prompt: str) -> str:
-    try:
-        return input(prompt).strip()
-    except EOFError:
-        sys.exit("\nInterrotto.")
-
-
 def scegli_materia(materie):
-    print("\nMaterie disponibili:")
-    for i, m in enumerate(materie, 1):
-        print(f"  {i}. {m.name}")
-    while True:
-        scelta = chiedi("Scegli una materia (numero): ")
-        if scelta.isdigit() and 1 <= int(scelta) <= len(materie):
-            return materie[int(scelta) - 1]
-        print("Scelta non valida, riprova.")
+    scelta = inquirer.select(
+        message="Scegli una materia:",
+        choices=[Choice(m, name=m.name) for m in materie],
+    ).execute()
+    return scelta
 
 
 def scegli_capitoli(capitoli):
-    print("\nCapitoli disponibili:")
-    for i, c in enumerate(capitoli, 1):
-        print(f"  {i:2d}. {nome_leggibile(c)}")
+    scelte = inquirer.checkbox(
+        message="Capitoli da includere (spazio per selezionare/deselezionare, invio per confermare):",
+        choices=[
+            Choice(c, name=nome_leggibile(c), enabled=True)  # tutti preselezionati
+            for c in capitoli
+        ],
+        validate=lambda risultato: len(risultato) > 0,
+        invalid_message="Seleziona almeno un capitolo.",
+    ).execute()
+    # Manteniamo l'ordine originale del manuale, anche se l'utente ha
+    # selezionato le voci saltando in giro nel menu.
+    scelte_set = set(scelte)
+    return [c for c in capitoli if c in scelte_set]
 
-    print(
-        "\nCosa vuoi compilare?\n"
-        "  - invio vuoto, oppure 'tutto'  -> manuale completo\n"
-        "  - un numero, es. 7             -> un solo capitolo\n"
-        "  - una lista, es. 2,3,5,9,10     -> solo quei capitoli (anche non in ordine)\n"
-    )
-    while True:
-        scelta = chiedi("Scelta: ").lower()
-        if scelta in ("", "tutto", "all"):
-            return list(capitoli)
 
-        indici = []
-        ok = True
-        for pezzo in scelta.split(","):
-            pezzo = pezzo.strip()
-            if not pezzo.isdigit() or not (1 <= int(pezzo) <= len(capitoli)):
-                ok = False
-                break
-            indici.append(int(pezzo))
-        if ok and indici:
-            # Manteniamo l'ordine originale del manuale, anche se l'utente
-            # li ha scritti in un ordine diverso, e togliamo i duplicati.
-            selezionati = sorted(set(indici))
-            return [capitoli[i - 1] for i in selezionati]
-
-        print("Scelta non valida, riprova.")
+def scegli_tema():
+    return inquirer.select(
+        message="Tema colore:",
+        choices=TEMI,
+        default="storico",
+    ).execute()
 
 
 def genera_main_temporaneo(main_typ: Path, testo: str, match, capitoli_scelti):
@@ -147,15 +142,19 @@ def genera_main_temporaneo(main_typ: Path, testo: str, match, capitoli_scelti):
     return temp_path
 
 
-def compila(temp_main: Path, output_pdf: Path):
+def compila(temp_main: Path, output_pdf: Path, tema: str):
     output_pdf.parent.mkdir(parents=True, exist_ok=True)
 
     if typst_py is not None:
         # Pacchetto Python (pip install typst): non serve il binario nel PATH.
-        kwargs = {"output": str(output_pdf), "root": str(PROJECT_ROOT)}
+        kwargs = {
+            "output": str(output_pdf),
+            "root": str(PROJECT_ROOT),
+            "sys_inputs": {"theme": tema},
+        }
         if FONTS_DIR.is_dir():
             kwargs["font_paths"] = [str(FONTS_DIR)]
-        print(f"\nCompilazione (pacchetto Python 'typst') -> {output_pdf}")
+        print(f"\nCompilazione (pacchetto Python 'typst', tema={tema}) -> {output_pdf}")
         typst_py.compile(str(temp_main), **kwargs)
         print(f"Fatto: {output_pdf}")
         return
@@ -168,9 +167,9 @@ def compila(temp_main: Path, output_pdf: Path):
             "(vedi il README)."
         )
 
-    cmd = ["typst", "compile", "--root", str(PROJECT_ROOT)]
+    cmd = ["typst", "compile", "--root", str(PROJECT_ROOT), "--input", f"theme={tema}"]
     if FONTS_DIR.is_dir():
-        cmd += ["--font-paths", str(FONTS_DIR)]
+        cmd += ["--font-path", str(FONTS_DIR)]
     cmd += [str(temp_main), str(output_pdf)]
 
     print("\nCompilazione in corso:", " ".join(cmd))
@@ -195,6 +194,7 @@ def main():
     capitoli, testo, match = leggi_capitoli(main_typ)
 
     capitoli_scelti = scegli_capitoli(capitoli)
+    tema = scegli_tema()
 
     temp_main = genera_main_temporaneo(main_typ, testo, match, capitoli_scelti)
     try:
@@ -205,7 +205,7 @@ def main():
         else:
             nome_output = f"{materia.name}_selezione.pdf"
 
-        compila(temp_main, OUTPUT_DIR / nome_output)
+        compila(temp_main, OUTPUT_DIR / nome_output, tema)
     finally:
         temp_main.unlink(missing_ok=True)
 
