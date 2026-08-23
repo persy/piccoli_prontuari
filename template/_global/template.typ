@@ -122,6 +122,7 @@
   set page(
     paper: "iso-b5",
     margin: 18mm,
+    fill: page-bg,
     header: context { headerblock(title, authors, date, header-content) },
     footer: context { footerblock(footer-content) },
     footer-descent: 55%,
@@ -204,7 +205,7 @@
       it
     }
   }
-  show ref: set text(accent, font: sans-fonts, size: 11pt)
+  show ref: set text(accent, font: sans-fonts, size: 10pt)
   show link: set text(accent)
 
   show footnote: set text(fill: accent)
@@ -223,7 +224,12 @@
   show math.equation: set text(size: 12pt, font: math-fonts)
 
   set math.equation(
-    numbering: (..nums) => text(size: 11pt, font: sans-fonts)[#numbering("1", ..nums)],
+    numbering: (..nums) => text(
+      size: 10pt,
+      font: sans-fonts,
+      fill: accent.lighten(25%),
+      numbering("(1)", ..nums)
+    ),
     supplement: none,
     number-align: end
   )

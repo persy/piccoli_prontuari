@@ -7,6 +7,6 @@
   show link: set text(accent.darken(50%))
   set page(fill: gradient)
   
-  v(5em); body; v(1em); align(center)[🐺]
+  v(5em); body; v(1em); align(center)[ 🐺]
   
 }

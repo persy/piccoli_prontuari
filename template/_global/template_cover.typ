@@ -39,7 +39,7 @@
     #block[
       #set text(size: 2em, weight: "bold", font: cover-fonts, variations: (wdth: 150, wght: 500))
       #place(center + horizon, dx: 1.5pt, dy: 1.5pt)[#text(fill: black.transparentize(65%))[Piccolo Prontuario]]
-      #text(fill: accent.negate(space: rgb))[Piccolo Prontuario]
+      #text(fill: white.darken(10%))[Piccolo Prontuario]
     ]
 /*     // RIGA 2: Prontuario
     #block[
@@ -59,7 +59,7 @@
     #if presubject != none {block[
       #set text(size: 1.5em, tracking: 0.2em, font: cover-fonts, variations: (wdth: 150, wght: 500))
       #place(center + horizon, dx: 1.5pt, dy: 1.5pt)[#text(fill: black.transparentize(65%))[#presubject]]
-      #text(fill: gradient, stroke: 0.5pt + white.darken(50%))[#presubject]
+      #text(fill: gradient, stroke: 0.25pt + white.darken(50%))[#presubject]
     ]} 
 
     // RIGA 4: #subject
@@ -67,7 +67,7 @@
       #set text(size: 175pt, font: cover-fonts, variations: (wdth: 50, wght: 900))
       #set par(leading: 0.2em)
       #place(center + horizon, dx: 1.5pt, dy: 1.5pt)[#text(fill: black.transparentize(65%))[#subject]]
-      #text(fill: gradient, stroke: 0.5pt + white.darken(50%))[#subject]
+      #text(fill: gradient, stroke: 0.25pt + white.darken(50%))[#subject]
     ] 
     
     // RIGA 5: #arguments 
