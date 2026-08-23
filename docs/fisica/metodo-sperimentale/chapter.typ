@@ -208,7 +208,7 @@ La cifra più a destra si considera significativa e deve avere necessariamente u
 In particolare, nelle operazioni di somma o sottrazione, il risultato deve essere riportato in modo che l'ultima cifra significativa si ottenga sommando o sottraendo solo cifre significanti. Per le operazioni di moltiplicazione o divisione, invece, il totale avrà un numero di cifre significative pari al minimo tra quelle contenute nei valori iniziali.
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* Gli altri sistemi di misura <senza_numero>
+== 🐺 Gli altri sistemi di misura <senza_numero>
 
 La metrologia è la disciplina che si occupa della definizione delle unità di misura, della scelta di quelle fondamentali e della creazione, diffusione e conservazione dei relativi campioni. Questa disciplina è nata dall'esigenza di adottare unità universali condivise.
 
@@ -223,8 +223,7 @@ Il sistema MKS (Metro Chilogrammo Secondo), introdotto nel 1938, utilizzava le m
 Entrambi questi sistemi seguivano lo schema metrico decimale, adottato in tutti i paesi dell'Europa continentale. Tuttavia, nel Regno Unito e negli Stati Uniti persiste ancora oggi un sistema di unità non decimale, utilizzato in ambito non scientifico, sebbene la comunità scientifica internazionale faccia riferimento al Sistema Internazionale.
 
 Ad esempio, in questo sistema l'unità di lunghezza è la yarda (pari a 91,94 cm), con i suoi sottomultipli: il piede (1/3 di yarda) e il pollice (1/36 di yarda). Per la massa, invece, l'unità principale è la libbra (pari a 453,59 g), con il sottomultiplo più comune rappresentato dall'oncia (1/16 di libbra).
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Errore accidentale: Errore nelle misurazioni derivante da cause non identificabili e poco definite, che può influire sui risultati in modo casuale, talvolta per difetto, talvolta per eccesso.  
@@ -245,3 +244,4 @@ Ad esempio, in questo sistema l'unità di lunghezza è la yarda (pari a 91,94 cm
 
 / Unità di misura: Riferimento standard utilizzato per quantificare una grandezza omogenea, a cui è assegnato valore unitario.
 
+]

@@ -73,7 +73,7 @@ Se avviciniamo tra loro i poli nord (o sud) di due calamite, questi tenderanno a
 
 Se proviamo a tagliare un magnete al centro, sperando di dividere tra loro i due poli, otterremo soltanto un magnete più piccolo, ma alle due estremità vi saranno sempre un polo nord e un polo sud. Anche riducendo il magnete a dimensioni microscopiche si ottengono sempre due poli, o dipolo: è impossibile ottenere un polo magnetico isolato, o un monopolo.
 
-#boxfl(bottom)[== *🧩* La bussola magnetica <senza_numero>
+#boxfl(bottom)[== 🐺 La bussola magnetica <senza_numero>
 
 La bussola magnetica è uno strumento che sfrutta il magnetismo terrestre ed è costituita da un ago magnetico, una sottile sbarretta di materiale magnetico montata su un perno in modo che sia libera di ruotare nel piano orizzontale senza attrito: lontano da altri magneti che potrebbero influenzarne il comportamento, l'ago magnetico si orienta spontaneamente in direzione Nord-Sud, lungo i meridiani terrestri.
 
@@ -217,7 +217,7 @@ $
 
 La forza esercitata da un campo magnetico su un filo percorso da corrente è sfruttata nei motori elettrici per trasformare energia elettrica in energia meccanica.
 
-#boxfl(bottom)[== *🧩* Il motore elettrico <senza_numero>
+#boxfl(bottom)[== 🐺 Il motore elettrico <senza_numero>
 
 In un motore elettrico l'energia elettrica fornita a una spira percorsa da corrente viene trasformata in energia meccanica. L'energia meccanica così prodotta può poi venire utilizzata per muovere per esempio le pale di un ventilatore o il cestello di una lavatrice.Un motore elettrico è costituito generalmente da una parte fissa (statore) e da una mobile (rotore).
 
@@ -299,8 +299,7 @@ Questo effetto è sfruttato negli acceleratori di particelle ad anello, che, att
 
 Conoscendo l'intensità dei campi magnetici applicati, e misurando la velocità e il raggio della traiettoria della particella, la formula data sopra può essere utilizzata per determinare la massa di particelle cariche sconosciute.
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Campo magnetico: Campo di forza prodotto da magneti o da cariche elettriche in movimento.
@@ -314,3 +313,4 @@ Conoscendo l'intensità dei campi magnetici applicati, e misurando la velocità 
 / Magnetismo: Ramo della fisica che analizza i fenomeni di attrazione caratteristici di determinate sostanze, chiamate magneti, e le caratteristiche della materia legate a questi fenomeni. I magneti, quando liberi di muoversi, si orientano in modo specifico rispetto a un campo magnetico esterno. Un esempio è la bussola, dove l’ago magnetico si dispone lungo un meridiano terrestre.
 
 / Polo magnetico: Ogni estremità di un magnete naturale, nelle quali si concentrano le sue proprietà magnetiche. Ogni magnete possiede sempre due poli: il polo sud e il polo nord.
+]

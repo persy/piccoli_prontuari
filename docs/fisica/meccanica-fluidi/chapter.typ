@@ -61,7 +61,7 @@ Questo fenomeno indica che la pressione esercitata sul fluido tramite lo stantuf
 
 Sulla base di questa osservazione, la legge di Pascal afferma che la pressione applicata a una qualsiasi superficie di un fluido si trasmette con identica intensità a tutta la massa del fluido.
 
-#boxfl(bottom)[== *🧩* Le unità di misura della pressione atmosferica <senza_numero>
+#boxfl(bottom)[== 🐺 Le unità di misura della pressione atmosferica <senza_numero>
 
 Poiché il valore della pressione atmosferica espresso in pascal risulta numericamente molto elevato, sono state introdotte unità di misura più pratiche.
 
@@ -293,8 +293,7 @@ Oltre al pascal, sono comunemente utilizzate altre unità di misura per la press
 
 L'analisi della distribuzione orizzontale della pressione atmosferica rappresenta il fulcro della meteorologia. Per studiarla, vengono utilizzate carte geografiche sulla cui superficie si tracciano linee che collegano punti con uguale pressione atmosferica (le isobare). La distribuzione della pressione consente di prevedere il movimento delle masse d'aria.
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Comprimibilità: La capacità di un corpo di ridurre il proprio volume quando è sottoposto a compressioni esterne.
@@ -319,3 +318,4 @@ L'analisi della distribuzione orizzontale della pressione atmosferica rappresent
 
 / Viscosità: La proprietà fisica che descrive la resistenza interna di un fluido alle deformazioni causate dal movimento relativo delle sue particelle.
 
+]

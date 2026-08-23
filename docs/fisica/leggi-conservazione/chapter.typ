@@ -276,8 +276,8 @@ Considerando che la massa del fucile è significativamente maggiore rispetto a q
 I motori a propulsione funzionano sulla base dello stesso principio. Nel motore di un razzo avviene la combustione del carburante, che viene espulso ad alta velocità da un'estremità. Questo processo spinge il razzo nella direzione opposta rispetto all'uscita dei gas combusti.
 
 Se il razzo è fissato su un mezzo mobile dotato di ruote, continuerà a muoversi finché la combustione del carburante rimane attiva.
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+
+#lastpage[
 == Glossario <senza_numero>
 
 / Forze dissipative: Le forze dissipative sono caratterizzate dal fatto che il lavoro da esse svolto dipende dal percorso effettuato, a differenza delle forze conservative, per le quali il lavoro dipende esclusivamente dai punti iniziale e finale del percorso, indipendentemente dalla traiettoria percorsa.  
@@ -293,3 +293,4 @@ Se il razzo è fissato su un mezzo mobile dotato di ruote, continuerà a muovers
 / Quantità di moto: Grandezza vettoriale definita come il prodotto tra la massa di un corpo e la sua velocità. Per un sistema composto da più corpi, la quantità di moto totale è ottenuta sommando le quantità di moto di ciascun elemento del sistema.  
 
 / Urto: Interazione tra due corpi in movimento relativo che avviene in tempi estremamente brevi, determinando variazioni nella velocità e nella direzione dei corpi coinvolti.  
+]

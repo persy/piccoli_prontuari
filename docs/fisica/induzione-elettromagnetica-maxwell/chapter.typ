@@ -90,7 +90,7 @@ Grazie all'utilizzo di tensione e corrente efficaci è possibile calcolare la po
 
 Il dispositivo che permette di convertire una corrente alternata con una determinata tensione efficace in un'altra con una tensione efficace differente si chiama trasformatore. Questo strumento garantisce tale conversione con perdite energetiche contenute.
 
-#boxfl(bottom)[== *🧩* Il trasformatore <senza_numero>
+#boxfl(bottom)[== 🐺 Il trasformatore <senza_numero>
 
 Il trasformatore è uno strumento elettromeccanico destinato al trasferimento di energia elettrica tra due circuiti distinti, definiti rispettivamente come primario e secondario. Tale trasferimento avviene attraverso una variazione dei parametri di tensione e corrente, garantendo l'adattamento dell'energia alle specifiche esigenze del circuito ricevente.
 
@@ -135,7 +135,7 @@ Aumentando progressivamente l'intensità della corrente, si determina un increme
 In sintesi, nel momento in cui il flusso del campo magnetico concatenato con un circuito varia a causa di una modifica nell'intensità della corrente che attraversa il circuito stesso, la forza elettromotrice risultante viene denominata forza elettromotrice di autoinduzione. La figura 19.3 fornisce una rappresentazione schematica dei principali fenomeni legati al magnetismo.
 
 == Il campo elettromagnetico e le equazioni di Maxwell
-#boxfl(bottom)[== *🧩* Le equazioni di Maxwell in forma differenziale (o locale) <senza_numero>
+#boxfl(bottom)[== 🐺 Le equazioni di Maxwell in forma differenziale (o locale) <senza_numero>
 
 Riguardo alla trattazione teorico-matematica delle equazioni di Maxwell in forma differenziale, essa richiede una solida conoscenza dei principi dell'analisi matematica. Concetti fondamentali includono le derivate parziali (_∂_), la divergenza (_div_) e il rotore (_rot_) di un campo vettoriale. In tale contesto, i campi elettrico e magnetico sono descritti mediante i vettori *E* (campo elettrico) e *B* (campo magnetico). La quarta equazione introduce le grandezze _J_, corrispondente alla densità di corrente, e _ρ_, relativa alla densità di carica elettrica; _c_ rappresenta invece la velocità della luce nel vuoto. 
 
@@ -161,8 +161,7 @@ Le equazioni di Maxwell stabiliscono una correlazione fondamentale tra campi ele
 
 Le equazioni di Maxwell per lo studio dei fenomeni elettrici e magnetici possono essere considerate paragonabili alle leggi di Newton per la meccanica. Esse infatti consentono, almeno in linea teorica, di determinare lo stato evolutivo del sistema in un momento futuro o passato, purché siano note con precisione le condizioni iniziali del sistema stesso.
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Autoinduzione: È il fenomeno in cui il flusso magnetico collegato a un circuito varia a causa della variazione dell'intensità della corrente che scorre nello stesso circuito.
@@ -177,7 +176,7 @@ Le equazioni di Maxwell per lo studio dei fenomeni elettrici e magnetici possono
 
 / Induzione elettromagnetica: Fenomeno attraverso il quale, in un circuito elettrico legato a un flusso magnetico variabile, si genera una forza elettromotrice (f.e.m.), detta f.e.m. indotta, proporzionale alla variazione del flusso nel tempo. Nel circuito si genera una corrente elettrica, chiamata corrente indotta, che ha una direzione tale da opporsi alla causa che l'ha originata.
 
-
+]
 
 
 

@@ -155,8 +155,8 @@ $
 dove _ε_ rappresenta la costante dielettrica del materiale isolante tra le armature, S indica la superficie delle armature e d la distanza fra loro. Pertanto, la capacità dei condensatori piani è influenzata esclusivamente dalle dimensioni delle armature, dalla distanza e dal tipo di materiale isolante utilizzato. Riducendo la distanza tra le armature o aumentando la loro superficie si ottiene una capacità maggiore, migliorando così l'efficienza nell'accumulo di cariche elettriche.
 
 Un condensatore ampiamente utilizzato nei circuiti elettrici è quello cilindrico. Questo modello consiste in due sottili strisce di materiale conduttore (ad esempio stagno o alluminio) intervallate da uno strato di materiale isolante come carta paraffinata o plastica. Il condensatore cilindrico è particolarmente apprezzato per le sue elevate capacità ed il design compatto, che lo rende ideale per numerose applicazioni in ambito tecnologico.
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+
+#lastpage[
 == Glossario <senza_numero>
 
 / Bottiglia di Leida: Dispositivo pionieristico, creato nel 1745, utilizzato per accumulare cariche elettriche. È costituito da una bottiglia di vetro rivestita sia all'interno sia all'esterno con un foglio di carta stagnola caricato elettricamente.
@@ -173,7 +173,7 @@ Un condensatore ampiamente utilizzato nei circuiti elettrici è quello cilindric
 
 / Volt: Unità di misura del potenziale elettrico, equiparabile alla differenza di potenziale esistente tra due punti di un conduttore, in cui il campo elettrico svolge un lavoro di 1 J per spostare una carica di 1 C tra i due punti.
 
-
+]
 
 
 

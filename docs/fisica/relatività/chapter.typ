@@ -72,7 +72,7 @@ I due postulati formulati da Einstein, pur non essendo dimostrabili direttamente
 
 La relatività ristretta ha condotto anche ad altre conclusioni sorprendenti: a velocità relativistiche, ovvero comparabili con quella della luce, si osservano fenomeni quali la dilatazione del tempo, la contrazione delle lunghezze e l'incremento della massa degli oggetti.
 
-#boxfl(top)[== *🧩* La dilatazione del tempo nel decadimento dei muoni <senza_numero>
+#boxfl(top)[== 🐺 La dilatazione del tempo nel decadimento dei muoni <senza_numero>
 
 La dilatazione temporale può essere osservata nel decadimento di particelle elementari come i muoni, che vengono generate nei grandi acceleratori di particelle. Tuttavia, questo fenomeno era già stato rilevato nel decadimento dei muoni prodotti dall'interazione dei raggi cosmici con l'atmosfera terrestre. I raggi cosmici si formano a circa 10 km di altitudine e, muovendosi a una velocità quasi pari a quella della luce, impiegano circa 3 · 10#super[-5] secondi per raggiungere la superficie terrestre.
 
@@ -229,8 +229,7 @@ La relatività generale riuscì a spiegare questa discrepanza considerando che l
 
 Un ulteriore conferma della teoria risiede nell'esistenza dei buchi neri. Questi oggetti celesti possiedono masse e densità così elevate da generare un campo gravitazionale dal quale nessuno corpo, inclusa la luce, può sfuggire. La relatività generale interpreta il fenomeno dei buchi neri in termini di deformazione estrema dello spazio-tempo: la massa dell'oggetto è talmente grande da creare una curvatura che "chiude" lo spazio-tempo attorno a sé stesso. 
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Equivalenza massa-energia: La relazione tra massa ed energia di un corpo è espressa dalla celebre equazione della teoria della relatività di Einstein: _E = mc#super[2]_. Tale relazione evidenzia che massa ed energia sono due manifestazioni dello stesso fenomeno fisico, legate in modo diretto e quantitativamente proporzionale.  
@@ -255,4 +254,5 @@ Un ulteriore conferma della teoria risiede nell'esistenza dei buchi neri. Questi
 
 / Spazio-tempo: Lo spazio-tempo è un concetto fondamentale nella teoria della relatività che descrive l’Universo come una struttura geometrica quadridimensionale, composta da tre dimensioni spaziali e una dimensione temporale, intrecciate secondo le leggi relativistiche.  
 
-/ Trasformazioni di Lorentz: Le trasformazioni di Lorentz stabiliscono le correlazioni matematiche che permettono di passare dalle coordinate spazio-temporali misurate in un sistema di riferimento inerziale a quelle osservate in un altro sistema inerziale in moto relativo. Tali trasformazioni costituiscono il cuore matematico della relatività ristretta, descrivendo come tempo e spazio si modificano con la velocità relativa dei sistemi.  
+/ Trasformazioni di Lorentz: Le trasformazioni di Lorentz stabiliscono le correlazioni matematiche che permettono di passare dalle coordinate spazio-temporali misurate in un sistema di riferimento inerziale a quelle osservate in un altro sistema inerziale in moto relativo. Tali trasformazioni costituiscono il cuore matematico della relatività ristretta, descrivendo come tempo e spazio si modificano con la velocità relativa dei sistemi. 
+] 

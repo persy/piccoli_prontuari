@@ -27,7 +27,7 @@ Una volta definito il sistema di riferimento appropriato, se il punto varia la p
 
 La relazione che lega la variazione della posizione del punto nello spazio al trascorrere del tempo è chiamata legge oraria. Il percorso formato dai punti occupati dal corpo in movimento prende invece il nome di traiettoria del moto.
 
-#boxfl(bottom)[== *🧩* Il concetto di funzione <senza_numero>
+#boxfl(bottom)[== 🐺 Il concetto di funzione <senza_numero>
 
 Il termine funzione in analisi matematica descrive la relazione secondo la quale un elemento dipende da un altro secondo un criterio ben definito. Le funzioni più semplici riguardano una sola variabile, generalmente identificata con _x_ (variabile indipendente) e _y_ (variabile dipendente).
 
@@ -179,8 +179,7 @@ $
 
 Nel piano cartesiano, questa legge oraria è rappresentata da una curva di secondo grado, nota con il termine parabola.
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Accelerazione: Grandezza vettoriale che, in un determinato sistema di riferimento, descrive la variazione temporale della velocità di un punto _P_. Nel Sistema Internazionale di unità di misura, essa è espressa in metri al secondo quadrato (m/s²).  
@@ -189,4 +188,6 @@ Nel piano cartesiano, questa legge oraria è rappresentata da una curva di secon
 
 / Legge oraria: Espressione matematica che descrive la variazione temporale delle coordinate di un punto P in movimento entro un dato sistema di riferimento. La serie delle posizioni occupate da _P_ nel tempo determina quella che viene chiamata traiettoria.  
 
-/ Velocità: Grandezza vettoriale che quantifica il rapporto tra la variazione della posizione di un punto, in relazione a uno specifico sistema di riferimento, e l'intervallo temporale in cui tale variazione si verifica. Nel Sistema Internazionale, il modulo della velocità viene misurato in metri al secondo (m/s).   
+/ Velocità: Grandezza vettoriale che quantifica il rapporto tra la variazione della posizione di un punto, in relazione a uno specifico sistema di riferimento, e l'intervallo temporale in cui tale variazione si verifica. Nel Sistema Internazionale, il modulo della velocità viene misurato in metri al secondo (m/s). 
+
+]

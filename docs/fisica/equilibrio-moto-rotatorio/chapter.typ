@@ -62,7 +62,7 @@ La direzione del vettore *M* è perpendicolare alla forza e al segmento _OP_; il
 
 Il concetto di momento si applica anche alle leve, che sono macchine semplici progettate per bilanciare una forza intensa applicandone un'altra meno intensa, ma con un braccio maggiore. In questo modo si ottiene l'equilibrio tra i momenti delle forze.
 
-#boxfl(bottom)[== *🧩* Le leve <senza_numero>
+#boxfl(bottom)[== 🐺 Le leve <senza_numero>
 
 Le leve costituiscono il primo esempio di macchina semplice ideato dall'uomo. Una macchina semplice si definisce come un dispositivo capace di compiere lavoro mediante un singolo movimento. Le leve operano ruotando attorno a un punto fisso, denominato fulcro, trasmettendo una forza che ha il compito di vincere una resistenza esterna mediante l'applicazione di una forza meno intensa, detta potenza.
 
@@ -188,8 +188,7 @@ $
 
 Dove _I_ rappresenta il momento di inerzia del corpo e *ɷ* la sua velocità angolare.
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Centro di massa: Punto di un corpo rigido in cui si considera concentrata tutta la sua massa. Analogamente, il centro di gravità, o baricentro, indica il punto in un campo gravitazionale dove si ritiene concentrata tutta la forza peso del corpo.
@@ -211,3 +210,4 @@ Dove _I_ rappresenta il momento di inerzia del corpo e *ɷ* la sua velocità ang
 / Punto materiale: Si usa per descrivere un corpo in movimento le cui dimensioni risultano trascurabili rispetto allo spostamento compiuto.
 
 / Vincolo: Qualsiasi condizione o elemento che limita la libertà di movimento di un corpo.
+]

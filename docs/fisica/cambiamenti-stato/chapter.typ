@@ -181,7 +181,7 @@ Ad esempio, l'acqua bolle a 100 °C a pressione atmosferica normale (101,32 kPa)
 )  
 )
 
-#boxfl(bottom)[== *🧩* Il vapore d'acqua nell'atmosfera <senza_numero>
+#boxfl(bottom)[== 🐺 Il vapore d'acqua nell'atmosfera <senza_numero>
 
 Il vapore acqueo, pur essendo presente nell'atmosfera terrestre in quantità piccole e variabili, rappresenta uno dei suoi componenti più rilevanti, poiché dalla sua condensazione prendono origine tutti i fenomeni meteorologici.
 
@@ -263,8 +263,7 @@ Nel caso dell'acqua, il punto triplo corrisponde a una temperatura di 0,01 °C e
 
 Dal 1954 il punto triplo dell'acqua ha sostituito il punto di fusione del ghiaccio come riferimento per la taratura della scala termometrica. In base a questa definizione, il kelvin è considerato pari a 1/273,16 del punto triplo dell'acqua.
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Calore latente: Quantità di energia termica necessaria per trasformare lo stato fisico di una sostanza senza variarne la temperatura.  
@@ -282,3 +281,4 @@ Dal 1954 il punto triplo dell'acqua ha sostituito il punto di fusione del ghiacc
 / Tensione di vapore: Pressione esercitata da un vapore saturo sopra il liquido con cui si trova in equilibrio. Aumenta all'aumentare della temperatura e rappresenta il grado di volatilità di una sostanza, ovvero la sua tendenza a evaporare (o sublimare, nel caso di un solido).  
 
 / Vaporizzazione: Passaggio di una sostanza dallo stato liquido a quello aeriforme, che può avvenire tramite due modalità: l’evaporazione, che interessa la superficie del liquido, e l’ebollizione, che coinvolge l’intera massa del liquido.
+]

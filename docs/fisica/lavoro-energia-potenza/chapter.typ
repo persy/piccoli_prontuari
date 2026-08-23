@@ -211,8 +211,7 @@ $
   1 space "kWh" = 10^3 space "W" times 3.6 times 10^3 space "s" = 3.6 times 10^6 space "J".
 $
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Energia: Grandezza fisica che rappresenta la capacità di un sistema fisico di compiere lavoro. Esistono diverse forme di energia, tra cui quella meccanica, elettrica, termica, chimica e nucleare. Queste diverse tipologie possono trasformarsi l'una nell'altra, sia spontaneamente sia in modo indotto.  
@@ -228,4 +227,4 @@ $
 / Lavoro: Grandezza fisica definita come il prodotto tra l'intensità della componente di una forza e lo spostamento del punto materiale a cui è applicata, tenendo conto della direzione dello spostamento. Il lavoro è una grandezza scalare espressa in joule (J), dove 1 J corrisponde a 1 N · 1 m.  
 
 / Potenza: Misura fisica indicativa del lavoro svolto da una forza nell'unità di tempo. Si misura in watt (W), con 1 W equivalente a 1 J/s.  
-
+]

@@ -149,7 +149,7 @@ $
   G = 6.67 dot 10^(-11) "Nm"^2/"kg"^2
 $
 
-#boxfl(bottom)[== *🧩* La determinazione della costante di gravitazione universale _G_ <senza_numero>
+#boxfl(bottom)[== 🐺 La determinazione della costante di gravitazione universale _G_ <senza_numero>
 
 La costante di gravitazione universale, denotata con il simbolo G, fu determinata con precisione per la prima volta nel 1798 dal fisico inglese Henry Cavendish (1731-1810). Cavendish si avvalse di uno strumento noto come bilancia a torsione, che consentì di misurare le forze gravitazionali tra corpi di massa diversa.  
 
@@ -247,8 +247,7 @@ Un satellite con queste caratteristiche viene definito geostazionario. I satelli
 
 Perché un corpo possa sfuggire all'attrazione gravitazionale terrestre (o di qualsiasi altro corpo celeste), è necessario conferirgli una velocità iniziale sufficiente. Tale velocità prende il nome di velocità di fuga e per la Terra è pari a 11.200 m/s. Va notato che questo valore è invariabile rispetto alla massa dell'oggetto in considerazione, assumendo trascurabili gli effetti dovuti all'attrito con l'atmosfera terrestre.
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Campo gravitazionale: È la regione dello spazio che subisce l'influenza di una massa.
@@ -260,3 +259,4 @@ Perché un corpo possa sfuggire all'attrazione gravitazionale terrestre (o di qu
 / Satellite geostazionario: È un veicolo spaziale collocato in un'orbita intorno alla Terra ad un'altezza tale da permettere un periodo di rivoluzione attorno al pianeta di circa 24 ore.
 
 / Velocità di fuga: È la velocità minima che deve essere fornita a un corpo affinché riesca a sfuggire al campo gravitazionale terrestre.
+]

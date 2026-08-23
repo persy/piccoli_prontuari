@@ -43,7 +43,7 @@ Per calcolare la differenza tra due vettori *A* e *B*, si utilizza il concetto d
 Il prodotto tra un vettore *A* e uno scalare _a_ genera una risultante *R*. Questo vettore avrà la stessa direzione e lo stesso verso di *A*, mentre l'intensità sarà pari al prodotto tra il modulo di *A* e il valore dello scalare *A*. Oltre a questa forma di moltiplicazione, il calcolo vettoriale include altre operazioni come il prodotto scalare e il prodotto vettoriale, con applicazioni specifiche.
 
 #boxfl(top)[
-== *🧩* Prodotto scalare e prodotto vettoriale <senza_numero>
+== 🐺 Prodotto scalare e prodotto vettoriale <senza_numero>
 
 La moltiplicazione applicata al calcolo vettoriale non si riduce unicamente al prodotto fra uno scalare e un vettore. Essa, infatti, contempla anche altre due forme di prodotto, concettualmente più complicate da definire, ma facilmente rappresentabili dal punto di vista grafico, dette prodotto scalare e prodotto vettoriale. In entrambi i casi, i termini dell'operazione sono sempre vettori, ma nel primo prodotto la risultante ha natura scalare, nel secondo vettoriale.
 
@@ -57,8 +57,7 @@ Trigonometricamente, il modulo _R_ può anche essere definito come dato dal prod
 
 $ italic(R) = italic(A B) = italic(A B) sin theta.alt_(italic(A B)) $
 ]
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Scalari: Categoria di grandezze fisiche che vengono definite esclusivamente dal loro valore numerico. Esempi comuni includono la temperatura, il tempo e la massa di un corpo.  
@@ -67,7 +66,7 @@ $ italic(R) = italic(A B) = italic(A B) sin theta.alt_(italic(A B)) $
 
 / Vettori: Categoria di grandezze fisiche caratterizzate da intensità, direzione e verso. Alcuni esempi di grandezze vettoriali sono la velocità e l'accelerazione di un corpo.
 
-
+]
 
 
 

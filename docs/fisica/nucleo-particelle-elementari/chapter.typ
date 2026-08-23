@@ -295,7 +295,7 @@ I neutroni rilasciati dalla reazione possono, in condizioni adeguate, provocare 
 
 Nelle condizioni controllate, invece, alcuni neutroni vengono assorbiti da sostanze specifiche mentre soltanto una parte viene lasciata libera per continuare il ciclo di fissione. Tale processo rende possibile sfruttare in modo sicuro la fissione nucleare nei reattori nucleari.
 
-#boxfl(bottom)[== *🧩* I reattori nucleari <senza_numero>
+#boxfl(bottom)[== 🐺 I reattori nucleari <senza_numero>
 
 Il primo reattore nucleare a fissione fu realizzato nel 1942 a Chicago, sotto la guida di Enrico Fermi e del suo gruppo di ricerca, assumendo il nome di "pila atomica". Tale sistema operativo è essenzialmente simile ai principi su cui si basano i reattori nucleari attualmente in funzione.
 
@@ -345,7 +345,7 @@ La definizione stessa di particella elementare è strettamente connessa ai metod
 
 Grazie agli avanzamenti tecnologici nel campo degli acceleratori di particelle, la fisica delle particelle ha acquisito una struttura concettuale solida, suffragata da numerosi risultati sperimentali. Lo studio della materia ad altissime energie non solo permette di esplorare i suoi comportamenti a livelli fondamentali, ma si ritiene possa simulare le condizioni dei primi istanti dell'Universo e offrire prospettive per comprendere la realtà del Big Bang.
 
-#boxfl(bottom)[== *🧩* Gli acceleratori di particelle <senza_numero>
+#boxfl(bottom)[== 🐺 Gli acceleratori di particelle <senza_numero>
 
 Gli acceleratori di particelle rappresentano strumenti fondamentali per l'indagine della materia, permettendo di accelerare particelle elettricamente cariche, quali protoni, elettroni e ioni, attraverso l'impiego di campi elettromagnetici. Questo processo consente di provocare collisioni tra le particelle stesse o con bersagli specifici, allo scopo di analizzare le interazioni che si verificano. Tali collisioni possono generare energia sufficiente a produrre nuove particelle, caratterizzate da una vita media estremamente breve e non osservabili in condizioni normali.
 
@@ -493,15 +493,7 @@ A differenza dei leptoni e dei mediatori delle forze fondamentali, gli adroni no
   [Ξ#super[--]],   [d s s],   [-1], [#overline[Ξ]#super[+]] )  
 )
 
-#pagebreak()
-#set page(fill: black.lighten(90%))
-== *🧩* Approfondimenti <senza_numero>
-
-
-
-
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Antiparticella: Particella elementare caratterizzata da una massa identica a quella della particella corrispondente, ma con proprietà opposte, inclusa la carica elettrica.
@@ -537,3 +529,4 @@ A differenza dei leptoni e dei mediatori delle forze fondamentali, gli adroni no
 / Tempo di dimezzamento: Intervallo di tempo necessario affinché la quantità di nuclei instabili di un elemento radioattivo si riduca esattamente alla metà.
 
 / Unità di massa atomica: Sistema di misura utilizzato in ambito atomico e nucleare, definito come un dodicesimo della massa dell’isotopo carbonio-12.
+]

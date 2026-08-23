@@ -12,7 +12,7 @@ Con l'avvento della meccanica quantistica, e in particolare con il principio di 
 L'introduzione di un'interpretazione probabilistica delle traiettorie delle particelle atomiche ha definitivamente superato i residui di determinismo, inserendo elementi di incertezza nelle equazioni del moto relative ai sistemi microscopici.] 
 
 == Verso la meccanica quantistica
-#boxfl(bottom)[== *🧩* La legge del corpo nero <senza_numero>
+#boxfl(bottom)[== 🐺 La legge del corpo nero <senza_numero>
 
 Lo spettro di emissione del corpo nero è rappresentato graficamente dalla curva che descrive il potere emissivo in funzione della lunghezza d'onda della radiazione emessa. Ogni temperatura del corpo nero corrisponde a una curva dello spettro diversa. Prima che Planck formulasse la teoria dei quanti, gli studi sull'emissione del corpo nero avevano portato alla definizione di alcune leggi empiriche: la legge di Stefan-Boltzmann e la legge di Wien.
 
@@ -222,7 +222,7 @@ Atomi aventi lo stesso numero atomico _Z_ ma un diverso numero di neutroni N si 
 
 Ad oggi sono stati identificati 110 elementi chimici, di cui circa 90 naturali, classificati nella tavola periodica in base al loro numero atomico. L'elemento con il più basso numero atomico (_Z_ = 1) è l'idrogeno (_H_), il cui nucleo contiene un solo protone. L'elemento naturale con il maggior numero atomico è l'uranio (_U_), che ha _Z_ = 92.
 
-#boxfl(top)[== *🧩* Derivazione dei livelli energetici dell'atomo di idrogeno <senza_numero>
+#boxfl(top)[== 🐺 Derivazione dei livelli energetici dell'atomo di idrogeno <senza_numero>
 
 Per determinare i valori energetici associati alle righe dello spettro dell'atomo di idrogeno (già osservate da Balmer), Bohr si servì delle leggi della meccanica e dell'elettromagnetismo classici, integrandole con l'ipotesi di quantizzazione delle orbite.
 
@@ -456,7 +456,7 @@ Ad esempio, elementi che possiedono lo stesso numero di elettroni di valenza dis
 La periodicità delle proprietà comuni tra elementi nasce direttamente dalla periodicità delle configurazioni elettroniche.
 
 == Emissione e assorbimento di fotoni
-#boxfl(top)[== *🧩* Il laser <senza_numero>
+#boxfl(top)[== 🐺 Il laser <senza_numero>
 
 Il laser, acronimo di Light Amplification by Stimulated Emission of Radiation (amplificazione della luce tramite emissione stimolata di radiazione), è un dispositivo in grado di generare fasci di luce estremamente intensi che, diversamente dalla luce tradizionale come quella del Sole o di una lampadina, si caratterizzano per essere monocromatici, ovvero con una singola lunghezza d'onda, e coerenti, cioè con fotoni che oscillano in fase nello stesso momento.
 
@@ -509,8 +509,7 @@ L'energia necessaria per separare un elettrone dal nucleo di un atomo è definit
 )  
 )
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Atomo: La più piccola unità di un elemento chimico, ovvero una sostanza che non può essere ulteriormente suddivisa in altre più semplici attraverso reazioni chimiche. Nonostante le sue dimensioni infinitesimali, l'atomo è in grado di mantenere le proprietà fisico-chimiche dell'elemento a cui appartiene. \ Al suo interno si distingue il nucleo centrale, dove si concentra quasi tutta la sua massa, circondato da un numero variabile di elettroni dotati di carica negativa. Il nucleo è costituito da protoni, con carica positiva, e neutroni, privi di carica elettrica. \ In un atomo neutro, il numero di elettroni corrisponde a quello dei protoni, noto come numero atomico (simbolo Z), caratteristico per ogni elemento chimico. La somma tra protoni e neutroni nel nucleo definisce il numero di massa (simbolo A). \ Gli isotopi sono nuclei dello stesso elemento chimico che condividono lo stesso numero di protoni, ma differiscono per il numero di neutroni.
@@ -535,4 +534,4 @@ L'energia necessaria per separare un elettrone dal nucleo di un atomo è definit
 
 / Tavola periodica: Schema organizzativo degli elementi chimici basato sulla configurazione elettronica e sul numero di elettroni presenti nei diversi tipi di orbitali atomici.
 
-
+]

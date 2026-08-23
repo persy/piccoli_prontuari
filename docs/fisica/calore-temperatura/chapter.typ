@@ -207,7 +207,7 @@ Le superfici chiare tendono a riflettere la radiazione elettromagnetica anziché
 Il rapporto tra la radiazione riflessa e quella totale incidente sulla superficie di un pianeta è denominato albedo. L'albedo terrestre varia considerevolmente in funzione del tipo di superficie e della presenza di copertura nuvolosa, e ha un valore medio stimato intorno a 0,35.
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== *🧩* Approfondimenti <senza_numero>
+== 🐺 Approfondimenti <senza_numero>
 
 === L'interpretazione della natura del calore <senza_numero>
 
@@ -304,8 +304,8 @@ Sulla Terra il calore si sposta anche orizzontalmente a causa delle differenze n
 La quantità di radiazione elettromagnetica proveniente dal Sole che raggiunge la superficie terrestre è maggiore alle basse latitudini (vicino all'equatore). Questo avviene perché i raggi solari attraversano una porzione più breve di atmosfera, giungendo quasi perpendicolarmente in qualsiasi stagione. Ciò riduce le probabilità che vengano assorbiti dalle particelle atmosferiche.
 
 Alle latitudini più elevate, dove i raggi solari arrivano obliquamente, il riscaldamento della superficie risulta inferiore. La differenza di temperatura tra gli strati d'aria equatoriali e quelli polari genera correnti atmosferiche, che rappresentano il sistema di circolazione globale dell'aria. Attraverso tali correnti, l'aria viene trasportata per convezione con l'obiettivo di ristabilire un equilibrio termico tra le diverse zone del pianeta.  
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+
+#lastpage[
 == Glossario <senza_numero>
 
 / Agitazione termica: Movimento caotico a cui sono sottoposte le particelle (atomi e molecole) che costituiscono una sostanza, sia essa solida, liquida o gassosa.  
@@ -324,4 +324,5 @@ Alle latitudini più elevate, dove i raggi solari arrivano obliquamente, il risc
 
 / Temperatura: Misura che descrive il livello di agitazione delle particelle di un corpo e ne determina la tendenza a cedere o ricevere calore. Nel Sistema Internazionale, la temperatura si esprime in kelvin (simbolo K). In passato, l’unità maggiormente utilizzata era il grado Celsius (simbolo ºC), basato su una scala centigradale in cui lo zero coincide con il punto di congelamento dell’acqua e il valore 100 con il suo punto di ebollizione a pressione standard.  
 
-/ Termometro: Strumento progettato per misurare la temperatura di un corpo o dell’ambiente circostante, sfruttando la variazione di determinate proprietà fisiche delle sostanze (come lunghezza o volume) al variare della temperatura stessa.  
+/ Termometro: Strumento progettato per misurare la temperatura di un corpo o dell’ambiente circostante, sfruttando la variazione di determinate proprietà fisiche delle sostanze (come lunghezza o volume) al variare della temperatura stessa. 
+] 

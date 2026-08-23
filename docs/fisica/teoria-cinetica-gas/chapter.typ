@@ -245,7 +245,7 @@ Per esempio, nel caso dell'elio (He, con peso molecolare di 4 g/mol), la velocit
 
 È importante notare che, mentre l'energia cinetica media dipende esclusivamente dalla temperatura e non dal tipo di gas coinvolto, la velocità delle molecole è influenzata anche dal particolare gas considerato. In tale calcolo, il peso molecolare gioca un ruolo determinante: all'aumentare di quest'ultimo, la velocità media diminuisce. Nel caso dell'ossigeno biatomico (O#sub[2]), che ha un peso molecolare superiore a quello dell'elio (32 g/mol), la velocità media delle molecole è circa 476 m/s.
 
-#boxfl(top)[== *🧩* La meccanica statistica <senza_numero>
+#boxfl(top)[== 🐺 La meccanica statistica <senza_numero>
 
 La meccanica statistica è quella branca della fisica che studia, attraverso metodi statistici, il comportamento collettivo di sistemi costituiti da un gran numero di particelle (come atomi e molecole), con l'obiettivo di prevederne le proprietà macroscopiche, tra cui volume, densità, pressione e temperatura. 
 
@@ -255,8 +255,7 @@ Tuttavia, nel caso di sistemi in cui le influenze quantistiche risultano signifi
 
 Entrambe queste statistiche tornano alla forma della statistica di Maxwell-Boltzmann solo quando la densità di particelle è bassa.]
 
-#pagebreak()
-#set page(fill: accent.fis.lighten(90%))
+#lastpage[
 == Glossario <senza_numero>
 
 / Equazione di stato dei gas perfetti: Rappresenta la relazione fondamentale per i gas ideali, stabilendo che pressione (p), volume (V) e temperatura (T) sono legati dalla formula pV = nRT. In questa equazione, n indica il numero di moli e R rappresenta la costante universale dei gas.  
@@ -277,4 +276,5 @@ Entrambe queste statistiche tornano alla forma della statistica di Maxwell-Boltz
 
 / Peso molecolare: Rappresenta la massa di una molecola, calcolata sommando i pesi atomici degli elementi che la costituiscono.  
 
-/ Teoria cinetica dei gas: Teoria che interpreta le proprietà macroscopiche dei gas partendo dal movimento disordinato delle molecole che li compongono. Questo studio è svolto utilizzando i principi della meccanica statistica.   
+/ Teoria cinetica dei gas: Teoria che interpreta le proprietà macroscopiche dei gas partendo dal movimento disordinato delle molecole che li compongono. Questo studio è svolto utilizzando i principi della meccanica statistica. 
+]  
