@@ -399,6 +399,7 @@ FodyWeavers.xsd
 *.sln.iml
 
 # cSpell
+.cspell/
 .cspell/*
 cspell.json
 
@@ -422,4 +423,12 @@ codebook.toml
 *.bak
 
 # Output Files
+output/
 output/*
+cover-exports/
+cover-exports/*
+
+# Python
+gallery.py
+main.py
+sources.py
