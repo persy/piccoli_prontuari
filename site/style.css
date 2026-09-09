@@ -248,19 +248,19 @@ h1 {
 /* -----------------------------------------------------------------
    TAVOLOZZA GRADIENTI ARMONIZZATA PER MACRO-AREE
 ----------------------------------------------------------------- */
-.matematica     { --materia-gradient: linear-gradient(90deg, #2563eb, #3b82f6); --hover-color: #2563eb; } 
-.fisica         { --materia-gradient: linear-gradient(90deg, #4f46e5, #6366f1); --hover-color: #4f46e5; } 
-.chimica        { --materia-gradient: linear-gradient(90deg, #0d9488, #06b6d4); --hover-color: #0d9488; } 
-.biologia       { --materia-gradient: linear-gradient(90deg, #059669, #10b981); --hover-color: #059669; } 
-.scienze-terra  { --materia-gradient: linear-gradient(90deg, #0284c7, #0ea5e9); --hover-color: #0284c7; } 
+.matematica     { --materia-gradient: linear-gradient(90deg, #0247b6, #3b82f6); --hover-color: #2563eb; } 
+.fisica         { --materia-gradient: linear-gradient(90deg, #4B0082, #6f02bc); --hover-color: #4f46e5; } 
+.chimica        { --materia-gradient: linear-gradient(90deg, #008080, #00b1b1); --hover-color: #0d9488; } 
+.biologia       { --materia-gradient: linear-gradient(90deg, #00755E, #00a987); --hover-color: #059669; } 
+.scienze-terra  { --materia-gradient: linear-gradient(90deg, #007BA7, #0297cd); --hover-color: #0284c7; } 
 
-.letteratura-it { --materia-gradient: linear-gradient(90deg, #ea580c, #f97316); --hover-color: #ea580c; } 
-.letteratura-en { --materia-gradient: linear-gradient(90deg, #d97706, #f59e0b); --hover-color: #d97706; } 
-.letteratura-la { --materia-gradient: linear-gradient(90deg, #b45309, #d97706); --hover-color: #b45309; } 
+.letteratura-it { --materia-gradient: linear-gradient(90deg, #882D17, #d74b27); --hover-color: #ea580c; } 
+.letteratura-en { --materia-gradient: linear-gradient(90deg, #C94F00, #ec5f00); --hover-color: #d97706; } 
+.letteratura-la { --materia-gradient: linear-gradient(90deg, #7e2b02, #d34600); --hover-color: #b45309; } 
 
-.storia         { --materia-gradient: linear-gradient(90deg, #991b1b, #dc2626); --hover-color: #991b1b; } 
-.storia-arte    { --materia-gradient: linear-gradient(90deg, #be185d, #ec4899); --hover-color: #be185d; } 
-.filosofia      { --materia-gradient: linear-gradient(90deg, #e23eb1, #942372); --hover-color: #e23eb1; } 
+.storia         { --materia-gradient: linear-gradient(90deg, #C80815, #ed0918); --hover-color: #991b1b; } 
+.storia-arte    { --materia-gradient: linear-gradient(90deg, #8A7500, #b59a01); --hover-color: #be185d; } 
+.filosofia      { --materia-gradient: linear-gradient(90deg, #66023C, #a30160); --hover-color: #e23eb1; } 
 
 /* -----------------------------------------------------------------
    GRIGLIA DI SOLE ANTEPRIME
