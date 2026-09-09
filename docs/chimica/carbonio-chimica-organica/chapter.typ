@@ -588,7 +588,7 @@ Se la disposizione dei sostituenti impedisce che un composto sia tanto l'immagin
 Nel caso in cui una molecola contenga due atomi di carbonio chirali identici, essa risulterà otticamente inattiva a causa della compensazione interna e prende il nome di composto meso.
 #pagebreak(weak:true)
 
-#show math.equation: set text(size: 10pt, font: "Fira Math")
+#show math.equation: set text(size: 10pt, font: math-fonts)
 #figure(
   caption: [Esempi di isomeria di struttura],
   table(
@@ -702,7 +702,7 @@ Una classificazione più sistematica dei composti organici utilizza la presenza 
 
 Un gruppo funzionale è un insieme specifico di atomi il cui tipo di legame e natura conferisce alla molecola caratteristiche chimiche e fisiche peculiari, spesso quasi indipendenti dalla struttura complessiva della molecola. La tabella seguente elenca le principali classi di composti organici e i rispettivi gruppi funzionali.
 
-#show math.equation: set text(size: 10pt, font: "Fira Math")
+#show math.equation: set text(size: 10pt, font: math-fonts)
 #figure(
   caption: [I principali gruppi funzionali e le relative classi di composti organici.],
   table(
