@@ -3,9 +3,9 @@
 #import "figures.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
-#set math.equation(numbering: (..n) => {
-  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
-  })
+/* #set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 11pt, numbering("1", ..n))
+  }) */
 
 = Dai numeri naturali ai numeri reali <numeri_naturali_reali>
 
@@ -829,14 +829,14 @@ $ -oo < x < +oo, quad forall x in RR, " e " -oo < +oo $
 
 Tuttavia, le operazioni di somma e prodotto non vengono estese a $tilde(RR)$, poiché $-oo$ e $+oo$ non sono numeri nel senso tradizionale e, pertanto, non possono essere trattati come tali. Nei corsi di analisi matematica si dimostra che non è possibile estendere queste operazioni in modo da mantenerne le proprietà formali.
 
-#definizione(title: "Intervalli")[Si definiscono intervalli di $RR$ tutti i sottoinsiemi $I subset.eq RR$ che rispettano la seguente condizione: se $a, b in I$, con $a <= b$, allora ogni $x in RR$, tale che $a <= x <= b$, appartiene a $I$. 
+#definizione(title: "Intervalli", label: <def-intervalli>)[Si definiscono intervalli di $RR$ tutti i sottoinsiemi $I subset.eq RR$ che rispettano la seguente condizione: se $a, b in I$, con $a <= b$, allora ogni $x in RR$, tale che $a <= x <= b$, appartiene a $I$. 
 
 In altre parole, un sottoinsieme $I$ è un intervallo se, contenendo due numeri reali qualsiasi, include anche tutti i numeri compresi tra essi.]
-#pagebreak(weak: true)
+
 È dimostrabile#footnote[La questione risulta intuitivamente chiara, ma in realtà è più complessa di quanto sembri.] che gli intervalli di $RR$ sono esattamente quelli elencati di seguito, con $a, b in RR, a <= b$.
 + intervalli degeneri:
-  - $emptyset$;
-  - ${a}, quad forall a in RR$.
+  - $emptyset$
+  - ${a}, quad forall a in RR$
 
 + intervalli limitati, che corrispondono ai segmenti, con o senza uno o entrambi gli estremi:
   - $[a, b] = {x in RR | a <= x <= b}$: intervallo chiuso con estremi $a$ e $b$;
@@ -1073,8 +1073,6 @@ Tuttavia, se sostituiamo $sqrt(2)$ con il valore approssimato $1,4$, commettendo
 $ 0.00463; quad 0.004096; \ 0.008; quad 0; \ 1; quad 0.005233; \ 0.005076 $
 ]
 Dall'analisi di questi dati emerge chiaramente come alcune forme algebriche tendano a mitigare l'errore iniziale, mentre altre lo amplifichino in modo sproporzionato, rendendo il risultato del tutto inattendibile.
-
-//
 
 === Altri numeri reali 
 

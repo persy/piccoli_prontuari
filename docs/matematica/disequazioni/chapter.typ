@@ -3,15 +3,13 @@
 #import "figures.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
-#set math.equation(numbering: (..n) => {
-  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
-  })
+/* #set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 11pt, numbering("1", ..n))
+  }) */
 
 = Disequazioni <disequazioni>
 
-#intro[
-  // TODO
-]
+#intro[Risolvere una disequazione significa determinare l'insieme dei valori dell'incognita per cui una relazione d'ordine tra due espressioni risulta verificata, un problema che si può sempre ricondurre allo studio del segno di una funzione. In questo capitolo si presenta dapprima l'apparato concettuale comune a tutte le disequazioni — dominio, principi di equivalenza, convenzioni grafiche per rappresentare soluzioni e schemi dei segni — per poi affrontare, in ordine crescente di complessità, le disequazioni di primo e secondo grado, i sistemi di disequazioni, le disequazioni fratte e scomponibili, quelle contenenti funzioni irrazionali e, infine, quelle con il valore assoluto. In ciascun caso l'obiettivo resta lo stesso: ricondurre il problema originale a casi noti, la cui soluzione può essere ottenuta con metodi algebrici o letta direttamente da un grafico.]
 
 == Disequazioni in un'incognita
 

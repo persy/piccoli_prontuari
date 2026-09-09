@@ -3,14 +3,15 @@
 #import "figures.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
-#set math.equation(numbering: (..n) => {
-  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
-  })
+/* #set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 11pt, numbering("1", ..n))
+  }) */
 
 
 = Algebra elementare <algebra>
 
-#intro[/* TODO */]
+#intro[L'algebra elementare studia le espressioni costruite a partire da numeri e lettere, queste ultime utilizzate per rappresentare quantità generiche o incognite. Il suo linguaggio simbolico permette di esprimere in forma sintetica relazioni valide per intere classi di numeri, di manipolare tali relazioni secondo regole precise e di risolvere problemi altrimenti difficili da trattare con i soli numeri. In questo capitolo verranno introdotti gli oggetti fondamentali dell'algebra — monomi, polinomi e frazioni algebriche — insieme alle operazioni che li coinvolgono, per poi concludere con lo studio delle progressioni, sequenze numeriche che seguono una legge di formazione costante.]
+
 == Monomi  
 
 In algebra, così come in molte altre discipline matematiche, è comune utilizzare lettere per rappresentare numeri. Questo avviene, ad esempio, quando si vogliono formulare uguaglianze di carattere generale o risolvere problemi matematici.  

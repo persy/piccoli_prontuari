@@ -3,14 +3,13 @@
 #import "figures.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
-#set math.equation(numbering: (..n) => {
-  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
-  })
+/* #set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 11pt, numbering("1", ..n))
+  }) */
 
 = Potenze, esponenziali, logaritmi <potenze_esponenziali_logaritmi>
 
-#intro[// TODO
-Le definizioni e le proprietà delle potenze, già introdotte nei capitoli precedenti, vengono qui riprese per completezza e per spiegare la logica alla base di tali definizioni.]
+#intro[Le potenze con esponente intero, già introdotte nei capitoli precedenti, vengono qui riprese per completezza e per motivare la logica che ne estende progressivamente la definizione: dall'esponente intero a quello razionale e, infine, a quello reale irrazionale, in modo da conservare in ogni passaggio le proprietà formali già note. Questa estensione permette di introdurre le funzioni esponenziali, definite per ogni esponente reale, e la loro funzione inversa, il logaritmo, insieme alle rispettive proprietà. Il capitolo si conclude con lo studio delle funzioni del tipo $f(x)^(g(x))$ e con la risoluzione di equazioni e disequazioni esponenziali e logaritmiche, sia nei casi elementari sia in quelli che richiedono tecniche più articolate.]
 
 == Potenze con esponente intero
 === Esponente intero maggiore o uguale a 2
@@ -90,7 +89,7 @@ Se le potenze con base negativa fossero sempre definite e rispettassero le propr
 + $(-1)^(#std.text(size: 0.8em)[$2 space dot space$] #std.text(size: 0.6em)[$3 / 2$])$ vale $1$. Infatti, prima si calcola $(-1)^2 = 1$ e successivamente si eleva il risultato a $3/2$, ottenendo $1$.
 + $(-1)^3$ è uguale a $-1$, come è intuitivo.]
 
-== Potenze con esponente reale irrazionale
+== Potenze con esponente reale irrazionale <potenze-esponente-reale-irrazionale>
 
 L'ultima estensione del concetto di potenza che si prende in esame riguarda l'utilizzo di esponenti reali irrazionali. Purtroppo, trattare rigorosamente questo tema richiede approcci complessi che esulano dagli obiettivi di questo testo. Qui si offre solo un'idea intuitiva del processo.
 
@@ -163,7 +162,7 @@ Un ulteriore confronto utile riguarda le funzioni potenza e le funzioni esponenz
 
 #tabella_funzioni_potenza_esponenziali
 
-== I logaritmi  
+== Logaritmi  
 
 Come già affermato nel teorema in @def_esponenziale, le funzioni esponenziali con una base $a$ diversa da 1, e con $a > 0$, sono biunivoche tra $RR$ ed $RR^(>0)$. Questo implica che, se $a$ e $b$ sono numeri reali strettamente positivi e $a != 1$, l'equazione:  
 $ a^x = b $  

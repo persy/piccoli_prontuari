@@ -3,14 +3,13 @@
 #import "figures.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
-#set math.equation(numbering: (..n) => {
-  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
-  })
+/* #set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 11pt, numbering("1", ..n))
+  }) */
 
 = Geometria analitica <geometria_analitica>
 
-#intro[// TODO
-]
+#intro[La geometria analitica studia le figure geometriche attraverso il linguaggio dell'algebra, associando a ogni punto del piano una coppia di coordinate e a ogni curva un'equazione. In questo capitolo si riprendono e sistematizzano i concetti fondamentali già incontrati in precedenza — coordinate cartesiane, distanza tra punti, luoghi geometrici — per poi studiare in dettaglio la retta e le principali coniche: circonferenza, parabola, ellisse e iperbole, sia in forma canonica sia come sezioni di un cono. Ampio spazio è dedicato alla determinazione delle equazioni di queste curve a partire da condizioni geometriche assegnate (passaggio per punti, tangenza, fasci), nonché al legame tra l'equazione generale di secondo grado in due incognite e il tipo di conica da essa rappresentata. Il capitolo si chiude con un cenno alle equazioni parametriche e alle disequazioni in due incognite, che estendono al piano cartesiano gli strumenti già visti per una sola variabile.]
 
 In precedenza, ci siamo avvalsi principalmente delle coordinate cartesiane per rappresentare i grafici di funzioni reali. In questo capitolo, approfondiremo l'argomento in modo più sistematico.
 

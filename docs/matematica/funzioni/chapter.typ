@@ -3,9 +3,9 @@
 #import "figures.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
-#set math.equation(numbering: (..n) => {
-  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
-  })
+/* #set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 11pt, numbering("1", ..n))
+  }) */
 
 = Funzioni <funzioni>
 
@@ -537,7 +537,7 @@ Va sottolineato che molti autori propongono proprio quest'ultima espressione com
 
 Le funzioni descritte in questo paragrafo rivestono un ruolo fondamentale in diverse applicazioni, in particolare sono largamente utilizzate in informatica. Tuttavia, la terminologia utilizzata non è uniformemente accettata: come di consueto, ci siamo attenuti alla nomenclatura stabilita dalle norme ISO.
 
-==== Le funzioni _floor_ e _ceil_
+==== Le funzioni _floor_ e _ceil_ <funzioni_floor_ceil>
 
 Dato un numero reale $x in RR$, esiste un unico intero $n$ tale che $n <= x < n + 1$. Questo valore rappresenta il più grande intero minore o uguale a $x$, indicato con $floor(x)$, che si legge come floor $x$. La maggior parte dei matematici lo definisce come _parte intera_ di $x$ e spesso lo rappresenta con le parentesi quadre $[x]$. Poiché in questo contesto utilizzeremo il termine parte intera con un significato diverso, eviteremo l'uso della notazione con parentesi quadre, ritenendola eccessivamente ambigua. La funzione $x |-> floor(x)$, definita su tutto l'insieme dei numeri reali $RR$, ha un grafico illustrato nella @funzione_floor.
 

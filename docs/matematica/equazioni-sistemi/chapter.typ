@@ -3,15 +3,13 @@
 #import "figures.typ": *
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
-#set math.equation(numbering: (..n) => {
-  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
-  })
+/* #set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 11pt, numbering("1", ..n))
+  }) */
 
-= Equazioni e sistemi <equazioni>
+= Equazioni e sistemi <equazioni_sistemi>
 
-#intro[
-//TODO
-]
+#intro[Risolvere un'equazione significa determinare i valori dell'incognita che rendono vera un'uguaglianza tra due espressioni, mentre un sistema richiede di trovarli simultaneamente per più equazioni. In questo capitolo si presentano dapprima i concetti comuni a tutte le equazioni in un'incognita — dominio, principi di equivalenza, forma normale — per poi trattare, in ordine crescente di complessità, le equazioni di primo e secondo grado, quelle di grado superiore (scomposizione in fattori, equazioni binomie, trinomie e reciproche), le equazioni razionali fratte, irrazionali e con valore assoluto. Nella seconda parte del capitolo l'attenzione si sposta sulle equazioni e sui sistemi con più incognite, con particolare riguardo ai sistemi lineari, risolvibili con i metodi di sostituzione, di Cramer o delle combinazioni lineari, per concludere con un cenno ai sistemi di grado superiore al primo.]
 
 == Equazioni in un'incognita
 
@@ -544,9 +542,9 @@ $ 17y = 23 $
 
 Risolvendo, deduciamo l'unica coppia soluzione: $(-5/17, 23/17)$.]
 
-==== Il metodo di Cramer
+==== Metodo di Cramer
 
-Il metodo di sostituzione è particolarmente efficiente e rapido, specialmente per sistemi con un numero limitato di equazioni. Pertanto, riteniamo che sia quasi sempre preferibile utilizzarlo. Tuttavia, vogliamo accennare al metodo di Cramer, limitandoci al caso di due equazioni in due incognite. Questo metodo acquisisce maggiore rilevanza nei sistemi di dimensioni più grandi, come verrà approfondito nella @sistemi_lineari_geometria_spaziale.
+Il metodo di sostituzione è particolarmente efficiente e rapido, specialmente per sistemi con un numero limitato di equazioni. Pertanto, riteniamo che sia quasi sempre preferibile utilizzarlo. Tuttavia, vogliamo accennare al metodo di Cramer, limitandoci al caso di due equazioni in due incognite. Questo metodo acquisisce maggiore rilevanza nei sistemi di dimensioni più grandi, come verrà approfondito nella @algebra_lineare_geometria_spaziale.
 
 #definizione(title: "Matrice quadrata di ordine 2 e determinante", label: <matrice_quadrata_ordine_2_det>)[ 
 Data una matrice quadrata di ordine 2 rappresentata dalla seguente tabella formata da quattro numeri reali $a$, $b$, $c$ e $d$:  
@@ -554,7 +552,7 @@ $ mat(a, b; c, d) $
 il suo determinante è definito dal valore $a d - b c$ e si indica come  
 $ "det" = mat(delim: "|", a, b; c, d) $]
 
-#definizione(title: "Regola di Cramer", label: <regola_cramer>)[
+#definizione(title: "Regola di Cramer", label: <def-regola-cramer>)[
 Consideriamo un sistema lineare costituito da due equazioni in due incognite:  
 $ cases(
   a x + b y = alpha, 
@@ -566,14 +564,13 @@ $ D = |a, b; c, d|, quad D_x = |alpha, b; beta, d|, quad D_y = |a, alpha; c, bet
 
 In base alla regola di Cramer:  
 - se $D != 0$, il sistema ammette un'unica soluzione data da: $ x = D_x / D, quad y = D_y / D $
-
 - se $D = 0$, con $D_x = D_y = 0$, il sistema è indeterminato  
 - se $D = 0$ ma $D_x != 0$ o $D_y != 0$, il sistema non ammette soluzioni]
 
 ==== Metodo delle combinazioni lineari
 Questo metodo diventa particolarmente utile per risolvere sistemi con molte equazioni e incognite. Esso costituisce la base della tecnica della riduzione a scala di Gauss. In sintesi, si tratta di trasformare il sistema originale in uno equivalente in cui ogni equazione successiva contiene un numero progressivamente ridotto di incognite.  
 
-Di seguito presentiamo un esempio applicativo, consapevoli che tale argomento verrà trattato, in modo sommario, nella @sistemi_lineari_geometria_spaziale.
+Di seguito presentiamo un esempio applicativo, consapevoli che tale argomento verrà trattato, in modo sommario, nella @algebra_lineare_geometria_spaziale.
 
 #esempio[Consideriamo il sistema lineare con tre incognite:  
 $ cases(

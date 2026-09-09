@@ -107,10 +107,9 @@ caption: []
 
         {
           plot.add(
-            domain: (-45, 400),        
+            domain: (-2, 12),        
             style: (stroke: (paint: accent.mat)),             
-            x => calc.sin(x * 1deg),
-            samples: 200
+            x => calc.sin(x * 1deg),            
           )
         }
       )
@@ -1020,7 +1019,7 @@ caption: []
           // Annotazioni, frecce di spostamento e testi
           plot.annotate({
             // Punto P(0,1) e sua etichetta
-            circle((0, 1), radius: 0.03, fill: accent.mat, stroke: none)
+            circle((0, 1), radius: 1pt, fill: accent.mat, stroke: none)
             content((0.1, 1.1), [P], anchor: "south-west")
           })
         }
@@ -1205,7 +1204,7 @@ cetz.canvas({
         line((0, -4), (0, 4), stroke: (dash: "dotted", thickness: 0.8pt, paint: accent.mat.darken(50%)))
         
         // Vertice V
-        circle((0, 0), radius: 0.08, fill: accent.mat, stroke: none)
+        circle((0, 0), radius: 1pt, fill: accent.mat, stroke: none)
         content((0.3, 0.1), anchor: "west", $V$)
         
         // Angolo al vertice
@@ -1455,7 +1454,7 @@ cetz.canvas({
     // Intersezioni geometriche reali
     if z0 == 0 {
       if a < 1.0 {
-        circle(proj(0,0,0), radius: 0.04, fill: accent, stroke: none)
+        circle(proj(0,0,0), radius: 1pt, fill: accent, stroke: none)
       } else {
         let m = calc.sqrt(calc.max(0.0, a * a - 1.0))
         let x_h = H / a
@@ -1665,23 +1664,23 @@ caption: []
                     
           plot.annotate({
             // Punto P
-            circle((3/4, 3/4), radius: 0.03, fill: accent.mat, stroke: none)
+            circle((3/4, 3/4), radius: 1pt, fill: accent.mat, stroke: none)
             content((3/4, 3/4), [$P$], anchor: "south-west", padding: 2pt)
 
             // Punto M
-            circle((1/8, 1/8), radius: 0.03, fill: accent.mat, stroke: none)
+            circle((1/8, 1/8), radius: 1pt, fill: accent.mat, stroke: none)
             content((1/8, 1/8), [$M$], anchor: "south-west", padding: 2pt)
 
             // Punto C
-            circle((-1/2, -1/2), radius: 0.03, fill: accent.mat, stroke: none)
+            circle((-1/2, -1/2), radius: 1pt, fill: accent.mat, stroke: none)
             content((-1/2, -1/2), [$C$], anchor: "north-east", padding: 2pt)
 
             // Punto A
-            circle((1, 0), radius: 0.03, fill: accent.mat, stroke: none)
+            circle((1, 0), radius: 1pt, fill: accent.mat, stroke: none)
             content((1, 0), [$A$], anchor: "south-west", padding: 2pt)
 
             // Punto B
-            circle((0, 1), radius: 0.03, fill: accent.mat, stroke: none)
+            circle((0, 1), radius: 1pt, fill: accent.mat, stroke: none)
             content((0, 1), [$B$], anchor: "south-west", padding: 2pt)
           })
         }
@@ -1731,19 +1730,19 @@ caption: []
                     
           plot.annotate({
             // Punto O
-            circle((2, -1), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((2, -1), radius: 1pt, fill: accent.mat, stroke: none)
             content((2, -1), [$O$], anchor: "south-west", padding: 2pt)
 
             // Punto A
-            circle((0, 0), radius: 0.03, fill: accent.mat, stroke: none)
+            circle((0, 0), radius: 1pt, fill: accent.mat, stroke: none)
             content((0, 0), [$A$], anchor: "south-east", padding: 2pt)
 
             // Punto B
-            circle((1, 1), radius: 0.03, fill: accent.mat, stroke: none)
+            circle((1, 1), radius: 1pt, fill: accent.mat, stroke: none)
             content((1, 1), [$B$], anchor: "south-east", padding: 1pt)
 
             // Punto C
-            circle((4, 0), radius: 0.03, fill: accent.mat, stroke: none)
+            circle((4, 0), radius: 1pt, fill: accent.mat, stroke: none)
             content((4, 0), [$C$], anchor: "south-west", padding: 2pt)
           })
         }
@@ -1848,19 +1847,19 @@ caption: []
                     
           plot.annotate({
             // Punto O_1
-            circle((1, 1/2), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((1, 1/2), radius: 1pt, fill: accent.mat, stroke: none)
             content((1, 1/2), [$O_1$], anchor: "south-east", padding: 2pt)
 
             // Punto O_2
-            circle((4.6, 2.3), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((4.6, 2.3), radius: 1pt, fill: accent.mat, stroke: none)
             content((4.6, 2.3), [$O_2$], anchor: "south-east", padding: 2pt)
 
             // Punto P_1
-            circle((0.925, 2.13), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((0.925, 2.13), radius: 1pt, fill: accent.mat, stroke: none)
             content((0.925, 2.13), [$P_1$], anchor: "south-east", padding: 3pt)
 
             // Punto P_2
-            circle((4.63, 0.65), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((4.63, 0.65), radius: 1pt, fill: accent.mat, stroke: none)
             content((4.63, 0.65), [$P_2$], anchor: "south-east", padding: 2pt)
 
             // Retta r, s e t
@@ -1950,19 +1949,19 @@ caption: []
                     
           plot.annotate({
             // Punto O_1
-            circle((0.1, 1.8), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((0.1, 1.8), radius: 1pt, fill: accent.mat, stroke: none)
             content((0.1, 1.8), [$O_1$], anchor: "south-west", padding: 2pt)
 
             // Punto O_2
-            circle((1.9, 1.2), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((1.9, 1.2), radius: 1pt, fill: accent.mat, stroke: none)
             content((1.9, 1.2), [$O_2$], anchor: "south-west", padding: 2pt)
 
             // Punto A
-            circle((1.31, 2.42), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((1.31, 2.42), radius: 1pt, fill: accent.mat, stroke: none)
             content((1.31, 2.42), [$A$], anchor: "south-west", padding: 2pt)
 
             // Punto P
-            circle((1, 1.5), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((1, 1.5), radius: 1pt, fill: accent.mat, stroke: none)
             content((1, 1.5), [$P$], anchor: "north-west", padding: 2pt)
 
             // r e s
@@ -2034,15 +2033,15 @@ caption: []
                     
           plot.annotate({
             // Centro O
-            circle((0, 5), radius: 0.1, fill: accent.mat, stroke: none)
+            circle((0, 5), radius: 1pt, fill: accent.mat, stroke: none)
             content((0.3, 5), [$O$], anchor: "south-west", padding: 3pt)
 
             // Punto P (Tangenza)
-            circle((2, 1), radius: 0.1, fill: accent.mat, stroke: none)
+            circle((2, 1), radius: 1pt, fill: accent.mat, stroke: none)
             content((2, 1), [$P$], anchor: "south-east", padding: 10pt)
 
             // Punto A
-            circle((4, 3), radius: 0.1, fill: accent.mat, stroke: none)
+            circle((4, 3), radius: 1pt, fill: accent.mat, stroke: none)
             content((4, 3), [$A$], anchor: "south-east", padding: 10pt)
 
             // Etichetta della retta r
@@ -2131,27 +2130,27 @@ caption: []
           plot.annotate({
 
             // Punto A
-            circle((2, 1), radius: 0.1, fill: accent.mat, stroke: none)
+            circle((2, 1), radius: 1pt, fill: accent.mat, stroke: none)
             content((2, 1), [$A$], anchor: "north-west", padding: 3pt)
 
             // Punto B
-            circle((4, 2), radius: 0.1, fill: accent.mat, stroke: none)
+            circle((4, 2), radius: 1pt, fill: accent.mat, stroke: none)
             content((4, 2), [$B$], anchor: "north-west", padding: 3pt)
 
             // Punto di tangenza inferiore T1
-            circle((-calc.sqrt(2), -2 * calc.sqrt(2)), radius: 0.1, fill: accent.mat, stroke: none)
+            circle((-calc.sqrt(2), -2 * calc.sqrt(2)), radius: 1pt, fill: accent.mat, stroke: none)
             content((-calc.sqrt(2), -2 * calc.sqrt(2)), [$T_1$], anchor: "south-east", padding: 3pt)
 
             // Punto di tangenza superiore T2
-            circle((calc.sqrt(2), 2 * calc.sqrt(2)), radius: 0.1, fill: accent.mat, stroke: none)
+            circle((calc.sqrt(2), 2 * calc.sqrt(2)), radius: 1pt, fill: accent.mat, stroke: none)
             content((calc.sqrt(2), 2 * calc.sqrt(2)), [$T_2$], anchor: "south-east", padding: 4pt)
 
             // Origine O_1
-            circle(((15+5 * calc.sqrt(2))/3, - (15 + 20 * calc.sqrt(2))/6), radius: 0.05, fill: accent.mat, stroke: none)
+            circle(((15+5 * calc.sqrt(2))/3, - (15 + 20 * calc.sqrt(2))/6), radius: 1pt, fill: accent.mat, stroke: none)
             content(((15+5 * calc.sqrt(2))/3, - (15 + 20 * calc.sqrt(2))/6), [$O_1$], anchor: "south-west", padding: 5pt)
 
             // Centro della circonferenza O2
-            circle(((15-5 * calc.sqrt(2))/3, - (15 - 20 * calc.sqrt(2))/6), radius: 0.05, fill: accent.mat, stroke: none)
+            circle(((15-5 * calc.sqrt(2))/3, - (15 - 20 * calc.sqrt(2))/6), radius: 1pt, fill: accent.mat, stroke: none)
             content(((15-5 * calc.sqrt(2))/3, - (15 - 20 * calc.sqrt(2))/6), [$O_2$], anchor: "south-west", padding: 5pt)
           })
         }
@@ -2244,11 +2243,11 @@ caption: []
           plot.annotate({
 
           // Punto limite L1 (valore esatto)
-          circle((((7 + 3 * calc.sqrt(5)) / (3 + calc.sqrt(5))), 0), radius: 0.07, fill: accent.mat, stroke: none)
+          circle((((7 + 3 * calc.sqrt(5)) / (3 + calc.sqrt(5))), 0), radius: 1pt, fill: accent.mat, stroke: none)
           content((((7 + 3 * calc.sqrt(5)) / (3 + calc.sqrt(5))), 0), [$L_1$], anchor: "south-west", padding: 3pt)
 
           // Punto limite L2 (valore esatto)
-          circle((((7 - 3 * calc.sqrt(5)) / (3 - calc.sqrt(5))), 0), radius: 0.057, fill: accent.mat, stroke: none)
+          circle((((7 - 3 * calc.sqrt(5)) / (3 - calc.sqrt(5))), 0), radius: 1pt, fill: accent.mat, stroke: none)
           content((((7 - 3 * calc.sqrt(5)) / (3 - calc.sqrt(5))), 0), [$L_2$], anchor: "south-east", padding: 3pt)
 
 
@@ -2354,13 +2353,13 @@ caption: []
             /* content((0, 1.2), [$k -> oo$], anchor: "south", padding: 2pt)
             content((2, 2.5), [$k = 0$], anchor: "south", padding: 2pt) */
             // Punti base del fascio su asse y (0, 1) e (0, -1)
-            circle((0, 1), radius: 0.07, fill: accent.mat, stroke: none)
+            circle((0, 1), radius: 1pt, fill: accent.mat, stroke: none)
             content((0, 1), [$P_1$], anchor: "south-west", padding: 2pt)
-            circle((0, -1), radius: 0.07, fill: accent.mat, stroke: none)
+            circle((0, -1), radius: 1pt, fill: accent.mat, stroke: none)
             content((0, -1), [$P_2$], anchor: "north-west", padding: 2pt)
-            circle((0, 0), radius: 0.07, fill: accent.mat, stroke: none)
+            circle((0, 0), radius: 1pt, fill: accent.mat, stroke: none)
             content((0, 0), [$C_1$], anchor: "south-west", padding: 3pt)
-            circle((2, 0), radius: 0.07, fill: accent.mat, stroke: none)
+            circle((2, 0), radius: 1pt, fill: accent.mat, stroke: none)
             content((2, 0), [$C_2$], anchor: "south-west", padding: 3pt)
           })
         }
@@ -2422,13 +2421,13 @@ caption: []
             line((1, -6), (1, 6), stroke: (thickness: 1pt, paint: accent.mat, dash: "dotted"))
             
             
-            circle((1, 0), radius: 0.07, fill: accent.mat, stroke: none)
+            circle((1, 0), radius: 1pt, fill: accent.mat, stroke: none)
             content((1, 0), [$T$], anchor: "south-west", padding: 7pt)
 
-            circle((0, 0), radius: 0.07, fill: accent.mat, stroke: none)
+            circle((0, 0), radius: 1pt, fill: accent.mat, stroke: none)
             content((0, 0), [$C_1$], anchor: "south-east", padding: 7pt)
 
-            circle((3, 0), radius: 0.07, fill: accent.mat, stroke: none)
+            circle((3, 0), radius: 1pt, fill: accent.mat, stroke: none)
             content((3, 0), [$C_2$], anchor: "south-west", padding: 7pt)
 
 
@@ -2473,12 +2472,12 @@ caption: []
             
             // Vertice V(-4,4)
             let V = (-4.0, 4.0)
-            circle(V, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(V, radius: 1pt, fill: accent.mat, stroke: none)
             content(V, [$V$], anchor: "south-east", padding: 3pt)
 
             // Fuoco F ruotato e traslato
             let F = (-4 * sin45 - 4, 4 * cos45 + 4)
-            circle(F, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(F, radius: 1pt, fill: accent.mat, stroke: none)
             content(F, [$F$], anchor: "south", padding: 7pt)
 
             // Asse di simmetria traslato
@@ -2490,14 +2489,14 @@ caption: []
 
             // Intersezione Asse-Direttrice S traslata
             let S = (4 * sin45 - 4, -4 * cos45 + 4)
-            circle(S, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(S, radius: 1pt, fill: accent.mat, stroke: none)
             content(S, [$S$], anchor: "north-west", padding: 3pt)
 
             // Punto P(4,1) ruotato e traslato
             let P = (4 * cos45 - 1 * sin45 - 4, 4 * sin45 + 1 * cos45 + 4)
             let H = (4 * cos45 - (-4) * sin45 - 4, 4 * sin45 + (-4) * cos45 + 4) 
-            circle(P, radius: 0.1, fill: accent.mat, stroke: none)
-            circle(H, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(P, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(H, radius: 1pt, fill: accent.mat, stroke: none)
             line(P, H, stroke: (thickness: 0.6pt, paint: black, dash: "dotted"))
             line(P, F, stroke: (thickness: 0.6pt, paint: black, dash: "dotted"))
             content(P, [$P$], anchor: "south-east", padding: 3pt)
@@ -2506,8 +2505,8 @@ caption: []
             // Punto P'(-4,1) ruotato e traslato
             let Pp = (-4 * cos45 - 1 * sin45 - 4, -4 * sin45 + 1 * cos45 + 4)
             let Hp = (-4 * cos45 - (-4) * sin45 - 4, -4 * sin45 + (-4) * cos45 + 4)
-            circle(Pp, radius: 0.1, fill: accent.mat, stroke: none)
-            circle(Hp, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(Pp, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(Hp, radius: 1pt, fill: accent.mat, stroke: none)
             line(Pp, Hp, stroke: (thickness: 0.6pt, paint: black, dash: "dotted"))
             line(Pp, F, stroke: (thickness: 0.6pt, paint: black, dash: "dotted"))
             content(Pp, [$P'$], anchor: "south-east", padding: 3pt)
@@ -2606,11 +2605,11 @@ caption: []
             line(V, Vp, stroke: (thickness: 1pt, paint: accent.mat, dash: "dashed"))
 
             // Vertice V(0,0)
-            circle(V, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(V, radius: 1pt, fill: accent.mat, stroke: none)
             content(V, [$V$], anchor: "north-west", padding: 1pt)
             
             // Vertice V'(3,-1)
-            circle(Vp, radius: 0.05, fill: accent.mat.darken(20%), stroke: none)
+            circle(Vp, radius: 1pt, fill: accent.mat.darken(20%), stroke: none)
             content(Vp, [$V'$], anchor: "north", padding: 2pt)
           })
         }
@@ -2656,17 +2655,17 @@ caption: []
             let T2 = (0.0, 3.0)  // Punto di tangenza per m = -4
 
             // Punto esterno P
-            circle(P, radius: 0.06, fill: accent.mat, stroke: none)
+            circle(P, radius: 1pt, fill: accent.mat, stroke: none)
             content(P, [$P$], anchor: "west", padding: 4pt)
 
             // Vertice V
             
 
             // Punti di tangenza T1 e T2
-            circle(T1, radius: 0.05, fill: black, stroke: none)
+            circle(T1, radius: 1pt, fill: black, stroke: none)
             content(T1, [$T_1$], anchor: "west", padding: 3pt)
             
-            circle(T2, radius: 0.05, fill: black, stroke: none)
+            circle(T2, radius: 1pt, fill: black, stroke: none)
             content(T2, [$T_2$], anchor: "west", padding: 3pt)
           })
         }
@@ -2732,11 +2731,11 @@ caption: []
             content((2.5, 1.55), [$f$], anchor: "north")
 
             // Fuoco F
-            circle(F, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(F, radius: 1pt, fill: accent.mat, stroke: none)
             content(F, [$F$], anchor: "east", padding: 4pt)
 
             // Punto P(p, q)
-            circle(P, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(P, radius: 1pt, fill: accent.mat, stroke: none)
             content(P, [$P(p, q)$], anchor: "west", padding: 5pt)
 
             // Angolo alpha: racchiuso tra la normale e il segmento FP
@@ -2794,30 +2793,30 @@ caption: []
 
             // Centro C
             let C = (0.0, 0.0)
-            circle(C, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(C, radius: 1pt, fill: accent.mat, stroke: none)
             content(C, [$C$], anchor: "south-west", padding: 1pt)
 
             // Fuochi F1 e F2 ruotati
             let F1 = (-c * cos30, -c * sin30)
             let F2 = (c * cos30, c * sin30)
-            circle(F1, radius: 0.05, fill: accent.mat, stroke: none)
-            circle(F2, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(F1, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(F2, radius: 1pt, fill: accent.mat, stroke: none)
             content(F1, [$F_1$], anchor: "south-west", padding: 1pt)
             content(F2, [$F_2$], anchor: "north-east", padding: 1pt)
 
             // Vertici sull'asse maggiore (V1, V2)
             let V1 = (-3 * cos30, -3 * sin30)
             let V2 = (3 * cos30, 3 * sin30)
-            circle(V1, radius: 0.05, fill: accent.mat, stroke: none)
-            circle(V2, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(V1, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(V2, radius: 1pt, fill: accent.mat, stroke: none)
             content(V1, [$V_1$], anchor: "east", padding: 1pt)
             content(V2, [$V_2$], anchor: "west", padding: 1pt)
 
             // Vertici sull'asse minore (V3, V4)
             let V3 = (1.5 * sin30, -1.5 * cos30)
             let V4 = (-1.5 * sin30, 1.5 * cos30)
-            circle(V3, radius: 0.05, fill: accent.mat, stroke: none)
-            circle(V4, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(V3, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(V4, radius: 1pt, fill: accent.mat, stroke: none)
             content(V3, [$V_3$], anchor: "north-west", padding: 1pt)
             content(V4, [$V_4$], anchor: "south-east", padding: 1pt)
 
@@ -2831,7 +2830,7 @@ caption: []
             let px = 3 * calc.cos(120deg)
             let py = 1.5 * calc.sin(120deg)
             let P = (px * cos30 - py * sin30, px * sin30 + py * cos30)
-            circle(P, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(P, radius: 1pt, fill: accent.mat, stroke: none)
             content(P, [$P$], anchor: "south", padding: 4pt)
 
             // Segmenti focali PF1 e PF2
@@ -2905,22 +2904,22 @@ caption: []
 
             // Centro C
             let C = (0.0, 0.0)
-            circle(C, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(C, radius: 1pt, fill: accent.mat, stroke: none)
             content(C, [$C$], anchor: "north", padding: 7pt)
 
             // Fuochi F1 e F2 ruotati lungo l'asse principale
             let F1 = (-c * cos45, -c * sin45)
             let F2 = (c * cos45, c * sin45)
-            circle(F1, radius: 0.1, fill: accent.mat, stroke: none)
-            circle(F2, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(F1, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(F2, radius: 1pt, fill: accent.mat, stroke: none)
             content(F1, [$F_1$], anchor: "east", padding: 5pt)
             content(F2, [$F_2$], anchor: "west", padding: 7pt)
 
             // Vertici reali V1 e V2 ruotati (distanza a = sqrt(2) ~ 1.414)
             let V1 = (-a * cos45, -a * sin45)
             let V2 = (a * cos45, a * sin45)
-            circle(V1, radius: 0.1, fill: accent.mat, stroke: none)
-            circle(V2, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(V1, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(V2, radius: 1pt, fill: accent.mat, stroke: none)
             content(V1, [$V_1$], anchor: "south-west", padding: 3pt)
             content(V2, [$V_2$], anchor: "north-east", padding: 3pt)
 
@@ -2950,7 +2949,7 @@ caption: []
             let px = a * calc.cosh(1.0)
             let py = b * calc.sinh(1.0)
             let P = (px * cos45 - py * sin45, px * sin45 + py * cos45)
-            circle(P, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(P, radius: 1pt, fill: accent.mat, stroke: none)
             content(P, [$P$], anchor: "south-east", padding: 4pt)
 
             // Segmenti focali PF1 e PF2 che collegano il punto ai fuochi
@@ -3022,22 +3021,22 @@ caption: []
 
             // Centro C
             /* let C = (0.0, 0.0)
-            circle(C, radius: 0.1, fill: black, stroke: none)
+            circle(C, radius: 1pt, fill: black, stroke: none)
             content(C, [$C$], anchor: "north-east", padding: 4pt) */
 
             // Fuochi F1 e F2
             let F1 = (-c * cos_a, -c * sin_a)
             let F2 = (c * cos_a, c * sin_a)
-            circle(F1, radius: 0.1, fill: accent.mat, stroke: none)
-            circle(F2, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(F1, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(F2, radius: 1pt, fill: accent.mat, stroke: none)
             /* content(F1, [$F_1$], anchor: "south-east", padding: 3pt)
             content(F2, [$F_2$], anchor: "north-west", padding: 3pt) */
 
             // Vertici reali V1 e V2
             let V1 = (-a * cos_a, -a * sin_a)
             let V2 = (a * cos_a, a * sin_a)
-            circle(V1, radius: 0.1, fill: black, stroke: none)
-            circle(V2, radius: 0.1, fill: black, stroke: none)
+            circle(V1, radius: 1pt, fill: black, stroke: none)
+            circle(V2, radius: 1pt, fill: black, stroke: none)
             content(V2, [$V_2$], anchor: "south-west", padding: 15pt)
 
             // Asintoti
@@ -3056,14 +3055,14 @@ caption: []
 
             // PUNTO B (Intersezione tangente e asintoto a1)            
             let B = (a * cos_a - a * sin_a, a * sin_a + a * cos_a)
-            circle(B, radius: 0.1, fill: black, stroke: none)
+            circle(B, radius: 1pt, fill: black, stroke: none)
             content(B, [$B$], anchor: "south-east", padding: 6pt)
 
             // Punto P e segmenti focali
             /* let px = a * calc.cosh(1.2)
             let py = b * calc.sinh(1.2)
             let P = (px * cos_a - py * sin_a, px * sin_a + py * cos_a)
-            circle(P, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(P, radius: 1pt, fill: accent.mat, stroke: none)
             line(P, F1, stroke: (thickness: 0.8pt, paint: black, dash: "dotted"))
             line(P, F2, stroke: (thickness: 0.8pt, paint: black, dash: "dotted"))
             content(P, [$P$], anchor: "west", padding: 4pt) */
@@ -3137,22 +3136,22 @@ caption: []
 
             // Centro C
             /* let C = (0.0, 0.0)
-            circle(C, radius: 0.1, fill: black, stroke: none)
+            circle(C, radius: 1pt, fill: black, stroke: none)
             content(C, [$C$], anchor: "north-east", padding: 4pt) */
 
             // Fuochi F1 e F2
             let F1 = (-c * cos_a, -c * sin_a)
             let F2 = (c * cos_a, c * sin_a)
-            circle(F1, radius: 0.1, fill: accent.mat, stroke: none)
-            circle(F2, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(F1, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(F2, radius: 1pt, fill: accent.mat, stroke: none)
             /* content(F1, [$F_1$], anchor: "south-east", padding: 3pt)
             content(F2, [$F_2$], anchor: "north-west", padding: 3pt) */
 
             // Vertici reali V1 e V2
             let V1 = (-a * cos_a, -a * sin_a)
             let V2 = (a * cos_a, a * sin_a)
-            circle(V1, radius: 0.1, fill: black, stroke: none)
-            circle(V2, radius: 0.1, fill: black, stroke: none)
+            circle(V1, radius: 1pt, fill: black, stroke: none)
+            circle(V2, radius: 1pt, fill: black, stroke: none)
             content(V2, [$V_2$], anchor: "south-west", padding: 15pt)
 
             // Asintoti
@@ -3171,14 +3170,14 @@ caption: []
 
             // PUNTO B (Intersezione tangente e asintoto a1)            
             let B = (a * cos_a - a * sin_a, a * sin_a + a * cos_a)
-            circle(B, radius: 0.1, fill: black, stroke: none)
+            circle(B, radius: 1pt, fill: black, stroke: none)
             content(B, [$B$], anchor: "north-east", padding: 6pt)
 
             // Punto P e segmenti focali
             /* let px = a * calc.cosh(1.2)
             let py = b * calc.sinh(1.2)
             let P = (px * cos_a - py * sin_a, px * sin_a + py * cos_a)
-            circle(P, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(P, radius: 1pt, fill: accent.mat, stroke: none)
             line(P, F1, stroke: (thickness: 0.8pt, paint: black, dash: "dotted"))
             line(P, F2, stroke: (thickness: 0.8pt, paint: black, dash: "dotted"))
             content(P, [$P$], anchor: "west", padding: 4pt) */
@@ -3385,7 +3384,7 @@ caption: []
           
           // Origine degli assi
           plot.annotate({
-            circle((0,0), radius: 0.05, fill: black, stroke: none)
+            circle((0,0), radius: 1pt, fill: black, stroke: none)
             content((0,0), [$O$], anchor: "north-east", padding: 3pt)
           })
         }
@@ -3476,17 +3475,17 @@ plot.plot(
           plot.annotate({
             // Centro C
             let C = (cx, cy)
-            circle(C, radius: 0.05, fill: black, stroke: none)
+            circle(C, radius: 1pt, fill: black, stroke: none)
             content(C, [$C$], anchor: "south-west", padding: 1pt)
 
             // Fuoco F1 (0, 2)
             let F1 = (0.0, 2.0)
-            circle(F1, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(F1, radius: 1pt, fill: accent.mat, stroke: none)
             content(F1, [$F_1$], anchor: "south-west", padding: 1pt)
 
             // Fuoco F2 (2, 2)
             let F2 = (2.0, 2.0)
-            circle(F2, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(F2, radius: 1pt, fill: accent.mat, stroke: none)
             content(F2, [$F_2$], anchor: "south-east", padding: 1pt)
           })
         }
@@ -3538,17 +3537,17 @@ plot.plot(
 
             // Centro C
             let C = (cx, cy)
-            circle(C, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(C, radius: 1pt, fill: accent.mat, stroke: none)
             content(C, [$C$], anchor: "south-east", padding: 1pt)
 
             // Fuoco F1 posizionato senza approssimazioni
             let F1 = (cx - c, cy)
-            circle(F1, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(F1, radius: 1pt, fill: accent.mat, stroke: none)
             content(F1, [$F_1$], anchor: "south-east", padding: 1pt)
 
             // Fuoco F2 posizionato senza approssimazioni
             let F2 = (cx + c, cy)
-            circle(F2, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(F2, radius: 1pt, fill: accent.mat, stroke: none)
             content(F2, [$F_2$], anchor: "south-west", padding: 1pt)
           })
         }
@@ -3599,14 +3598,14 @@ plot.plot(
 
             // Centro C
             let C = (cx, cy)
-            circle(C, radius: 0.05, fill: black, stroke: none)
+            circle(C, radius: 1pt, fill: black, stroke: none)
             content(C, [$C$], anchor: "south", padding: 4pt)
 
             // Fuochi
             let F1 = (cx - c, cy)
             let F2 = (cx + c, cy)
-            circle(F1, radius: 0.05, fill: accent.mat, stroke: none)
-            circle(F2, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(F1, radius: 1pt, fill: accent.mat, stroke: none)
+            circle(F2, radius: 1pt, fill: accent.mat, stroke: none)
             content(F1, [$F_1$], anchor: "east", padding: 2pt)
             content(F2, [$F_2$], anchor: "west", padding: 2pt)
 
@@ -3692,7 +3691,7 @@ plot.plot(
           plot.annotate({
             // Centro C
             let C = (cx, cy)
-            circle(C, radius: 0.03, fill: accent.mat, stroke: none)
+            circle(C, radius: 1pt, fill: accent.mat, stroke: none)
             content(C, [$C$], anchor: "north-west", padding: 1pt)
 
             // Asse x' (inclinato di 45° passante per l'origine)
@@ -3757,22 +3756,22 @@ plot.plot(
 
           plot.annotate({
             // Punto A(0,0)
-            circle((xa, 0), radius: 0.04, fill: black, stroke: none)
+            circle((xa, 0), radius: 1pt, fill: black, stroke: none)
             content((xa, 0), [$A$], anchor: "south-east", padding: 1pt)
 
             // Punto B(2,0)
-            circle((xb, 0), radius: 0.04, fill: black, stroke: none)
+            circle((xb, 0), radius: 1pt, fill: black, stroke: none)
             content((xb, 0), [$B$], anchor: "south-east", padding: 1pt)
 
             // Centro C(8/3, 0)
             let C = (cx, cy)
-            circle(C, radius: 0.04, fill: accent.mat, stroke: none)
+            circle(C, radius: 1pt, fill: accent.mat, stroke: none)
             content(C, [$C$], anchor: "south", padding: 1.5pt)
             
             // Punto generico P sulla circonferenza per mostrare il vincolo AP = k * BP
             let p_angle = 60deg
             let P = (cx + r * calc.cos(p_angle), cy + r * calc.sin(p_angle))
-            circle(P, radius: 0.04, fill: black, stroke: none)
+            circle(P, radius: 1pt, fill: black, stroke: none)
             content(P, [$P$], anchor: "south-west", padding: 2pt)
             
             // Segmenti AP e BP
@@ -3830,17 +3829,17 @@ plot.plot(
 
             // Centro C(-1, 0)
             let C = (cx, cy)
-            circle(C, radius: 0.05, fill: black, stroke: none)
+            circle(C, radius: 1pt, fill: black, stroke: none)
             content(C, [$C$], anchor: "north-east", padding: 4pt)
 
             // Fuoco F1(-5, 0)
             let F1 = (cx - c, cy)
-            circle(F1, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(F1, radius: 1pt, fill: accent.mat, stroke: none)
             content(F1, [$F_1$], anchor: "south-east", padding: 4pt)
 
             // Fuoco F2(3, 0)
             let F2 = (cx + c, cy)
-            circle(F2, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(F2, radius: 1pt, fill: accent.mat, stroke: none)
             content(F2, [$F_2$], anchor: "south-west", padding: 4pt)
 
             // Direttrice d (x = 0, coincide con l'asse y)
@@ -3857,7 +3856,7 @@ plot.plot(
             let py = cy + b * calc.sinh(t_p)
             let P = (px, py)
             
-            circle(P, radius: 0.1, fill: accent.mat, stroke: none)
+            circle(P, radius: 1pt, fill: accent.mat, stroke: none)
             content(P, [$P$], anchor: "west", padding: 5pt)
 
             // Segmenti PF1 e PF2 (collegamenti con i fuochi)
@@ -3867,7 +3866,7 @@ plot.plot(
             // Segmento perpendicolare alla direttrice d' (proiezione H su x = -2)
             let H = (-2.0, py)
             line(P, H, stroke: (thickness: 1pt, paint: accent.mat.darken(20%), dash: "dotted"))
-            circle(H, radius: 0.03, fill: gray, stroke: none)
+            circle(H, radius: 1pt, fill: gray, stroke: none)
             content(H, [$H$], anchor: "east", padding: 5pt)
 
 
@@ -3919,15 +3918,15 @@ plot.plot(
             let F2 = (cx + c, cy)
 
             // Centro C(4, 0)
-            circle((cx, cy), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((cx, cy), radius: 1pt, fill: accent.mat, stroke: none)
             content((cx, cy), [$C$], anchor: "south", padding: 5pt)
 
             // Fuoco F1(3, 0)
-            circle(F1, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(F1, radius: 1pt, fill: accent.mat, stroke: none)
             content(F1, [$F_1$], anchor: "south", padding: 4pt)
 
             // Fuoco F2(5, 0)
-            circle(F2, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(F2, radius: 1pt, fill: accent.mat, stroke: none)
             content(F2, [$F_2$], anchor: "south", padding: 4pt)
 
             // Direttrice d (x = 0, asse y)
@@ -3944,7 +3943,7 @@ plot.plot(
             let py = cy + b * calc.sin(p_angle)
             let P = (px, py)
             
-            circle(P, radius: 0.05, fill: accent.mat, stroke: none)
+            circle(P, radius: 1pt, fill: accent.mat, stroke: none)
             content(P, [$P$], anchor: "south-west", padding: 3pt)
 
             // Segmenti PF1 e PF2 (collegamenti con i fuochi)
@@ -3954,7 +3953,7 @@ plot.plot(
             // Segmento orizzontale perpendicolare alla direttrice d' (proiezione H su x = 8)
             let H = (8.0, py)
             line(P, H, stroke: (thickness: 1pt, paint: accent.mat.darken(20%), dash: "dotted"))
-            circle(H, radius: 0.03, fill: accent.mat, stroke: none)
+            circle(H, radius: 1pt, fill: accent.mat, stroke: none)
             content(H, [$H$], anchor: "west", padding: 2pt)
           })
         }
@@ -4084,12 +4083,12 @@ plot.plot(
 
           plot.annotate({
             // Centro C(1,0) dell'iperbole completa
-            circle((cx, cy), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((cx, cy), radius: 1pt, fill: accent.mat, stroke: none)
             content((cx, cy), [$C$], anchor: "south", padding: 5pt)
 
             // Vertici reali dell'iperbole da cui partono i rami
-            circle((0, 0), radius: 0.05, fill: accent.mat, stroke: none)
-            circle((2, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((0, 0), radius: 1pt, fill: accent.mat, stroke: none)
+            circle((2, 0), radius: 1pt, fill: accent.mat, stroke: none)
             
             // Asintoti tratteggiati (solo nella regione y >= 0)
             line((cx, cy), (4.5, 3.5), stroke: (thickness: 0.7pt, paint: accent.mat, dash: "dashed"))
@@ -4137,12 +4136,12 @@ plot.plot(
 
           plot.annotate({
             // Centro C(0,1)
-            circle((cx, cy), radius: 0.04, fill: accent.mat, stroke: none)
+            circle((cx, cy), radius: 1pt, fill: accent.mat, stroke: none)
             content((cx, cy), [$C$], anchor: "south-west", padding: 2pt)
 
             // Estremi del diametro base della semicirconferenza
-            circle((-1.0, 1.0), radius: 0.04, fill: accent.mat, stroke: none)
-            circle((1.0, 1.0), radius: 0.04, fill: accent.mat, stroke: none)
+            circle((-1.0, 1.0), radius: 1pt, fill: accent.mat, stroke: none)
+            circle((1.0, 1.0), radius: 1pt, fill: accent.mat, stroke: none)
             
             // Linea tratteggiata di supporto y = 1
             line((-2.5, 1.0), (2.5, 1.0), stroke: (thickness: 0.7pt, paint: accent.mat, dash: "dashed"))
@@ -4215,7 +4214,7 @@ plot.plot(
             // x(t1) = x(t2) e y(t1) = y(t2), che fornisce il punto (-8/27, -2/27)
             let nx = -8.0 / 27.0
             let ny = -2.0 / 27.0
-            circle((nx, ny), radius: 0.04, fill: black, stroke: none)
+            circle((nx, ny), radius: 1pt, fill: black, stroke: none)
 
           })
         }
@@ -4290,9 +4289,9 @@ plot.plot(
           // Annotazioni interne per i punti notevoli e il testo
           plot.annotate({
             // Intercetta asse y (0, 2)
-            circle((0, 2), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((0, 2), radius: 1pt, fill: accent.mat, stroke: none)
             // Intercetta asse x (3, 0)
-            circle((3, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((3, 0), radius: 1pt, fill: accent.mat, stroke: none)
      
 
           })
@@ -4340,11 +4339,11 @@ plot.plot(
 
           plot.annotate({
             // Intercetta asse y (0, 0.5)
-            circle((0, 0.5), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((0, 0.5), radius: 1pt, fill: accent.mat, stroke: none)
 
 
             // Intercetta asse x (-1, 0)
-            circle((-1, 0), radius: 0.05, fill: accent.mat, stroke: none)
+            circle((-1, 0), radius: 1pt, fill: accent.mat, stroke: none)
 
             
 
@@ -4425,7 +4424,7 @@ plot.plot(
 
           plot.annotate({
             // Centro C(-2, -1)
-            circle((cx, cy), radius: 0.04, fill: accent.mat, stroke: none)
+            circle((cx, cy), radius: 1pt, fill: accent.mat, stroke: none)
             content((cx, cy), [$C$], anchor: "north-east", padding: 3pt)
 
           })
@@ -4747,9 +4746,9 @@ plot.plot(
             let y2 = -2.0 * x2 + 0.5
 
             // Cerchietto vuoto punto 1
-            circle((x1, y1), radius: 0.06, fill: white, stroke: 1pt + accent.mat)
+            circle((x1, y1), radius: 1pt, fill: white, stroke: 1pt + accent.mat)
             // Cerchietto vuoto punto 2
-            circle((x2, y2), radius: 0.06, fill: white, stroke: 1pt + accent.mat)
+            circle((x2, y2), radius: 1pt, fill: white, stroke: 1pt + accent.mat)
 
           })
 

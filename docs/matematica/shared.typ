@@ -6,6 +6,16 @@
 
 //===================
 
+// Evidenzia cifre
+#let hlc(val) = box(
+  stroke: 0pt,
+  fill: accent.mat.transparentize(80%),
+  inset: 2.0pt,
+  radius: 25%,
+  baseline: 0%,
+)[#val]
+
+
 // Tabella relazioni; riceve i dati in formato tupla, numero di colonne e colore (opzionale)
 #let tabella_relazioni(
   data: (), 
@@ -272,3 +282,20 @@
   intestazione: [ SGN ], // cambia simbolo in alto a sinistra (default +/-),
   linea_doppia: false // disattiva la linea doppia di fine riga (default: true)
 )
+
+#let tabella_disposizioni(..children) = [
+  #show table.cell.where(y: 0): set text(weight: "regular", fill: black)  
+  #figure(
+    caption: none,
+    table(
+      stroke: (x, y) => (
+        bottom: if y == 0 { 0.7pt + accent.mat },
+        right: if x == 0 { 0.7pt + accent.mat },
+      ),
+      inset: 0.5em,    
+      align: center + horizon,  
+      columns: (auto,) * 2, 
+      ..children
+    ) 
+  )
+]

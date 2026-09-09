@@ -10,11 +10,12 @@
 // =======
 
 #let grafico_segmenti1 = [
-
 #figure(
   ctz-canvas(length: 0.8cm, {
   import cetz.draw: *
   ctz-init()
+  ctz-style(point: (shape: "dot", size: 0.08, fill: accent.mat))
+
   ctz-def-points(
   A: (0, 0), B: (2, 1), C: (4, -.5),
   )
@@ -32,7 +33,7 @@ caption: []
   ctz-canvas(length: 0.8cm, {
   import cetz.draw: *
   ctz-init()
-  ctz-style(point: (shape: "dot"))
+  ctz-style(point: (shape: "dot", size: 0.08, fill: accent.mat))
   
   ctz-def-points(
   A: (0, 0), B: (2, .5), C: (4, 1),
@@ -69,7 +70,7 @@ caption: []
   ctz-init()
   
   // Configura i vertici come punti pieni
-  ctz-style(point: (shape: "dot"))
+  ctz-style(point: (shape: "dot", size: 0.08, fill: accent.mat))
   
   ctz-def-points(
   A: (0, 0), B: (2, 1), C: (4, -.5), D: (2.5, -1), E: (1.1, -0.75)
@@ -92,7 +93,7 @@ caption: []
   import cetz.draw: *
   ctz-init()
   
-  ctz-style(point: (shape: "dot"))
+  ctz-style(point: (shape: "dot", size: 0.08, fill: accent.mat))
   
   ctz-def-points(
   A: (0, -.5), B: (2, 1), C: (4, -.5), D: (2.5, -1), E: (.5, .5)
@@ -250,7 +251,6 @@ caption: []
 
 #let grafico_angoli1-3 = [#align(center)[#grid(columns: 3, align: bottom + center, column-gutter: 1em)[#grafico_angoli1][#grafico_angoli2][#grafico_angoli3]]]
 
-//#import "@preview/cetz:0.5.2" // TODO conflitto versioni CeTZ con cetz-euclide
 #let grafico_striscia_piano = [
   #figure(
     cetz.canvas({
@@ -510,7 +510,7 @@ caption: []
 
   
   // Disegniamo il perimetro del triangolo scaleno ABC (in blu continuo)
-  ctz-draw(line: ("A", "B", "C", "A"), stroke: blue)
+  ctz-draw(line: ("A", "B", "C", "A"), stroke: accent.mat)
   
   // Disegniamo le tre mediane (tratteggiate in nero)
   ctz-draw(line: ("A", "M_1"), stroke: (paint: accent.mat, dash: "dashed"))
