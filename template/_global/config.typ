@@ -178,10 +178,39 @@
 // ICONE 
 // =====
 
-#let wolf = box(
-  baseline: 20%,
-  image("assets/wolf.svg", width: 1em)
+#let colorized-image(path, color: none, ..args) = {
+  let raw = read(path)
+  let hex = color.to-hex()
+
+  if raw.contains("currentColor") {
+    raw = raw.replace("currentColor", hex)
+  } else if raw.contains("fill=\"#") or raw.contains("stroke=\"#") {
+    raw = raw.replace(
+      regex("fill=\"#[0-9a-fA-F]{3,8}\""),
+      "fill=\"" + hex + "\"",
+    )
+    raw = raw.replace(
+      regex("stroke=\"#[0-9a-fA-F]{3,8}\""),
+      "stroke=\"" + hex + "\"",
+    )
+  } else {
+    raw = raw.replace("<svg ", "<svg fill=\"" + hex + "\" ")
+  }
+
+  image(bytes(raw), ..args.named())
+}
+
+// fabbrica di icone: crea un'icona "auto-colorata" a partire dal path
+#let make-icon(path, baseline: 20%, width: 1em) = context box(
+  baseline: baseline,
+  colorized-image(path, color: accent_color.get(), width: width)
 )
+
+// =====
+// ICONE
+// =====
+
+#let wolf = make-icon("assets/wolf.svg")
 
 // ================================
 // FUNZIONI DI UTILITÀ INDIPENDENTI
