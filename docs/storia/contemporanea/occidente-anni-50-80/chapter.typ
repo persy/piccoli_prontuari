@@ -55,7 +55,7 @@ Un'altra organizzazione di cooperazione europea fu l'EFTA, creata nel 1960 su in
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 Il Giappone terza potenza mondiale <senza_numero>
+== #wolf Il Giappone terza potenza mondiale <senza_numero>
 
 Nonostante la pesante sconfitta subita alla fine della Seconda Guerra Mondiale, il Giappone riuscì a risollevarsi rapidamente, tornando a essere una grande potenza economica.  
 

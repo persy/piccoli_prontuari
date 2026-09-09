@@ -9,7 +9,7 @@ Dalla guerra emerse vincitore il partito imperiale. Fu proprio sotto la guida de
 
 == Dalla fine dello shogunato all'era di Meiji Tenno
 
-#boxfl(bottom)[== 🐺 I _samurai_ <senza_numero>
+#boxfl(bottom)[== #wolf I _samurai_ <senza_numero>
 
 I _samurai_, il cui nome deriva dal termine giapponese "samurau" che significa essere al servizio di qualcuno, furono i guerrieri del Giappone feudale. 
 

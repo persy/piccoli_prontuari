@@ -89,7 +89,7 @@ Le conferenze di Jalta (4-11 febbraio 1945) e Potsdam (estate 1945) videro USA, 
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 Approfondimenti <senza_numero>
+== #wolf Approfondimenti <senza_numero>
 
 === La Guerra civile spagnola <senza_numero>
 

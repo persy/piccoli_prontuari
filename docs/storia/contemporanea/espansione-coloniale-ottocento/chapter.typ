@@ -31,7 +31,7 @@ Nel frattempo, l'Olanda consolidò il proprio dominio in Indonesia tra il 1850 e
 
 == L'età dell'imperialismo
 
-#boxfl(bottom)[== 🐺 L'organizzazione dell'Impero Britannico <senza_numero>
+#boxfl(bottom)[== #wolf L'organizzazione dell'Impero Britannico <senza_numero>
 
 L'Impero Britannico è stato il più vasto impero coloniale della storia contemporanea. Alla vigilia della Prima Guerra Mondiale dominava circa il 23,85% della superficie terrestre e governava una popolazione di 502 milioni di abitanti, quasi un quarto di quella mondiale. Nel 1815, l'impero era organizzato in tre categorie di colonie: le più antiche con popolazione bianca, quelle a maggioranza indigena e l'India. 
 

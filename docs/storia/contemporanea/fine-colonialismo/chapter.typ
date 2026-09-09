@@ -71,7 +71,7 @@ La vittoria fu completa per Israele, e i rapporti di forza nella regione subiron
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 La "sporca guerra" <senza_numero>
+== #wolf La "sporca guerra" <senza_numero>
 
 Passando alla questione algerina, per convincere la Francia a concedere l'indipendenza al paese nordafricano fu necessario affrontare una delle più gravi umiliazioni politiche della sua storia. Gli interessi economici in gioco erano tali che Parigi non era disposta a rinunciare facilmente alla colonia. Tuttavia, nella popolazione algerina iniziarono a diffondersi movimenti di opposizione verso la madrepatria: già nel 1943 Ferhat Abbas aveva pubblicato un manifesto contro il dominio francese, seguito nel 1945 dalle insurrezioni di Costantina e della Piccola Kabilia. 
 

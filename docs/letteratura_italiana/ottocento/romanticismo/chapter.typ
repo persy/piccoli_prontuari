@@ -15,7 +15,7 @@ I principi fondamentali che formano l'ossatura del romanticismo comprendono l'in
 
 Anche la concezione romantica della storia si discosta dalle interpretazioni lineari: essa è percepita come un processo dinamico e rivoluzionario, caratterizzato da fratture, superamenti, sintesi e crisi. Sul piano emotivo, il romanticismo conferisce al sentimento una dimensione drammatica perpetua; l'amore diventa un'esperienza estrema che si connota ironicamente attraverso il frammento e l'incompiutezza. Il senso di squilibrio dell'io rispetto ai limiti imposti dal tempo e dalla realtà pone il soggetto in una condizione intrinsecamente drammatica: tale condizione può sublimarsi in due direzioni opposte. Da un lato si orienta verso l'immaginario fiabesco, tramite l'esplorazione delle tradizioni popolari, degli stati onirici e del culto del Medioevo o dell'esotico; dall'altro lato può invece cristallizzarsi nella quotidianità, in una prospettiva realistica esasperata e assoluta.
 
-#boxfl(bottom)[== 🐺 Il romanticismo europeo <senza_numero>
+#boxfl(bottom)[== #wolf Il romanticismo europeo <senza_numero>
 
 In Germania, il romanticismo trova le sue radici nel rapporto drammatico con l'eredità del mondo antico. Il preromanticismo tedesco rappresenta già una forma di ribellione artistica, basata sulla libertà espressiva del genio creativo e sul suo tragico senso di impotenza nell'arte. Il capolavoro _I dolori del giovane Werther_ (1774) di Johann Wolfgang Goethe è uno degli esempi più emblematici di questa tragicità, incarnando il destino tormentato del nuovo eroe moderno. Tuttavia, tali istanze artistiche si consolidarono pienamente nel romanticismo solo quando l'impeto ribelle si trasformò in un impegno costruttivo e originale. L'opera di Goethe trovò un complemento nella produzione teatrale di Friedrich Schiller, il quale, con il saggio _Sulla poesia ingenua e sentimentale_ (1795), distinse tra la poesia "ingenua" degli antichi e quella "sentimentale" dei moderni, più riflessiva, critica e indefinita. Questa distinzione costituì uno dei fondamenti del romanticismo europeo, sviluppatosi grazie al contributo del cosiddetto gruppo di Jena e della rivista _Athenäum_ (1798-1800), cui collaborarono figure come Friedrich e August Wilhelm Schlegel, Ludwig Tieck e Novalis.
 
@@ -73,7 +73,7 @@ Da questo senso di impotenza sistematica nasce la comicità amara del poeta: uno
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 La seconda generazione romantica <senza_numero>
+== #wolf La seconda generazione romantica <senza_numero>
 
 La seconda generazione romantica si sviluppa in un momento di crisi per il movimento romantico, segnato dalla chiusura del _Conciliatore_ e dalla scomparsa di figure come Porta e Ludovico di Breme. A Milano, Alessandro Manzoni rimane un riferimento isolato, nonostante la sua posizione appartata e il disinteresse per le polemiche culturali. Tra gli autori di rilievo vi è Tommaso Grossi, che oltre a produrre opere interessanti in dialetto come _Prineide_ (1817) e _La fuggitiva_ (1816), si distingue per lavori in lingua italiana, tra cui _Ildegonda_ (1820), una novella romantica in versi, e il romanzo storico _Marco Visconti_ (1834), ispirato dal modello manzoniano.
 

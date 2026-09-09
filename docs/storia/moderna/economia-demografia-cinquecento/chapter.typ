@@ -35,7 +35,7 @@ Grazie alle loro immense ricchezze, i patrizi potevano competere con la nobiltà
 
 == L'economia
 
-#boxfl(bottom)[== 🐺 L'attività bancaria <senza_numero>
+#boxfl(bottom)[== #wolf L'attività bancaria <senza_numero>
 
 L'espansione delle transazioni commerciali su lunghe distanze favorì la nascita di strutture organizzative complesse, come le compagnie commerciali. Queste erano solitamente gestite da famiglie e strutturate con una sede principale e numerose filiali situate nelle più importanti città portuali e centri economici strategici.
 

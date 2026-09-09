@@ -208,7 +208,7 @@ La cifra più a destra si considera significativa e deve avere necessariamente u
 In particolare, nelle operazioni di somma o sottrazione, il risultato deve essere riportato in modo che l'ultima cifra significativa si ottenga sommando o sottraendo solo cifre significanti. Per le operazioni di moltiplicazione o divisione, invece, il totale avrà un numero di cifre significative pari al minimo tra quelle contenute nei valori iniziali.
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 Gli altri sistemi di misura <senza_numero>
+== #wolf Gli altri sistemi di misura <senza_numero>
 
 La metrologia è la disciplina che si occupa della definizione delle unità di misura, della scelta di quelle fondamentali e della creazione, diffusione e conservazione dei relativi campioni. Questa disciplina è nata dall'esigenza di adottare unità universali condivise.
 

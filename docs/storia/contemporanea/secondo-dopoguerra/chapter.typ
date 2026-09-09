@@ -69,7 +69,7 @@ L'intensificarsi della Guerra Fredda culminò nel conflitto coreano del 1950. Qu
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 La guerra di Corea <senza_numero>
+== #wolf La guerra di Corea <senza_numero>
 
 La Corea fu un teatro centrale della Guerra Fredda. Come risultato degli accordi post-bellici tra le grandi potenze, il paese fu suddiviso in due zone d'influenza lungo il 38° parallelo: il nord fu affidato alla sfera sovietica, con Kim Il Sung alla guida del governo comunista; il sud rientrò sotto l'influenza occidentale con Syngman Rhee a capo del governo nazionalista. Le tensioni tra le due aree si rivelarono subito dirompenti, in quanto entrambe le parti rigettavano l'idea di una divisione territoriale permanente.
 

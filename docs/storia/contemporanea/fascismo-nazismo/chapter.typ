@@ -71,7 +71,7 @@ Nello stesso anno Hitler iniziò a parlare della necessità di trovare una soluz
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 Il totalitarismo <senza_numero>
+== #wolf Il totalitarismo <senza_numero>
 
 Il termine "totalitarismo" fa riferimento al concetto di "Stato totalitario", una definizione che veniva utilizzata sotto il Fascismo per indicare lo Stato corporativo. Tale concetto si estende ai regimi antidemocratici che si affermarono nel corso del XX secolo, quali Nazismo, Fascismo e Comunismo. Questi sistemi politici si contraddistinguono per l'assenza di controllo istituzionale da parte degli organi rappresentativi, per la soppressione della libertà di stampa e di associazione, e per l'intensa mobilitazione ideologica delle masse attraverso una propaganda politica pervasiva e incessante.
 

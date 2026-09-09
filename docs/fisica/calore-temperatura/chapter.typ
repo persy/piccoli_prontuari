@@ -207,7 +207,7 @@ Le superfici chiare tendono a riflettere la radiazione elettromagnetica anziché
 Il rapporto tra la radiazione riflessa e quella totale incidente sulla superficie di un pianeta è denominato albedo. L'albedo terrestre varia considerevolmente in funzione del tipo di superficie e della presenza di copertura nuvolosa, e ha un valore medio stimato intorno a 0,35.
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 Approfondimenti <senza_numero>
+== #wolf Approfondimenti <senza_numero>
 
 === L'interpretazione della natura del calore <senza_numero>
 

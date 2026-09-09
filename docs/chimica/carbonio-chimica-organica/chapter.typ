@@ -4,9 +4,9 @@
 #import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 
 // Workaround per stile font delle formule matematiche, da sistemare in futuro
-#set math.equation(numbering: (..n) => {
+/* #set math.equation(numbering: (..n) => {
   text(font: sans-fonts, size: 11pt, numbering("1", ..n))
-  })
+  }) */
 
 =  Il carbonio e la chimica organica
 

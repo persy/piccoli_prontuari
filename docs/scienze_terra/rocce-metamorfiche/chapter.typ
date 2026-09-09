@@ -60,7 +60,7 @@ Il processo di anatessi riveste un ruolo cruciale nello studio della genesi dei 
 )  
 )
 
-#boxbr[== 🐺 Gli effetti del metamorfismo sulle rocce <senza_numero>
+#boxbr[== #wolf Gli effetti del metamorfismo sulle rocce <senza_numero>
 
 Il metamorfismo, a seconda delle sue intensità, può trasformare una roccia originaria in differenti tipi di rocce metamorfiche, che costituiscono una sequenza metamorfica.
 

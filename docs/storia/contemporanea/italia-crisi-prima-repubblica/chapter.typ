@@ -81,7 +81,7 @@ Il 21 aprile 1996 la coalizione di centrosinistra, denominata L'Ulivo e guidata 
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 Economia e lavoro nel dopoguerra <senza_numero>
+== #wolf Economia e lavoro nel dopoguerra <senza_numero>
 
 Riguardo all'economia e al lavoro nel dopoguerra, l'Italia si trovò di fronte a enormi difficoltà. Tuttavia, grazie alle politiche messe in atto dal ministro del Bilancio Luigi Einaudi nel 1947, che tra le altre cose arginarono l'inflazione con una stretta sul credito industriale, i danni vennero gradualmente riparati.
 

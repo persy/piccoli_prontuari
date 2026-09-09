@@ -57,7 +57,7 @@ Osteggiato dalle correnti conservatrici, fu costretto a dimettersi mentre l'infl
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 I principali provvedimenti del _New Deal_ <senza_numero>
+== #wolf I principali provvedimenti del _New Deal_ <senza_numero>
 
 Il New Deal rappresentò una serie di interventi straordinari volti al risanamento socio-economico del Paese. Sul fronte dei lavori pubblici, furono attivati progetti che crearono quattro milioni di posti di lavoro. Per quanto concerne l'assistenza sociale, si istituirono misure significative a favore di disoccupati, malati e giovani, accompagnate dalla creazione di un sistema previdenziale e pensionistico federale.
 

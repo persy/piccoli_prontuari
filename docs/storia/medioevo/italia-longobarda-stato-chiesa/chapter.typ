@@ -39,7 +39,7 @@ Le iniziative politiche di Gregorio I, l'amministrazione del patrimonio ecclesia
 
 == Da Rotari a Desiderio
 
-#boxfl(top)[== 🐺 L'Editto di Rotari <senza_numero>
+#boxfl(top)[== #wolf L'Editto di Rotari <senza_numero>
 
 L'Editto di Rotari rappresenta una pietra miliare del diritto longobardo. Redatto in latino e composto da 388 articoli, esso si basa sulla tradizione longobarda, su altre legislazioni barbariche come la Lex Visigothorum e sul diritto romano giustinianeo e pregiustinianeo. Nonostante il progresso rispetto all'epoca di Alboino, permanevano alcune credenze superstiziose e usi barbarici.
 
@@ -69,7 +69,7 @@ A metà del 774 Desiderio perse la vita, mentre Adelchi scelse di fuggire a Bisa
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 San Benedetto e la regola benedettina <senza_numero>
+== #wolf San Benedetto e la regola benedettina <senza_numero>
 
 San Benedetto è noto grazie ai "Dialoghi" di Gregorio I. Dopo aver fondato alcune piccole comunità a Subiaco, nel 529 diede vita a un monastero a Montecassino. Qui redasse la Regola benedettina, ispirandosi alle Sacre Scritture, alla tradizione monastica e alla pratica ascetica. Nella sua introduzione descrive il valore spirituale della vocazione e della vita monastica.
 

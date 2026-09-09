@@ -11,7 +11,7 @@ In ambiti strategici come la navigazione e gli armamenti, tale differenza divenn
 
 == La rivoluzione scientifica
 
-#boxfl(bottom)[== 🐺 Le accademie scientifiche <senza_numero>
+#boxfl(bottom)[== #wolf Le accademie scientifiche <senza_numero>
 
 Dopo il Concilio di Trento, il desiderio di controllo esercitato da Chiesa e Stato nei confronti della cultura e della sua diffusione spinse letterati e scienziati a trovare rifugio in una forma di libertà apparente, offerta dalle accademie.
 

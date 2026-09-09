@@ -192,7 +192,7 @@ Le acque delle falde e delle sorgenti sono generalmente di alta qualità e, per 
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 Approfondimenti <senza_numero>
+== #wolf Approfondimenti <senza_numero>
 
 === La forma dell'alveo <senza_numero>
 

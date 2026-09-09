@@ -61,7 +61,7 @@ Con l'evolversi della situazione internazionale, l'Unione Sovietica fu il primo 
 
 #pagebreak()
 #set page(fill: black.lighten(90%))
-== 🐺 II maoismo <senza_numero>
+== #wolf II maoismo <senza_numero>
 
 L'esperienza comunista cinese si discostò in modo significativo da quella sovietica, la quale era focalizzata in particolare sul consolidamento del settore industriale.  
 

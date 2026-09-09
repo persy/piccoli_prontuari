@@ -31,7 +31,7 @@ Tra gli altri organi rappresentativi vi erano gli Stati Generali, convocati spor
 
 == L'Europa orientale e settentrionale
 
-#boxfl(bottom)[== 🐺 La situazione italiana <senza_numero>
+#boxfl(bottom)[== #wolf La situazione italiana <senza_numero>
 
 In Italia, nel Cinquecento, la frammentazione politica e la debolezza militare della penisola avevano reso il territorio vulnerabile ai vicini Stati nazionali. In Nord Italia, pur formalmente sotto il controllo dell'Impero, si trovavano principati ampiamente autonomi e ricche repubbliche oligarchiche con forte tradizione marinara come Venezia e Genova. 
 
