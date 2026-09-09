@@ -34,7 +34,7 @@
 #let chapter = sys.inputs.at("chapter", default: none)
 
 #let chapterlist = (
-  "../../docs/matematica/introduzione.typ",
+  "../../docs/matematica/introduzione/chapter.typ",
   "../../docs/matematica/logica/chapter.typ",
   "../../docs/matematica/numeri-naturali-reali/chapter.typ",
   "../../docs/matematica/algebra-elementare/chapter.typ",
@@ -47,11 +47,18 @@
   "../../docs/matematica/geometria-euclidea-solida/chapter.typ",
   "../../docs/matematica/goniometria-trigonometria/chapter.typ",
   "../../docs/matematica/calcolo-combinatorio/chapter.typ",
-  "../../docs/matematica/funzioni-iperboliche/chapter.typ",
-  "../../docs/matematica/numeri-complessi/chapter.typ",
-  "../../docs/matematica/sistemi-lineari-geometria-spaziale/chapter.typ",
+  "../../docs/matematica/funzioni-iperboliche/chapter.typ", 
+  "../../docs/matematica/numeri-complessi/chapter.typ", 
+  "../../docs/matematica/algebra-lineare-geometria-spaziale/chapter.typ",
   "../../docs/matematica/affinita/chapter.typ",
   "../../docs/matematica/grafici-elementari/chapter.typ",
+  "../../docs/matematica/probabilita/chapter.typ",
+  "../../docs/matematica/limiti-continuita/chapter.typ",
+  "../../docs/matematica/derivate-studio-funzione/chapter.typ", 
+  "../../docs/matematica/integrali/chapter.typ",
+  "../../docs/matematica/successioni-serie/chapter.typ",
+  "../../docs/matematica/equazioni-differenziali/chapter.typ",             
+  "../../docs/matematica/statistica-descrittiva/chapter.typ", 
 )
 
 #for cap in chapterlist {

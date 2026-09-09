@@ -205,7 +205,7 @@
       it
     }
   }
-  show ref: set text(accent, font: sans-fonts, size: 10pt)
+  show ref: set text(accent, font: sans-fonts, size: 11pt)
   show link: set text(accent)
 
   show footnote: set text(fill: accent)
@@ -216,7 +216,7 @@
   show bibliography: set par(spacing: 1em)
 
   set enum(indent: 0.5em)
-  set list(indent: 0.5em)
+  set list(indent: 0.5em, marker: [--])
 /*show enum: set par(spacing: 1.5em)
   show list: set par(spacing: 1.5em) */
 
@@ -228,7 +228,7 @@
       size: 10pt,
       font: sans-fonts,
       fill: accent.lighten(25%),
-      numbering("(1)", ..nums)
+      numbering("1", ..nums)
     ),
     supplement: none,
     number-align: end
@@ -244,7 +244,7 @@
   }
 
   // Evidenzia
-  set highlight(radius: 1pt, extent: .2em, fill: accent.lighten(75%))
+  set highlight(radius: 1pt, extent: .2em, fill: accent.transparentize(90%))
 
   doc
 }

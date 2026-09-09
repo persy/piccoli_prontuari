@@ -1,3 +1,5 @@
+#import "config.typ": *
+
 Ciao!
 Come gli altri volumi della collana "Piccolo Prontuario", anche questo non è il classico bigino tascabile.
 È il risultato di un viaggio personale attraverso lo studio, un percorso fatto di appunti, schemi e riassunti, raccolti e perfezionati nel tempo.
@@ -7,4 +9,4 @@ Nonostante sia stato concepito prettamente per gli studenti, spero che possa ess
 È un concentrato di concetti chiave e nozioni essenziali, pensato per essere il tuo alleato ideale prima di una verifica, di un esame, o semplicemente per colmare una lacuna.
 
 Spero che questo lavoro possa accompagnarti nel tuo percorso di studio, rendendolo più leggero e produttivo.
-In bocca al lupo! 🐺
+In bocca al lupo!

@@ -17,20 +17,48 @@
 // CONFIGURAZIONE FONT
 // ===================
 
+// Testo principale
 #let serif-fonts = (
+  "Source Serif 4",
+  /* "IBM Plex Serif",
+  "TeX Gyre Pagella",
+  "Stix Two Text",
+  "Libertinus Serif",
   "Faustina",
+  "Atkinson Hyperlegible Next", */
   )
+
+// Didascalie, note, tabelle
 #let sans-fonts = (
-  "Archivo"  
+  "Archivo", 
+  /* "IBM Plex Sans",
+  "Lexend",
+  "TeX Gyre Heros",
+  "Source Sans 3",
+  "Lato",
+  "TeX Gyre Adventor", */
   )
+
+// Titoli capitoli, sottocapitoli
 #let title-fonts = (
-  "Archivo"
+  "Archivo",
+  /* "Montserrat",
+  "IBM Plex Sans",
+  "TeX Gyre Adventor", */
   )
+
+// Copertina
 #let cover-fonts = (
-  "Archivo"
+  "Archivo",
+  /* "IBM Plex Sans", */
   )
+
+// Formule matematiche
 #let math-fonts = (
-  "Libertinus Math"
+  "Libertinus Math",
+  /* "Stix Two Math", 
+  "IBM Plex Math",
+  "TeX Gyre Pagella Math", */
   )
 
 // ============================================
@@ -44,7 +72,7 @@
 
 #let themes = (
   storico: (
-    mat:  rgb(2, 71, 182),   // Blu "Numero di Nepero" (e = 2.71828...)
+    mat:  rgb("#0247b6"),   // Blu "Numero di Nepero" (e = 2.71828...)
     fis:  rgb("#4B0082"),    // Indaco di Newton-Maxwell
     chi:  rgb("#008080"),    // Verde petrolio
     bio:  rgb("#00755E"),    // Verde foresta tropicale
@@ -127,7 +155,7 @@
   (0.2126*r + 0.7152*g + 0.0722*b) / 1%
 }
 
-#let brighten-for-cover(c, target: 50, saturate-by: 75%) = {
+#let brighten-for-cover(c, target: 75, saturate-by: 75%) = {
   let result = c
   let i = 0
   while luminance(result) < target and i < 40 {
@@ -144,6 +172,16 @@
 #let gradient = cover-accent.pairs().map(((key, color)) => (
   key, gradient.linear(color, color.lighten(5%))
 )).to-dict()
+
+
+// =====
+// ICONE 
+// =====
+
+#let wolf = box(
+  baseline: 20%,
+  image("assets/wolf.svg", width: 1em)
+)
 
 // ================================
 // FUNZIONI DI UTILITÀ INDIPENDENTI
@@ -210,15 +248,21 @@
   )
 }
 
+// Evidenzia testo
 #let hl(body) = { highlight(body) }
+
+// Rimuovi spaziatura orizzontale o verticale, utile nelle formule matematiche
 #let hs0 = h(0em)
 #let vs0 = v(0em)
+
+// Ridimensiona testo, specialmente formule matematiche; uso: $ resize(x + y) $ default a 0.85em, usa #resize(size: 0.5em)[testo] o #resize(size: 0.5em, testo) per cambiare fattore di ridimensionamento
+#let resize(size: 0.85em, ..body) = text(size: size, body.pos().join(math.comma))
 
 // ==============================================================
 // BLOCCHI GRAFICI DINAMICI (Definizione, Esempio, Dimostrazione)
 // ==============================================================
 
-// Riquadro per definizioni, teoremi, dimostrazioni..; utilizzo: #definizione[title: "optional title", label: <optional label>]; inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo
+// Riquadro per definizioni, teoremi, dimostrazioni..; utilizzo: #definizione[title: "optional title", label: <optional label>]; inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo; se non c'è abbastanza spazio nella pagina, va alla pagina successiva
 #let definizione(title: none, label: none, ..sections) = {  
   let box-content = context {
     let accent = accent_color.get() 
@@ -231,7 +275,7 @@
         radius: (top-right: 5pt, rest: 0pt), 
         thickness: (left: 1pt)
       ),
-      title-style: (color: accent.darken(40%), weight: "bold", sep-thickness: 0pt),
+      title-style: (color: accent.darken(10%), weight: "bold", sep-thickness: 0pt),
       body-style: (color: accent.darken(50%)),    
       sep: (thickness: 0.5pt, dash: "dashed", color: accent.lighten(20%)),
       breakable: true,
@@ -239,18 +283,23 @@
     
     let display-title = {    
       let n = counter(figure.where(kind: "definizione")).display()
-      let t = if title != none and title != "" [: #title] else []
-      text(size: 0.8em, weight: "bold", font: sans-fonts)[Definizione #text(fill: accent.darken(20%))[#n]#t]
+      let t = if title != none and title != "" [#title] else []
+      text(size: 0.8em, weight: "bold", font: sans-fonts)[#text(fill: accent.darken(10%))[#t] #h(1fr) § #n]
     }
     
     args.insert("title", display-title)
     showybox(..args, ..sections.pos())
   }
   
+  // Salta alla pagina successiva se c'è troppo poco spazio; da migliorare
+  context {
+    if here().position().y > 23cm { pagebreak() }
+  }
+  
   [#figure(
     box-content, 
     kind: "definizione", 
-    supplement: [Def.], 
+    supplement: [§], 
     numbering: "1.1", 
     caption: none
   )#label]
@@ -264,7 +313,7 @@
   )
 }
 
-// Riquadro per esempi; utilizzo singolo (#esempio[]) oppure concatenato (#esempio[][][]); inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo
+// Riquadro per esempi; utilizzo singolo (#esempio[]) oppure concatenato (#esempio[][][]); inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo; se non c'è abbastanza spazio nella pagina, va alla pagina successiva
 #let esempio(title: "Esempio", ..sections) = context {
   let accent = accent_color.get().desaturate(85%)
   let s = sections.pos()
@@ -279,13 +328,15 @@
   
   let steps = range(n-sections).map(idx => counter("esempio").step()).join()
 
-  steps + showybox(
+  steps + layout(size => {
+    if size.height < 1cm { pagebreak() }
+  }) + showybox(
     frame: (border-color: accent.darken(30%), title-color: accent.transparentize(45%), body-color: accent.transparentize(90%), radius: (top-right: 5pt, rest: 0pt), thickness: (left: 1pt)),
     title-style: (color: accent.darken(70%), weight: "bold", sep-thickness: 0pt, size: 0.8em),
     body-style: (color: accent.darken(70%)),
     sep: (thickness: 0.5pt, dash: "dashed", color: accent.darken(20%)),
     breakable: true,
-    title: text(size: 0.8em, font: sans-fonts)[#title #numbers],
+    title: text(size: 0.8em, font: sans-fonts)[#title #h(1fr) \# #numbers],
     ..s
   )
 }
