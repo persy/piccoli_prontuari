@@ -1,4 +1,4 @@
-#import "@preview/showybox:2.0.4": * // Blocchi grafici dinamici (definizione, esempio, dimostrazione)
+// #import "@preview/showybox:2.0.4": * // Blocchi grafici dinamici (definizione, esempio, dimostrazione)
 
 // ===========================================
 // COMPILA L'INTERO MANUALE O SOLO UN CAPITOLO
@@ -216,7 +216,7 @@
 // FUNZIONI DI UTILITÀ INDIPENDENTI
 // ================================
 
-#let intro(body) = context {
+/* #let intro(body) = context {
   let accent = accent_color.get()
   showybox(
     frame: (
@@ -231,6 +231,22 @@
       style: "italic",
       fill: color.mix((accent, 15%), (black, 20%)))[#body]
   )
+} */
+
+#let intro(body) = context {
+  let accent = accent_color.get()
+  block(
+    width: 100%,
+    stroke: (left: 1pt + accent.darken(10%)),
+    fill: accent.desaturate(50%).transparentize(90%),
+    radius: (top-right: 5pt, rest: 0pt),
+    inset: (x: 0.8em, y: 0.75em),
+    breakable: true,
+  )[#text(
+      font: sans-fonts,
+      style: "italic",
+      fill: color.mix((accent, 15%), (black, 20%)))[#body]
+  ]
 }
 
 #let TODO(content) = {
@@ -254,6 +270,59 @@
       text(fill: color.mix((accent, 15%), (black, 20%)))[#body]
     ),
   )
+}
+
+// Figure/grid flottanti in cima o in fondo alla pagina: il testo scorre
+// normalmente sopra/sotto, senza lasciare buchi dove sarebbe stato il float.
+// Uso: #float-top[#figure(...)]  oppure  #float-bottom[#figure(...)]
+#let float-top(body, clearance: 1.5em) = place(
+  top + center, float: true, clearance: clearance, body,
+)
+
+#let float-bottom(body, clearance: 1.5em) = place(
+  bottom + center, float: true, clearance: clearance, body,
+)
+
+// Immagine singola, con float facoltativo. Copre il caso piu' comune in una riga.
+// IMPORTANTE: passare la #image(...) gia' scritta per intero (non solo il path):
+// cosi' Tinymist ti da' l'autocompletamento dei nomi file mentre scrivi image("..."),
+// cosa che non succede se il path e' solo un argomento stringa passato a una funzione.
+// Uso: #fig(image("img/atomo-elio.png", width: 50%), caption: [Modello...], float: "bottom")
+// float: "top" | "bottom" | none (default: nessun float, resta dov'e' nel testo)
+#let fig(content, caption: [], float: none) = {
+  let body = figure(content, caption: caption)
+  if float == "top" { float-top(body) }
+  else if float == "bottom" { float-bottom(body) }
+  else { body }
+}
+
+// Grid regolare a N colonne uguali, con float facoltativo. Stesso motivo di fig():
+// passare le #image(...) gia' scritte, non i path come stringhe, per mantenere
+// l'autocompletamento di Tinymist.
+// cols: numero di colonne (default: una colonna per immagine, cioe' tutte su una riga).
+// Per grid IRREGOLARI, passare grid.cell(rowspan: n, image(...)) o
+// grid.cell(colspan: n, image(...)) al posto della singola image() nell'array,
+// specificando cols: esplicitamente (altrimenti il numero di colonne dedotto
+// da images.len() non tiene conto delle celle che occupano piu' spazio).
+// Uso semplice:
+// #fig-grid((
+//   image("img/a.png"), image("img/b.png"), image("img/c.png"),
+// ), caption: [...], float: "top")
+// Uso con rowspan (es. prima immagine su 2 righe, 2 colonne totali):
+// #fig-grid((
+//   grid.cell(rowspan: 2, image("img/dna.png")),
+//   image("img/rna.png"),
+//   image("img/atp.png"),
+// ), caption: [...], cols: 2, float: "top")
+#let fig-grid(images, caption: [], cols: none, float: none) = {
+  let n = if cols == none { images.len() } else { cols }
+  let body = figure(
+    grid(columns: (1fr,) * n, gutter: 1em, ..images),
+    caption: caption,
+  )
+  if float == "top" { float-top(body) }
+  else if float == "bottom" { float-bottom(body) }
+  else { body }
 }
 
 // Box testo spezzabile
@@ -292,7 +361,7 @@
 // ==============================================================
 
 // Riquadro per definizioni, teoremi, dimostrazioni..; utilizzo: #definizione[title: "optional title", label: <optional label>]; inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo; se non c'è abbastanza spazio nella pagina, va alla pagina successiva
-#let definizione(title: none, label: none, ..sections) = {  
+/* #let definizione(title: none, label: none, ..sections) = {  
   let box-content = context {
     let accent = accent_color.get() 
     
@@ -332,6 +401,55 @@
     numbering: "1.1", 
     caption: none
   )#label]
+} */
+
+// Riquadro per definizioni, teoremi, dimostrazioni.. (versione senza showybox)
+#let definizione(title: none, label: none, ..sections) = {
+  let box-content = context align(left)[#{
+    let accent = accent_color.get()
+
+    let n = counter(figure.where(kind: "definizione")).display()
+    let t = if title != none and title != "" [#title] else []
+    let display-title = text(size: 0.8em, weight: "bold", font: sans-fonts)[
+      #text(fill: accent.darken(10%))[#t] #h(1fr) § #n
+    ]
+
+    block(
+      width: 100%,
+      stroke: (left: 1pt + accent.lighten(20%)),
+      radius: (top-right: 5pt, rest: 0pt),
+      breakable: true,
+      inset: 0pt,
+      clip: true,
+    )[
+      #stack(
+        spacing: 0pt,
+        block(
+          width: 100%,
+          fill: accent.transparentize(65%),
+          inset: (x: 0.8em, y: 0.65em),
+        )[#display-title],
+        block(
+          width: 100%,
+          fill: accent.transparentize(90%),
+          inset: (x: 0.8em, y: 0.65em),
+          breakable: true,
+        )[#text(fill: accent.darken(50%))[#sections.pos().join()]]
+      )
+    ]
+  }]
+
+  context {
+    if here().position().y > 23cm { pagebreak() }
+  }
+
+  [#figure(
+    box-content,
+    kind: "definizione",
+    supplement: [§],
+    numbering: "1.1",
+    caption: none
+  )#label]
 }
 
 // Separatore da inserire all'interno di una #definizione
@@ -343,7 +461,7 @@
 }
 
 // Riquadro per esempi; utilizzo singolo (#esempio[]) oppure concatenato (#esempio[][][]); inserire un counter reset nel main.typ per ricominciare il conteggio ad ogni capitolo; se non c'è abbastanza spazio nella pagina, va alla pagina successiva
-#let esempio(title: "Esempio", ..sections) = context {
+/* #let esempio(title: "Esempio", ..sections) = context {
   let accent = accent_color.get().desaturate(85%)
   let s = sections.pos()
   let n-sections = s.len()
@@ -368,4 +486,55 @@
     title: text(size: 0.8em, font: sans-fonts)[#title #h(1fr) \# #numbers],
     ..s
   )
+} */
+
+#let esempio(title: "Esempio", ..sections) = context {
+  let accent = accent_color.get().desaturate(85%)
+  let s = sections.pos()
+  let n-sections = s.len()
+  if n-sections == 0 { return }
+
+  let current-val = counter("esempio").get().first()
+
+  let first-val = current-val + 1
+  let last-val = current-val + n-sections
+  let numbers = range(first-val, last-val + 1).map(str).join(", ")
+
+  let steps = range(n-sections).map(idx => counter("esempio").step()).join()
+
+  let display-title = text(size: 0.8em, weight: "bold", font: sans-fonts)[
+    #text(fill: accent.darken(70%))[#title] #h(1fr) \# #numbers
+  ]
+
+  // Separatore tratteggiato tra sezioni multiple (assente tra titolo e corpo)
+  let sep-line = line(length: 100%, stroke: (thickness: 0.5pt, dash: "dashed", paint: accent.darken(20%)))
+
+  let body-sections = s.enumerate().map(((i, sec)) => {
+    if i == 0 { sec } else { sep-line + sec }
+  }).join()
+
+  steps + align(left)[#block(
+    width: 100%,
+    stroke: (left: 1pt + accent.darken(30%)),
+    radius: (top-right: 5pt, rest: 0pt),
+    breakable: true,
+    inset: 0pt,
+    clip: true,
+  )[
+    #stack(
+      spacing: 0pt,
+      block(
+        width: 100%,
+        fill: accent.transparentize(45%),
+        inset: (x: 0.8em, y: 0.65em),
+      )[#display-title],
+      block(
+        width: 100%,
+        fill: accent.transparentize(90%),
+        inset: (x: 0.8em, y: 0.6em),
+        breakable: true,
+      )[#text(fill: accent.darken(70%))[#body-sections]]
+    )
+  ]]
 }
+
