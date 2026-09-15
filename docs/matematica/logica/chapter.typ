@@ -29,8 +29,8 @@ Ci sono anche situazioni più complesse, come nell'affermazione "Tutti i numeri 
 === Definizioni
 
 Tenendo conto di queste osservazioni, daremo ora una definizione di enunciato, o proposizione, segnalando comunque che il concetto di verità è estremamente delicato e un'analisi del problema esula dagli scopi di questa trattazione.
-#v(4em)
-#definizione[Si chiama proposizione o enunciato ogni affermazione che assume uno e un solo dei due valori: vero o falso.]
+
+#definizione(title: "Proposizione o enunciato", label: <def-proposizione-enunciato>)[Si chiama proposizione o enunciato ogni affermazione che assume uno e un solo dei due valori: vero o falso.]
 
 Si noti che è implicito nella definizione data il fatto che ammettiamo che la logica che utilizziamo sia bivalente, cioè preveda che le espressioni di cui ci occupiamo possano avere uno solo dei due valori di verità "vero" o "falso".
 
@@ -64,9 +64,11 @@ Vediamo ora un esempio semplice che coinvolge soltanto due enunciati per evitare
 
 L'uso delle seguenti due formule, note come leggi di De Morgan, è piuttosto comune nell'ambito della logica e descrive i legami tra negazione, unione e intersezione: 
 
-#definizione()[$not(P or Q) = (not P) and (not Q) quad e quad  not(P and Q) = (not P) or (not Q)$]  
+#definizione(title: "Leggi di De Morgan", label: <def-leggi-de-morgan>)[$ not(P or Q) = (not P) and (not Q), quad   not(P and Q) = (not P) or (not Q) $]  
 
-Queste formule possono essere facilmente verificate tramite la costruzione delle relative tavole di verità.  
+Queste formule possono essere facilmente verificate tramite la costruzione delle relative tavole di verità. 
+
+//? inserisci dimostrazione?
 
 == Logica dei predicati  
 
@@ -91,7 +93,7 @@ Per formalizzare queste affermazioni, si ricorre a due simboli logici noti come 
 Inoltre, si adopera anche il simbolo $exists!$, o talvolta $∃^1$, con il significato: "esiste uno e uno solo".  
 
 Quando si utilizzano più quantificatori contemporaneamente, è fondamentale prestare attenzione particolare all'ordine con cui vengono scritti. Un esempio concreto può aiutare a chiarire il perché:  
-#esempio()[
+#esempio[
 Consideriamo il predicato $P(x, y)$ = "$x$ è uno studente capace di risolvere il problema $y$", ovvero:
 
 $ 
@@ -109,7 +111,7 @@ significa, invece: "esiste uno studente capace di risolvere qualunque problema".
 
 È utile riflettere su un esempio classico per comprendere come la simbologia abitualmente utilizzata in matematica possa facilmente generare equivoci se non si ha una piena comprensione delle relazioni tra i connettivi logici.  
 
-#esempio()[
+#esempio[
 Consideriamo l'equazione:
 
 $ 
@@ -264,7 +266,7 @@ $
 
 ma si tratta puramente di una questione di stile, dato che il significato resta invariato.
 
-#esempio()[
+#esempio[
 $ 
   &sum_(i=1)^5 (sum_(j=3)^6 (i - 2j)) = \
   &= sum_(i=1)^5 ((i - 2 times 3) + (i - 2 times 4) + (i - 2 times 5) + (i - 2 times 6)) = \
@@ -288,11 +290,10 @@ Ad esempio:
 - estensione: spazio, superficie
 - spazio: l'estensione...
 - (...)
-
-- retta: ente geometrico definito intuitivamente come la più breve linea che congiunge due punti e che si prolunga all'infinito in entrambi i sensi.
-- linea: in geometria, concetto intuitivo immaginato come la traiettoria tracciata da un punto mobile.
-- traiettoria: la linea immaginaria percorsa da un oggetto in movimento nello spazio.
-- spazio: l'estensione vuota e illimitata che contiene gli enti geometrici solidi e gli oggetti reali.
+- retta: ente geometrico definito intuitivamente come la più breve linea che congiunge due punti e che si prolunga all'infinito in entrambi i sensi
+- linea: in geometria, concetto intuitivo immaginato come la traiettoria tracciata da un punto mobile
+- traiettoria: la linea immaginaria percorsa da un oggetto in movimento nello spazio
+- spazio: l'estensione vuota e illimitata che contiene gli enti geometrici solidi e gli oggetti reali
 - estensione: spazio, ...
 - (...)
 
@@ -302,14 +303,14 @@ In ogni teoria, dunque, dobbiamo accettare alcuni concetti come primitivi o term
 
 === Assiomi o postulati
 
-#definizione[
+#definizione(title: "Assioma", label: <def-assioma>)[
 Gli assiomi sono proposizioni introdotte senza dimostrazione che si riferiscono a proprietà dei termini non definiti.] 
 
 Grazie agli assiomi ci facciamo un'idea (anche fisica) di cosa siano gli enti primitivi: non ci chiediamo cosa siano esattamente, ci basta sapere che tra essi esistono certe relazioni e caratteristiche che noi stessi attribuiamo loro. Gli assiomi delimitano e caratterizzano gli enti primitivi, riducendo quell'apparente arbitrarietà iniziale. È cruciale assicurarsi che gli assiomi non siano in contraddizione tra loro. Tuttavia, questo controllo è complesso e può dar luogo a lunghi dibattiti. Un esempio noto è il quinto assioma delle parallele di Euclide#footnote["Se una retta taglia altre due rette determinando dallo stesso lato angoli interni la cui somma è minore di quella di due angoli retti, prolungando indefinitamente le due rette, esse si incontreranno dalla parte dove la somma dei due angoli è minore di due angoli retti". Per secoli, matematici di ogni epoca tentarono di elevare il V postulato a teorema, tra i quali Tolomeo, Al-Haytham, Gauss, Bolyai e Lobačevskij, convinti che la sua complessità nascondesse una dipendenza dagli altri assiomi.].
 
 === Teoremi  
 
-#definizione[
+#definizione(title: "Teorema", label: <def-teorema>)[
 I teoremi sono proposizioni che vengono dimostrate attraverso un processo di deduzione basato su assiomi o su altri teoremi già dimostrati. Per costruire tali ragionamenti si utilizzano gli enti primitivi e, all'occorrenza, altri concetti introdotti progressivamente.] 
 
 Per comprendere meglio il funzionamento di un teorema, consideriamo alcuni esempi:  
@@ -332,7 +333,7 @@ A tal proposito possiamo citare il celebre caso del cosiddetto "teorema enorme",
 
 Un teorema può definire condizioni necessarie, sufficienti oppure condizioni sia necessarie sia sufficienti. Analizziamone le differenze per comprenderle meglio.
 
-#definizione[Condizione necessaria: $A$ è una condizione necessaria per $B$ se $B and (not A)$ è falsa, ovvero una contraddizione. ]
+#definizione(title: "Condizione necessaria", label: <def-condizione-necessaria>)[Condizione necessaria: $A$ è una condizione necessaria per $B$ se $B and (not A)$ è falsa, ovvero una contraddizione. ]
 
 Questa definizione può essere espressa anche in altri modi, come segue:
 - $£$ è condizione necessaria per $B$ se $B$ implica $A$, cioè, ogni volta che si verifica $B$, si verifica necessariamente anche $A$.
@@ -340,7 +341,7 @@ Questa definizione può essere espressa anche in altri modi, come segue:
 
 In altre parole, quando $A$ è una condizione necessaria per $B$, è inutile verificare la presenza di $B$ se manca $A$, perché l'assenza di $A$ implica sicuramente l'assenza di $B$.
 
-#definizione[Condizione sufficiente: $A$ è una condizione sufficiente per $B$ se $A and (not B)$ è falsa, ovvero una contraddizione.]
+#definizione(title: "Condizione sufficiente", label: <def-condizione-sufficiente>)[Condizione sufficiente: $A$ è una condizione sufficiente per $B$ se $A and (not B)$ è falsa, ovvero una contraddizione.]
 
 $A$nche questa definizione può essere espressa in modi diversi:
 - $A$ è condizione sufficiente per $B$ se $A$ implica $B$, cioè ogni volta che si verifica $A$ si verifica anche $B$.
@@ -348,11 +349,11 @@ $A$nche questa definizione può essere espressa in modi diversi:
 
 In sostanza, quando $A$ è condizione sufficiente per $B$, la presenza di $B$ non implica necessariamente la presenza di $A$.
 
-#definizione[Condizione necessaria e sufficiente: $A$ è condizione necessaria e sufficiente per $B$ se $A$ implica $B$ e contemporaneamente $B$ implica $A$. Questo significa che $A$ e $B$ sono equivalenti.]
+#definizione(title: "Condizione necessaria e sufficiente", label: <def-condizione-necessaria-sufficiente>)[Condizione necessaria e sufficiente: $A$ è condizione necessaria e sufficiente per $B$ se $A$ implica $B$ e contemporaneamente $B$ implica $A$. Questo significa che $A$ e $B$ sono equivalenti.]
 
 Di seguito, alcuni esempi esplicativi:
 
-#esempio()[
+#esempio[
 - Una condizione necessaria affinché un quadrilatero sia un quadrato è che abbia quattro angoli retti. Se almeno uno degli angoli non è retto, il quadrilatero non può essere un quadrato. Tuttavia, la sola presenza di quattro angoli retti non garantisce che il quadrilatero sia effettivamente un quadrato.
 - Una condizione sufficiente perché un numero sia pari è che termini con la cifra 2. Se un numero finisce con il 2, allora è pari, ma vi sono numeri pari che non terminano con il 2.
 - Una condizione necessaria e sufficiente affinché un triangolo sia isoscele è che abbia due angoli congruenti. Se un triangolo ha due angoli congruenti, allora è isoscele (cioè ha due lati congruenti); viceversa, se un triangolo è isoscele, ha due angoli congruenti. In pratica, nella definizione di triangolo isoscele si può sostituire la proprietà di "avere due lati congruenti" con quella di "avere due angoli congruenti". 
@@ -374,7 +375,7 @@ A volte, da un particolare teorema derivano direttamente altri risultati la cui 
 
 === Definizioni 
 
-#definizione[Definire significa spiegare un concetto introducendo un termine che lo descriva in modo sintetico mediante parole già conosciute.] 
+#definizione(title: "Definizione", label: <def-definizione>)[Definire significa spiegare un concetto introducendo un termine che lo descriva in modo sintetico mediante parole già conosciute.] 
 
 In pratica, le definizioni servono a sostituire concetti complessi con termini singoli e chiari. Il loro scopo è quello di introdurre nuovi concetti a partire da quelli primitivi.  
 È fondamentale comprendere la differenza tra una definizione e un ente primitivo: una definizione si costruisce utilizzando enti primitivi o teoremi già dimostrati, mentre gli enti primitivi sono concetti fondamentali che non necessitano di ulteriori dimostrazioni. Una spiegazione approfondita del concetto di definizione e del suo utilizzo in matematica sarebbe tuttavia molto complessa e ci porterebbe ben oltre gli obiettivi di questo discorso.
@@ -541,7 +542,7 @@ $ A without B = { x | x in A and x in.not B } $ <diff>
 #place(right, dy: -1.5em)[(1.13)]
 ]
 #pagebreak(weak:true)
-#esempio()[
+#esempio[
 Se gli insiemi $A$ e $B$ sono quelli già considerati nell'esempio per l'unione, allora $A without B = { 0, 1 }$.
 
 Nel caso in cui $B subset.eq A$, l'insieme $A without B$ viene detto complementare di $B$ rispetto ad $A$ e può essere indicato con $complement_A B$ o più semplicemente con $complement B$, se l'insieme $A$ è già stato chiaramente specificato. 
@@ -630,66 +631,6 @@ Consideriamo $NN^\*$, cioè l'insieme dei numeri naturali positivi (maggiori di 
 
 In molte situazioni, è utile servirsi dei cosiddetti diagrammi di Eulero-Venn per rappresentare gli insiemi e verificare le proprietà delle operazioni tra insiemi. In questo tipo di diagrammi gli insiemi sono individuati da regioni del piano delimitate da una curva chiusa. In certi casi si conviene di evidenziare esplicitamente alcuni elementi di un insieme mediante punti: la cosa è particolarmente utile nel caso di insiemi finiti, quando si possono anche evidenziare tutti gli elementi degli insiemi stessi. Pur essendo questo tipo di rappresentazione grafica molto significativa, non bisogna abusarne ed è opportuno prestare la massima attenzione.
 
-/* #figure(
-cetz.canvas({
-  import cetz.draw: *
-
-  circle((-1.2, 0), radius: (2, 1.25), fill: accent.mat.lighten(80%), name: "A")
-  circle((-2, 0), radius: 0.02, fill: black); content((-2, 0+0.3), [$a$])
-  circle((-0.5, 0.4), radius: 0.02, fill: black); content((-0.5, 0.4+0.3), [$b$])
-  circle((-0.9, -0.4), radius: 0.02, fill: black); content((-0.9, -0.4+0.3), [$c$])
-  circle((1, 0.8), radius: 0.02, fill: black); content((1, 0.8+0.3), [$e$])
-  circle((1.4, -0.2), radius: 0.02, fill: black); content((1.4, -0.2+0.3), [$f$])
-
-  content((-2.8, 1.4), [A])
-
-
-}),
-caption: []
-)
-
-#figure(
-cetz.canvas({
-  import cetz.draw: *
-
-  merge-path(fill: accent.mat.lighten(80%), stroke: none, {
-    circle((-1.2, 0), radius: (2, 1.25))
-    circle((1.2, 0), radius: (2, 1.25))
-  })
-
-  circle((-1.2, 0), radius: (2, 1.25), name: "A")
-  circle((1.2, 0), radius: (2, 1.25), name: "B")
-
-  content((-2.8, 1.4), [$A$])
-  content((2.8, 1.4), [$B$])
-  content((0, 1.6), [$A union B$])
-}),
-caption: []
-)
-
-#figure(
-cetz.canvas({
-  import cetz.draw: *
-
-  compound-path({
-    circle((-1.2, 0), radius: (2, 1.25))
-    circle((1.2, 0), radius: (2, 1.25))
-  }, fill: accent.mat.lighten(80%), fill-rule: "non-zero", ignore-hidden:true)
-  merge-path({
-        circle((-1.2, 0), radius: (2, 1.25))
-        circle((1.2, 0), radius: (2, 1.25))
-  }, fill: white, fill-rule: "even-odd")
-
-  circle((-1.2, 0), radius: (2, 1.25), name: "A")
-  circle((1.2, 0), radius: (2, 1.25), name: "B")
-
-  content((-2.8, 1.4), [A])
-  content((2.8, 1.4), [B])
-  content((0, 0), [$A inter B$])
-}),
-caption: []
-) */
-
 #diagrammi_eulero_venn
 
 Nella @grafico_insiemi1 è illustrato un insieme $A$, nel quale sono evidenziati tre elementi che gli appartengono: $a$, $b$, $c$, e due elementi $e$ e $f$, che invece non ne fanno parte. 
@@ -720,12 +661,12 @@ Ricordando la definizione di prodotto cartesiano in @prodotto_cartesiano:
 
 Se $R$ è una relazione e $(a, b) in R$, possiamo scrivere $a R b$, indicando che il valore $a$ è in relazione con $b$. Essendo una relazione un semplice sottoinsieme, essa può essere definita sia elencandone esplicitamente gli elementi sia fornendo una proprietà caratteristica che descriva tutte le coppie $(a, b)$ tali che $a$ risulti in relazione con $b$. In sostanza, una relazione definisce un "legame" tra i due insiemi (o all'interno dello stesso insieme) che mette in corrispondenza i loro elementi.
 
-#esempio()[La relazione "$<=$" è un esempio di relazione in $RR$: essa costituisce un sottoinsieme di $RR times RR$. Poiché il prodotto cartesiano può essere rappresentato graficamente tramite un piano con coordinate cartesiane ortogonali (monometriche), è possibile visualizzare questa relazione come un sottoinsieme del piano stesso. La @grafico_relazioni1 offre una rappresentazione visiva di tale concetto.
+#esempio[La relazione "$<=$" è un esempio di relazione in $RR$: essa costituisce un sottoinsieme di $RR times RR$. Poiché il prodotto cartesiano può essere rappresentato graficamente tramite un piano con coordinate cartesiane ortogonali (monometriche), è possibile visualizzare questa relazione come un sottoinsieme del piano stesso. La @grafico_relazioni1 offre una rappresentazione visiva di tale concetto.
 ]
 
 #grafico_relazioni1
 
-#esempio()[
+#esempio[
 "Essere parallelo" rappresenta una relazione definita nell'insieme di tutte le rette nello spazio.][ 
 "$x R y$ se $x + y$ è pari" indica una relazione definita nell'insieme Z dei numeri interi.][  
 "Essere nati nello stesso giorno dell'anno" rappresenta una relazione che si può stabilire in un determinato gruppo di persone.  
@@ -748,7 +689,7 @@ Le relazioni definite su un insieme $A$ possono soddisfare alcune proprietà imp
 
 Per le relazioni sugli insiemi finiti come $A$, la rappresentazione tabellare appena descritta si rivela particolarmente utile perché consente di verificare facilmente alcune proprietà della relazione stessa. Ad esempio, la riflessività e la simmetria possono essere osservate in modo immediato.  
 
-#esempio()[
+#esempio[
 Consideriamo ora le quattro relazioni rappresentate da tabelle relative all'insieme $A = {a, b, c}$:  
 - la prima relazione risulta essere simmetrica e transitiva  
 - la seconda relazione è riflessiva, simmetrica e transitiva  
@@ -772,7 +713,6 @@ Le relazioni di equivalenza sono frequentemente rappresentate con il simbolo $ti
 #esempio[La relazione di parallelismo tra rette nello spazio rappresenta un esempio di relazione di equivalenza.]
 
 Se in un insieme $A$ è definita una relazione di equivalenza $R$, è possibile costruire una particolare famiglia di sottoinsiemi di $A$. Questa costruzione è descritta nella seguente definizione.
-#pagebreak(weak:true)
 
 #definizione(title: "Classe di equivalenza")[
 Sia $R$ una relazione di equivalenza definita in un insieme $A$ e sia $x in A$. L'insieme di tutti gli elementi $y$ in relazione con $x$ viene indicato con $[x]$ e prende il nome di classe di equivalenza individuata da $x$. Formalmente:
@@ -806,7 +746,7 @@ Sia $A$ un insieme non vuoto e $R$ una relazione definita su $A$. Si dice che $R
 - transitiva
 ]
 
-#esempio()[Se $P(A)$ è l'insieme delle parti di un insieme $A$, la relazione $subset.eq$ è una relazione d'ordine.
+#esempio[Se $P(A)$ è l'insieme delle parti di un insieme $A$, la relazione $subset.eq$ è una relazione d'ordine.
 ][
 Negli insiemi $NN$, $ZZ$, $QQ$, $RR$, la relazione $<=$ è una relazione d'ordine.
 ]
@@ -864,7 +804,7 @@ Analogamente, se l'insieme dei minoranti di $B$ possiede un massimo, questo si d
 ]
 Come per il massimo e il minimo, anche per l'estremo superiore e inferiore può esistere al massimo un unico valore.
 
-#esempio()[Sia $B = {x in QQ | x^2 < 4}$. 
+#esempio[Sia $B = {x in QQ | x^2 < 4}$. 
 Allora $sup B = 2$ e $inf B = -2$][Sia $B$ l'insieme definito come: 
 
 $ B = {x in QQ | x < 0 or (x >= 0 and x^2 < 2)}. $
@@ -900,7 +840,7 @@ soprattutto quando gli insiemi $A$ e $B$ sono già chiaramente definiti nel cont
 
 $ y = f(x) $
 
-#esempio()[Siano $A$ e $B$ insiemi dei numeri reali $RR$. Consideriamo la funzione che associa a ogni numero reale $x$ il suo quadrato. In questo caso la funzione può essere espressa come:
+#esempio[Siano $A$ e $B$ insiemi dei numeri reali $RR$. Consideriamo la funzione che associa a ogni numero reale $x$ il suo quadrato. In questo caso la funzione può essere espressa come:
 
 $ f : RR -> RR, quad x |-> x^2 $
 
@@ -935,7 +875,7 @@ Segnaliamo, anche se la cosa è evidente, che il terzo requisito si ottiene quan
 
 #definizione(title: "Insiemi equipotenti")[Due insiemi $A$ e $B$ si dicono equipotenti se esiste una corrispondenza biunivoca tra i due insiemi.]
 
-#esempio()[
+#esempio[
 Siano $A = {1, 2, 3}$ e $B = {a, b, c}$. La funzione definita da $f(1) = a, f(2) = b, f(3) = c$ è una corrispondenza biunivoca tra i due insiemi, che dunque sono equipotenti.
 ][
 Siano $A$ l'insieme dei numeri naturali pari, $A = {0, 2, 4, 6, dots}$ e $B$ l'insieme dei numeri naturali dispari, $B = {1, 3, 5, dots}$. La funzione che a ogni elemento $n$ di $A$ fa corrispondere il naturale successivo $n + 1$ è una corrispondenza biunivoca tra i due insiemi, che dunque sono equipotenti.][
@@ -947,7 +887,7 @@ Questo esempio è particolarmente significativo poiché dimostra che è possibil
 #definizione(title: "Insiemi finiti e infiniti", label: <insiemi_finiti_infiniti>)[Un insieme si dice finito se non esiste una corrispondenza biunivoca tra esso e un suo sottoinsieme proprio, ovvero se non è equipotente a nessuno dei suoi sottoinsiemi propri. Al contrario, un insieme si dice infinito se può essere messo in corrispondenza biunivoca con un suo sottoinsieme proprio.
 ]
 
-#esempio()[L'insieme $A = {1, 2, 3, dots, 100}$ è un insieme finito, mentre $NN$, l'insieme di tutti i numeri naturali, è infinito.]
+#esempio[L'insieme $A = {1, 2, 3, dots, 100}$ è un insieme finito, mentre $NN$, l'insieme di tutti i numeri naturali, è infinito.]
 
 === Proprietà degli insiemi finiti
 

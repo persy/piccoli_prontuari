@@ -409,7 +409,7 @@ Infine, si osserva che l'insieme degli interi dispari è chiuso rispetto alla mo
 
 Il concetto di potenza, già introdotto per i numeri naturali, può essere esteso agli interi con la seguente definizione:
 
-#definizione[Sia $a in ZZ$, con $a != 0$ e sia $n in ZZ$, con $n < 0$. Si definisce:
+##definizione(title: "Potenza", label: <def-potenza>)[Sia $a in ZZ$, con $a != 0$ e sia $n in ZZ$, con $n < 0$. Si definisce potenza:
 $ 
   a^n = 1 / a^(-n)
 $]
