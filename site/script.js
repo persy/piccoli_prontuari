@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalPdfBtn = document.getElementById("modal-pdf-btn");
   const modalOnlineBtn = document.getElementById("modal-online-btn");
   const modalClose = document.getElementById("modal-close");
+  const modalRibbon = document.getElementById("modal-ribbon");
 
   // --- Genera la griglia ---
   for (const area of AREAS) {
@@ -28,7 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
       thumb.setAttribute("aria-label", `Apri dettagli: ${book.title}`);
       thumb.title = book.title;
       thumb.innerHTML = `
-        <img src="${book.cover}" alt="Copertina ${book.title}" loading="lazy">
+        <div class="book-thumb-cover">
+          <img src="${book.cover}" alt="Copertina ${book.title}" loading="lazy">
+          ${book.incomplete ? '<span class="ribbon">Solo testo</span>' : ""}
+        </div>
       `;
       thumb.addEventListener("click", () => openModal(book));
       grid.appendChild(thumb);
@@ -41,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function openModal(book) {
     modalCoverImg.src = book.cover;
     modalCoverImg.alt = `Copertina ${book.title}`;
+    modalRibbon.hidden = !book.incomplete;
     modalTitle.textContent = book.title;
     modalDescription.textContent = book.description;
 

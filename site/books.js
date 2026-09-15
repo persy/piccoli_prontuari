@@ -9,6 +9,10 @@
 // .letteratura-en, .letteratura-la, .storia, .storia-arte, .filosofia).
 // È separato da "slug" perché slug segue i nomi file reali (es. scienze_terra.pdf),
 // mentre le classi colore in CSS usano nomi abbreviati con trattino.
+//
+// incomplete: true finché il manuale non è considerato completo (mostra una
+// linguetta diagonale "Incompleto: solo testo" sulla copertina, in griglia e
+// nel modale di dettaglio). Passare a false quando la materia è pronta.
 
 // Interruttore unico per tutto il sito: false = "Leggi online" appare sempre
 // disattivato ("Presto disponibile") ovunque, a prescindere da onlineHref.
@@ -21,11 +25,12 @@ const AREAS = [
       {
         slug: "matematica",
         colorClass: "matematica",
-        title: "Matematica (in scrittura)",
+        title: "Matematica",
         description: "Un percorso completo tra algebra, geometria, analisi e statistica, pensato per chi cerca definizioni chiare e dimostrazioni rigorose senza perdersi nei dettagli superflui.",
         cover: "assets/matematica.webp",
         pdfHref: "pdf/matematica.pdf",
         onlineHref: null,
+        incomplete: true,
       },
       {
         slug: "fisica",
@@ -36,6 +41,7 @@ const AREAS = [
         pdfHref: "pdf/fisica.pdf",
         /* onlineHref: "online/fisica/", */
         onlineHref: null,
+        incomplete: true,
       },
       {
         slug: "chimica",
@@ -45,6 +51,7 @@ const AREAS = [
         cover: "assets/chimica.webp",
         pdfHref: "pdf/chimica.pdf",
         onlineHref: null,
+        incomplete: true,
       },
       {
         slug: "biologia",
@@ -54,6 +61,7 @@ const AREAS = [
         cover: "assets/biologia.webp",
         pdfHref: "pdf/biologia.pdf",
         onlineHref: null,
+        incomplete: true,
       },
       {
         slug: "scienze_terra",
@@ -63,6 +71,7 @@ const AREAS = [
         cover: "assets/scienze_terra.webp",
         pdfHref: "pdf/scienze_terra.pdf",
         onlineHref: null,
+        incomplete: true,
       },
     ],
   },
@@ -77,6 +86,7 @@ const AREAS = [
         cover: "assets/letteratura_italiana.webp",
         pdfHref: "pdf/letteratura_italiana.pdf",
         onlineHref: null,
+        incomplete: true,
       },
       {
         slug: "letteratura_inglese",
@@ -86,6 +96,7 @@ const AREAS = [
         cover: "assets/letteratura_inglese.webp",
         pdfHref: "pdf/letteratura_inglese.pdf",
         onlineHref: null,
+        incomplete: true,
       },
       {
         slug: "letteratura_latina",
@@ -95,6 +106,7 @@ const AREAS = [
         cover: "assets/letteratura_latina.webp",
         pdfHref: "pdf/letteratura_latina.pdf",
         onlineHref: null,
+        incomplete: true,
       },
     ],
   },
@@ -109,6 +121,7 @@ const AREAS = [
         cover: "assets/storia.webp",
         pdfHref: "pdf/storia.pdf",
         onlineHref: null,
+        incomplete: true,
       },
       {
         slug: "storia_arte",
@@ -118,6 +131,7 @@ const AREAS = [
         cover: "assets/storia_arte.webp",
         pdfHref: "pdf/storia_arte.pdf",
         onlineHref: null,
+        incomplete: true,
       },
       {
         slug: "filosofia",
@@ -127,6 +141,7 @@ const AREAS = [
         cover: "assets/filosofia.webp",
         pdfHref: "pdf/filosofia.pdf",
         onlineHref: null,
+        incomplete: true,
       },
     ],
   },
